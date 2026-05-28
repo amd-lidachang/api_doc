@@ -1,0 +1,17 @@
+/* AMD brand color overrides */
+:root {
+  --pst-color-primary: #ED1C24;      /* AMD red */
+  --pst-color-secondary: #000000;
+  --pst-color-accent: #ED1C24;
+}
+
+/* Class/method header styling matching vitisai.docs.amd.com */
+dl.cpp.class > dt,
+dl.py.class > dt,
+dl.py.function > dt,
+dl.cpp.function > dt {
+  background-color: #f5f5f5;
+  border-left: 4px solid #ED1C24;
+  padding: 4px 8px;
+  font-family: monospace;
+}
