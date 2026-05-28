@@ -6,7 +6,7 @@ build:
     python: "3.11"
   jobs:
     pre_build:
-      - apt-get install -y doxygen graphviz
+      - mamba install -c conda-forge doxygen graphviz -y
       - doxygen Doxyfile
 
 sphinx:
