@@ -14,15 +14,17 @@ extensions = [
     "sphinx.ext.intersphinx",
 ]
 
+# Use rocm_docs_theme (the Sphinx theme) without the rocm_docs *extension*.
+# The extension calls util.get_branch() which fails on ReadTheDocs shallow clones
+# because the branch ref is not in the format the regex expects.
 try:
-    import rocm_docs  # noqa: F401
-    extensions.insert(0, "rocm_docs")
+    import rocm_docs_theme  # noqa: F401
     html_theme = "rocm_docs_theme"
     html_theme_options = {"flavor": "rocm"}
 except ImportError:
     html_theme = "pydata_sphinx_theme"
     html_theme_options = {
-        "logo": {"text": "VART ML API"},
+        "logo": {"text": "VART API"},
         "navbar_start": ["navbar-logo"],
         "primary_sidebar_end": [],
     }
