@@ -1,17 +1,43 @@
 /* AMD brand color overrides */
 :root {
-  --pst-color-primary: #ED1C24;      /* AMD red */
+  --pst-color-primary: #ED1C24;
   --pst-color-secondary: #000000;
   --pst-color-accent: #ED1C24;
+  --pst-color-link: #ED1C24;
 }
 
-/* Class/method header styling matching vitisai.docs.amd.com */
+/* API entry header styling — matches vitisai.docs.amd.com */
 dl.cpp.class > dt,
+dl.cpp.struct > dt,
+dl.cpp.enum > dt,
+dl.cpp.function > dt,
+dl.cpp.type > dt,
 dl.py.class > dt,
 dl.py.function > dt,
-dl.cpp.function > dt {
-  background-color: #f5f5f5;
+dl.py.method > dt {
+  background-color: #f7f7f7;
   border-left: 4px solid #ED1C24;
-  padding: 4px 8px;
-  font-family: monospace;
+  padding: 6px 10px;
+  font-family: "SFMono-Regular", Consolas, monospace;
+  font-size: 0.9em;
+}
+
+/* Namespace/section headers */
+.breathe-sectiondef-title {
+  color: #ED1C24;
+  border-bottom: 2px solid #ED1C24;
+  padding-bottom: 4px;
+}
+
+/* Parameter table styling */
+dl.field-list > dt {
+  font-weight: 600;
+  color: #333;
+}
+
+/* Enum value list */
+dl.cpp.enumerator > dt {
+  background-color: #fafafa;
+  border-left: 3px solid #aaa;
+  padding: 3px 8px;
 }
