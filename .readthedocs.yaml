@@ -7,6 +7,9 @@ build:
   apt_packages:
     - doxygen
     - graphviz
+  jobs:
+    pre_build:
+      - doxygen Doxyfile
 sphinx:
   configuration: docs/conf.py
   fail_on_warning: false
