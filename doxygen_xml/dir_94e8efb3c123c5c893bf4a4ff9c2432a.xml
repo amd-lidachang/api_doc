@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_94e8efb3c123c5c893bf4a4ff9c2432a" kind="dir">
+    <compoundname>/group/bcapps/dachang/PSAS_HACKATHON</compoundname>
+    <innerdir refid="dir_211748860a13606b3822ece37b0243fe">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/"/>
+  </compounddef>
+</doxygen>

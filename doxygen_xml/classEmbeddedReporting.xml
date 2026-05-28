@@ -1,0 +1,426 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classEmbeddedReporting" kind="class" language="C++" prot="public">
+    <compoundname>EmbeddedReporting</compoundname>
+    <includes refid="reporting_8h" local="no">reporting.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classEmbeddedReporting_1adb4c62aef84f30c13a79699bb7322480" prot="private" static="no" mutable="no">
+        <type><ref refid="reporting_8h_1a7a7eb87c9ed558274a643ed90dc01eb4" kindref="member">ordered_json</ref></type>
+        <definition>ordered_json EmbeddedReporting::_root</definition>
+        <argsstring></argsstring>
+        <name>_root</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/reporting.h" line="111" column="15" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/reporting.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEmbeddedReporting_1ab0f6cccaba1edf02e6f9090c99eb47a0" prot="private" static="no" mutable="no">
+        <type>json::array_t</type>
+        <definition>json::array_t EmbeddedReporting::_fallbacks</definition>
+        <argsstring></argsstring>
+        <name>_fallbacks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/reporting.h" line="112" column="15" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/reporting.h" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEmbeddedReporting_1ab63ce9b7d998eda1256e920a84225a71" prot="private" static="no" mutable="no">
+        <type>std::mutex</type>
+        <definition>std::mutex EmbeddedReporting::_mtx</definition>
+        <argsstring></argsstring>
+        <name>_mtx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/reporting.h" line="113" column="15" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/reporting.h" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEmbeddedReporting_1a6fe2b47c1e45241086205f2b2b1ff00c" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string EmbeddedReporting::_file</definition>
+        <argsstring></argsstring>
+        <name>_file</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/reporting.h" line="114" column="15" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/reporting.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEmbeddedReporting_1a46f682164da5473fa29a38ca4459a091" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string EmbeddedReporting::_symlink</definition>
+        <argsstring></argsstring>
+        <name>_symlink</name>
+        <initializer>= &quot;reporting.json&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/reporting.h" line="115" column="15" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/reporting.h" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEmbeddedReporting_1af76297a692bc35769bc9367d4b1b0ec2" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool EmbeddedReporting::_enable</definition>
+        <argsstring></argsstring>
+        <name>_enable</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/reporting.h" line="116" column="15" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/reporting.h" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEmbeddedReporting_1a520080a67c74bf5ba04d1c2d51e8ff98" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool EmbeddedReporting::_createSymLink</definition>
+        <argsstring></argsstring>
+        <name>_createSymLink</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/reporting.h" line="117" column="15" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/reporting.h" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classEmbeddedReporting_1aebf53f74760c11423f90b87b68aaee0c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classEmbeddedReporting" kindref="compound">EmbeddedReporting</ref> &amp;</type>
+        <definition>EmbeddedReporting &amp; EmbeddedReporting::getInstance</definition>
+        <argsstring>()</argsstring>
+        <name>getInstance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/reporting.h" line="32" column="26" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/reporting.cpp" bodystart="378" bodyend="382"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classEmbeddedReporting_1aab71c3533543238346b99ca2251b9cb9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classEmbeddedReporting" kindref="compound">EmbeddedReporting</ref> &amp;</type>
+        <definition>EmbeddedReporting&amp; EmbeddedReporting::operator=</definition>
+        <argsstring>(const EmbeddedReporting &amp;)=delete</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classEmbeddedReporting" kindref="compound">EmbeddedReporting</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/reporting.h" line="35" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classEmbeddedReporting_1ab2e98bd6434beae5d4253d6fcdef2670" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>EmbeddedReporting::EmbeddedReporting</definition>
+        <argsstring>(const EmbeddedReporting &amp;)=delete</argsstring>
+        <name>EmbeddedReporting</name>
+        <param>
+          <type>const <ref refid="classEmbeddedReporting" kindref="compound">EmbeddedReporting</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/reporting.h" line="36" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classEmbeddedReporting_1a95475285a2c88a08df1a3c300f04479d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>EmbeddedReporting::EmbeddedReporting</definition>
+        <argsstring>()</argsstring>
+        <name>EmbeddedReporting</name>
+        <briefdescription>
+<para>Construct a new Embedded Reporting object. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/reporting.h" line="42" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/reporting.cpp" bodystart="310" bodyend="369"/>
+      </memberdef>
+      <memberdef kind="function" id="classEmbeddedReporting_1a4d6c9be2d190fff5cc81cbe29786aba8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>EmbeddedReporting::~EmbeddedReporting</definition>
+        <argsstring>()</argsstring>
+        <name>~EmbeddedReporting</name>
+        <briefdescription>
+<para>Destroy the Embedded Reporting object. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/reporting.h" line="48" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/reporting.cpp" bodystart="371" bodyend="376"/>
+      </memberdef>
+      <memberdef kind="function" id="classEmbeddedReporting_1a78e1145098305c10dc589cadce3d5ce8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int EmbeddedReporting::write</definition>
+        <argsstring>()</argsstring>
+        <name>write</name>
+        <briefdescription>
+<para>Write the reporting Json file. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>int The Vart ML error (vart_ml_error_id) code of the operation. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/reporting.h" line="55" column="5" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/reporting.cpp" bodystart="388" bodyend="412"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classEmbeddedReporting_1ac764aeba78a513b3cecb6541bc9650a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool EmbeddedReporting::isEnabled</definition>
+        <argsstring>()</argsstring>
+        <name>isEnabled</name>
+        <briefdescription>
+<para>Check if the reporting is enable. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>bool Return true if the reporting is enable, false otherwise. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/reporting.h" line="63" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/reporting.cpp" bodystart="386" bodyend="386"/>
+      </memberdef>
+      <memberdef kind="function" id="classEmbeddedReporting_1a3856368774fc35242cb5e6f51e7b4db9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int EmbeddedReporting::addData</definition>
+        <argsstring>(const std::string &amp;key_, ordered_json value_)</argsstring>
+        <name>addData</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>key_</declname>
+        </param>
+        <param>
+          <type><ref refid="reporting_8h_1a7a7eb87c9ed558274a643ed90dc01eb4" kindref="member">ordered_json</ref></type>
+          <declname>value_</declname>
+        </param>
+        <briefdescription>
+<para>Add a new entry to the reporting Json and set its value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key_</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New key to be created in the reporting Json. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value_</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Value of the new key. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int The Vart ML error (vart_ml_error_id) code of the operation. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/reporting.h" line="72" column="5" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/reporting.cpp" bodystart="414" bodyend="426"/>
+      </memberdef>
+      <memberdef kind="function" id="classEmbeddedReporting_1ae8410fa73f3083e90addffd9183a2177" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int EmbeddedReporting::removeData</definition>
+        <argsstring>(const std::string &amp;key_)</argsstring>
+        <name>removeData</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>key_</declname>
+        </param>
+        <briefdescription>
+<para>Remove an entry from the reporting Jsone. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key_</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Key to be removed from the reporting Json. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int The Vart ML error (vart_ml_error_id) code of the operation. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/reporting.h" line="80" column="5" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/reporting.cpp" bodystart="428" bodyend="440"/>
+      </memberdef>
+      <memberdef kind="function" id="classEmbeddedReporting_1a31afd5fef0e208e793905dba4222530e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int EmbeddedReporting::updateData</definition>
+        <argsstring>(const std::string &amp;key_, ordered_json value_)</argsstring>
+        <name>updateData</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>key_</declname>
+        </param>
+        <param>
+          <type><ref refid="reporting_8h_1a7a7eb87c9ed558274a643ed90dc01eb4" kindref="member">ordered_json</ref></type>
+          <declname>value_</declname>
+        </param>
+        <briefdescription>
+<para>Update an existing entry of the reporting Json with a new value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key_</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Key to be updated in the reporting Json. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value_</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value of the key. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int The Vart ML error (vart_ml_error_id) code of the operation. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/reporting.h" line="89" column="5" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/reporting.cpp" bodystart="442" bodyend="458"/>
+      </memberdef>
+      <memberdef kind="function" id="classEmbeddedReporting_1a86ddd1f8d6be1c54c2b2e20a0202184e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int EmbeddedReporting::isValueExist</definition>
+        <argsstring>(const std::string &amp;key_, bool &amp;is_found)</argsstring>
+        <name>isValueExist</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>key_</declname>
+        </param>
+        <param>
+          <type>bool &amp;</type>
+          <declname>is_found</declname>
+        </param>
+        <briefdescription>
+<para>Check if an entry already exist in the reporting Json. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key_</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The key which the existence is being checked in the reporting Json. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>is_found</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Holds returned boolean: true if the key is present in the reporting Json, false otherwise. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int The Vart ML error (vart_ml_error_id) code of the operation. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/reporting.h" line="99" column="5" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/reporting.cpp" bodystart="460" bodyend="472"/>
+      </memberdef>
+      <memberdef kind="function" id="classEmbeddedReporting_1a36bd864f6efb294044fc7840fd1a6bfd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EmbeddedReporting::addFallback</definition>
+        <argsstring>(const std::string &amp;s)</argsstring>
+        <name>addFallback</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>Helper to report fallbacks in the reporting Json. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>s</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Fallback message. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/reporting.h" line="108" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/reporting.cpp" bodystart="384" bodyend="384"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/reporting.h" line="29" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/reporting.h" bodystart="30" bodyend="118"/>
+    <listofallmembers>
+      <member refid="classEmbeddedReporting_1a520080a67c74bf5ba04d1c2d51e8ff98" prot="private" virt="non-virtual"><scope>EmbeddedReporting</scope><name>_createSymLink</name></member>
+      <member refid="classEmbeddedReporting_1af76297a692bc35769bc9367d4b1b0ec2" prot="private" virt="non-virtual"><scope>EmbeddedReporting</scope><name>_enable</name></member>
+      <member refid="classEmbeddedReporting_1ab0f6cccaba1edf02e6f9090c99eb47a0" prot="private" virt="non-virtual"><scope>EmbeddedReporting</scope><name>_fallbacks</name></member>
+      <member refid="classEmbeddedReporting_1a6fe2b47c1e45241086205f2b2b1ff00c" prot="private" virt="non-virtual"><scope>EmbeddedReporting</scope><name>_file</name></member>
+      <member refid="classEmbeddedReporting_1ab63ce9b7d998eda1256e920a84225a71" prot="private" virt="non-virtual"><scope>EmbeddedReporting</scope><name>_mtx</name></member>
+      <member refid="classEmbeddedReporting_1adb4c62aef84f30c13a79699bb7322480" prot="private" virt="non-virtual"><scope>EmbeddedReporting</scope><name>_root</name></member>
+      <member refid="classEmbeddedReporting_1a46f682164da5473fa29a38ca4459a091" prot="private" virt="non-virtual"><scope>EmbeddedReporting</scope><name>_symlink</name></member>
+      <member refid="classEmbeddedReporting_1a3856368774fc35242cb5e6f51e7b4db9" prot="public" virt="non-virtual"><scope>EmbeddedReporting</scope><name>addData</name></member>
+      <member refid="classEmbeddedReporting_1a36bd864f6efb294044fc7840fd1a6bfd" prot="public" virt="non-virtual"><scope>EmbeddedReporting</scope><name>addFallback</name></member>
+      <member refid="classEmbeddedReporting_1ab2e98bd6434beae5d4253d6fcdef2670" prot="private" virt="non-virtual"><scope>EmbeddedReporting</scope><name>EmbeddedReporting</name></member>
+      <member refid="classEmbeddedReporting_1a95475285a2c88a08df1a3c300f04479d" prot="private" virt="non-virtual"><scope>EmbeddedReporting</scope><name>EmbeddedReporting</name></member>
+      <member refid="classEmbeddedReporting_1aebf53f74760c11423f90b87b68aaee0c" prot="public" virt="non-virtual"><scope>EmbeddedReporting</scope><name>getInstance</name></member>
+      <member refid="classEmbeddedReporting_1ac764aeba78a513b3cecb6541bc9650a8" prot="public" virt="non-virtual"><scope>EmbeddedReporting</scope><name>isEnabled</name></member>
+      <member refid="classEmbeddedReporting_1a86ddd1f8d6be1c54c2b2e20a0202184e" prot="public" virt="non-virtual"><scope>EmbeddedReporting</scope><name>isValueExist</name></member>
+      <member refid="classEmbeddedReporting_1aab71c3533543238346b99ca2251b9cb9" prot="private" virt="non-virtual"><scope>EmbeddedReporting</scope><name>operator=</name></member>
+      <member refid="classEmbeddedReporting_1ae8410fa73f3083e90addffd9183a2177" prot="public" virt="non-virtual"><scope>EmbeddedReporting</scope><name>removeData</name></member>
+      <member refid="classEmbeddedReporting_1a31afd5fef0e208e793905dba4222530e" prot="public" virt="non-virtual"><scope>EmbeddedReporting</scope><name>updateData</name></member>
+      <member refid="classEmbeddedReporting_1a78e1145098305c10dc589cadce3d5ce8" prot="private" virt="non-virtual"><scope>EmbeddedReporting</scope><name>write</name></member>
+      <member refid="classEmbeddedReporting_1a4d6c9be2d190fff5cc81cbe29786aba8" prot="private" virt="non-virtual"><scope>EmbeddedReporting</scope><name>~EmbeddedReporting</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

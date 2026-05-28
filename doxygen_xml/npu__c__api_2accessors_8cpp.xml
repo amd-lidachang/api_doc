@@ -1,0 +1,594 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="npu__c__api_2accessors_8cpp" kind="file" language="C++">
+    <compoundname>accessors.cpp</compoundname>
+    <includes refid="npu__c__api_8h" local="yes">npu_c_api.h</includes>
+    <incdepgraph>
+      <node id="14">
+        <label>stdbool.h</label>
+      </node>
+      <node id="15">
+        <label>stdarg.h</label>
+      </node>
+      <node id="1">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/accessors.cpp</label>
+        <link refid="npu__c__api_2accessors_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>stdint.h</label>
+      </node>
+      <node id="11">
+        <label>variant</label>
+      </node>
+      <node id="8">
+        <label>string</label>
+      </node>
+      <node id="6">
+        <label>map</label>
+      </node>
+      <node id="3">
+        <label>stddef.h</label>
+      </node>
+      <node id="18">
+        <label>vart_ml_utils/npu_reg.h</label>
+        <link refid="npu__reg_8h"/>
+      </node>
+      <node id="4">
+        <label>private.h</label>
+        <link refid="private_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>string.h</label>
+      </node>
+      <node id="12">
+        <label>vart_ml_io/vart_ml_io.h</label>
+        <link refid="vart__ml__io_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>npu_c_api.h</label>
+        <link refid="npu__c__api_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>vector</label>
+      </node>
+      <node id="9">
+        <label>unordered_map</label>
+      </node>
+      <node id="5">
+        <label>algorithm</label>
+      </node>
+      <node id="16">
+        <label>vart_ml_utils/fpga_info.h</label>
+        <link refid="fpga__info_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="npu__c__api_2accessors_8cpp_1a50048771698104ca782694aebef3d995" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint8_t</type>
+        <definition>uint8_t npu_get_nb_ddrs</definition>
+        <argsstring>(void)</argsstring>
+        <name>npu_get_nb_ddrs</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Return the number of DDR used by the NPU. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/accessors.cpp" line="22" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/accessors.cpp" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="npu__c__api_2accessors_8cpp_1a9681df567bfb9af010f0c639e6f7a7d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t npu_get_tmp_area_size</definition>
+        <argsstring>(const npu_snapshot_t *snap)</argsstring>
+        <name>npu_get_tmp_area_size</name>
+        <param>
+          <type>const <ref refid="private_8h_1aa7f3a4591537338fde7ffdff021d65a9" kindref="member">npu_snapshot_t</ref> *</type>
+          <declname>snap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/accessors.cpp" line="24" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/accessors.cpp" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="npu__c__api_2accessors_8cpp_1a6dff7be391edfc6573fa403c0b6f3ac9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint64_t</type>
+        <definition>uint64_t npu_get_tmp_area_nbuff_conf</definition>
+        <argsstring>(const npu_snapshot_t *snap, size_t tmpareano)</argsstring>
+        <name>npu_get_tmp_area_nbuff_conf</name>
+        <param>
+          <type>const <ref refid="private_8h_1aa7f3a4591537338fde7ffdff021d65a9" kindref="member">npu_snapshot_t</ref> *</type>
+          <declname>snap</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>tmpareano</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/accessors.cpp" line="26" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/accessors.cpp" bodystart="26" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="npu__c__api_2accessors_8cpp_1acd5e5abe5853d8121f46063df6d6369d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t npu_get_nbinputs</definition>
+        <argsstring>(const npu_snapshot_t *snap)</argsstring>
+        <name>npu_get_nbinputs</name>
+        <param>
+          <type>const <ref refid="private_8h_1aa7f3a4591537338fde7ffdff021d65a9" kindref="member">npu_snapshot_t</ref> *</type>
+          <declname>snap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/accessors.cpp" line="31" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/accessors.cpp" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="npu__c__api_2accessors_8cpp_1a11cfa61d8a9e6ea5f6d6c63f4546f5f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::string &amp;</type>
+        <definition>const std::string&amp; npu_get_in_name</definition>
+        <argsstring>(const npu_snapshot_t *snap, size_t inputno)</argsstring>
+        <name>npu_get_in_name</name>
+        <param>
+          <type>const <ref refid="private_8h_1aa7f3a4591537338fde7ffdff021d65a9" kindref="member">npu_snapshot_t</ref> *</type>
+          <declname>snap</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>inputno</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/accessors.cpp" line="33" column="19" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/accessors.cpp" bodystart="33" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="npu__c__api_2accessors_8cpp_1aa374ebd233118280f15061dcef522c2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t npu_get_in_ddrimgsize</definition>
+        <argsstring>(const npu_snapshot_t *snap, size_t inputno)</argsstring>
+        <name>npu_get_in_ddrimgsize</name>
+        <param>
+          <type>const <ref refid="private_8h_1aa7f3a4591537338fde7ffdff021d65a9" kindref="member">npu_snapshot_t</ref> *</type>
+          <declname>snap</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>inputno</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/accessors.cpp" line="38" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/accessors.cpp" bodystart="38" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="npu__c__api_2accessors_8cpp_1a19f86128a2c4e7f3df319b3f189b6434" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float npu_get_in_quantization_coeff</definition>
+        <argsstring>(const npu_snapshot_t *snap, size_t inputno)</argsstring>
+        <name>npu_get_in_quantization_coeff</name>
+        <param>
+          <type>const <ref refid="private_8h_1aa7f3a4591537338fde7ffdff021d65a9" kindref="member">npu_snapshot_t</ref> *</type>
+          <declname>snap</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>inputno</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/accessors.cpp" line="43" column="7" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/accessors.cpp" bodystart="43" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="npu__c__api_2accessors_8cpp_1a0a346c053be1b81b8c5b4c046038a7b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::string &amp;</type>
+        <definition>const std::string&amp; npu_get_in_shape_format</definition>
+        <argsstring>(const npu_snapshot_t *snap, size_t inputno)</argsstring>
+        <name>npu_get_in_shape_format</name>
+        <param>
+          <type>const <ref refid="private_8h_1aa7f3a4591537338fde7ffdff021d65a9" kindref="member">npu_snapshot_t</ref> *</type>
+          <declname>snap</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>inputno</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/accessors.cpp" line="48" column="19" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/accessors.cpp" bodystart="48" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="npu__c__api_2accessors_8cpp_1ae11acbe61664468c401e1acaf0bca006" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::string &amp;</type>
+        <definition>const std::string&amp; npu_get_in_ddr_shape_format</definition>
+        <argsstring>(const npu_snapshot_t *snap, size_t inputno)</argsstring>
+        <name>npu_get_in_ddr_shape_format</name>
+        <param>
+          <type>const <ref refid="private_8h_1aa7f3a4591537338fde7ffdff021d65a9" kindref="member">npu_snapshot_t</ref> *</type>
+          <declname>snap</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>inputno</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/accessors.cpp" line="53" column="19" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/accessors.cpp" bodystart="53" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="npu__c__api_2accessors_8cpp_1a2766959d7fa5b7a3a2bff69f4f7c3009" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::string &amp;</type>
+        <definition>const std::string&amp; npu_get_in_data_type</definition>
+        <argsstring>(const npu_snapshot_t *snap, size_t inputno)</argsstring>
+        <name>npu_get_in_data_type</name>
+        <param>
+          <type>const <ref refid="private_8h_1aa7f3a4591537338fde7ffdff021d65a9" kindref="member">npu_snapshot_t</ref> *</type>
+          <declname>snap</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>inputno</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/accessors.cpp" line="58" column="19" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/accessors.cpp" bodystart="58" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="npu__c__api_2accessors_8cpp_1ac918c8114854e24ed0ddf87b8d775d03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::vector&lt; struct <ref refid="structaddr" kindref="compound">addr</ref> &gt;</type>
+        <definition>const std::vector&lt;struct addr&gt; npu_get_in_ddr_addrs</definition>
+        <argsstring>(const npu_snapshot_t *snap, size_t inputno)</argsstring>
+        <name>npu_get_in_ddr_addrs</name>
+        <param>
+          <type>const <ref refid="private_8h_1aa7f3a4591537338fde7ffdff021d65a9" kindref="member">npu_snapshot_t</ref> *</type>
+          <declname>snap</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>inputno</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/accessors.cpp" line="63" column="19" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/accessors.cpp" bodystart="63" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="npu__c__api_2accessors_8cpp_1ab8d88707f1b3e520c198467c259cc0f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t npu_get_nboutputs</definition>
+        <argsstring>(const npu_snapshot_t *snap)</argsstring>
+        <name>npu_get_nboutputs</name>
+        <param>
+          <type>const <ref refid="private_8h_1aa7f3a4591537338fde7ffdff021d65a9" kindref="member">npu_snapshot_t</ref> *</type>
+          <declname>snap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/accessors.cpp" line="68" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/accessors.cpp" bodystart="68" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="npu__c__api_2accessors_8cpp_1a194e154c5a8f5dc7dcd30ecf004103ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::string &amp;</type>
+        <definition>const std::string&amp; npu_get_out_name</definition>
+        <argsstring>(const npu_snapshot_t *snap, size_t outputno)</argsstring>
+        <name>npu_get_out_name</name>
+        <param>
+          <type>const <ref refid="private_8h_1aa7f3a4591537338fde7ffdff021d65a9" kindref="member">npu_snapshot_t</ref> *</type>
+          <declname>snap</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>outputno</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/accessors.cpp" line="70" column="19" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/accessors.cpp" bodystart="70" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="npu__c__api_2accessors_8cpp_1a55e910e1e7c242061982c94b916226da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t npu_get_out_ddrimgsize</definition>
+        <argsstring>(const npu_snapshot_t *snap, size_t outputno)</argsstring>
+        <name>npu_get_out_ddrimgsize</name>
+        <param>
+          <type>const <ref refid="private_8h_1aa7f3a4591537338fde7ffdff021d65a9" kindref="member">npu_snapshot_t</ref> *</type>
+          <declname>snap</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>outputno</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/accessors.cpp" line="75" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/accessors.cpp" bodystart="75" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="npu__c__api_2accessors_8cpp_1a0425605ca4ec0072a86184dc10400768" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float npu_get_out_quantization_coeff</definition>
+        <argsstring>(const npu_snapshot_t *snap, size_t outputno)</argsstring>
+        <name>npu_get_out_quantization_coeff</name>
+        <param>
+          <type>const <ref refid="private_8h_1aa7f3a4591537338fde7ffdff021d65a9" kindref="member">npu_snapshot_t</ref> *</type>
+          <declname>snap</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>outputno</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/accessors.cpp" line="80" column="7" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/accessors.cpp" bodystart="80" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="npu__c__api_2accessors_8cpp_1a3d74c0233a62eb669126af2201a33fe9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::string &amp;</type>
+        <definition>const std::string&amp; npu_get_out_shape_format</definition>
+        <argsstring>(const npu_snapshot_t *snap, size_t outputno)</argsstring>
+        <name>npu_get_out_shape_format</name>
+        <param>
+          <type>const <ref refid="private_8h_1aa7f3a4591537338fde7ffdff021d65a9" kindref="member">npu_snapshot_t</ref> *</type>
+          <declname>snap</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>outputno</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/accessors.cpp" line="85" column="19" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/accessors.cpp" bodystart="85" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="npu__c__api_2accessors_8cpp_1adb7d0fd2016d24d59ef634fbd031e44d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::string &amp;</type>
+        <definition>const std::string&amp; npu_get_out_ddr_shape_format</definition>
+        <argsstring>(const npu_snapshot_t *snap, size_t outputno)</argsstring>
+        <name>npu_get_out_ddr_shape_format</name>
+        <param>
+          <type>const <ref refid="private_8h_1aa7f3a4591537338fde7ffdff021d65a9" kindref="member">npu_snapshot_t</ref> *</type>
+          <declname>snap</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>outputno</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/accessors.cpp" line="90" column="19" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/accessors.cpp" bodystart="90" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="npu__c__api_2accessors_8cpp_1a0039f5be00f49d9644e03d96b0e3b13f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::string &amp;</type>
+        <definition>const std::string&amp; npu_get_out_data_type</definition>
+        <argsstring>(const npu_snapshot_t *snap, size_t outputno)</argsstring>
+        <name>npu_get_out_data_type</name>
+        <param>
+          <type>const <ref refid="private_8h_1aa7f3a4591537338fde7ffdff021d65a9" kindref="member">npu_snapshot_t</ref> *</type>
+          <declname>snap</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>outputno</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/accessors.cpp" line="95" column="19" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/accessors.cpp" bodystart="95" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="npu__c__api_2accessors_8cpp_1a2585b0228ee5b02e450533beb947a10d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::vector&lt; struct <ref refid="structaddr" kindref="compound">addr</ref> &gt;</type>
+        <definition>const std::vector&lt;struct addr&gt; npu_get_out_ddr_addrs</definition>
+        <argsstring>(const npu_snapshot_t *snap, size_t outputno)</argsstring>
+        <name>npu_get_out_ddr_addrs</name>
+        <param>
+          <type>const <ref refid="private_8h_1aa7f3a4591537338fde7ffdff021d65a9" kindref="member">npu_snapshot_t</ref> *</type>
+          <declname>snap</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>outputno</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/accessors.cpp" line="100" column="19" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/accessors.cpp" bodystart="100" bodyend="103"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="copyright"><para>Copyright 2024 Advanced Micro Devices Inc.</para>
+</simplesect>
+Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <verbatim>http://www.apache.org/licenses/LICENSE-2.0
+</verbatim> Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. </para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="npu__c__api_8h" kindref="compound">npu_c_api.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">uint8_t<sp/><ref refid="npu__c__api_2accessors_8cpp_1a50048771698104ca782694aebef3d995" kindref="member">npu_get_nb_ddrs</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="vart__ml__io_8c_1a409f8a703c08db979546b1b07504b06c" kindref="member">npu_get_nbddrs</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="npu__c__api_2accessors_8cpp_1a9681df567bfb9af010f0c639e6f7a7d0" kindref="member">npu_get_tmp_area_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structnpu__snapshot" kindref="compound">npu_snapshot_t</ref>*<sp/>snap)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>snap-&gt;<ref refid="structnpu__snapshot_1a8d3333e0dc9ed1eda037b36b2980218f" kindref="member">tmp_area_addr</ref>.size();<sp/>}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal">uint64_t<sp/><ref refid="npu__c__api_2accessors_8cpp_1a6dff7be391edfc6573fa403c0b6f3ac9" kindref="member">npu_get_tmp_area_nbuff_conf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structnpu__snapshot" kindref="compound">npu_snapshot_t</ref>*<sp/>snap,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>tmpareano)</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>snap-&gt;<ref refid="structnpu__snapshot_1a8d3333e0dc9ed1eda037b36b2980218f" kindref="member">tmp_area_addr</ref>[tmpareano].nbuff_conf_val;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="npu__c__api_2accessors_8cpp_1acd5e5abe5853d8121f46063df6d6369d" kindref="member">npu_get_nbinputs</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structnpu__snapshot" kindref="compound">npu_snapshot_t</ref>*<sp/>snap)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>snap-&gt;<ref refid="structnpu__snapshot_1a995a5bf29ea646acdf679a8f9848a295" kindref="member">inputs</ref>.size();<sp/>}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/><ref refid="npu__c__api_2accessors_8cpp_1a11cfa61d8a9e6ea5f6d6c63f4546f5f9" kindref="member">npu_get_in_name</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structnpu__snapshot" kindref="compound">npu_snapshot_t</ref>*<sp/>snap,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>inputno)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>snap-&gt;<ref refid="structnpu__snapshot_1a995a5bf29ea646acdf679a8f9848a295" kindref="member">inputs</ref>[inputno].name;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="npu__c__api_2accessors_8cpp_1aa374ebd233118280f15061dcef522c2c" kindref="member">npu_get_in_ddrimgsize</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structnpu__snapshot" kindref="compound">npu_snapshot_t</ref>*<sp/>snap,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>inputno)</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>snap-&gt;<ref refid="structnpu__snapshot_1a995a5bf29ea646acdf679a8f9848a295" kindref="member">inputs</ref>[inputno].ddrimgsize;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="npu__c__api_2accessors_8cpp_1a19f86128a2c4e7f3df319b3f189b6434" kindref="member">npu_get_in_quantization_coeff</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structnpu__snapshot" kindref="compound">npu_snapshot_t</ref>*<sp/>snap,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>inputno)</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>snap-&gt;<ref refid="structnpu__snapshot_1a995a5bf29ea646acdf679a8f9848a295" kindref="member">inputs</ref>[inputno].coeff;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/><ref refid="npu__c__api_2accessors_8cpp_1a0a346c053be1b81b8c5b4c046038a7b9" kindref="member">npu_get_in_shape_format</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structnpu__snapshot" kindref="compound">npu_snapshot_t</ref>*<sp/>snap,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>inputno)</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>formatToString(snap-&gt;<ref refid="structnpu__snapshot_1a995a5bf29ea646acdf679a8f9848a295" kindref="member">inputs</ref>[inputno].format);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/><ref refid="npu__c__api_2accessors_8cpp_1ae11acbe61664468c401e1acaf0bca006" kindref="member">npu_get_in_ddr_shape_format</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structnpu__snapshot" kindref="compound">npu_snapshot_t</ref>*<sp/>snap,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>inputno)</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>formatToString(snap-&gt;<ref refid="structnpu__snapshot_1a995a5bf29ea646acdf679a8f9848a295" kindref="member">inputs</ref>[inputno].ddr_format);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/><ref refid="npu__c__api_2accessors_8cpp_1a2766959d7fa5b7a3a2bff69f4f7c3009" kindref="member">npu_get_in_data_type</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structnpu__snapshot" kindref="compound">npu_snapshot_t</ref>*<sp/>snap,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>inputno)</highlight></codeline>
+<codeline lineno="59"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>dataTypeToString(snap-&gt;<ref refid="structnpu__snapshot_1a995a5bf29ea646acdf679a8f9848a295" kindref="member">inputs</ref>[inputno].data_type);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;struct<sp/>addr&gt;<sp/><ref refid="npu__c__api_2accessors_8cpp_1ac918c8114854e24ed0ddf87b8d775d03" kindref="member">npu_get_in_ddr_addrs</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structnpu__snapshot" kindref="compound">npu_snapshot_t</ref>*<sp/>snap,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>inputno)</highlight></codeline>
+<codeline lineno="64"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>snap-&gt;<ref refid="structnpu__snapshot_1a995a5bf29ea646acdf679a8f9848a295" kindref="member">inputs</ref>[inputno].ddr_addrs;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="npu__c__api_2accessors_8cpp_1ab8d88707f1b3e520c198467c259cc0f4" kindref="member">npu_get_nboutputs</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structnpu__snapshot" kindref="compound">npu_snapshot_t</ref>*<sp/>snap)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>snap-&gt;<ref refid="structnpu__snapshot_1a7ae36ec98c946cf8859d06466ffdff2f" kindref="member">outputs</ref>.size();<sp/>}</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/><ref refid="npu__c__api_2accessors_8cpp_1a194e154c5a8f5dc7dcd30ecf004103ed" kindref="member">npu_get_out_name</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structnpu__snapshot" kindref="compound">npu_snapshot_t</ref>*<sp/>snap,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>outputno)</highlight></codeline>
+<codeline lineno="71"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>snap-&gt;<ref refid="structnpu__snapshot_1a7ae36ec98c946cf8859d06466ffdff2f" kindref="member">outputs</ref>[outputno].name;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="npu__c__api_2accessors_8cpp_1a55e910e1e7c242061982c94b916226da" kindref="member">npu_get_out_ddrimgsize</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structnpu__snapshot" kindref="compound">npu_snapshot_t</ref>*<sp/>snap,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>outputno)</highlight></codeline>
+<codeline lineno="76"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>snap-&gt;<ref refid="structnpu__snapshot_1a7ae36ec98c946cf8859d06466ffdff2f" kindref="member">outputs</ref>[outputno].ddrimgsize;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="npu__c__api_2accessors_8cpp_1a0425605ca4ec0072a86184dc10400768" kindref="member">npu_get_out_quantization_coeff</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structnpu__snapshot" kindref="compound">npu_snapshot_t</ref>*<sp/>snap,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>outputno)</highlight></codeline>
+<codeline lineno="81"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>snap-&gt;<ref refid="structnpu__snapshot_1a7ae36ec98c946cf8859d06466ffdff2f" kindref="member">outputs</ref>[outputno].coeff;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/><ref refid="npu__c__api_2accessors_8cpp_1a3d74c0233a62eb669126af2201a33fe9" kindref="member">npu_get_out_shape_format</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structnpu__snapshot" kindref="compound">npu_snapshot_t</ref>*<sp/>snap,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>outputno)</highlight></codeline>
+<codeline lineno="86"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>formatToString(snap-&gt;<ref refid="structnpu__snapshot_1a7ae36ec98c946cf8859d06466ffdff2f" kindref="member">outputs</ref>[outputno].format);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/><ref refid="npu__c__api_2accessors_8cpp_1adb7d0fd2016d24d59ef634fbd031e44d" kindref="member">npu_get_out_ddr_shape_format</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structnpu__snapshot" kindref="compound">npu_snapshot_t</ref>*<sp/>snap,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>outputno)</highlight></codeline>
+<codeline lineno="91"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>formatToString(snap-&gt;<ref refid="structnpu__snapshot_1a7ae36ec98c946cf8859d06466ffdff2f" kindref="member">outputs</ref>[outputno].ddr_format);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/><ref refid="npu__c__api_2accessors_8cpp_1a0039f5be00f49d9644e03d96b0e3b13f" kindref="member">npu_get_out_data_type</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structnpu__snapshot" kindref="compound">npu_snapshot_t</ref>*<sp/>snap,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>outputno)</highlight></codeline>
+<codeline lineno="96"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>dataTypeToString(snap-&gt;<ref refid="structnpu__snapshot_1a7ae36ec98c946cf8859d06466ffdff2f" kindref="member">outputs</ref>[outputno].data_type);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;struct<sp/>addr&gt;<sp/><ref refid="npu__c__api_2accessors_8cpp_1a2585b0228ee5b02e450533beb947a10d" kindref="member">npu_get_out_ddr_addrs</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structnpu__snapshot" kindref="compound">npu_snapshot_t</ref>*<sp/>snap,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>outputno)</highlight></codeline>
+<codeline lineno="101"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>snap-&gt;<ref refid="structnpu__snapshot_1a7ae36ec98c946cf8859d06466ffdff2f" kindref="member">outputs</ref>[outputno].ddr_addrs;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/accessors.cpp"/>
+  </compounddef>
+</doxygen>

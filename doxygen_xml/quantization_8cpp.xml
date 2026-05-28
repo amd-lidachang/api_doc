@@ -1,0 +1,769 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="quantization_8cpp" kind="file" language="C++">
+    <compoundname>quantization.cpp</compoundname>
+    <includes local="no">cmath</includes>
+    <includes local="no">cstdint</includes>
+    <includes local="no">cstring</includes>
+    <includes refid="npu__c__api_8h" local="yes">npu_c_api.h</includes>
+    <includes refid="vart__ml__log_8h" local="yes">vart_ml_utils/vart_ml_log.h</includes>
+    <incdepgraph>
+      <node id="17">
+        <label>stdbool.h</label>
+      </node>
+      <node id="18">
+        <label>stdarg.h</label>
+      </node>
+      <node id="24">
+        <label>vart_ml_error.inc</label>
+      </node>
+      <node id="3">
+        <label>cstdint</label>
+      </node>
+      <node id="16">
+        <label>stdint.h</label>
+      </node>
+      <node id="23">
+        <label>vart_ml_error.h</label>
+        <link refid="vart__ml__error_8h"/>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>variant</label>
+      </node>
+      <node id="2">
+        <label>cmath</label>
+      </node>
+      <node id="11">
+        <label>string</label>
+      </node>
+      <node id="9">
+        <label>map</label>
+      </node>
+      <node id="6">
+        <label>stddef.h</label>
+      </node>
+      <node id="21">
+        <label>vart_ml_utils/npu_reg.h</label>
+        <link refid="npu__reg_8h"/>
+      </node>
+      <node id="7">
+        <label>private.h</label>
+        <link refid="private_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>string.h</label>
+      </node>
+      <node id="15">
+        <label>vart_ml_io/vart_ml_io.h</label>
+        <link refid="vart__ml__io_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>npu_c_api.h</label>
+        <link refid="npu__c__api_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>vector</label>
+      </node>
+      <node id="12">
+        <label>unordered_map</label>
+      </node>
+      <node id="22">
+        <label>vart_ml_utils/vart_ml_log.h</label>
+        <link refid="vart__ml__log_8h"/>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/quantization.cpp</label>
+        <link refid="quantization_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>algorithm</label>
+      </node>
+      <node id="4">
+        <label>cstring</label>
+      </node>
+      <node id="19">
+        <label>vart_ml_utils/fpga_info.h</label>
+        <link refid="fpga__info_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="quantization_8cpp_1aa49b378a2d1e57527915a88376066c76" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int clip</definition>
+        <argsstring>(int x, int min, int max)</argsstring>
+        <name>clip</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>min</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>max</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/quantization.cpp" line="26" column="12" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/quantization.cpp" bodystart="26" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="quantization_8cpp_1a98f29c28a2a6d59a9ef795d78f9b37de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename To</type>
+          </param>
+          <param>
+            <type>typename Ti</type>
+          </param>
+        </templateparamlist>
+        <type>To</type>
+        <definition>To std_reinterpret_cast_and_deref</definition>
+        <argsstring>(Ti i)</argsstring>
+        <name>std_reinterpret_cast_and_deref</name>
+        <param>
+          <type>Ti</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/quantization.cpp" line="36" column="4" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/quantization.cpp" bodystart="36" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="quantization_8cpp_1a622bade4c3b8b71c8b3cda687fd0cb4c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void uint8_to_float</definition>
+        <argsstring>(const uint8_t *src, float *dst, size_t size, float coeff)</argsstring>
+        <name>uint8_to_float</name>
+        <param>
+          <type>const uint8_t *</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>dst</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>coeff</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/quantization.cpp" line="45" column="13" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/quantization.cpp" bodystart="45" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="quantization_8cpp_1a54225e0401cb1583cfa162deaa57b131" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void int8_to_float</definition>
+        <argsstring>(const int8_t *src, float *dst, size_t size, float coeff)</argsstring>
+        <name>int8_to_float</name>
+        <param>
+          <type>const int8_t *</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>dst</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>coeff</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/quantization.cpp" line="51" column="13" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/quantization.cpp" bodystart="51" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="quantization_8cpp_1a9f156197a7e310aefddcf3c3f1cf6b51" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void bf16_to_float</definition>
+        <argsstring>(const uint16_t *src, float *dst, size_t size)</argsstring>
+        <name>bf16_to_float</name>
+        <param>
+          <type>const uint16_t *</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>dst</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/quantization.cpp" line="57" column="13" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/quantization.cpp" bodystart="57" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="quantization_8cpp_1ac49749324f9bf461244ae39e95acbc6d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void float_to_int8</definition>
+        <argsstring>(const float *src, int8_t *dst, size_t size, float coeff)</argsstring>
+        <name>float_to_int8</name>
+        <param>
+          <type>const float *</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>int8_t *</type>
+          <declname>dst</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>coeff</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/quantization.cpp" line="69" column="13" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/quantization.cpp" bodystart="69" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="quantization_8cpp_1ac118a1d4f2c85cb5754777b36464a004" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void float_to_bf16_accurate</definition>
+        <argsstring>(const float *src, uint16_t *dst, size_t size)</argsstring>
+        <name>float_to_bf16_accurate</name>
+        <param>
+          <type>const float *</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>uint16_t *</type>
+          <declname>dst</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/quantization.cpp" line="75" column="13" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/quantization.cpp" bodystart="75" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="quantization_8cpp_1a08fd7761830f64545db22b4a123bd55e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void float_to_bf16</definition>
+        <argsstring>(const float *src, uint16_t *dst, size_t size)</argsstring>
+        <name>float_to_bf16</name>
+        <param>
+          <type>const float *</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>uint16_t *</type>
+          <declname>dst</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/quantization.cpp" line="124" column="13" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/quantization.cpp" bodystart="124" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="quantization_8cpp_1ace578f7ecd7e5f3408326fc8060cbf3d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void uint8_to_int8</definition>
+        <argsstring>(const uint8_t *src, int8_t *dst, size_t size)</argsstring>
+        <name>uint8_to_int8</name>
+        <param>
+          <type>const uint8_t *</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>int8_t *</type>
+          <declname>dst</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/quantization.cpp" line="133" column="13" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/quantization.cpp" bodystart="133" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="quantization_8cpp_1a617cebde89cad645a88f64b139e19940" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int npu_dequantize</definition>
+        <argsstring>(const void *src, void *dst, const std::string &amp;data_type_in, const std::string &amp;data_type_out, size_t size, float coeff)</argsstring>
+        <name>npu_dequantize</name>
+        <param>
+          <type>const void *</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>dst</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>data_type_in</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>data_type_out</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>coeff</declname>
+        </param>
+        <briefdescription>
+<para>Quantizes a void* buffer into a void* buffer of identical shape. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>There is a one-to-one mapping between src and dst. The src data type is given by the tensor.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>src</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Source address of the buffer </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dst</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Destination address of the buffer </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>data_type_in</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data type of the source buffer. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>data_type_out</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data type of the destination buffer. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Size (in number of elements) of the buffers. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>coeff</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Coefficient of unquantization. If 0, uses the snapshot&apos;s coeff instead. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int The Vart ML error (vart_ml_error_id) code of the operation. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/quantization.cpp" line="139" column="5" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/quantization.cpp" bodystart="139" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="quantization_8cpp_1af014a6b773d275498e42d9cab98dcdb2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int npu_quantize</definition>
+        <argsstring>(const void *src, void *dst, const std::string &amp;data_type_in, const std::string &amp;data_type_out, size_t size, float coeff, bool use_accurate_bf16)</argsstring>
+        <name>npu_quantize</name>
+        <param>
+          <type>const void *</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>dst</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>data_type_in</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>data_type_out</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>coeff</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>use_accurate_bf16</declname>
+        </param>
+        <briefdescription>
+<para>Quantizes a void* buffer into a void* buffer of identical shape. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>There is a one-to-one mapping between src and dst. The dst data type is given by the tensor.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>src</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Source address of the buffer </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dst</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Destination address of the buffer </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>data_type_in</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data type of the source buffer. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>data_type_out</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data type of the destination buffer. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Size (in number of elements) of the buffers. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>coeff</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Coefficient of unquantization. If 0, uses the snapshot&apos;s coeff instead. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>use_accurate_bf16</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>True if we need to use the accurate version of the bf16 to float quantization </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int The Vart ML error (vart_ml_error_id) code of the operation. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/quantization.cpp" line="164" column="5" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/quantization.cpp" bodystart="164" bodyend="193"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="copyright"><para>Copyright 2024 Advanced Micro Devices Inc.</para>
+</simplesect>
+Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <verbatim>http://www.apache.org/licenses/LICENSE-2.0
+</verbatim> Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. </para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cmath&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cstdint&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cstring&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="npu__c__api_8h" kindref="compound">npu_c_api.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="vart__ml__log_8h" kindref="compound">vart_ml_utils/vart_ml_log.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>clip(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>min,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>max)</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(x<sp/>&gt;=<sp/>max)</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>max;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(x<sp/>&lt;=<sp/>min)</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>min;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>x;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>To,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>Ti&gt;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">To<sp/><ref refid="quantization_8cpp_1a98f29c28a2a6d59a9ef795d78f9b37de" kindref="member">std_reinterpret_cast_and_deref</ref>(Ti<sp/>i)</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>static_assert(</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(To)<sp/>==<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(Ti),</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Invalid<sp/>dereferencing_type_punned_pointer_without_breaking_aliasing_rules<sp/>call.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>o<sp/>=<sp/>To();</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>memcpy(&amp;o,<sp/>&amp;i,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(Ti));</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>o;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>uint8_to_float(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t*<sp/>src,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/>dst,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>coeff)</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>size;<sp/>i++)</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dst[i]<sp/>=<sp/>src[i]<sp/>/<sp/>coeff;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>int8_to_float(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>int8_t*<sp/>src,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/>dst,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>coeff)</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>size;<sp/>i++)</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dst[i]<sp/>=<sp/>src[i]<sp/>/<sp/>coeff;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>bf16_to_float(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint16_t*<sp/>src,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/>dst,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size)</highlight></codeline>
+<codeline lineno="58"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>size;<sp/>i++)</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::uint32_t<sp/>fi<sp/>=<sp/>std::uint32_t(src[i])<sp/>&lt;&lt;<sp/>16;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dst[i]<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>std_reinterpret_cast_and_deref&lt;float&gt;(fi);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Attention<sp/>must<sp/>be<sp/>paid<sp/>to<sp/>rounding<sp/>modes.<sp/>The<sp/>default<sp/>SW<sp/>implementation<sp/>rounds<sp/>the<sp/>result<sp/>of<sp/>multiplying</highlight></codeline>
+<codeline lineno="67"><highlight class="comment"><sp/><sp/><sp/>with<sp/>the<sp/>coefficient<sp/>to<sp/>the<sp/>neareset<sp/>EVEN<sp/>integer.</highlight></codeline>
+<codeline lineno="68"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>float_to_int8(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/>src,<sp/>int8_t*<sp/>dst,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>coeff)</highlight></codeline>
+<codeline lineno="70"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>size;<sp/>i++)</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dst[i]<sp/>=<sp/>clip(nearbyintf(src[i]<sp/>*<sp/>coeff),<sp/>-128,<sp/>127);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>float_to_bf16_accurate(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/>src,<sp/>uint16_t*<sp/>dst,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size)</highlight></codeline>
+<codeline lineno="76"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>size;<sp/>i++)</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/>if32<sp/>=<sp/>std_reinterpret_cast_and_deref&lt;uint32_t&gt;(src[i]);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/>fs<sp/><sp/><sp/>=<sp/>(if32<sp/>&gt;&gt;<sp/>31)<sp/>&amp;<sp/>0x1;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/>fe<sp/><sp/><sp/>=<sp/>(if32<sp/>&gt;&gt;<sp/>23)<sp/>&amp;<sp/>0xFF;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/>fm<sp/><sp/><sp/>=<sp/>if32<sp/>&amp;<sp/>0x7FFFFF;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint16_t<sp/>m,<sp/>e,<sp/>s;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(fe<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="comment">//<sp/>subnormal</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>e<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>s<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>fs;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dst[i]<sp/>=<sp/>((s<sp/>&amp;<sp/>0x1)<sp/>&lt;&lt;<sp/>15)<sp/>|<sp/>((e<sp/>&amp;<sp/>0xFF)<sp/>&lt;&lt;<sp/>7)<sp/>|<sp/>((m<sp/>&amp;<sp/>0x7F)<sp/>&lt;&lt;<sp/>0);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(fe<sp/>==<sp/>0xFF)</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(fm<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="comment">//<sp/>inf</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>e<sp/>=<sp/>0xFF;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>s<sp/>=<sp/>fs;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="comment">//<sp/>nan</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>e<sp/>=<sp/>0xFF;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>s<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dst[i]<sp/>=<sp/>((s<sp/>&amp;<sp/>0x1)<sp/>&lt;&lt;<sp/>15)<sp/>|<sp/>((e<sp/>&amp;<sp/>0xFF)<sp/>&lt;&lt;<sp/>7)<sp/>|<sp/>((m<sp/>&amp;<sp/>0x7F)<sp/>&lt;&lt;<sp/>0);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/>rbias<sp/>=<sp/>0x7FFF<sp/>+<sp/>((if32<sp/>&gt;&gt;<sp/>16)<sp/>&amp;<sp/>0x1);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/>iraw<sp/><sp/>=<sp/>if32<sp/>+<sp/>rbias;</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(((iraw<sp/>&gt;&gt;<sp/>23)<sp/>&amp;<sp/>0xFF)<sp/>==<sp/>0xFF)</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dst[i]<sp/>=<sp/>(fs<sp/>&lt;&lt;<sp/>15)<sp/>|<sp/>0x7F80;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dst[i]<sp/>=<sp/>(iraw<sp/>&gt;&gt;<sp/>16);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="122"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>float_to_bf16(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/>src,<sp/>uint16_t*<sp/>dst,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size)</highlight></codeline>
+<codeline lineno="125"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>size;<sp/>i++)</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/>if32<sp/>=<sp/>std_reinterpret_cast_and_deref&lt;uint32_t&gt;(src[i]);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dst[i]<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>(if32<sp/>&gt;&gt;<sp/>16);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="131"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>uint8_to_int8(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t*<sp/>src,<sp/>int8_t*<sp/>dst,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size)</highlight></codeline>
+<codeline lineno="134"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>size;<sp/>i++)</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dst[i]<sp/>=<sp/>clip(nearbyintf(src[i]),<sp/>-128,<sp/>127);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="quantization_8cpp_1a617cebde89cad645a88f64b139e19940" kindref="member">npu_dequantize</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>src,</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dst,</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>data_type_in,</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>data_type_out,</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>size,</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>coeff)</highlight></codeline>
+<codeline lineno="145"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(src<sp/>==<sp/>NULL<sp/>||<sp/>dst<sp/>==<sp/>NULL)</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="vart__ml__log_8cpp_1a2f6c6a262c1a57e59110872fd716753b" kindref="member">vart_ml_log_err_msg</ref>(vart_ml_error::SYSTEM_ERROR_INVALID_ARG,<sp/></highlight><highlight class="stringliteral">&quot;NULL<sp/>pointer<sp/>found.\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(stringToDataType(data_type_in)<sp/>==<sp/><ref refid="private_8h_1a49b5dfea31023fcd165ce36384234dc5a86a4d027dff711bdd1e3ab36e6765761" kindref="member">BF16</ref><sp/>&amp;&amp;<sp/>stringToDataType(data_type_out)<sp/>==<sp/><ref refid="private_8h_1a49b5dfea31023fcd165ce36384234dc5a2644b741f40df4c4c3a83bbdcf7124b3" kindref="member">FLOAT32</ref>)</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bf16_to_float((</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint16_t*)src,<sp/>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*)dst,<sp/>size);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(stringToDataType(data_type_in)<sp/>==<sp/><ref refid="private_8h_1a49b5dfea31023fcd165ce36384234dc5ada138aad097eaac8697fe3661c91af95" kindref="member">INT8</ref><sp/>&amp;&amp;<sp/>stringToDataType(data_type_out)<sp/>==<sp/><ref refid="private_8h_1a49b5dfea31023fcd165ce36384234dc5a2644b741f40df4c4c3a83bbdcf7124b3" kindref="member">FLOAT32</ref>)</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int8_to_float((</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>int8_t*)src,<sp/>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*)dst,<sp/>size,<sp/>coeff);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(stringToDataType(data_type_in)<sp/>==<sp/><ref refid="private_8h_1a49b5dfea31023fcd165ce36384234dc5a13759b5b800cc50a6e10f73681f6fe9b" kindref="member">UINT8</ref><sp/>&amp;&amp;<sp/>stringToDataType(data_type_out)<sp/>==<sp/><ref refid="private_8h_1a49b5dfea31023fcd165ce36384234dc5a2644b741f40df4c4c3a83bbdcf7124b3" kindref="member">FLOAT32</ref>)</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_to_float((</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t*)src,<sp/>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*)dst,<sp/>size,<sp/>coeff);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="vart__ml__log_8cpp_1a2f6c6a262c1a57e59110872fd716753b" kindref="member">vart_ml_log_err_msg</ref>(vart_ml_error::SYSTEM_ERROR_INVALID_ARG,</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Unquantization<sp/>from<sp/>%s<sp/>to<sp/>%s<sp/>not<sp/>supported.\n&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>data_type_in.c_str(),</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>data_type_out.c_str());</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>vart_ml_error::SUCCESS;</highlight></codeline>
+<codeline lineno="162"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="quantization_8cpp_1af014a6b773d275498e42d9cab98dcdb2" kindref="member">npu_quantize</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>src,</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dst,</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>data_type_in,</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>data_type_out,</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>size,</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>coeff,</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>use_accurate_bf16)</highlight></codeline>
+<codeline lineno="171"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(src<sp/>==<sp/>NULL<sp/>||<sp/>dst<sp/>==<sp/>NULL)</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="vart__ml__log_8cpp_1a2f6c6a262c1a57e59110872fd716753b" kindref="member">vart_ml_log_err_msg</ref>(vart_ml_error::SYSTEM_ERROR_INVALID_ARG,<sp/></highlight><highlight class="stringliteral">&quot;NULL<sp/>pointer<sp/>found.\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(stringToDataType(data_type_in)<sp/>==<sp/><ref refid="private_8h_1a49b5dfea31023fcd165ce36384234dc5a2644b741f40df4c4c3a83bbdcf7124b3" kindref="member">FLOAT32</ref><sp/>&amp;&amp;<sp/>stringToDataType(data_type_out)<sp/>==<sp/><ref refid="private_8h_1a49b5dfea31023fcd165ce36384234dc5ada138aad097eaac8697fe3661c91af95" kindref="member">INT8</ref>)</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>float_to_int8((</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*)src,<sp/>(int8_t*)dst,<sp/>size,<sp/>coeff);</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(stringToDataType(data_type_in)<sp/>==<sp/><ref refid="private_8h_1a49b5dfea31023fcd165ce36384234dc5a2644b741f40df4c4c3a83bbdcf7124b3" kindref="member">FLOAT32</ref><sp/>&amp;&amp;<sp/>stringToDataType(data_type_out)<sp/>==<sp/><ref refid="private_8h_1a49b5dfea31023fcd165ce36384234dc5a86a4d027dff711bdd1e3ab36e6765761" kindref="member">BF16</ref>)</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(use_accurate_bf16)</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>float_to_bf16_accurate((</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*)src,<sp/>(uint16_t*)dst,<sp/>size);</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>float_to_bf16((</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*)src,<sp/>(uint16_t*)dst,<sp/>size);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(stringToDataType(data_type_in)<sp/>==<sp/><ref refid="private_8h_1a49b5dfea31023fcd165ce36384234dc5a13759b5b800cc50a6e10f73681f6fe9b" kindref="member">UINT8</ref><sp/>&amp;&amp;<sp/>stringToDataType(data_type_out)<sp/>==<sp/><ref refid="private_8h_1a49b5dfea31023fcd165ce36384234dc5ada138aad097eaac8697fe3661c91af95" kindref="member">INT8</ref>)</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_to_int8((</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t*)src,<sp/>(int8_t*)dst,<sp/>size);</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="vart__ml__log_8cpp_1a2f6c6a262c1a57e59110872fd716753b" kindref="member">vart_ml_log_err_msg</ref>(vart_ml_error::SYSTEM_ERROR_INVALID_ARG,</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Quantization<sp/>from<sp/>%s<sp/>to<sp/>%s<sp/>not<sp/>supported.\n&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>data_type_in.c_str(),</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>data_type_out.c_str());</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>vart_ml_error::SUCCESS;</highlight></codeline>
+<codeline lineno="193"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/quantization.cpp"/>
+  </compounddef>
+</doxygen>

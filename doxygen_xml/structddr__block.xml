@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structddr__block" kind="struct" language="C++" prot="public">
+    <compoundname>ddr_block</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structddr__block_1ab20c9ca9716e2eb80264c6a91aa31890" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t ddr_block::pid</definition>
+        <argsstring></argsstring>
+        <name>pid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_devmem.cpp" line="85" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_devmem.cpp" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structddr__block_1a7e98abbdb602c9e2d71406eb8fbdf9a5" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t ddr_block::phy_addr</definition>
+        <argsstring></argsstring>
+        <name>phy_addr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_devmem.cpp" line="86" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_devmem.cpp" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structddr__block_1af0d8d543f7e1ac7505480c5ed2e37364" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t ddr_block::size</definition>
+        <argsstring></argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_devmem.cpp" line="87" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_devmem.cpp" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_devmem.cpp" line="83" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_devmem.cpp" bodystart="84" bodyend="88"/>
+    <listofallmembers>
+      <member refid="structddr__block_1a7e98abbdb602c9e2d71406eb8fbdf9a5" prot="public" virt="non-virtual"><scope>ddr_block</scope><name>phy_addr</name></member>
+      <member refid="structddr__block_1ab20c9ca9716e2eb80264c6a91aa31890" prot="public" virt="non-virtual"><scope>ddr_block</scope><name>pid</name></member>
+      <member refid="structddr__block_1af0d8d543f7e1ac7505480c5ed2e37364" prot="public" virt="non-virtual"><scope>ddr_block</scope><name>size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

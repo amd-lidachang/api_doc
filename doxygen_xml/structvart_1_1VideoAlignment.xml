@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structvart_1_1VideoAlignment" kind="struct" language="C++" prot="public">
+    <compoundname>vart::VideoAlignment</compoundname>
+    <includes refid="vart__videoframe__types_8hpp" local="no">vart_videoframe_types.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structvart_1_1VideoAlignment_1a0d2c1170d3dcfe358d7361c45f246cb4" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t vart::VideoAlignment::padding_right</definition>
+        <argsstring></argsstring>
+        <name>padding_right</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_videoframe_types.hpp" line="173" column="12" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_videoframe_types.hpp" bodystart="173" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1VideoAlignment_1a12613a70701d45e8b636a040847e8e09" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t vart::VideoAlignment::padding_left</definition>
+        <argsstring></argsstring>
+        <name>padding_left</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_videoframe_types.hpp" line="174" column="12" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_videoframe_types.hpp" bodystart="174" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1VideoAlignment_1ac1f22d719cdef56bbf7ed6abc4f3b409" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t vart::VideoAlignment::padding_top</definition>
+        <argsstring></argsstring>
+        <name>padding_top</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_videoframe_types.hpp" line="175" column="12" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_videoframe_types.hpp" bodystart="175" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1VideoAlignment_1a1334e812384e391c2bbc8ea1df3c5787" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t vart::VideoAlignment::padding_bottom</definition>
+        <argsstring></argsstring>
+        <name>padding_bottom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_videoframe_types.hpp" line="176" column="12" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_videoframe_types.hpp" bodystart="176" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1VideoAlignment_1acbd7738cab7a2ce7233503a998289b1a" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t vart::VideoAlignment::stride_align[4]</definition>
+        <argsstring>[4]</argsstring>
+        <name>stride_align</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_videoframe_types.hpp" line="177" column="12" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_videoframe_types.hpp" bodystart="177" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Contains video alignment information. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_videoframe_types.hpp" line="172" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_videoframe_types.hpp" bodystart="172" bodyend="178"/>
+    <listofallmembers>
+      <member refid="structvart_1_1VideoAlignment_1a1334e812384e391c2bbc8ea1df3c5787" prot="public" virt="non-virtual"><scope>vart::VideoAlignment</scope><name>padding_bottom</name></member>
+      <member refid="structvart_1_1VideoAlignment_1a12613a70701d45e8b636a040847e8e09" prot="public" virt="non-virtual"><scope>vart::VideoAlignment</scope><name>padding_left</name></member>
+      <member refid="structvart_1_1VideoAlignment_1a0d2c1170d3dcfe358d7361c45f246cb4" prot="public" virt="non-virtual"><scope>vart::VideoAlignment</scope><name>padding_right</name></member>
+      <member refid="structvart_1_1VideoAlignment_1ac1f22d719cdef56bbf7ed6abc4f3b409" prot="public" virt="non-virtual"><scope>vart::VideoAlignment</scope><name>padding_top</name></member>
+      <member refid="structvart_1_1VideoAlignment_1acbd7738cab7a2ce7233503a998289b1a" prot="public" virt="non-virtual"><scope>vart::VideoAlignment</scope><name>stride_align</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

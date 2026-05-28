@@ -1,0 +1,380 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classvart_1_1NpuTensor" kind="class" language="C++" prot="public">
+    <compoundname>vart::NpuTensor</compoundname>
+    <includes refid="vart__npu__tensor_8hpp" local="no">vart_npu_tensor.hpp</includes>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classvart_1_1NpuTensor_1a075fab660032475a23668a140bd26d92" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class NpuTensorPrivAccess</definition>
+        <argsstring></argsstring>
+        <name>NpuTensorPrivAccess</name>
+        <param>
+          <type><ref refid="classvart_1_1NpuTensorPrivAccess" kindref="compound">NpuTensorPrivAccess</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.hpp" line="387" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.hpp" bodystart="387" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classvart_1_1NpuTensor_1ab681901c0a482d03e420e2b986f8dfa2" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="classvart_1_1NpuTensorPriv" kindref="compound">NpuTensorPriv</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;NpuTensorPriv&gt; vart::NpuTensor::priv_</definition>
+        <argsstring></argsstring>
+        <name>priv_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.hpp" line="388" column="17" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.hpp" bodystart="388" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classvart_1_1NpuTensor_1a74bd29f14d005bb5ee4bce65d5c4134c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>vart::NpuTensor::NpuTensor</definition>
+        <argsstring>(const NpuTensorInfo &amp;info, void *buffer, MemoryType mem_type)</argsstring>
+        <name>NpuTensor</name>
+        <param>
+          <type>const <ref refid="structvart_1_1NpuTensorInfo" kindref="compound">NpuTensorInfo</ref> &amp;</type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacevart_1a628146123b56321d35a9614480f55cb4" kindref="member">MemoryType</ref></type>
+          <declname>mem_type</declname>
+        </param>
+        <briefdescription>
+<para>Construct a <ref refid="classvart_1_1NpuTensor" kindref="compound">NpuTensor</ref> from a user-supplied buffer. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Initializes the tensor using the specified metadata and buffer.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Tensor metadata (<ref refid="structvart_1_1NpuTensorInfo" kindref="compound">NpuTensorInfo</ref>). </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>buffer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer to the user buffer containing the tensor data. The buffer must remain valid for the lifetime of the <ref refid="classvart_1_1NpuTensor" kindref="compound">NpuTensor</ref> object. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mem_type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Specifies the memory type of the buffer.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="note"><para>The <ref refid="classvart_1_1NpuTensor" kindref="compound">NpuTensor</ref> does not take ownership of the buffer. The caller is responsible for ensuring the buffer remains valid for the lifetime of this object. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>std::runtime_error</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if the buffer is null, memory type is invalid, or tensor info validation fails. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.hpp" line="268" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.cpp" bodystart="147" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1NpuTensor_1a72ae2d2403b6f896e7ac231a6b66a88a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>vart::NpuTensor::NpuTensor</definition>
+        <argsstring>(const NpuTensorInfo &amp;info, const void *buffer, MemoryType mem_type)</argsstring>
+        <name>NpuTensor</name>
+        <param>
+          <type>const <ref refid="structvart_1_1NpuTensorInfo" kindref="compound">NpuTensorInfo</ref> &amp;</type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type>const void *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacevart_1a628146123b56321d35a9614480f55cb4" kindref="member">MemoryType</ref></type>
+          <declname>mem_type</declname>
+        </param>
+        <briefdescription>
+<para>Construct a <ref refid="classvart_1_1NpuTensor" kindref="compound">NpuTensor</ref> from a user-supplied constant buffer. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Initializes the tensor using the specified metadata and constant buffer.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Tensor metadata (<ref refid="structvart_1_1NpuTensorInfo" kindref="compound">NpuTensorInfo</ref>). </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>buffer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer to the user constant buffer containing the tensor data. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mem_type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Specifies the memory type of the buffer.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="note"><para>The <ref refid="classvart_1_1NpuTensor" kindref="compound">NpuTensor</ref> does not take ownership of the buffer. The caller is responsible for ensuring the buffer remains valid for the lifetime of this object. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>std::runtime_error</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if the buffer is null, memory type is invalid, or tensor info validation fails. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.hpp" line="284" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.cpp" bodystart="152" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1NpuTensor_1a88b808e6215460dc4daf90fd0a15075e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>vart::NpuTensor::NpuTensor</definition>
+        <argsstring>()</argsstring>
+        <name>NpuTensor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.hpp" line="286" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.cpp" bodystart="145" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1NpuTensor_1a1f9923400a9691ad33e0e90255d4799e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void * vart::NpuTensor::get_buffer</definition>
+        <argsstring>()</argsstring>
+        <name>get_buffer</name>
+        <briefdescription>
+<para>Retrieves a pointer to the tensor&apos;s buffer. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function provides access to the buffer that was provided during tensor construction.</para>
+<para><simplesect kind="return"><para>void* Pointer to the buffer, or nullptr if no buffer is available or if the tensor was constructed with a const buffer. If the memory type is <ref refid="namespacevart_1a628146123b56321d35a9614480f55cb4aa6a383cd83e54008ecd424550f46c74f" kindref="member">MemoryType::XRT_BO</ref>, it returns a pointer to the corresponding xrt::bo. If the memory type is <ref refid="namespacevart_1a628146123b56321d35a9614480f55cb4a2dfccb788ee18c89a3a4872ee1c054d3" kindref="member">MemoryType::DMA_FD</ref>, it returns a pointer to the file descriptor. For <ref refid="namespacevart_1a628146123b56321d35a9614480f55cb4afd8b57da11def05c5970111166f627bb" kindref="member">MemoryType::USER_POINTER_CMA</ref> and <ref refid="namespacevart_1a628146123b56321d35a9614480f55cb4a22fe977dbb4918ca8ae60b4e945594ba" kindref="member">MemoryType::USER_POINTER_NON_CMA</ref>, it returns the virtual pointer. </para>
+</simplesect>
+<simplesect kind="note"><para>Returns nullptr for tensors constructed with const void* buffer. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.hpp" line="303" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.cpp" bodystart="157" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1NpuTensor_1adbbdf6f0dbf572cf0be00ee8cfa1177d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const void *</type>
+        <definition>const void * vart::NpuTensor::get_buffer</definition>
+        <argsstring>() const</argsstring>
+        <name>get_buffer</name>
+        <briefdescription>
+<para>Retrieves a pointer to the tensor&apos;s buffer. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function is the overloaded version for immutable (const) access</para>
+<para><simplesect kind="return"><para>const void* Pointer to the buffer, or nullptr if no buffer is available. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.hpp" line="312" column="12" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.cpp" bodystart="164" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1NpuTensor_1aa33edfffed13004558addfee5aad0093" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void * vart::NpuTensor::get_virtual_address</definition>
+        <argsstring>()</argsstring>
+        <name>get_virtual_address</name>
+        <briefdescription>
+<para>Returns the virtual address of the tensor buffer. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>void* Pointer to the virtual address of the buffer, or nullptr if no buffer is available or if the tensor was constructed with a const buffer.</para>
+</simplesect>
+<simplesect kind="note"><para>Virtual address retrieval is not supported for <ref refid="namespacevart_1a628146123b56321d35a9614480f55cb4a2dfccb788ee18c89a3a4872ee1c054d3" kindref="member">MemoryType::DMA_FD</ref>. </para>
+</simplesect>
+<simplesect kind="note"><para>Returns nullptr for tensors constructed with const void* buffer. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.hpp" line="323" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.cpp" bodystart="171" bodyend="187"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1NpuTensor_1a9ee9839316905cb846df279819f68cbb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const void *</type>
+        <definition>const void * vart::NpuTensor::get_virtual_address</definition>
+        <argsstring>() const</argsstring>
+        <name>get_virtual_address</name>
+        <briefdescription>
+<para>Returns the virtual address of the tensor buffer. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function is the overloaded version for immutable (const) access.</para>
+<para><simplesect kind="return"><para>const void* Pointer to the virtual address of the buffer, or nullptr if no buffer is available.</para>
+</simplesect>
+<simplesect kind="note"><para>Virtual address retrieval is not supported for <ref refid="namespacevart_1a628146123b56321d35a9614480f55cb4a2dfccb788ee18c89a3a4872ee1c054d3" kindref="member">MemoryType::DMA_FD</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.hpp" line="335" column="12" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.cpp" bodystart="189" bodyend="195"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1NpuTensor_1ab55a80c2e45255e381d47071e9e2dd4a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>uint64_t</type>
+        <definition>uint64_t vart::NpuTensor::get_physical_address</definition>
+        <argsstring>() const</argsstring>
+        <name>get_physical_address</name>
+        <briefdescription>
+<para>Returns the physical address of the tensor buffer. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>uint64_t Physical address of the buffer if applicable, 0 otherwise.</para>
+</simplesect>
+<simplesect kind="note"><para>Physical address retrieval is only supported for <ref refid="namespacevart_1a628146123b56321d35a9614480f55cb4aa6a383cd83e54008ecd424550f46c74f" kindref="member">MemoryType::XRT_BO</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.hpp" line="345" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.cpp" bodystart="197" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1NpuTensor_1a60cba89a3c28738f90d9cdd816081279" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="structvart_1_1NpuTensorInfo" kindref="compound">NpuTensorInfo</ref> &amp;</type>
+        <definition>const NpuTensorInfo &amp; vart::NpuTensor::get_info</definition>
+        <argsstring>() const</argsstring>
+        <name>get_info</name>
+        <briefdescription>
+<para>Returns the <ref refid="structvart_1_1NpuTensorInfo" kindref="compound">NpuTensorInfo</ref> metadata of the tensor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This method returns the <ref refid="structvart_1_1NpuTensorInfo" kindref="compound">NpuTensorInfo</ref> object that contains metadata about the tensor, such as its name, shape, strides, data type, and memory layout. <simplesect kind="return"><para>A constant reference to the <ref refid="structvart_1_1NpuTensorInfo" kindref="compound">NpuTensorInfo</ref> object. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.hpp" line="354" column="21" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.cpp" bodystart="207" bodyend="215"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1NpuTensor_1aa8507fb653dd0fbd0047f3cdde32e0b9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespacevart_1a628146123b56321d35a9614480f55cb4" kindref="member">MemoryType</ref></type>
+        <definition>MemoryType vart::NpuTensor::get_memory_type</definition>
+        <argsstring>() const</argsstring>
+        <name>get_memory_type</name>
+        <briefdescription>
+<para>Get the memory type of the tensor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>MemoryType The memory type of the tensor. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.hpp" line="361" column="12" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.cpp" bodystart="217" bodyend="222"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1NpuTensor_1afcc9ebcc6fa2e13b6437c99bb5c31fe7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void vart::NpuTensor::sync_buffer</definition>
+        <argsstring>() const</argsstring>
+        <name>sync_buffer</name>
+        <briefdescription>
+<para>Synchronizes the tensor buffer between CPU and AIE. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Ensures data consistency between CPU and AIE by performing cache operations based on the tensor&apos;s direction:<itemizedlist>
+<listitem><para>For <ref refid="namespacevart_1a9a98f13e9246c207893fd0923dfd6f17aa84cc046d48610b05c21fd3670d0c829" kindref="member">TensorDirection::INPUT</ref>, flushes cache to DDR for reading by AIE.</para>
+</listitem><listitem><para>For <ref refid="namespacevart_1a9a98f13e9246c207893fd0923dfd6f17a50a87f0d71f7221582dad4bf507a0f34" kindref="member">TensorDirection::OUTPUT</ref>, invalidates cache for reading by CPU.</para>
+</listitem></itemizedlist>
+</para>
+<para><simplesect kind="return"><para>void</para>
+</simplesect>
+<simplesect kind="note"><para>Supported only for NpuTensors allocated using <ref refid="classvart_1_1Runner_1a86b257cd70b838396aff577724afcc7a" kindref="member">vart::Runner::allocate_npu_tensor</ref>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.hpp" line="375" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.cpp" bodystart="224" bodyend="224"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1NpuTensor_1ac15e6c914a1f183552641e7b117a3998" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void vart::NpuTensor::print_info</definition>
+        <argsstring>() const</argsstring>
+        <name>print_info</name>
+        <briefdescription>
+<para>Prints the metadata of the tensor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This method prints the <ref refid="structvart_1_1NpuTensorInfo" kindref="compound">NpuTensorInfo</ref> metadata, including name, shape, strides, data type, memory layout, and size. It is useful for debugging and understanding the tensor&apos;s properties. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.hpp" line="384" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.cpp" bodystart="226" bodyend="237"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents a tensor in the VART API. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>This class encapsulates tensor metadata and offers access to the tensor&apos;s data buffers. It acts as a lightweight wrapper around buffers supplied by the user.</para>
+<para><simplesect kind="note"><para>: This class does not take ownership of the buffer memory. The user is responsible for managing the buffer&apos;s lifecycle. </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.hpp" line="250" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.hpp" bodystart="251" bodyend="389"/>
+    <listofallmembers>
+      <member refid="classvart_1_1NpuTensor_1a1f9923400a9691ad33e0e90255d4799e" prot="public" virt="non-virtual"><scope>vart::NpuTensor</scope><name>get_buffer</name></member>
+      <member refid="classvart_1_1NpuTensor_1adbbdf6f0dbf572cf0be00ee8cfa1177d" prot="public" virt="non-virtual"><scope>vart::NpuTensor</scope><name>get_buffer</name></member>
+      <member refid="classvart_1_1NpuTensor_1a60cba89a3c28738f90d9cdd816081279" prot="public" virt="non-virtual"><scope>vart::NpuTensor</scope><name>get_info</name></member>
+      <member refid="classvart_1_1NpuTensor_1aa8507fb653dd0fbd0047f3cdde32e0b9" prot="public" virt="non-virtual"><scope>vart::NpuTensor</scope><name>get_memory_type</name></member>
+      <member refid="classvart_1_1NpuTensor_1ab55a80c2e45255e381d47071e9e2dd4a" prot="public" virt="non-virtual"><scope>vart::NpuTensor</scope><name>get_physical_address</name></member>
+      <member refid="classvart_1_1NpuTensor_1aa33edfffed13004558addfee5aad0093" prot="public" virt="non-virtual"><scope>vart::NpuTensor</scope><name>get_virtual_address</name></member>
+      <member refid="classvart_1_1NpuTensor_1a9ee9839316905cb846df279819f68cbb" prot="public" virt="non-virtual"><scope>vart::NpuTensor</scope><name>get_virtual_address</name></member>
+      <member refid="classvart_1_1NpuTensor_1a74bd29f14d005bb5ee4bce65d5c4134c" prot="public" virt="non-virtual"><scope>vart::NpuTensor</scope><name>NpuTensor</name></member>
+      <member refid="classvart_1_1NpuTensor_1a72ae2d2403b6f896e7ac231a6b66a88a" prot="public" virt="non-virtual"><scope>vart::NpuTensor</scope><name>NpuTensor</name></member>
+      <member refid="classvart_1_1NpuTensor_1a88b808e6215460dc4daf90fd0a15075e" prot="public" virt="non-virtual"><scope>vart::NpuTensor</scope><name>NpuTensor</name></member>
+      <member refid="classvart_1_1NpuTensor_1a075fab660032475a23668a140bd26d92" prot="private" virt="non-virtual"><scope>vart::NpuTensor</scope><name>NpuTensorPrivAccess</name></member>
+      <member refid="classvart_1_1NpuTensor_1ac15e6c914a1f183552641e7b117a3998" prot="public" virt="non-virtual"><scope>vart::NpuTensor</scope><name>print_info</name></member>
+      <member refid="classvart_1_1NpuTensor_1ab681901c0a482d03e420e2b986f8dfa2" prot="private" virt="non-virtual"><scope>vart::NpuTensor</scope><name>priv_</name></member>
+      <member refid="classvart_1_1NpuTensor_1afcc9ebcc6fa2e13b6437c99bb5c31fe7" prot="public" virt="non-virtual"><scope>vart::NpuTensor</scope><name>sync_buffer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

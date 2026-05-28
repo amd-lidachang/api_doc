@@ -7,7 +7,7 @@ extensions = [
     "sphinx.ext.intersphinx",
     "breathe",
 ]
-breathe_projects = {"Vitis-AI": "../doxygen_output/xml"}
+breathe_projects = {"Vitis-AI": "doxygen_xml"}
 breathe_default_project = "Vitis-AI"
 breathe_default_members = ("members", "undoc-members")
 

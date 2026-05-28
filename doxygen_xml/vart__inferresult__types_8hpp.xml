@@ -1,0 +1,318 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="vart__inferresult__types_8hpp" kind="file" language="C++">
+    <compoundname>vart_inferresult_types.hpp</compoundname>
+    <includes local="no">string</includes>
+    <includes local="no">vector</includes>
+    <includedby refid="vart__inferresult__impl__base_8hpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base/vart_inferresult_impl_base.hpp</includedby>
+    <includedby refid="vart__inferresult_8hpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_inferresult.hpp</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_inferresult_types.hpp</label>
+        <link refid="vart__inferresult__types_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>string</label>
+      </node>
+      <node id="3">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="30">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_tracker.hpp</label>
+        <link refid="vart__tracker_8hpp"/>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_inferresult_types.hpp</label>
+        <link refid="vart__inferresult__types_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/inferresult/vart_inferresult.cpp</label>
+        <link refid="vart__inferresult_8cpp"/>
+      </node>
+      <node id="13">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/inferresult/vart_inferres_impl_detection.cpp</label>
+        <link refid="vart__inferres__impl__detection_8cpp"/>
+      </node>
+      <node id="3">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base/vart_metaconvert_impl_base.hpp</label>
+        <link refid="vart__metaconvert__impl__base_8hpp"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess/vart_postprocess_impl_resnet50.cpp</label>
+        <link refid="vart__postprocess__impl__resnet50_8cpp"/>
+      </node>
+      <node id="22">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess/vart_postprocess_impl_yolov2.hpp</label>
+        <link refid="vart__postprocess__impl__yolov2_8hpp"/>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/inferresult/vart_inferres_impl_classification.cpp</label>
+        <link refid="vart__inferres__impl__classification_8cpp"/>
+      </node>
+      <node id="29">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_postprocess.hpp</label>
+        <link refid="vart__postprocess_8hpp"/>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base/vart_inferresult_impl_base.hpp</label>
+        <link refid="vart__inferresult__impl__base_8hpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_metaconvert.hpp</label>
+        <link refid="vart__metaconvert_8hpp"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/inferresult/vart_inferres_impl_detection.hpp</label>
+        <link refid="vart__inferres__impl__detection_8hpp"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/metaconvert/vart_metaconv_impl_overlay.hpp</label>
+        <link refid="vart__metaconv__impl__overlay_8hpp"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_inferresult.hpp</label>
+        <link refid="vart__inferresult_8hpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess/ssdresnet34/vart_postprocess_impl_ssdresnet34.hpp</label>
+        <link refid="vart__postprocess__impl__ssdresnet34_8hpp"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess/vart_postprocess.cpp</label>
+        <link refid="vart__postprocess_8cpp"/>
+      </node>
+      <node id="26">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/tracker/vart_tracker_impl_default.hpp</label>
+        <link refid="vart__tracker__impl__default_8hpp"/>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/metaconvert/vart_metaconv_impl_overlay.cpp</label>
+        <link refid="vart__metaconv__impl__overlay_8cpp"/>
+      </node>
+      <node id="18">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/inferresult/vart_inferres_impl_root.cpp</label>
+        <link refid="vart__inferres__impl__root_8cpp"/>
+      </node>
+      <node id="27">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/tracker/vart_tracker.cpp</label>
+        <link refid="vart__tracker_8cpp"/>
+      </node>
+      <node id="14">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess/ssdresnet34/vart_postprocess_impl_ssdresnet34.cpp</label>
+        <link refid="vart__postprocess__impl__ssdresnet34_8cpp"/>
+      </node>
+      <node id="16">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/tracker/vart_tracker_impl_default.cpp</label>
+        <link refid="vart__tracker__impl__default_8cpp"/>
+      </node>
+      <node id="6">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/metaconvert/vart_metaconvert.cpp</label>
+        <link refid="vart__metaconvert_8cpp"/>
+      </node>
+      <node id="25">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base/vart_tracker_impl_base.hpp</label>
+        <link refid="vart__tracker__impl__base_8hpp"/>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess/vart_postprocess_impl_resnet50.hpp</label>
+        <link refid="vart__postprocess__impl__resnet50_8hpp"/>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess/vart_postprocess_impl_yolov2.cpp</label>
+        <link refid="vart__postprocess__impl__yolov2_8cpp"/>
+      </node>
+      <node id="7">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/inferresult/vart_inferres_impl_classification.hpp</label>
+        <link refid="vart__inferres__impl__classification_8hpp"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/inferresult/vart_inferres_impl_root.hpp</label>
+        <link refid="vart__inferres__impl__root_8hpp"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base/vart_postprocess_impl_base.hpp</label>
+        <link refid="vart__postprocess__impl__base_8hpp"/>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/metaconvert/vart_metaconv_impl_classification.cpp</label>
+        <link refid="vart__metaconv__impl__classification_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structvart_1_1InferResScaleInfo" prot="public">vart::InferResScaleInfo</innerclass>
+    <innerclass refid="structvart_1_1InferResultData" prot="public">vart::InferResultData</innerclass>
+    <innerclass refid="structvart_1_1ClassificationResData" prot="public">vart::ClassificationResData</innerclass>
+    <innerclass refid="structvart_1_1DetectionResData" prot="public">vart::DetectionResData</innerclass>
+    <innernamespace refid="namespacevart">vart</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>2024<sp/>Advanced<sp/>Micro<sp/>Devices<sp/>Inc.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>Licensed<sp/>under<sp/>the<sp/>Apache<sp/>License,<sp/>Version<sp/>2.0<sp/>(the<sp/>&quot;License&quot;);</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>you<sp/>may<sp/>not<sp/>use<sp/>this<sp/>file<sp/>except<sp/>in<sp/>compliance<sp/>with<sp/>the<sp/>License.</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>You<sp/>may<sp/>obtain<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>License<sp/>at</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/>http://www.apache.org/licenses/LICENSE-2.0</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>Unless<sp/>required<sp/>by<sp/>applicable<sp/>law<sp/>or<sp/>agreed<sp/>to<sp/>in<sp/>writing,<sp/>software</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>distributed<sp/>under<sp/>the<sp/>License<sp/>is<sp/>distributed<sp/>on<sp/>an<sp/>&quot;AS<sp/>IS&quot;<sp/>BASIS,</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>WITHOUT<sp/>WARRANTIES<sp/>OR<sp/>CONDITIONS<sp/>OF<sp/>ANY<sp/>KIND,<sp/>either<sp/>express<sp/>or<sp/>implied.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>See<sp/>the<sp/>License<sp/>for<sp/>the<sp/>specific<sp/>language<sp/>governing<sp/>permissions<sp/>and</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>limitations<sp/>under<sp/>the<sp/>License.</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacevart" kindref="compound">vart</ref><sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="namespacevart_1ad00b8cbe865c048fcb50bad7f6361f81" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="namespacevart_1ad00b8cbe865c048fcb50bad7f6361f81" kindref="member">TraversalOrder</ref><sp/>{<sp/><ref refid="namespacevart_1ad00b8cbe865c048fcb50bad7f6361f81a996f17cc877d57b66336e3c282a29f91" kindref="member">PREORDER</ref>,<sp/><ref refid="namespacevart_1ad00b8cbe865c048fcb50bad7f6361f81a5bd4df1d02177d8e3b9922447a9cfdd7" kindref="member">INORDER</ref>,<sp/><ref refid="namespacevart_1ad00b8cbe865c048fcb50bad7f6361f81aa356ee64d068c1a2eb1f7993a554e935" kindref="member">POSTORDER</ref><sp/>};</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="namespacevart_1a28227f4fe6b775278e5211b343e5b868" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="namespacevart_1a28227f4fe6b775278e5211b343e5b868" kindref="member">InferResultType</ref></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacevart_1a28227f4fe6b775278e5211b343e5b868aea2adde5c377cb5e09d14b71935c6f32" kindref="member">ROOT</ref>,</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacevart_1a28227f4fe6b775278e5211b343e5b868a7a249cdff24e60e2ee42699a02026a89" kindref="member">CLASSIFICATION</ref>,</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacevart_1a28227f4fe6b775278e5211b343e5b868aa26f105c8a40156ec93de3e64c0f68db" kindref="member">DETECTION</ref>,</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacevart_1a28227f4fe6b775278e5211b343e5b868a162e1a033920bf01a4e450f505694d7e" kindref="member">CUSTOM_RESULT_1</ref><sp/>=<sp/>100,</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacevart_1a28227f4fe6b775278e5211b343e5b868af791da5c2fb1635c931745d0f8b971cb" kindref="member">CUSTOM_RESULT_2</ref>,</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacevart_1a28227f4fe6b775278e5211b343e5b868a72be9122ccd999d41c2db4123171d94c" kindref="member">CUSTOM_RESULT_3</ref>,</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="structvart_1_1InferResScaleInfo" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="65" refid="structvart_1_1InferResScaleInfo_1a23ec52f27cd43c37f4fbc1da3a46c16d" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structvart_1_1InferResScaleInfo_1a23ec52f27cd43c37f4fbc1da3a46c16d" kindref="member">width_scale_factor</ref>;</highlight></codeline>
+<codeline lineno="66" refid="structvart_1_1InferResScaleInfo_1a0c9991ff106dc367b7bd7a63e29b5cc1" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structvart_1_1InferResScaleInfo_1a0c9991ff106dc367b7bd7a63e29b5cc1" kindref="member">height_scale_factor</ref>;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal">}<sp/><ref refid="structvart_1_1InferResScaleInfo" kindref="compound">InferResScaleInfo</ref>;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="structvart_1_1InferResultData" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structvart_1_1InferResultData" kindref="compound">InferResultData</ref><sp/>{</highlight></codeline>
+<codeline lineno="78" refid="structvart_1_1InferResultData_1a92e3cd316a39420b8453a82260993841" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacevart_1a28227f4fe6b775278e5211b343e5b868" kindref="member">InferResultType</ref><sp/><ref refid="structvart_1_1InferResultData_1a92e3cd316a39420b8453a82260993841" kindref="member">result_type</ref>;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="structvart_1_1ClassificationResData" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structvart_1_1ClassificationResData" kindref="compound">ClassificationResData</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="structvart_1_1InferResultData" kindref="compound">InferResultData</ref><sp/>{</highlight></codeline>
+<codeline lineno="94" refid="structvart_1_1ClassificationResData_1aa197983a79bcd72f2f781ef01aafdb1e" refkind="member"><highlight class="normal"><sp/><sp/>std::vector&lt;std::string&gt;<sp/><ref refid="structvart_1_1ClassificationResData_1aa197983a79bcd72f2f781ef01aafdb1e" kindref="member">label</ref>;</highlight></codeline>
+<codeline lineno="95" refid="structvart_1_1ClassificationResData_1ad3ab10b033becb83322410a18abc760f" refkind="member"><highlight class="normal"><sp/><sp/>std::vector&lt;double&gt;<sp/><ref refid="structvart_1_1ClassificationResData_1ad3ab10b033becb83322410a18abc760f" kindref="member">confidence</ref>;</highlight></codeline>
+<codeline lineno="96" refid="structvart_1_1ClassificationResData_1a919c1e7a9ac94805f23354e3f210d448" refkind="member"><highlight class="normal"><sp/><sp/>std::vector&lt;uint8_t&gt;<sp/><ref refid="structvart_1_1ClassificationResData_1a919c1e7a9ac94805f23354e3f210d448" kindref="member">index</ref>;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121" refid="structvart_1_1DetectionResData" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structvart_1_1DetectionResData" kindref="compound">DetectionResData</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="structvart_1_1InferResultData" kindref="compound">InferResultData</ref><sp/>{</highlight></codeline>
+<codeline lineno="122" refid="structvart_1_1DetectionResData_1a61eca7f6711629e0cee2f9500f806580" refkind="member"><highlight class="normal"><sp/><sp/>int32_t<sp/><ref refid="structvart_1_1DetectionResData_1a61eca7f6711629e0cee2f9500f806580" kindref="member">x</ref>;</highlight></codeline>
+<codeline lineno="123" refid="structvart_1_1DetectionResData_1a61e4557df43dec99ea1384508c6fd68b" refkind="member"><highlight class="normal"><sp/><sp/>int32_t<sp/><ref refid="structvart_1_1DetectionResData_1a61e4557df43dec99ea1384508c6fd68b" kindref="member">y</ref>;</highlight></codeline>
+<codeline lineno="124" refid="structvart_1_1DetectionResData_1a7f4bf791e4767f84c9e5a1234a74f67d" refkind="member"><highlight class="normal"><sp/><sp/>uint32_t<sp/><ref refid="structvart_1_1DetectionResData_1a7f4bf791e4767f84c9e5a1234a74f67d" kindref="member">width</ref>;</highlight></codeline>
+<codeline lineno="125" refid="structvart_1_1DetectionResData_1aa8d913f24db3b9d433a5f04cbf902c8e" refkind="member"><highlight class="normal"><sp/><sp/>uint32_t<sp/><ref refid="structvart_1_1DetectionResData_1aa8d913f24db3b9d433a5f04cbf902c8e" kindref="member">height</ref>;</highlight></codeline>
+<codeline lineno="126" refid="structvart_1_1DetectionResData_1aeff185b95524a9370c4edc024b032a70" refkind="member"><highlight class="normal"><sp/><sp/>std::string<sp/><ref refid="structvart_1_1DetectionResData_1aeff185b95524a9370c4edc024b032a70" kindref="member">label</ref>;</highlight></codeline>
+<codeline lineno="127" refid="structvart_1_1DetectionResData_1a33da2dea4a2cb91e92ce395a5f31a12a" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structvart_1_1DetectionResData_1a33da2dea4a2cb91e92ce395a5f31a12a" kindref="member">confidence</ref>;</highlight></codeline>
+<codeline lineno="128" refid="structvart_1_1DetectionResData_1afe7b72336be1af1cbc2ea6891d18ba9b" refkind="member"><highlight class="normal"><sp/><sp/>std::string<sp/><ref refid="structvart_1_1DetectionResData_1afe7b72336be1af1cbc2ea6891d18ba9b" kindref="member">obj_track_label</ref>;</highlight></codeline>
+<codeline lineno="129" refid="structvart_1_1DetectionResData_1a226684040c4445c0d6c4b18a3b413c1e" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structvart_1_1DetectionResData_1a226684040c4445c0d6c4b18a3b413c1e" kindref="member">class_id</ref>;</highlight></codeline>
+<codeline lineno="130"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>vart</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_inferresult_types.hpp"/>
+  </compounddef>
+</doxygen>

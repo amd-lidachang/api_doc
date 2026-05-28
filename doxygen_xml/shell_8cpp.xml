@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="shell_8cpp" kind="file" language="C++">
+    <compoundname>shell.cpp</compoundname>
+    <includes refid="shell_8h" local="yes">shell.h</includes>
+    <incdepgraph>
+      <node id="6">
+        <label>cstdint</label>
+      </node>
+      <node id="5">
+        <label>stdexcept</label>
+      </node>
+      <node id="4">
+        <label>string</label>
+      </node>
+      <node id="3">
+        <label>optional</label>
+      </node>
+      <node id="2">
+        <label>shell.h</label>
+        <link refid="shell_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/shell.cpp</label>
+        <link refid="shell_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="shell_8cpp_1a01ec6b9d3bebe66183143ff27468a5df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::optional&lt; int &gt;</type>
+        <definition>std::optional&lt;int&gt; runCommand</definition>
+        <argsstring>(const std::string &amp;cmd)</argsstring>
+        <name>runCommand</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>cmd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/shell.cpp" line="6" column="15" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/shell.cpp" bodystart="6" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="function" id="shell_8cpp_1aef66c4552cfd9b10a867cde38f4486f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned long long</type>
+        <definition>unsigned long long legacy_strtoull</definition>
+        <argsstring>(const char *nptr, char **endptr, int base) __asm__(&quot;strtoull&quot;)</argsstring>
+        <name>legacy_strtoull</name>
+        <param>
+          <type>const char *</type>
+          <declname>nptr</declname>
+        </param>
+        <param>
+          <type>char **</type>
+          <declname>endptr</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>base</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/shell.cpp" line="9" column="20" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/shell.cpp" declline="9" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="shell_8cpp_1a9956c5a8df448b9412e2bd0233a2da06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned long long</type>
+        <definition>unsigned long long legacy_strtoll</definition>
+        <argsstring>(const char *nptr, char **endptr, int base) __asm__(&quot;strtoll&quot;)</argsstring>
+        <name>legacy_strtoll</name>
+        <param>
+          <type>const char *</type>
+          <declname>nptr</declname>
+        </param>
+        <param>
+          <type>char **</type>
+          <declname>endptr</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>base</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/shell.cpp" line="10" column="20" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/shell.cpp" declline="10" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="shell_8cpp_1a2a436694d0e8455fe9e689a154cd1686" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint64_t</type>
+        <definition>uint64_t parse_uint</definition>
+        <argsstring>(const std::string &amp;num, int base)</argsstring>
+        <name>parse_uint</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>num</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>base</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/shell.cpp" line="12" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/shell.cpp" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="shell_8cpp_1ac4a342c3b28c760be0482a5c49127b20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint64_t</type>
+        <definition>uint64_t parse_uint_c</definition>
+        <argsstring>(const char *str, char **end, int base)</argsstring>
+        <name>parse_uint_c</name>
+        <param>
+          <type>const char *</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>char **</type>
+          <declname>end</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>base</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/shell.cpp" line="13" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/shell.cpp" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="shell_8cpp_1a0a8691e22b2bcb52d877cfac4739a198" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int64_t</type>
+        <definition>int64_t parse_int_c</definition>
+        <argsstring>(const char *str, char **end, int base)</argsstring>
+        <name>parse_int_c</name>
+        <param>
+          <type>const char *</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>char **</type>
+          <declname>end</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>base</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/shell.cpp" line="14" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/shell.cpp" bodystart="14" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>Copyright(C)<sp/>2023-2025<sp/>Advanced<sp/>Micro<sp/>Devices<sp/>Inc.<sp/><sp/>All<sp/>Rights<sp/>Reserved.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="shell_8h" kindref="compound">shell.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Copied<sp/>from<sp/>sw/rt/libTools/libGeneric/Functions.cpp</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">std::optional&lt;int&gt;<sp/><ref refid="shell_8cpp_1a01ec6b9d3bebe66183143ff27468a5df" kindref="member">runCommand</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>cmd)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="shell_8cpp_1a01ec6b9d3bebe66183143ff27468a5df" kindref="member">runCommand</ref>(cmd,<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">);<sp/>}</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Compatibility<sp/>for<sp/>isoc23<sp/>on<sp/>older<sp/>system</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="shell_8cpp_1aef66c4552cfd9b10a867cde38f4486f1" kindref="member">legacy_strtoull</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>nptr,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">**<sp/>endptr,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>base)<sp/>__asm__(</highlight><highlight class="stringliteral">&quot;strtoull&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="shell_8cpp_1a9956c5a8df448b9412e2bd0233a2da06" kindref="member">legacy_strtoll</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>nptr,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">**<sp/>endptr,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>base)<sp/>__asm__(</highlight><highlight class="stringliteral">&quot;strtoll&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">uint64_t<sp/><ref refid="shell_8cpp_1a2a436694d0e8455fe9e689a154cd1686" kindref="member">parse_uint</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>num,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>base)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="shell_8cpp_1aef66c4552cfd9b10a867cde38f4486f1" kindref="member">legacy_strtoull</ref>(num.c_str(),<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/>base);<sp/>}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">uint64_t<sp/><ref refid="shell_8cpp_1ac4a342c3b28c760be0482a5c49127b20" kindref="member">parse_uint_c</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>str,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">**<sp/>end,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>base)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="shell_8cpp_1aef66c4552cfd9b10a867cde38f4486f1" kindref="member">legacy_strtoull</ref>(str,<sp/>end,<sp/>base);<sp/>}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">int64_t<sp/><sp/><ref refid="shell_8cpp_1a0a8691e22b2bcb52d877cfac4739a198" kindref="member">parse_int_c</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>str,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">**<sp/>end,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>base)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="shell_8cpp_1a9956c5a8df448b9412e2bd0233a2da06" kindref="member">legacy_strtoll</ref>(str,<sp/>end,<sp/>base);<sp/>}</highlight></codeline>
+    </programlisting>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/shell.cpp"/>
+  </compounddef>
+</doxygen>

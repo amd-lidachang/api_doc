@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_27ff0491e255b66fe325e42478074b6f" kind="dir">
+    <compoundname>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/logger</compoundname>
+    <innerfile refid="vart__logger_8cpp">vart_logger.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/logger/"/>
+  </compounddef>
+</doxygen>

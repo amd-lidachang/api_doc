@@ -1,0 +1,500 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structnpu__snapshot" kind="struct" language="C++" prot="public">
+    <compoundname>npu_snapshot</compoundname>
+    <includes refid="private_8h" local="no">private.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnpu__snapshot_1aaefadee5fbf2ff79841d5c3810fac2b8" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string npu_snapshot::boardname</definition>
+        <argsstring></argsstring>
+        <name>boardname</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="327" column="18" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="327" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__snapshot_1ac94f734e0c28acad89637315fca87868" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string npu_snapshot::path</definition>
+        <argsstring></argsstring>
+        <name>path</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="328" column="18" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="328" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__snapshot_1ab1d0164f5dd84d90d490d233592794b9" prot="public" static="no" mutable="no">
+        <type><ref refid="fpga__info_8h_1afe7ded90c10a0e74d9627a16f660ad7e" kindref="member">FpgaArchitecture</ref></type>
+        <definition>FpgaArchitecture npu_snapshot::arch</definition>
+        <argsstring></argsstring>
+        <name>arch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="329" column="18" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="329" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__snapshot_1a6bc1010720344597ad697fab6221d146" prot="public" static="no" mutable="no">
+        <type><ref refid="fpga__info_8h_1a3ba9c79991b017d4949e2e4bc1386af4" kindref="member">FpgaFamily</ref></type>
+        <definition>FpgaFamily npu_snapshot::fpgaFamily</definition>
+        <argsstring></argsstring>
+        <name>fpgaFamily</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="330" column="18" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="330" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__snapshot_1a64711ddb10d862b1e2fa78e16dc2639e" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t npu_snapshot::timestamp</definition>
+        <argsstring></argsstring>
+        <name>timestamp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="331" column="18" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="331" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__snapshot_1a9bbca5ba4d14a23e0fb9590a614d03a8" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t npu_snapshot::ip_idx</definition>
+        <argsstring></argsstring>
+        <name>ip_idx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="332" column="18" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="332" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__snapshot_1aa596bd78ea32cc06392484e76bd1792d" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t npu_snapshot::sublayer_count</definition>
+        <argsstring></argsstring>
+        <name>sublayer_count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="335" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="335" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__snapshot_1adb2bf9fd62adfe3873e0f97a878b8b0f" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t npu_snapshot::index_mctrl_network</definition>
+        <argsstring></argsstring>
+        <name>index_mctrl_network</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="336" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="336" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__snapshot_1a60af3e038fc1658e918986955927a5a3" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t npu_snapshot::nbSupra</definition>
+        <argsstring></argsstring>
+        <name>nbSupra</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="337" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="337" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__snapshot_1a06bea7e6fb7294467f06f1b2d037ebf4" prot="public" static="no" mutable="no">
+        <type><ref refid="unionlm__coreBus__masterControl__config__aieml__v1c" kindref="compound">lm_coreBus_masterControl_config_aieml_v1c</ref></type>
+        <definition>lm_coreBus_masterControl_config_aieml_v1c npu_snapshot::config</definition>
+        <argsstring></argsstring>
+        <name>config</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="339" column="43" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="339" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__snapshot_1a2d82fed643f53f801a599899f3f4e916" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; struct <ref refid="structaddr" kindref="compound">addr</ref> &gt;</type>
+        <definition>std::vector&lt;struct addr&gt; npu_snapshot::context_addr</definition>
+        <argsstring></argsstring>
+        <name>context_addr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="341" column="13" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="341" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__snapshot_1ac70f6425bfa7134263a08cd2d67c1cd0" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; size_t &gt;</type>
+        <definition>std::vector&lt;size_t&gt; npu_snapshot::context_size</definition>
+        <argsstring></argsstring>
+        <name>context_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="342" column="18" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="342" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__snapshot_1aa2b33b996b724e5bec8edb13b9301f8c" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; struct <ref refid="structaddr" kindref="compound">addr</ref> &gt;</type>
+        <definition>std::vector&lt;struct addr&gt; npu_snapshot::config_addr</definition>
+        <argsstring></argsstring>
+        <name>config_addr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="343" column="13" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="343" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__snapshot_1aec18214ebdeb606b57224c3d7c649567" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; size_t &gt;</type>
+        <definition>std::vector&lt;size_t&gt; npu_snapshot::config_size</definition>
+        <argsstring></argsstring>
+        <name>config_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="344" column="18" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="344" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__snapshot_1aae56ec88e9b9b6360be57167975993fa" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; size_t &gt;</type>
+        <definition>std::vector&lt;size_t&gt; npu_snapshot::config_addr_in_snap</definition>
+        <argsstring></argsstring>
+        <name>config_addr_in_snap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="345" column="18" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="345" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__snapshot_1a8d3333e0dc9ed1eda037b36b2980218f" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; struct <ref refid="structaddr" kindref="compound">addr</ref> &gt;</type>
+        <definition>std::vector&lt;struct addr&gt; npu_snapshot::tmp_area_addr</definition>
+        <argsstring></argsstring>
+        <name>tmp_area_addr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="346" column="13" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="346" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__snapshot_1ae8ce4e0c90074b0ab6e4542c84ff16b6" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; size_t &gt;</type>
+        <definition>std::vector&lt;size_t&gt; npu_snapshot::tmp_area_size</definition>
+        <argsstring></argsstring>
+        <name>tmp_area_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="347" column="18" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="347" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__snapshot_1a405cbaeed87d06bb493440dd0da8becb" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; size_t &gt;</type>
+        <definition>std::vector&lt;size_t&gt; npu_snapshot::tmp_area_addr_in_snap</definition>
+        <argsstring></argsstring>
+        <name>tmp_area_addr_in_snap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="348" column="18" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="348" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__snapshot_1ab398351be4261529736a7d360ecba812" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; size_t &gt;</type>
+        <definition>std::vector&lt;size_t&gt; npu_snapshot::constant_size</definition>
+        <argsstring></argsstring>
+        <name>constant_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="349" column="18" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="349" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__snapshot_1aef28b025af1ee3756ed4c1ddb32da8cd" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; size_t &gt;</type>
+        <definition>std::vector&lt;size_t&gt; npu_snapshot::constant_addr_in_snap</definition>
+        <argsstring></argsstring>
+        <name>constant_addr_in_snap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="350" column="18" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="350" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__snapshot_1abe7e27cdab8d2c300c8a551af2154476" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t npu_snapshot::pl_timestamp</definition>
+        <argsstring></argsstring>
+        <name>pl_timestamp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="352" column="41" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="352" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__snapshot_1af5bc14d0e3390abeb04c0f8ce7888ddb" prot="public" static="no" mutable="no">
+        <type>std::map&lt; uint64_t, uint32_t &gt;</type>
+        <definition>std::map&lt;uint64_t, uint32_t&gt; npu_snapshot::pl_info</definition>
+        <argsstring></argsstring>
+        <name>pl_info</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="353" column="21" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="353" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__snapshot_1a572b89136ede0ebaf07eb4b10acc8309" prot="public" static="no" mutable="no">
+        <type>std::map&lt; std::string, struct <ref refid="structpl__tensor" kindref="compound">pl_tensor</ref> &gt;</type>
+        <definition>std::map&lt;std::string, struct pl_tensor&gt; npu_snapshot::pl</definition>
+        <argsstring></argsstring>
+        <name>pl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="354" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="354" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__snapshot_1a995a5bf29ea646acdf679a8f9848a295" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; struct <ref refid="structnpu__tensor" kindref="compound">npu_tensor</ref> &gt;</type>
+        <definition>std::vector&lt;struct npu_tensor&gt; npu_snapshot::inputs</definition>
+        <argsstring></argsstring>
+        <name>inputs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="356" column="22" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="356" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__snapshot_1a7ae36ec98c946cf8859d06466ffdff2f" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; struct <ref refid="structnpu__tensor" kindref="compound">npu_tensor</ref> &gt;</type>
+        <definition>std::vector&lt;struct npu_tensor&gt; npu_snapshot::outputs</definition>
+        <argsstring></argsstring>
+        <name>outputs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="357" column="22" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="357" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__snapshot_1af2b786bcdf5a23f72d660d4ee9cdc584" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; struct <ref refid="structnpu__constant__tensor" kindref="compound">npu_constant_tensor</ref> &gt;</type>
+        <definition>std::vector&lt;struct npu_constant_tensor&gt; npu_snapshot::constants</definition>
+        <argsstring></argsstring>
+        <name>constants</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="358" column="13" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="358" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__snapshot_1a7f38ce9a19f524d0f5975501329db416" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; std::pair&lt; size_t, size_t &gt; &gt;</type>
+        <definition>std::vector&lt;std::pair&lt;size_t, size_t&gt; &gt; npu_snapshot::active_cores</definition>
+        <argsstring></argsstring>
+        <name>active_cores</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="360" column="30" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="360" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__snapshot_1aafc77e3bc9753a8d5474a49f0946ed76" prot="public" static="no" mutable="no">
+        <type>std::map&lt; size_t, size_t &gt;</type>
+        <definition>std::map&lt;size_t, size_t&gt; npu_snapshot::srv_write_sequence</definition>
+        <argsstring></argsstring>
+        <name>srv_write_sequence</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="361" column="41" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="361" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__snapshot_1a9c806f2fe6b9513bad874efb37aba3bf" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; std::pair&lt; uint64_t, std::vector&lt; uint32_t &gt; &gt; &gt;</type>
+        <definition>std::vector&lt;std::pair&lt;uint64_t, std::vector&lt;uint32_t&gt; &gt; &gt; npu_snapshot::ctrl_reg_config</definition>
+        <argsstring></argsstring>
+        <name>ctrl_reg_config</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="362" column="13" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="362" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__snapshot_1a19f158f8807bd3e0c5968579e873a581" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool npu_snapshot::is_nbuff_en</definition>
+        <argsstring></argsstring>
+        <name>is_nbuff_en</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="364" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="364" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__snapshot_1ae365f29dd9f2066b8065ebedbcda9011" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool npu_snapshot::checkConfig</definition>
+        <argsstring></argsstring>
+        <name>checkConfig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="365" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="365" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__snapshot_1addd9542bf38c9ec5bc218a4b86b377a7" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool npu_snapshot::debug_show_IO_address</definition>
+        <argsstring></argsstring>
+        <name>debug_show_IO_address</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="366" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="366" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__snapshot_1ac0b2a669cc94edc57cc88d13347f8761" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool npu_snapshot::skipTimestampCheck</definition>
+        <argsstring></argsstring>
+        <name>skipTimestampCheck</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="367" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="367" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Structure of a snapshot. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>This structure contains all the parameters needed to run a snapshot. They are retrived by parsing the snapshot files. </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>npu_snapshot</label>
+        <link refid="structnpu__snapshot"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>config</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>lm_coreBus_masterControl_config_aieml_v1c_bf</label>
+        <link refid="structlm__coreBus__masterControl__config__aieml__v1c__bf"/>
+      </node>
+      <node id="2">
+        <label>lm_coreBus_masterControl_config_aieml_v1c</label>
+        <link refid="unionlm__coreBus__masterControl__config__aieml__v1c"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>bf</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="325" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="326" bodyend="368"/>
+    <listofallmembers>
+      <member refid="structnpu__snapshot_1a7f38ce9a19f524d0f5975501329db416" prot="public" virt="non-virtual"><scope>npu_snapshot</scope><name>active_cores</name></member>
+      <member refid="structnpu__snapshot_1ab1d0164f5dd84d90d490d233592794b9" prot="public" virt="non-virtual"><scope>npu_snapshot</scope><name>arch</name></member>
+      <member refid="structnpu__snapshot_1aaefadee5fbf2ff79841d5c3810fac2b8" prot="public" virt="non-virtual"><scope>npu_snapshot</scope><name>boardname</name></member>
+      <member refid="structnpu__snapshot_1ae365f29dd9f2066b8065ebedbcda9011" prot="public" virt="non-virtual"><scope>npu_snapshot</scope><name>checkConfig</name></member>
+      <member refid="structnpu__snapshot_1a06bea7e6fb7294467f06f1b2d037ebf4" prot="public" virt="non-virtual"><scope>npu_snapshot</scope><name>config</name></member>
+      <member refid="structnpu__snapshot_1aa2b33b996b724e5bec8edb13b9301f8c" prot="public" virt="non-virtual"><scope>npu_snapshot</scope><name>config_addr</name></member>
+      <member refid="structnpu__snapshot_1aae56ec88e9b9b6360be57167975993fa" prot="public" virt="non-virtual"><scope>npu_snapshot</scope><name>config_addr_in_snap</name></member>
+      <member refid="structnpu__snapshot_1aec18214ebdeb606b57224c3d7c649567" prot="public" virt="non-virtual"><scope>npu_snapshot</scope><name>config_size</name></member>
+      <member refid="structnpu__snapshot_1aef28b025af1ee3756ed4c1ddb32da8cd" prot="public" virt="non-virtual"><scope>npu_snapshot</scope><name>constant_addr_in_snap</name></member>
+      <member refid="structnpu__snapshot_1ab398351be4261529736a7d360ecba812" prot="public" virt="non-virtual"><scope>npu_snapshot</scope><name>constant_size</name></member>
+      <member refid="structnpu__snapshot_1af2b786bcdf5a23f72d660d4ee9cdc584" prot="public" virt="non-virtual"><scope>npu_snapshot</scope><name>constants</name></member>
+      <member refid="structnpu__snapshot_1a2d82fed643f53f801a599899f3f4e916" prot="public" virt="non-virtual"><scope>npu_snapshot</scope><name>context_addr</name></member>
+      <member refid="structnpu__snapshot_1ac70f6425bfa7134263a08cd2d67c1cd0" prot="public" virt="non-virtual"><scope>npu_snapshot</scope><name>context_size</name></member>
+      <member refid="structnpu__snapshot_1a9c806f2fe6b9513bad874efb37aba3bf" prot="public" virt="non-virtual"><scope>npu_snapshot</scope><name>ctrl_reg_config</name></member>
+      <member refid="structnpu__snapshot_1addd9542bf38c9ec5bc218a4b86b377a7" prot="public" virt="non-virtual"><scope>npu_snapshot</scope><name>debug_show_IO_address</name></member>
+      <member refid="structnpu__snapshot_1a6bc1010720344597ad697fab6221d146" prot="public" virt="non-virtual"><scope>npu_snapshot</scope><name>fpgaFamily</name></member>
+      <member refid="structnpu__snapshot_1adb2bf9fd62adfe3873e0f97a878b8b0f" prot="public" virt="non-virtual"><scope>npu_snapshot</scope><name>index_mctrl_network</name></member>
+      <member refid="structnpu__snapshot_1a995a5bf29ea646acdf679a8f9848a295" prot="public" virt="non-virtual"><scope>npu_snapshot</scope><name>inputs</name></member>
+      <member refid="structnpu__snapshot_1a9bbca5ba4d14a23e0fb9590a614d03a8" prot="public" virt="non-virtual"><scope>npu_snapshot</scope><name>ip_idx</name></member>
+      <member refid="structnpu__snapshot_1a19f158f8807bd3e0c5968579e873a581" prot="public" virt="non-virtual"><scope>npu_snapshot</scope><name>is_nbuff_en</name></member>
+      <member refid="structnpu__snapshot_1a60af3e038fc1658e918986955927a5a3" prot="public" virt="non-virtual"><scope>npu_snapshot</scope><name>nbSupra</name></member>
+      <member refid="structnpu__snapshot_1a7ae36ec98c946cf8859d06466ffdff2f" prot="public" virt="non-virtual"><scope>npu_snapshot</scope><name>outputs</name></member>
+      <member refid="structnpu__snapshot_1ac94f734e0c28acad89637315fca87868" prot="public" virt="non-virtual"><scope>npu_snapshot</scope><name>path</name></member>
+      <member refid="structnpu__snapshot_1a572b89136ede0ebaf07eb4b10acc8309" prot="public" virt="non-virtual"><scope>npu_snapshot</scope><name>pl</name></member>
+      <member refid="structnpu__snapshot_1af5bc14d0e3390abeb04c0f8ce7888ddb" prot="public" virt="non-virtual"><scope>npu_snapshot</scope><name>pl_info</name></member>
+      <member refid="structnpu__snapshot_1abe7e27cdab8d2c300c8a551af2154476" prot="public" virt="non-virtual"><scope>npu_snapshot</scope><name>pl_timestamp</name></member>
+      <member refid="structnpu__snapshot_1ac0b2a669cc94edc57cc88d13347f8761" prot="public" virt="non-virtual"><scope>npu_snapshot</scope><name>skipTimestampCheck</name></member>
+      <member refid="structnpu__snapshot_1aafc77e3bc9753a8d5474a49f0946ed76" prot="public" virt="non-virtual"><scope>npu_snapshot</scope><name>srv_write_sequence</name></member>
+      <member refid="structnpu__snapshot_1aa596bd78ea32cc06392484e76bd1792d" prot="public" virt="non-virtual"><scope>npu_snapshot</scope><name>sublayer_count</name></member>
+      <member refid="structnpu__snapshot_1a64711ddb10d862b1e2fa78e16dc2639e" prot="public" virt="non-virtual"><scope>npu_snapshot</scope><name>timestamp</name></member>
+      <member refid="structnpu__snapshot_1a8d3333e0dc9ed1eda037b36b2980218f" prot="public" virt="non-virtual"><scope>npu_snapshot</scope><name>tmp_area_addr</name></member>
+      <member refid="structnpu__snapshot_1a405cbaeed87d06bb493440dd0da8becb" prot="public" virt="non-virtual"><scope>npu_snapshot</scope><name>tmp_area_addr_in_snap</name></member>
+      <member refid="structnpu__snapshot_1ae8ce4e0c90074b0ab6e4542c84ff16b6" prot="public" virt="non-virtual"><scope>npu_snapshot</scope><name>tmp_area_size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

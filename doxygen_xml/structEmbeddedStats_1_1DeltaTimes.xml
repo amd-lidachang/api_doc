@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structEmbeddedStats_1_1DeltaTimes" kind="struct" language="C++" prot="private">
+    <compoundname>EmbeddedStats::DeltaTimes</compoundname>
+    <innerclass refid="structEmbeddedStats_1_1DeltaTimes_1_1Framework" prot="public">EmbeddedStats::DeltaTimes::Framework</innerclass>
+    <innerclass refid="structEmbeddedStats_1_1DeltaTimes_1_1Npu" prot="public">EmbeddedStats::DeltaTimes::Npu</innerclass>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structEmbeddedStats_1_1DeltaTimes_1a836a683ec9b1ceee21fc6566f5de83bc" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EmbeddedStats::DeltaTimes::wholeGraph</definition>
+        <argsstring></argsstring>
+        <name>wholeGraph</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="276" column="11" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="276" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1_1DeltaTimes_1a204e7d17cd3a5d4f5c8e1e3a8b5caf58" prot="public" static="no" mutable="no">
+        <type><ref refid="structEmbeddedStats_1_1DeltaTimes_1_1Npu" kindref="compound">Npu</ref></type>
+        <definition>Npu EmbeddedStats::DeltaTimes::npu</definition>
+        <argsstring></argsstring>
+        <name>npu</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="277" column="11" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="277" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1_1DeltaTimes_1a22b372a30224b2e528ec09247e6970d6" prot="public" static="no" mutable="no">
+        <type><ref refid="structEmbeddedStats_1_1DeltaTimes_1_1Framework" kindref="compound">Framework</ref></type>
+        <definition>Framework EmbeddedStats::DeltaTimes::framework</definition>
+        <argsstring></argsstring>
+        <name>framework</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="278" column="11" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="278" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>EmbeddedStats::DeltaTimes::Framework</label>
+        <link refid="structEmbeddedStats_1_1DeltaTimes_1_1Framework"/>
+      </node>
+      <node id="2">
+        <label>EmbeddedStats::DeltaTimes::Npu</label>
+        <link refid="structEmbeddedStats_1_1DeltaTimes_1_1Npu"/>
+      </node>
+      <node id="1">
+        <label>EmbeddedStats::DeltaTimes</label>
+        <childnode refid="2" relation="usage">
+          <edgelabel>npu</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>framework</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="256" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="257" bodyend="279"/>
+    <listofallmembers>
+      <member refid="structEmbeddedStats_1_1DeltaTimes_1a22b372a30224b2e528ec09247e6970d6" prot="public" virt="non-virtual"><scope>EmbeddedStats::DeltaTimes</scope><name>framework</name></member>
+      <member refid="structEmbeddedStats_1_1DeltaTimes_1a204e7d17cd3a5d4f5c8e1e3a8b5caf58" prot="public" virt="non-virtual"><scope>EmbeddedStats::DeltaTimes</scope><name>npu</name></member>
+      <member refid="structEmbeddedStats_1_1DeltaTimes_1a836a683ec9b1ceee21fc6566f5de83bc" prot="public" virt="non-virtual"><scope>EmbeddedStats::DeltaTimes</scope><name>wholeGraph</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_6b8736681e771c820e792320c8ba13fe" kind="dir">
+    <compoundname>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/overlay</compoundname>
+    <innerfile refid="vart__overlay_8cpp">vart_overlay.cpp</innerfile>
+    <innerfile refid="vart__overlay__impl__opencv_8cpp">vart_overlay_impl_opencv.cpp</innerfile>
+    <innerfile refid="vart__overlay__impl__opencv_8hpp">vart_overlay_impl_opencv.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/overlay/"/>
+  </compounddef>
+</doxygen>

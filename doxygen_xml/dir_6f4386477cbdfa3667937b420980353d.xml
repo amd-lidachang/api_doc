@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_6f4386477cbdfa3667937b420980353d" kind="dir">
+    <compoundname>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io</compoundname>
+    <innerfile refid="vart__ml__io_8c">vart_ml_io.c</innerfile>
+    <innerfile refid="vart__ml__io_8h">vart_ml_io.h</innerfile>
+    <innerfile refid="vart__ml__io__devmem_8cpp">vart_ml_io_devmem.cpp</innerfile>
+    <innerfile refid="vart__ml__io__devmem_8h">vart_ml_io_devmem.h</innerfile>
+    <innerfile refid="vart__ml__io__uio_8cpp">vart_ml_io_uio.cpp</innerfile>
+    <innerfile refid="vart__ml__io__uio_8h">vart_ml_io_uio.h</innerfile>
+    <innerfile refid="vart__ml__io__xrt_8cpp">vart_ml_io_xrt.cpp</innerfile>
+    <innerfile refid="vart__ml__io__xrt_8h">vart_ml_io_xrt.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/"/>
+  </compounddef>
+</doxygen>

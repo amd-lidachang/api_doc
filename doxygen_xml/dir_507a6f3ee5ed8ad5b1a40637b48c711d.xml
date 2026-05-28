@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_507a6f3ee5ed8ad5b1a40637b48c711d" kind="dir">
+    <compoundname>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include</compoundname>
+    <innerdir refid="dir_56e12d7ea65c6165033ded5e8f91c8d6">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base</innerdir>
+    <innerfile refid="vart__device_8hpp">vart_device.hpp</innerfile>
+    <innerfile refid="vart__inferresult_8hpp">vart_inferresult.hpp</innerfile>
+    <innerfile refid="vart__inferresult__types_8hpp">vart_inferresult_types.hpp</innerfile>
+    <innerfile refid="vart__logger_8hpp">vart_logger.hpp</innerfile>
+    <innerfile refid="vart__logger__types_8hpp">vart_logger_types.hpp</innerfile>
+    <innerfile refid="vart__memory_8hpp">vart_memory.hpp</innerfile>
+    <innerfile refid="vart__memory__types_8hpp">vart_memory_types.hpp</innerfile>
+    <innerfile refid="vart__metaconvert_8hpp">vart_metaconvert.hpp</innerfile>
+    <innerfile refid="vart__overlay_8hpp">vart_overlay.hpp</innerfile>
+    <innerfile refid="vart__overlay__types_8hpp">vart_overlay_types.hpp</innerfile>
+    <innerfile refid="vart__plkernel_8hpp">vart_plkernel.hpp</innerfile>
+    <innerfile refid="vart__plkernel__types_8hpp">vart_plkernel_types.hpp</innerfile>
+    <innerfile refid="vart__postprocess_8hpp">vart_postprocess.hpp</innerfile>
+    <innerfile refid="vart__postprocess__types_8hpp">vart_postprocess_types.hpp</innerfile>
+    <innerfile refid="vart__preprocess_8hpp">vart_preprocess.hpp</innerfile>
+    <innerfile refid="vart__preprocess__types_8hpp">vart_preprocess_types.hpp</innerfile>
+    <innerfile refid="vart__tracker_8hpp">vart_tracker.hpp</innerfile>
+    <innerfile refid="vart__tracker__types_8hpp">vart_tracker_types.hpp</innerfile>
+    <innerfile refid="vart__videoframe_8hpp">vart_videoframe.hpp</innerfile>
+    <innerfile refid="vart__videoframe__types_8hpp">vart_videoframe_types.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,268 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classvart_1_1PreProcessImplBase" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>vart::PreProcessImplBase</compoundname>
+    <derivedcompoundref refid="classvart_1_1PreProcessImplImgProc" prot="public" virt="non-virtual">vart::PreProcessImplImgProc</derivedcompoundref>
+    <includes refid="vart__preprocess__impl__base_8hpp" local="no">vart_preprocess_impl_base.hpp</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classvart_1_1PreProcessImplBase_1a037dc707c5bd5dfabfbfb1057b0e0beb" prot="protected" static="no" mutable="no">
+        <type><ref refid="structvart_1_1PreProcessInfo" kindref="compound">PreProcessInfo</ref></type>
+        <definition>PreProcessInfo vart::PreProcessImplBase::preprocess_info</definition>
+        <argsstring></argsstring>
+        <name>preprocess_info</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base/vart_preprocess_impl_base.hpp" line="86" column="18" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base/vart_preprocess_impl_base.hpp" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvart_1_1PreProcessImplBase_1a78de51a756a316d29de9c88da534520f" prot="protected" static="no" mutable="no">
+        <type><ref refid="structvart_1_1VideoInfo" kindref="compound">VideoInfo</ref></type>
+        <definition>VideoInfo vart::PreProcessImplBase::out_vinfo</definition>
+        <argsstring></argsstring>
+        <name>out_vinfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base/vart_preprocess_impl_base.hpp" line="87" column="13" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base/vart_preprocess_impl_base.hpp" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classvart_1_1PreProcessImplBase_1a406b774ab680e1be14a0500bfa02bc8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>vart::PreProcessImplBase::PreProcessImplBase</definition>
+        <argsstring>()=default</argsstring>
+        <name>PreProcessImplBase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base/vart_preprocess_impl_base.hpp" line="30" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1PreProcessImplBase_1a5a9c14fc94ef3a9723bc542e2d6e5ca0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual vart::PreProcessImplBase::~PreProcessImplBase</definition>
+        <argsstring>()</argsstring>
+        <name>~PreProcessImplBase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base/vart_preprocess_impl_base.hpp" line="32" column="11" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base/vart_preprocess_impl_base.hpp" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1PreProcessImplBase_1af7f39746c82f20152be1f1bdf0b28471" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void vart::PreProcessImplBase::process</definition>
+        <argsstring>(std::vector&lt; PreProcessOp &gt; &amp;preprocess_ops)=0</argsstring>
+        <name>process</name>
+        <reimplementedby refid="classvart_1_1PreProcessImplImgProc_1a3d0334c7020331d5c945f3dcab2089d2">process</reimplementedby>
+        <param>
+          <type>std::vector&lt; <ref refid="structvart_1_1PreProcessOp" kindref="compound">PreProcessOp</ref> &gt; &amp;</type>
+          <declname>preprocess_ops</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="classvart_1_1PreProcessImplBase_1af7f39746c82f20152be1f1bdf0b28471" kindref="member">process()</ref> - Perform pre-processing based on the specified parameters. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>preprocess_ops</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Vector of <ref refid="structvart_1_1PreProcessOp" kindref="compound">PreProcessOp</ref> to be performed. <ref refid="structvart_1_1PreProcessOp" kindref="compound">PreProcessOp</ref> contains input/output frame and their corresponding ROI. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base/vart_preprocess_impl_base.hpp" line="41" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1PreProcessImplBase_1a6fa7616ac8e0341cf653fbc294f0900e" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void vart::PreProcessImplBase::get_input_vinfo</definition>
+        <argsstring>(int32_t height, int32_t width, VideoFormat fmt, VideoInfo &amp;vinfo)=0</argsstring>
+        <name>get_input_vinfo</name>
+        <reimplementedby refid="classvart_1_1PreProcessImplImgProc_1a912b4158b840f4338f65bf10772bc3bc">get_input_vinfo</reimplementedby>
+        <param>
+          <type>int32_t</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type>int32_t</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacevart_1a0701d5498bcfe62aa2293fd856702b8d" kindref="member">VideoFormat</ref></type>
+          <declname>fmt</declname>
+        </param>
+        <param>
+          <type><ref refid="structvart_1_1VideoInfo" kindref="compound">VideoInfo</ref> &amp;</type>
+          <declname>vinfo</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="classvart_1_1PreProcessImplBase_1a6fa7616ac8e0341cf653fbc294f0900e" kindref="member">get_input_vinfo()</ref> - Fills the input video info from input params. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>height</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Height of the input frame.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>width</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Width of the input frame.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fmt</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Video format of the input frame.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>vinfo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="structvart_1_1VideoInfo" kindref="compound">VideoInfo</ref> which can be filled by api. Filled api can be used to construct input videoframe. User must provide valid pointer. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base/vart_preprocess_impl_base.hpp" line="59" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1PreProcessImplBase_1a8ac4a3b01e532a67e4d96c4ac109c96b" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>const <ref refid="structvart_1_1VideoInfo" kindref="compound">VideoInfo</ref> &amp;</type>
+        <definition>virtual const VideoInfo&amp; vart::PreProcessImplBase::get_output_vinfo</definition>
+        <argsstring>()=0</argsstring>
+        <name>get_output_vinfo</name>
+        <reimplementedby refid="classvart_1_1PreProcessImplImgProc_1ae593d4b31b798f6dcd9b9fd7232f817e">get_output_vinfo</reimplementedby>
+        <briefdescription>
+<para><ref refid="classvart_1_1PreProcessImplBase_1a8ac4a3b01e532a67e4d96c4ac109c96b" kindref="member">get_output_vinfo()</ref> - Get the output video info. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="structvart_1_1VideoInfo" kindref="compound">VideoInfo</ref> which can be used to construct output video frame. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base/vart_preprocess_impl_base.hpp" line="70" column="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1PreProcessImplBase_1a066f646fa13b2f506c4b990fb895b2ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void vart::PreProcessImplBase::set_preprocess_info</definition>
+        <argsstring>(PreProcessInfo &amp;preprocess_info)=0</argsstring>
+        <name>set_preprocess_info</name>
+        <reimplementedby refid="classvart_1_1PreProcessImplImgProc_1a3be1c4538052a5303ba7f038012ce632">set_preprocess_info</reimplementedby>
+        <param>
+          <type><ref refid="structvart_1_1PreProcessInfo" kindref="compound">PreProcessInfo</ref> &amp;</type>
+          <declname>preprocess_info</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="classvart_1_1PreProcessImplBase_1a066f646fa13b2f506c4b990fb895b2ba" kindref="member">set_preprocess_info()</ref> - Set the required Preprocess parameters. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base/vart_preprocess_impl_base.hpp" line="75" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1PreProcessImplBase_1a2f5f4bdcf49b0cb1ead076b95d7e92c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>const <ref refid="structvart_1_1PreProcessInfo" kindref="compound">PreProcessInfo</ref> &amp;</type>
+        <definition>virtual const PreProcessInfo&amp; vart::PreProcessImplBase::get_preprocess_info</definition>
+        <argsstring>()=0</argsstring>
+        <name>get_preprocess_info</name>
+        <reimplementedby refid="classvart_1_1PreProcessImplImgProc_1a4bcb121b7a547a675ac0d0d5a96a0b08">get_preprocess_info</reimplementedby>
+        <briefdescription>
+<para><ref refid="classvart_1_1PreProcessImplBase_1a2f5f4bdcf49b0cb1ead076b95d7e92c9" kindref="member">get_preprocess_info()</ref> - Get the preprocess info </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="structvart_1_1PreProcessInfo" kindref="compound">PreProcessInfo</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base/vart_preprocess_impl_base.hpp" line="83" column="32"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>vart::PreProcessImplImgProc</label>
+        <link refid="classvart_1_1PreProcessImplImgProc"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>vart::PreProcessImplBase</label>
+        <link refid="classvart_1_1PreProcessImplBase"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>vart::VideoAlignment</label>
+        <link refid="structvart_1_1VideoAlignment"/>
+      </node>
+      <node id="1">
+        <label>vart::PreProcessImplBase</label>
+        <link refid="classvart_1_1PreProcessImplBase"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>out_vinfo</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>preprocess_info</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>vart::PreProcessInfo</label>
+        <link refid="structvart_1_1PreProcessInfo"/>
+      </node>
+      <node id="2">
+        <label>vart::VideoInfo</label>
+        <link refid="structvart_1_1VideoInfo"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>alignment</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base/vart_preprocess_impl_base.hpp" line="28" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base/vart_preprocess_impl_base.hpp" bodystart="28" bodyend="88"/>
+    <listofallmembers>
+      <member refid="classvart_1_1PreProcessImplBase_1a6fa7616ac8e0341cf653fbc294f0900e" prot="public" virt="pure-virtual"><scope>vart::PreProcessImplBase</scope><name>get_input_vinfo</name></member>
+      <member refid="classvart_1_1PreProcessImplBase_1a8ac4a3b01e532a67e4d96c4ac109c96b" prot="public" virt="pure-virtual"><scope>vart::PreProcessImplBase</scope><name>get_output_vinfo</name></member>
+      <member refid="classvart_1_1PreProcessImplBase_1a2f5f4bdcf49b0cb1ead076b95d7e92c9" prot="public" virt="pure-virtual"><scope>vart::PreProcessImplBase</scope><name>get_preprocess_info</name></member>
+      <member refid="classvart_1_1PreProcessImplBase_1a78de51a756a316d29de9c88da534520f" prot="protected" virt="non-virtual"><scope>vart::PreProcessImplBase</scope><name>out_vinfo</name></member>
+      <member refid="classvart_1_1PreProcessImplBase_1a037dc707c5bd5dfabfbfb1057b0e0beb" prot="protected" virt="non-virtual"><scope>vart::PreProcessImplBase</scope><name>preprocess_info</name></member>
+      <member refid="classvart_1_1PreProcessImplBase_1a406b774ab680e1be14a0500bfa02bc8a" prot="public" virt="non-virtual"><scope>vart::PreProcessImplBase</scope><name>PreProcessImplBase</name></member>
+      <member refid="classvart_1_1PreProcessImplBase_1af7f39746c82f20152be1f1bdf0b28471" prot="public" virt="pure-virtual"><scope>vart::PreProcessImplBase</scope><name>process</name></member>
+      <member refid="classvart_1_1PreProcessImplBase_1a066f646fa13b2f506c4b990fb895b2ba" prot="public" virt="pure-virtual"><scope>vart::PreProcessImplBase</scope><name>set_preprocess_info</name></member>
+      <member refid="classvart_1_1PreProcessImplBase_1a5a9c14fc94ef3a9723bc542e2d6e5ca0" prot="public" virt="virtual"><scope>vart::PreProcessImplBase</scope><name>~PreProcessImplBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

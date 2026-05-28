@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structvcd__context" kind="struct" language="C++" prot="public">
+    <compoundname>vcd_context</compoundname>
+    <includes refid="vcd__stats_8h" local="no">vcd_stats.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structvcd__context_1a56ab530dbfc30a9b5ffec9f761ee6e7f" prot="public" static="no" mutable="no">
+        <type>int8_t</type>
+        <definition>int8_t vcd_context::network_id</definition>
+        <argsstring></argsstring>
+        <name>network_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.h" line="33" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvcd__context_1a888da9416a60630188729dfcd2aace3d" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t vcd_context::thread_id</definition>
+        <argsstring></argsstring>
+        <name>thread_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.h" line="34" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.h" line="31" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.h" bodystart="32" bodyend="35"/>
+    <listofallmembers>
+      <member refid="structvcd__context_1a56ab530dbfc30a9b5ffec9f761ee6e7f" prot="public" virt="non-virtual"><scope>vcd_context</scope><name>network_id</name></member>
+      <member refid="structvcd__context_1a888da9416a60630188729dfcd2aace3d" prot="public" virt="non-virtual"><scope>vcd_context</scope><name>thread_id</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

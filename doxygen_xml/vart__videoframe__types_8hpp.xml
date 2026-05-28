@@ -1,0 +1,335 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="vart__videoframe__types_8hpp" kind="file" language="C++">
+    <compoundname>vart_videoframe_types.hpp</compoundname>
+    <includes local="no">cstdint</includes>
+    <includes local="no">string</includes>
+    <includedby refid="vart__videoframe__impl__base_8hpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base/vart_videoframe_impl_base.hpp</includedby>
+    <includedby refid="vart__preprocess__types_8hpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_preprocess_types.hpp</includedby>
+    <includedby refid="vart__videoframe_8hpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_videoframe.hpp</includedby>
+    <includedby refid="vart__videoframe__impl__xrt_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/videoframe/vart_videoframe_impl_xrt.cpp</includedby>
+    <includedby refid="vart__videoframe__impl__xrt_8hpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/videoframe/vart_videoframe_impl_xrt.hpp</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>cstdint</label>
+      </node>
+      <node id="3">
+        <label>string</label>
+      </node>
+      <node id="1">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_videoframe_types.hpp</label>
+        <link refid="vart__videoframe__types_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="26">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_tracker.hpp</label>
+        <link refid="vart__tracker_8hpp"/>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base/vart_overlay_impl_base.hpp</label>
+        <link refid="vart__overlay__impl__base_8hpp"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/videoframe/vart_videoframe.cpp</label>
+        <link refid="vart__videoframe_8cpp"/>
+      </node>
+      <node id="18">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base/vart_metaconvert_impl_base.hpp</label>
+        <link refid="vart__metaconvert__impl__base_8hpp"/>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base/vart_preprocess_impl_base.hpp</label>
+        <link refid="vart__preprocess__impl__base_8hpp"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/videoframe/vart_videoframe_impl_xrt.cpp</label>
+        <link refid="vart__videoframe__impl__xrt_8cpp"/>
+      </node>
+      <node id="16">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_videoframe.hpp</label>
+        <link refid="vart__videoframe_8hpp"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_preprocess_types.hpp</label>
+        <link refid="vart__preprocess__types_8hpp"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay.hpp</label>
+        <link refid="vart__overlay_8hpp"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/metaconvert/vart_metaconv_impl_overlay.hpp</label>
+        <link refid="vart__metaconv__impl__overlay_8hpp"/>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/videoframe/vart_videoframe_impl_xrt.hpp</label>
+        <link refid="vart__videoframe__impl__xrt_8hpp"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_videoframe_types.hpp</label>
+        <link refid="vart__videoframe__types_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/tracker/vart_tracker_impl_default.hpp</label>
+        <link refid="vart__tracker__impl__default_8hpp"/>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/metaconvert/vart_metaconv_impl_overlay.cpp</label>
+        <link refid="vart__metaconv__impl__overlay_8cpp"/>
+      </node>
+      <node id="15">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_preprocess.hpp</label>
+        <link refid="vart__preprocess_8hpp"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/preprocess/vart_preprocess.cpp</label>
+        <link refid="vart__preprocess_8cpp"/>
+      </node>
+      <node id="5">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/overlay/vart_overlay_impl_opencv.cpp</label>
+        <link refid="vart__overlay__impl__opencv_8cpp"/>
+      </node>
+      <node id="24">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/tracker/vart_tracker.cpp</label>
+        <link refid="vart__tracker_8cpp"/>
+      </node>
+      <node id="7">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/preprocess/vart_preprocess_impl_imgproc.cpp</label>
+        <link refid="vart__preprocess__impl__imgproc_8cpp"/>
+      </node>
+      <node id="8">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/tracker/vart_tracker_impl_default.cpp</label>
+        <link refid="vart__tracker__impl__default_8cpp"/>
+      </node>
+      <node id="21">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/metaconvert/vart_metaconvert.cpp</label>
+        <link refid="vart__metaconvert_8cpp"/>
+      </node>
+      <node id="22">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base/vart_tracker_impl_base.hpp</label>
+        <link refid="vart__tracker__impl__base_8hpp"/>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base/vart_videoframe_impl_base.hpp</label>
+        <link refid="vart__videoframe__impl__base_8hpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/preprocess/vart_preprocess_impl_imgproc.hpp</label>
+        <link refid="vart__preprocess__impl__imgproc_8hpp"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/overlay/vart_overlay_impl_opencv.hpp</label>
+        <link refid="vart__overlay__impl__opencv_8hpp"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/overlay/vart_overlay.cpp</label>
+        <link refid="vart__overlay_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structvart_1_1VideoAlignment" prot="public">vart::VideoAlignment</innerclass>
+    <innerclass refid="structvart_1_1VideoInfo" prot="public">vart::VideoInfo</innerclass>
+    <innerclass refid="structvart_1_1VideoPlaneInfo" prot="public">vart::VideoPlaneInfo</innerclass>
+    <innerclass refid="structvart_1_1VideoFrameMapInfo" prot="public">vart::VideoFrameMapInfo</innerclass>
+    <innernamespace refid="namespacevart">vart</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="vart__videoframe__types_8hpp_1a436f15719c28c7024f5e7ed0a1ba6c28" prot="public" static="no">
+        <name>VART_VIDEO_MAX_PLANES</name>
+        <initializer>4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_videoframe_types.hpp" line="23" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_videoframe_types.hpp" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>2024<sp/>Advanced<sp/>Micro<sp/>Devices<sp/>Inc.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>Licensed<sp/>under<sp/>the<sp/>Apache<sp/>License,<sp/>Version<sp/>2.0<sp/>(the<sp/>&quot;License&quot;);</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>you<sp/>may<sp/>not<sp/>use<sp/>this<sp/>file<sp/>except<sp/>in<sp/>compliance<sp/>with<sp/>the<sp/>License.</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>You<sp/>may<sp/>obtain<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>License<sp/>at</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/>http://www.apache.org/licenses/LICENSE-2.0</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>Unless<sp/>required<sp/>by<sp/>applicable<sp/>law<sp/>or<sp/>agreed<sp/>to<sp/>in<sp/>writing,<sp/>software</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>distributed<sp/>under<sp/>the<sp/>License<sp/>is<sp/>distributed<sp/>on<sp/>an<sp/>&quot;AS<sp/>IS&quot;<sp/>BASIS,</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>WITHOUT<sp/>WARRANTIES<sp/>OR<sp/>CONDITIONS<sp/>OF<sp/>ANY<sp/>KIND,<sp/>either<sp/>express<sp/>or<sp/>implied.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>See<sp/>the<sp/>License<sp/>for<sp/>the<sp/>specific<sp/>language<sp/>governing<sp/>permissions<sp/>and</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>limitations<sp/>under<sp/>the<sp/>License.</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>VART_VIDEOFRAME_TYPES_HPP</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>VART_VIDEOFRAME_TYPES_HPP</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cstdint&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="vart__videoframe__types_8hpp_1a436f15719c28c7024f5e7ed0a1ba6c28" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>VART_VIDEO_MAX_PLANES<sp/>4</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacevart" kindref="compound">vart</ref><sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="namespacevart_1af6bbe787a7c472fd3a86348a8ab41a1e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="namespacevart_1af6bbe787a7c472fd3a86348a8ab41a1e" kindref="member">VideoFrameImplType</ref><sp/>{<sp/><ref refid="namespacevart_1af6bbe787a7c472fd3a86348a8ab41a1ea4845b8fe5647befc03de8b2ec3667940" kindref="member">XRT</ref>,<sp/><ref refid="namespacevart_1af6bbe787a7c472fd3a86348a8ab41a1eaa00696f5b1b55a6030162decd77d1a43" kindref="member">NON_CMA</ref><sp/>};</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="namespacevart_1a0701d5498bcfe62aa2293fd856702b8d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="namespacevart_1a0701d5498bcfe62aa2293fd856702b8d" kindref="member">VideoFormat</ref><sp/>{</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><ref refid="namespacevart_1a0701d5498bcfe62aa2293fd856702b8da696b031073e74bf2cb98e5ef201d4aa3" kindref="member">UNKNOWN</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><ref refid="namespacevart_1a0701d5498bcfe62aa2293fd856702b8da8b950fa97cc5265ca918e3b15227b584" kindref="member">Y_UV8_420</ref>,</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><ref refid="namespacevart_1a0701d5498bcfe62aa2293fd856702b8da747955e39f4af99e8998da7fa33f5043" kindref="member">RGBx</ref>,</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><ref refid="namespacevart_1a0701d5498bcfe62aa2293fd856702b8da7b7ac815bad7b2f9055a14aad56b8a8e" kindref="member">r210</ref>,</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><ref refid="namespacevart_1a0701d5498bcfe62aa2293fd856702b8daa49e1702fa604e9f87ab1eb90cb448a6" kindref="member">Y410</ref>,</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><ref refid="namespacevart_1a0701d5498bcfe62aa2293fd856702b8dae73e03d3572482b6e32ef51a401a6494" kindref="member">BGRx</ref>,</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><ref refid="namespacevart_1a0701d5498bcfe62aa2293fd856702b8da5a1fe3c61c9e2fd6dbbc823589f6e697" kindref="member">BGRA</ref>,</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><ref refid="namespacevart_1a0701d5498bcfe62aa2293fd856702b8daea3495a278957dc58165e48a8945469f" kindref="member">RGBA</ref>,</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><ref refid="namespacevart_1a0701d5498bcfe62aa2293fd856702b8dac4ae1e9efde614ab49c73b35107eefe1" kindref="member">YUY2</ref>,</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><ref refid="namespacevart_1a0701d5498bcfe62aa2293fd856702b8dad997e49e350ce182b01725dfc9eff89c" kindref="member">NV16</ref>,</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><ref refid="namespacevart_1a0701d5498bcfe62aa2293fd856702b8da889574aebacda6bfd3e534e2b49b8028" kindref="member">RGB</ref>,</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><ref refid="namespacevart_1a0701d5498bcfe62aa2293fd856702b8daca5555d39f24f3cdc1044b174c184ce6" kindref="member">v308</ref>,</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><ref refid="namespacevart_1a0701d5498bcfe62aa2293fd856702b8da2ad5640ebdec72fc79531d1778c6c2dc" kindref="member">BGR</ref>,</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><ref refid="namespacevart_1a0701d5498bcfe62aa2293fd856702b8da9feadb75847c54cccf518651c2680f38" kindref="member">I422_10LE</ref>,</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><ref refid="namespacevart_1a0701d5498bcfe62aa2293fd856702b8da554ed0637aa5f6a47694566b0a2a349c" kindref="member">NV12_10LE32</ref>,</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><ref refid="namespacevart_1a0701d5498bcfe62aa2293fd856702b8dab05f65488c7c7ff2ebca625a87e3e79e" kindref="member">GRAY8</ref>,</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><ref refid="namespacevart_1a0701d5498bcfe62aa2293fd856702b8da9d5f65871774914945c6ea35d237d8ff" kindref="member">GRAY10_LE32</ref>,</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><ref refid="namespacevart_1a0701d5498bcfe62aa2293fd856702b8dacd1ea458818d68e388b9356fd528d67a" kindref="member">I420</ref>,</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><ref refid="namespacevart_1a0701d5498bcfe62aa2293fd856702b8da17811743203cdd9b27cee5a3cf5fec3c" kindref="member">RGBP</ref>,</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><ref refid="namespacevart_1a0701d5498bcfe62aa2293fd856702b8da7cfdbc63b2e9bc38f1be8a63be3ad3b8" kindref="member">BGR_FLOAT</ref>,</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><ref refid="namespacevart_1a0701d5498bcfe62aa2293fd856702b8da180a30600b95e4f466139df1ee95108e" kindref="member">RGB_FLOAT</ref>,</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><ref refid="namespacevart_1a0701d5498bcfe62aa2293fd856702b8da94d81995e750bc52e54ff90c794e4ace" kindref="member">RGBP_FLOAT</ref>,</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><ref refid="namespacevart_1a0701d5498bcfe62aa2293fd856702b8dadffe6f8768b8a40cea14825d795c08c8" kindref="member">GRAY32_FLOAT</ref>,</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><ref refid="namespacevart_1a0701d5498bcfe62aa2293fd856702b8dab1f7b25f6b835bad720767002d756b11" kindref="member">RGBx_BF16</ref>,</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><ref refid="namespacevart_1a0701d5498bcfe62aa2293fd856702b8da4ec240018a941bb0bf5ad15ca9282901" kindref="member">BGRx_BF16</ref>,</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><ref refid="namespacevart_1a0701d5498bcfe62aa2293fd856702b8da74c6816e038a1f31f8801c1a84d27351" kindref="member">GRAY_BF16</ref></highlight></codeline>
+<codeline lineno="149"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172" refid="structvart_1_1VideoAlignment" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="173" refid="structvart_1_1VideoAlignment_1a0d2c1170d3dcfe358d7361c45f246cb4" refkind="member"><highlight class="normal"><sp/><sp/>uint32_t<sp/><ref refid="structvart_1_1VideoAlignment_1a0d2c1170d3dcfe358d7361c45f246cb4" kindref="member">padding_right</ref>;</highlight></codeline>
+<codeline lineno="174" refid="structvart_1_1VideoAlignment_1a12613a70701d45e8b636a040847e8e09" refkind="member"><highlight class="normal"><sp/><sp/>uint32_t<sp/><ref refid="structvart_1_1VideoAlignment_1a12613a70701d45e8b636a040847e8e09" kindref="member">padding_left</ref>;</highlight></codeline>
+<codeline lineno="175" refid="structvart_1_1VideoAlignment_1ac1f22d719cdef56bbf7ed6abc4f3b409" refkind="member"><highlight class="normal"><sp/><sp/>uint32_t<sp/><ref refid="structvart_1_1VideoAlignment_1ac1f22d719cdef56bbf7ed6abc4f3b409" kindref="member">padding_top</ref>;</highlight></codeline>
+<codeline lineno="176" refid="structvart_1_1VideoAlignment_1a1334e812384e391c2bbc8ea1df3c5787" refkind="member"><highlight class="normal"><sp/><sp/>uint32_t<sp/><ref refid="structvart_1_1VideoAlignment_1a1334e812384e391c2bbc8ea1df3c5787" kindref="member">padding_bottom</ref>;</highlight></codeline>
+<codeline lineno="177" refid="structvart_1_1VideoAlignment_1acbd7738cab7a2ce7233503a998289b1a" refkind="member"><highlight class="normal"><sp/><sp/>uint32_t<sp/>stride_align[<ref refid="vart__videoframe__types_8hpp_1a436f15719c28c7024f5e7ed0a1ba6c28" kindref="member">VART_VIDEO_MAX_PLANES</ref>];</highlight></codeline>
+<codeline lineno="178"><highlight class="normal">}<sp/><ref refid="structvart_1_1VideoAlignment" kindref="compound">VideoAlignment</ref>;</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206" refid="structvart_1_1VideoInfo" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="207" refid="structvart_1_1VideoInfo_1aa26f0e8fd80d5ab0892e22d2f25a17d3" refkind="member"><highlight class="normal"><sp/><sp/>int32_t<sp/><ref refid="structvart_1_1VideoInfo_1aa26f0e8fd80d5ab0892e22d2f25a17d3" kindref="member">width</ref>;</highlight></codeline>
+<codeline lineno="208" refid="structvart_1_1VideoInfo_1a643d9418f6b4e6a52cb49e83f179e993" refkind="member"><highlight class="normal"><sp/><sp/>int32_t<sp/><ref refid="structvart_1_1VideoInfo_1a643d9418f6b4e6a52cb49e83f179e993" kindref="member">height</ref>;</highlight></codeline>
+<codeline lineno="209" refid="structvart_1_1VideoInfo_1acd1479931133da6140079079eac75afa" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacevart_1a0701d5498bcfe62aa2293fd856702b8d" kindref="member">VideoFormat</ref><sp/><ref refid="structvart_1_1VideoInfo_1acd1479931133da6140079079eac75afa" kindref="member">fmt</ref>;</highlight></codeline>
+<codeline lineno="210" refid="structvart_1_1VideoInfo_1ae88fb7b7e7cdfb970883342858bde75e" refkind="member"><highlight class="normal"><sp/><sp/>uint32_t<sp/><ref refid="structvart_1_1VideoInfo_1ae88fb7b7e7cdfb970883342858bde75e" kindref="member">n_planes</ref>;</highlight></codeline>
+<codeline lineno="211" refid="structvart_1_1VideoInfo_1a7a3138b26e27c10e28d3e93a2d97c5fa" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>stride[<ref refid="vart__videoframe__types_8hpp_1a436f15719c28c7024f5e7ed0a1ba6c28" kindref="member">VART_VIDEO_MAX_PLANES</ref>];</highlight></codeline>
+<codeline lineno="212" refid="structvart_1_1VideoInfo_1abbc11217d41a76a71b2e93fdaa2ec77c" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>elevation[<ref refid="vart__videoframe__types_8hpp_1a436f15719c28c7024f5e7ed0a1ba6c28" kindref="member">VART_VIDEO_MAX_PLANES</ref>];</highlight></codeline>
+<codeline lineno="213" refid="structvart_1_1VideoInfo_1a2a8856e90916f278995f23e7ac5afb3b" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="structvart_1_1VideoAlignment" kindref="compound">VideoAlignment</ref><sp/><ref refid="structvart_1_1VideoInfo_1a2a8856e90916f278995f23e7ac5afb3b" kindref="member">alignment</ref>;</highlight></codeline>
+<codeline lineno="214"><highlight class="normal">}<sp/><ref refid="structvart_1_1VideoInfo" kindref="compound">VideoInfo</ref>;</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight></codeline>
+<codeline lineno="240" refid="structvart_1_1VideoPlaneInfo" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="241" refid="structvart_1_1VideoPlaneInfo_1abcc896f4760d7f6d8f3ee7cac24bc551" refkind="member"><highlight class="normal"><sp/><sp/>uint8_t*<sp/><ref refid="structvart_1_1VideoPlaneInfo_1abcc896f4760d7f6d8f3ee7cac24bc551" kindref="member">data</ref>;</highlight></codeline>
+<codeline lineno="242" refid="structvart_1_1VideoPlaneInfo_1a7822a0056d3091e098f00b5032a64d45" refkind="member"><highlight class="normal"><sp/><sp/>uint64_t<sp/><ref refid="structvart_1_1VideoPlaneInfo_1a7822a0056d3091e098f00b5032a64d45" kindref="member">phy_addr</ref>;</highlight></codeline>
+<codeline lineno="243" refid="structvart_1_1VideoPlaneInfo_1aa84fa897a21e0017221f298e030038b3" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="structvart_1_1VideoPlaneInfo_1aa84fa897a21e0017221f298e030038b3" kindref="member">size</ref>;</highlight></codeline>
+<codeline lineno="244" refid="structvart_1_1VideoPlaneInfo_1a85e57ddb979e98d52425d497da47b34a" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="structvart_1_1VideoPlaneInfo_1a85e57ddb979e98d52425d497da47b34a" kindref="member">offset</ref>;</highlight></codeline>
+<codeline lineno="245" refid="structvart_1_1VideoPlaneInfo_1abdd9eb4f20f658b16992054b247bac81" refkind="member"><highlight class="normal"><sp/><sp/>int32_t<sp/><ref refid="structvart_1_1VideoPlaneInfo_1abdd9eb4f20f658b16992054b247bac81" kindref="member">stride</ref>;</highlight></codeline>
+<codeline lineno="246" refid="structvart_1_1VideoPlaneInfo_1ac0ffb36c1dfbdbefd7e4b925745a09d9" refkind="member"><highlight class="normal"><sp/><sp/>int32_t<sp/><ref refid="structvart_1_1VideoPlaneInfo_1ac0ffb36c1dfbdbefd7e4b925745a09d9" kindref="member">elevation</ref>;</highlight></codeline>
+<codeline lineno="247"><highlight class="normal">}<sp/><ref refid="structvart_1_1VideoPlaneInfo" kindref="compound">VideoPlaneInfo</ref>;</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"></highlight></codeline>
+<codeline lineno="279" refid="structvart_1_1VideoFrameMapInfo" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="280" refid="structvart_1_1VideoFrameMapInfo_1ad87f32c570f722a693f80ee58a2c01c8" refkind="member"><highlight class="normal"><sp/><sp/>uint8_t<sp/><ref refid="structvart_1_1VideoFrameMapInfo_1ad87f32c570f722a693f80ee58a2c01c8" kindref="member">nplanes</ref>;</highlight></codeline>
+<codeline lineno="281" refid="structvart_1_1VideoFrameMapInfo_1ace033ec66302cee5bd7d715cc7c1c8fb" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="structvart_1_1VideoFrameMapInfo_1ace033ec66302cee5bd7d715cc7c1c8fb" kindref="member">size</ref>;</highlight></codeline>
+<codeline lineno="282" refid="structvart_1_1VideoFrameMapInfo_1a2a3da1840ff0050bdf49a5d7ff865edf" refkind="member"><highlight class="normal"><sp/><sp/>int32_t<sp/><ref refid="structvart_1_1VideoFrameMapInfo_1a2a3da1840ff0050bdf49a5d7ff865edf" kindref="member">width</ref>;</highlight></codeline>
+<codeline lineno="283" refid="structvart_1_1VideoFrameMapInfo_1a50f30ac72f7599a36600719b6f50a8ce" refkind="member"><highlight class="normal"><sp/><sp/>int32_t<sp/><ref refid="structvart_1_1VideoFrameMapInfo_1a50f30ac72f7599a36600719b6f50a8ce" kindref="member">height</ref>;</highlight></codeline>
+<codeline lineno="284" refid="structvart_1_1VideoFrameMapInfo_1a786f9107df6125ec7b86b1cc07715440" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacevart_1a0701d5498bcfe62aa2293fd856702b8d" kindref="member">VideoFormat</ref><sp/><ref refid="structvart_1_1VideoFrameMapInfo_1a786f9107df6125ec7b86b1cc07715440" kindref="member">fmt</ref>;</highlight></codeline>
+<codeline lineno="285" refid="structvart_1_1VideoFrameMapInfo_1a8a5d50498f17a33d9333ad22d5eb76f5" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="structvart_1_1VideoAlignment" kindref="compound">VideoAlignment</ref><sp/><ref refid="structvart_1_1VideoFrameMapInfo_1a8a5d50498f17a33d9333ad22d5eb76f5" kindref="member">alignment</ref>;</highlight></codeline>
+<codeline lineno="286" refid="structvart_1_1VideoFrameMapInfo_1a9e6bc35b7814c859fd8562425003050e" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="structvart_1_1VideoPlaneInfo" kindref="compound">VideoPlaneInfo</ref><sp/>planes[<ref refid="vart__videoframe__types_8hpp_1a436f15719c28c7024f5e7ed0a1ba6c28" kindref="member">VART_VIDEO_MAX_PLANES</ref>];</highlight></codeline>
+<codeline lineno="287" refid="structvart_1_1VideoFrameMapInfo_1a0856a6fc0145b64d54c370482ebe8747" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/><ref refid="structvart_1_1VideoFrameMapInfo_1a0856a6fc0145b64d54c370482ebe8747" kindref="member">usr_meta</ref>;</highlight></codeline>
+<codeline lineno="288"><highlight class="normal">}<sp/><ref refid="structvart_1_1VideoFrameMapInfo" kindref="compound">VideoFrameMapInfo</ref>;</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"></highlight></codeline>
+<codeline lineno="290"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>vart</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="291"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/></highlight><highlight class="comment">//<sp/>VART_VIDEOFRAME_TYPES_HPP</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_videoframe_types.hpp"/>
+  </compounddef>
+</doxygen>

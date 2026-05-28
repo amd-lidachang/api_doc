@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_14493a8392268948584cd08713724e0c" kind="dir">
+    <compoundname>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x</compoundname>
+    <innerdir refid="dir_08738484c6e7775ff38f4afe314dba13">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/device</innerdir>
+    <innerdir refid="dir_507a6f3ee5ed8ad5b1a40637b48c711d">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include</innerdir>
+    <innerdir refid="dir_ac7bf5b8cd8d20fe94bb9c749b8a6ab3">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/inferresult</innerdir>
+    <innerdir refid="dir_27ff0491e255b66fe325e42478074b6f">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/logger</innerdir>
+    <innerdir refid="dir_82f65115b7620b3b73f910b79931b7c4">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/memory</innerdir>
+    <innerdir refid="dir_ddf8b6ee02cfc4d937ee402840689681">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/metaconvert</innerdir>
+    <innerdir refid="dir_6b8736681e771c820e792320c8ba13fe">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/overlay</innerdir>
+    <innerdir refid="dir_b73639e37f4fa253bd52af692c8230fc">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/plkernel</innerdir>
+    <innerdir refid="dir_d4e7a8472d0010bf9da9a746d95797ec">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess</innerdir>
+    <innerdir refid="dir_e15c75b511392e77efdb7c5a05f85970">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/preprocess</innerdir>
+    <innerdir refid="dir_2a35fe9c1fe05ce5babd6159c1378f2c">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/tracker</innerdir>
+    <innerdir refid="dir_ea5651fae163383183dbbb2ee91d8bc4">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/videoframe</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/"/>
+  </compounddef>
+</doxygen>

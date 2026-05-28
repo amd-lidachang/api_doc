@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_ddf8b6ee02cfc4d937ee402840689681" kind="dir">
+    <compoundname>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/metaconvert</compoundname>
+    <innerfile refid="vart__metaconv__impl__classification_8cpp">vart_metaconv_impl_classification.cpp</innerfile>
+    <innerfile refid="vart__metaconv__impl__overlay_8cpp">vart_metaconv_impl_overlay.cpp</innerfile>
+    <innerfile refid="vart__metaconv__impl__overlay_8hpp">vart_metaconv_impl_overlay.hpp</innerfile>
+    <innerfile refid="vart__metaconvert_8cpp">vart_metaconvert.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/metaconvert/"/>
+  </compounddef>
+</doxygen>

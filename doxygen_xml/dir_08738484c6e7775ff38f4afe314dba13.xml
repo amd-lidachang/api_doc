@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_08738484c6e7775ff38f4afe314dba13" kind="dir">
+    <compoundname>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/device</compoundname>
+    <innerfile refid="vart__device_8cpp">vart_device.cpp</innerfile>
+    <innerfile refid="vart__device__impl__vvas_8cpp">vart_device_impl_vvas.cpp</innerfile>
+    <innerfile refid="vart__device__impl__vvas_8hpp">vart_device_impl_vvas.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/device/"/>
+  </compounddef>
+</doxygen>

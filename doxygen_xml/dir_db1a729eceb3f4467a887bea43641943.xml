@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_db1a729eceb3f4467a887bea43641943" kind="dir">
+    <compoundname>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api</compoundname>
+    <innerfile refid="npu__c__api_2accessors_8cpp">accessors.cpp</innerfile>
+    <innerfile refid="clocks_8cpp">clocks.cpp</innerfile>
+    <innerfile refid="inference_8cpp">inference.cpp</innerfile>
+    <innerfile refid="npu__c__api_8h">npu_c_api.h</innerfile>
+    <innerfile refid="pl_8cpp">pl.cpp</innerfile>
+    <innerfile refid="private_8h">private.h</innerfile>
+    <innerfile refid="quantization_8cpp">quantization.cpp</innerfile>
+    <innerfile refid="run__snapshot_8cpp">run_snapshot.cpp</innerfile>
+    <innerfile refid="run__snapshot__bin_8cpp">run_snapshot_bin.cpp</innerfile>
+    <innerfile refid="run__snapshot__txt_8cpp">run_snapshot_txt.cpp</innerfile>
+    <innerfile refid="npu__c__api_2snapshot__parser_8cpp">snapshot_parser.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/"/>
+  </compounddef>
+</doxygen>

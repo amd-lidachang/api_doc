@@ -1,0 +1,547 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structnpu__device" kind="struct" language="C++" prot="public">
+    <compoundname>npu_device</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnpu__device_1a0a7db43a979c498822c7d03a61303b88" prot="public" static="no" mutable="no">
+        <type>int(*</type>
+        <definition>int(* npu_device::create_ip_context) (void **handle)</definition>
+        <argsstring>)(void **handle)</argsstring>
+        <name>create_ip_context</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" line="48" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__device_1a9a04841f0d46cd633a747bc7f8d04e0c" prot="public" static="no" mutable="no">
+        <type>int(*</type>
+        <definition>int(* npu_device::disconnect_ip) (void *handle, uint32_t ip_idx)</definition>
+        <argsstring>)(void *handle, uint32_t ip_idx)</argsstring>
+        <name>disconnect_ip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" line="49" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__device_1a3b1b01ceeccd7dc610e6ec7f840e7b3c" prot="public" static="no" mutable="no">
+        <type>int(*</type>
+        <definition>int(* npu_device::connect_ip) (void *handle, uint32_t ip_idx)</definition>
+        <argsstring>)(void *handle, uint32_t ip_idx)</argsstring>
+        <name>connect_ip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" line="50" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__device_1a3d71c1db3528f0468339d56eef55c10f" prot="public" static="no" mutable="no">
+        <type>int(*</type>
+        <definition>int(* npu_device::connect_peripherals) (void *handle)</definition>
+        <argsstring>)(void *handle)</argsstring>
+        <name>connect_peripherals</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" line="51" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__device_1a7d40648d752d3f0150dbaade0f27c81a" prot="public" static="no" mutable="no">
+        <type>int(*</type>
+        <definition>int(* npu_device::destroy_ip_context) (void *handle)</definition>
+        <argsstring>)(void *handle)</argsstring>
+        <name>destroy_ip_context</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" line="52" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__device_1a50550e89ba72c112fdb8b99944288faa" prot="public" static="no" mutable="no">
+        <type>int(*</type>
+        <definition>int(* npu_device::get_ip_from_timestamp) (void *handle, uint32_t timestamp, uint32_t *ip_idx)</definition>
+        <argsstring>)(void *handle, uint32_t timestamp, uint32_t *ip_idx)</argsstring>
+        <name>get_ip_from_timestamp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" line="53" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__device_1af6f9c1f3224f3f65a3965c567d7750d3" prot="public" static="no" mutable="no">
+        <type>int(*</type>
+        <definition>int(* npu_device::get_timestamp_from_ip) (void *handle, uint32_t ip_idx, uint32_t *timestamp)</definition>
+        <argsstring>)(void *handle, uint32_t ip_idx, uint32_t *timestamp)</argsstring>
+        <name>get_timestamp_from_ip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" line="54" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__device_1a3a10dbf0234eb5f23c6338b484e50e79" prot="public" static="no" mutable="no">
+        <type>int(*</type>
+        <definition>int(* npu_device::get_ip) (void *handle, bool is_pp, uint32_t *ip_idx)</definition>
+        <argsstring>)(void *handle, bool is_pp, uint32_t *ip_idx)</argsstring>
+        <name>get_ip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" line="55" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__device_1abbfba7d6f9b38b9a1b23938ac2286683" prot="public" static="no" mutable="no">
+        <type>uint32_t(*</type>
+        <definition>uint32_t(* npu_device::get_nb_ip) (void *handle)</definition>
+        <argsstring>)(void *handle)</argsstring>
+        <name>get_nb_ip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" line="56" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__device_1a5a4cef5b2e0bbc24dbbd343f26448aa6" prot="public" static="no" mutable="no">
+        <type>uint32_t(*</type>
+        <definition>uint32_t(* npu_device::get_nb_pp) (void *handle)</definition>
+        <argsstring>)(void *handle)</argsstring>
+        <name>get_nb_pp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" line="57" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__device_1a3ea4407b06560a7dab7ce9943bb40af3" prot="public" static="no" mutable="no">
+        <type>int(*</type>
+        <definition>int(* npu_device::get_ip_is_pp) (void *handle, uint32_t ip_idx, bool *is_pp)</definition>
+        <argsstring>)(void *handle, uint32_t ip_idx, bool *is_pp)</argsstring>
+        <name>get_ip_is_pp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" line="58" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__device_1a5308284184e43bff437a0a18932e09b3" prot="public" static="no" mutable="no">
+        <type>uint32_t(*</type>
+        <definition>uint32_t(* npu_device::read_register) (void *handle, uint32_t offset, uint32_t ip_idx)</definition>
+        <argsstring>)(void *handle, uint32_t offset, uint32_t ip_idx)</argsstring>
+        <name>read_register</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" line="59" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__device_1a40d4516b084d6f3f9c6add3c061019dc" prot="public" static="no" mutable="no">
+        <type>void(*</type>
+        <definition>void(* npu_device::write_register) (void *handle, uint32_t offset, uint32_t data, uint32_t ip_idx)</definition>
+        <argsstring>)(void *handle, uint32_t offset, uint32_t data, uint32_t ip_idx)</argsstring>
+        <name>write_register</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" line="60" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__device_1aa198e031050ae4359b15ac2b5b880122" prot="public" static="no" mutable="no">
+        <type>int(*</type>
+        <definition>int(* npu_device::read_ddr) (void *handle, struct addr addr, uint8_t *buf, uint32_t size)</definition>
+        <argsstring>)(void *handle, struct addr addr, uint8_t *buf, uint32_t size)</argsstring>
+        <name>read_ddr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" line="61" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__device_1a85b672fafc6a7c360e5faf63e8e29e98" prot="public" static="no" mutable="no">
+        <type>int(*</type>
+        <definition>int(* npu_device::write_ddr) (void *handle, struct addr addr, const uint8_t *buf, uint32_t size)</definition>
+        <argsstring>)(void *handle, struct addr addr, const uint8_t *buf, uint32_t size)</argsstring>
+        <name>write_ddr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" line="62" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__device_1a94bc99d2a83ba2baf48d7a553ad6c885" prot="public" static="no" mutable="no">
+        <type>void(*</type>
+        <definition>void(* npu_device::read_noc) (void *handle, uint64_t offset, uint32_t *buf, uint32_t wordsize)</definition>
+        <argsstring>)(void *handle, uint64_t offset, uint32_t *buf, uint32_t wordsize)</argsstring>
+        <name>read_noc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" line="63" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__device_1a421e41a59358ee3837bc522cfec81802" prot="public" static="no" mutable="no">
+        <type>void(*</type>
+        <definition>void(* npu_device::write_noc) (void *handle, uint64_t offset, const uint32_t *buf, uint32_t wordsize)</definition>
+        <argsstring>)(void *handle, uint64_t offset, const uint32_t *buf, uint32_t wordsize)</argsstring>
+        <name>write_noc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" line="64" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__device_1a7b70ab7f678da493fc5a6c14a88046fe" prot="public" static="no" mutable="no">
+        <type>uint64_t(*</type>
+        <definition>uint64_t(* npu_device::get_phy_addr) (void *handle, void *ddr_vaddr)</definition>
+        <argsstring>)(void *handle, void *ddr_vaddr)</argsstring>
+        <name>get_phy_addr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" line="65" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__device_1ad273c0c1061ec9d40e84d2272114f943" prot="public" static="no" mutable="no">
+        <type>void *(*</type>
+        <definition>void*(* npu_device::get_vaddr) (void *handle, void *ddr_vaddr)</definition>
+        <argsstring>)(void *handle, void *ddr_vaddr)</argsstring>
+        <name>get_vaddr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" line="66" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__device_1a10813e0e169dbb369c489f3b054c2dc3" prot="public" static="no" mutable="no">
+        <type>void *(*</type>
+        <definition>void*(* npu_device::get_base_vaddr) (void *handle, size_t ddrIdx)</definition>
+        <argsstring>)(void *handle, size_t ddrIdx)</argsstring>
+        <name>get_base_vaddr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" line="67" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__device_1ab010628939dad439ed05001b91358e2f" prot="public" static="no" mutable="no">
+        <type>int(*</type>
+        <definition>int(* npu_device::ddr_allocate) (void *handle, uint64_t size, uint32_t ddr, struct addr *addr)</definition>
+        <argsstring>)(void *handle, uint64_t size, uint32_t ddr, struct addr *addr)</argsstring>
+        <name>ddr_allocate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" line="68" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__device_1a94e9dff7211637cd9d47704b9f2126a4" prot="public" static="no" mutable="no">
+        <type>int(*</type>
+        <definition>int(* npu_device::ddr_allocate_batch) (void *handle, uint64_t size, uint32_t ddr, size_t batch_size, struct addr *addrs)</definition>
+        <argsstring>)(void *handle, uint64_t size, uint32_t ddr, size_t batch_size, struct addr *addrs)</argsstring>
+        <name>ddr_allocate_batch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" line="69" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__device_1a895d6a6a1a4905d23b4b6609cdc72d4d" prot="public" static="no" mutable="no">
+        <type>void *(*</type>
+        <definition>void*(* npu_device::ddr_malloc) (void *handle, size_t ddrIdx, size_t size)</definition>
+        <argsstring>)(void *handle, size_t ddrIdx, size_t size)</argsstring>
+        <name>ddr_malloc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" line="74" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__device_1ae68a9abfffc1f7ee60b66cacc24a93ee" prot="public" static="no" mutable="no">
+        <type>void **(*</type>
+        <definition>void**(* npu_device::ddr_malloc_batch) (void *handle, size_t ddrIdx, size_t aligned_size, size_t batch_size)</definition>
+        <argsstring>)(void *handle, size_t ddrIdx, size_t aligned_size, size_t batch_size)</argsstring>
+        <name>ddr_malloc_batch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" line="75" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__device_1ac0577104b1114c4101758025dfc4de1e" prot="public" static="no" mutable="no">
+        <type>void *(*</type>
+        <definition>void*(* npu_device::ddr_malloc_sub) (void *handle, void *parent_vaddr, size_t offset, size_t size)</definition>
+        <argsstring>)(void *handle, void *parent_vaddr, size_t offset, size_t size)</argsstring>
+        <name>ddr_malloc_sub</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" line="76" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__device_1a764239c1bf9a6891140a1d4a911d1dbc" prot="public" static="no" mutable="no">
+        <type>void(*</type>
+        <definition>void(* npu_device::ddr_free) (void *handle, void *ddr_vaddr)</definition>
+        <argsstring>)(void *handle, void *ddr_vaddr)</argsstring>
+        <name>ddr_free</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" line="77" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__device_1a46b4af66dedcd2daa0fa4a0f9ef63a78" prot="public" static="no" mutable="no">
+        <type>int(*</type>
+        <definition>int(* npu_device::wait_interrupt) (void *handle, uint32_t ip_idx)</definition>
+        <argsstring>)(void *handle, uint32_t ip_idx)</argsstring>
+        <name>wait_interrupt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" line="78" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__device_1a5fcffb23d488a7b186f59b6dc16d80d3" prot="public" static="no" mutable="no">
+        <type>unsigned int(*</type>
+        <definition>unsigned int(* npu_device::get_ip_fpga_info_attribute) (void *handle, uint32_t ip_idx, char *attr)</definition>
+        <argsstring>)(void *handle, uint32_t ip_idx, char *attr)</argsstring>
+        <name>get_ip_fpga_info_attribute</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" line="79" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__device_1a09378227e19c687107c8e5ad54908128" prot="public" static="no" mutable="no">
+        <type>char *(*</type>
+        <definition>char*(* npu_device::get_boardname) (void *handle, uint32_t ip_idx)</definition>
+        <argsstring>)(void *handle, uint32_t ip_idx)</argsstring>
+        <name>get_boardname</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" line="80" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__device_1acf91398256789181dc70ee1d24d9b632" prot="public" static="no" mutable="no">
+        <type>size_t(*</type>
+        <definition>size_t(* npu_device::get_extmemlen) (void *handle, uint32_t extmemIdx)</definition>
+        <argsstring>)(void *handle, uint32_t extmemIdx)</argsstring>
+        <name>get_extmemlen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" line="81" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__device_1a84d7040584b5143bc76f94b38c920014" prot="public" static="no" mutable="no">
+        <type>size_t(*</type>
+        <definition>size_t(* npu_device::get_noclen) (void *handle)</definition>
+        <argsstring>)(void *handle)</argsstring>
+        <name>get_noclen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" line="82" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__device_1a615361565f9215ae94dca14a0e7ddcd7" prot="public" static="no" mutable="no">
+        <type>size_t(*</type>
+        <definition>size_t(* npu_device::get_nbddrs) (void *handle)</definition>
+        <argsstring>)(void *handle)</argsstring>
+        <name>get_nbddrs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" line="83" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__device_1a0c38b73da50533d58f5140dc9f5788c1" prot="public" static="no" mutable="no">
+        <type>size_t(*</type>
+        <definition>size_t(* npu_device::get_nbextmems) (void *handle)</definition>
+        <argsstring>)(void *handle)</argsstring>
+        <name>get_nbextmems</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" line="84" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__device_1a62b7d7d94d380aec1e9d6dd1dff4aec4" prot="public" static="no" mutable="no">
+        <type>size_t(*</type>
+        <definition>size_t(* npu_device::get_extmemBaseAddr) (void *handle, uint32_t extmemIdx)</definition>
+        <argsstring>)(void *handle, uint32_t extmemIdx)</argsstring>
+        <name>get_extmemBaseAddr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" line="85" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__device_1a243807b462f25a2130ebddaec512d992" prot="public" static="no" mutable="no">
+        <type>int(*</type>
+        <definition>int(* npu_device::get_fpgafamily) (void *handle, enum FpgaFamily *family)</definition>
+        <argsstring>)(void *handle, enum FpgaFamily *family)</argsstring>
+        <name>get_fpgafamily</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" line="86" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__device_1abf29f5278b24cd7a6f312b4d0155c242" prot="public" static="no" mutable="no">
+        <type>int(*</type>
+        <definition>int(* npu_device::get_architecture) (void *handle, enum FpgaArchitecture *arch)</definition>
+        <argsstring>)(void *handle, enum FpgaArchitecture *arch)</argsstring>
+        <name>get_architecture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" line="87" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__device_1a5a9f655e29935defd000c457033b045e" prot="public" static="no" mutable="no">
+        <type>void(*</type>
+        <definition>void(* npu_device::print_fpga_info) (void *handle, uint32_t ip_idx)</definition>
+        <argsstring>)(void *handle, uint32_t ip_idx)</argsstring>
+        <name>print_fpga_info</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" line="88" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__device_1a581677f200f12a48e956981f6ba7d8b4" prot="public" static="no" mutable="no">
+        <type>void(*</type>
+        <definition>void(* npu_device::print_resource_info) (void *handle)</definition>
+        <argsstring>)(void *handle)</argsstring>
+        <name>print_resource_info</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" line="89" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" line="46" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="47" bodyend="90"/>
+    <listofallmembers>
+      <member refid="structnpu__device_1a3b1b01ceeccd7dc610e6ec7f840e7b3c" prot="public" virt="non-virtual"><scope>npu_device</scope><name>connect_ip</name></member>
+      <member refid="structnpu__device_1a3d71c1db3528f0468339d56eef55c10f" prot="public" virt="non-virtual"><scope>npu_device</scope><name>connect_peripherals</name></member>
+      <member refid="structnpu__device_1a0a7db43a979c498822c7d03a61303b88" prot="public" virt="non-virtual"><scope>npu_device</scope><name>create_ip_context</name></member>
+      <member refid="structnpu__device_1ab010628939dad439ed05001b91358e2f" prot="public" virt="non-virtual"><scope>npu_device</scope><name>ddr_allocate</name></member>
+      <member refid="structnpu__device_1a94e9dff7211637cd9d47704b9f2126a4" prot="public" virt="non-virtual"><scope>npu_device</scope><name>ddr_allocate_batch</name></member>
+      <member refid="structnpu__device_1a764239c1bf9a6891140a1d4a911d1dbc" prot="public" virt="non-virtual"><scope>npu_device</scope><name>ddr_free</name></member>
+      <member refid="structnpu__device_1a895d6a6a1a4905d23b4b6609cdc72d4d" prot="public" virt="non-virtual"><scope>npu_device</scope><name>ddr_malloc</name></member>
+      <member refid="structnpu__device_1ae68a9abfffc1f7ee60b66cacc24a93ee" prot="public" virt="non-virtual"><scope>npu_device</scope><name>ddr_malloc_batch</name></member>
+      <member refid="structnpu__device_1ac0577104b1114c4101758025dfc4de1e" prot="public" virt="non-virtual"><scope>npu_device</scope><name>ddr_malloc_sub</name></member>
+      <member refid="structnpu__device_1a7d40648d752d3f0150dbaade0f27c81a" prot="public" virt="non-virtual"><scope>npu_device</scope><name>destroy_ip_context</name></member>
+      <member refid="structnpu__device_1a9a04841f0d46cd633a747bc7f8d04e0c" prot="public" virt="non-virtual"><scope>npu_device</scope><name>disconnect_ip</name></member>
+      <member refid="structnpu__device_1abf29f5278b24cd7a6f312b4d0155c242" prot="public" virt="non-virtual"><scope>npu_device</scope><name>get_architecture</name></member>
+      <member refid="structnpu__device_1a10813e0e169dbb369c489f3b054c2dc3" prot="public" virt="non-virtual"><scope>npu_device</scope><name>get_base_vaddr</name></member>
+      <member refid="structnpu__device_1a09378227e19c687107c8e5ad54908128" prot="public" virt="non-virtual"><scope>npu_device</scope><name>get_boardname</name></member>
+      <member refid="structnpu__device_1a62b7d7d94d380aec1e9d6dd1dff4aec4" prot="public" virt="non-virtual"><scope>npu_device</scope><name>get_extmemBaseAddr</name></member>
+      <member refid="structnpu__device_1acf91398256789181dc70ee1d24d9b632" prot="public" virt="non-virtual"><scope>npu_device</scope><name>get_extmemlen</name></member>
+      <member refid="structnpu__device_1a243807b462f25a2130ebddaec512d992" prot="public" virt="non-virtual"><scope>npu_device</scope><name>get_fpgafamily</name></member>
+      <member refid="structnpu__device_1a3a10dbf0234eb5f23c6338b484e50e79" prot="public" virt="non-virtual"><scope>npu_device</scope><name>get_ip</name></member>
+      <member refid="structnpu__device_1a5fcffb23d488a7b186f59b6dc16d80d3" prot="public" virt="non-virtual"><scope>npu_device</scope><name>get_ip_fpga_info_attribute</name></member>
+      <member refid="structnpu__device_1a50550e89ba72c112fdb8b99944288faa" prot="public" virt="non-virtual"><scope>npu_device</scope><name>get_ip_from_timestamp</name></member>
+      <member refid="structnpu__device_1a3ea4407b06560a7dab7ce9943bb40af3" prot="public" virt="non-virtual"><scope>npu_device</scope><name>get_ip_is_pp</name></member>
+      <member refid="structnpu__device_1abbfba7d6f9b38b9a1b23938ac2286683" prot="public" virt="non-virtual"><scope>npu_device</scope><name>get_nb_ip</name></member>
+      <member refid="structnpu__device_1a5a4cef5b2e0bbc24dbbd343f26448aa6" prot="public" virt="non-virtual"><scope>npu_device</scope><name>get_nb_pp</name></member>
+      <member refid="structnpu__device_1a615361565f9215ae94dca14a0e7ddcd7" prot="public" virt="non-virtual"><scope>npu_device</scope><name>get_nbddrs</name></member>
+      <member refid="structnpu__device_1a0c38b73da50533d58f5140dc9f5788c1" prot="public" virt="non-virtual"><scope>npu_device</scope><name>get_nbextmems</name></member>
+      <member refid="structnpu__device_1a84d7040584b5143bc76f94b38c920014" prot="public" virt="non-virtual"><scope>npu_device</scope><name>get_noclen</name></member>
+      <member refid="structnpu__device_1a7b70ab7f678da493fc5a6c14a88046fe" prot="public" virt="non-virtual"><scope>npu_device</scope><name>get_phy_addr</name></member>
+      <member refid="structnpu__device_1af6f9c1f3224f3f65a3965c567d7750d3" prot="public" virt="non-virtual"><scope>npu_device</scope><name>get_timestamp_from_ip</name></member>
+      <member refid="structnpu__device_1ad273c0c1061ec9d40e84d2272114f943" prot="public" virt="non-virtual"><scope>npu_device</scope><name>get_vaddr</name></member>
+      <member refid="structnpu__device_1a5a9f655e29935defd000c457033b045e" prot="public" virt="non-virtual"><scope>npu_device</scope><name>print_fpga_info</name></member>
+      <member refid="structnpu__device_1a581677f200f12a48e956981f6ba7d8b4" prot="public" virt="non-virtual"><scope>npu_device</scope><name>print_resource_info</name></member>
+      <member refid="structnpu__device_1aa198e031050ae4359b15ac2b5b880122" prot="public" virt="non-virtual"><scope>npu_device</scope><name>read_ddr</name></member>
+      <member refid="structnpu__device_1a94bc99d2a83ba2baf48d7a553ad6c885" prot="public" virt="non-virtual"><scope>npu_device</scope><name>read_noc</name></member>
+      <member refid="structnpu__device_1a5308284184e43bff437a0a18932e09b3" prot="public" virt="non-virtual"><scope>npu_device</scope><name>read_register</name></member>
+      <member refid="structnpu__device_1a46b4af66dedcd2daa0fa4a0f9ef63a78" prot="public" virt="non-virtual"><scope>npu_device</scope><name>wait_interrupt</name></member>
+      <member refid="structnpu__device_1a85b672fafc6a7c360e5faf63e8e29e98" prot="public" virt="non-virtual"><scope>npu_device</scope><name>write_ddr</name></member>
+      <member refid="structnpu__device_1a421e41a59358ee3837bc522cfec81802" prot="public" virt="non-virtual"><scope>npu_device</scope><name>write_noc</name></member>
+      <member refid="structnpu__device_1a40d4516b084d6f3f9c6add3c061019dc" prot="public" virt="non-virtual"><scope>npu_device</scope><name>write_register</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

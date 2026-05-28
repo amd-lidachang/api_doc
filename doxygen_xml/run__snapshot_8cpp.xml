@@ -1,0 +1,319 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="run__snapshot_8cpp" kind="file" language="C++">
+    <compoundname>run_snapshot.cpp</compoundname>
+    <includes local="no">cstring</includes>
+    <includes local="no">fstream</includes>
+    <includes local="no">iostream</includes>
+    <includes refid="npu__c__api_8h" local="yes">npu_c_api.h</includes>
+    <includes refid="vart__ml__io_8h" local="yes">vart_ml_io/vart_ml_io.h</includes>
+    <includes refid="parsing__combinators_8h" local="yes">vart_ml_utils/parsing_combinators.h</includes>
+    <includes refid="vart__ml__log_8h" local="yes">vart_ml_utils/vart_ml_log.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/run_snapshot.cpp</label>
+        <link refid="run__snapshot_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>stdbool.h</label>
+      </node>
+      <node id="18">
+        <label>stdarg.h</label>
+      </node>
+      <node id="26">
+        <label>vart_ml_error.inc</label>
+      </node>
+      <node id="16">
+        <label>stdint.h</label>
+      </node>
+      <node id="25">
+        <label>vart_ml_error.h</label>
+        <link refid="vart__ml__error_8h"/>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>variant</label>
+      </node>
+      <node id="11">
+        <label>string</label>
+      </node>
+      <node id="9">
+        <label>map</label>
+      </node>
+      <node id="6">
+        <label>stddef.h</label>
+      </node>
+      <node id="3">
+        <label>fstream</label>
+      </node>
+      <node id="21">
+        <label>vart_ml_utils/npu_reg.h</label>
+        <link refid="npu__reg_8h"/>
+      </node>
+      <node id="7">
+        <label>private.h</label>
+        <link refid="private_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>string.h</label>
+      </node>
+      <node id="15">
+        <label>vart_ml_io/vart_ml_io.h</label>
+        <link refid="vart__ml__io_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>npu_c_api.h</label>
+        <link refid="npu__c__api_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>vector</label>
+      </node>
+      <node id="23">
+        <label>sstream</label>
+      </node>
+      <node id="22">
+        <label>vart_ml_utils/parsing_combinators.h</label>
+        <link refid="parsing__combinators_8h"/>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>iostream</label>
+      </node>
+      <node id="12">
+        <label>unordered_map</label>
+      </node>
+      <node id="24">
+        <label>vart_ml_utils/vart_ml_log.h</label>
+        <link refid="vart__ml__log_8h"/>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>algorithm</label>
+      </node>
+      <node id="2">
+        <label>cstring</label>
+      </node>
+      <node id="19">
+        <label>vart_ml_utils/fpga_info.h</label>
+        <link refid="fpga__info_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="run__snapshot_8cpp_1ae14ccabd0dcefa7c1c98d22dc2c380bb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int npu_prepare_mctrl_mem_config</definition>
+        <argsstring>(struct npu_snapshot *snap)</argsstring>
+        <name>npu_prepare_mctrl_mem_config</name>
+        <param>
+          <type>struct <ref refid="structnpu__snapshot" kindref="compound">npu_snapshot</ref> *</type>
+          <declname>snap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/run_snapshot.cpp" line="32" column="12" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/run_snapshot.cpp" bodystart="32" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="run__snapshot_8cpp_1a417852cf71431f653a40773f7d3cb915" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int npu_run_snapshot</definition>
+        <argsstring>(npu_snapshot_t *snap)</argsstring>
+        <name>npu_run_snapshot</name>
+        <param>
+          <type>struct <ref refid="structnpu__snapshot" kindref="compound">npu_snapshot</ref> *</type>
+          <declname>snap</declname>
+        </param>
+        <briefdescription>
+<para>Execute all the commands in a snapshot config file. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>snap</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Snapshot to run. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int The Vart ML error (vart_ml_error_id) code of the operation. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/run_snapshot.cpp" line="64" column="5" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/run_snapshot.cpp" bodystart="64" bodyend="110"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="copyright"><para>Copyright 2024 Advanced Micro Devices Inc.</para>
+</simplesect>
+Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <verbatim>http://www.apache.org/licenses/LICENSE-2.0
+</verbatim> Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. </para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cstring&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;fstream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="npu__c__api_8h" kindref="compound">npu_c_api.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="vart__ml__io_8h" kindref="compound">vart_ml_io/vart_ml_io.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="parsing__combinators_8h" kindref="compound">vart_ml_utils/parsing_combinators.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="vart__ml__log_8h" kindref="compound">vart_ml_utils/vart_ml_log.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*<sp/>Validate<sp/>master<sp/>control<sp/>config<sp/>transaction<sp/>sequence<sp/>and<sp/>group<sp/>them<sp/>to<sp/>leverage<sp/>burst<sp/>writes.</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*<sp/>For<sp/>AIEML_V1C,<sp/>also<sp/>prepend<sp/>the<sp/>service<sp/>bus<sp/>config<sp/>registers<sp/>parsed<sp/>from<sp/>the<sp/>snapshot.</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>npu_prepare_mctrl_mem_config(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structnpu__snapshot" kindref="compound">npu_snapshot</ref>*<sp/>snap)</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(snap-&gt;<ref refid="structnpu__snapshot_1ab1d0164f5dd84d90d490d233592794b9" kindref="member">arch</ref><sp/>==<sp/><ref refid="fpga__info_8h_1afe7ded90c10a0e74d9627a16f660ad7eaba6aa7fe71428b3317492292332aa1dc" kindref="member">FpgaArchitecture::AIEML_V1C</ref>)</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>snap-&gt;<ref refid="structnpu__snapshot_1a9c806f2fe6b9513bad874efb37aba3bf" kindref="member">ctrl_reg_config</ref>.emplace_back();</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>pair<sp/><sp/>=<sp/>snap-&gt;<ref refid="structnpu__snapshot_1a9c806f2fe6b9513bad874efb37aba3bf" kindref="member">ctrl_reg_config</ref>.back();</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pair.first<sp/><sp/>=<sp/><ref refid="npu__reg_8h_1ad8978ce284e1949225c56569d7e44c33" kindref="member">CONFIG_OFFSET_VERSAL_V1C</ref>;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pair.second<sp/>=<sp/>std::vector&lt;uint32_t&gt;(snap-&gt;<ref refid="structnpu__snapshot_1a06bea7e6fb7294467f06f1b2d037ebf4" kindref="member">config</ref>.<ref refid="unionlm__coreBus__masterControl__config__aieml__v1c_1aea59ffd1d55c8efe1953f290a755c118" kindref="member">reg</ref>,</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>snap-&gt;<ref refid="structnpu__snapshot_1a06bea7e6fb7294467f06f1b2d037ebf4" kindref="member">config</ref>.<ref refid="unionlm__coreBus__masterControl__config__aieml__v1c_1aea59ffd1d55c8efe1953f290a755c118" kindref="member">reg</ref><sp/>+<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(snap-&gt;<ref refid="structnpu__snapshot_1a06bea7e6fb7294467f06f1b2d037ebf4" kindref="member">config</ref>.<ref refid="unionlm__coreBus__masterControl__config__aieml__v1c_1aea59ffd1d55c8efe1953f290a755c118" kindref="member">reg</ref>)<sp/>/<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(uint32_t));</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>offset_prev<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>[offset,<sp/>value]<sp/>:<sp/>snap-&gt;<ref refid="structnpu__snapshot_1aafc77e3bc9753a8d5474a49f0946ed76" kindref="member">srv_write_sequence</ref>)</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!snap-&gt;<ref refid="structnpu__snapshot_1a9c806f2fe6b9513bad874efb37aba3bf" kindref="member">ctrl_reg_config</ref>.empty()<sp/>&amp;&amp;<sp/>offset<sp/>==<sp/>offset_prev<sp/>+<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(uint32_t))</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>snap-&gt;<ref refid="structnpu__snapshot_1a9c806f2fe6b9513bad874efb37aba3bf" kindref="member">ctrl_reg_config</ref>.back().second.push_back(value);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>snap-&gt;<ref refid="structnpu__snapshot_1a9c806f2fe6b9513bad874efb37aba3bf" kindref="member">ctrl_reg_config</ref>.emplace_back();</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>pair<sp/>=<sp/>snap-&gt;<ref refid="structnpu__snapshot_1a9c806f2fe6b9513bad874efb37aba3bf" kindref="member">ctrl_reg_config</ref>.back();</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pair.first<sp/>=<sp/>offset;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pair.second.push_back(value);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>offset_prev<sp/>=<sp/>offset;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>vart_ml_error_id::SUCCESS;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="run__snapshot_8cpp_1a417852cf71431f653a40773f7d3cb915" kindref="member">npu_run_snapshot</ref>(<ref refid="structnpu__snapshot" kindref="compound">npu_snapshot_t</ref>*<sp/>snap)</highlight></codeline>
+<codeline lineno="65"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(getenv(</highlight><highlight class="stringliteral">&quot;VAISW_SNAPSHOT_SKIPCONFIG_LOADING&quot;</highlight><highlight class="normal">)<sp/>!=<sp/>NULL)</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;SKIP<sp/>CONFIG<sp/>LOADING\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>vart_ml_error::SUCCESS;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>std::ifstream<sp/>snapshot(snap-&gt;<ref refid="structnpu__snapshot_1ac94f734e0c28acad89637315fca87868" kindref="member">path</ref><sp/>+<sp/></highlight><highlight class="stringliteral">&quot;/snapshot.dump.config&quot;</highlight><highlight class="normal">,<sp/>std::ios::in<sp/>|<sp/>std::ios::binary);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!snapshot.is_open())</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="vart__ml__log_8cpp_1a2f6c6a262c1a57e59110872fd716753b" kindref="member">vart_ml_log_err_msg</ref>(vart_ml_error::FILE_ACCESS_OPEN_FAILURE,</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Failed<sp/>opening<sp/>snapshot<sp/>file<sp/>%s.\n&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(snap-&gt;<ref refid="structnpu__snapshot_1ac94f734e0c28acad89637315fca87868" kindref="member">path</ref><sp/>+<sp/></highlight><highlight class="stringliteral">&quot;/snapshot.dump.config&quot;</highlight><highlight class="normal">).c_str());</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>magic_bytes[5];</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>snapshot.read(</highlight><highlight class="keyword">reinterpret_cast&lt;</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(&amp;magic_bytes),<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(magic_bytes));</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>err;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Check<sp/>the<sp/>magic<sp/>bytes<sp/>at<sp/>the<sp/>beginning<sp/>if<sp/>the<sp/>file.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(strncmp(magic_bytes,<sp/></highlight><highlight class="stringliteral">&quot;#BIN\n&quot;</highlight><highlight class="normal">,<sp/>5)<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>err<sp/>=<sp/><ref refid="private_8h_1a600fd865a2fa5c494e0f3582903d57b0" kindref="member">npu_run_snapshot_bin</ref>(snap,<sp/>snapshot);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(err)</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>err;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>If<sp/>there<sp/>is<sp/>no<sp/>TXT<sp/>magic<sp/>bytes,<sp/>it<sp/>is<sp/>an<sp/>older<sp/>snapshot.<sp/>Set<sp/>the<sp/>cursor<sp/>at<sp/>the<sp/>beginning<sp/>of<sp/>the</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>file<sp/>for<sp/>retro<sp/>compatibility.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(strncmp(magic_bytes,<sp/></highlight><highlight class="stringliteral">&quot;#TXT\n&quot;</highlight><highlight class="normal">,<sp/>5)<sp/>!=<sp/>0)</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>snapshot.seekg(0);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>err<sp/>=<sp/><ref refid="private_8h_1a09d2fc06016bcfdaa1422d0bd7ac4d91" kindref="member">npu_run_snapshot_txt</ref>(snap,<sp/>snapshot);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(err)</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>err;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Check<sp/>mctrl<sp/>config<sp/>transactions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(snap-&gt;<ref refid="structnpu__snapshot_1a9c806f2fe6b9513bad874efb37aba3bf" kindref="member">ctrl_reg_config</ref>.empty())</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>err<sp/>=<sp/>npu_prepare_mctrl_mem_config(snap);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(err)</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(err);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>vart_ml_error::SUCCESS;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/run_snapshot.cpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structvart_1_1TensorInfo" kind="struct" language="C++" prot="public">
+    <compoundname>vart::TensorInfo</compoundname>
+    <includes refid="vart__postprocess__types_8hpp" local="no">vart_postprocess_types.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structvart_1_1TensorInfo_1a048fd794a25ff3ffe179b916744db0d5" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t vart::TensorInfo::size</definition>
+        <argsstring></argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_postprocess_types.hpp" line="58" column="12" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_postprocess_types.hpp" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1TensorInfo_1a909cd6b328d77c7daf6d3b67506ddfea" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float vart::TensorInfo::scale_coeff</definition>
+        <argsstring></argsstring>
+        <name>scale_coeff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_postprocess_types.hpp" line="59" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_postprocess_types.hpp" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1TensorInfo_1a9bb4a87be1851f7122050878d7191743" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; uint32_t &gt;</type>
+        <definition>std::vector&lt;uint32_t&gt; vart::TensorInfo::shape</definition>
+        <argsstring></argsstring>
+        <name>shape</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_postprocess_types.hpp" line="60" column="15" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_postprocess_types.hpp" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1TensorInfo_1a2d83b4983ae15a61f77b49688acee830" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string vart::TensorInfo::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_postprocess_types.hpp" line="61" column="15" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_postprocess_types.hpp" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1TensorInfo_1a66c000de752dfbe3362a9ed201fe7130" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacevart_1a45594c922f5e8d4a9a1e082f35e66bc8" kindref="member">TensorDataType</ref></type>
+        <definition>TensorDataType vart::TensorInfo::data_type</definition>
+        <argsstring></argsstring>
+        <name>data_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_postprocess_types.hpp" line="62" column="18" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_postprocess_types.hpp" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Tensor config information. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_postprocess_types.hpp" line="57" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_postprocess_types.hpp" bodystart="57" bodyend="63"/>
+    <listofallmembers>
+      <member refid="structvart_1_1TensorInfo_1a66c000de752dfbe3362a9ed201fe7130" prot="public" virt="non-virtual"><scope>vart::TensorInfo</scope><name>data_type</name></member>
+      <member refid="structvart_1_1TensorInfo_1a2d83b4983ae15a61f77b49688acee830" prot="public" virt="non-virtual"><scope>vart::TensorInfo</scope><name>name</name></member>
+      <member refid="structvart_1_1TensorInfo_1a909cd6b328d77c7daf6d3b67506ddfea" prot="public" virt="non-virtual"><scope>vart::TensorInfo</scope><name>scale_coeff</name></member>
+      <member refid="structvart_1_1TensorInfo_1a9bb4a87be1851f7122050878d7191743" prot="public" virt="non-virtual"><scope>vart::TensorInfo</scope><name>shape</name></member>
+      <member refid="structvart_1_1TensorInfo_1a048fd794a25ff3ffe179b916744db0d5" prot="public" virt="non-virtual"><scope>vart::TensorInfo</scope><name>size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

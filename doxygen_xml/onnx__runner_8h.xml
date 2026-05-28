@@ -1,0 +1,433 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="onnx__runner_8h" kind="file" language="C++">
+    <compoundname>onnx_runner.h</compoundname>
+    <includes local="no">inttypes.h</includes>
+    <includes local="no">stddef.h</includes>
+    <includedby refid="onnx__runner_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner.cpp</includedby>
+    <includedby refid="onnx__runner__fallback_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner_fallback.cpp</includedby>
+    <includedby refid="vart__ml__py__api_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_py_api/vart_ml_py_api.cpp</includedby>
+    <includedby refid="execute_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/execute.cpp</includedby>
+    <includedby refid="vart__ml__runner_2snapshot__parser_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/snapshot_parser.cpp</includedby>
+    <includedby refid="vart__ml__runner_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.cpp</includedby>
+    <incdepgraph>
+      <node id="3">
+        <label>stddef.h</label>
+      </node>
+      <node id="1">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner.h</label>
+        <link refid="onnx__runner_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>inttypes.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="4">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_py_api/vart_ml_py_api.cpp</label>
+        <link refid="vart__ml__py__api_8cpp"/>
+      </node>
+      <node id="2">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner.cpp</label>
+        <link refid="onnx__runner_8cpp"/>
+      </node>
+      <node id="3">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner_fallback.cpp</label>
+        <link refid="onnx__runner__fallback_8cpp"/>
+      </node>
+      <node id="6">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/snapshot_parser.cpp</label>
+        <link refid="vart__ml__runner_2snapshot__parser_8cpp"/>
+      </node>
+      <node id="1">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner.h</label>
+        <link refid="onnx__runner_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.cpp</label>
+        <link refid="vart__ml__runner_8cpp"/>
+      </node>
+      <node id="5">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/execute.cpp</label>
+        <link refid="execute_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structonnx__context__global" prot="public">onnx_context_global</innerclass>
+    <innerclass refid="structtransput__info" prot="public">transput_info</innerclass>
+    <innerclass refid="structonnx__context__node" prot="public">onnx_context_node</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="onnx__runner_8h_1ab98ba9756192515ba6dfe07c7389496b" prot="public" static="no" strong="no">
+        <type></type>
+        <name>transput_type</name>
+        <enumvalue id="onnx__runner_8h_1ab98ba9756192515ba6dfe07c7389496bae310c909d76b003d016bef8bdf16936a" prot="public">
+          <name>INPUT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="onnx__runner_8h_1ab98ba9756192515ba6dfe07c7389496ba2ab08d3e103968f5f4f26b66a52e99d6" prot="public">
+          <name>OUTPUT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner.h" line="24" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner.h" bodystart="25" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="onnx__runner_8h_1a8e42aa2ef932cc17a081c34cc7a3331f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int onnx_init</definition>
+        <argsstring>(struct onnx_context_global *onnx_context_global)</argsstring>
+        <name>onnx_init</name>
+        <param>
+          <type>struct <ref refid="structonnx__context__global" kindref="compound">onnx_context_global</ref> *</type>
+          <declname>onnx_context_global</declname>
+        </param>
+        <briefdescription>
+<para>Initialize some global values for OnnxRuntime inference. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function needs to be called once at the beginning of the program.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="out"><ref refid="structonnx__context__global" kindref="compound">onnx_context_global</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Struct with all objects allocated to run multiple nodes inference. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int The Vart ML error (vart_ml_error_id) code of the operation. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner.h" line="66" column="5" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner.cpp" bodystart="168" bodyend="184" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner.h" declline="66" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="onnx__runner_8h_1a763a0f1ee2400896158d54e45198554c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int onnx_init_node</definition>
+        <argsstring>(const char *model_path, struct onnx_context_global onnx_context_global, struct onnx_context_node *onnx_context_node)</argsstring>
+        <name>onnx_init_node</name>
+        <param>
+          <type>const char *</type>
+          <declname>model_path</declname>
+        </param>
+        <param>
+          <type>struct <ref refid="structonnx__context__global" kindref="compound">onnx_context_global</ref></type>
+          <declname>onnx_context_global</declname>
+        </param>
+        <param>
+          <type>struct <ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref> *</type>
+          <declname>onnx_context_node</declname>
+        </param>
+        <briefdescription>
+<para>Initialize some values needed for a single Onnx node inference. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function needs to be called once for each different Onnx node.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">model_path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Path to an onnx model. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in"><ref refid="structonnx__context__global" kindref="compound">onnx_context_global</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Initialized global context struct. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out"><ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Struct with all objects allocated to run an inference. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int The Vart ML error (vart_ml_error_id) code of the operation. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner.h" line="78" column="5" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner.cpp" bodystart="186" bodyend="253" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner.h" declline="78" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="onnx__runner_8h_1a82eb23f2f62574eb436a6e0faf3be7c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void onnx_destroy</definition>
+        <argsstring>(struct onnx_context_global onnx_context_global)</argsstring>
+        <name>onnx_destroy</name>
+        <param>
+          <type>struct <ref refid="structonnx__context__global" kindref="compound">onnx_context_global</ref></type>
+          <declname>onnx_context_global</declname>
+        </param>
+        <briefdescription>
+<para>Free memory allocated within an <ref refid="structonnx__context__global" kindref="compound">onnx_context_global</ref> with onnx_init. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in"><ref refid="structonnx__context__global" kindref="compound">onnx_context_global</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Struct with all objects allocated by OnnxRuntime. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner.h" line="87" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner.cpp" bodystart="255" bodyend="259" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner.h" declline="87" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="onnx__runner_8h_1a10b1461c867a1120dac80d14ec7891b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int onnx_destroy_node</definition>
+        <argsstring>(struct onnx_context_node onnx_context_node)</argsstring>
+        <name>onnx_destroy_node</name>
+        <param>
+          <type>struct <ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref></type>
+          <declname>onnx_context_node</declname>
+        </param>
+        <briefdescription>
+<para>Free memory allocated within an <ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref> with onnx_init_node. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in"><ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Struct with all objects allocated by OnnxRuntime. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int The Vart ML error (vart_ml_error_id) code of the operation. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner.h" line="95" column="5" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner.cpp" bodystart="261" bodyend="277" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner.h" declline="95" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="onnx__runner_8h_1a6aeaa2b9d077503295adbd6cf173fb2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int onnx_run_inference</definition>
+        <argsstring>(struct onnx_context_node onnx_context_node, const void *memory_info, const char **input_names, const int64_t **input_shapes, void **inbufs, const char **output_names, const int64_t **output_shapes, void **outbufs)</argsstring>
+        <name>onnx_run_inference</name>
+        <param>
+          <type>struct <ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref></type>
+          <declname>onnx_context_node</declname>
+        </param>
+        <param>
+          <type>const void *</type>
+          <declname>memory_info</declname>
+        </param>
+        <param>
+          <type>const char **</type>
+          <declname>input_names</declname>
+        </param>
+        <param>
+          <type>const int64_t **</type>
+          <declname>input_shapes</declname>
+        </param>
+        <param>
+          <type>void **</type>
+          <declname>inbufs</declname>
+        </param>
+        <param>
+          <type>const char **</type>
+          <declname>output_names</declname>
+        </param>
+        <param>
+          <type>const int64_t **</type>
+          <declname>output_shapes</declname>
+        </param>
+        <param>
+          <type>void **</type>
+          <declname>outbufs</declname>
+        </param>
+        <briefdescription>
+<para>Run the model in an OrtSession. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Input and output buffers&apos; order is defined by input_names and output_names respectively. If the latters are omitted, input and output buffers must be given in the order defined by the onnx model.</para>
+<para>Input/output shapes of the buffers are optional as they are read in the onnx file. If a shape contains variable dimensions (represented by -1), the argument is required.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in"><ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Struct with OnnxRuntime session and transputs info. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">memory_info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>OrtMemoryInfo for tensor creation. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">input_names</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An array of the inputs names (optional). </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">input_shapes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An array of the inputs shapes (optional). </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">inbufs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Two-dimensional array of input values (allocated by user). </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">output_names</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An array of the outputs names (optional). </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">output_shapes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An array of the outputs shapes (optional). </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">outbufs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Two-dimensional array of output values (allocated by user). </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int The Vart ML error (vart_ml_error_id) code of the operation. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner.h" line="116" column="5" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner.cpp" bodystart="279" bodyend="420" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner.h" declline="116" declcolumn="5"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="copyright"><para>Copyright 2025 Advanced Micro Devices Inc.</para>
+</simplesect>
+Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <verbatim>http://www.apache.org/licenses/LICENSE-2.0
+</verbatim> Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. </para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;inttypes.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="onnx__runner_8h_1ab98ba9756192515ba6dfe07c7389496b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="onnx__runner_8h_1ab98ba9756192515ba6dfe07c7389496b" kindref="member">transput_type</ref></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="26" refid="onnx__runner_8h_1ab98ba9756192515ba6dfe07c7389496bae310c909d76b003d016bef8bdf16936a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="onnx__runner_8h_1ab98ba9756192515ba6dfe07c7389496bae310c909d76b003d016bef8bdf16936a" kindref="member">INPUT</ref>,</highlight></codeline>
+<codeline lineno="27" refid="onnx__runner_8h_1ab98ba9756192515ba6dfe07c7389496ba2ab08d3e103968f5f4f26b66a52e99d6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="onnx__runner_8h_1ab98ba9756192515ba6dfe07c7389496ba2ab08d3e103968f5f4f26b66a52e99d6" kindref="member">OUTPUT</ref>,</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="structonnx__context__global" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structonnx__context__global" kindref="compound">onnx_context_global</ref></highlight></codeline>
+<codeline lineno="31"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="32" refid="structonnx__context__global_1aa07490b4a5eb8df5314590a4ebb75266" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/><ref refid="structonnx__context__global_1aa07490b4a5eb8df5314590a4ebb75266" kindref="member">env</ref>;</highlight></codeline>
+<codeline lineno="33" refid="structonnx__context__global_1aeb93c82c35148fe3541873920663e425" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/><ref refid="structonnx__context__global_1aeb93c82c35148fe3541873920663e425" kindref="member">memory_info</ref>;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="structtransput__info" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structtransput__info" kindref="compound">transput_info</ref></highlight></codeline>
+<codeline lineno="37"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="38" refid="structtransput__info_1a9f4fb2113410791234461256b389c8a7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><sp/><sp/><sp/><ref refid="structtransput__info_1a9f4fb2113410791234461256b389c8a7" kindref="member">name</ref>;</highlight></codeline>
+<codeline lineno="39" refid="structtransput__info_1a03ab85a63cba1bb2493bef8daf701bae" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>int64_t*<sp/><ref refid="structtransput__info_1a03ab85a63cba1bb2493bef8daf701bae" kindref="member">shape</ref>;</highlight></codeline>
+<codeline lineno="40" refid="structtransput__info_1a7df07fe2f3afc7ee995a0d79d041f7c5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><sp/><sp/><ref refid="structtransput__info_1a7df07fe2f3afc7ee995a0d79d041f7c5" kindref="member">shape_len</ref>;</highlight></codeline>
+<codeline lineno="41" refid="structtransput__info_1a2049e17b45fca9252c361833d71adbcb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/><ref refid="structtransput__info_1a2049e17b45fca9252c361833d71adbcb" kindref="member">data_type</ref>;</highlight></codeline>
+<codeline lineno="42" refid="structtransput__info_1afcfe025f984bb4b1bec3d50dc0b8b121" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><sp/><sp/><ref refid="structtransput__info_1afcfe025f984bb4b1bec3d50dc0b8b121" kindref="member">size</ref>;</highlight></codeline>
+<codeline lineno="43" refid="structtransput__info_1a94b7454c9b88de6ae31bedbcf1bd0d86" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="structtransput__info_1a94b7454c9b88de6ae31bedbcf1bd0d86" kindref="member">variable_dim</ref>;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="structonnx__context__node" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref></highlight></codeline>
+<codeline lineno="47"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="48" refid="structonnx__context__node_1a0dd1226ff4f9de3ecb3e74bf23c0f798" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structonnx__context__node_1a0dd1226ff4f9de3ecb3e74bf23c0f798" kindref="member">session</ref>;</highlight></codeline>
+<codeline lineno="49" refid="structonnx__context__node_1a8d382a29e78198f50e3ad81be894eb2f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structonnx__context__node_1a8d382a29e78198f50e3ad81be894eb2f" kindref="member">allocator</ref>;</highlight></codeline>
+<codeline lineno="50" refid="structonnx__context__node_1a2ab6b6a985db24d6fb0186e35317634f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structtransput__info" kindref="compound">transput_info</ref>*<sp/><ref refid="structonnx__context__node_1a2ab6b6a985db24d6fb0186e35317634f" kindref="member">input_infos</ref>;</highlight></codeline>
+<codeline lineno="51" refid="structonnx__context__node_1a1bb8d6e223b559d4dc28ef61455e2fc1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structonnx__context__node_1a1bb8d6e223b559d4dc28ef61455e2fc1" kindref="member">input_count</ref>;</highlight></codeline>
+<codeline lineno="52" refid="structonnx__context__node_1a15fa06e8b3d1d9d00f0c9afac0a06530" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structtransput__info" kindref="compound">transput_info</ref>*<sp/><ref refid="structonnx__context__node_1a15fa06e8b3d1d9d00f0c9afac0a06530" kindref="member">output_infos</ref>;</highlight></codeline>
+<codeline lineno="53" refid="structonnx__context__node_1a34309de9a59c1a5c32a85c75fa63d10b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structonnx__context__node_1a34309de9a59c1a5c32a85c75fa63d10b" kindref="member">output_count</ref>;</highlight></codeline>
+<codeline lineno="54" refid="structonnx__context__node_1aed9b0f653ff474104bbdbe38092e813e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structonnx__context__node_1aed9b0f653ff474104bbdbe38092e813e" kindref="member">variable_dim_in</ref>;</highlight></codeline>
+<codeline lineno="55" refid="structonnx__context__node_1a0a2fc527e03389dbefbf8f55b52817ef" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structonnx__context__node_1a0a2fc527e03389dbefbf8f55b52817ef" kindref="member">variable_dim_out</ref>;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="onnx__runner_8h_1a8e42aa2ef932cc17a081c34cc7a3331f" kindref="member">onnx_init</ref>(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structonnx__context__global" kindref="compound">onnx_context_global</ref>*<sp/><ref refid="structonnx__context__global" kindref="compound">onnx_context_global</ref>);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="onnx__runner_8h_1a763a0f1ee2400896158d54e45198554c" kindref="member">onnx_init_node</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>model_path,</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structonnx__context__global" kindref="compound">onnx_context_global</ref><sp/><ref refid="structonnx__context__global" kindref="compound">onnx_context_global</ref>,</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>*<sp/><sp/><ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="onnx__runner_8h_1a82eb23f2f62574eb436a6e0faf3be7c0" kindref="member">onnx_destroy</ref>(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structonnx__context__global" kindref="compound">onnx_context_global</ref><sp/><ref refid="structonnx__context__global" kindref="compound">onnx_context_global</ref>);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="onnx__runner_8h_1a10b1461c867a1120dac80d14ec7891b8" kindref="member">onnx_destroy_node</ref>(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref><sp/><ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="onnx__runner_8h_1a6aeaa2b9d077503295adbd6cf173fb2e" kindref="member">onnx_run_inference</ref>(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref><sp/><ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>,</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>memory_info,</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">**<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>input_names,</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>int64_t**<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>input_shapes,</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">**<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>inbufs,</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">**<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output_names,</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>int64_t**<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output_shapes,</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">**<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>outbufs);</highlight></codeline>
+    </programlisting>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner.h"/>
+  </compounddef>
+</doxygen>

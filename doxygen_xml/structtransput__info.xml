@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structtransput__info" kind="struct" language="C++" prot="public">
+    <compoundname>transput_info</compoundname>
+    <includes refid="onnx__runner_8h" local="no">onnx_runner.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structtransput__info_1a9f4fb2113410791234461256b389c8a7" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* transput_info::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner.h" line="38" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtransput__info_1a03ab85a63cba1bb2493bef8daf701bae" prot="public" static="no" mutable="no">
+        <type>int64_t *</type>
+        <definition>int64_t* transput_info::shape</definition>
+        <argsstring></argsstring>
+        <name>shape</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner.h" line="39" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtransput__info_1a7df07fe2f3afc7ee995a0d79d041f7c5" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t transput_info::shape_len</definition>
+        <argsstring></argsstring>
+        <name>shape_len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner.h" line="40" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtransput__info_1a2049e17b45fca9252c361833d71adbcb" prot="public" static="no" mutable="no">
+        <type>unsigned</type>
+        <definition>unsigned transput_info::data_type</definition>
+        <argsstring></argsstring>
+        <name>data_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner.h" line="41" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtransput__info_1afcfe025f984bb4b1bec3d50dc0b8b121" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t transput_info::size</definition>
+        <argsstring></argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner.h" line="42" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtransput__info_1a94b7454c9b88de6ae31bedbcf1bd0d86" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool transput_info::variable_dim</definition>
+        <argsstring></argsstring>
+        <name>variable_dim</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner.h" line="43" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner.h" line="36" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner.h" bodystart="37" bodyend="44"/>
+    <listofallmembers>
+      <member refid="structtransput__info_1a2049e17b45fca9252c361833d71adbcb" prot="public" virt="non-virtual"><scope>transput_info</scope><name>data_type</name></member>
+      <member refid="structtransput__info_1a9f4fb2113410791234461256b389c8a7" prot="public" virt="non-virtual"><scope>transput_info</scope><name>name</name></member>
+      <member refid="structtransput__info_1a03ab85a63cba1bb2493bef8daf701bae" prot="public" virt="non-virtual"><scope>transput_info</scope><name>shape</name></member>
+      <member refid="structtransput__info_1a7df07fe2f3afc7ee995a0d79d041f7c5" prot="public" virt="non-virtual"><scope>transput_info</scope><name>shape_len</name></member>
+      <member refid="structtransput__info_1afcfe025f984bb4b1bec3d50dc0b8b121" prot="public" virt="non-virtual"><scope>transput_info</scope><name>size</name></member>
+      <member refid="structtransput__info_1a94b7454c9b88de6ae31bedbcf1bd0d86" prot="public" virt="non-virtual"><scope>transput_info</scope><name>variable_dim</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

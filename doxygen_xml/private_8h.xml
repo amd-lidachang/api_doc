@@ -1,0 +1,1193 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="private_8h" kind="file" language="C++">
+    <compoundname>private.h</compoundname>
+    <includes local="no">algorithm</includes>
+    <includes local="no">map</includes>
+    <includes local="no">memory</includes>
+    <includes local="no">string</includes>
+    <includes local="no">unordered_map</includes>
+    <includes local="no">vector</includes>
+    <includes local="no">variant</includes>
+    <includes refid="vart__ml__io_8h" local="yes">vart_ml_io/vart_ml_io.h</includes>
+    <includes refid="fpga__info_8h" local="yes">vart_ml_utils/fpga_info.h</includes>
+    <includes refid="npu__reg_8h" local="yes">vart_ml_utils/npu_reg.h</includes>
+    <includedby refid="npu__c__api_8h" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/npu_c_api.h</includedby>
+    <incdepgraph>
+      <node id="12">
+        <label>stdbool.h</label>
+      </node>
+      <node id="13">
+        <label>stdarg.h</label>
+      </node>
+      <node id="11">
+        <label>stdint.h</label>
+      </node>
+      <node id="8">
+        <label>variant</label>
+      </node>
+      <node id="5">
+        <label>string</label>
+      </node>
+      <node id="3">
+        <label>map</label>
+      </node>
+      <node id="10">
+        <label>stddef.h</label>
+      </node>
+      <node id="16">
+        <label>vart_ml_utils/npu_reg.h</label>
+        <link refid="npu__reg_8h"/>
+      </node>
+      <node id="1">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h</label>
+        <link refid="private_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>string.h</label>
+      </node>
+      <node id="9">
+        <label>vart_ml_io/vart_ml_io.h</label>
+        <link refid="vart__ml__io_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>vector</label>
+      </node>
+      <node id="6">
+        <label>unordered_map</label>
+      </node>
+      <node id="2">
+        <label>algorithm</label>
+      </node>
+      <node id="14">
+        <label>vart_ml_utils/fpga_info.h</label>
+        <link refid="fpga__info_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="8">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/run_snapshot.cpp</label>
+        <link refid="run__snapshot_8cpp"/>
+      </node>
+      <node id="21">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_tools/vart_ml_tester.cpp</label>
+        <link refid="vart__ml__tester_8cpp"/>
+      </node>
+      <node id="3">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/accessors.cpp</label>
+        <link refid="npu__c__api_2accessors_8cpp"/>
+      </node>
+      <node id="22">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp</label>
+        <link refid="vcd__stats_8cpp"/>
+      </node>
+      <node id="12">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/arm_ops.cpp</label>
+        <link refid="arm__ops_8cpp"/>
+      </node>
+      <node id="6">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/pl.cpp</label>
+        <link refid="pl_8cpp"/>
+      </node>
+      <node id="10">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/run_snapshot_txt.cpp</label>
+        <link refid="run__snapshot__txt_8cpp"/>
+      </node>
+      <node id="1">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h</label>
+        <link refid="private_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/clocks.cpp</label>
+        <link refid="clocks_8cpp"/>
+      </node>
+      <node id="2">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/npu_c_api.h</label>
+        <link refid="npu__c__api_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_tools/vart_ml_clocks.cpp</label>
+        <link refid="vart__ml__clocks_8cpp"/>
+      </node>
+      <node id="14">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/snapshot_parser.cpp</label>
+        <link refid="vart__ml__runner_2snapshot__parser_8cpp"/>
+      </node>
+      <node id="9">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/run_snapshot_bin.cpp</label>
+        <link refid="run__snapshot__bin_8cpp"/>
+      </node>
+      <node id="20">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_tools/vart_ml_ddr_poke.cpp</label>
+        <link refid="vart__ml__ddr__poke_8cpp"/>
+      </node>
+      <node id="15">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/thread_pool.cpp</label>
+        <link refid="thread__pool_8cpp"/>
+      </node>
+      <node id="16">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/utils.cpp</label>
+        <link refid="utils_8cpp"/>
+      </node>
+      <node id="7">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/quantization.cpp</label>
+        <link refid="quantization_8cpp"/>
+      </node>
+      <node id="17">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.cpp</label>
+        <link refid="vart__ml__runner_8cpp"/>
+      </node>
+      <node id="11">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/snapshot_parser.cpp</label>
+        <link refid="npu__c__api_2snapshot__parser_8cpp"/>
+      </node>
+      <node id="5">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/inference.cpp</label>
+        <link refid="inference_8cpp"/>
+      </node>
+      <node id="13">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/execute.cpp</label>
+        <link refid="execute_8cpp"/>
+      </node>
+      <node id="19">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_tools/vart_ml_ctrlbus_poke.cpp</label>
+        <link refid="vart__ml__ctrlbus__poke_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structsupervisor__reg__bf" prot="public">supervisor_reg_bf</innerclass>
+    <innerclass refid="unionsupervisor__reg" prot="public">supervisor_reg</innerclass>
+    <innerclass refid="structlm__coreBus__masterControl__config__aieml__v1c__bf" prot="public">lm_coreBus_masterControl_config_aieml_v1c_bf</innerclass>
+    <innerclass refid="unionlm__coreBus__masterControl__config__aieml__v1c" prot="public">lm_coreBus_masterControl_config_aieml_v1c</innerclass>
+    <innerclass refid="structlm__coreBus__masterControl__status__uscale__bf" prot="public">lm_coreBus_masterControl_status_uscale_bf</innerclass>
+    <innerclass refid="unionlm__coreBus__masterControl__status__uscale" prot="public">lm_coreBus_masterControl_status_uscale</innerclass>
+    <innerclass refid="structlm__coreBus__masterControl__status__versal__bf" prot="public">lm_coreBus_masterControl_status_versal_bf</innerclass>
+    <innerclass refid="unionlm__coreBus__masterControl__status__versal" prot="public">lm_coreBus_masterControl_status_versal</innerclass>
+    <innerclass refid="structlm__coreBus__masterControl__status__aieml__v1c__bf" prot="public">lm_coreBus_masterControl_status_aieml_v1c_bf</innerclass>
+    <innerclass refid="unionlm__coreBus__masterControl__status__aieml__v1c" prot="public">lm_coreBus_masterControl_status_aieml_v1c</innerclass>
+    <innerclass refid="structnpu__tensor" prot="public">npu_tensor</innerclass>
+    <innerclass refid="structnpu__constant__tensor" prot="public">npu_constant_tensor</innerclass>
+    <innerclass refid="structpl__tensor" prot="public">pl_tensor</innerclass>
+    <innerclass refid="structnpu__snapshot" prot="public">npu_snapshot</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="private_8h_1a2e12602049b738329854cceb733a132f" prot="public" static="no" strong="no">
+        <type></type>
+        <name>shape_format_t</name>
+        <enumvalue id="private_8h_1a2e12602049b738329854cceb733a132fa3dbd1016ea99d087d747530418b89a01" prot="public">
+          <name>NC</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="private_8h_1a2e12602049b738329854cceb733a132fab4ff9c8c32670a4cde0d38b3ca654831" prot="public">
+          <name>NHW</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="private_8h_1a2e12602049b738329854cceb733a132fa7442702e1d93df81504eb5e5d536c2fc" prot="public">
+          <name>NHWC</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="private_8h_1a2e12602049b738329854cceb733a132fa54d2c44e9fb4c89a3abd5088e04fdc48" prot="public">
+          <name>NCHW</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="private_8h_1a2e12602049b738329854cceb733a132fa97f1217ddf4130b6338661e619f1c673" prot="public">
+          <name>NHWC4</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="private_8h_1a2e12602049b738329854cceb733a132fa01fa91369584d5f01919e8df0b73c0ee" prot="public">
+          <name>NHWC8</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="private_8h_1a2e12602049b738329854cceb733a132fa759ce4ce2cefb434f49ebd074e701511" prot="public">
+          <name>NC4HW4</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="private_8h_1a2e12602049b738329854cceb733a132fabe1274f6117e292f424f931705b7a3f4" prot="public">
+          <name>NC8HW8</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="private_8h_1a2e12602049b738329854cceb733a132fa3a7e53a796b0d9845af977a477b30ba2" prot="public">
+          <name>NHW16C4WC</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="private_8h_1a2e12602049b738329854cceb733a132fa6ce26a62afab55d7606ad4e92428b30c" prot="public">
+          <name>UNKNOWN</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="35" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="36" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="enum" id="private_8h_1a49b5dfea31023fcd165ce36384234dc5" prot="public" static="no" strong="no">
+        <type></type>
+        <name>data_type_t</name>
+        <enumvalue id="private_8h_1a49b5dfea31023fcd165ce36384234dc5ada138aad097eaac8697fe3661c91af95" prot="public">
+          <name>INT8</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="private_8h_1a49b5dfea31023fcd165ce36384234dc5a2644b741f40df4c4c3a83bbdcf7124b3" prot="public">
+          <name>FLOAT32</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="private_8h_1a49b5dfea31023fcd165ce36384234dc5a13759b5b800cc50a6e10f73681f6fe9b" prot="public">
+          <name>UINT8</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="private_8h_1a49b5dfea31023fcd165ce36384234dc5a86a4d027dff711bdd1e3ab36e6765761" prot="public">
+          <name>BF16</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="private_8h_1a49b5dfea31023fcd165ce36384234dc5ac75245149c3f64d74430b8996b1e0558" prot="public">
+          <name>NA</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="49" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="50" bodyend="56"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="private_8h_1a8da7c33a4929dd2bc642f70ffc18a108" prot="public" static="no">
+        <type>struct <ref refid="structsupervisor__reg__bf" kindref="compound">supervisor_reg_bf</ref></type>
+        <definition>typedef struct supervisor_reg_bf supervisor_reg_bf</definition>
+        <argsstring></argsstring>
+        <name>supervisor_reg_bf</name>
+        <briefdescription>
+<para>Structure to pack supervisor reg. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="173" column="19"/>
+      </memberdef>
+      <memberdef kind="typedef" id="private_8h_1a6d56c54c72cd7efe0af6152ae39a3cc2" prot="public" static="no">
+        <type>union <ref refid="unionsupervisor__reg" kindref="compound">supervisor_reg</ref></type>
+        <definition>typedef union supervisor_reg supervisor_reg</definition>
+        <argsstring></argsstring>
+        <name>supervisor_reg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="179" column="16"/>
+      </memberdef>
+      <memberdef kind="typedef" id="private_8h_1af8d2d99ea33da5e67a9ca06ecf7a13aa" prot="public" static="no">
+        <type>struct <ref refid="structlm__coreBus__masterControl__config__aieml__v1c__bf" kindref="compound">lm_coreBus_masterControl_config_aieml_v1c_bf</ref></type>
+        <definition>typedef struct lm_coreBus_masterControl_config_aieml_v1c_bf lm_coreBus_masterControl_config_aieml_v1c_bf</definition>
+        <argsstring></argsstring>
+        <name>lm_coreBus_masterControl_config_aieml_v1c_bf</name>
+        <briefdescription>
+<para>structure to pack config </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="199" column="46"/>
+      </memberdef>
+      <memberdef kind="typedef" id="private_8h_1a0cb670ec98774d1c8dff0f875c172f12" prot="public" static="no">
+        <type>union <ref refid="unionlm__coreBus__masterControl__config__aieml__v1c" kindref="compound">lm_coreBus_masterControl_config_aieml_v1c</ref></type>
+        <definition>typedef union lm_coreBus_masterControl_config_aieml_v1c lm_coreBus_masterControl_config_aieml_v1c</definition>
+        <argsstring></argsstring>
+        <name>lm_coreBus_masterControl_config_aieml_v1c</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="206" column="43"/>
+      </memberdef>
+      <memberdef kind="typedef" id="private_8h_1a5d2aeb010768851c421cb3e04e6ad99b" prot="public" static="no">
+        <type>struct <ref refid="structlm__coreBus__masterControl__status__uscale__bf" kindref="compound">lm_coreBus_masterControl_status_uscale_bf</ref></type>
+        <definition>typedef struct lm_coreBus_masterControl_status_uscale_bf lm_coreBus_masterControl_status_uscale_bf</definition>
+        <argsstring></argsstring>
+        <name>lm_coreBus_masterControl_status_uscale_bf</name>
+        <briefdescription>
+<para>structure to pack status </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="219" column="43"/>
+      </memberdef>
+      <memberdef kind="typedef" id="private_8h_1a744993df30c77d7409f57a8347ed7ed7" prot="public" static="no">
+        <type>union <ref refid="unionlm__coreBus__masterControl__status__uscale" kindref="compound">lm_coreBus_masterControl_status_uscale</ref></type>
+        <definition>typedef union lm_coreBus_masterControl_status_uscale lm_coreBus_masterControl_status_uscale</definition>
+        <argsstring></argsstring>
+        <name>lm_coreBus_masterControl_status_uscale</name>
+        <briefdescription>
+<para>union to access to the packed status </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="227" column="40"/>
+      </memberdef>
+      <memberdef kind="typedef" id="private_8h_1ac1c7d981e155423828b28cc54f7b7d69" prot="public" static="no">
+        <type>struct <ref refid="structlm__coreBus__masterControl__status__versal__bf" kindref="compound">lm_coreBus_masterControl_status_versal_bf</ref></type>
+        <definition>typedef struct lm_coreBus_masterControl_status_versal_bf lm_coreBus_masterControl_status_versal_bf</definition>
+        <argsstring></argsstring>
+        <name>lm_coreBus_masterControl_status_versal_bf</name>
+        <briefdescription>
+<para>structure to pack status </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="245" column="43"/>
+      </memberdef>
+      <memberdef kind="typedef" id="private_8h_1a7e4900fafcd61e8f6b86702c13776abe" prot="public" static="no">
+        <type>union <ref refid="unionlm__coreBus__masterControl__status__versal" kindref="compound">lm_coreBus_masterControl_status_versal</ref></type>
+        <definition>typedef union lm_coreBus_masterControl_status_versal lm_coreBus_masterControl_status_versal</definition>
+        <argsstring></argsstring>
+        <name>lm_coreBus_masterControl_status_versal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="252" column="40"/>
+      </memberdef>
+      <memberdef kind="typedef" id="private_8h_1a24a61c807e2c173f3032586d68d49a31" prot="public" static="no">
+        <type>struct <ref refid="structlm__coreBus__masterControl__status__aieml__v1c__bf" kindref="compound">lm_coreBus_masterControl_status_aieml_v1c_bf</ref></type>
+        <definition>typedef struct lm_coreBus_masterControl_status_aieml_v1c_bf lm_coreBus_masterControl_status_aieml_v1c_bf</definition>
+        <argsstring></argsstring>
+        <name>lm_coreBus_masterControl_status_aieml_v1c_bf</name>
+        <briefdescription>
+<para>structure to pack status </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="264" column="46"/>
+      </memberdef>
+      <memberdef kind="typedef" id="private_8h_1aa90020e1056e0a833079162abce60498" prot="public" static="no">
+        <type>union <ref refid="unionlm__coreBus__masterControl__status__aieml__v1c" kindref="compound">lm_coreBus_masterControl_status_aieml_v1c</ref></type>
+        <definition>typedef union lm_coreBus_masterControl_status_aieml_v1c lm_coreBus_masterControl_status_aieml_v1c</definition>
+        <argsstring></argsstring>
+        <name>lm_coreBus_masterControl_status_aieml_v1c</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="270" column="43"/>
+      </memberdef>
+      <memberdef kind="typedef" id="private_8h_1a13e0a2eed4b9fc000d7d64604eaf52a0" prot="public" static="no">
+        <type>std::variant&lt; <ref refid="unionlm__coreBus__masterControl__status__uscale" kindref="compound">lm_coreBus_masterControl_status_uscale</ref>, <ref refid="unionlm__coreBus__masterControl__status__versal" kindref="compound">lm_coreBus_masterControl_status_versal</ref>, <ref refid="unionlm__coreBus__masterControl__status__aieml__v1c" kindref="compound">lm_coreBus_masterControl_status_aieml_v1c</ref> &gt;</type>
+        <definition>using lm_coreBus_masterControl_status =  std::variant&lt;lm_coreBus_masterControl_status_uscale, lm_coreBus_masterControl_status_versal, lm_coreBus_masterControl_status_aieml_v1c&gt;</definition>
+        <argsstring></argsstring>
+        <name>lm_coreBus_masterControl_status</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="272" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="274" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="private_8h_1adb53a177d8b31ed80334480d22e9e51e" prot="public" static="no">
+        <type>struct <ref refid="structnpu__tensor" kindref="compound">npu_tensor</ref></type>
+        <definition>typedef struct npu_tensor npu_tensor_t</definition>
+        <argsstring></argsstring>
+        <name>npu_tensor_t</name>
+        <briefdescription>
+<para>Structure of the tensor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This structure contains all the necessary parameter to access and upload/download data to DDR. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="299" column="14"/>
+      </memberdef>
+      <memberdef kind="typedef" id="private_8h_1aa7f3a4591537338fde7ffdff021d65a9" prot="public" static="no">
+        <type>struct <ref refid="structnpu__snapshot" kindref="compound">npu_snapshot</ref></type>
+        <definition>typedef struct npu_snapshot npu_snapshot_t</definition>
+        <argsstring></argsstring>
+        <name>npu_snapshot_t</name>
+        <briefdescription>
+<para>Structure of a snapshot. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This structure contains all the parameters needed to run a snapshot. They are retrived by parsing the snapshot files. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="368" column="16"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="private_8h_1aea7fee4faef930a3038d32c151b5ce05" prot="public" static="yes" mutable="no">
+        <type>std::unordered_map&lt; <ref refid="private_8h_1a2e12602049b738329854cceb733a132f" kindref="member">shape_format_t</ref>, std::string &gt;</type>
+        <definition>std::unordered_map&lt;shape_format_t, std::string&gt; shape_format_to_string_map</definition>
+        <argsstring></argsstring>
+        <name>shape_format_to_string_map</name>
+        <initializer>= {
+	{ <ref refid="private_8h_1a2e12602049b738329854cceb733a132fa6ce26a62afab55d7606ad4e92428b30c" kindref="member">UNKNOWN</ref>, &quot;UNKNOWN&quot; },    { NC, &quot;NC&quot; },         { NHW, &quot;NHW&quot; },
+	{ NHWC, &quot;NHWC&quot; },          { NCHW, &quot;NCHW&quot; },     { NHWC4, &quot;NHWC4&quot; },
+	{ NHWC8, &quot;NHWC8&quot; },        { NC4HW4, &quot;NC4HW4&quot; }, { NC8HW8, &quot;NC8HW8&quot; },
+	{ NHW16C4WC, &quot;NHW16C4WC&quot; }
+}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="58" column="27" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="private_8h_1aad5a2c8902a627333ee91111352b76d1" prot="public" static="yes" mutable="no">
+        <type>std::unordered_map&lt; std::string, <ref refid="private_8h_1a2e12602049b738329854cceb733a132f" kindref="member">shape_format_t</ref> &gt;</type>
+        <definition>std::unordered_map&lt;std::string, shape_format_t&gt; string_to_shape_format_map</definition>
+        <argsstring></argsstring>
+        <name>string_to_shape_format_map</name>
+        <initializer>= {
+	{ &quot;UNKNOWN&quot;, UNKNOWN }, { &quot;NC&quot;, NC },           { &quot;CUSTOM&quot;, NC },     { &quot;FLAT&quot;, NC },
+	{ &quot;NHW&quot;, NHW },         { &quot;NHWC&quot;, NHWC },       { &quot;NCHW&quot;, NCHW },     { &quot;NHWC4&quot;, NHWC4 },
+	{ &quot;NHWC8&quot;, NHWC8 },     { &quot;NC4HW4&quot;, NC4HW4 },   { &quot;NC8HW8&quot;, NC8HW8 }, { &quot;NHW16C4WC&quot;, NHW16C4WC },
+	{ &quot;DDR_NHWC&quot;, NHWC8 },  { &quot;DDR_NCHWC&quot;, NC8HW8 }
+}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="65" column="27" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="private_8h_1af10678369b17a2bb81e0607df0ed8f03" prot="public" static="yes" mutable="no">
+        <type>std::unordered_map&lt; <ref refid="private_8h_1a49b5dfea31023fcd165ce36384234dc5" kindref="member">data_type_t</ref>, std::string &gt;</type>
+        <definition>std::unordered_map&lt;data_type_t, std::string&gt; data_type_to_string_map</definition>
+        <argsstring></argsstring>
+        <name>data_type_to_string_map</name>
+        <initializer>= { { <ref refid="private_8h_1a49b5dfea31023fcd165ce36384234dc5ac75245149c3f64d74430b8996b1e0558" kindref="member">NA</ref>, &quot;UNKNOWN&quot; },
+	                                                                            { INT8, &quot;INT8&quot; },
+	                                                                            { UINT8, &quot;UINT8&quot; },
+	                                                                            { BF16, &quot;BF16&quot; },
+	                                                                            { FLOAT32, &quot;FLOAT32&quot; } }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="72" column="27" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="private_8h_1a10fc207cc3a14b2b5fa92bc94ae38baa" prot="public" static="yes" mutable="no">
+        <type>std::unordered_map&lt; std::string, <ref refid="private_8h_1a49b5dfea31023fcd165ce36384234dc5" kindref="member">data_type_t</ref> &gt;</type>
+        <definition>std::unordered_map&lt;std::string, data_type_t&gt; string_to_data_type_map</definition>
+        <argsstring></argsstring>
+        <name>string_to_data_type_map</name>
+        <initializer>= {
+	{ &quot;UNKNOWN&quot;, NA }, { &quot;INT8&quot;, INT8 },       { &quot;UINT8&quot;, UINT8 },
+	{ &quot;BF16&quot;, BF16 },  { &quot;FLOAT32&quot;, FLOAT32 }, { &quot;FLOAT&quot;, FLOAT32 }
+}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="78" column="27" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="private_8h_1a3790779e59a682250026196ca340d07c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const std::string &amp;</type>
+        <definition>static const std::string&amp; formatToString</definition>
+        <argsstring>(shape_format_t format)</argsstring>
+        <name>formatToString</name>
+        <param>
+          <type><ref refid="private_8h_1a2e12602049b738329854cceb733a132f" kindref="member">shape_format_t</ref></type>
+          <declname>format</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="83" column="33" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="83" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="private_8h_1a69cc5c303e06bd14b893a68d09b4a286" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="private_8h_1a2e12602049b738329854cceb733a132f" kindref="member">shape_format_t</ref></type>
+        <definition>static shape_format_t stringToFormat</definition>
+        <argsstring>(const std::string &amp;str)</argsstring>
+        <name>stringToFormat</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="91" column="30" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="91" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="private_8h_1a8f3094f3e13582d2b7e7c12bfec882bc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const std::string &amp;</type>
+        <definition>static const std::string&amp; dataTypeToString</definition>
+        <argsstring>(data_type_t data_type)</argsstring>
+        <name>dataTypeToString</name>
+        <param>
+          <type><ref refid="private_8h_1a49b5dfea31023fcd165ce36384234dc5" kindref="member">data_type_t</ref></type>
+          <declname>data_type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="105" column="33" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="105" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="private_8h_1a347ff79e3ead6681d6a3116cacefe193" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="private_8h_1a49b5dfea31023fcd165ce36384234dc5" kindref="member">data_type_t</ref></type>
+        <definition>static data_type_t stringToDataType</definition>
+        <argsstring>(const std::string &amp;str)</argsstring>
+        <name>stringToDataType</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="113" column="27" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="113" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="private_8h_1ae470c5e92ef407b77bcd3d3f2f551f91" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>static size_t sizeOfDataType</definition>
+        <argsstring>(data_type_t data_type)</argsstring>
+        <name>sizeOfDataType</name>
+        <param>
+          <type><ref refid="private_8h_1a49b5dfea31023fcd165ce36384234dc5" kindref="member">data_type_t</ref></type>
+          <declname>data_type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="129" column="22" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="129" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="private_8h_1a44772c5020cf823cf054477157492394" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool is_core_config_addr</definition>
+        <argsstring>(uint64_t addr, FpgaArchitecture arch)</argsstring>
+        <name>is_core_config_addr</name>
+        <param>
+          <type>uint64_t</type>
+          <declname>addr</declname>
+        </param>
+        <param>
+          <type><ref refid="fpga__info_8h_1afe7ded90c10a0e74d9627a16f660ad7e" kindref="member">FpgaArchitecture</ref></type>
+          <declname>arch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="143" column="20" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="143" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="private_8h_1ac72574a72c9946ea7af7a16a124a6c79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int npu_run_snapshot</definition>
+        <argsstring>(struct npu_snapshot *snap)</argsstring>
+        <name>npu_run_snapshot</name>
+        <param>
+          <type>struct <ref refid="structnpu__snapshot" kindref="compound">npu_snapshot</ref> *</type>
+          <declname>snap</declname>
+        </param>
+        <briefdescription>
+<para>Execute all the commands in a snapshot config file. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>snap</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Snapshot to run. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int The Vart ML error (vart_ml_error_id) code of the operation. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="376" column="5" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/run_snapshot.cpp" bodystart="64" bodyend="110" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" declline="376" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="private_8h_1a600fd865a2fa5c494e0f3582903d57b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int npu_run_snapshot_bin</definition>
+        <argsstring>(struct npu_snapshot *snap, std::ifstream &amp;snapshot)</argsstring>
+        <name>npu_run_snapshot_bin</name>
+        <param>
+          <type>struct <ref refid="structnpu__snapshot" kindref="compound">npu_snapshot</ref> *</type>
+          <declname>snap</declname>
+        </param>
+        <param>
+          <type>std::ifstream &amp;</type>
+          <declname>snapshot</declname>
+        </param>
+        <briefdescription>
+<para>Execute all the commands in a snapshot config file in binary format. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>snap</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Snapshot to run. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int The Vart ML error (vart_ml_error_id) code of the operation. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="384" column="5" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/run_snapshot_bin.cpp" bodystart="159" bodyend="258" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" declline="384" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="private_8h_1a09d2fc06016bcfdaa1422d0bd7ac4d91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int npu_run_snapshot_txt</definition>
+        <argsstring>(struct npu_snapshot *snap, std::ifstream &amp;snapshot)</argsstring>
+        <name>npu_run_snapshot_txt</name>
+        <param>
+          <type>struct <ref refid="structnpu__snapshot" kindref="compound">npu_snapshot</ref> *</type>
+          <declname>snap</declname>
+        </param>
+        <param>
+          <type>std::ifstream &amp;</type>
+          <declname>snapshot</declname>
+        </param>
+        <briefdescription>
+<para>Execute all the commands in a snapshot config file in text format. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>snap</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Snapshot to run. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int The Vart ML error (vart_ml_error_id) code of the operation. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="392" column="5" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/run_snapshot_txt.cpp" bodystart="248" bodyend="322" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" declline="392" declcolumn="5"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="copyright"><para>Copyright 2024 Advanced Micro Devices Inc.</para>
+</simplesect>
+Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <verbatim>http://www.apache.org/licenses/LICENSE-2.0
+</verbatim> Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. </para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>PRIVATE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PRIVATE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;algorithm&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;map&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;memory&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;unordered_map&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;variant&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="vart__ml__io_8h" kindref="compound">vart_ml_io/vart_ml_io.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="fpga__info_8h" kindref="compound">vart_ml_utils/fpga_info.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="npu__reg_8h" kindref="compound">vart_ml_utils/npu_reg.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="private_8h_1a2e12602049b738329854cceb733a132f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="37" refid="private_8h_1a2e12602049b738329854cceb733a132fa3dbd1016ea99d087d747530418b89a01" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="private_8h_1a2e12602049b738329854cceb733a132fa3dbd1016ea99d087d747530418b89a01" kindref="member">NC</ref>,</highlight></codeline>
+<codeline lineno="38" refid="private_8h_1a2e12602049b738329854cceb733a132fab4ff9c8c32670a4cde0d38b3ca654831" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="private_8h_1a2e12602049b738329854cceb733a132fab4ff9c8c32670a4cde0d38b3ca654831" kindref="member">NHW</ref>,</highlight></codeline>
+<codeline lineno="39" refid="private_8h_1a2e12602049b738329854cceb733a132fa7442702e1d93df81504eb5e5d536c2fc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="private_8h_1a2e12602049b738329854cceb733a132fa7442702e1d93df81504eb5e5d536c2fc" kindref="member">NHWC</ref>,</highlight></codeline>
+<codeline lineno="40" refid="private_8h_1a2e12602049b738329854cceb733a132fa54d2c44e9fb4c89a3abd5088e04fdc48" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="private_8h_1a2e12602049b738329854cceb733a132fa54d2c44e9fb4c89a3abd5088e04fdc48" kindref="member">NCHW</ref>,</highlight></codeline>
+<codeline lineno="41" refid="private_8h_1a2e12602049b738329854cceb733a132fa97f1217ddf4130b6338661e619f1c673" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="private_8h_1a2e12602049b738329854cceb733a132fa97f1217ddf4130b6338661e619f1c673" kindref="member">NHWC4</ref>,</highlight></codeline>
+<codeline lineno="42" refid="private_8h_1a2e12602049b738329854cceb733a132fa01fa91369584d5f01919e8df0b73c0ee" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="private_8h_1a2e12602049b738329854cceb733a132fa01fa91369584d5f01919e8df0b73c0ee" kindref="member">NHWC8</ref>,</highlight></codeline>
+<codeline lineno="43" refid="private_8h_1a2e12602049b738329854cceb733a132fa759ce4ce2cefb434f49ebd074e701511" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="private_8h_1a2e12602049b738329854cceb733a132fa759ce4ce2cefb434f49ebd074e701511" kindref="member">NC4HW4</ref>,</highlight></codeline>
+<codeline lineno="44" refid="private_8h_1a2e12602049b738329854cceb733a132fabe1274f6117e292f424f931705b7a3f4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="private_8h_1a2e12602049b738329854cceb733a132fabe1274f6117e292f424f931705b7a3f4" kindref="member">NC8HW8</ref>,</highlight></codeline>
+<codeline lineno="45" refid="private_8h_1a2e12602049b738329854cceb733a132fa3a7e53a796b0d9845af977a477b30ba2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="private_8h_1a2e12602049b738329854cceb733a132fa3a7e53a796b0d9845af977a477b30ba2" kindref="member">NHW16C4WC</ref>,</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="private_8h_1a2e12602049b738329854cceb733a132fa6ce26a62afab55d7606ad4e92428b30c" kindref="member">UNKNOWN</ref></highlight></codeline>
+<codeline lineno="47" refid="private_8h_1a2e12602049b738329854cceb733a132fa6ce26a62afab55d7606ad4e92428b30c" refkind="member"><highlight class="normal">}<sp/><ref refid="private_8h_1a2e12602049b738329854cceb733a132f" kindref="member">shape_format_t</ref>;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="private_8h_1a49b5dfea31023fcd165ce36384234dc5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="51" refid="private_8h_1a49b5dfea31023fcd165ce36384234dc5ada138aad097eaac8697fe3661c91af95" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="private_8h_1a49b5dfea31023fcd165ce36384234dc5ada138aad097eaac8697fe3661c91af95" kindref="member">INT8</ref>,</highlight></codeline>
+<codeline lineno="52" refid="private_8h_1a49b5dfea31023fcd165ce36384234dc5a2644b741f40df4c4c3a83bbdcf7124b3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="private_8h_1a49b5dfea31023fcd165ce36384234dc5a2644b741f40df4c4c3a83bbdcf7124b3" kindref="member">FLOAT32</ref>,</highlight></codeline>
+<codeline lineno="53" refid="private_8h_1a49b5dfea31023fcd165ce36384234dc5a13759b5b800cc50a6e10f73681f6fe9b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="private_8h_1a49b5dfea31023fcd165ce36384234dc5a13759b5b800cc50a6e10f73681f6fe9b" kindref="member">UINT8</ref>,</highlight></codeline>
+<codeline lineno="54" refid="private_8h_1a49b5dfea31023fcd165ce36384234dc5a86a4d027dff711bdd1e3ab36e6765761" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="private_8h_1a49b5dfea31023fcd165ce36384234dc5a86a4d027dff711bdd1e3ab36e6765761" kindref="member">BF16</ref>,</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="private_8h_1a49b5dfea31023fcd165ce36384234dc5ac75245149c3f64d74430b8996b1e0558" kindref="member">NA</ref></highlight></codeline>
+<codeline lineno="56" refid="private_8h_1a49b5dfea31023fcd165ce36384234dc5ac75245149c3f64d74430b8996b1e0558" refkind="member"><highlight class="normal">}<sp/><ref refid="private_8h_1a49b5dfea31023fcd165ce36384234dc5" kindref="member">data_type_t</ref>;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>std::unordered_map&lt;shape_format_t,<sp/>std::string&gt;<sp/>shape_format_to_string_map<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/><ref refid="private_8h_1a2e12602049b738329854cceb733a132fa6ce26a62afab55d7606ad4e92428b30c" kindref="member">UNKNOWN</ref>,<sp/></highlight><highlight class="stringliteral">&quot;UNKNOWN&quot;</highlight><highlight class="normal"><sp/>},<sp/><sp/><sp/><sp/>{<sp/><ref refid="private_8h_1a2e12602049b738329854cceb733a132fa3dbd1016ea99d087d747530418b89a01" kindref="member">NC</ref>,<sp/></highlight><highlight class="stringliteral">&quot;NC&quot;</highlight><highlight class="normal"><sp/>},<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/><ref refid="private_8h_1a2e12602049b738329854cceb733a132fab4ff9c8c32670a4cde0d38b3ca654831" kindref="member">NHW</ref>,<sp/></highlight><highlight class="stringliteral">&quot;NHW&quot;</highlight><highlight class="normal"><sp/>},</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/><ref refid="private_8h_1a2e12602049b738329854cceb733a132fa7442702e1d93df81504eb5e5d536c2fc" kindref="member">NHWC</ref>,<sp/></highlight><highlight class="stringliteral">&quot;NHWC&quot;</highlight><highlight class="normal"><sp/>},<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/><ref refid="private_8h_1a2e12602049b738329854cceb733a132fa54d2c44e9fb4c89a3abd5088e04fdc48" kindref="member">NCHW</ref>,<sp/></highlight><highlight class="stringliteral">&quot;NCHW&quot;</highlight><highlight class="normal"><sp/>},<sp/><sp/><sp/><sp/><sp/>{<sp/><ref refid="private_8h_1a2e12602049b738329854cceb733a132fa97f1217ddf4130b6338661e619f1c673" kindref="member">NHWC4</ref>,<sp/></highlight><highlight class="stringliteral">&quot;NHWC4&quot;</highlight><highlight class="normal"><sp/>},</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/><ref refid="private_8h_1a2e12602049b738329854cceb733a132fa01fa91369584d5f01919e8df0b73c0ee" kindref="member">NHWC8</ref>,<sp/></highlight><highlight class="stringliteral">&quot;NHWC8&quot;</highlight><highlight class="normal"><sp/>},<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/><ref refid="private_8h_1a2e12602049b738329854cceb733a132fa759ce4ce2cefb434f49ebd074e701511" kindref="member">NC4HW4</ref>,<sp/></highlight><highlight class="stringliteral">&quot;NC4HW4&quot;</highlight><highlight class="normal"><sp/>},<sp/>{<sp/><ref refid="private_8h_1a2e12602049b738329854cceb733a132fabe1274f6117e292f424f931705b7a3f4" kindref="member">NC8HW8</ref>,<sp/></highlight><highlight class="stringliteral">&quot;NC8HW8&quot;</highlight><highlight class="normal"><sp/>},</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/><ref refid="private_8h_1a2e12602049b738329854cceb733a132fa3a7e53a796b0d9845af977a477b30ba2" kindref="member">NHW16C4WC</ref>,<sp/></highlight><highlight class="stringliteral">&quot;NHW16C4WC&quot;</highlight><highlight class="normal"><sp/>}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>std::unordered_map&lt;std::string,<sp/>shape_format_t&gt;<sp/>string_to_shape_format_map<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;UNKNOWN&quot;</highlight><highlight class="normal">,<sp/><ref refid="private_8h_1a2e12602049b738329854cceb733a132fa6ce26a62afab55d7606ad4e92428b30c" kindref="member">UNKNOWN</ref><sp/>},<sp/>{<sp/></highlight><highlight class="stringliteral">&quot;NC&quot;</highlight><highlight class="normal">,<sp/><ref refid="private_8h_1a2e12602049b738329854cceb733a132fa3dbd1016ea99d087d747530418b89a01" kindref="member">NC</ref><sp/>},<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;CUSTOM&quot;</highlight><highlight class="normal">,<sp/><ref refid="private_8h_1a2e12602049b738329854cceb733a132fa3dbd1016ea99d087d747530418b89a01" kindref="member">NC</ref><sp/>},<sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;FLAT&quot;</highlight><highlight class="normal">,<sp/><ref refid="private_8h_1a2e12602049b738329854cceb733a132fa3dbd1016ea99d087d747530418b89a01" kindref="member">NC</ref><sp/>},</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;NHW&quot;</highlight><highlight class="normal">,<sp/><ref refid="private_8h_1a2e12602049b738329854cceb733a132fab4ff9c8c32670a4cde0d38b3ca654831" kindref="member">NHW</ref><sp/>},<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;NHWC&quot;</highlight><highlight class="normal">,<sp/><ref refid="private_8h_1a2e12602049b738329854cceb733a132fa7442702e1d93df81504eb5e5d536c2fc" kindref="member">NHWC</ref><sp/>},<sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;NCHW&quot;</highlight><highlight class="normal">,<sp/><ref refid="private_8h_1a2e12602049b738329854cceb733a132fa54d2c44e9fb4c89a3abd5088e04fdc48" kindref="member">NCHW</ref><sp/>},<sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;NHWC4&quot;</highlight><highlight class="normal">,<sp/><ref refid="private_8h_1a2e12602049b738329854cceb733a132fa97f1217ddf4130b6338661e619f1c673" kindref="member">NHWC4</ref><sp/>},</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;NHWC8&quot;</highlight><highlight class="normal">,<sp/><ref refid="private_8h_1a2e12602049b738329854cceb733a132fa01fa91369584d5f01919e8df0b73c0ee" kindref="member">NHWC8</ref><sp/>},<sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;NC4HW4&quot;</highlight><highlight class="normal">,<sp/><ref refid="private_8h_1a2e12602049b738329854cceb733a132fa759ce4ce2cefb434f49ebd074e701511" kindref="member">NC4HW4</ref><sp/>},<sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;NC8HW8&quot;</highlight><highlight class="normal">,<sp/><ref refid="private_8h_1a2e12602049b738329854cceb733a132fabe1274f6117e292f424f931705b7a3f4" kindref="member">NC8HW8</ref><sp/>},<sp/>{<sp/></highlight><highlight class="stringliteral">&quot;NHW16C4WC&quot;</highlight><highlight class="normal">,<sp/><ref refid="private_8h_1a2e12602049b738329854cceb733a132fa3a7e53a796b0d9845af977a477b30ba2" kindref="member">NHW16C4WC</ref><sp/>},</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;DDR_NHWC&quot;</highlight><highlight class="normal">,<sp/><ref refid="private_8h_1a2e12602049b738329854cceb733a132fa01fa91369584d5f01919e8df0b73c0ee" kindref="member">NHWC8</ref><sp/>},<sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;DDR_NCHWC&quot;</highlight><highlight class="normal">,<sp/><ref refid="private_8h_1a2e12602049b738329854cceb733a132fabe1274f6117e292f424f931705b7a3f4" kindref="member">NC8HW8</ref><sp/>}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>std::unordered_map&lt;data_type_t,<sp/>std::string&gt;<sp/>data_type_to_string_map<sp/>=<sp/>{<sp/>{<sp/><ref refid="private_8h_1a49b5dfea31023fcd165ce36384234dc5ac75245149c3f64d74430b8996b1e0558" kindref="member">NA</ref>,<sp/></highlight><highlight class="stringliteral">&quot;UNKNOWN&quot;</highlight><highlight class="normal"><sp/>},</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/><ref refid="private_8h_1a49b5dfea31023fcd165ce36384234dc5ada138aad097eaac8697fe3661c91af95" kindref="member">INT8</ref>,<sp/></highlight><highlight class="stringliteral">&quot;INT8&quot;</highlight><highlight class="normal"><sp/>},</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/><ref refid="private_8h_1a49b5dfea31023fcd165ce36384234dc5a13759b5b800cc50a6e10f73681f6fe9b" kindref="member">UINT8</ref>,<sp/></highlight><highlight class="stringliteral">&quot;UINT8&quot;</highlight><highlight class="normal"><sp/>},</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/><ref refid="private_8h_1a49b5dfea31023fcd165ce36384234dc5a86a4d027dff711bdd1e3ab36e6765761" kindref="member">BF16</ref>,<sp/></highlight><highlight class="stringliteral">&quot;BF16&quot;</highlight><highlight class="normal"><sp/>},</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/><ref refid="private_8h_1a49b5dfea31023fcd165ce36384234dc5a2644b741f40df4c4c3a83bbdcf7124b3" kindref="member">FLOAT32</ref>,<sp/></highlight><highlight class="stringliteral">&quot;FLOAT32&quot;</highlight><highlight class="normal"><sp/>}<sp/>};</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>std::unordered_map&lt;std::string,<sp/>data_type_t&gt;<sp/>string_to_data_type_map<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;UNKNOWN&quot;</highlight><highlight class="normal">,<sp/><ref refid="private_8h_1a49b5dfea31023fcd165ce36384234dc5ac75245149c3f64d74430b8996b1e0558" kindref="member">NA</ref><sp/>},<sp/>{<sp/></highlight><highlight class="stringliteral">&quot;INT8&quot;</highlight><highlight class="normal">,<sp/><ref refid="private_8h_1a49b5dfea31023fcd165ce36384234dc5ada138aad097eaac8697fe3661c91af95" kindref="member">INT8</ref><sp/>},<sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;UINT8&quot;</highlight><highlight class="normal">,<sp/><ref refid="private_8h_1a49b5dfea31023fcd165ce36384234dc5a13759b5b800cc50a6e10f73681f6fe9b" kindref="member">UINT8</ref><sp/>},</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;BF16&quot;</highlight><highlight class="normal">,<sp/><ref refid="private_8h_1a49b5dfea31023fcd165ce36384234dc5a86a4d027dff711bdd1e3ab36e6765761" kindref="member">BF16</ref><sp/>},<sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;FLOAT32&quot;</highlight><highlight class="normal">,<sp/><ref refid="private_8h_1a49b5dfea31023fcd165ce36384234dc5a2644b741f40df4c4c3a83bbdcf7124b3" kindref="member">FLOAT32</ref><sp/>},<sp/>{<sp/></highlight><highlight class="stringliteral">&quot;FLOAT&quot;</highlight><highlight class="normal">,<sp/><ref refid="private_8h_1a49b5dfea31023fcd165ce36384234dc5a2644b741f40df4c4c3a83bbdcf7124b3" kindref="member">FLOAT32</ref><sp/>}</highlight></codeline>
+<codeline lineno="81"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>formatToString(<ref refid="private_8h_1a2e12602049b738329854cceb733a132f" kindref="member">shape_format_t</ref><sp/>format)</highlight></codeline>
+<codeline lineno="84"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(shape_format_to_string_map.find(format)<sp/>==<sp/>shape_format_to_string_map.end())</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>shape_format_to_string_map.at(<ref refid="private_8h_1a2e12602049b738329854cceb733a132fa6ce26a62afab55d7606ad4e92428b30c" kindref="member">UNKNOWN</ref>);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>shape_format_to_string_map.at(format);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="private_8h_1a2e12602049b738329854cceb733a132f" kindref="member">shape_format_t</ref><sp/>stringToFormat(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>str)</highlight></codeline>
+<codeline lineno="92"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>format_str<sp/>=<sp/>std::string(str);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Character<sp/>case<sp/>is<sp/>variable.<sp/>Convert<sp/>by<sp/>default<sp/>in<sp/>uppercase.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>std::transform(format_str.begin(),<sp/>format_str.end(),<sp/>format_str.begin(),<sp/>[](</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>c)<sp/>{</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>std::toupper(c);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>});</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(string_to_shape_format_map.find(format_str)<sp/>==<sp/>string_to_shape_format_map.end())</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="private_8h_1a2e12602049b738329854cceb733a132fa6ce26a62afab55d7606ad4e92428b30c" kindref="member">UNKNOWN</ref>;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>string_to_shape_format_map.at(format_str);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>dataTypeToString(<ref refid="private_8h_1a49b5dfea31023fcd165ce36384234dc5" kindref="member">data_type_t</ref><sp/>data_type)</highlight></codeline>
+<codeline lineno="106"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(data_type_to_string_map.find(data_type)<sp/>==<sp/>data_type_to_string_map.end())</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>data_type_to_string_map.at(<ref refid="private_8h_1a49b5dfea31023fcd165ce36384234dc5ac75245149c3f64d74430b8996b1e0558" kindref="member">NA</ref>);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>data_type_to_string_map.at(data_type);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="private_8h_1a49b5dfea31023fcd165ce36384234dc5" kindref="member">data_type_t</ref><sp/>stringToDataType(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>str)</highlight></codeline>
+<codeline lineno="114"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>data_type_str<sp/>=<sp/>std::string(str);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Character<sp/>case<sp/>is<sp/>variable.<sp/>Convert<sp/>by<sp/>default<sp/>in<sp/>uppercase.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>std::transform(data_type_str.begin(),<sp/>data_type_str.end(),<sp/>data_type_str.begin(),<sp/>[](</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>c)<sp/>{</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>std::toupper(c);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/>});</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>If<sp/>no<sp/>data<sp/>is<sp/>found<sp/>we<sp/>should<sp/>return<sp/>UNKNOWN<sp/>but<sp/>it<sp/>is<sp/>already<sp/>taken<sp/>by<sp/>the<sp/>shape<sp/>format.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO:<sp/>change<sp/>enum<sp/>to<sp/>handle<sp/>this<sp/>case<sp/>better</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(string_to_data_type_map.find(data_type_str)<sp/>==<sp/>string_to_data_type_map.end())</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="private_8h_1a49b5dfea31023fcd165ce36384234dc5ada138aad097eaac8697fe3661c91af95" kindref="member">INT8</ref>;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>string_to_data_type_map.at(data_type_str);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>sizeOfDataType(<ref refid="private_8h_1a49b5dfea31023fcd165ce36384234dc5" kindref="member">data_type_t</ref><sp/>data_type)</highlight></codeline>
+<codeline lineno="130"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(data_type<sp/>==<sp/><ref refid="private_8h_1a49b5dfea31023fcd165ce36384234dc5ada138aad097eaac8697fe3661c91af95" kindref="member">INT8</ref>)</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(int8_t);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(data_type<sp/>==<sp/><ref refid="private_8h_1a49b5dfea31023fcd165ce36384234dc5a13759b5b800cc50a6e10f73681f6fe9b" kindref="member">UINT8</ref>)</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(uint8_t);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(data_type<sp/>==<sp/><ref refid="private_8h_1a49b5dfea31023fcd165ce36384234dc5a2644b741f40df4c4c3a83bbdcf7124b3" kindref="member">FLOAT32</ref>)</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(float);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(data_type<sp/>==<sp/><ref refid="private_8h_1a49b5dfea31023fcd165ce36384234dc5a86a4d027dff711bdd1e3ab36e6765761" kindref="member">BF16</ref>)</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(uint16_t);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="141"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>is_core_config_addr(uint64_t<sp/><ref refid="structaddr" kindref="compound">addr</ref>,<sp/><ref refid="fpga__info_8h_1afe7ded90c10a0e74d9627a16f660ad7e" kindref="member">FpgaArchitecture</ref><sp/>arch)</highlight></codeline>
+<codeline lineno="144"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(arch<sp/>==<sp/><ref refid="fpga__info_8h_1afe7ded90c10a0e74d9627a16f660ad7eaba6aa7fe71428b3317492292332aa1dc" kindref="member">AIEML_V1C</ref>)</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structaddr" kindref="compound">addr</ref><sp/>==<sp/><ref refid="npu__reg_8h_1ad8978ce284e1949225c56569d7e44c33" kindref="member">CONFIG_OFFSET_VERSAL_V1C</ref>;</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(arch<sp/>==<sp/><ref refid="fpga__info_8h_1afe7ded90c10a0e74d9627a16f660ad7eae307daa999bfd69743cd368d6d372c82" kindref="member">V1</ref><sp/>&amp;&amp;<sp/>(<ref refid="npu__reg_8h_1aa081e3ea48b735106f5759da8298e74d" kindref="member">MCTRL_MEM_BASE_USCALE</ref><sp/>&lt;=<sp/><ref refid="structaddr" kindref="compound">addr</ref><sp/>&amp;&amp;<sp/><ref refid="structaddr" kindref="compound">addr</ref><sp/>&lt;<sp/><ref refid="npu__reg_8h_1aa081e3ea48b735106f5759da8298e74d" kindref="member">MCTRL_MEM_BASE_USCALE</ref><sp/>+<sp/><ref refid="npu__reg_8h_1ab31d04093fcddd6c78ef7e13dc39a5a8" kindref="member">MCTRL_MEM_LEN_USCALE</ref>))</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>s<sp/>=<sp/>0;<sp/>s<sp/>&lt;<sp/><ref refid="npu__reg_8h_1a473bd2c496cd94873cd59887e43f0d23" kindref="member">NB_MAX_SYSTEMS</ref>;<sp/>s++)</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>c<sp/>=<sp/>0;<sp/>c<sp/>&lt;<sp/><ref refid="npu__reg_8h_1a059970a11d9ade5187b95ddbcfdbb436" kindref="member">NB_MAX_CORES_PER_SYSTEM</ref>;<sp/>c++)</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="structaddr" kindref="compound">addr</ref><sp/>==<sp/><ref refid="npu__reg_8h_1a8c6ed52ca53f7aca47b1832e09a2c1d4" kindref="member">ENABLE_OFFSET</ref>(s,<sp/>c)<sp/>||<sp/><ref refid="structaddr" kindref="compound">addr</ref><sp/>==<sp/><ref refid="npu__reg_8h_1a1c9d5825ebc2e813d22ea008dbedcc28" kindref="member">LOAD_OFFSET</ref>(s,<sp/>c)<sp/>||<sp/><ref refid="structaddr" kindref="compound">addr</ref><sp/>==<sp/><ref refid="npu__reg_8h_1ab67cfeafc57c63130b988ccd2f27bff5" kindref="member">CONFIG_OFFSET</ref>(s,<sp/>c))</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(arch<sp/>==<sp/><ref refid="fpga__info_8h_1afe7ded90c10a0e74d9627a16f660ad7ea3e329bb4aa8def056d4ae1e93751a652" kindref="member">V2</ref></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/>(<ref refid="npu__reg_8h_1a87437b5553c9c99eeae72bb0f6815289" kindref="member">MCTRL_VERSAL_OFFSET</ref>(s,<sp/>c)<sp/>&lt;=<sp/><ref refid="structaddr" kindref="compound">addr</ref></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/><ref refid="structaddr" kindref="compound">addr</ref><sp/>&lt;<sp/><ref refid="npu__reg_8h_1a87437b5553c9c99eeae72bb0f6815289" kindref="member">MCTRL_VERSAL_OFFSET</ref>(s,<sp/>c)<sp/>+<sp/><ref refid="npu__reg_8h_1a5eaec7d07881adda1007c96eab04b32c" kindref="member">VERSAL_MCTRL_MEM_LEN</ref>))</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="163"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169" refid="structsupervisor__reg__bf" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structsupervisor__reg__bf" kindref="compound">supervisor_reg_bf</ref></highlight></codeline>
+<codeline lineno="170"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="171" refid="structsupervisor__reg__bf_1ae7eef8dbadb2a6ca09f473ec169fbd4b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="structsupervisor__reg__bf_1af416d8929605538705b44997134f3610" kindref="member">sen</ref><sp/>:<sp/>1,<sp/><ref refid="structsupervisor__reg__bf_1acba407229b28ee96c00bf16078111b7c" kindref="member">use_nbuf</ref><sp/>:<sp/>1,<sp/><ref refid="structsupervisor__reg__bf_1ae7eef8dbadb2a6ca09f473ec169fbd4b" kindref="member">_rfu</ref><sp/>:<sp/>30;</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173" refid="private_8h_1a8da7c33a4929dd2bc642f70ffc18a108" refkind="member"><highlight class="normal">}<sp/><ref refid="private_8h_1a8da7c33a4929dd2bc642f70ffc18a108" kindref="member">supervisor_reg_bf</ref>;</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175" refid="unionsupervisor__reg" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">union<sp/></highlight><highlight class="normal"><ref refid="unionsupervisor__reg" kindref="compound">supervisor_reg</ref></highlight></codeline>
+<codeline lineno="176"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="177" refid="unionsupervisor__reg_1a3a7c9d39b55fe96d57a7fe91fec2d125" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="unionsupervisor__reg_1a3a7c9d39b55fe96d57a7fe91fec2d125" kindref="member">reg</ref>;</highlight></codeline>
+<codeline lineno="178" refid="unionsupervisor__reg_1aa7be32620135220b1a4bfa31259f1c4d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structsupervisor__reg__bf" kindref="compound">supervisor_reg_bf</ref><sp/><ref refid="unionsupervisor__reg_1aa7be32620135220b1a4bfa31259f1c4d" kindref="member">bf</ref>;</highlight></codeline>
+<codeline lineno="179" refid="private_8h_1a6d56c54c72cd7efe0af6152ae39a3cc2" refkind="member"><highlight class="normal">}<sp/><ref refid="private_8h_1a6d56c54c72cd7efe0af6152ae39a3cc2" kindref="member">supervisor_reg</ref>;</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182" refid="structlm__coreBus__masterControl__config__aieml__v1c__bf" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structlm__coreBus__masterControl__config__aieml__v1c__bf" kindref="compound">lm_coreBus_masterControl_config_aieml_v1c_bf</ref></highlight></codeline>
+<codeline lineno="183"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="184" refid="structlm__coreBus__masterControl__config__aieml__v1c__bf_1afeb5931f72199044729e9fdc08cca389" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><sp/><ref refid="structlm__coreBus__masterControl__config__aieml__v1c__bf_1afeb5931f72199044729e9fdc08cca389" kindref="member">_0x00</ref>[0];</highlight></codeline>
+<codeline lineno="185" refid="structlm__coreBus__masterControl__config__aieml__v1c__bf_1a82030b9ec01a3d3787440078d2d3818b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="structlm__coreBus__masterControl__config__aieml__v1c__bf_1ab7b70d3e8360d4da5120655dbd1335a5" kindref="member">supra_addr_ddr</ref><sp/>:<sp/>30,<sp/><ref refid="structlm__coreBus__masterControl__config__aieml__v1c__bf_1a82030b9ec01a3d3787440078d2d3818b" kindref="member">rfu0</ref><sp/>:<sp/>2;</highlight></codeline>
+<codeline lineno="186" refid="structlm__coreBus__masterControl__config__aieml__v1c__bf_1abbf2b91e8c6b51548c7c90e4cb83ee4b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><sp/><ref refid="structlm__coreBus__masterControl__config__aieml__v1c__bf_1abbf2b91e8c6b51548c7c90e4cb83ee4b" kindref="member">_0x04</ref>[0];</highlight></codeline>
+<codeline lineno="187" refid="structlm__coreBus__masterControl__config__aieml__v1c__bf_1ad538fd36c4d44abcbf82abc3af2b91bd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="structlm__coreBus__masterControl__config__aieml__v1c__bf_1afa17cc4702aa10bea7277877711ae5a9" kindref="member">supra_block_size</ref><sp/>:<sp/>14,<sp/><ref refid="structlm__coreBus__masterControl__config__aieml__v1c__bf_1ad538fd36c4d44abcbf82abc3af2b91bd" kindref="member">rfu1</ref><sp/>:<sp/>18;</highlight></codeline>
+<codeline lineno="188" refid="structlm__coreBus__masterControl__config__aieml__v1c__bf_1ac79dfbcb72d47661fa47557e37cff239" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><sp/><ref refid="structlm__coreBus__masterControl__config__aieml__v1c__bf_1ac79dfbcb72d47661fa47557e37cff239" kindref="member">_0x08</ref>[0];</highlight></codeline>
+<codeline lineno="189" refid="structlm__coreBus__masterControl__config__aieml__v1c__bf_1a2a7c193e66d3afb219e5474f6e4358e2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="structlm__coreBus__masterControl__config__aieml__v1c__bf_1a2a7c193e66d3afb219e5474f6e4358e2" kindref="member">inactivity_timeout_ms</ref><sp/>:<sp/>16,<sp/><ref refid="structlm__coreBus__masterControl__config__aieml__v1c__bf_1af5ed0b2a79ebe714a6146bd8d87d7c03" kindref="member">rfu2</ref><sp/>:<sp/>16;</highlight></codeline>
+<codeline lineno="190" refid="structlm__coreBus__masterControl__config__aieml__v1c__bf_1a209d253170ff60328e65ea3679cd08da" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><sp/><ref refid="structlm__coreBus__masterControl__config__aieml__v1c__bf_1a209d253170ff60328e65ea3679cd08da" kindref="member">_0x0C</ref>[0];</highlight></codeline>
+<codeline lineno="191" refid="structlm__coreBus__masterControl__config__aieml__v1c__bf_1a5cf2749a8f495de5c66e9d1126cf3c01" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="structlm__coreBus__masterControl__config__aieml__v1c__bf_1a5cf2749a8f495de5c66e9d1126cf3c01" kindref="member">offset_ddr0</ref><sp/>:<sp/>32;</highlight></codeline>
+<codeline lineno="192" refid="structlm__coreBus__masterControl__config__aieml__v1c__bf_1a74f2d3676591caec04e5645e0dc9c847" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><sp/><ref refid="structlm__coreBus__masterControl__config__aieml__v1c__bf_1a74f2d3676591caec04e5645e0dc9c847" kindref="member">_0x10</ref>[0];</highlight></codeline>
+<codeline lineno="193" refid="structlm__coreBus__masterControl__config__aieml__v1c__bf_1a9523e53f63a9d48ec5c414a4c7120bf3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="structlm__coreBus__masterControl__config__aieml__v1c__bf_1a9523e53f63a9d48ec5c414a4c7120bf3" kindref="member">offset_ddr1</ref><sp/>:<sp/>32;</highlight></codeline>
+<codeline lineno="194" refid="structlm__coreBus__masterControl__config__aieml__v1c__bf_1ac6f854ffc0e4ecbc2ee7bbe20f25d860" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><sp/><ref refid="structlm__coreBus__masterControl__config__aieml__v1c__bf_1ac6f854ffc0e4ecbc2ee7bbe20f25d860" kindref="member">_0x14</ref>[0];</highlight></codeline>
+<codeline lineno="195" refid="structlm__coreBus__masterControl__config__aieml__v1c__bf_1ac446f536a8e1c3ef659b70028f450db5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="structlm__coreBus__masterControl__config__aieml__v1c__bf_1ac446f536a8e1c3ef659b70028f450db5" kindref="member">offset_ddr2</ref><sp/>:<sp/>32;</highlight></codeline>
+<codeline lineno="196" refid="structlm__coreBus__masterControl__config__aieml__v1c__bf_1a9ed6ba0acc9dc97a2e0fc303544cbf20" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><sp/><ref refid="structlm__coreBus__masterControl__config__aieml__v1c__bf_1a9ed6ba0acc9dc97a2e0fc303544cbf20" kindref="member">_0x18</ref>[0];</highlight></codeline>
+<codeline lineno="197" refid="structlm__coreBus__masterControl__config__aieml__v1c__bf_1abfa765e6d114d7ccb7f88adbcebcbd82" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="structlm__coreBus__masterControl__config__aieml__v1c__bf_1abfa765e6d114d7ccb7f88adbcebcbd82" kindref="member">offset_ddr3</ref><sp/>:<sp/>32;</highlight></codeline>
+<codeline lineno="198" refid="structlm__coreBus__masterControl__config__aieml__v1c__bf_1a8956ed1b9de6cdaf2365a769ff7fe2ca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><sp/><ref refid="structlm__coreBus__masterControl__config__aieml__v1c__bf_1a8956ed1b9de6cdaf2365a769ff7fe2ca" kindref="member">_0x1C</ref>[0];</highlight></codeline>
+<codeline lineno="199" refid="private_8h_1af8d2d99ea33da5e67a9ca06ecf7a13aa" refkind="member"><highlight class="normal">}<sp/><ref refid="private_8h_1af8d2d99ea33da5e67a9ca06ecf7a13aa" kindref="member">lm_coreBus_masterControl_config_aieml_v1c_bf</ref>;</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="201" refid="unionlm__coreBus__masterControl__config__aieml__v1c" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">union<sp/></highlight><highlight class="normal"><ref refid="unionlm__coreBus__masterControl__config__aieml__v1c" kindref="compound">lm_coreBus_masterControl_config_aieml_v1c</ref></highlight></codeline>
+<codeline lineno="202"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="203" refid="unionlm__coreBus__masterControl__config__aieml__v1c_1aea59ffd1d55c8efe1953f290a755c118" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="unionlm__coreBus__masterControl__config__aieml__v1c_1aea59ffd1d55c8efe1953f290a755c118" kindref="member">reg</ref>[7]<sp/>=<sp/>{<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="204" refid="unionlm__coreBus__masterControl__config__aieml__v1c_1aa9a8dd6d613a1bec70c652439d682831" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structlm__coreBus__masterControl__config__aieml__v1c__bf" kindref="compound">lm_coreBus_masterControl_config_aieml_v1c_bf</ref><sp/><ref refid="unionlm__coreBus__masterControl__config__aieml__v1c_1aa9a8dd6d613a1bec70c652439d682831" kindref="member">bf</ref>;</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206" refid="private_8h_1a0cb670ec98774d1c8dff0f875c172f12" refkind="member"><highlight class="normal">}<sp/><ref refid="private_8h_1a0cb670ec98774d1c8dff0f875c172f12" kindref="member">lm_coreBus_masterControl_config_aieml_v1c</ref>;</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight></codeline>
+<codeline lineno="209" refid="structlm__coreBus__masterControl__status__uscale__bf" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structlm__coreBus__masterControl__status__uscale__bf" kindref="compound">lm_coreBus_masterControl_status_uscale_bf</ref></highlight></codeline>
+<codeline lineno="210"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="211" refid="structlm__coreBus__masterControl__status__uscale__bf_1a4b369e51002bf8b001a70bbff886aa5a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="structlm__coreBus__masterControl__status__uscale__bf_1a4b369e51002bf8b001a70bbff886aa5a" kindref="member">start</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>1,<sp/><sp/></highlight><highlight class="comment">//<sp/>RW</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="212" refid="structlm__coreBus__masterControl__status__uscale__bf_1a221ad8fff8d712fb8bf34dfd57f80366" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structlm__coreBus__masterControl__status__uscale__bf_1a221ad8fff8d712fb8bf34dfd57f80366" kindref="member">idle</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>1,<sp/><sp/></highlight><highlight class="comment">//<sp/>RO</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="213" refid="structlm__coreBus__masterControl__status__uscale__bf_1ab3b77c53e3a5b3ed8a467f40bb591f22" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structlm__coreBus__masterControl__status__uscale__bf_1ab3b77c53e3a5b3ed8a467f40bb591f22" kindref="member">_rfu0</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>1,<sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="214" refid="structlm__coreBus__masterControl__status__uscale__bf_1adef3d16c40a3d169c18882e59da008fa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structlm__coreBus__masterControl__status__uscale__bf_1adef3d16c40a3d169c18882e59da008fa" kindref="member">mode_layer</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>1,<sp/><sp/></highlight><highlight class="comment">//<sp/>RW</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="215" refid="structlm__coreBus__masterControl__status__uscale__bf_1a3a4a38a690f7ad06ebc7b628839b025e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structlm__coreBus__masterControl__status__uscale__bf_1a3a4a38a690f7ad06ebc7b628839b025e" kindref="member">_rfu1</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>1,<sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="216" refid="structlm__coreBus__masterControl__status__uscale__bf_1ad1e84d29a1e0b3489abbe394736198ae" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structlm__coreBus__masterControl__status__uscale__bf_1ad1e84d29a1e0b3489abbe394736198ae" kindref="member">subLayer_count</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>15,<sp/></highlight><highlight class="comment">//<sp/>RO</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="217" refid="structlm__coreBus__masterControl__status__uscale__bf_1a2fc046c1114c05f65b796a19de21141e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structlm__coreBus__masterControl__status__uscale__bf_1a2fc046c1114c05f65b796a19de21141e" kindref="member">index_master_control_network</ref><sp/>:<sp/>12;<sp/></highlight><highlight class="comment">//<sp/>RO</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight></codeline>
+<codeline lineno="219" refid="private_8h_1a5d2aeb010768851c421cb3e04e6ad99b" refkind="member"><highlight class="normal">}<sp/><ref refid="private_8h_1a5d2aeb010768851c421cb3e04e6ad99b" kindref="member">lm_coreBus_masterControl_status_uscale_bf</ref>;</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight></codeline>
+<codeline lineno="222" refid="unionlm__coreBus__masterControl__status__uscale" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">union<sp/></highlight><highlight class="normal"><ref refid="unionlm__coreBus__masterControl__status__uscale" kindref="compound">lm_coreBus_masterControl_status_uscale</ref></highlight></codeline>
+<codeline lineno="223"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="224" refid="unionlm__coreBus__masterControl__status__uscale_1a18b574df90fadcd86368d559e1ad6dcc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="unionlm__coreBus__masterControl__status__uscale_1a18b574df90fadcd86368d559e1ad6dcc" kindref="member">reg</ref>;</highlight></codeline>
+<codeline lineno="225" refid="unionlm__coreBus__masterControl__status__uscale_1aee343473c1d64209b3032904ad534ca8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structlm__coreBus__masterControl__status__uscale__bf" kindref="compound">lm_coreBus_masterControl_status_uscale_bf</ref><sp/><ref refid="unionlm__coreBus__masterControl__status__uscale_1aee343473c1d64209b3032904ad534ca8" kindref="member">bf</ref>;</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="227" refid="private_8h_1a744993df30c77d7409f57a8347ed7ed7" refkind="member"><highlight class="normal">}<sp/><ref refid="private_8h_1a744993df30c77d7409f57a8347ed7ed7" kindref="member">lm_coreBus_masterControl_status_uscale</ref>;</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"></highlight></codeline>
+<codeline lineno="230" refid="structlm__coreBus__masterControl__status__versal__bf" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structlm__coreBus__masterControl__status__versal__bf" kindref="compound">lm_coreBus_masterControl_status_versal_bf</ref></highlight></codeline>
+<codeline lineno="231"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="232" refid="structlm__coreBus__masterControl__status__versal__bf_1a1f790a8bdf9c1ce261278c814f95feec" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><sp/><ref refid="structlm__coreBus__masterControl__status__versal__bf_1a1f790a8bdf9c1ce261278c814f95feec" kindref="member">_0x00</ref>[0];</highlight></codeline>
+<codeline lineno="233" refid="structlm__coreBus__masterControl__status__versal__bf_1adc06a4d8d62cd7a5332adb3486fffdb4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="structlm__coreBus__masterControl__status__versal__bf_1adc06a4d8d62cd7a5332adb3486fffdb4" kindref="member">system_en</ref><sp/><sp/><sp/><sp/><sp/>:<sp/>1,<sp/><sp/></highlight><highlight class="comment">//<sp/>RW</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="234" refid="structlm__coreBus__masterControl__status__versal__bf_1a5a7861504bbe6ead18c6fdd18046d80a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structlm__coreBus__masterControl__status__versal__bf_1a5a7861504bbe6ead18c6fdd18046d80a" kindref="member">system_idle</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>1,<sp/><sp/></highlight><highlight class="comment">//<sp/>RO</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="235" refid="structlm__coreBus__masterControl__status__versal__bf_1a014ac2d8ae081a43c52bc8dd5a3df827" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structlm__coreBus__masterControl__status__versal__bf_1a014ac2d8ae081a43c52bc8dd5a3df827" kindref="member">system_pause</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>1,<sp/><sp/></highlight><highlight class="comment">//<sp/>RO</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="236" refid="structlm__coreBus__masterControl__status__versal__bf_1aeee5839103eb42213802ba6d509e10fd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structlm__coreBus__masterControl__status__versal__bf_1aeee5839103eb42213802ba6d509e10fd" kindref="member">system_running</ref><sp/><sp/><sp/><sp/><sp/>:<sp/>1,<sp/><sp/></highlight><highlight class="comment">//<sp/>RO</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="237" refid="structlm__coreBus__masterControl__status__versal__bf_1aaf6009bb84e152d2d75c8a676d1d233b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structlm__coreBus__masterControl__status__versal__bf_1aaf6009bb84e152d2d75c8a676d1d233b" kindref="member">sublayer_count_run</ref><sp/>:<sp/>24,<sp/></highlight><highlight class="comment">//<sp/>RO</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="238" refid="structlm__coreBus__masterControl__status__versal__bf_1a78835a672a64e3912f4c8855a91c1fca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structlm__coreBus__masterControl__status__versal__bf_1a78835a672a64e3912f4c8855a91c1fca" kindref="member">supra_mem_idx_msb</ref><sp/><sp/>:<sp/>4;<sp/><sp/></highlight><highlight class="comment">//<sp/>RO</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="239" refid="structlm__coreBus__masterControl__status__versal__bf_1aa5defee987e6e4d063d68b4a82aea298" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><sp/><ref refid="structlm__coreBus__masterControl__status__versal__bf_1aa5defee987e6e4d063d68b4a82aea298" kindref="member">_0x04</ref>[0];</highlight></codeline>
+<codeline lineno="240" refid="structlm__coreBus__masterControl__status__versal__bf_1a77afc65ece6fc46388bab68c6b638fd8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="structlm__coreBus__masterControl__status__versal__bf_1a77afc65ece6fc46388bab68c6b638fd8" kindref="member">rfu0</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>2,</highlight></codeline>
+<codeline lineno="241" refid="structlm__coreBus__masterControl__status__versal__bf_1a0368ec8f012bcbf85eb4afc57851a66e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structlm__coreBus__masterControl__status__versal__bf_1a0368ec8f012bcbf85eb4afc57851a66e" kindref="member">sublayer_count_cfg</ref><sp/>:<sp/>24,<sp/></highlight><highlight class="comment">//<sp/>RO</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="242" refid="structlm__coreBus__masterControl__status__versal__bf_1a9b57c0a7bac9de4deec18a703461efae" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structlm__coreBus__masterControl__status__versal__bf_1a9b57c0a7bac9de4deec18a703461efae" kindref="member">supra_mem_idx_lsb</ref><sp/><sp/>:<sp/>6;<sp/><sp/></highlight><highlight class="comment">//<sp/>RO</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="243" refid="structlm__coreBus__masterControl__status__versal__bf_1a5f4352977e98c1ed2c7dadfb7d24f37b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structlm__coreBus__masterControl__status__versal__bf_1a5f4352977e98c1ed2c7dadfb7d24f37b" kindref="member">_0x08</ref>[0];</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"></highlight></codeline>
+<codeline lineno="245" refid="private_8h_1ac1c7d981e155423828b28cc54f7b7d69" refkind="member"><highlight class="normal">}<sp/><ref refid="private_8h_1ac1c7d981e155423828b28cc54f7b7d69" kindref="member">lm_coreBus_masterControl_status_versal_bf</ref>;</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"></highlight></codeline>
+<codeline lineno="247" refid="unionlm__coreBus__masterControl__status__versal" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">union<sp/></highlight><highlight class="normal"><ref refid="unionlm__coreBus__masterControl__status__versal" kindref="compound">lm_coreBus_masterControl_status_versal</ref></highlight></codeline>
+<codeline lineno="248"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="249" refid="unionlm__coreBus__masterControl__status__versal_1a3066b7ecfdbc7bd88bf4bc2de18aa6eb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="unionlm__coreBus__masterControl__status__versal_1a3066b7ecfdbc7bd88bf4bc2de18aa6eb" kindref="member">reg</ref>;</highlight></codeline>
+<codeline lineno="250" refid="unionlm__coreBus__masterControl__status__versal_1a7144167e0807d327944c3ff4b71e265c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structlm__coreBus__masterControl__status__versal__bf" kindref="compound">lm_coreBus_masterControl_status_versal_bf</ref><sp/><ref refid="unionlm__coreBus__masterControl__status__versal_1a7144167e0807d327944c3ff4b71e265c" kindref="member">bf</ref>;</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"></highlight></codeline>
+<codeline lineno="252" refid="private_8h_1a7e4900fafcd61e8f6b86702c13776abe" refkind="member"><highlight class="normal">}<sp/><ref refid="private_8h_1a7e4900fafcd61e8f6b86702c13776abe" kindref="member">lm_coreBus_masterControl_status_versal</ref>;</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight></codeline>
+<codeline lineno="255" refid="structlm__coreBus__masterControl__status__aieml__v1c__bf" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structlm__coreBus__masterControl__status__aieml__v1c__bf" kindref="compound">lm_coreBus_masterControl_status_aieml_v1c_bf</ref></highlight></codeline>
+<codeline lineno="256"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="257" refid="structlm__coreBus__masterControl__status__aieml__v1c__bf_1afa8611e33085e15c106c8f0f7975f06f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><sp/><ref refid="structlm__coreBus__masterControl__status__aieml__v1c__bf_1afa8611e33085e15c106c8f0f7975f06f" kindref="member">_0x00</ref>[0];</highlight></codeline>
+<codeline lineno="258" refid="structlm__coreBus__masterControl__status__aieml__v1c__bf_1a25a25376726835914983d1fb07170d20" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="structlm__coreBus__masterControl__status__aieml__v1c__bf_1a25a25376726835914983d1fb07170d20" kindref="member">system_run</ref><sp/>:<sp/>1,<sp/><sp/></highlight><highlight class="comment">//<sp/>RW</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="259" refid="structlm__coreBus__masterControl__status__aieml__v1c__bf_1a8ac7c9338cdae22798de0d87b0a90ce8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structlm__coreBus__masterControl__status__aieml__v1c__bf_1a8ac7c9338cdae22798de0d87b0a90ce8" kindref="member">system_error</ref><sp/><sp/><sp/><sp/>:<sp/>1,<sp/><sp/></highlight><highlight class="comment">//<sp/>RO</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="260" refid="structlm__coreBus__masterControl__status__aieml__v1c__bf_1adaafe2da6871a801ba9bc300f1433f7d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structlm__coreBus__masterControl__status__aieml__v1c__bf_1adaafe2da6871a801ba9bc300f1433f7d" kindref="member">rfu0</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>2,<sp/><sp/></highlight><highlight class="comment">//<sp/>RO</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="261" refid="structlm__coreBus__masterControl__status__aieml__v1c__bf_1af5b35cec97eb04e6c788496e4ae6e924" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structlm__coreBus__masterControl__status__aieml__v1c__bf_1af5b35cec97eb04e6c788496e4ae6e924" kindref="member">supra_count</ref><sp/><sp/><sp/><sp/><sp/>:<sp/>10,<sp/></highlight><highlight class="comment">//<sp/>RO</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="262" refid="structlm__coreBus__masterControl__status__aieml__v1c__bf_1a3963194185dcd44e2b259bd201541dd3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structlm__coreBus__masterControl__status__aieml__v1c__bf_1a3963194185dcd44e2b259bd201541dd3" kindref="member">rfu1</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>18;<sp/></highlight><highlight class="comment">//<sp/>RO</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="263" refid="structlm__coreBus__masterControl__status__aieml__v1c__bf_1afc41c6ace13b7223425528a906eee14d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structlm__coreBus__masterControl__status__aieml__v1c__bf_1afc41c6ace13b7223425528a906eee14d" kindref="member">_0x04</ref>[0];</highlight></codeline>
+<codeline lineno="264" refid="private_8h_1a24a61c807e2c173f3032586d68d49a31" refkind="member"><highlight class="normal">}<sp/><ref refid="private_8h_1a24a61c807e2c173f3032586d68d49a31" kindref="member">lm_coreBus_masterControl_status_aieml_v1c_bf</ref>;</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"></highlight></codeline>
+<codeline lineno="266" refid="unionlm__coreBus__masterControl__status__aieml__v1c" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">union<sp/></highlight><highlight class="normal"><ref refid="unionlm__coreBus__masterControl__status__aieml__v1c" kindref="compound">lm_coreBus_masterControl_status_aieml_v1c</ref></highlight></codeline>
+<codeline lineno="267"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="268" refid="unionlm__coreBus__masterControl__status__aieml__v1c_1a007a28da1eddc25026fcc593d4f4c0c3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="unionlm__coreBus__masterControl__status__aieml__v1c_1a007a28da1eddc25026fcc593d4f4c0c3" kindref="member">reg</ref>;</highlight></codeline>
+<codeline lineno="269" refid="unionlm__coreBus__masterControl__status__aieml__v1c_1a5fd56737617e2772a961f2c5c0f4bec8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structlm__coreBus__masterControl__status__aieml__v1c__bf" kindref="compound">lm_coreBus_masterControl_status_aieml_v1c_bf</ref><sp/><ref refid="unionlm__coreBus__masterControl__status__aieml__v1c_1a5fd56737617e2772a961f2c5c0f4bec8" kindref="member">bf</ref>;</highlight></codeline>
+<codeline lineno="270" refid="private_8h_1aa90020e1056e0a833079162abce60498" refkind="member"><highlight class="normal">}<sp/><ref refid="private_8h_1aa90020e1056e0a833079162abce60498" kindref="member">lm_coreBus_masterControl_status_aieml_v1c</ref>;</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"></highlight></codeline>
+<codeline lineno="272" refid="private_8h_1a13e0a2eed4b9fc000d7d64604eaf52a0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="private_8h_1a13e0a2eed4b9fc000d7d64604eaf52a0" kindref="member">lm_coreBus_masterControl_status</ref><sp/>=<sp/>std::variant&lt;<ref refid="private_8h_1a744993df30c77d7409f57a8347ed7ed7" kindref="member">lm_coreBus_masterControl_status_uscale</ref>,</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="private_8h_1a7e4900fafcd61e8f6b86702c13776abe" kindref="member">lm_coreBus_masterControl_status_versal</ref>,</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="unionlm__coreBus__masterControl__status__aieml__v1c" kindref="compound">lm_coreBus_masterControl_status_aieml_v1c</ref>&gt;;</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"></highlight></codeline>
+<codeline lineno="282" refid="structnpu__tensor" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structnpu__tensor" kindref="compound">npu_tensor</ref></highlight></codeline>
+<codeline lineno="283"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="284" refid="structnpu__tensor_1a4178a3386ed73a231f9cd66db7175e22" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>int<sp/>(*<ref refid="structnpu__tensor_1a4178a3386ed73a231f9cd66db7175e22" kindref="member">reorder</ref>)(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structnpu__tensor" kindref="compound">npu_tensor</ref>&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*);</highlight></codeline>
+<codeline lineno="285" refid="structnpu__tensor_1abd6859929b815b73d9dcb3ad2d2207bf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnpu__tensor_1abd6859929b815b73d9dcb3ad2d2207bf" kindref="member">name</ref>;</highlight></codeline>
+<codeline lineno="286" refid="structnpu__tensor_1a7dd3bf0ca302441e97a9c47e8d1b9f00" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnpu__tensor_1a7dd3bf0ca302441e97a9c47e8d1b9f00" kindref="member">ddrimgsize</ref>;</highlight></codeline>
+<codeline lineno="287" refid="structnpu__tensor_1a604c8d0125cf6880a0106b5c9f370a8c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnpu__tensor_1a604c8d0125cf6880a0106b5c9f370a8c" kindref="member">size</ref>;</highlight></codeline>
+<codeline lineno="288" refid="structnpu__tensor_1ad7db3319a9a9635a98e79f0521104d90" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnpu__tensor_1ad7db3319a9a9635a98e79f0521104d90" kindref="member">nbdims</ref>;</highlight></codeline>
+<codeline lineno="289" refid="structnpu__tensor_1ae1a2ff33b2dc3ec41292952b46605860" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="private_8h_1a2e12602049b738329854cceb733a132f" kindref="member">shape_format_t</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnpu__tensor_1ae1a2ff33b2dc3ec41292952b46605860" kindref="member">format</ref>;</highlight></codeline>
+<codeline lineno="290" refid="structnpu__tensor_1ac6508692be5f465a2b4bede29e98de97" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="private_8h_1a2e12602049b738329854cceb733a132f" kindref="member">shape_format_t</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnpu__tensor_1ac6508692be5f465a2b4bede29e98de97" kindref="member">ddr_format</ref>;</highlight></codeline>
+<codeline lineno="291" refid="structnpu__tensor_1aaf98e5d8881a67d827c0c7272578d0a8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;uint32_t&gt;<sp/><sp/><sp/><sp/><ref refid="structnpu__tensor_1aaf98e5d8881a67d827c0c7272578d0a8" kindref="member">shape</ref>;</highlight></codeline>
+<codeline lineno="292" refid="structnpu__tensor_1a86353b4f7e50ffa00be13827a90e694f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;uint32_t&gt;<sp/><sp/><sp/><sp/><ref refid="structnpu__tensor_1a86353b4f7e50ffa00be13827a90e694f" kindref="member">strides</ref>;</highlight></codeline>
+<codeline lineno="293" refid="structnpu__tensor_1a4856c94f3f4ece92598817af28f7c2eb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnpu__tensor_1a4856c94f3f4ece92598817af28f7c2eb" kindref="member">coeff</ref>;</highlight></codeline>
+<codeline lineno="294" refid="structnpu__tensor_1a9c29a7ec32f583d081104f4151efa97d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnpu__tensor_1a9c29a7ec32f583d081104f4151efa97d" kindref="member">bigPixel</ref>;</highlight></codeline>
+<codeline lineno="295" refid="structnpu__tensor_1a563ae922473f145c945fb5bff06d4269" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnpu__tensor_1a563ae922473f145c945fb5bff06d4269" kindref="member">batchSize</ref>;</highlight></codeline>
+<codeline lineno="296" refid="structnpu__tensor_1aab7931417dc82a9c2d24587217741c9d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="private_8h_1a49b5dfea31023fcd165ce36384234dc5" kindref="member">data_type_t</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnpu__tensor_1aab7931417dc82a9c2d24587217741c9d" kindref="member">data_type</ref>;</highlight></codeline>
+<codeline lineno="297" refid="structnpu__tensor_1aeef8af12e12ca7d5f22cd9cc995bf1f5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;struct<sp/>addr&gt;<sp/><ref refid="structnpu__tensor_1aeef8af12e12ca7d5f22cd9cc995bf1f5" kindref="member">ddr_addrs</ref>;</highlight></codeline>
+<codeline lineno="298" refid="structnpu__tensor_1a59ff91606545b72acbf34d4180c7c8f6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;size_t&gt;<sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnpu__tensor_1a59ff91606545b72acbf34d4180c7c8f6" kindref="member">nbuf_idx</ref>;</highlight></codeline>
+<codeline lineno="299" refid="private_8h_1adb53a177d8b31ed80334480d22e9e51e" refkind="member"><highlight class="normal">}<sp/><ref refid="private_8h_1adb53a177d8b31ed80334480d22e9e51e" kindref="member">npu_tensor_t</ref>;</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"></highlight></codeline>
+<codeline lineno="301" refid="structnpu__constant__tensor" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structnpu__constant__tensor" kindref="compound">npu_constant_tensor</ref><sp/>:<sp/><ref refid="structnpu__tensor" kindref="compound">npu_tensor</ref></highlight></codeline>
+<codeline lineno="302"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="303" refid="structnpu__constant__tensor_1a73997c56da4d872e20ce481c7e122d0f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;std::string&gt;<sp/><ref refid="structnpu__constant__tensor_1a73997c56da4d872e20ce481c7e122d0f" kindref="member">path</ref>;</highlight></codeline>
+<codeline lineno="304"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"></highlight></codeline>
+<codeline lineno="306" refid="structpl__tensor" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structpl__tensor" kindref="compound">pl_tensor</ref></highlight></codeline>
+<codeline lineno="307"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="308" refid="structpl__tensor_1a65fbc7531321be14ba6f6f2b97db06c5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;uint32_t&gt;<sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structpl__tensor_1a65fbc7531321be14ba6f6f2b97db06c5" kindref="member">pl_shape</ref>;</highlight></codeline>
+<codeline lineno="309" refid="structpl__tensor_1afafd569f1156118a7f1190b402bc1cd0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;uint32_t&gt;<sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structpl__tensor_1afafd569f1156118a7f1190b402bc1cd0" kindref="member">pl_strides</ref>;</highlight></codeline>
+<codeline lineno="310" refid="structpl__tensor_1ac58487fedacc93d40e98a314ff85dbe7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="private_8h_1a49b5dfea31023fcd165ce36384234dc5" kindref="member">data_type_t</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structpl__tensor_1ac58487fedacc93d40e98a314ff85dbe7" kindref="member">pl_data_type</ref>;</highlight></codeline>
+<codeline lineno="311" refid="structpl__tensor_1ad989d6dbad577bca80ce9a33d96b8323" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::map&lt;size_t,<sp/>uint64_t&gt;<sp/><ref refid="structpl__tensor_1ad989d6dbad577bca80ce9a33d96b8323" kindref="member">pl_nbuf_addr</ref>;</highlight></codeline>
+<codeline lineno="312" refid="structpl__tensor_1aac3d3fc69a0f92ae6fa73038db217c36" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structpl__tensor_1aac3d3fc69a0f92ae6fa73038db217c36" kindref="member">pl_cfg_base_addr</ref>;</highlight></codeline>
+<codeline lineno="313" refid="structpl__tensor_1adc6766d42ca21e29a37d7696d421fe72" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;uint32_t&gt;<sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structpl__tensor_1adc6766d42ca21e29a37d7696d421fe72" kindref="member">pl_cfg_offset</ref>;</highlight></codeline>
+<codeline lineno="314" refid="structpl__tensor_1a595e49b0c5976d03db0083a2d28694e0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structpl__tensor_1a595e49b0c5976d03db0083a2d28694e0" kindref="member">pl_buff_nbytes</ref>;</highlight></codeline>
+<codeline lineno="315" refid="structpl__tensor_1aade3fdc5ad61bbcaed65babc2dd0b734" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;struct<sp/>addr&gt;<sp/><sp/><sp/><ref refid="structpl__tensor_1aade3fdc5ad61bbcaed65babc2dd0b734" kindref="member">pl_ddr_addrs</ref>;</highlight></codeline>
+<codeline lineno="316"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="317"><highlight class="normal"></highlight></codeline>
+<codeline lineno="325" refid="structnpu__snapshot" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structnpu__snapshot" kindref="compound">npu_snapshot</ref></highlight></codeline>
+<codeline lineno="326"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="327" refid="structnpu__snapshot_1aaefadee5fbf2ff79841d5c3810fac2b8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnpu__snapshot_1aaefadee5fbf2ff79841d5c3810fac2b8" kindref="member">boardname</ref>;</highlight></codeline>
+<codeline lineno="328" refid="structnpu__snapshot_1ac94f734e0c28acad89637315fca87868" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnpu__snapshot_1ac94f734e0c28acad89637315fca87868" kindref="member">path</ref>;</highlight></codeline>
+<codeline lineno="329" refid="structnpu__snapshot_1ab1d0164f5dd84d90d490d233592794b9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="fpga__info_8h_1afe7ded90c10a0e74d9627a16f660ad7e" kindref="member">FpgaArchitecture</ref><sp/><ref refid="structnpu__snapshot_1ab1d0164f5dd84d90d490d233592794b9" kindref="member">arch</ref>;</highlight></codeline>
+<codeline lineno="330" refid="structnpu__snapshot_1a6bc1010720344597ad697fab6221d146" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="fpga__info_8h_1a3ba9c79991b017d4949e2e4bc1386af4" kindref="member">FpgaFamily</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnpu__snapshot_1a6bc1010720344597ad697fab6221d146" kindref="member">fpgaFamily</ref>;</highlight></codeline>
+<codeline lineno="331" refid="structnpu__snapshot_1a64711ddb10d862b1e2fa78e16dc2639e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnpu__snapshot_1a64711ddb10d862b1e2fa78e16dc2639e" kindref="member">timestamp</ref>;</highlight></codeline>
+<codeline lineno="332" refid="structnpu__snapshot_1a9bbca5ba4d14a23e0fb9590a614d03a8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnpu__snapshot_1a9bbca5ba4d14a23e0fb9590a614d03a8" kindref="member">ip_idx</ref>;</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"></highlight></codeline>
+<codeline lineno="334"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Each<sp/>one<sp/>of<sp/>these<sp/>arrays<sp/>has<sp/>one<sp/>element<sp/>per<sp/>core<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="335" refid="structnpu__snapshot_1aa596bd78ea32cc06392484e76bd1792d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="structnpu__snapshot_1aa596bd78ea32cc06392484e76bd1792d" kindref="member">sublayer_count</ref>;</highlight></codeline>
+<codeline lineno="336" refid="structnpu__snapshot_1adb2bf9fd62adfe3873e0f97a878b8b0f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="structnpu__snapshot_1adb2bf9fd62adfe3873e0f97a878b8b0f" kindref="member">index_mctrl_network</ref>;</highlight></codeline>
+<codeline lineno="337" refid="structnpu__snapshot_1a60af3e038fc1658e918986955927a5a3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="structnpu__snapshot_1a60af3e038fc1658e918986955927a5a3" kindref="member">nbSupra</ref>;</highlight></codeline>
+<codeline lineno="338"><highlight class="normal"></highlight></codeline>
+<codeline lineno="339" refid="structnpu__snapshot_1a06bea7e6fb7294467f06f1b2d037ebf4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="unionlm__coreBus__masterControl__config__aieml__v1c" kindref="compound">lm_coreBus_masterControl_config_aieml_v1c</ref><sp/><ref refid="structnpu__snapshot_1a06bea7e6fb7294467f06f1b2d037ebf4" kindref="member">config</ref>;</highlight></codeline>
+<codeline lineno="340"><highlight class="normal"></highlight></codeline>
+<codeline lineno="341" refid="structnpu__snapshot_1a2d82fed643f53f801a599899f3f4e916" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;struct<sp/>addr&gt;<sp/><ref refid="structnpu__snapshot_1a2d82fed643f53f801a599899f3f4e916" kindref="member">context_addr</ref>;</highlight></codeline>
+<codeline lineno="342" refid="structnpu__snapshot_1ac70f6425bfa7134263a08cd2d67c1cd0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;size_t&gt;<sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnpu__snapshot_1ac70f6425bfa7134263a08cd2d67c1cd0" kindref="member">context_size</ref>;</highlight></codeline>
+<codeline lineno="343" refid="structnpu__snapshot_1aa2b33b996b724e5bec8edb13b9301f8c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;struct<sp/>addr&gt;<sp/><ref refid="structnpu__snapshot_1aa2b33b996b724e5bec8edb13b9301f8c" kindref="member">config_addr</ref>;</highlight></codeline>
+<codeline lineno="344" refid="structnpu__snapshot_1aec18214ebdeb606b57224c3d7c649567" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;size_t&gt;<sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnpu__snapshot_1aec18214ebdeb606b57224c3d7c649567" kindref="member">config_size</ref>;</highlight></codeline>
+<codeline lineno="345" refid="structnpu__snapshot_1aae56ec88e9b9b6360be57167975993fa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;size_t&gt;<sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnpu__snapshot_1aae56ec88e9b9b6360be57167975993fa" kindref="member">config_addr_in_snap</ref>;</highlight></codeline>
+<codeline lineno="346" refid="structnpu__snapshot_1a8d3333e0dc9ed1eda037b36b2980218f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;struct<sp/>addr&gt;<sp/><ref refid="structnpu__snapshot_1a8d3333e0dc9ed1eda037b36b2980218f" kindref="member">tmp_area_addr</ref>;</highlight></codeline>
+<codeline lineno="347" refid="structnpu__snapshot_1ae8ce4e0c90074b0ab6e4542c84ff16b6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;size_t&gt;<sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnpu__snapshot_1ae8ce4e0c90074b0ab6e4542c84ff16b6" kindref="member">tmp_area_size</ref>;</highlight></codeline>
+<codeline lineno="348" refid="structnpu__snapshot_1a405cbaeed87d06bb493440dd0da8becb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;size_t&gt;<sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnpu__snapshot_1a405cbaeed87d06bb493440dd0da8becb" kindref="member">tmp_area_addr_in_snap</ref>;</highlight></codeline>
+<codeline lineno="349" refid="structnpu__snapshot_1ab398351be4261529736a7d360ecba812" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;size_t&gt;<sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnpu__snapshot_1ab398351be4261529736a7d360ecba812" kindref="member">constant_size</ref>;</highlight></codeline>
+<codeline lineno="350" refid="structnpu__snapshot_1aef28b025af1ee3756ed4c1ddb32da8cd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;size_t&gt;<sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnpu__snapshot_1aef28b025af1ee3756ed4c1ddb32da8cd" kindref="member">constant_addr_in_snap</ref>;</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"></highlight></codeline>
+<codeline lineno="352" refid="structnpu__snapshot_1abe7e27cdab8d2c300c8a551af2154476" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnpu__snapshot_1abe7e27cdab8d2c300c8a551af2154476" kindref="member">pl_timestamp</ref>;</highlight></codeline>
+<codeline lineno="353" refid="structnpu__snapshot_1af5bc14d0e3390abeb04c0f8ce7888ddb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::map&lt;uint64_t,<sp/>uint32_t&gt;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnpu__snapshot_1af5bc14d0e3390abeb04c0f8ce7888ddb" kindref="member">pl_info</ref>;</highlight></codeline>
+<codeline lineno="354" refid="structnpu__snapshot_1a572b89136ede0ebaf07eb4b10acc8309" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::map&lt;std::string,<sp/>struct<sp/>pl_tensor&gt;<sp/><ref refid="structnpu__snapshot_1a572b89136ede0ebaf07eb4b10acc8309" kindref="member">pl</ref>;</highlight></codeline>
+<codeline lineno="355"><highlight class="normal"></highlight></codeline>
+<codeline lineno="356" refid="structnpu__snapshot_1a995a5bf29ea646acdf679a8f9848a295" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;struct<sp/>npu_tensor&gt;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnpu__snapshot_1a995a5bf29ea646acdf679a8f9848a295" kindref="member">inputs</ref>;</highlight></codeline>
+<codeline lineno="357" refid="structnpu__snapshot_1a7ae36ec98c946cf8859d06466ffdff2f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;struct<sp/>npu_tensor&gt;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnpu__snapshot_1a7ae36ec98c946cf8859d06466ffdff2f" kindref="member">outputs</ref>;</highlight></codeline>
+<codeline lineno="358" refid="structnpu__snapshot_1af2b786bcdf5a23f72d660d4ee9cdc584" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;struct<sp/>npu_constant_tensor&gt;<sp/><ref refid="structnpu__snapshot_1af2b786bcdf5a23f72d660d4ee9cdc584" kindref="member">constants</ref>;</highlight></codeline>
+<codeline lineno="359"><highlight class="normal"></highlight></codeline>
+<codeline lineno="360" refid="structnpu__snapshot_1a7f38ce9a19f524d0f5975501329db416" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;std::pair&lt;size_t,<sp/>size_t&gt;&gt;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnpu__snapshot_1a7f38ce9a19f524d0f5975501329db416" kindref="member">active_cores</ref>;</highlight></codeline>
+<codeline lineno="361" refid="structnpu__snapshot_1aafc77e3bc9753a8d5474a49f0946ed76" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::map&lt;size_t,<sp/>size_t&gt;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structnpu__snapshot_1aafc77e3bc9753a8d5474a49f0946ed76" kindref="member">srv_write_sequence</ref>;</highlight></codeline>
+<codeline lineno="362" refid="structnpu__snapshot_1a9c806f2fe6b9513bad874efb37aba3bf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;std::pair&lt;uint64_t,<sp/>std::vector&lt;uint32_t&gt;&gt;&gt;<sp/><ref refid="structnpu__snapshot_1a9c806f2fe6b9513bad874efb37aba3bf" kindref="member">ctrl_reg_config</ref>;</highlight></codeline>
+<codeline lineno="363"><highlight class="normal"></highlight></codeline>
+<codeline lineno="364" refid="structnpu__snapshot_1a19f158f8807bd3e0c5968579e873a581" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structnpu__snapshot_1a19f158f8807bd3e0c5968579e873a581" kindref="member">is_nbuff_en</ref>;</highlight></codeline>
+<codeline lineno="365" refid="structnpu__snapshot_1ae365f29dd9f2066b8065ebedbcda9011" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structnpu__snapshot_1ae365f29dd9f2066b8065ebedbcda9011" kindref="member">checkConfig</ref>;</highlight></codeline>
+<codeline lineno="366" refid="structnpu__snapshot_1addd9542bf38c9ec5bc218a4b86b377a7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structnpu__snapshot_1addd9542bf38c9ec5bc218a4b86b377a7" kindref="member">debug_show_IO_address</ref>;</highlight></codeline>
+<codeline lineno="367" refid="structnpu__snapshot_1ac0b2a669cc94edc57cc88d13347f8761" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structnpu__snapshot_1ac0b2a669cc94edc57cc88d13347f8761" kindref="member">skipTimestampCheck</ref>;</highlight></codeline>
+<codeline lineno="368" refid="private_8h_1aa7f3a4591537338fde7ffdff021d65a9" refkind="member"><highlight class="normal">}<sp/><ref refid="private_8h_1aa7f3a4591537338fde7ffdff021d65a9" kindref="member">npu_snapshot_t</ref>;</highlight></codeline>
+<codeline lineno="369"><highlight class="normal"></highlight></codeline>
+<codeline lineno="376"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="private_8h_1ac72574a72c9946ea7af7a16a124a6c79" kindref="member">npu_run_snapshot</ref>(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structnpu__snapshot" kindref="compound">npu_snapshot</ref>*<sp/>snap);</highlight></codeline>
+<codeline lineno="377"><highlight class="normal"></highlight></codeline>
+<codeline lineno="384"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="private_8h_1a600fd865a2fa5c494e0f3582903d57b0" kindref="member">npu_run_snapshot_bin</ref>(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structnpu__snapshot" kindref="compound">npu_snapshot</ref>*<sp/>snap,<sp/>std::ifstream&amp;<sp/>snapshot);</highlight></codeline>
+<codeline lineno="385"><highlight class="normal"></highlight></codeline>
+<codeline lineno="392"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="private_8h_1a09d2fc06016bcfdaa1422d0bd7ac4d91" kindref="member">npu_run_snapshot_txt</ref>(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structnpu__snapshot" kindref="compound">npu_snapshot</ref>*<sp/>snap,<sp/>std::ifstream&amp;<sp/>snapshot);</highlight></codeline>
+<codeline lineno="393"><highlight class="normal"></highlight></codeline>
+<codeline lineno="394"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structvart_1_1InferResultData" kind="struct" language="C++" prot="public">
+    <compoundname>vart::InferResultData</compoundname>
+    <derivedcompoundref refid="structvart_1_1ClassificationResData" prot="public" virt="non-virtual">vart::ClassificationResData</derivedcompoundref>
+    <derivedcompoundref refid="structvart_1_1DetectionResData" prot="public" virt="non-virtual">vart::DetectionResData</derivedcompoundref>
+    <includes refid="vart__inferresult__types_8hpp" local="no">vart_inferresult_types.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structvart_1_1InferResultData_1a92e3cd316a39420b8453a82260993841" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacevart_1a28227f4fe6b775278e5211b343e5b868" kindref="member">InferResultType</ref></type>
+        <definition>InferResultType vart::InferResultData::result_type</definition>
+        <argsstring></argsstring>
+        <name>result_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_inferresult_types.hpp" line="78" column="19" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_inferresult_types.hpp" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Base structure for inference result data. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>vart::InferResultData</label>
+        <link refid="structvart_1_1InferResultData"/>
+      </node>
+      <node id="3">
+        <label>vart::DetectionResData</label>
+        <link refid="structvart_1_1DetectionResData"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>vart::ClassificationResData</label>
+        <link refid="structvart_1_1ClassificationResData"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_inferresult_types.hpp" line="77" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_inferresult_types.hpp" bodystart="77" bodyend="79"/>
+    <listofallmembers>
+      <member refid="structvart_1_1InferResultData_1a92e3cd316a39420b8453a82260993841" prot="public" virt="non-virtual"><scope>vart::InferResultData</scope><name>result_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

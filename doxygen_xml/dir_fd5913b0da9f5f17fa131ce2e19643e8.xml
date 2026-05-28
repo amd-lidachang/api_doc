@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_fd5913b0da9f5f17fa131ce2e19643e8" kind="dir">
+    <compoundname>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml</compoundname>
+    <innerdir refid="dir_c8e7657300bee10ca4fac3ec56e03415">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo</innerdir>
+    <innerdir refid="dir_db1a729eceb3f4467a887bea43641943">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api</innerdir>
+    <innerdir refid="dir_197e3fe1b78f3e56bdafeb8bcfd5a43e">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner</innerdir>
+    <innerdir refid="dir_6f4386477cbdfa3667937b420980353d">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io</innerdir>
+    <innerdir refid="dir_0d8f5e5d7166d4b1a2725d274a2db80f">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_py_api</innerdir>
+    <innerdir refid="dir_62ece26a4a21f21f1f3f882657dc8e07">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner</innerdir>
+    <innerdir refid="dir_f621d4563940aa370d855f7693a296d7">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_tools</innerdir>
+    <innerdir refid="dir_3de64cdcea68640d7d230d5489a9b776">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/"/>
+  </compounddef>
+</doxygen>

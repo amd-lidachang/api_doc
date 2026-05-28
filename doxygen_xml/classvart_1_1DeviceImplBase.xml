@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classvart_1_1DeviceImplBase" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>vart::DeviceImplBase</compoundname>
+    <derivedcompoundref refid="classvart_1_1DeviceImplVvas" prot="public" virt="non-virtual">vart::DeviceImplVvas</derivedcompoundref>
+    <includes refid="vart__device__impl__base_8hpp" local="no">vart_device_impl_base.hpp</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classvart_1_1DeviceImplBase_1a42a2d12b4702522a760378527d176187" prot="protected" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t vart::DeviceImplBase::device_index</definition>
+        <argsstring></argsstring>
+        <name>device_index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base/vart_device_impl_base.hpp" line="31" column="11" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base/vart_device_impl_base.hpp" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classvart_1_1DeviceImplBase_1ab1ea3e42fdea6539a5c1e52b9cb198bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>vart::DeviceImplBase::DeviceImplBase</definition>
+        <argsstring>()=delete</argsstring>
+        <name>DeviceImplBase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base/vart_device_impl_base.hpp" line="25" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1DeviceImplBase_1a86242307eb57448f5b5d01a079874e33" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>vart::DeviceImplBase::DeviceImplBase</definition>
+        <argsstring>(int32_t dev_idx)</argsstring>
+        <name>DeviceImplBase</name>
+        <param>
+          <type>int32_t</type>
+          <declname>dev_idx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base/vart_device_impl_base.hpp" line="26" column="3" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base/vart_device_impl_base.hpp" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1DeviceImplBase_1ab17d919705792dcae328468672a1edfc" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>int32_t</type>
+        <definition>virtual int32_t vart::DeviceImplBase::get_device_index</definition>
+        <argsstring>()=0</argsstring>
+        <name>get_device_index</name>
+        <reimplementedby refid="classvart_1_1DeviceImplVvas_1a9087834479c575c80a9ef9c87b9a3162">get_device_index</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base/vart_device_impl_base.hpp" line="27" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1DeviceImplBase_1aa3e23df43a7fd2290ed1014eb57c2bae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual vart::DeviceImplBase::~DeviceImplBase</definition>
+        <argsstring>()</argsstring>
+        <name>~DeviceImplBase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base/vart_device_impl_base.hpp" line="28" column="11" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base/vart_device_impl_base.hpp" bodystart="28" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>vart::DeviceImplVvas</label>
+        <link refid="classvart_1_1DeviceImplVvas"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>vart::DeviceImplBase</label>
+        <link refid="classvart_1_1DeviceImplBase"/>
+      </node>
+    </inheritancegraph>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base/vart_device_impl_base.hpp" line="23" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base/vart_device_impl_base.hpp" bodystart="23" bodyend="32"/>
+    <listofallmembers>
+      <member refid="classvart_1_1DeviceImplBase_1a42a2d12b4702522a760378527d176187" prot="protected" virt="non-virtual"><scope>vart::DeviceImplBase</scope><name>device_index</name></member>
+      <member refid="classvart_1_1DeviceImplBase_1ab1ea3e42fdea6539a5c1e52b9cb198bc" prot="public" virt="non-virtual"><scope>vart::DeviceImplBase</scope><name>DeviceImplBase</name></member>
+      <member refid="classvart_1_1DeviceImplBase_1a86242307eb57448f5b5d01a079874e33" prot="public" virt="non-virtual"><scope>vart::DeviceImplBase</scope><name>DeviceImplBase</name></member>
+      <member refid="classvart_1_1DeviceImplBase_1ab17d919705792dcae328468672a1edfc" prot="public" virt="pure-virtual"><scope>vart::DeviceImplBase</scope><name>get_device_index</name></member>
+      <member refid="classvart_1_1DeviceImplBase_1aa3e23df43a7fd2290ed1014eb57c2bae" prot="public" virt="virtual"><scope>vart::DeviceImplBase</scope><name>~DeviceImplBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

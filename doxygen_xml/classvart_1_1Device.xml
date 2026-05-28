@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classvart_1_1Device" kind="class" language="C++" prot="public">
+    <compoundname>vart::Device</compoundname>
+    <includes refid="vart__device_8hpp" local="no">vart_device.hpp</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classvart_1_1Device_1a336615109d8f56d655e331004a371ca0" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="classvart_1_1DeviceImplBase" kindref="compound">DeviceImplBase</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;DeviceImplBase&gt; vart::Device::pimpl</definition>
+        <argsstring></argsstring>
+        <name>pimpl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_device.hpp" line="84" column="19" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_device.hpp" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classvart_1_1Device_1ad8e3b818942149756cb1ede4eff92a81" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::shared_ptr&lt; <ref refid="classvart_1_1Device" kindref="compound">Device</ref> &gt;</type>
+        <definition>std::shared_ptr&lt; Device &gt; vart::Device::get_device_hdl</definition>
+        <argsstring>(const int32_t dev_idx, const std::string &amp;xclbin_loc)</argsstring>
+        <name>get_device_hdl</name>
+        <param>
+          <type>const int32_t</type>
+          <declname>dev_idx</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>xclbin_loc</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="classvart_1_1Device_1ad8e3b818942149756cb1ede4eff92a81" kindref="member">get_device_hdl()</ref> - Creates a <ref refid="classvart_1_1Device_1afad6cb9f631dee64d53dbe8c94ceb381" kindref="member">Device()</ref> instance if not created earlier, else return an existing instance for given device index and xclbin. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dev_idx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="classvart_1_1Device" kindref="compound">Device</ref> index on which XCLBIN is to be loaded.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>xclbin_loc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>XCLBIN path.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns a <ref refid="classvart_1_1Device" kindref="compound">Device</ref> pointer created using given dev_idx, xclbin_loc</para>
+</simplesect>
+The following criteria is the basis for either to create a new <ref refid="classvart_1_1Device" kindref="compound">Device</ref> instance or not:</para>
+<para><programlisting><codeline><highlight class="normal">------------------------------------------------------------</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>dev_idx<sp/><sp/><sp/><sp/>|<sp/>xclbin<sp/>|<sp/><sp/><sp/>Result<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">------------------------------------------------------------</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>Exists<sp/><sp/><sp/><sp/><sp/>|<sp/>Exists<sp/>|<sp/>Returns<sp/>an<sp/>existing<sp/>Device<sp/>instance|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>new<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>new<sp/><sp/><sp/><sp/>|<sp/>creates<sp/>a<sp/>new<sp/>Device<sp/>instance<sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>Exists<sp/><sp/><sp/><sp/><sp/>|<sp/>new<sp/><sp/><sp/><sp/>|<sp/>Returns<sp/>error<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>new<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>Exists<sp/>|<sp/>creates<sp/>a<sp/>new<sp/>Device<sp/>instance<sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">------------------------------------------------------------</highlight></codeline>
+</programlisting> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_device.hpp" line="61" column="26" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/device/vart_device.cpp" bodystart="27" bodyend="79"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classvart_1_1Device_1acb4e007959b5c982626689d510acd184" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::shared_ptr&lt; <ref refid="classvart_1_1DeviceImplBase" kindref="compound">DeviceImplBase</ref> &gt; &amp;</type>
+        <definition>const std::shared_ptr&lt; DeviceImplBase &gt; &amp; vart::Device::get_pimpl_handle</definition>
+        <argsstring>() const</argsstring>
+        <name>get_pimpl_handle</name>
+        <briefdescription>
+<para><ref refid="classvart_1_1Device_1acb4e007959b5c982626689d510acd184" kindref="member">get_pimpl_handle()</ref> - Retrieves pointer to <ref refid="classvart_1_1Device" kindref="compound">Device</ref> implementation Base class </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Returns a constant reference of pointer to implementation class. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_device.hpp" line="70" column="25" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/device/vart_device.cpp" bodystart="84" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1Device_1ad6ea4fa5cab097baebbd531a3bb79ef5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int32_t</type>
+        <definition>int32_t vart::Device::get_device_index</definition>
+        <argsstring>() const</argsstring>
+        <name>get_device_index</name>
+        <briefdescription>
+<para><ref refid="classvart_1_1Device_1ad6ea4fa5cab097baebbd531a3bb79ef5" kindref="member">get_device_index()</ref> - Retrieves device index of current instance </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Returns the device index </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_device.hpp" line="78" column="11" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/device/vart_device.cpp" bodystart="88" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1Device_1afad6cb9f631dee64d53dbe8c94ceb381" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>vart::Device::Device</definition>
+        <argsstring>()=delete</argsstring>
+        <name>Device</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_device.hpp" line="79" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1Device_1aa3f14a15cef1ac8aabb6fc6efead74d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>vart::Device::~Device</definition>
+        <argsstring>()=default</argsstring>
+        <name>~Device</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_device.hpp" line="80" column="3"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classvart_1_1Device_1a1c9e7dbdae19e27aefb18b3099fea1ce" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>vart::Device::Device</definition>
+        <argsstring>(std::shared_ptr&lt; DeviceImplBase &gt; pimpl_hdl)</argsstring>
+        <name>Device</name>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="classvart_1_1DeviceImplBase" kindref="compound">DeviceImplBase</ref> &gt;</type>
+          <declname>pimpl_hdl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_device.hpp" line="83" column="3" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/device/vart_device.cpp" bodystart="81" bodyend="82"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This module manages the hardware context and loading of xclbin on to the device. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Please check API documentation for more information. Any module utilizing hardware acceleration requires an instance of the <ref refid="classvart_1_1Device" kindref="compound">Device</ref> class. </para>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_device.hpp" line="32" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_device.hpp" bodystart="32" bodyend="85"/>
+    <listofallmembers>
+      <member refid="classvart_1_1Device_1afad6cb9f631dee64d53dbe8c94ceb381" prot="public" virt="non-virtual"><scope>vart::Device</scope><name>Device</name></member>
+      <member refid="classvart_1_1Device_1a1c9e7dbdae19e27aefb18b3099fea1ce" prot="private" virt="non-virtual"><scope>vart::Device</scope><name>Device</name></member>
+      <member refid="classvart_1_1Device_1ad8e3b818942149756cb1ede4eff92a81" prot="public" virt="non-virtual"><scope>vart::Device</scope><name>get_device_hdl</name></member>
+      <member refid="classvart_1_1Device_1ad6ea4fa5cab097baebbd531a3bb79ef5" prot="public" virt="non-virtual"><scope>vart::Device</scope><name>get_device_index</name></member>
+      <member refid="classvart_1_1Device_1acb4e007959b5c982626689d510acd184" prot="public" virt="non-virtual"><scope>vart::Device</scope><name>get_pimpl_handle</name></member>
+      <member refid="classvart_1_1Device_1a336615109d8f56d655e331004a371ca0" prot="private" virt="non-virtual"><scope>vart::Device</scope><name>pimpl</name></member>
+      <member refid="classvart_1_1Device_1aa3f14a15cef1ac8aabb6fc6efead74d1" prot="public" virt="non-virtual"><scope>vart::Device</scope><name>~Device</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_62ece26a4a21f21f1f3f882657dc8e07" kind="dir">
+    <compoundname>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner</compoundname>
+    <innerfile refid="vart__ml__runner_2accessors_8cpp">accessors.cpp</innerfile>
+    <innerfile refid="arm__ops_8cpp">arm_ops.cpp</innerfile>
+    <innerfile refid="execute_8cpp">execute.cpp</innerfile>
+    <innerfile refid="vart__ml__runner_2snapshot__parser_8cpp">snapshot_parser.cpp</innerfile>
+    <innerfile refid="thread__pool_8cpp">thread_pool.cpp</innerfile>
+    <innerfile refid="utils_8cpp">utils.cpp</innerfile>
+    <innerfile refid="vart__ml__runner_8cpp">vart_ml_runner.cpp</innerfile>
+    <innerfile refid="vart__ml__runner_8hpp">vart_ml_runner.hpp</innerfile>
+    <innerfile refid="vart__npu__tensor_8cpp">vart_npu_tensor.cpp</innerfile>
+    <innerfile refid="vart__npu__tensor_8hpp">vart_npu_tensor.hpp</innerfile>
+    <innerfile refid="vart__npu__tensor__impl_8hpp">vart_npu_tensor_impl.hpp</innerfile>
+    <innerfile refid="vart__runner__factory_8hpp">vart_runner_factory.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/"/>
+  </compounddef>
+</doxygen>

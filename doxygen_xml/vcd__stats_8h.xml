@@ -1,0 +1,326 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="vcd__stats_8h" kind="file" language="C++">
+    <compoundname>vcd_stats.h</compoundname>
+    <includes local="yes">vcd_event.inc</includes>
+    <includedby refid="vart__ml__demo_8cpp" local="no">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/vart_ml_demo.cpp</includedby>
+    <includedby refid="inference_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/inference.cpp</includedby>
+    <includedby refid="arm__ops_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/arm_ops.cpp</includedby>
+    <includedby refid="execute_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/execute.cpp</includedby>
+    <includedby refid="thread__pool_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/thread_pool.cpp</includedby>
+    <includedby refid="vart__ml__runner_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.cpp</includedby>
+    <includedby refid="vcd__stats_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.h</label>
+        <link refid="vcd__stats_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>vcd_event.inc</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="8">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp</label>
+        <link refid="vcd__stats_8cpp"/>
+      </node>
+      <node id="4">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/arm_ops.cpp</label>
+        <link refid="arm__ops_8cpp"/>
+      </node>
+      <node id="1">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.h</label>
+        <link refid="vcd__stats_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/thread_pool.cpp</label>
+        <link refid="thread__pool_8cpp"/>
+      </node>
+      <node id="7">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.cpp</label>
+        <link refid="vart__ml__runner_8cpp"/>
+      </node>
+      <node id="3">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/inference.cpp</label>
+        <link refid="inference_8cpp"/>
+      </node>
+      <node id="2">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/vart_ml_demo.cpp</label>
+        <link refid="vart__ml__demo_8cpp"/>
+      </node>
+      <node id="5">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/execute.cpp</label>
+        <link refid="execute_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structvcd__context" prot="public">vcd_context</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="vcd__stats_8h_1a30175e7c7fdba913debae33280bef242" prot="public" static="no">
+        <name>VCD_GLOBAL_ID</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.h" line="22" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="vcd__stats_8h_1a3d409cb450e34a67dce00bf7823b33b8" prot="public" static="no">
+        <name>EVENT</name>
+        <param><defname>event</defname></param>
+        <initializer>event,</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.h" line="26" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="vcd__stats_8h_1ae63dde9c37487fc7caa8232877ecaf98" prot="public" static="no" strong="no">
+        <type></type>
+        <name>vcd_event</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.h" line="24" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.h" bodystart="25" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="vcd__stats_8h_1a82b977bdbe4253151ce934e4b0796fa7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int8_t</type>
+        <definition>int8_t vcd_register_network</definition>
+        <argsstring>(std::string network_name)</argsstring>
+        <name>vcd_register_network</name>
+        <param>
+          <type>std::string</type>
+          <declname>network_name</declname>
+        </param>
+        <briefdescription>
+<para>Register a new network for VCD logging. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>std::string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the network. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int8_t The id of the registered network or -1 if the function failed. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.h" line="43" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" bodystart="167" bodyend="201" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.h" declline="43" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="vcd__stats_8h_1a02adbf23ac423306749ff286c17ab7bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int8_t</type>
+        <definition>int8_t vcd_register_global_event</definition>
+        <argsstring>(const std::string &amp;event_name)</argsstring>
+        <name>vcd_register_global_event</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>event_name</declname>
+        </param>
+        <briefdescription>
+<para>Register a new global event (not linked to any network). </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>std::string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the event. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int8_t The id of the registered event, -1 if the function failed or VCD stats are not enabled. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.h" line="51" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" bodystart="203" bodyend="215" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.h" declline="51" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="vcd__stats_8h_1a65d14fb9e3f15a897366fd48f8383328" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int8_t</type>
+        <definition>int8_t vcd_register_event</definition>
+        <argsstring>(const std::string &amp;event_name)</argsstring>
+        <name>vcd_register_event</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>event_name</declname>
+        </param>
+        <briefdescription>
+<para>Register a new event for all networks. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This event will be added for all registered networks. Register all networks before registering new events.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>std::string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the event. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int8_t The id of the registered event, -1 if the function failed or VCD stats are not enabled. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.h" line="62" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" bodystart="217" bodyend="231" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.h" declline="62" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="vcd__stats_8h_1acb5506236e296a410cad1e305b3040ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void vcd_set_nb_threads</definition>
+        <argsstring>(size_t nb_threads)</argsstring>
+        <name>vcd_set_nb_threads</name>
+        <param>
+          <type>size_t</type>
+          <declname>nb_threads</declname>
+        </param>
+        <briefdescription>
+<para>Set the number of threads vart_ml_runner may run simultaneously. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>size_t</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of threads to set. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.h" line="69" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" bodystart="233" bodyend="266" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.h" declline="69" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="vcd__stats_8h_1a321a91d3c233e3b41cb7ef133fb3322b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void vcd_event</definition>
+        <argsstring>(const struct vcd_context &amp;vcd_context, int8_t event_id, bool state)</argsstring>
+        <name>vcd_event</name>
+        <param>
+          <type>const struct <ref refid="structvcd__context" kindref="compound">vcd_context</ref> &amp;</type>
+          <declname>vcd_context</declname>
+        </param>
+        <param>
+          <type>int8_t</type>
+          <declname>event_id</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+<para>Log a new event for VCD logging. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>struct</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="structvcd__context" kindref="compound">vcd_context</ref> Context of the VCD event. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>int8_t</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The id of the event to log. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bool</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The state of the event, true if event is ongoing, or false if the event has ended. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.h" line="78" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" bodystart="268" bodyend="368" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.h" declline="78" declcolumn="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="copyright"><para>Copyright 2025 Advanced Micro Devices Inc.</para>
+</simplesect>
+Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <verbatim>http://www.apache.org/licenses/LICENSE-2.0
+</verbatim> Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. </para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>VCD_STATS_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>VCD_STATS_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="vcd__stats_8h_1a30175e7c7fdba913debae33280bef242" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>VCD_GLOBAL_ID<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="vcd__stats_8h_1ae63dde9c37487fc7caa8232877ecaf98" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="vcd__stats_8h_1ae63dde9c37487fc7caa8232877ecaf98" kindref="member">vcd_event</ref></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="26" refid="vcd__stats_8h_1a3d409cb450e34a67dce00bf7823b33b8" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EVENT(event)<sp/>event,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;vcd_event.inc&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#undef<sp/>EVENT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="structvcd__context" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structvcd__context" kindref="compound">vcd_context</ref></highlight></codeline>
+<codeline lineno="32"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="33" refid="structvcd__context_1a56ab530dbfc30a9b5ffec9f761ee6e7f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>int8_t<sp/><ref refid="structvcd__context_1a56ab530dbfc30a9b5ffec9f761ee6e7f" kindref="member">network_id</ref>;</highlight></codeline>
+<codeline lineno="34" refid="structvcd__context_1a888da9416a60630188729dfcd2aace3d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="structvcd__context_1a888da9416a60630188729dfcd2aace3d" kindref="member">thread_id</ref>;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal">int8_t<sp/><ref refid="vcd__stats_8h_1a82b977bdbe4253151ce934e4b0796fa7" kindref="member">vcd_register_network</ref>(std::string<sp/>network_name);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal">int8_t<sp/><ref refid="vcd__stats_8h_1a02adbf23ac423306749ff286c17ab7bf" kindref="member">vcd_register_global_event</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>event_name);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal">int8_t<sp/><ref refid="vcd__stats_8h_1a65d14fb9e3f15a897366fd48f8383328" kindref="member">vcd_register_event</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>event_name);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="vcd__stats_8h_1acb5506236e296a410cad1e305b3040ca" kindref="member">vcd_set_nb_threads</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>nb_threads);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="vcd__stats_8h_1ae63dde9c37487fc7caa8232877ecaf98" kindref="member">vcd_event</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structvcd__context" kindref="compound">vcd_context</ref>&amp;<sp/><ref refid="structvcd__context" kindref="compound">vcd_context</ref>,<sp/>int8_t<sp/>event_id,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>state);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="unionsupervisor__reg" kind="union" language="C++" prot="public">
+    <compoundname>supervisor_reg</compoundname>
+    <includes refid="private_8h" local="no">private.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="unionsupervisor__reg_1a3a7c9d39b55fe96d57a7fe91fec2d125" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t supervisor_reg::reg</definition>
+        <argsstring></argsstring>
+        <name>reg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="177" column="19" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="177" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unionsupervisor__reg_1aa7be32620135220b1a4bfa31259f1c4d" prot="public" static="no" mutable="no">
+        <type><ref refid="structsupervisor__reg__bf" kindref="compound">supervisor_reg_bf</ref></type>
+        <definition>supervisor_reg_bf supervisor_reg::bf</definition>
+        <argsstring></argsstring>
+        <name>bf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="178" column="19" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="178" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>supervisor_reg_bf</label>
+        <link refid="structsupervisor__reg__bf"/>
+      </node>
+      <node id="1">
+        <label>supervisor_reg</label>
+        <link refid="unionsupervisor__reg"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>bf</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="175" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="176" bodyend="179"/>
+    <listofallmembers>
+      <member refid="unionsupervisor__reg_1aa7be32620135220b1a4bfa31259f1c4d" prot="public" virt="non-virtual"><scope>supervisor_reg</scope><name>bf</name></member>
+      <member refid="unionsupervisor__reg_1a3a7c9d39b55fe96d57a7fe91fec2d125" prot="public" virt="non-virtual"><scope>supervisor_reg</scope><name>reg</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

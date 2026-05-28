@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structlm__coreBus__masterControl__status__uscale__bf" kind="struct" language="C++" prot="public">
+    <compoundname>lm_coreBus_masterControl_status_uscale_bf</compoundname>
+    <includes refid="private_8h" local="no">private.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structlm__coreBus__masterControl__status__uscale__bf_1a4b369e51002bf8b001a70bbff886aa5a" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t lm_coreBus_masterControl_status_uscale_bf::start</definition>
+        <argsstring></argsstring>
+        <name>start</name>
+        <bitfield> 1</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="211" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="211" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlm__coreBus__masterControl__status__uscale__bf_1a221ad8fff8d712fb8bf34dfd57f80366" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t lm_coreBus_masterControl_status_uscale_bf::idle</definition>
+        <argsstring></argsstring>
+        <name>idle</name>
+        <bitfield> 1</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="212" column="5" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="212" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlm__coreBus__masterControl__status__uscale__bf_1ab3b77c53e3a5b3ed8a467f40bb591f22" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t lm_coreBus_masterControl_status_uscale_bf::_rfu0</definition>
+        <argsstring></argsstring>
+        <name>_rfu0</name>
+        <bitfield> 1</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="213" column="5" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="213" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlm__coreBus__masterControl__status__uscale__bf_1adef3d16c40a3d169c18882e59da008fa" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t lm_coreBus_masterControl_status_uscale_bf::mode_layer</definition>
+        <argsstring></argsstring>
+        <name>mode_layer</name>
+        <bitfield> 1</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="214" column="5" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="214" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlm__coreBus__masterControl__status__uscale__bf_1a3a4a38a690f7ad06ebc7b628839b025e" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t lm_coreBus_masterControl_status_uscale_bf::_rfu1</definition>
+        <argsstring></argsstring>
+        <name>_rfu1</name>
+        <bitfield> 1</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="215" column="5" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="215" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlm__coreBus__masterControl__status__uscale__bf_1ad1e84d29a1e0b3489abbe394736198ae" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t lm_coreBus_masterControl_status_uscale_bf::subLayer_count</definition>
+        <argsstring></argsstring>
+        <name>subLayer_count</name>
+        <bitfield> 15</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="216" column="5" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="216" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlm__coreBus__masterControl__status__uscale__bf_1a2fc046c1114c05f65b796a19de21141e" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t lm_coreBus_masterControl_status_uscale_bf::index_master_control_network</definition>
+        <argsstring></argsstring>
+        <name>index_master_control_network</name>
+        <bitfield> 12</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="217" column="5" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="217" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>structure to pack status </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="209" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="210" bodyend="219"/>
+    <listofallmembers>
+      <member refid="structlm__coreBus__masterControl__status__uscale__bf_1ab3b77c53e3a5b3ed8a467f40bb591f22" prot="public" virt="non-virtual"><scope>lm_coreBus_masterControl_status_uscale_bf</scope><name>_rfu0</name></member>
+      <member refid="structlm__coreBus__masterControl__status__uscale__bf_1a3a4a38a690f7ad06ebc7b628839b025e" prot="public" virt="non-virtual"><scope>lm_coreBus_masterControl_status_uscale_bf</scope><name>_rfu1</name></member>
+      <member refid="structlm__coreBus__masterControl__status__uscale__bf_1a221ad8fff8d712fb8bf34dfd57f80366" prot="public" virt="non-virtual"><scope>lm_coreBus_masterControl_status_uscale_bf</scope><name>idle</name></member>
+      <member refid="structlm__coreBus__masterControl__status__uscale__bf_1a2fc046c1114c05f65b796a19de21141e" prot="public" virt="non-virtual"><scope>lm_coreBus_masterControl_status_uscale_bf</scope><name>index_master_control_network</name></member>
+      <member refid="structlm__coreBus__masterControl__status__uscale__bf_1adef3d16c40a3d169c18882e59da008fa" prot="public" virt="non-virtual"><scope>lm_coreBus_masterControl_status_uscale_bf</scope><name>mode_layer</name></member>
+      <member refid="structlm__coreBus__masterControl__status__uscale__bf_1a4b369e51002bf8b001a70bbff886aa5a" prot="public" virt="non-virtual"><scope>lm_coreBus_masterControl_status_uscale_bf</scope><name>start</name></member>
+      <member refid="structlm__coreBus__masterControl__status__uscale__bf_1ad1e84d29a1e0b3489abbe394736198ae" prot="public" virt="non-virtual"><scope>lm_coreBus_masterControl_status_uscale_bf</scope><name>subLayer_count</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

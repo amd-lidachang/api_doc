@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structEmbeddedStats_1_1DeltaTimes_1_1Npu" kind="struct" language="C++" prot="public">
+    <compoundname>EmbeddedStats::DeltaTimes::Npu</compoundname>
+    <includes refid="stats_8h" local="no">stats.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structEmbeddedStats_1_1DeltaTimes_1_1Npu_1a8529b3cdb2ee1aea8caaa3752206e535" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EmbeddedStats::DeltaTimes::Npu::full</definition>
+        <argsstring></argsstring>
+        <name>full</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="260" column="7" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="260" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1_1DeltaTimes_1_1Npu_1ac183082a6487a0f6720edceb2c62e25f" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EmbeddedStats::DeltaTimes::Npu::preProcess</definition>
+        <argsstring></argsstring>
+        <name>preProcess</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="261" column="7" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="261" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1_1DeltaTimes_1_1Npu_1ab8587cac4e721df0e2d5d9a833d8fb6d" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EmbeddedStats::DeltaTimes::Npu::reorderIn</definition>
+        <argsstring></argsstring>
+        <name>reorderIn</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="262" column="7" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="262" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1_1DeltaTimes_1_1Npu_1a1e531dc17a71188f86bcc596da2b7e42" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EmbeddedStats::DeltaTimes::Npu::upload</definition>
+        <argsstring></argsstring>
+        <name>upload</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="263" column="7" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="263" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1_1DeltaTimes_1_1Npu_1a361fbd71a42d2eab492a3abe9f00a946" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EmbeddedStats::DeltaTimes::Npu::runFpga</definition>
+        <argsstring></argsstring>
+        <name>runFpga</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="264" column="7" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="264" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1_1DeltaTimes_1_1Npu_1a232046b3ff481df81fc3b303d98387dc" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EmbeddedStats::DeltaTimes::Npu::download</definition>
+        <argsstring></argsstring>
+        <name>download</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="265" column="7" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="265" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1_1DeltaTimes_1_1Npu_1a40fabaf3825b921c1872bd6fc497204f" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EmbeddedStats::DeltaTimes::Npu::reorderOut</definition>
+        <argsstring></argsstring>
+        <name>reorderOut</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="266" column="7" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="266" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1_1DeltaTimes_1_1Npu_1ac548a57b187534034da22c7ad6d4a37a" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EmbeddedStats::DeltaTimes::Npu::postProcess</definition>
+        <argsstring></argsstring>
+        <name>postProcess</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="267" column="7" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="267" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1_1DeltaTimes_1_1Npu_1ae30c4691d62f9488028a6c66bb5e4f23" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EmbeddedStats::DeltaTimes::Npu::cpu</definition>
+        <argsstring></argsstring>
+        <name>cpu</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="268" column="7" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="268" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="258" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="259" bodyend="269"/>
+    <listofallmembers>
+      <member refid="structEmbeddedStats_1_1DeltaTimes_1_1Npu_1ae30c4691d62f9488028a6c66bb5e4f23" prot="public" virt="non-virtual"><scope>EmbeddedStats::DeltaTimes::Npu</scope><name>cpu</name></member>
+      <member refid="structEmbeddedStats_1_1DeltaTimes_1_1Npu_1a232046b3ff481df81fc3b303d98387dc" prot="public" virt="non-virtual"><scope>EmbeddedStats::DeltaTimes::Npu</scope><name>download</name></member>
+      <member refid="structEmbeddedStats_1_1DeltaTimes_1_1Npu_1a8529b3cdb2ee1aea8caaa3752206e535" prot="public" virt="non-virtual"><scope>EmbeddedStats::DeltaTimes::Npu</scope><name>full</name></member>
+      <member refid="structEmbeddedStats_1_1DeltaTimes_1_1Npu_1ac548a57b187534034da22c7ad6d4a37a" prot="public" virt="non-virtual"><scope>EmbeddedStats::DeltaTimes::Npu</scope><name>postProcess</name></member>
+      <member refid="structEmbeddedStats_1_1DeltaTimes_1_1Npu_1ac183082a6487a0f6720edceb2c62e25f" prot="public" virt="non-virtual"><scope>EmbeddedStats::DeltaTimes::Npu</scope><name>preProcess</name></member>
+      <member refid="structEmbeddedStats_1_1DeltaTimes_1_1Npu_1ab8587cac4e721df0e2d5d9a833d8fb6d" prot="public" virt="non-virtual"><scope>EmbeddedStats::DeltaTimes::Npu</scope><name>reorderIn</name></member>
+      <member refid="structEmbeddedStats_1_1DeltaTimes_1_1Npu_1a40fabaf3825b921c1872bd6fc497204f" prot="public" virt="non-virtual"><scope>EmbeddedStats::DeltaTimes::Npu</scope><name>reorderOut</name></member>
+      <member refid="structEmbeddedStats_1_1DeltaTimes_1_1Npu_1a361fbd71a42d2eab492a3abe9f00a946" prot="public" virt="non-virtual"><scope>EmbeddedStats::DeltaTimes::Npu</scope><name>runFpga</name></member>
+      <member refid="structEmbeddedStats_1_1DeltaTimes_1_1Npu_1a1e531dc17a71188f86bcc596da2b7e42" prot="public" virt="non-virtual"><scope>EmbeddedStats::DeltaTimes::Npu</scope><name>upload</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

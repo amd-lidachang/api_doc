@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classvart_1_1InferResultImplBase" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>vart::InferResultImplBase</compoundname>
+    <derivedcompoundref refid="classvart_1_1InferResImplClassification" prot="public" virt="non-virtual">vart::InferResImplClassification</derivedcompoundref>
+    <derivedcompoundref refid="classvart_1_1InferResultImplDetection" prot="public" virt="non-virtual">vart::InferResultImplDetection</derivedcompoundref>
+    <derivedcompoundref refid="classvart_1_1InferResultImplRoot" prot="public" virt="non-virtual">vart::InferResultImplRoot</derivedcompoundref>
+    <includes refid="vart__inferresult__impl__base_8hpp" local="no">vart_inferresult_impl_base.hpp</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classvart_1_1InferResultImplBase_1a9ddb3bb2b5918cf3c4d667c4057de990" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>vart::InferResultImplBase::InferResultImplBase</definition>
+        <argsstring>()=default</argsstring>
+        <name>InferResultImplBase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base/vart_inferresult_impl_base.hpp" line="27" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1InferResultImplBase_1a5b9e0f25b7efb8cf224390e8193abc74" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual vart::InferResultImplBase::~InferResultImplBase</definition>
+        <argsstring>()</argsstring>
+        <name>~InferResultImplBase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base/vart_inferresult_impl_base.hpp" line="28" column="11" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base/vart_inferresult_impl_base.hpp" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1InferResultImplBase_1a40e9b9a751e1958893ff5daddb891490" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void vart::InferResultImplBase::transform</definition>
+        <argsstring>(InferResScaleInfo &amp;info)=0</argsstring>
+        <name>transform</name>
+        <reimplementedby refid="classvart_1_1InferResImplClassification_1a4f5e0e906711e629b368ecbd7d9e4c9e">transform</reimplementedby>
+        <reimplementedby refid="classvart_1_1InferResultImplDetection_1a3ca89c768ac6f9f36f128f9e88c4e707">transform</reimplementedby>
+        <reimplementedby refid="classvart_1_1InferResultImplRoot_1a16bb238b2978a5021bfe9d03fd02db93">transform</reimplementedby>
+        <param>
+          <type><ref refid="structvart_1_1InferResScaleInfo" kindref="compound">InferResScaleInfo</ref> &amp;</type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="classvart_1_1InferResultImplBase_1a40e9b9a751e1958893ff5daddb891490" kindref="member">transform()</ref> - Scales the infer results by a given scale factor </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Scale factor info with which infer results to be scaled.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+If we have inference results, like detection, on 200x200 image and if we want to draw bounding boxes on the original image, which may be 1920x1080. In such cases, one can use this function to transform the bounding box dimentions in the infer results to the resolution of input image. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base/vart_inferresult_impl_base.hpp" line="41" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1InferResultImplBase_1a9bff136907c4f3f99abdbc24019e38c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="structvart_1_1InferResultData" kindref="compound">InferResultData</ref> *</type>
+        <definition>virtual InferResultData* vart::InferResultImplBase::get_infer_result</definition>
+        <argsstring>()=0</argsstring>
+        <name>get_infer_result</name>
+        <reimplementedby refid="classvart_1_1InferResImplClassification_1a03fdd1c590bba669342b9bf456e3e914">get_infer_result</reimplementedby>
+        <reimplementedby refid="classvart_1_1InferResultImplDetection_1a018043dd647813631ee4d5663a198bec">get_infer_result</reimplementedby>
+        <reimplementedby refid="classvart_1_1InferResultImplRoot_1a94f4ee409e57f32ceab2fe811ac441c2">get_infer_result</reimplementedby>
+        <briefdescription>
+<para><ref refid="classvart_1_1InferResultImplBase_1a9bff136907c4f3f99abdbc24019e38c9" kindref="member">get_infer_result()</ref> - Get inference results for a frame. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Inference result object for the requested frame. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base/vart_inferresult_impl_base.hpp" line="49" column="27"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>vart::InferResImplClassification</label>
+        <link refid="classvart_1_1InferResImplClassification"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>vart::InferResultImplRoot</label>
+        <link refid="classvart_1_1InferResultImplRoot"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>vart::InferResultImplDetection</label>
+        <link refid="classvart_1_1InferResultImplDetection"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>vart::InferResultImplBase</label>
+        <link refid="classvart_1_1InferResultImplBase"/>
+      </node>
+    </inheritancegraph>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base/vart_inferresult_impl_base.hpp" line="25" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base/vart_inferresult_impl_base.hpp" bodystart="25" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classvart_1_1InferResultImplBase_1a9bff136907c4f3f99abdbc24019e38c9" prot="public" virt="pure-virtual"><scope>vart::InferResultImplBase</scope><name>get_infer_result</name></member>
+      <member refid="classvart_1_1InferResultImplBase_1a9ddb3bb2b5918cf3c4d667c4057de990" prot="public" virt="non-virtual"><scope>vart::InferResultImplBase</scope><name>InferResultImplBase</name></member>
+      <member refid="classvart_1_1InferResultImplBase_1a40e9b9a751e1958893ff5daddb891490" prot="public" virt="pure-virtual"><scope>vart::InferResultImplBase</scope><name>transform</name></member>
+      <member refid="classvart_1_1InferResultImplBase_1a5b9e0f25b7efb8cf224390e8193abc74" prot="public" virt="virtual"><scope>vart::InferResultImplBase</scope><name>~InferResultImplBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

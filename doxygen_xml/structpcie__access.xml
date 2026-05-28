@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structpcie__access" kind="struct" language="C++" prot="public">
+    <compoundname>pcie_access</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structpcie__access_1a1755e9e0c03296eb4a4bffb01e251257" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t pcie_access::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/run_snapshot_bin.cpp" line="44" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/run_snapshot_bin.cpp" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structpcie__access_1a30546506a8045fae517fad1cd34faf6c" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t pcie_access::mode</definition>
+        <argsstring></argsstring>
+        <name>mode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/run_snapshot_bin.cpp" line="45" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/run_snapshot_bin.cpp" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structpcie__access_1af5b61a346a15f0f17569ec68ae154edc" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t pcie_access::board_index</definition>
+        <argsstring></argsstring>
+        <name>board_index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/run_snapshot_bin.cpp" line="46" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/run_snapshot_bin.cpp" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structpcie__access_1a3f4a6fb159563de5faeb300fd609c516" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t pcie_access::bar_index</definition>
+        <argsstring></argsstring>
+        <name>bar_index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/run_snapshot_bin.cpp" line="47" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/run_snapshot_bin.cpp" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structpcie__access_1aada3a09f0031aeaa1592fa1f12851366" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t pcie_access::DDR_index</definition>
+        <argsstring></argsstring>
+        <name>DDR_index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/run_snapshot_bin.cpp" line="48" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/run_snapshot_bin.cpp" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structpcie__access_1a86bd3a47c5b8f11938cf885ad65e52a3" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t pcie_access::DDR_offset</definition>
+        <argsstring></argsstring>
+        <name>DDR_offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/run_snapshot_bin.cpp" line="49" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/run_snapshot_bin.cpp" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/run_snapshot_bin.cpp" line="42" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/run_snapshot_bin.cpp" bodystart="43" bodyend="50"/>
+    <listofallmembers>
+      <member refid="structpcie__access_1a3f4a6fb159563de5faeb300fd609c516" prot="public" virt="non-virtual"><scope>pcie_access</scope><name>bar_index</name></member>
+      <member refid="structpcie__access_1af5b61a346a15f0f17569ec68ae154edc" prot="public" virt="non-virtual"><scope>pcie_access</scope><name>board_index</name></member>
+      <member refid="structpcie__access_1aada3a09f0031aeaa1592fa1f12851366" prot="public" virt="non-virtual"><scope>pcie_access</scope><name>DDR_index</name></member>
+      <member refid="structpcie__access_1a86bd3a47c5b8f11938cf885ad65e52a3" prot="public" virt="non-virtual"><scope>pcie_access</scope><name>DDR_offset</name></member>
+      <member refid="structpcie__access_1a30546506a8045fae517fad1cd34faf6c" prot="public" virt="non-virtual"><scope>pcie_access</scope><name>mode</name></member>
+      <member refid="structpcie__access_1a1755e9e0c03296eb4a4bffb01e251257" prot="public" virt="non-virtual"><scope>pcie_access</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

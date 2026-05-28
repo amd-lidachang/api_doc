@@ -1,0 +1,230 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="vart__overlay__types_8hpp" kind="file" language="C++">
+    <compoundname>vart_overlay_types.hpp</compoundname>
+    <includes local="no">cstdint</includes>
+    <includes local="no">vector</includes>
+    <includedby refid="vart__overlay__impl__base_8hpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base/vart_overlay_impl_base.hpp</includedby>
+    <includedby refid="vart__metaconvert_8hpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_metaconvert.hpp</includedby>
+    <includedby refid="vart__overlay_8hpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay.hpp</includedby>
+    <includedby refid="vart__overlay__impl__opencv_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/overlay/vart_overlay_impl_opencv.cpp</includedby>
+    <includedby refid="vart__overlay__impl__opencv_8hpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/overlay/vart_overlay_impl_opencv.hpp</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>cstdint</label>
+      </node>
+      <node id="1">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp</label>
+        <link refid="vart__overlay__types_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base/vart_overlay_impl_base.hpp</label>
+        <link refid="vart__overlay__impl__base_8hpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base/vart_metaconvert_impl_base.hpp</label>
+        <link refid="vart__metaconvert__impl__base_8hpp"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp</label>
+        <link refid="vart__overlay__types_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_metaconvert.hpp</label>
+        <link refid="vart__metaconvert_8hpp"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay.hpp</label>
+        <link refid="vart__overlay_8hpp"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/metaconvert/vart_metaconv_impl_overlay.hpp</label>
+        <link refid="vart__metaconv__impl__overlay_8hpp"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/metaconvert/vart_metaconv_impl_overlay.cpp</label>
+        <link refid="vart__metaconv__impl__overlay_8cpp"/>
+      </node>
+      <node id="7">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/overlay/vart_overlay_impl_opencv.cpp</label>
+        <link refid="vart__overlay__impl__opencv_8cpp"/>
+      </node>
+      <node id="6">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/metaconvert/vart_metaconvert.cpp</label>
+        <link refid="vart__metaconvert_8cpp"/>
+      </node>
+      <node id="8">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/overlay/vart_overlay_impl_opencv.hpp</label>
+        <link refid="vart__overlay__impl__opencv_8hpp"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/overlay/vart_overlay.cpp</label>
+        <link refid="vart__overlay_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structvart_1_1OverlayCoordinates" prot="public">vart::OverlayCoordinates</innerclass>
+    <innerclass refid="structvart_1_1OverlayColorData" prot="public">vart::OverlayColorData</innerclass>
+    <innerclass refid="structvart_1_1OverlayRectParams" prot="public">vart::OverlayRectParams</innerclass>
+    <innerclass refid="structvart_1_1OverlayFontData" prot="public">vart::OverlayFontData</innerclass>
+    <innerclass refid="structvart_1_1OverlayTextParams" prot="public">vart::OverlayTextParams</innerclass>
+    <innerclass refid="structvart_1_1OverlayLineParams" prot="public">vart::OverlayLineParams</innerclass>
+    <innerclass refid="structvart_1_1OverlayArrowParams" prot="public">vart::OverlayArrowParams</innerclass>
+    <innerclass refid="structvart_1_1OverlayCircleParams" prot="public">vart::OverlayCircleParams</innerclass>
+    <innerclass refid="structvart_1_1OverlayPolygonParams" prot="public">vart::OverlayPolygonParams</innerclass>
+    <innerclass refid="structvart_1_1OverlayShapeInfo" prot="public">vart::OverlayShapeInfo</innerclass>
+    <innernamespace refid="namespacevart">vart</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>2024<sp/>Advanced<sp/>Micro<sp/>Devices<sp/>Inc.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>Licensed<sp/>under<sp/>the<sp/>Apache<sp/>License,<sp/>Version<sp/>2.0<sp/>(the<sp/>&quot;License&quot;);</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>you<sp/>may<sp/>not<sp/>use<sp/>this<sp/>file<sp/>except<sp/>in<sp/>compliance<sp/>with<sp/>the<sp/>License.</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>You<sp/>may<sp/>obtain<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>License<sp/>at</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/>http://www.apache.org/licenses/LICENSE-2.0</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>Unless<sp/>required<sp/>by<sp/>applicable<sp/>law<sp/>or<sp/>agreed<sp/>to<sp/>in<sp/>writing,<sp/>software</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>distributed<sp/>under<sp/>the<sp/>License<sp/>is<sp/>distributed<sp/>on<sp/>an<sp/>&quot;AS<sp/>IS&quot;<sp/>BASIS,</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>WITHOUT<sp/>WARRANTIES<sp/>OR<sp/>CONDITIONS<sp/>OF<sp/>ANY<sp/>KIND,<sp/>either<sp/>express<sp/>or<sp/>implied.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>See<sp/>the<sp/>License<sp/>for<sp/>the<sp/>specific<sp/>language<sp/>governing<sp/>permissions<sp/>and</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>limitations<sp/>under<sp/>the<sp/>License.</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cstdint&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacevart" kindref="compound">vart</ref><sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="namespacevart_1ad34a322d1e7e4157a82d60b8f6dd7e0f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="namespacevart_1ad34a322d1e7e4157a82d60b8f6dd7e0f" kindref="member">OverlayImplType</ref><sp/>{<sp/><ref refid="namespacevart_1ad34a322d1e7e4157a82d60b8f6dd7e0fa49d754d74233349099460535d0da43ac" kindref="member">OPENCV</ref><sp/>};</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="structvart_1_1OverlayCoordinates" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="44" refid="structvart_1_1OverlayCoordinates_1a60ba826d25442e3528242be09d6d3967" refkind="member"><highlight class="normal"><sp/><sp/>int32_t<sp/><ref refid="structvart_1_1OverlayCoordinates_1a60ba826d25442e3528242be09d6d3967" kindref="member">x</ref>;</highlight></codeline>
+<codeline lineno="45" refid="structvart_1_1OverlayCoordinates_1a008eb7793d8c56b94cf66996defaaeb7" refkind="member"><highlight class="normal"><sp/><sp/>int32_t<sp/><ref refid="structvart_1_1OverlayCoordinates_1a008eb7793d8c56b94cf66996defaaeb7" kindref="member">y</ref>;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">}<sp/><ref refid="structvart_1_1OverlayCoordinates" kindref="compound">OverlayCoordinates</ref>;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="structvart_1_1OverlayColorData" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="66" refid="structvart_1_1OverlayColorData_1af71bcebabe93cfc5f33270fb1fc07df5" refkind="member"><highlight class="normal"><sp/><sp/>uint8_t<sp/><ref refid="structvart_1_1OverlayColorData_1af71bcebabe93cfc5f33270fb1fc07df5" kindref="member">red</ref>;</highlight></codeline>
+<codeline lineno="67" refid="structvart_1_1OverlayColorData_1a2770e8747a61b6a764d85398cd955cf5" refkind="member"><highlight class="normal"><sp/><sp/>uint8_t<sp/><ref refid="structvart_1_1OverlayColorData_1a2770e8747a61b6a764d85398cd955cf5" kindref="member">green</ref>;</highlight></codeline>
+<codeline lineno="68" refid="structvart_1_1OverlayColorData_1a7aba4c14985e5916af8906e9aed4e96b" refkind="member"><highlight class="normal"><sp/><sp/>uint8_t<sp/><ref refid="structvart_1_1OverlayColorData_1a7aba4c14985e5916af8906e9aed4e96b" kindref="member">blue</ref>;</highlight></codeline>
+<codeline lineno="69" refid="structvart_1_1OverlayColorData_1a9d5c2a2c592732dd022f971a297418e2" refkind="member"><highlight class="normal"><sp/><sp/>uint8_t<sp/><ref refid="structvart_1_1OverlayColorData_1a9d5c2a2c592732dd022f971a297418e2" kindref="member">alpha</ref>;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal">}<sp/><ref refid="structvart_1_1OverlayColorData" kindref="compound">OverlayColorData</ref>;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99" refid="structvart_1_1OverlayRectParams" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="100" refid="structvart_1_1OverlayRectParams_1a9c82f3d2ae54e12344d1736a0a673a09" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="structvart_1_1OverlayCoordinates" kindref="compound">OverlayCoordinates</ref><sp/><ref refid="structvart_1_1OverlayRectParams_1a9c82f3d2ae54e12344d1736a0a673a09" kindref="member">points</ref>;</highlight></codeline>
+<codeline lineno="101" refid="structvart_1_1OverlayRectParams_1af7181199327cc4eda738afdcf9188462" refkind="member"><highlight class="normal"><sp/><sp/>uint32_t<sp/><ref refid="structvart_1_1OverlayRectParams_1af7181199327cc4eda738afdcf9188462" kindref="member">width</ref>;</highlight></codeline>
+<codeline lineno="102" refid="structvart_1_1OverlayRectParams_1aab85efc168d1f88ac33a53679946f173" refkind="member"><highlight class="normal"><sp/><sp/>uint32_t<sp/><ref refid="structvart_1_1OverlayRectParams_1aab85efc168d1f88ac33a53679946f173" kindref="member">height</ref>;</highlight></codeline>
+<codeline lineno="103" refid="structvart_1_1OverlayRectParams_1a02c83cb4da896121af1200fa3c14cffe" refkind="member"><highlight class="normal"><sp/><sp/>uint32_t<sp/><ref refid="structvart_1_1OverlayRectParams_1a02c83cb4da896121af1200fa3c14cffe" kindref="member">thickness</ref>;</highlight></codeline>
+<codeline lineno="104" refid="structvart_1_1OverlayRectParams_1acdb55e8f24ed2352e87cfa81470d212c" refkind="member"><highlight class="normal"><sp/><sp/>uint32_t<sp/><ref refid="structvart_1_1OverlayRectParams_1acdb55e8f24ed2352e87cfa81470d212c" kindref="member">apply_bg_color</ref>;</highlight></codeline>
+<codeline lineno="105" refid="structvart_1_1OverlayRectParams_1a2ef412d1703bdcfc7412dcf0c2764301" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="structvart_1_1OverlayColorData" kindref="compound">OverlayColorData</ref><sp/><ref refid="structvart_1_1OverlayRectParams_1a2ef412d1703bdcfc7412dcf0c2764301" kindref="member">rect_color</ref>;</highlight></codeline>
+<codeline lineno="106" refid="structvart_1_1OverlayRectParams_1a113e30caa65f2753d3d080c859f50af2" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="structvart_1_1OverlayColorData" kindref="compound">OverlayColorData</ref><sp/><ref refid="structvart_1_1OverlayRectParams_1a113e30caa65f2753d3d080c859f50af2" kindref="member">bg_color</ref>;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal">}<sp/><ref refid="structvart_1_1OverlayRectParams" kindref="compound">OverlayRectParams</ref>;</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126" refid="structvart_1_1OverlayFontData" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="127" refid="structvart_1_1OverlayFontData_1ae76b236421744ffab1831b686cd79964" refkind="member"><highlight class="normal"><sp/><sp/>uint32_t<sp/><ref refid="structvart_1_1OverlayFontData_1ae76b236421744ffab1831b686cd79964" kindref="member">font_num</ref>;</highlight></codeline>
+<codeline lineno="128" refid="structvart_1_1OverlayFontData_1a84f0800786525bef2cdbebf9382e14f7" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structvart_1_1OverlayFontData_1a84f0800786525bef2cdbebf9382e14f7" kindref="member">font_size</ref>;</highlight></codeline>
+<codeline lineno="129" refid="structvart_1_1OverlayFontData_1a6534879a03c48bf5545b00818c97b0b1" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="structvart_1_1OverlayColorData" kindref="compound">OverlayColorData</ref><sp/><ref refid="structvart_1_1OverlayFontData_1a6534879a03c48bf5545b00818c97b0b1" kindref="member">font_color</ref>;</highlight></codeline>
+<codeline lineno="130"><highlight class="normal">}<sp/><ref refid="structvart_1_1OverlayFontData" kindref="compound">OverlayFontData</ref>;</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158" refid="structvart_1_1OverlayTextParams" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="159" refid="structvart_1_1OverlayTextParams_1a8d72eba1707ac39fff7b9715f6a5b79b" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="structvart_1_1OverlayCoordinates" kindref="compound">OverlayCoordinates</ref><sp/><ref refid="structvart_1_1OverlayTextParams_1a8d72eba1707ac39fff7b9715f6a5b79b" kindref="member">points</ref>;</highlight></codeline>
+<codeline lineno="160" refid="structvart_1_1OverlayTextParams_1a3897ddbf6d7243975092b683103a90c0" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="structvart_1_1OverlayTextParams_1a3897ddbf6d7243975092b683103a90c0" kindref="member">disp_text</ref>;</highlight></codeline>
+<codeline lineno="161" refid="structvart_1_1OverlayTextParams_1aae5d83711c29beddc991627498e3fab4" refkind="member"><highlight class="normal"><sp/><sp/>uint32_t<sp/><ref refid="structvart_1_1OverlayTextParams_1aae5d83711c29beddc991627498e3fab4" kindref="member">bottom_left_origin</ref>;</highlight></codeline>
+<codeline lineno="162" refid="structvart_1_1OverlayTextParams_1a53a33b953d87fad358fa03f0863d3fb9" refkind="member"><highlight class="normal"><sp/><sp/>uint32_t<sp/><ref refid="structvart_1_1OverlayTextParams_1a53a33b953d87fad358fa03f0863d3fb9" kindref="member">apply_bg_color</ref>;</highlight></codeline>
+<codeline lineno="163" refid="structvart_1_1OverlayTextParams_1a926530433deb4ab6716452a532cb56ea" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="structvart_1_1OverlayFontData" kindref="compound">OverlayFontData</ref><sp/><ref refid="structvart_1_1OverlayTextParams_1a926530433deb4ab6716452a532cb56ea" kindref="member">text_font</ref>;</highlight></codeline>
+<codeline lineno="164" refid="structvart_1_1OverlayTextParams_1a8920fe5dabbdd847806f331d14a1dfc5" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="structvart_1_1OverlayColorData" kindref="compound">OverlayColorData</ref><sp/><ref refid="structvart_1_1OverlayTextParams_1a8920fe5dabbdd847806f331d14a1dfc5" kindref="member">bg_color</ref>;</highlight></codeline>
+<codeline lineno="165"><highlight class="normal">}<sp/><ref refid="structvart_1_1OverlayTextParams" kindref="compound">OverlayTextParams</ref>;</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184" refid="structvart_1_1OverlayLineParams" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="185" refid="structvart_1_1OverlayLineParams_1a465f9b1321ebb8c78d37dbc31ce4cb60" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="structvart_1_1OverlayCoordinates" kindref="compound">OverlayCoordinates</ref><sp/><ref refid="structvart_1_1OverlayLineParams_1a465f9b1321ebb8c78d37dbc31ce4cb60" kindref="member">start_pt</ref>;</highlight></codeline>
+<codeline lineno="186" refid="structvart_1_1OverlayLineParams_1a9258ae17f3c5d8ef61aab18d1c3f8018" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="structvart_1_1OverlayCoordinates" kindref="compound">OverlayCoordinates</ref><sp/><ref refid="structvart_1_1OverlayLineParams_1a9258ae17f3c5d8ef61aab18d1c3f8018" kindref="member">end_pt</ref>;</highlight></codeline>
+<codeline lineno="187" refid="structvart_1_1OverlayLineParams_1a0d1fec841164b9d2f7918b1cf09c9409" refkind="member"><highlight class="normal"><sp/><sp/>uint32_t<sp/><ref refid="structvart_1_1OverlayLineParams_1a0d1fec841164b9d2f7918b1cf09c9409" kindref="member">thickness</ref>;</highlight></codeline>
+<codeline lineno="188" refid="structvart_1_1OverlayLineParams_1ae5e2c771a5d8a88f440abb5ff19e23cd" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="structvart_1_1OverlayColorData" kindref="compound">OverlayColorData</ref><sp/><ref refid="structvart_1_1OverlayLineParams_1ae5e2c771a5d8a88f440abb5ff19e23cd" kindref="member">line_color</ref>;</highlight></codeline>
+<codeline lineno="189"><highlight class="normal">}<sp/><ref refid="structvart_1_1OverlayLineParams" kindref="compound">OverlayLineParams</ref>;</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204" refid="namespacevart_1aadade013666a84810b73dda10f70351d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="205" refid="namespacevart_1aadade013666a84810b73dda10f70351daea34c6e783135a7119d99f8682e06c5c" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacevart_1aadade013666a84810b73dda10f70351daea34c6e783135a7119d99f8682e06c5c" kindref="member">ARROW_DIRECTION_START</ref>,</highlight></codeline>
+<codeline lineno="206" refid="namespacevart_1aadade013666a84810b73dda10f70351da18b6e102e9fc5aa09e68a64dfe479294" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacevart_1aadade013666a84810b73dda10f70351da18b6e102e9fc5aa09e68a64dfe479294" kindref="member">ARROW_DIRECTION_END</ref>,</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><ref refid="namespacevart_1aadade013666a84810b73dda10f70351da4560fb9f76f58dd25d555f0d4f777b39" kindref="member">ARROW_DIRECTION_BOTH_ENDS</ref></highlight></codeline>
+<codeline lineno="208" refid="namespacevart_1aadade013666a84810b73dda10f70351da4560fb9f76f58dd25d555f0d4f777b39" refkind="member"><highlight class="normal">}<sp/><ref refid="namespacevart_1aadade013666a84810b73dda10f70351d" kindref="member">OverlayArrowDirection</ref>;</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="233" refid="structvart_1_1OverlayArrowParams" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="234" refid="structvart_1_1OverlayArrowParams_1af08ca27a6ec90e6878e437e601291f86" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="structvart_1_1OverlayCoordinates" kindref="compound">OverlayCoordinates</ref><sp/><ref refid="structvart_1_1OverlayArrowParams_1af08ca27a6ec90e6878e437e601291f86" kindref="member">start_pt</ref>;</highlight></codeline>
+<codeline lineno="235" refid="structvart_1_1OverlayArrowParams_1a08a4afa1332a64ab4edafe1207056436" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="structvart_1_1OverlayCoordinates" kindref="compound">OverlayCoordinates</ref><sp/><ref refid="structvart_1_1OverlayArrowParams_1a08a4afa1332a64ab4edafe1207056436" kindref="member">end_pt</ref>;</highlight></codeline>
+<codeline lineno="236" refid="structvart_1_1OverlayArrowParams_1af911812304e11a11755d5ff4fad7c2b0" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacevart_1aadade013666a84810b73dda10f70351d" kindref="member">OverlayArrowDirection</ref><sp/><ref refid="structvart_1_1OverlayArrowParams_1af911812304e11a11755d5ff4fad7c2b0" kindref="member">arrow_direction</ref>;</highlight></codeline>
+<codeline lineno="237" refid="structvart_1_1OverlayArrowParams_1a61675691445b955cefda0450a8105833" refkind="member"><highlight class="normal"><sp/><sp/>uint32_t<sp/><ref refid="structvart_1_1OverlayArrowParams_1a61675691445b955cefda0450a8105833" kindref="member">thickness</ref>;</highlight></codeline>
+<codeline lineno="238" refid="structvart_1_1OverlayArrowParams_1af0dd1e9a6a7c20f1ee06b562c91b64e6" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structvart_1_1OverlayArrowParams_1af0dd1e9a6a7c20f1ee06b562c91b64e6" kindref="member">tipLength</ref>;</highlight></codeline>
+<codeline lineno="239" refid="structvart_1_1OverlayArrowParams_1a7516f2f9861c08d503123c6ff2813c4e" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="structvart_1_1OverlayColorData" kindref="compound">OverlayColorData</ref><sp/><ref refid="structvart_1_1OverlayArrowParams_1a7516f2f9861c08d503123c6ff2813c4e" kindref="member">line_color</ref>;</highlight></codeline>
+<codeline lineno="240"><highlight class="normal">}<sp/><ref refid="structvart_1_1OverlayArrowParams" kindref="compound">OverlayArrowParams</ref>;</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight></codeline>
+<codeline lineno="259" refid="structvart_1_1OverlayCircleParams" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="260" refid="structvart_1_1OverlayCircleParams_1a53b968718c27f5ecac355fb6d6008ef6" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="structvart_1_1OverlayCoordinates" kindref="compound">OverlayCoordinates</ref><sp/><ref refid="structvart_1_1OverlayCircleParams_1a53b968718c27f5ecac355fb6d6008ef6" kindref="member">center_pt</ref>;</highlight></codeline>
+<codeline lineno="261" refid="structvart_1_1OverlayCircleParams_1a254f2d9986292ba0ebabdfa7093ed99b" refkind="member"><highlight class="normal"><sp/><sp/>uint32_t<sp/><ref refid="structvart_1_1OverlayCircleParams_1a254f2d9986292ba0ebabdfa7093ed99b" kindref="member">thickness</ref>;</highlight></codeline>
+<codeline lineno="262" refid="structvart_1_1OverlayCircleParams_1ad9a5bffb7606401fdc2a5d1cb707d8e0" refkind="member"><highlight class="normal"><sp/><sp/>uint32_t<sp/><ref refid="structvart_1_1OverlayCircleParams_1ad9a5bffb7606401fdc2a5d1cb707d8e0" kindref="member">radius</ref>;</highlight></codeline>
+<codeline lineno="263" refid="structvart_1_1OverlayCircleParams_1a39761214dc8729fedc8d099182d2909c" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="structvart_1_1OverlayColorData" kindref="compound">OverlayColorData</ref><sp/><ref refid="structvart_1_1OverlayCircleParams_1a39761214dc8729fedc8d099182d2909c" kindref="member">circle_color</ref>;</highlight></codeline>
+<codeline lineno="264"><highlight class="normal">}<sp/><ref refid="structvart_1_1OverlayCircleParams" kindref="compound">OverlayCircleParams</ref>;</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"></highlight></codeline>
+<codeline lineno="280" refid="structvart_1_1OverlayPolygonParams" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="281" refid="structvart_1_1OverlayPolygonParams_1afa2aafa7f5af4c1efe116f9ea239a21f" refkind="member"><highlight class="normal"><sp/><sp/>std::vector&lt;OverlayCoordinates&gt;<sp/><ref refid="structvart_1_1OverlayPolygonParams_1afa2aafa7f5af4c1efe116f9ea239a21f" kindref="member">poly_pts</ref>;</highlight></codeline>
+<codeline lineno="282" refid="structvart_1_1OverlayPolygonParams_1a61490209573e4120d11d6b1276c7e8f7" refkind="member"><highlight class="normal"><sp/><sp/>uint32_t<sp/><ref refid="structvart_1_1OverlayPolygonParams_1a61490209573e4120d11d6b1276c7e8f7" kindref="member">thickness</ref>;</highlight></codeline>
+<codeline lineno="283" refid="structvart_1_1OverlayPolygonParams_1ab4cf024345e2aac9f999fd0ee8360605" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="structvart_1_1OverlayColorData" kindref="compound">OverlayColorData</ref><sp/><ref refid="structvart_1_1OverlayPolygonParams_1ab4cf024345e2aac9f999fd0ee8360605" kindref="member">poly_color</ref>;</highlight></codeline>
+<codeline lineno="284"><highlight class="normal">}<sp/><ref refid="structvart_1_1OverlayPolygonParams" kindref="compound">OverlayPolygonParams</ref>;</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"></highlight></codeline>
+<codeline lineno="309" refid="structvart_1_1OverlayShapeInfo" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="310" refid="structvart_1_1OverlayShapeInfo_1afae704c2be7d6d023fb3983e44cfe609" refkind="member"><highlight class="normal"><sp/><sp/>std::vector&lt;OverlayRectParams&gt;<sp/><ref refid="structvart_1_1OverlayShapeInfo_1afae704c2be7d6d023fb3983e44cfe609" kindref="member">rect_params</ref>;</highlight></codeline>
+<codeline lineno="311" refid="structvart_1_1OverlayShapeInfo_1a4c5205f93eac5355d4b8a0a72f770b0c" refkind="member"><highlight class="normal"><sp/><sp/>std::vector&lt;OverlayTextParams&gt;<sp/><ref refid="structvart_1_1OverlayShapeInfo_1a4c5205f93eac5355d4b8a0a72f770b0c" kindref="member">text_params</ref>;</highlight></codeline>
+<codeline lineno="312" refid="structvart_1_1OverlayShapeInfo_1a60cf33e05609310566e66c5ed204fc84" refkind="member"><highlight class="normal"><sp/><sp/>std::vector&lt;OverlayLineParams&gt;<sp/><ref refid="structvart_1_1OverlayShapeInfo_1a60cf33e05609310566e66c5ed204fc84" kindref="member">line_params</ref>;</highlight></codeline>
+<codeline lineno="313" refid="structvart_1_1OverlayShapeInfo_1a5586b5bd2adc053ca63b3892ba1a9653" refkind="member"><highlight class="normal"><sp/><sp/>std::vector&lt;OverlayArrowParams&gt;<sp/><ref refid="structvart_1_1OverlayShapeInfo_1a5586b5bd2adc053ca63b3892ba1a9653" kindref="member">arrow_params</ref>;</highlight></codeline>
+<codeline lineno="314" refid="structvart_1_1OverlayShapeInfo_1aa520bb217eaef55af95e07e8bd0c1d1f" refkind="member"><highlight class="normal"><sp/><sp/>std::vector&lt;OverlayCircleParams&gt;<sp/><ref refid="structvart_1_1OverlayShapeInfo_1aa520bb217eaef55af95e07e8bd0c1d1f" kindref="member">circle_params</ref>;</highlight></codeline>
+<codeline lineno="315" refid="structvart_1_1OverlayShapeInfo_1ad9ebf5a63ebc0cc2be3907ecac2a80ee" refkind="member"><highlight class="normal"><sp/><sp/>std::vector&lt;OverlayPolygonParams&gt;<sp/><ref refid="structvart_1_1OverlayShapeInfo_1ad9ebf5a63ebc0cc2be3907ecac2a80ee" kindref="member">polygn_params</ref>;</highlight></codeline>
+<codeline lineno="316"><highlight class="normal">}<sp/><ref refid="structvart_1_1OverlayShapeInfo" kindref="compound">OverlayShapeInfo</ref>;</highlight></codeline>
+<codeline lineno="317"><highlight class="normal"></highlight></codeline>
+<codeline lineno="318"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>vart</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp"/>
+  </compounddef>
+</doxygen>

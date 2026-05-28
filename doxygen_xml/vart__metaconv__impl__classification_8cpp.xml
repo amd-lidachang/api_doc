@@ -1,0 +1,572 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="vart__metaconv__impl__classification_8cpp" kind="file" language="C++">
+    <compoundname>vart_metaconv_impl_classification.cpp</compoundname>
+    <includes local="no">vvas_core/vvas_metaconvert.h</includes>
+    <includes local="no">vvas_core/vvas_overlay.h</includes>
+    <includes local="no">boost/property_tree/json_parser.hpp</includes>
+    <includes local="no">boost/property_tree/ptree.hpp</includes>
+    <includes local="no">iostream</includes>
+    <includes refid="vart__device_8hpp" local="yes">vart_device.hpp</includes>
+    <includes refid="vart__device__impl__vvas_8hpp" local="yes">vart_device_impl_vvas.hpp</includes>
+    <includes refid="vart__inferres__impl__classification_8hpp" local="yes">vart_inferres_impl_classification.hpp</includes>
+    <includes refid="vart__inferresult_8hpp" local="yes">vart_inferresult.hpp</includes>
+    <includes local="yes">vart_metaconv_impl_classification.hpp</includes>
+    <incdepgraph>
+      <node id="27">
+        <label>../vart_inferresult_types.hpp</label>
+        <link refid="vart__inferresult__types_8hpp"/>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>functional</label>
+      </node>
+      <node id="12">
+        <label>cstdint</label>
+      </node>
+      <node id="26">
+        <label>base/vart_inferresult_impl_base.hpp</label>
+        <link refid="vart__inferresult__impl__base_8hpp"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>vvas_core/vvas_overlay.h</label>
+      </node>
+      <node id="2">
+        <label>vvas_core/vvas_metaconvert.h</label>
+      </node>
+      <node id="22">
+        <label>string</label>
+      </node>
+      <node id="16">
+        <label>cstdarg</label>
+      </node>
+      <node id="19">
+        <label>map</label>
+      </node>
+      <node id="18">
+        <label>fstream</label>
+      </node>
+      <node id="30">
+        <label>vart_metaconv_impl_classification.hpp</label>
+      </node>
+      <node id="14">
+        <label>syslog.h</label>
+      </node>
+      <node id="28">
+        <label>vart_inferresult.hpp</label>
+        <link refid="vart__inferresult_8hpp"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>base/vart_device_impl_base.hpp</label>
+        <link refid="vart__device__impl__base_8hpp"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>cstdio</label>
+      </node>
+      <node id="13">
+        <label>vart_logger.hpp</label>
+        <link refid="vart__logger_8hpp"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>vart_device.hpp</label>
+        <link refid="vart__device_8hpp"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>vvas_core/vvas_context.h</label>
+      </node>
+      <node id="4">
+        <label>boost/property_tree/json_parser.hpp</label>
+      </node>
+      <node id="23">
+        <label>vart_logger_types.hpp</label>
+        <link refid="vart__logger__types_8hpp"/>
+      </node>
+      <node id="25">
+        <label>vector</label>
+      </node>
+      <node id="21">
+        <label>sstream</label>
+      </node>
+      <node id="5">
+        <label>boost/property_tree/ptree.hpp</label>
+      </node>
+      <node id="6">
+        <label>iostream</label>
+      </node>
+      <node id="20">
+        <label>mutex</label>
+      </node>
+      <node id="15">
+        <label>chrono</label>
+      </node>
+      <node id="9">
+        <label>vart_device_impl_vvas.hpp</label>
+        <link refid="vart__device__impl__vvas_8hpp"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>vart_inferres_impl_classification.hpp</label>
+        <link refid="vart__inferres__impl__classification_8hpp"/>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>memory</label>
+      </node>
+      <node id="1">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/metaconvert/vart_metaconv_impl_classification.cpp</label>
+        <link refid="vart__metaconv__impl__classification_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespacevart">vart</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="vart__metaconv__impl__classification_8cpp_1a59b4e60ca9536097dfe41310e83a5f03" prot="public" static="no">
+        <name>DEFAULT_DISPLAY_LEVEL</name>
+        <initializer>-1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/metaconvert/vart_metaconv_impl_classification.cpp" line="28" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/metaconvert/vart_metaconv_impl_classification.cpp" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="vart__metaconv__impl__classification_8cpp_1acde9ec8712f62632c6a8fcacfe6800c4" prot="public" static="no">
+        <name>DEFAULT_FONT_SIZE</name>
+        <initializer>0.5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/metaconvert/vart_metaconv_impl_classification.cpp" line="29" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/metaconvert/vart_metaconv_impl_classification.cpp" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="vart__metaconv__impl__classification_8cpp_1a0502f8673f5b0a113d593b9a84f5f775" prot="public" static="no">
+        <name>DEFAULT_FONT</name>
+        <initializer>VVAS_FONT_HERSHEY_SIMPLEX</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/metaconvert/vart_metaconv_impl_classification.cpp" line="30" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/metaconvert/vart_metaconv_impl_classification.cpp" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="vart__metaconv__impl__classification_8cpp_1ae94b46607c5d57fd6b5ec144b79f740f" prot="public" static="no">
+        <name>DEFAULT_THICKNESS</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/metaconvert/vart_metaconv_impl_classification.cpp" line="31" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/metaconvert/vart_metaconv_impl_classification.cpp" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="vart__metaconv__impl__classification_8cpp_1afd1ca313bdba9ff49bf0c988482d7bc5" prot="public" static="no">
+        <name>DEFAULT_RADIUS</name>
+        <initializer>3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/metaconvert/vart_metaconv_impl_classification.cpp" line="32" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/metaconvert/vart_metaconv_impl_classification.cpp" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="vart__metaconv__impl__classification_8cpp_1a37d98ea12a91ccc22b697cdf42ab68cc" prot="public" static="no">
+        <name>DEFAULT_MASK_LEVEL</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/metaconvert/vart_metaconv_impl_classification.cpp" line="33" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/metaconvert/vart_metaconv_impl_classification.cpp" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="vart__metaconv__impl__classification_8cpp_1a44249142a90edc25363bb41c38c238ff" prot="public" static="no">
+        <name>DEFAULT_Y_OFFSET</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/metaconvert/vart_metaconv_impl_classification.cpp" line="34" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/metaconvert/vart_metaconv_impl_classification.cpp" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="vart__metaconv__impl__classification_8cpp_1a680c735cf134a06e4d48501d4b594bbd" prot="public" static="no">
+        <name>DEFAULT_DRAW_ABOVE_BBOX_FLAG</name>
+        <initializer>true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/metaconvert/vart_metaconv_impl_classification.cpp" line="35" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/metaconvert/vart_metaconv_impl_classification.cpp" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>2024<sp/>Advanced<sp/>Micro<sp/>Devices<sp/>Inc.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>Licensed<sp/>under<sp/>the<sp/>Apache<sp/>License,<sp/>Version<sp/>2.0<sp/>(the<sp/>&quot;License&quot;);</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>you<sp/>may<sp/>not<sp/>use<sp/>this<sp/>file<sp/>except<sp/>in<sp/>compliance<sp/>with<sp/>the<sp/>License.</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>You<sp/>may<sp/>obtain<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>License<sp/>at</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/>http://www.apache.org/licenses/LICENSE-2.0</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>Unless<sp/>required<sp/>by<sp/>applicable<sp/>law<sp/>or<sp/>agreed<sp/>to<sp/>in<sp/>writing,<sp/>software</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>distributed<sp/>under<sp/>the<sp/>License<sp/>is<sp/>distributed<sp/>on<sp/>an<sp/>&quot;AS<sp/>IS&quot;<sp/>BASIS,</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>WITHOUT<sp/>WARRANTIES<sp/>OR<sp/>CONDITIONS<sp/>OF<sp/>ANY<sp/>KIND,<sp/>either<sp/>express<sp/>or<sp/>implied.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>See<sp/>the<sp/>License<sp/>for<sp/>the<sp/>specific<sp/>language<sp/>governing<sp/>permissions<sp/>and</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>limitations<sp/>under<sp/>the<sp/>License.</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vvas_core/vvas_metaconvert.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vvas_core/vvas_overlay.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/property_tree/json_parser.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/property_tree/ptree.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="vart__device_8hpp" kindref="compound">vart_device.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="vart__device__impl__vvas_8hpp" kindref="compound">vart_device_impl_vvas.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="vart__inferres__impl__classification_8hpp" kindref="compound">vart_inferres_impl_classification.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="vart__inferresult_8hpp" kindref="compound">vart_inferresult.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;vart_metaconv_impl_classification.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DEFAULT_DISPLAY_LEVEL<sp/>-1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DEFAULT_FONT_SIZE<sp/>0.5</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DEFAULT_FONT<sp/>VVAS_FONT_HERSHEY_SIMPLEX</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DEFAULT_THICKNESS<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DEFAULT_RADIUS<sp/>3</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DEFAULT_MASK_LEVEL<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DEFAULT_Y_OFFSET<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DEFAULT_DRAW_ABOVE_BBOX_FLAG<sp/>true</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacevart" kindref="compound">vart</ref><sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>parse_json(VvasMetaConvertConfig&amp;<sp/>cfg,<sp/>std::string&amp;<sp/>json_data)<sp/>{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/>boost::property_tree::ptree<sp/>pt;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/>std::istringstream<sp/>json_stream(json_data);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>boost::property_tree::read_json(json_stream,<sp/>pt);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::exception&amp;<sp/>e)<sp/>{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cerr<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Error<sp/>reading<sp/>JSON<sp/>:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>e.what()<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/>memset(&amp;cfg,<sp/>0,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(VvasMetaConvertConfig));</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>cfg.level<sp/>=<sp/>pt.get&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;(</highlight><highlight class="stringliteral">&quot;display-level&quot;</highlight><highlight class="normal">,<sp/><ref refid="vart__metaconv__impl__classification_8cpp_1a59b4e60ca9536097dfe41310e83a5f03" kindref="member">DEFAULT_DISPLAY_LEVEL</ref>);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>cfg.font_size<sp/>=<sp/>pt.get&lt;</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">&gt;(</highlight><highlight class="stringliteral">&quot;font-size&quot;</highlight><highlight class="normal">,<sp/><ref refid="vart__metaconv__impl__classification_8cpp_1acde9ec8712f62632c6a8fcacfe6800c4" kindref="member">DEFAULT_FONT_SIZE</ref>);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>cfg.font_type<sp/>=<sp/>(VvasFontType)pt.get&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;(</highlight><highlight class="stringliteral">&quot;font&quot;</highlight><highlight class="normal">,<sp/><ref refid="vart__metaconv__impl__classification_8cpp_1a0502f8673f5b0a113d593b9a84f5f775" kindref="member">DEFAULT_FONT</ref>);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>cfg.line_thickness<sp/>=<sp/>pt.get&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;(</highlight><highlight class="stringliteral">&quot;thickness&quot;</highlight><highlight class="normal">,<sp/><ref refid="vart__metaconv__impl__classification_8cpp_1ae94b46607c5d57fd6b5ec144b79f740f" kindref="member">DEFAULT_THICKNESS</ref>);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>cfg.radius<sp/>=<sp/>pt.get&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;(</highlight><highlight class="stringliteral">&quot;radius&quot;</highlight><highlight class="normal">,<sp/><ref refid="vart__metaconv__impl__classification_8cpp_1afd1ca313bdba9ff49bf0c988482d7bc5" kindref="member">DEFAULT_RADIUS</ref>);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>cfg.mask_level<sp/>=<sp/>pt.get&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;(</highlight><highlight class="stringliteral">&quot;mask-level&quot;</highlight><highlight class="normal">,<sp/><ref refid="vart__metaconv__impl__classification_8cpp_1a37d98ea12a91ccc22b697cdf42ab68cc" kindref="member">DEFAULT_MASK_LEVEL</ref>);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>cfg.y_offset<sp/>=<sp/>pt.get&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;(</highlight><highlight class="stringliteral">&quot;y-offset&quot;</highlight><highlight class="normal">,<sp/><ref refid="vart__metaconv__impl__classification_8cpp_1a44249142a90edc25363bb41c38c238ff" kindref="member">DEFAULT_Y_OFFSET</ref>);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>cfg.draw_above_bbox_flag<sp/>=</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pt.get&lt;</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">&gt;(</highlight><highlight class="stringliteral">&quot;draw-above-bbox-flag&quot;</highlight><highlight class="normal">,<sp/><ref refid="vart__metaconv__impl__classification_8cpp_1a680c735cf134a06e4d48501d4b594bbd" kindref="member">DEFAULT_DRAW_ABOVE_BBOX_FLAG</ref>);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(pt.find(</highlight><highlight class="stringliteral">&quot;label-filter&quot;</highlight><highlight class="normal">)<sp/>==<sp/>pt.not_found())<sp/>{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>cfg.allowed_labels_count<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>boost::property_tree::ptree<sp/>label_filter<sp/>=<sp/>pt.get_child(</highlight><highlight class="stringliteral">&quot;label-filter&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>cfg.allowed_labels_count<sp/>=</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::distance(label_filter.begin(),<sp/>label_filter.end());</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(cfg.allowed_labels_count)<sp/>{</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>index<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cfg.allowed_labels<sp/>=</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">**)calloc(cfg.allowed_labels_count,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*));</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>label<sp/>:<sp/>pt.get_child(</highlight><highlight class="stringliteral">&quot;label-filter&quot;</highlight><highlight class="normal">))<sp/>{</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cfg.allowed_labels[index]<sp/>=</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>strdup((</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*)label.second.data().c_str());</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>index++;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(pt.find(</highlight><highlight class="stringliteral">&quot;label-color&quot;</highlight><highlight class="normal">)<sp/>==<sp/>pt.not_found())<sp/>{</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>cfg.label_color_count<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>boost::property_tree::ptree<sp/>label_colors<sp/>=<sp/>pt.get_child(</highlight><highlight class="stringliteral">&quot;label-color&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>cfg.label_color_count<sp/>=</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::distance(label_colors.begin(),<sp/>label_colors.end());</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(cfg.label_color_count)<sp/>{</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cfg.label_color_info<sp/>=<sp/>(VvasLabelColorInfo**)calloc(</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cfg.label_color_count,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(VvasLabelColorInfo*));</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>index<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>color<sp/>:<sp/>pt.get_child(</highlight><highlight class="stringliteral">&quot;label-color&quot;</highlight><highlight class="normal">))<sp/>{</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>VvasLabelColorInfo*<sp/>label_color_info<sp/>=</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(VvasLabelColorInfo*)calloc(1,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(VvasLabelColorInfo));</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cfg.label_color_info[index]<sp/>=<sp/>label_color_info;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>label_color_info-&gt;level<sp/>=<sp/>color.second.get&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;(</highlight><highlight class="stringliteral">&quot;level&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>label_color_info-&gt;color.red<sp/>=<sp/>color.second.get&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;(</highlight><highlight class="stringliteral">&quot;red&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>label_color_info-&gt;color.green<sp/>=<sp/>color.second.get&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;(</highlight><highlight class="stringliteral">&quot;green&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>label_color_info-&gt;color.blue<sp/>=<sp/>color.second.get&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;(</highlight><highlight class="stringliteral">&quot;blue&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>index++;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(pt.find(</highlight><highlight class="stringliteral">&quot;classes&quot;</highlight><highlight class="normal">)<sp/>==<sp/>pt.not_found())<sp/>{</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>cfg.allowed_classes_count<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>boost::property_tree::ptree<sp/>classes<sp/>=<sp/>pt.get_child(</highlight><highlight class="stringliteral">&quot;classes&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>cfg.allowed_classes_count<sp/>=<sp/>std::distance(classes.begin(),<sp/>classes.end());</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(cfg.allowed_classes_count)<sp/>{</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cfg.allowed_classes<sp/>=<sp/>(VvasFilterObjectInfo**)calloc(</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cfg.allowed_classes_count,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(VvasFilterObjectInfo*));</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>index<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>cls<sp/>:<sp/>pt.get_child(</highlight><highlight class="stringliteral">&quot;classes&quot;</highlight><highlight class="normal">))<sp/>{</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>VvasFilterObjectInfo*<sp/>allowed_class<sp/>=</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(VvasFilterObjectInfo*)calloc(1,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(VvasFilterObjectInfo));</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cfg.allowed_classes[index]<sp/>=<sp/>allowed_class;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>strcpy(allowed_class-&gt;name,</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cls.second.get&lt;std::string&gt;(</highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal">).c_str());</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>allowed_class-&gt;color.red<sp/>=<sp/>cls.second.get&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;(</highlight><highlight class="stringliteral">&quot;red&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>allowed_class-&gt;color.green<sp/>=<sp/>cls.second.get&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;(</highlight><highlight class="stringliteral">&quot;green&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>allowed_class-&gt;color.blue<sp/>=<sp/>cls.second.get&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;(</highlight><highlight class="stringliteral">&quot;blue&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>index++;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::exception&amp;<sp/>e)<sp/>{</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cerr<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Error<sp/>parsing<sp/>json<sp/>file<sp/>:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>e.what()<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="135"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal">MetaConvImplClassification::MetaConvImplClassification(</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string&amp;<sp/>json_data,</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;Device&gt;<sp/>device)<sp/>{</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/>std::shared_ptr&lt;DeviceImplVvas&gt;<sp/>device_pimpl;</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/>VvasMetaConvertConfig<sp/>cfg;</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/>VvasContext*<sp/>vvas_ctx<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/>log_ctx<sp/>=<sp/><ref refid="vart__logger_8hpp_1abfb1efa87be1fdc2c964aca667e70f80" kindref="member">VART_LOG_REGISTER</ref>(</highlight><highlight class="stringliteral">&quot;METACONVERT&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(log_ctx<sp/>==<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>std::runtime_error(</highlight><highlight class="stringliteral">&quot;Failed<sp/>to<sp/>create<sp/>logger<sp/>context<sp/>for<sp/>metaconvert&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Get<sp/>the<sp/>pimpl<sp/>for<sp/>Device<sp/>impl<sp/>class<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/>device_pimpl<sp/>=</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>std::dynamic_pointer_cast&lt;DeviceImplVvas&gt;(device-&gt;get_pimpl_handle());</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!device_pimpl)<sp/>{</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>std::runtime_error(</highlight><highlight class="stringliteral">&quot;Failed<sp/>to<sp/>get<sp/>Device<sp/>PImpl&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/>vvas_ctx<sp/>=<sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="normal">VvasContext*</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(device_pimpl-&gt;get_dev_ctx());</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!vvas_ctx)<sp/>{</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>std::runtime_error(</highlight><highlight class="stringliteral">&quot;Failed<sp/>to<sp/>create<sp/>vvas<sp/>context&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Parse<sp/>the<sp/>given<sp/>JSON<sp/>config<sp/>data<sp/>and<sp/>populate<sp/>the<sp/>config<sp/>for</highlight></codeline>
+<codeline lineno="161"><highlight class="comment"><sp/><sp/><sp/>*<sp/>VVAS<sp/>metaconvert<sp/>module<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!parse_json(cfg,<sp/>json_data))<sp/>{</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cerr<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Error<sp/>parsing<sp/>JSON<sp/>config<sp/>data&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>std::runtime_error(</highlight><highlight class="stringliteral">&quot;Error<sp/>parsing<sp/>JSON<sp/>config<sp/>data&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Create<sp/>VVAS<sp/>metaconvert<sp/>instance<sp/>handle<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/>metaconvert_handle<sp/>=</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>vvas_metaconvert_create(vvas_ctx,<sp/>&amp;cfg,<sp/>LOG_LEVEL_ERROR,<sp/>NULL);</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!metaconvert_handle)<sp/>{</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>std::runtime_error(</highlight><highlight class="stringliteral">&quot;Failed<sp/>to<sp/>metaconvert<sp/>instance&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Clean<sp/>up<sp/>memory<sp/>allocated<sp/>for<sp/>metaconvert<sp/>configuration<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(cfg.allowed_labels_count)<sp/>{</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(uint32_t<sp/>idx<sp/>=<sp/>0;<sp/>idx<sp/>&lt;<sp/>cfg.allowed_labels_count;<sp/>idx++)</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>free(cfg.allowed_labels[idx]);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/>free(cfg.allowed_labels);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(cfg.label_color_count)<sp/>{</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>idx<sp/>=<sp/>0;<sp/>idx<sp/>&lt;<sp/>cfg.label_color_count;<sp/>idx++)</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>free(cfg.label_color_info[idx]);</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/>free(cfg.label_color_info);</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(cfg.allowed_classes_count)<sp/>{</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(uint32_t<sp/>idx<sp/>=<sp/>0;<sp/>idx<sp/>&lt;<sp/>cfg.allowed_classes_count;<sp/>idx++)</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>free(cfg.allowed_classes[idx]);</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/>free(cfg.allowed_classes);</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="192"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>clean_overlay_shapeinfo(OverlayShapeInfo*<sp/>shape_info)<sp/>{</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>itr<sp/>:<sp/>shape_info-&gt;text_params)<sp/>{</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(itr.disp_text)</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>free(itr.disp_text);</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>shape_info;</highlight></codeline>
+<codeline lineno="200"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="202"><highlight class="normal">std::shared_ptr&lt;OverlayShapeInfo&gt;</highlight></codeline>
+<codeline lineno="203"><highlight class="normal">MetaConvImplClassification::prepare_overlay_meta(</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;std::shared_ptr&lt;InferResult&gt;&gt;<sp/>infer_res)<sp/>{</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/>VvasInferPrediction*<sp/>parent_predict<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/>VvasInferPrediction*<sp/>pred<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/>std::shared_ptr&lt;VvasOverlayShapeInfo&gt;<sp/>vvas_shape_info<sp/>=</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>std::make_shared&lt;VvasOverlayShapeInfo&gt;();</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/>std::shared_ptr&lt;OverlayShapeInfo&gt;<sp/>shape_info(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>OverlayShapeInfo,</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>clean_overlay_shapeinfo);</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/>parent_predict<sp/>=<sp/>vvas_inferprediction_new();</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>itr<sp/>:<sp/>infer_res)<sp/>{</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;InferResImplClassification&gt;<sp/>classification_infer_obj<sp/>=</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::dynamic_pointer_cast&lt;InferResImplClassification&gt;(</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>itr-&gt;get_pimpl_handle());</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/>InferResultData*<sp/>base_result<sp/>=<sp/>classification_infer_obj-&gt;get_infer_result();</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/>VvasInferClassification*<sp/>vvas_classification_result;</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/>pred<sp/>=<sp/>vvas_inferprediction_new();</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/>ClassificationResData*<sp/>result<sp/>=</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="normal">ClassificationResData*</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(base_result);</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/>pred-&gt;infer_result<sp/>=<sp/>vvas_infer_result_classification_create();</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/>VvasList**<sp/>classification<sp/>=<sp/>(VvasList**)&amp;pred-&gt;infer_result-&gt;data;</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>size<sp/>=<sp/>result-&gt;label.size();</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>idx<sp/>=<sp/>0;<sp/>idx<sp/>&lt;<sp/>size;<sp/>idx++)<sp/>{</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>vvas_classification_result<sp/>=<sp/>vvas_inferclassification_new();</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>vvas_classification_result-&gt;probability<sp/>=<sp/>result-&gt;confidence[idx];</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>vvas_classification_result-&gt;label<sp/>=<sp/>strdup(result-&gt;label[idx].c_str());</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>vvas_classification_result-&gt;id<sp/>=<sp/>result-&gt;index[idx];</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>*classification<sp/>=</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vvas_list_append(*classification,<sp/>vvas_classification_result);</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/>vvas_inferprediction_append(parent_predict,<sp/>pred);</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/>vvas_metaconvert_prepare_overlay_metadata(</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>metaconvert_handle,<sp/>parent_predict-&gt;node,<sp/>vvas_shape_info.get());</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/>VvasList*<sp/>head<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(vvas_shape_info-&gt;num_text)<sp/>{</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/>head<sp/>=<sp/>vvas_shape_info-&gt;text_params;</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/>VvasOverlayTextParams*<sp/>vvas_text;</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/>OverlayTextParams<sp/>text;</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(head)<sp/>{</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>vvas_text<sp/>=<sp/>(VvasOverlayTextParams*)head-&gt;data;</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>OverlayTextParams<sp/>and<sp/>VvasOverlayTextParams<sp/>are<sp/>same<sp/>but</highlight></codeline>
+<codeline lineno="250"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>the<sp/>names<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>memcpy(&amp;text.text_font,<sp/>&amp;vvas_text-&gt;text_font,</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(VvasOverlayFontData));</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>memcpy(&amp;text.bg_color,<sp/>&amp;vvas_text-&gt;bg_color,</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(VvasOverlayColorData));</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>memcpy(&amp;text.points,<sp/>&amp;vvas_text-&gt;points,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(VvasOverlayCoordinates));</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>text.bottom_left_origin<sp/>=<sp/>vvas_text-&gt;bottom_left_origin;</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>text.apply_bg_color<sp/>=<sp/>vvas_text-&gt;apply_bg_color;</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>text.disp_text<sp/>=<sp/>strdup(vvas_text-&gt;disp_text);</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>shape_info-&gt;text_params.push_back(text);</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>head<sp/>=<sp/>head-&gt;next;</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Free<sp/>vvas<sp/>overlay<sp/>shape<sp/>info<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/>vvas_overlay_shape_info_free(vvas_shape_info.get());</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/>vvas_inferprediction_free(parent_predict);</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"></highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>shape_info;</highlight></codeline>
+<codeline lineno="269"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"></highlight></codeline>
+<codeline lineno="271"><highlight class="normal">MetaConvImplClassification::~MetaConvImplClassification()<sp/>{</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Deinit<sp/>vvas<sp/>core<sp/>metaconvert<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/>vvas_metaconvert_destroy(metaconvert_handle);</highlight></codeline>
+<codeline lineno="274"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"></highlight></codeline>
+<codeline lineno="276"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>vart</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/metaconvert/vart_metaconv_impl_classification.cpp"/>
+  </compounddef>
+</doxygen>

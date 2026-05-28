@@ -1,0 +1,708 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="fpga__info_8h" kind="file" language="C++">
+    <compoundname>fpga_info.h</compoundname>
+    <includes local="no">stddef.h</includes>
+    <includes local="no">stdint.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">string.h</includes>
+    <includedby refid="clocks_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/clocks.cpp</includedby>
+    <includedby refid="private_8h" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h</includedby>
+    <includedby refid="run__snapshot__txt_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/run_snapshot_txt.cpp</includedby>
+    <includedby refid="npu__c__api_2snapshot__parser_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/snapshot_parser.cpp</includedby>
+    <includedby refid="vart__ml__io_8c" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c</includedby>
+    <includedby refid="vart__ml__io_8h" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h</includedby>
+    <includedby refid="vart__ml__io__devmem_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_devmem.cpp</includedby>
+    <includedby refid="vart__ml__io__devmem_8h" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_devmem.h</includedby>
+    <includedby refid="vart__ml__io__uio_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_uio.cpp</includedby>
+    <includedby refid="vart__ml__io__uio_8h" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_uio.h</includedby>
+    <includedby refid="vart__ml__io__xrt_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_xrt.cpp</includedby>
+    <includedby refid="vart__ml__io__xrt_8h" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_xrt.h</includedby>
+    <includedby refid="vart__ml__py__api_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_py_api/vart_ml_py_api.cpp</includedby>
+    <includedby refid="vart__ml__ctrlbus__poke_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_tools/vart_ml_ctrlbus_poke.cpp</includedby>
+    <includedby refid="vart__ml__ddr__poke_8cpp" local="no">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_tools/vart_ml_ddr_poke.cpp</includedby>
+    <includedby refid="vart__ml__tester_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_tools/vart_ml_tester.cpp</includedby>
+    <includedby refid="fpga__info_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/fpga_info.cpp</includedby>
+    <includedby refid="reporting_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/reporting.cpp</includedby>
+    <includedby refid="stats_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.cpp</includedby>
+    <incdepgraph>
+      <node id="4">
+        <label>stdbool.h</label>
+      </node>
+      <node id="3">
+        <label>stdint.h</label>
+      </node>
+      <node id="2">
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>string.h</label>
+      </node>
+      <node id="1">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/fpga_info.h</label>
+        <link refid="fpga__info_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="9">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/run_snapshot.cpp</label>
+        <link refid="run__snapshot_8cpp"/>
+      </node>
+      <node id="22">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_tools/vart_ml_tester.cpp</label>
+        <link refid="vart__ml__tester_8cpp"/>
+      </node>
+      <node id="40">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/reporting.cpp</label>
+        <link refid="reporting_8cpp"/>
+      </node>
+      <node id="34">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_devmem.h</label>
+        <link refid="vart__ml__io__devmem_8h"/>
+        <childnode refid="33" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/accessors.cpp</label>
+        <link refid="npu__c__api_2accessors_8cpp"/>
+      </node>
+      <node id="29">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_tools/vart_ml_downloader.cpp</label>
+        <link refid="vart__ml__downloader_8cpp"/>
+      </node>
+      <node id="26">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_py_api/vart_ml_py_api.cpp</label>
+        <link refid="vart__ml__py__api_8cpp"/>
+      </node>
+      <node id="23">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp</label>
+        <link refid="vcd__stats_8cpp"/>
+      </node>
+      <node id="37">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_xrt.cpp</label>
+        <link refid="vart__ml__io__xrt_8cpp"/>
+      </node>
+      <node id="41">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.cpp</label>
+        <link refid="stats_8cpp"/>
+      </node>
+      <node id="38">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_xrt.h</label>
+        <link refid="vart__ml__io__xrt_8h"/>
+        <childnode refid="37" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/arm_ops.cpp</label>
+        <link refid="arm__ops_8cpp"/>
+      </node>
+      <node id="7">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/pl.cpp</label>
+        <link refid="pl_8cpp"/>
+      </node>
+      <node id="33">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_devmem.cpp</label>
+        <link refid="vart__ml__io__devmem_8cpp"/>
+      </node>
+      <node id="32">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vart_ml_log.cpp</label>
+        <link refid="vart__ml__log_8cpp"/>
+      </node>
+      <node id="35">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_uio.cpp</label>
+        <link refid="vart__ml__io__uio_8cpp"/>
+      </node>
+      <node id="11">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/run_snapshot_txt.cpp</label>
+        <link refid="run__snapshot__txt_8cpp"/>
+      </node>
+      <node id="28">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_tools/vart_ml_ddr_debug.cpp</label>
+        <link refid="vart__ml__ddr__debug_8cpp"/>
+      </node>
+      <node id="3">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h</label>
+        <link refid="private_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/fpga_info.cpp</label>
+        <link refid="fpga__info_8cpp"/>
+      </node>
+      <node id="31">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_tools/vart_ml_uploader.cpp</label>
+        <link refid="vart__ml__uploader_8cpp"/>
+      </node>
+      <node id="24">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c</label>
+        <link refid="vart__ml__io_8c"/>
+      </node>
+      <node id="25">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h</label>
+        <link refid="vart__ml__io_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/clocks.cpp</label>
+        <link refid="clocks_8cpp"/>
+      </node>
+      <node id="4">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/npu_c_api.h</label>
+        <link refid="npu__c__api_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_tools/vart_ml_clocks.cpp</label>
+        <link refid="vart__ml__clocks_8cpp"/>
+      </node>
+      <node id="15">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/snapshot_parser.cpp</label>
+        <link refid="vart__ml__runner_2snapshot__parser_8cpp"/>
+      </node>
+      <node id="10">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/run_snapshot_bin.cpp</label>
+        <link refid="run__snapshot__bin_8cpp"/>
+      </node>
+      <node id="21">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_tools/vart_ml_ddr_poke.cpp</label>
+        <link refid="vart__ml__ddr__poke_8cpp"/>
+      </node>
+      <node id="30">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_tools/vart_ml_tools.cpp</label>
+        <link refid="vart__ml__tools_8cpp"/>
+      </node>
+      <node id="16">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/thread_pool.cpp</label>
+        <link refid="thread__pool_8cpp"/>
+      </node>
+      <node id="17">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/utils.cpp</label>
+        <link refid="utils_8cpp"/>
+      </node>
+      <node id="8">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/quantization.cpp</label>
+        <link refid="quantization_8cpp"/>
+      </node>
+      <node id="27">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.cpp</label>
+        <link refid="vart__npu__tensor_8cpp"/>
+      </node>
+      <node id="18">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.cpp</label>
+        <link refid="vart__ml__runner_8cpp"/>
+      </node>
+      <node id="12">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/snapshot_parser.cpp</label>
+        <link refid="npu__c__api_2snapshot__parser_8cpp"/>
+      </node>
+      <node id="6">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/inference.cpp</label>
+        <link refid="inference_8cpp"/>
+      </node>
+      <node id="14">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/execute.cpp</label>
+        <link refid="execute_8cpp"/>
+      </node>
+      <node id="36">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_uio.h</label>
+        <link refid="vart__ml__io__uio_8h"/>
+        <childnode refid="35" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_tools/vart_ml_ctrlbus_poke.cpp</label>
+        <link refid="vart__ml__ctrlbus__poke_8cpp"/>
+      </node>
+      <node id="1">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/fpga_info.h</label>
+        <link refid="fpga__info_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="fpga__info_8h_1a3ba9c79991b017d4949e2e4bc1386af4" prot="public" static="no" strong="no">
+        <type></type>
+        <name>FpgaFamily</name>
+        <enumvalue id="fpga__info_8h_1a3ba9c79991b017d4949e2e4bc1386af4af8c9852fde01c8124b9e6f5be4dc871d" prot="public">
+          <name>ZYNQ</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="fpga__info_8h_1a3ba9c79991b017d4949e2e4bc1386af4aa2fcb2be05bd26e99915dfd0ce2094fd" prot="public">
+          <name>VERSAL</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/fpga_info.h" line="38" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/fpga_info.h" bodystart="39" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="enum" id="fpga__info_8h_1afe7ded90c10a0e74d9627a16f660ad7e" prot="public" static="no" strong="no">
+        <type></type>
+        <name>FpgaArchitecture</name>
+        <enumvalue id="fpga__info_8h_1afe7ded90c10a0e74d9627a16f660ad7eae307daa999bfd69743cd368d6d372c82" prot="public">
+          <name>V1</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="fpga__info_8h_1afe7ded90c10a0e74d9627a16f660ad7ea3e329bb4aa8def056d4ae1e93751a652" prot="public">
+          <name>V2</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="fpga__info_8h_1afe7ded90c10a0e74d9627a16f660ad7eaba6aa7fe71428b3317492292332aa1dc" prot="public">
+          <name>AIEML_V1C</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/fpga_info.h" line="59" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/fpga_info.h" bodystart="60" bodyend="64"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="fpga__info_8h_1a9a8d265eea87de585fd0ed74cd790170" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const char *</type>
+        <definition>static const char* stringFromFpgaFamily</definition>
+        <argsstring>(enum FpgaFamily family)</argsstring>
+        <name>stringFromFpgaFamily</name>
+        <param>
+          <type>enum <ref refid="fpga__info_8h_1a3ba9c79991b017d4949e2e4bc1386af4" kindref="member">FpgaFamily</ref></type>
+          <declname>family</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/fpga_info.h" line="44" column="26" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/fpga_info.h" bodystart="44" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="fpga__info_8h_1a2fdbc0ead5c5f0976c0cd02df94825d1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>enum <ref refid="fpga__info_8h_1a3ba9c79991b017d4949e2e4bc1386af4" kindref="member">FpgaFamily</ref></type>
+        <definition>static enum FpgaFamily stringToFpgaFamily</definition>
+        <argsstring>(const char *str)</argsstring>
+        <name>stringToFpgaFamily</name>
+        <param>
+          <type>const char *</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/fpga_info.h" line="44" column="26" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/fpga_info.h" bodystart="51" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="fpga__info_8h_1aa22df76c50038e4f7788e08bb13abea7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const char *</type>
+        <definition>static const char* stringFromArch</definition>
+        <argsstring>(enum FpgaArchitecture arch)</argsstring>
+        <name>stringFromArch</name>
+        <param>
+          <type>enum <ref refid="fpga__info_8h_1afe7ded90c10a0e74d9627a16f660ad7e" kindref="member">FpgaArchitecture</ref></type>
+          <declname>arch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/fpga_info.h" line="66" column="26" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/fpga_info.h" bodystart="66" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="fpga__info_8h_1ad3b40fdf9b33f578013e70cf4630c2bd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>enum <ref refid="fpga__info_8h_1afe7ded90c10a0e74d9627a16f660ad7e" kindref="member">FpgaArchitecture</ref></type>
+        <definition>static enum FpgaArchitecture stringToArch</definition>
+        <argsstring>(const char *str)</argsstring>
+        <name>stringToArch</name>
+        <param>
+          <type>const char *</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/fpga_info.h" line="66" column="26" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/fpga_info.h" bodystart="73" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="fpga__info_8h_1a7ad7fd34482dbae7bd397cce15d5b946" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int print_fpga_info_path</definition>
+        <argsstring>(uint32_t timestamp)</argsstring>
+        <name>print_fpga_info_path</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>timestamp</declname>
+        </param>
+        <briefdescription>
+<para>Parse the fpga_info path. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>timestamp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Timestamp of the FPGA. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int The Vart ML error (vart_ml_error_id) code of the operation. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/fpga_info.h" line="90" column="5" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/fpga_info.cpp" bodystart="343" bodyend="352" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/fpga_info.h" declline="90" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="fpga__info_8h_1ad6f9b7f6a295aef699239ee9bedea9b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int get_user_config</definition>
+        <argsstring>(const char *cfg, const char **info)</argsstring>
+        <name>get_user_config</name>
+        <param>
+          <type>const char *</type>
+          <declname>cfg</declname>
+        </param>
+        <param>
+          <type>const char **</type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+<para>Parse the vaisw.ini file and return the value of a given configuration. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cfg</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Configuration whose value is requested. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Returned pointer to the value of the configuration. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int The Vart ML error (vart_ml_error_id) code of the operation. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/fpga_info.h" line="99" column="5" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/fpga_info.cpp" bodystart="195" bodyend="218" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/fpga_info.h" declline="99" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="fpga__info_8h_1a1ff5216ce3aad3a560dc28f1bdd166cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool check_user_config</definition>
+        <argsstring>(const char *cfg)</argsstring>
+        <name>check_user_config</name>
+        <param>
+          <type>const char *</type>
+          <declname>cfg</declname>
+        </param>
+        <briefdescription>
+<para>Parse the vaisw.ini file and the env variable and check the value of a given confdiguration. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cfg</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Configuration whose value is requested. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool true if the value of the configuration is true or 1, false otherwise. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/fpga_info.h" line="107" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/fpga_info.cpp" bodystart="220" bodyend="231" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/fpga_info.h" declline="107" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="fpga__info_8h_1a96ed5e65fd21d65ffafd59ac719ed651" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool is_verbose</definition>
+        <argsstring>(void)</argsstring>
+        <name>is_verbose</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Check if the logs are enable. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>bool Return true is the logs will be displayed, false otherwise. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/fpga_info.h" line="114" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/fpga_info.cpp" bodystart="354" bodyend="359" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/fpga_info.h" declline="114" declcolumn="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="copyright"><para>Copyright 2024 Advanced Micro Devices Inc.</para>
+</simplesect>
+Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <verbatim>http://www.apache.org/licenses/LICENSE-2.0
+</verbatim> Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. </para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>FPGA_INFO_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FPGA_INFO_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cstddef&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cstdint&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cstring&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;map&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdint.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="fpga__info_8h_1a3ba9c79991b017d4949e2e4bc1386af4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="fpga__info_8h_1a3ba9c79991b017d4949e2e4bc1386af4" kindref="member">FpgaFamily</ref></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="40" refid="fpga__info_8h_1a3ba9c79991b017d4949e2e4bc1386af4af8c9852fde01c8124b9e6f5be4dc871d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="fpga__info_8h_1a3ba9c79991b017d4949e2e4bc1386af4af8c9852fde01c8124b9e6f5be4dc871d" kindref="member">ZYNQ</ref>,</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="fpga__info_8h_1a3ba9c79991b017d4949e2e4bc1386af4aa2fcb2be05bd26e99915dfd0ce2094fd" kindref="member">VERSAL</ref></highlight></codeline>
+<codeline lineno="42" refid="fpga__info_8h_1a3ba9c79991b017d4949e2e4bc1386af4aa2fcb2be05bd26e99915dfd0ce2094fd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>stringFromFpgaFamily(</highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="fpga__info_8h_1a3ba9c79991b017d4949e2e4bc1386af4" kindref="member">FpgaFamily</ref><sp/>family)</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>strings[]<sp/>=<sp/>{<sp/></highlight><highlight class="stringliteral">&quot;ZYNQ&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;VERSAL&quot;</highlight><highlight class="normal"><sp/>};</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>strings[family];</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="fpga__info_8h_1a3ba9c79991b017d4949e2e4bc1386af4" kindref="member">FpgaFamily</ref><sp/>stringToFpgaFamily(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>str)</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(str<sp/>==<sp/>NULL<sp/>||<sp/>strcmp(str,<sp/></highlight><highlight class="stringliteral">&quot;ZYNQ&quot;</highlight><highlight class="normal">)<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="fpga__info_8h_1a3ba9c79991b017d4949e2e4bc1386af4af8c9852fde01c8124b9e6f5be4dc871d" kindref="member">ZYNQ</ref>;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="fpga__info_8h_1a3ba9c79991b017d4949e2e4bc1386af4aa2fcb2be05bd26e99915dfd0ce2094fd" kindref="member">VERSAL</ref>;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="fpga__info_8h_1afe7ded90c10a0e74d9627a16f660ad7e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="fpga__info_8h_1afe7ded90c10a0e74d9627a16f660ad7e" kindref="member">FpgaArchitecture</ref></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="61" refid="fpga__info_8h_1afe7ded90c10a0e74d9627a16f660ad7eae307daa999bfd69743cd368d6d372c82" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="fpga__info_8h_1afe7ded90c10a0e74d9627a16f660ad7eae307daa999bfd69743cd368d6d372c82" kindref="member">V1</ref>,</highlight></codeline>
+<codeline lineno="62" refid="fpga__info_8h_1afe7ded90c10a0e74d9627a16f660ad7ea3e329bb4aa8def056d4ae1e93751a652" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="fpga__info_8h_1afe7ded90c10a0e74d9627a16f660ad7ea3e329bb4aa8def056d4ae1e93751a652" kindref="member">V2</ref>,</highlight></codeline>
+<codeline lineno="63" refid="fpga__info_8h_1afe7ded90c10a0e74d9627a16f660ad7eaba6aa7fe71428b3317492292332aa1dc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="fpga__info_8h_1afe7ded90c10a0e74d9627a16f660ad7eaba6aa7fe71428b3317492292332aa1dc" kindref="member">AIEML_V1C</ref>,</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>stringFromArch(</highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="fpga__info_8h_1afe7ded90c10a0e74d9627a16f660ad7e" kindref="member">FpgaArchitecture</ref><sp/>arch)</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>strings[]<sp/>=<sp/>{<sp/></highlight><highlight class="stringliteral">&quot;V1&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;V2&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;AIEML_V1C&quot;</highlight><highlight class="normal"><sp/>};</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>strings[arch];</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="fpga__info_8h_1afe7ded90c10a0e74d9627a16f660ad7e" kindref="member">FpgaArchitecture</ref><sp/>stringToArch(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>str)</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(str<sp/>==<sp/>NULL<sp/>||<sp/>strcmp(str,<sp/></highlight><highlight class="stringliteral">&quot;V1&quot;</highlight><highlight class="normal">)<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="fpga__info_8h_1afe7ded90c10a0e74d9627a16f660ad7eae307daa999bfd69743cd368d6d372c82" kindref="member">V1</ref>;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(strcmp(str,<sp/></highlight><highlight class="stringliteral">&quot;V2&quot;</highlight><highlight class="normal">)<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="fpga__info_8h_1afe7ded90c10a0e74d9627a16f660ad7ea3e329bb4aa8def056d4ae1e93751a652" kindref="member">V2</ref>;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="fpga__info_8h_1afe7ded90c10a0e74d9627a16f660ad7eaba6aa7fe71428b3317492292332aa1dc" kindref="member">AIEML_V1C</ref>;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="fpga__info_8h_1a7ad7fd34482dbae7bd397cce15d5b946" kindref="member">print_fpga_info_path</ref>(uint32_t<sp/><ref refid="vart__ml__ctrlbus__poke_8cpp_1a175b69db0520fee0182b6e2c107539cf" kindref="member">timestamp</ref>);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="fpga__info_8h_1ad6f9b7f6a295aef699239ee9bedea9b0" kindref="member">get_user_config</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>cfg,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">**<sp/>info);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="fpga__info_8h_1a1ff5216ce3aad3a560dc28f1bdd166cd" kindref="member">check_user_config</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>cfg);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="fpga__info_8h_1a96ed5e65fd21d65ffafd59ac719ed651" kindref="member">is_verbose</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>******************<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>PURE<sp/>CPP<sp/>FUNCTIONS<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>******************<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal">std::vector&lt;size_t&gt;<sp/><ref refid="fpga__info_8cpp_1a02539fca182d4cfa020a9f32e6b044ab" kindref="member">convertToVector</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>src);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="vart__ml__io__xrt_8cpp_1aaa331e2236dd1ece6955661dddf605a4" kindref="member">parse_fpga_info</ref>(uint32_t<sp/><ref refid="vart__ml__ctrlbus__poke_8cpp_1a175b69db0520fee0182b6e2c107539cf" kindref="member">timestamp</ref>,<sp/>std::map&lt;std::string,<sp/>std::string&gt;&amp;<sp/>fpga_info);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="vart__ml__io__devmem_8cpp_1a71d336aab6e1fb88e1434980e8878669" kindref="member">print_fpga_info</ref>(std::map&lt;std::string,<sp/>std::string&gt;&amp;<sp/>fpga_info);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/fpga_info.h"/>
+  </compounddef>
+</doxygen>

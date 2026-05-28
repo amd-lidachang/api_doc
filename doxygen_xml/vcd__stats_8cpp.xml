@@ -1,0 +1,888 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="vcd__stats_8cpp" kind="file" language="C++">
+    <compoundname>vcd_stats.cpp</compoundname>
+    <includes local="no">algorithm</includes>
+    <includes local="no">assert.h</includes>
+    <includes local="no">filesystem</includes>
+    <includes local="no">fstream</includes>
+    <includes local="no">iomanip</includes>
+    <includes local="no">mutex</includes>
+    <includes local="no">queue</includes>
+    <includes local="no">vector</includes>
+    <includes refid="vcd__stats_8h" local="yes">vcd_stats.h</includes>
+    <includes refid="npu__c__api_8h" local="no">npu_c_api/npu_c_api.h</includes>
+    <includes refid="vart__ml__log_8h" local="no">vart_ml_utils/vart_ml_log.h</includes>
+    <includes local="yes">vcd_event.inc</includes>
+    <incdepgraph>
+      <node id="22">
+        <label>stdbool.h</label>
+      </node>
+      <node id="23">
+        <label>stdarg.h</label>
+      </node>
+      <node id="6">
+        <label>iomanip</label>
+      </node>
+      <node id="8">
+        <label>queue</label>
+      </node>
+      <node id="4">
+        <label>filesystem</label>
+      </node>
+      <node id="3">
+        <label>assert.h</label>
+      </node>
+      <node id="29">
+        <label>vart_ml_error.inc</label>
+      </node>
+      <node id="21">
+        <label>stdint.h</label>
+      </node>
+      <node id="28">
+        <label>vart_ml_error.h</label>
+        <link refid="vart__ml__error_8h"/>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>variant</label>
+      </node>
+      <node id="1">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp</label>
+        <link refid="vcd__stats_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>string</label>
+      </node>
+      <node id="15">
+        <label>map</label>
+      </node>
+      <node id="13">
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>fstream</label>
+      </node>
+      <node id="26">
+        <label>vart_ml_utils/npu_reg.h</label>
+        <link refid="npu__reg_8h"/>
+      </node>
+      <node id="14">
+        <label>private.h</label>
+        <link refid="private_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>string.h</label>
+      </node>
+      <node id="20">
+        <label>vart_ml_io/vart_ml_io.h</label>
+        <link refid="vart__ml__io_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>npu_c_api/npu_c_api.h</label>
+        <link refid="npu__c__api_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>vcd_stats.h</label>
+        <link refid="vcd__stats_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>vector</label>
+      </node>
+      <node id="18">
+        <label>unordered_map</label>
+      </node>
+      <node id="7">
+        <label>mutex</label>
+      </node>
+      <node id="27">
+        <label>vart_ml_utils/vart_ml_log.h</label>
+        <link refid="vart__ml__log_8h"/>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>vcd_event.inc</label>
+      </node>
+      <node id="2">
+        <label>algorithm</label>
+      </node>
+      <node id="24">
+        <label>vart_ml_utils/fpga_info.h</label>
+        <link refid="fpga__info_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structVcdStatsPrivate" prot="public">VcdStatsPrivate</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="vcd__stats_8cpp_1a3d409cb450e34a67dce00bf7823b33b8" prot="public" static="no">
+        <name>EVENT</name>
+        <param><defname>event</defname></param>
+        <initializer>std::to_string(event) + &apos;_&apos; + #event,</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" line="81" column="9"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="vcd__stats_8cpp_1a736f1e076d74d3a12cf69bfb766075e1" prot="public" static="no">
+        <type>std::pair&lt; long int, std::string &gt;</type>
+        <definition>using vcd_event_t =  std::pair&lt;long int, std::string&gt;</definition>
+        <argsstring></argsstring>
+        <name>vcd_event_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" line="33" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="vcd__stats_8cpp_1a6ba5724709ad58bb0e1f0796f5e5873c" prot="public" static="yes" mutable="no">
+        <type>std::mutex</type>
+        <definition>std::mutex vcd_mutex</definition>
+        <argsstring></argsstring>
+        <name>vcd_mutex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" line="77" column="19" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" prot="public" static="no" mutable="no">
+        <type><ref refid="structVcdStatsPrivate" kindref="compound">VcdStatsPrivate</ref></type>
+        <definition>VcdStatsPrivate vcd_stats</definition>
+        <argsstring></argsstring>
+        <name>vcd_stats</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" line="78" column="19" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vcd__stats_8cpp_1a9afd54a389b4523fd48dc67d0d261033" prot="public" static="yes" mutable="no">
+        <type>const std::string</type>
+        <definition>const std::string vcd_event_names[]</definition>
+        <argsstring>[]</argsstring>
+        <name>vcd_event_names</name>
+        <initializer>= {
+#define <ref refid="vcd__stats_8h_1a3d409cb450e34a67dce00bf7823b33b8" kindref="member">EVENT</ref>(event) 
+
+}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" line="80" column="26" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vcd__stats_8cpp_1af513a30060fabe0bc681958e569f095a" prot="public" static="yes" mutable="no">
+        <type>const size_t</type>
+        <definition>const size_t vcd_events_count</definition>
+        <argsstring></argsstring>
+        <name>vcd_events_count</name>
+        <initializer>= sizeof(vcd_event_names) / sizeof(vcd_event_names[0])</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" line="86" column="21" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="vcd__stats_8cpp_1a79dbe81ebc6bb5165c573271e6e017b0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>static std::string get_wire_prefix</definition>
+        <argsstring>(int8_t network_id)</argsstring>
+        <name>get_wire_prefix</name>
+        <param>
+          <type>int8_t</type>
+          <declname>network_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" line="88" column="27" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" bodystart="88" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="vcd__stats_8cpp_1a5ae2a60f8f67d69a074669c4219800b2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void vcd_add_var</definition>
+        <argsstring>(int8_t network_id, size_t event_id, std::string event_name)</argsstring>
+        <name>vcd_add_var</name>
+        <param>
+          <type>int8_t</type>
+          <declname>network_id</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>event_id</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>event_name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" line="93" column="13" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" bodystart="93" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="vcd__stats_8cpp_1a953922a1209922a7291ac555570d00b5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>long int</type>
+        <definition>static long int diff_usec</definition>
+        <argsstring>(const struct timespec &amp;start, const struct timespec &amp;end)</argsstring>
+        <name>diff_usec</name>
+        <param>
+          <type>const struct timespec &amp;</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>const struct timespec &amp;</type>
+          <declname>end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" line="111" column="17" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" bodystart="111" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="vcd__stats_8cpp_1a11425b82362cce5ef1c926b53744338c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int vcd_init</definition>
+        <argsstring>()</argsstring>
+        <name>vcd_init</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" line="129" column="12" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" bodystart="129" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="vcd__stats_8cpp_1a82b977bdbe4253151ce934e4b0796fa7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int8_t</type>
+        <definition>int8_t vcd_register_network</definition>
+        <argsstring>(std::string network_name)</argsstring>
+        <name>vcd_register_network</name>
+        <param>
+          <type>std::string</type>
+          <declname>network_name</declname>
+        </param>
+        <briefdescription>
+<para>Register a new network for VCD logging. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>std::string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the network. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int8_t The id of the registered network or -1 if the function failed. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" line="167" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" bodystart="167" bodyend="201"/>
+      </memberdef>
+      <memberdef kind="function" id="vcd__stats_8cpp_1a02adbf23ac423306749ff286c17ab7bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int8_t</type>
+        <definition>int8_t vcd_register_global_event</definition>
+        <argsstring>(const std::string &amp;event_name)</argsstring>
+        <name>vcd_register_global_event</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>event_name</declname>
+        </param>
+        <briefdescription>
+<para>Register a new global event (not linked to any network). </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>std::string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the event. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int8_t The id of the registered event, -1 if the function failed or VCD stats are not enabled. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" line="203" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" bodystart="203" bodyend="215"/>
+      </memberdef>
+      <memberdef kind="function" id="vcd__stats_8cpp_1a65d14fb9e3f15a897366fd48f8383328" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int8_t</type>
+        <definition>int8_t vcd_register_event</definition>
+        <argsstring>(const std::string &amp;event_name)</argsstring>
+        <name>vcd_register_event</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>event_name</declname>
+        </param>
+        <briefdescription>
+<para>Register a new event for all networks. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This event will be added for all registered networks. Register all networks before registering new events.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>std::string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the event. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int8_t The id of the registered event, -1 if the function failed or VCD stats are not enabled. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" line="217" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" bodystart="217" bodyend="231"/>
+      </memberdef>
+      <memberdef kind="function" id="vcd__stats_8cpp_1acb5506236e296a410cad1e305b3040ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void vcd_set_nb_threads</definition>
+        <argsstring>(size_t nb_threads)</argsstring>
+        <name>vcd_set_nb_threads</name>
+        <param>
+          <type>size_t</type>
+          <declname>nb_threads</declname>
+        </param>
+        <briefdescription>
+<para>Set the number of threads vart_ml_runner may run simultaneously. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>size_t</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of threads to set. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" line="233" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" bodystart="233" bodyend="266"/>
+      </memberdef>
+      <memberdef kind="function" id="vcd__stats_8cpp_1a321a91d3c233e3b41cb7ef133fb3322b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void vcd_event</definition>
+        <argsstring>(const struct vcd_context &amp;vcd_context, int8_t event_id, bool state)</argsstring>
+        <name>vcd_event</name>
+        <param>
+          <type>const struct <ref refid="structvcd__context" kindref="compound">vcd_context</ref> &amp;</type>
+          <declname>vcd_context</declname>
+        </param>
+        <param>
+          <type>int8_t</type>
+          <declname>event_id</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+<para>Log a new event for VCD logging. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>struct</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="structvcd__context" kindref="compound">vcd_context</ref> Context of the VCD event. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>int8_t</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The id of the event to log. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bool</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The state of the event, true if event is ongoing, or false if the event has ended. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" line="268" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" bodystart="268" bodyend="368"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="copyright"><para>Copyright 2025 Advanced Micro Devices Inc.</para>
+</simplesect>
+Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <verbatim>http://www.apache.org/licenses/LICENSE-2.0
+</verbatim> Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. </para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;algorithm&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;assert.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;filesystem&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;fstream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iomanip&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;mutex&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;queue&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="vcd__stats_8h" kindref="compound">vcd_stats.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="npu__c__api_8h" kindref="compound">npu_c_api/npu_c_api.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="vart__ml__log_8h" kindref="compound">vart_ml_utils/vart_ml_log.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="vcd__stats_8cpp_1a736f1e076d74d3a12cf69bfb766075e1" kindref="member">vcd_event_t</ref><sp/>=<sp/>std::pair&lt;long<sp/>int,<sp/>std::string&gt;;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="structVcdStatsPrivate" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structVcdStatsPrivate" kindref="compound">VcdStatsPrivate</ref></highlight></codeline>
+<codeline lineno="36"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Are<sp/>stats<sp/>enabled.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structVcdStatsPrivate_1a9fe3c5a246d0136185aeef23f9da0bff" kindref="member">enable</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Has<sp/>the<sp/>stats<sp/>been<sp/>initialized<sp/>(i.e.:<sp/>has<sp/>at<sp/>least<sp/>one<sp/>network<sp/>been<sp/>registered).<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structVcdStatsPrivate_1a304a4f771e5340fa846a3caf46c65501" kindref="member">init</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Has<sp/>the<sp/>run<sp/>started<sp/>(i.e.:<sp/>has<sp/>at<sp/>least<sp/>one<sp/>call<sp/>to<sp/>vcd_event<sp/>been<sp/>made).<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structVcdStatsPrivate_1ac3fecf2e0db6743bbbbcc8a8f6b89f7e" kindref="member">run_started</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>std::ofstream<sp/><ref refid="structVcdStatsPrivate_1abe19cb032855e1090e2aad7e282ed81a" kindref="member">vcd_file</ref>;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Number<sp/>of<sp/>threads<sp/>vart_ml_runner<sp/>will<sp/>be<sp/>allowed<sp/>to<sp/>run<sp/>simultaneously.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="structVcdStatsPrivate_1ae0621e411a4a8d865b76fadc38c3c315" kindref="member">nb_threads_</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Vector<sp/>of<sp/>registered<sp/>network<sp/>names.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;std::string&gt;<sp/><ref refid="structVcdStatsPrivate_1a99e2675ef670536305b168f68f0879f9" kindref="member">network_names</ref>;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Starting<sp/>time<sp/>of<sp/>the<sp/>run.<sp/>All<sp/>timestamps<sp/>use<sp/>this<sp/>time<sp/>as<sp/>reference.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">timespec<sp/><ref refid="structVcdStatsPrivate_1a25e8f640559b9714dab4bdb7c53e7000" kindref="member">starting_time</ref>;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>User<sp/>defined<sp/>global<sp/>event<sp/>names.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;std::string&gt;<sp/><ref refid="structVcdStatsPrivate_1a263d9831e41130304636cff1d23bcf74" kindref="member">user_defined_global_event_names</ref>;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>User<sp/>defined<sp/>event<sp/>names.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;std::string&gt;<sp/><ref refid="structVcdStatsPrivate_1a00e121f1383abe100e94be91ed0f3534" kindref="member">user_defined_event_names</ref>;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Header<sp/>section<sp/>of<sp/>the<sp/>VCD<sp/>file,<sp/>containing<sp/>global<sp/>information.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="structVcdStatsPrivate_1a33b9c598d3c0e22e714c5f2fccc142e0" kindref="member">vcd_header</ref>;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Variable<sp/>definition<sp/>section<sp/>of<sp/>the<sp/>VCD<sp/>file,<sp/>each<sp/>element<sp/>of<sp/>the<sp/>vector<sp/>contains<sp/>one<sp/>module<sp/>(i.e.:<sp/>the</highlight></codeline>
+<codeline lineno="66"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>variables<sp/>defined<sp/>for<sp/>a<sp/>single<sp/>network).<sp/>At<sp/>index<sp/>0<sp/>is<sp/>the<sp/>module<sp/>for<sp/>global<sp/>variables.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;std::string&gt;<sp/><ref refid="structVcdStatsPrivate_1a5aba187c1f8da54dbf7edd4993410edf" kindref="member">vcd_var_def</ref>;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Dumpvars<sp/>section<sp/>of<sp/>the<sp/>VCD<sp/>file,<sp/>containing<sp/>the<sp/>initial<sp/>values<sp/>of<sp/>all<sp/>variables.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="structVcdStatsPrivate_1ae3e1276e600022b91af0b38fbe4d47fb" kindref="member">vcd_dumpvars</ref>;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>A<sp/>queue<sp/>of<sp/>events<sp/>(pair<sp/>of<sp/>timestamp<sp/>and<sp/>string<sp/>to<sp/>print)<sp/>for<sp/>each<sp/>network.<sp/>At<sp/>index<sp/>0<sp/>is<sp/>the<sp/>queue<sp/>for</highlight></codeline>
+<codeline lineno="73"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>global<sp/>events.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;std::queue&lt;vcd_event_t&gt;&gt;<sp/><ref refid="structVcdStatsPrivate_1abf185477a314428bdb7a76928685c7f4" kindref="member">vcd_value_change</ref>;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>std::mutex<sp/>vcd_mutex;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><ref refid="structVcdStatsPrivate" kindref="compound">VcdStatsPrivate</ref><sp/><sp/><sp/><ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>vcd_event_names[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EVENT(event)<sp/>std::to_string(event)<sp/>+<sp/>&apos;_&apos;<sp/>+<sp/>#event,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;vcd_event.inc&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="preprocessor">#undef<sp/>EVENT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>vcd_events_count<sp/>=<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(vcd_event_names)<sp/>/<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(vcd_event_names[0]);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>std::string<sp/>get_wire_prefix(int8_t<sp/>network_id)</highlight></codeline>
+<codeline lineno="89"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::string(1,<sp/>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">)(</highlight><highlight class="charliteral">&apos;A&apos;</highlight><highlight class="normal"><sp/>+<sp/>network_id));</highlight></codeline>
+<codeline lineno="91"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>vcd_add_var(int8_t<sp/>network_id,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>event_id,<sp/>std::string<sp/>event_name)</highlight></codeline>
+<codeline lineno="94"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>tid<sp/>=<sp/>0;<sp/>tid<sp/>&lt;<sp/><ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1ae0621e411a4a8d865b76fadc38c3c315" kindref="member">nb_threads_</ref>;<sp/>++tid)</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/>var_short_name<sp/>=</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>get_wire_prefix(network_id)<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;_&quot;</highlight><highlight class="normal"><sp/>+<sp/>std::to_string(event_id)<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;_t&quot;</highlight><highlight class="normal"><sp/>+<sp/>std::to_string(tid);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/>var_long_name<sp/>=</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1a99e2675ef670536305b168f68f0879f9" kindref="member">network_names</ref>[network_id]<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;_&quot;</highlight><highlight class="normal"><sp/>+<sp/>event_name<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;_t&quot;</highlight><highlight class="normal"><sp/>+<sp/>std::to_string(tid);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Define<sp/>new<sp/>variable<sp/>for<sp/>this<sp/>network.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1a5aba187c1f8da54dbf7edd4993410edf" kindref="member">vcd_var_def</ref>[network_id]<sp/>+=</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;$var<sp/>wire<sp/>1<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/>var_short_name<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/>var_long_name<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;<sp/>$end\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Set<sp/>variable&apos;s<sp/>initial<sp/>value<sp/>to<sp/>0.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1ae3e1276e600022b91af0b38fbe4d47fb" kindref="member">vcd_dumpvars</ref><sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;b0<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/>var_short_name<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="109"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>diff_usec(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/>timespec&amp;<sp/>start,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/>timespec&amp;<sp/>end)</highlight></codeline>
+<codeline lineno="112"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">timespec<sp/>diff;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(end.tv_nsec<sp/>&lt;<sp/>start.tv_nsec)</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>diff.tv_sec<sp/><sp/>=<sp/>end.tv_sec<sp/>-<sp/>start.tv_sec<sp/>-<sp/>1;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>diff.tv_nsec<sp/>=<sp/>end.tv_nsec<sp/>-<sp/>start.tv_nsec<sp/>+<sp/>1e9;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>diff.tv_sec<sp/><sp/>=<sp/>end.tv_sec<sp/>-<sp/>start.tv_sec;</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>diff.tv_nsec<sp/>=<sp/>end.tv_nsec<sp/>-<sp/>start.tv_nsec;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>diff.tv_sec<sp/>*<sp/>1e6<sp/>+<sp/>diff.tv_nsec<sp/>/<sp/>1e3;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>vcd_init()</highlight></codeline>
+<codeline lineno="130"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1a304a4f771e5340fa846a3caf46c65501" kindref="member">init</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Check<sp/>if<sp/>vcd<sp/>stats<sp/>are<sp/>enabled.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1a9fe3c5a246d0136185aeef23f9da0bff" kindref="member">enable</ref><sp/>=<sp/>getenv(</highlight><highlight class="stringliteral">&quot;VAISW_PROFILING_VCD&quot;</highlight><highlight class="normal">)<sp/>!=<sp/>NULL;</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1a9fe3c5a246d0136185aeef23f9da0bff" kindref="member">enable</ref>)</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Get<sp/>vcd<sp/>log<sp/>path.<sp/>If<sp/>given<sp/>path<sp/>is<sp/>a<sp/>directory,<sp/>append<sp/>a<sp/>file<sp/>name.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>log_file_path<sp/>=<sp/>getenv(</highlight><highlight class="stringliteral">&quot;VAISW_PROFILING_VCD&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(std::filesystem::is_directory(log_file_path))</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>log_file_path<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;/vcd.log&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="vart__ml__log_8cpp_1a45df91bf94fa17b9927cf1ff382272dd" kindref="member">vart_ml_log</ref>(<ref refid="vart__ml__log_8h_1a13dde5d90443fbbdee84e158585e5a86a6e98ff471e3ce6c4ef2d75c37ee51837" kindref="member">LOG_INFO</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Given<sp/>vcd<sp/>log<sp/>path<sp/>is<sp/>a<sp/>directory.\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1abe19cb032855e1090e2aad7e282ed81a" kindref="member">vcd_file</ref>.open(log_file_path);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1abe19cb032855e1090e2aad7e282ed81a" kindref="member">vcd_file</ref>.fail())</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="vart__ml__log_8cpp_1a45df91bf94fa17b9927cf1ff382272dd" kindref="member">vart_ml_log</ref>(<ref refid="vart__ml__log_8h_1a13dde5d90443fbbdee84e158585e5a86ac8041ffa22bc823d4726701cdb13fc13" kindref="member">LOG_WARN</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Could<sp/>not<sp/>open<sp/>vcd<sp/>output<sp/>file<sp/>`%s&apos;.\n&quot;</highlight><highlight class="normal">,<sp/>log_file_path.c_str());</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="vart__ml__log_8cpp_1a45df91bf94fa17b9927cf1ff382272dd" kindref="member">vart_ml_log</ref>(<ref refid="vart__ml__log_8h_1a13dde5d90443fbbdee84e158585e5a86a6e98ff471e3ce6c4ef2d75c37ee51837" kindref="member">LOG_INFO</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Writing<sp/>vcd<sp/>logs<sp/>to<sp/>`%s&apos;.\n&quot;</highlight><highlight class="normal">,<sp/>log_file_path.c_str());</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1a33b9c598d3c0e22e714c5f2fccc142e0" kindref="member">vcd_header</ref><sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;$version<sp/>1.0<sp/>$end\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1a33b9c598d3c0e22e714c5f2fccc142e0" kindref="member">vcd_header</ref><sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;$comment<sp/>VAISW<sp/>profiler<sp/>from<sp/>AMD<sp/>tool<sp/>$end\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1a33b9c598d3c0e22e714c5f2fccc142e0" kindref="member">vcd_header</ref><sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;$timescale<sp/>1us<sp/>$end\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Add<sp/>global<sp/>module.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1a99e2675ef670536305b168f68f0879f9" kindref="member">network_names</ref>.push_back(std::string(</highlight><highlight class="stringliteral">&quot;global&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1a5aba187c1f8da54dbf7edd4993410edf" kindref="member">vcd_var_def</ref>.push_back(std::string(</highlight><highlight class="stringliteral">&quot;$scope<sp/>module<sp/>global<sp/>$end\n&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1abf185477a314428bdb7a76928685c7f4" kindref="member">vcd_value_change</ref>.push_back(std::queue&lt;vcd_event_t&gt;());</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1ae3e1276e600022b91af0b38fbe4d47fb" kindref="member">vcd_dumpvars</ref><sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;$dumpvars\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="165"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal">int8_t<sp/><ref refid="vcd__stats_8cpp_1a82b977bdbe4253151ce934e4b0796fa7" kindref="member">vcd_register_network</ref>(std::string<sp/>network_name)</highlight></codeline>
+<codeline lineno="168"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::lock_guard&lt;std::mutex&gt;<sp/>lock(vcd_mutex);</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Initialize<sp/>stats<sp/>if<sp/>not<sp/>done<sp/>before.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1a304a4f771e5340fa846a3caf46c65501" kindref="member">init</ref>)</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(vcd_init()<sp/>==<sp/>-1)</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1a9fe3c5a246d0136185aeef23f9da0bff" kindref="member">enable</ref>)</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Check<sp/>if<sp/>logging<sp/>has<sp/>already<sp/>started.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1ac3fecf2e0db6743bbbbcc8a8f6b89f7e" kindref="member">run_started</ref>)</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="vart__ml__log_8cpp_1a45df91bf94fa17b9927cf1ff382272dd" kindref="member">vart_ml_log</ref>(<ref refid="vart__ml__log_8h_1a13dde5d90443fbbdee84e158585e5a86ac8041ffa22bc823d4726701cdb13fc13" kindref="member">LOG_WARN</ref>,</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Loading<sp/>a<sp/>snapshot<sp/>while<sp/>inference<sp/>of<sp/>other<sp/>snapshot<sp/>has<sp/>started.<sp/>VCD<sp/>dump<sp/>may<sp/>not<sp/>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;work\n.If<sp/>possible,<sp/>load<sp/>all<sp/>snapshot<sp/>before<sp/>starting<sp/>inference.\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Get<sp/>network<sp/>id.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/>int8_t<sp/>network_id<sp/>=<sp/><ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1a99e2675ef670536305b168f68f0879f9" kindref="member">network_names</ref>.size();</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Set<sp/>network<sp/>name.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1a99e2675ef670536305b168f68f0879f9" kindref="member">network_names</ref>.push_back(network_name);</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Create<sp/>a<sp/>new<sp/>queue<sp/>for<sp/>this<sp/>network&apos;s<sp/>events.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1abf185477a314428bdb7a76928685c7f4" kindref="member">vcd_value_change</ref>.push_back(std::queue&lt;vcd_event_t&gt;());</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Add<sp/>pre-definded<sp/>events<sp/>to<sp/>network.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1a5aba187c1f8da54dbf7edd4993410edf" kindref="member">vcd_var_def</ref>.push_back(std::string(</highlight><highlight class="stringliteral">&quot;$scope<sp/>module<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/>network_name<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;<sp/>$end\n&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>vcd_events_count;<sp/>++i)</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vcd_add_var(network_id,<sp/>i,<sp/>vcd_event_names[i]);</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>network_id;</highlight></codeline>
+<codeline lineno="201"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight></codeline>
+<codeline lineno="203"><highlight class="normal">int8_t<sp/><ref refid="vcd__stats_8cpp_1a02adbf23ac423306749ff286c17ab7bf" kindref="member">vcd_register_global_event</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>event_name)</highlight></codeline>
+<codeline lineno="204"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>If<sp/>VCD<sp/>stats<sp/>are<sp/>not<sp/>enabled,<sp/>do<sp/>nothing.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(not<sp/><ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1a9fe3c5a246d0136185aeef23f9da0bff" kindref="member">enable</ref>)</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/>int8_t<sp/>event_id<sp/>=<sp/><ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1a263d9831e41130304636cff1d23bcf74" kindref="member">user_defined_global_event_names</ref>.size();</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1a263d9831e41130304636cff1d23bcf74" kindref="member">user_defined_global_event_names</ref>.push_back(event_name);</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/>vcd_add_var(<ref refid="vcd__stats_8h_1a30175e7c7fdba913debae33280bef242" kindref="member">VCD_GLOBAL_ID</ref>,<sp/>event_id,<sp/>event_name);</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>event_id;</highlight></codeline>
+<codeline lineno="215"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="217"><highlight class="normal">int8_t<sp/><ref refid="vcd__stats_8cpp_1a65d14fb9e3f15a897366fd48f8383328" kindref="member">vcd_register_event</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>event_name)</highlight></codeline>
+<codeline lineno="218"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>If<sp/>VCD<sp/>stats<sp/>are<sp/>not<sp/>enabled,<sp/>do<sp/>nothing.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(not<sp/><ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1a9fe3c5a246d0136185aeef23f9da0bff" kindref="member">enable</ref>)</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/>int8_t<sp/>event_id<sp/>=<sp/><ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1a00e121f1383abe100e94be91ed0f3534" kindref="member">user_defined_event_names</ref>.size()<sp/>+<sp/>vcd_events_count;</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1a00e121f1383abe100e94be91ed0f3534" kindref="member">user_defined_event_names</ref>.push_back(event_name);</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Start<sp/>at<sp/>1<sp/>to<sp/>ignore<sp/>the<sp/>global<sp/>module.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>network_id<sp/>=<sp/>1;<sp/>network_id<sp/>&lt;<sp/><ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1a99e2675ef670536305b168f68f0879f9" kindref="member">network_names</ref>.size();<sp/>++network_id)</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vcd_add_var(network_id,<sp/>event_id,<sp/>event_name);</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"></highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>event_id;</highlight></codeline>
+<codeline lineno="231"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"></highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="vcd__stats_8cpp_1acb5506236e296a410cad1e305b3040ca" kindref="member">vcd_set_nb_threads</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>nb_threads)</highlight></codeline>
+<codeline lineno="234"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>If<sp/>VCD<sp/>stats<sp/>are<sp/>not<sp/>enabled,<sp/>do<sp/>nothing.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1a9fe3c5a246d0136185aeef23f9da0bff" kindref="member">enable</ref>)</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"></highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1ae0621e411a4a8d865b76fadc38c3c315" kindref="member">nb_threads_</ref><sp/>&gt;=<sp/>nb_threads)</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1ae0621e411a4a8d865b76fadc38c3c315" kindref="member">nb_threads_</ref><sp/>=<sp/>nb_threads;</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Clear<sp/>dumpvars.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1ae3e1276e600022b91af0b38fbe4d47fb" kindref="member">vcd_dumpvars</ref>.clear();</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1ae3e1276e600022b91af0b38fbe4d47fb" kindref="member">vcd_dumpvars</ref><sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;$dumpvars\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Clear<sp/>global<sp/>var<sp/>defs<sp/>and<sp/>re<sp/>add<sp/>global<sp/>variables.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1a5aba187c1f8da54dbf7edd4993410edf" kindref="member">vcd_var_def</ref>[<ref refid="vcd__stats_8h_1a30175e7c7fdba913debae33280bef242" kindref="member">VCD_GLOBAL_ID</ref>].clear();</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1a5aba187c1f8da54dbf7edd4993410edf" kindref="member">vcd_var_def</ref>[<ref refid="vcd__stats_8h_1a30175e7c7fdba913debae33280bef242" kindref="member">VCD_GLOBAL_ID</ref>]<sp/>+=<sp/>std::string(</highlight><highlight class="stringliteral">&quot;$scope<sp/>module<sp/>global<sp/>$end\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>event_id<sp/>=<sp/>0;<sp/>event_id<sp/>&lt;<sp/><ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1a263d9831e41130304636cff1d23bcf74" kindref="member">user_defined_global_event_names</ref>.size();<sp/>++event_id)</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vcd_add_var(<ref refid="vcd__stats_8h_1a30175e7c7fdba913debae33280bef242" kindref="member">VCD_GLOBAL_ID</ref>,<sp/>event_id,<sp/><ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1a263d9831e41130304636cff1d23bcf74" kindref="member">user_defined_global_event_names</ref>[event_id]);</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Clear<sp/>networks<sp/>var<sp/>defs<sp/>and<sp/>re<sp/>add<sp/>network<sp/>variables.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>network_id<sp/>=<sp/>1;<sp/>network_id<sp/>&lt;<sp/><ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1a99e2675ef670536305b168f68f0879f9" kindref="member">network_names</ref>.size();<sp/>network_id++)</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1a5aba187c1f8da54dbf7edd4993410edf" kindref="member">vcd_var_def</ref>[network_id].clear();</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1a5aba187c1f8da54dbf7edd4993410edf" kindref="member">vcd_var_def</ref>[network_id]<sp/>+=</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string(</highlight><highlight class="stringliteral">&quot;$scope<sp/>module<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/><ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1a99e2675ef670536305b168f68f0879f9" kindref="member">network_names</ref>[network_id]<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;<sp/>$end\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>event_id<sp/>=<sp/>0;<sp/>event_id<sp/>&lt;<sp/>vcd_events_count;<sp/>++event_id)</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vcd_add_var(network_id,<sp/>event_id,<sp/>vcd_event_names[event_id]);</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>event_id<sp/>=<sp/>0;<sp/>event_id<sp/>&lt;<sp/><ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1a00e121f1383abe100e94be91ed0f3534" kindref="member">user_defined_event_names</ref>.size();<sp/>++event_id)</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vcd_add_var(</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>network_id,<sp/>event_id<sp/>+<sp/>vcd_events_count,<sp/><ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1a00e121f1383abe100e94be91ed0f3534" kindref="member">user_defined_event_names</ref>[event_id]);</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="266"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"></highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="vcd__stats_8cpp_1a321a91d3c233e3b41cb7ef133fb3322b" kindref="member">vcd_event</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structvcd__context" kindref="compound">vcd_context</ref>&amp;<sp/><ref refid="structvcd__context" kindref="compound">vcd_context</ref>,<sp/>int8_t<sp/>event_id,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>state)</highlight></codeline>
+<codeline lineno="269"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>If<sp/>VCD<sp/>stats<sp/>are<sp/>not<sp/>enabled,<sp/>do<sp/>nothing.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1a9fe3c5a246d0136185aeef23f9da0bff" kindref="member">enable</ref>)</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"></highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Check<sp/>if<sp/>this<sp/>is<sp/>the<sp/>first<sp/>call<sp/>to<sp/>vcd_event.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>event_timestamp;</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1ac3fecf2e0db6743bbbbcc8a8f6b89f7e" kindref="member">run_started</ref>)</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Compute<sp/>event<sp/>timestamp<sp/>from<sp/>starting<sp/>time.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">timespec<sp/>t;</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>clock_gettime(CLOCK_REALTIME,<sp/>&amp;t);</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>event_timestamp<sp/>=<sp/>diff_usec(<ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1a25e8f640559b9714dab4bdb7c53e7000" kindref="member">starting_time</ref>,<sp/>t);</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>This<sp/>is<sp/>the<sp/>first<sp/>event.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>event_timestamp<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"></highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::lock_guard&lt;std::mutex&gt;<sp/>lock(vcd_mutex);</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"></highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1ac3fecf2e0db6743bbbbcc8a8f6b89f7e" kindref="member">run_started</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"></highlight></codeline>
+<codeline lineno="292"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Set<sp/>starting<sp/>time.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>clock_gettime(CLOCK_REALTIME,<sp/>&amp;<ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1a25e8f640559b9714dab4bdb7c53e7000" kindref="member">starting_time</ref>);</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"></highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Dump<sp/>preliminary<sp/>sections.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="296"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1abe19cb032855e1090e2aad7e282ed81a" kindref="member">vcd_file</ref><sp/>&lt;&lt;<sp/><ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1a33b9c598d3c0e22e714c5f2fccc142e0" kindref="member">vcd_header</ref>;</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1abe19cb032855e1090e2aad7e282ed81a" kindref="member">vcd_file</ref><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;$comment<sp/>Starting<sp/>time:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/><ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1a25e8f640559b9714dab4bdb7c53e7000" kindref="member">starting_time</ref>.tv_sec<sp/>&lt;&lt;<sp/>std::setw(9)</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;&lt;<sp/>std::setfill(</highlight><highlight class="charliteral">&apos;0&apos;</highlight><highlight class="normal">)<sp/>&lt;&lt;<sp/><ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1a25e8f640559b9714dab4bdb7c53e7000" kindref="member">starting_time</ref>.tv_nsec<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;ns<sp/>$end\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="299"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>var_def<sp/>:<sp/><ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1a5aba187c1f8da54dbf7edd4993410edf" kindref="member">vcd_var_def</ref>)</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1abe19cb032855e1090e2aad7e282ed81a" kindref="member">vcd_file</ref><sp/>&lt;&lt;<sp/>var_def<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;$upscope<sp/>$end\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1abe19cb032855e1090e2aad7e282ed81a" kindref="member">vcd_file</ref><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;$enddefinitions<sp/>$end\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="302"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1abe19cb032855e1090e2aad7e282ed81a" kindref="member">vcd_file</ref><sp/>&lt;&lt;<sp/><ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1ae3e1276e600022b91af0b38fbe4d47fb" kindref="member">vcd_dumpvars</ref>;</highlight></codeline>
+<codeline lineno="303"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1abe19cb032855e1090e2aad7e282ed81a" kindref="member">vcd_file</ref><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;$end\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1abe19cb032855e1090e2aad7e282ed81a" kindref="member">vcd_file</ref>.flush();</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"></highlight></codeline>
+<codeline lineno="307"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>If<sp/>network<sp/>does<sp/>not<sp/>exist,<sp/>warn<sp/>and<sp/>quit.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="308"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((<ref refid="structvcd__context" kindref="compound">vcd_context</ref>.<ref refid="structvcd__context_1a56ab530dbfc30a9b5ffec9f761ee6e7f" kindref="member">network_id</ref><sp/>&lt;<sp/>0)<sp/>||<sp/>((</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal">)<ref refid="structvcd__context" kindref="compound">vcd_context</ref>.<ref refid="structvcd__context_1a56ab530dbfc30a9b5ffec9f761ee6e7f" kindref="member">network_id</ref><sp/>&gt;=<sp/><ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1a99e2675ef670536305b168f68f0879f9" kindref="member">network_names</ref>.size()))</highlight></codeline>
+<codeline lineno="309"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="vart__ml__log_8cpp_1a45df91bf94fa17b9927cf1ff382272dd" kindref="member">vart_ml_log</ref>(<ref refid="vart__ml__log_8h_1a13dde5d90443fbbdee84e158585e5a86ac8041ffa22bc823d4726701cdb13fc13" kindref="member">LOG_WARN</ref>,</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Logging<sp/>an<sp/>event<sp/>for<sp/>non-existant<sp/>network:<sp/>%d.\nPlease<sp/>ensure<sp/>you<sp/>are<sp/>calling<sp/>%s<sp/>with<sp/>a<sp/>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;registered<sp/>network.\n&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structvcd__context" kindref="compound">vcd_context</ref>.<ref refid="structvcd__context_1a56ab530dbfc30a9b5ffec9f761ee6e7f" kindref="member">network_id</ref>,</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>__func__);</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="316"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="317"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>If<sp/>event<sp/>does<sp/>not<sp/>exist,<sp/>warn<sp/>and<sp/>quit.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="318"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((event_id<sp/>&lt;<sp/>0)</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>||<sp/>((<ref refid="structvcd__context" kindref="compound">vcd_context</ref>.<ref refid="structvcd__context_1a56ab530dbfc30a9b5ffec9f761ee6e7f" kindref="member">network_id</ref><sp/>==<sp/><ref refid="vcd__stats_8h_1a30175e7c7fdba913debae33280bef242" kindref="member">VCD_GLOBAL_ID</ref>)</highlight></codeline>
+<codeline lineno="320"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/>((</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal">)event_id<sp/>&gt;=<sp/><ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1a263d9831e41130304636cff1d23bcf74" kindref="member">user_defined_global_event_names</ref>.size()))</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>||<sp/>((<ref refid="structvcd__context" kindref="compound">vcd_context</ref>.<ref refid="structvcd__context_1a56ab530dbfc30a9b5ffec9f761ee6e7f" kindref="member">network_id</ref><sp/>&gt;<sp/><ref refid="vcd__stats_8h_1a30175e7c7fdba913debae33280bef242" kindref="member">VCD_GLOBAL_ID</ref>)</highlight></codeline>
+<codeline lineno="322"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/>((</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal">)event_id<sp/>&gt;=<sp/>(vcd_events_count<sp/>+<sp/><ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1a00e121f1383abe100e94be91ed0f3534" kindref="member">user_defined_event_names</ref>.size()))))</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="vart__ml__log_8cpp_1a45df91bf94fa17b9927cf1ff382272dd" kindref="member">vart_ml_log</ref>(</highlight></codeline>
+<codeline lineno="325"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="vart__ml__log_8h_1a13dde5d90443fbbdee84e158585e5a86ac8041ffa22bc823d4726701cdb13fc13" kindref="member">LOG_WARN</ref>,</highlight></codeline>
+<codeline lineno="326"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Logging<sp/>non-existant<sp/>event:<sp/>%d.\nPlease<sp/>ensure<sp/>you<sp/>are<sp/>calling<sp/>%s<sp/>with<sp/>a<sp/>registered<sp/>event.\n&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="327"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>event_id,</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>__func__);</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="330"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="331"><highlight class="normal"></highlight></codeline>
+<codeline lineno="332"><highlight class="normal"><sp/><sp/><sp/><sp/>std::queue&lt;vcd_event_t&gt;&amp;<sp/>network_queue<sp/>=<sp/><ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1abf185477a314428bdb7a76928685c7f4" kindref="member">vcd_value_change</ref>.at(<ref refid="structvcd__context" kindref="compound">vcd_context</ref>.<ref refid="structvcd__context_1a56ab530dbfc30a9b5ffec9f761ee6e7f" kindref="member">network_id</ref>);</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"></highlight></codeline>
+<codeline lineno="334"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Push<sp/>event<sp/>in<sp/>network&apos;s<sp/>queue.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="335"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>event_str(</highlight><highlight class="stringliteral">&quot;#&quot;</highlight><highlight class="normal"><sp/>+<sp/>std::to_string(event_timestamp)<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;\nb&quot;</highlight><highlight class="normal"><sp/>+<sp/>std::to_string(state)<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;<sp/>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="336"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>+<sp/>get_wire_prefix(<ref refid="structvcd__context" kindref="compound">vcd_context</ref>.<ref refid="structvcd__context_1a56ab530dbfc30a9b5ffec9f761ee6e7f" kindref="member">network_id</ref>)<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;_&quot;</highlight><highlight class="normal"><sp/>+<sp/>std::to_string(event_id)</highlight></codeline>
+<codeline lineno="337"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>+<sp/></highlight><highlight class="stringliteral">&quot;_t&quot;</highlight><highlight class="normal"><sp/>+<sp/>std::to_string(<ref refid="structvcd__context" kindref="compound">vcd_context</ref>.<ref refid="structvcd__context_1a888da9416a60630188729dfcd2aace3d" kindref="member">thread_id</ref>)<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="338"><highlight class="normal"><sp/><sp/><sp/><sp/>network_queue.push({<sp/>event_timestamp,<sp/>event_str<sp/>});</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"></highlight></codeline>
+<codeline lineno="340"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>If<sp/>this<sp/>is<sp/>the<sp/>end<sp/>of<sp/>a<sp/>run.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="341"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(event_id<sp/>==<sp/>EXECUTE<sp/>&amp;&amp;<sp/>!state)</highlight></codeline>
+<codeline lineno="342"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::lock_guard&lt;std::mutex&gt;<sp/>lock(vcd_mutex);</highlight></codeline>
+<codeline lineno="344"><highlight class="normal"></highlight></codeline>
+<codeline lineno="345"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Dump<sp/>events<sp/>in<sp/>order<sp/>until<sp/>the<sp/>network&apos;s<sp/>queue<sp/>is<sp/>empty.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="346"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(!network_queue.empty())</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="348"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Get<sp/>the<sp/>earliest<sp/>event<sp/>in<sp/>the<sp/>queues.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="349"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;std::queue&lt;vcd_event_t&gt;&gt;::iterator<sp/>earliest_event_queue<sp/>=</highlight></codeline>
+<codeline lineno="350"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::min_element(<ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1abf185477a314428bdb7a76928685c7f4" kindref="member">vcd_value_change</ref>.begin(),</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1abf185477a314428bdb7a76928685c7f4" kindref="member">vcd_value_change</ref>.end(),</highlight></codeline>
+<codeline lineno="352"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>b)<sp/>{</highlight></codeline>
+<codeline lineno="353"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>long<sp/>int<sp/>x<sp/>=<sp/>std::numeric_limits&lt;long<sp/>int&gt;::max();</highlight></codeline>
+<codeline lineno="354"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>long<sp/>int<sp/>y<sp/>=<sp/>std::numeric_limits&lt;long<sp/>int&gt;::max();</highlight></codeline>
+<codeline lineno="355"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>(!a.empty())</highlight></codeline>
+<codeline lineno="356"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>x<sp/>=<sp/>std::get&lt;0&gt;(a.front());</highlight></codeline>
+<codeline lineno="357"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>(!b.empty())</highlight></codeline>
+<codeline lineno="358"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>y<sp/>=<sp/>std::get&lt;0&gt;(b.front());</highlight></codeline>
+<codeline lineno="359"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>x<sp/>&lt;<sp/>y;</highlight></codeline>
+<codeline lineno="360"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>});</highlight></codeline>
+<codeline lineno="361"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="vcd__stats_8cpp_1a736f1e076d74d3a12cf69bfb766075e1" kindref="member">vcd_event_t</ref><sp/>earliest_event<sp/>=<sp/>earliest_event_queue-&gt;front();</highlight></codeline>
+<codeline lineno="362"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>earliest_event_queue-&gt;pop();</highlight></codeline>
+<codeline lineno="363"><highlight class="normal"></highlight></codeline>
+<codeline lineno="364"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Dump<sp/>the<sp/>event.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="365"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="vcd__stats_8cpp_1a22193be724b22824266e84b65851e21e" kindref="member">vcd_stats</ref>.<ref refid="structVcdStatsPrivate_1abe19cb032855e1090e2aad7e282ed81a" kindref="member">vcd_file</ref><sp/>&lt;&lt;<sp/>std::get&lt;1&gt;(earliest_event);</highlight></codeline>
+<codeline lineno="366"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="367"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="368"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp"/>
+  </compounddef>
+</doxygen>

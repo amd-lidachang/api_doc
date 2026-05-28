@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_b73639e37f4fa253bd52af692c8230fc" kind="dir">
+    <compoundname>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/plkernel</compoundname>
+    <innerfile refid="vart__plkernel_8cpp">vart_plkernel.cpp</innerfile>
+    <innerfile refid="vart__plkernel__impl__xrt_8cpp">vart_plkernel_impl_xrt.cpp</innerfile>
+    <innerfile refid="vart__plkernel__impl__xrt_8hpp">vart_plkernel_impl_xrt.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/plkernel/"/>
+  </compounddef>
+</doxygen>

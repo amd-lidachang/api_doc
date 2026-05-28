@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classvart_1_1OverlayImplBase" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>vart::OverlayImplBase</compoundname>
+    <derivedcompoundref refid="classvart_1_1OverlayImplOpenCV" prot="public" virt="non-virtual">vart::OverlayImplOpenCV</derivedcompoundref>
+    <includes refid="vart__overlay__impl__base_8hpp" local="no">vart_overlay_impl_base.hpp</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classvart_1_1OverlayImplBase_1a5d1750ae0351cb8507d5fcc90ebb821f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>vart::OverlayImplBase::OverlayImplBase</definition>
+        <argsstring>()=default</argsstring>
+        <name>OverlayImplBase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base/vart_overlay_impl_base.hpp" line="27" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1OverlayImplBase_1a3c846cc59b3766d46d72d4b5c0440cd9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual vart::OverlayImplBase::~OverlayImplBase</definition>
+        <argsstring>()</argsstring>
+        <name>~OverlayImplBase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base/vart_overlay_impl_base.hpp" line="28" column="11" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base/vart_overlay_impl_base.hpp" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1OverlayImplBase_1a86efb7cbb2369c74cc131a177c0d7b5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void vart::OverlayImplBase::draw_overlay</definition>
+        <argsstring>(VideoFrame &amp;frame, OverlayShapeInfo &amp;shape_info)=0</argsstring>
+        <name>draw_overlay</name>
+        <reimplementedby refid="classvart_1_1OverlayImplOpenCV_1a2acf9511b9483c267a65ea8fc56bf67e">draw_overlay</reimplementedby>
+        <param>
+          <type><ref refid="classvart_1_1VideoFrame" kindref="compound">VideoFrame</ref> &amp;</type>
+          <declname>frame</declname>
+        </param>
+        <param>
+          <type><ref refid="structvart_1_1OverlayShapeInfo" kindref="compound">OverlayShapeInfo</ref> &amp;</type>
+          <declname>shape_info</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="classvart_1_1OverlayImplBase_1a86efb7cbb2369c74cc131a177c0d7b5c" kindref="member">draw_overlay()</ref> - Draws the input overlay information on to the frame </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>frame</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>video frame on which drawing operation to be performed</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>shape_info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Information used in drawing operation </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base/vart_overlay_impl_base.hpp" line="39" column="16"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>vart::OverlayImplOpenCV</label>
+        <link refid="classvart_1_1OverlayImplOpenCV"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>vart::OverlayImplBase</label>
+        <link refid="classvart_1_1OverlayImplBase"/>
+      </node>
+    </inheritancegraph>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base/vart_overlay_impl_base.hpp" line="25" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base/vart_overlay_impl_base.hpp" bodystart="25" bodyend="41"/>
+    <listofallmembers>
+      <member refid="classvart_1_1OverlayImplBase_1a86efb7cbb2369c74cc131a177c0d7b5c" prot="public" virt="pure-virtual"><scope>vart::OverlayImplBase</scope><name>draw_overlay</name></member>
+      <member refid="classvart_1_1OverlayImplBase_1a5d1750ae0351cb8507d5fcc90ebb821f" prot="public" virt="non-virtual"><scope>vart::OverlayImplBase</scope><name>OverlayImplBase</name></member>
+      <member refid="classvart_1_1OverlayImplBase_1a3c846cc59b3766d46d72d4b5c0440cd9" prot="public" virt="virtual"><scope>vart::OverlayImplBase</scope><name>~OverlayImplBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

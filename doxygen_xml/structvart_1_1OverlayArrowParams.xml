@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structvart_1_1OverlayArrowParams" kind="struct" language="C++" prot="public">
+    <compoundname>vart::OverlayArrowParams</compoundname>
+    <includes refid="vart__overlay__types_8hpp" local="no">vart_overlay_types.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structvart_1_1OverlayArrowParams_1af08ca27a6ec90e6878e437e601291f86" prot="public" static="no" mutable="no">
+        <type><ref refid="structvart_1_1OverlayCoordinates" kindref="compound">OverlayCoordinates</ref></type>
+        <definition>OverlayCoordinates vart::OverlayArrowParams::start_pt</definition>
+        <argsstring></argsstring>
+        <name>start_pt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" line="234" column="22" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" bodystart="234" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1OverlayArrowParams_1a08a4afa1332a64ab4edafe1207056436" prot="public" static="no" mutable="no">
+        <type><ref refid="structvart_1_1OverlayCoordinates" kindref="compound">OverlayCoordinates</ref></type>
+        <definition>OverlayCoordinates vart::OverlayArrowParams::end_pt</definition>
+        <argsstring></argsstring>
+        <name>end_pt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" line="235" column="22" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" bodystart="235" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1OverlayArrowParams_1af911812304e11a11755d5ff4fad7c2b0" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacevart_1aadade013666a84810b73dda10f70351d" kindref="member">OverlayArrowDirection</ref></type>
+        <definition>OverlayArrowDirection vart::OverlayArrowParams::arrow_direction</definition>
+        <argsstring></argsstring>
+        <name>arrow_direction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" line="236" column="25" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" bodystart="236" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1OverlayArrowParams_1a61675691445b955cefda0450a8105833" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t vart::OverlayArrowParams::thickness</definition>
+        <argsstring></argsstring>
+        <name>thickness</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" line="237" column="12" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" bodystart="237" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1OverlayArrowParams_1af0dd1e9a6a7c20f1ee06b562c91b64e6" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float vart::OverlayArrowParams::tipLength</definition>
+        <argsstring></argsstring>
+        <name>tipLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" line="238" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" bodystart="238" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1OverlayArrowParams_1a7516f2f9861c08d503123c6ff2813c4e" prot="public" static="no" mutable="no">
+        <type><ref refid="structvart_1_1OverlayColorData" kindref="compound">OverlayColorData</ref></type>
+        <definition>OverlayColorData vart::OverlayArrowParams::line_color</definition>
+        <argsstring></argsstring>
+        <name>line_color</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" line="239" column="20" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" bodystart="239" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Structure representing Arrow information. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>vart::OverlayCoordinates</label>
+        <link refid="structvart_1_1OverlayCoordinates"/>
+      </node>
+      <node id="3">
+        <label>vart::OverlayColorData</label>
+        <link refid="structvart_1_1OverlayColorData"/>
+      </node>
+      <node id="1">
+        <label>vart::OverlayArrowParams</label>
+        <link refid="structvart_1_1OverlayArrowParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>end_pt</edgelabel>
+          <edgelabel>start_pt</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>line_color</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" line="233" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" bodystart="233" bodyend="240"/>
+    <listofallmembers>
+      <member refid="structvart_1_1OverlayArrowParams_1af911812304e11a11755d5ff4fad7c2b0" prot="public" virt="non-virtual"><scope>vart::OverlayArrowParams</scope><name>arrow_direction</name></member>
+      <member refid="structvart_1_1OverlayArrowParams_1a08a4afa1332a64ab4edafe1207056436" prot="public" virt="non-virtual"><scope>vart::OverlayArrowParams</scope><name>end_pt</name></member>
+      <member refid="structvart_1_1OverlayArrowParams_1a7516f2f9861c08d503123c6ff2813c4e" prot="public" virt="non-virtual"><scope>vart::OverlayArrowParams</scope><name>line_color</name></member>
+      <member refid="structvart_1_1OverlayArrowParams_1af08ca27a6ec90e6878e437e601291f86" prot="public" virt="non-virtual"><scope>vart::OverlayArrowParams</scope><name>start_pt</name></member>
+      <member refid="structvart_1_1OverlayArrowParams_1a61675691445b955cefda0450a8105833" prot="public" virt="non-virtual"><scope>vart::OverlayArrowParams</scope><name>thickness</name></member>
+      <member refid="structvart_1_1OverlayArrowParams_1af0dd1e9a6a7c20f1ee06b562c91b64e6" prot="public" virt="non-virtual"><scope>vart::OverlayArrowParams</scope><name>tipLength</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

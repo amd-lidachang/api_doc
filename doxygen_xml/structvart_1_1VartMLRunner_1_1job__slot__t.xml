@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structvart_1_1VartMLRunner_1_1job__slot__t" kind="struct" language="C++" prot="public">
+    <compoundname>vart::VartMLRunner::job_slot_t</compoundname>
+    <includes refid="vart__ml__runner_8hpp" local="no">vart_ml_runner.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structvart_1_1VartMLRunner_1_1job__slot__t_1a6fca106f2e71694770a22bb484bbe6eb" prot="public" static="no" mutable="no">
+        <type>std::promise&lt; <ref refid="namespacevart_1a199a136a2f428ecad425db9304cfa73c" kindref="member">StatusCode</ref> &gt;</type>
+        <definition>std::promise&lt;StatusCode&gt; vart::VartMLRunner::job_slot_t::promise</definition>
+        <argsstring></argsstring>
+        <name>promise</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" line="247" column="14" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" bodystart="247" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1VartMLRunner_1_1job__slot__t_1a1968660a0b963cd7811934e8ecb7a6d2" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int vart::VartMLRunner::job_slot_t::job_id</definition>
+        <argsstring></argsstring>
+        <name>job_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" line="248" column="26" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" bodystart="248" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1VartMLRunner_1_1job__slot__t_1ac5291e689cd4d12c96d30c42054dbb72" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool vart::VartMLRunner::job_slot_t::is_pending</definition>
+        <argsstring></argsstring>
+        <name>is_pending</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" line="249" column="26" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" bodystart="249" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1VartMLRunner_1_1job__slot__t_1adcbe8a365f98b5a62884cd3a957b2485" prot="public" static="no" mutable="no">
+        <type><ref refid="classvart_1_1Runner_1a6a2c910f1b355a56cd827fea6aeb333c" kindref="member">ExecuteAsyncCallback</ref></type>
+        <definition>ExecuteAsyncCallback vart::VartMLRunner::job_slot_t::cb</definition>
+        <argsstring></argsstring>
+        <name>cb</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" line="250" column="26" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" bodystart="250" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" line="245" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" bodystart="246" bodyend="251"/>
+    <listofallmembers>
+      <member refid="structvart_1_1VartMLRunner_1_1job__slot__t_1adcbe8a365f98b5a62884cd3a957b2485" prot="public" virt="non-virtual"><scope>vart::VartMLRunner::job_slot_t</scope><name>cb</name></member>
+      <member refid="structvart_1_1VartMLRunner_1_1job__slot__t_1ac5291e689cd4d12c96d30c42054dbb72" prot="public" virt="non-virtual"><scope>vart::VartMLRunner::job_slot_t</scope><name>is_pending</name></member>
+      <member refid="structvart_1_1VartMLRunner_1_1job__slot__t_1a1968660a0b963cd7811934e8ecb7a6d2" prot="public" virt="non-virtual"><scope>vart::VartMLRunner::job_slot_t</scope><name>job_id</name></member>
+      <member refid="structvart_1_1VartMLRunner_1_1job__slot__t_1a6fca106f2e71694770a22bb484bbe6eb" prot="public" virt="non-virtual"><scope>vart::VartMLRunner::job_slot_t</scope><name>promise</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

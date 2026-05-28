@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_f621d4563940aa370d855f7693a296d7" kind="dir">
+    <compoundname>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_tools</compoundname>
+    <innerfile refid="vart__ml__clocks_8cpp">vart_ml_clocks.cpp</innerfile>
+    <innerfile refid="vart__ml__clocks_8h">vart_ml_clocks.h</innerfile>
+    <innerfile refid="vart__ml__ctrlbus__poke_8cpp">vart_ml_ctrlbus_poke.cpp</innerfile>
+    <innerfile refid="vart__ml__ctrlbus__poke_8h">vart_ml_ctrlbus_poke.h</innerfile>
+    <innerfile refid="vart__ml__ddr__debug_8cpp">vart_ml_ddr_debug.cpp</innerfile>
+    <innerfile refid="vart__ml__ddr__debug_8h">vart_ml_ddr_debug.h</innerfile>
+    <innerfile refid="vart__ml__ddr__poke_8cpp">vart_ml_ddr_poke.cpp</innerfile>
+    <innerfile refid="vart__ml__ddr__poke_8h">vart_ml_ddr_poke.h</innerfile>
+    <innerfile refid="vart__ml__downloader_8cpp">vart_ml_downloader.cpp</innerfile>
+    <innerfile refid="vart__ml__downloader_8h">vart_ml_downloader.h</innerfile>
+    <innerfile refid="vart__ml__tester_8cpp">vart_ml_tester.cpp</innerfile>
+    <innerfile refid="vart__ml__tester_8h">vart_ml_tester.h</innerfile>
+    <innerfile refid="vart__ml__tools_8cpp">vart_ml_tools.cpp</innerfile>
+    <innerfile refid="vart__ml__uploader_8cpp">vart_ml_uploader.cpp</innerfile>
+    <innerfile refid="vart__ml__uploader_8h">vart_ml_uploader.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_tools/"/>
+  </compounddef>
+</doxygen>

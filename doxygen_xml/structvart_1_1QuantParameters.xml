@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structvart_1_1QuantParameters" kind="struct" language="C++" prot="public">
+    <compoundname>vart::QuantParameters</compoundname>
+    <includes refid="vart__runner__factory_8hpp" local="no">vart_runner_factory.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structvart_1_1QuantParameters_1a2fb07669845dd574bfc73e94eed0f6f0" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>vart::QuantParameters::scale</definition>
+        <argsstring></argsstring>
+        <name>scale</name>
+        <initializer>= 0.0</initializer>
+        <briefdescription>
+<para>Scale factor for quantization. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_runner_factory.hpp" line="84" column="14" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_runner_factory.hpp" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1QuantParameters_1a5a6b814489e440065bef734c2c6e2080" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>vart::QuantParameters::zero_point</definition>
+        <argsstring></argsstring>
+        <name>zero_point</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Optional zero point for asymmetric quantization. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Optional. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_runner_factory.hpp" line="85" column="14" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_runner_factory.hpp" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1QuantParameters_1aa80d2a556c0a241c603615715bda8d48" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacevart_1a3c6defbe8aa132549966a3dd47c445fa" kindref="member">RoundingMode</ref></type>
+        <definition>vart::QuantParameters::rounding_mode</definition>
+        <argsstring></argsstring>
+        <name>rounding_mode</name>
+        <initializer>= <ref refid="namespacevart_1a3c6defbe8aa132549966a3dd47c445faa696b031073e74bf2cb98e5ef201d4aa3" kindref="member">RoundingMode::UNKNOWN</ref></initializer>
+        <briefdescription>
+<para>Rounding mode used during quantization. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Optional. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_runner_factory.hpp" line="86" column="14" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_runner_factory.hpp" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Struct representing quantization parameters for a tensor. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>This struct holds the quantization parameters such as scale factor, zero point, and rounding mode used for quantizing tensors in the VART. </para>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_runner_factory.hpp" line="82" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_runner_factory.hpp" bodystart="83" bodyend="87"/>
+    <listofallmembers>
+      <member refid="structvart_1_1QuantParameters_1aa80d2a556c0a241c603615715bda8d48" prot="public" virt="non-virtual"><scope>vart::QuantParameters</scope><name>rounding_mode</name></member>
+      <member refid="structvart_1_1QuantParameters_1a2fb07669845dd574bfc73e94eed0f6f0" prot="public" virt="non-virtual"><scope>vart::QuantParameters</scope><name>scale</name></member>
+      <member refid="structvart_1_1QuantParameters_1a5a6b814489e440065bef734c2c6e2080" prot="public" virt="non-virtual"><scope>vart::QuantParameters</scope><name>zero_point</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

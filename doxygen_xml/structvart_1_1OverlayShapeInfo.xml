@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structvart_1_1OverlayShapeInfo" kind="struct" language="C++" prot="public">
+    <compoundname>vart::OverlayShapeInfo</compoundname>
+    <includes refid="vart__overlay__types_8hpp" local="no">vart_overlay_types.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structvart_1_1OverlayShapeInfo_1afae704c2be7d6d023fb3983e44cfe609" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="structvart_1_1OverlayRectParams" kindref="compound">OverlayRectParams</ref> &gt;</type>
+        <definition>std::vector&lt;OverlayRectParams&gt; vart::OverlayShapeInfo::rect_params</definition>
+        <argsstring></argsstring>
+        <name>rect_params</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" line="310" column="15" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" bodystart="310" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1OverlayShapeInfo_1a4c5205f93eac5355d4b8a0a72f770b0c" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="structvart_1_1OverlayTextParams" kindref="compound">OverlayTextParams</ref> &gt;</type>
+        <definition>std::vector&lt;OverlayTextParams&gt; vart::OverlayShapeInfo::text_params</definition>
+        <argsstring></argsstring>
+        <name>text_params</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" line="311" column="15" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" bodystart="311" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1OverlayShapeInfo_1a60cf33e05609310566e66c5ed204fc84" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="structvart_1_1OverlayLineParams" kindref="compound">OverlayLineParams</ref> &gt;</type>
+        <definition>std::vector&lt;OverlayLineParams&gt; vart::OverlayShapeInfo::line_params</definition>
+        <argsstring></argsstring>
+        <name>line_params</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" line="312" column="15" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" bodystart="312" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1OverlayShapeInfo_1a5586b5bd2adc053ca63b3892ba1a9653" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="structvart_1_1OverlayArrowParams" kindref="compound">OverlayArrowParams</ref> &gt;</type>
+        <definition>std::vector&lt;OverlayArrowParams&gt; vart::OverlayShapeInfo::arrow_params</definition>
+        <argsstring></argsstring>
+        <name>arrow_params</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" line="313" column="15" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" bodystart="313" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1OverlayShapeInfo_1aa520bb217eaef55af95e07e8bd0c1d1f" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="structvart_1_1OverlayCircleParams" kindref="compound">OverlayCircleParams</ref> &gt;</type>
+        <definition>std::vector&lt;OverlayCircleParams&gt; vart::OverlayShapeInfo::circle_params</definition>
+        <argsstring></argsstring>
+        <name>circle_params</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" line="314" column="15" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" bodystart="314" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1OverlayShapeInfo_1ad9ebf5a63ebc0cc2be3907ecac2a80ee" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="structvart_1_1OverlayPolygonParams" kindref="compound">OverlayPolygonParams</ref> &gt;</type>
+        <definition>std::vector&lt;OverlayPolygonParams&gt; vart::OverlayShapeInfo::polygn_params</definition>
+        <argsstring></argsstring>
+        <name>polygn_params</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" line="315" column="15" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" bodystart="315" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Structure representing overlay shape information. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" line="309" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" bodystart="309" bodyend="316"/>
+    <listofallmembers>
+      <member refid="structvart_1_1OverlayShapeInfo_1a5586b5bd2adc053ca63b3892ba1a9653" prot="public" virt="non-virtual"><scope>vart::OverlayShapeInfo</scope><name>arrow_params</name></member>
+      <member refid="structvart_1_1OverlayShapeInfo_1aa520bb217eaef55af95e07e8bd0c1d1f" prot="public" virt="non-virtual"><scope>vart::OverlayShapeInfo</scope><name>circle_params</name></member>
+      <member refid="structvart_1_1OverlayShapeInfo_1a60cf33e05609310566e66c5ed204fc84" prot="public" virt="non-virtual"><scope>vart::OverlayShapeInfo</scope><name>line_params</name></member>
+      <member refid="structvart_1_1OverlayShapeInfo_1ad9ebf5a63ebc0cc2be3907ecac2a80ee" prot="public" virt="non-virtual"><scope>vart::OverlayShapeInfo</scope><name>polygn_params</name></member>
+      <member refid="structvart_1_1OverlayShapeInfo_1afae704c2be7d6d023fb3983e44cfe609" prot="public" virt="non-virtual"><scope>vart::OverlayShapeInfo</scope><name>rect_params</name></member>
+      <member refid="structvart_1_1OverlayShapeInfo_1a4c5205f93eac5355d4b8a0a72f770b0c" prot="public" virt="non-virtual"><scope>vart::OverlayShapeInfo</scope><name>text_params</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

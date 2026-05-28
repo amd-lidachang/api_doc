@@ -1,0 +1,623 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="vart__ml__log_8h" kind="file" language="C++">
+    <compoundname>vart_ml_log.h</compoundname>
+    <includes refid="vart__ml__error_8h" local="yes">vart_ml_error.h</includes>
+    <includedby refid="common_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.cpp</includedby>
+    <includedby refid="multi__models__demo_8cpp" local="no">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/multi_models_demo.cpp</includedby>
+    <includedby refid="simple__demo_8cpp" local="no">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/simple_demo.cpp</includedby>
+    <includedby refid="threads__demo_8cpp" local="no">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/threads_demo.cpp</includedby>
+    <includedby refid="vart__ml__demo_8cpp" local="no">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/vart_ml_demo.cpp</includedby>
+    <includedby refid="clocks_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/clocks.cpp</includedby>
+    <includedby refid="inference_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/inference.cpp</includedby>
+    <includedby refid="pl_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/pl.cpp</includedby>
+    <includedby refid="quantization_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/quantization.cpp</includedby>
+    <includedby refid="run__snapshot_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/run_snapshot.cpp</includedby>
+    <includedby refid="run__snapshot__bin_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/run_snapshot_bin.cpp</includedby>
+    <includedby refid="run__snapshot__txt_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/run_snapshot_txt.cpp</includedby>
+    <includedby refid="npu__c__api_2snapshot__parser_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/snapshot_parser.cpp</includedby>
+    <includedby refid="onnx__runner_8cpp" local="no">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner.cpp</includedby>
+    <includedby refid="onnx__runner__fallback_8cpp" local="no">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner_fallback.cpp</includedby>
+    <includedby refid="vart__ml__io_8c" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c</includedby>
+    <includedby refid="vart__ml__io__devmem_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_devmem.cpp</includedby>
+    <includedby refid="vart__ml__io__uio_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_uio.cpp</includedby>
+    <includedby refid="vart__ml__io__xrt_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_xrt.cpp</includedby>
+    <includedby refid="vart__ml__py__api_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_py_api/vart_ml_py_api.cpp</includedby>
+    <includedby refid="vart__ml__runner_2snapshot__parser_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/snapshot_parser.cpp</includedby>
+    <includedby refid="vart__ml__runner_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.cpp</includedby>
+    <includedby refid="vart__ml__runner_8hpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp</includedby>
+    <includedby refid="vart__npu__tensor_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.cpp</includedby>
+    <includedby refid="vart__ml__clocks_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_tools/vart_ml_clocks.cpp</includedby>
+    <includedby refid="vart__ml__ctrlbus__poke_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_tools/vart_ml_ctrlbus_poke.cpp</includedby>
+    <includedby refid="vart__ml__ddr__debug_8cpp" local="no">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_tools/vart_ml_ddr_debug.cpp</includedby>
+    <includedby refid="vart__ml__ddr__poke_8cpp" local="no">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_tools/vart_ml_ddr_poke.cpp</includedby>
+    <includedby refid="vart__ml__downloader_8cpp" local="no">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_tools/vart_ml_downloader.cpp</includedby>
+    <includedby refid="vart__ml__tester_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_tools/vart_ml_tester.cpp</includedby>
+    <includedby refid="vart__ml__tools_8cpp" local="no">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_tools/vart_ml_tools.cpp</includedby>
+    <includedby refid="vart__ml__uploader_8cpp" local="no">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_tools/vart_ml_uploader.cpp</includedby>
+    <includedby refid="fpga__info_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/fpga_info.cpp</includedby>
+    <includedby refid="parsing__combinators_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/parsing_combinators.cpp</includedby>
+    <includedby refid="reporting_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/reporting.cpp</includedby>
+    <includedby refid="stats_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.cpp</includedby>
+    <includedby refid="vart__ml__log_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vart_ml_log.cpp</includedby>
+    <includedby refid="vcd__stats_8cpp" local="no">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp</includedby>
+    <incdepgraph>
+      <node id="3">
+        <label>vart_ml_error.inc</label>
+      </node>
+      <node id="2">
+        <label>vart_ml_error.h</label>
+        <link refid="vart__ml__error_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vart_ml_log.h</label>
+        <link refid="vart__ml__log_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="11">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/run_snapshot.cpp</label>
+        <link refid="run__snapshot_8cpp"/>
+      </node>
+      <node id="37">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_tools/vart_ml_tester.cpp</label>
+        <link refid="vart__ml__tester_8cpp"/>
+      </node>
+      <node id="42">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/reporting.cpp</label>
+        <link refid="reporting_8cpp"/>
+      </node>
+      <node id="36">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_tools/vart_ml_downloader.cpp</label>
+        <link refid="vart__ml__downloader_8cpp"/>
+      </node>
+      <node id="21">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_py_api/vart_ml_py_api.cpp</label>
+        <link refid="vart__ml__py__api_8cpp"/>
+      </node>
+      <node id="15">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner.cpp</label>
+        <link refid="onnx__runner_8cpp"/>
+      </node>
+      <node id="45">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp</label>
+        <link refid="vcd__stats_8cpp"/>
+      </node>
+      <node id="20">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_xrt.cpp</label>
+        <link refid="vart__ml__io__xrt_8cpp"/>
+      </node>
+      <node id="16">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner_fallback.cpp</label>
+        <link refid="onnx__runner__fallback_8cpp"/>
+      </node>
+      <node id="43">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.cpp</label>
+        <link refid="stats_8cpp"/>
+      </node>
+      <node id="27">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/arm_ops.cpp</label>
+        <link refid="arm__ops_8cpp"/>
+      </node>
+      <node id="9">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/pl.cpp</label>
+        <link refid="pl_8cpp"/>
+      </node>
+      <node id="2">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.cpp</label>
+        <link refid="common_8cpp"/>
+      </node>
+      <node id="18">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_devmem.cpp</label>
+        <link refid="vart__ml__io__devmem_8cpp"/>
+      </node>
+      <node id="44">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vart_ml_log.cpp</label>
+        <link refid="vart__ml__log_8cpp"/>
+      </node>
+      <node id="19">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_uio.cpp</label>
+        <link refid="vart__ml__io__uio_8cpp"/>
+      </node>
+      <node id="13">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/run_snapshot_txt.cpp</label>
+        <link refid="run__snapshot__txt_8cpp"/>
+      </node>
+      <node id="34">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_tools/vart_ml_ddr_debug.cpp</label>
+        <link refid="vart__ml__ddr__debug_8cpp"/>
+      </node>
+      <node id="41">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/parsing_combinators.cpp</label>
+        <link refid="parsing__combinators_8cpp"/>
+      </node>
+      <node id="40">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/fpga_info.cpp</label>
+        <link refid="fpga__info_8cpp"/>
+      </node>
+      <node id="39">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_tools/vart_ml_uploader.cpp</label>
+        <link refid="vart__ml__uploader_8cpp"/>
+      </node>
+      <node id="17">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c</label>
+        <link refid="vart__ml__io_8c"/>
+      </node>
+      <node id="7">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/clocks.cpp</label>
+        <link refid="clocks_8cpp"/>
+      </node>
+      <node id="24">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp</label>
+        <link refid="vart__ml__runner_8hpp"/>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_tools/vart_ml_clocks.cpp</label>
+        <link refid="vart__ml__clocks_8cpp"/>
+      </node>
+      <node id="22">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/snapshot_parser.cpp</label>
+        <link refid="vart__ml__runner_2snapshot__parser_8cpp"/>
+      </node>
+      <node id="12">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/run_snapshot_bin.cpp</label>
+        <link refid="run__snapshot__bin_8cpp"/>
+      </node>
+      <node id="35">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_tools/vart_ml_ddr_poke.cpp</label>
+        <link refid="vart__ml__ddr__poke_8cpp"/>
+      </node>
+      <node id="38">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_tools/vart_ml_tools.cpp</label>
+        <link refid="vart__ml__tools_8cpp"/>
+      </node>
+      <node id="29">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/thread_pool.cpp</label>
+        <link refid="thread__pool_8cpp"/>
+      </node>
+      <node id="5">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/threads_demo.cpp</label>
+        <link refid="threads__demo_8cpp"/>
+      </node>
+      <node id="30">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/utils.cpp</label>
+        <link refid="utils_8cpp"/>
+      </node>
+      <node id="1">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vart_ml_log.h</label>
+        <link refid="vart__ml__log_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/multi_models_demo.cpp</label>
+        <link refid="multi__models__demo_8cpp"/>
+      </node>
+      <node id="10">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/quantization.cpp</label>
+        <link refid="quantization_8cpp"/>
+      </node>
+      <node id="31">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.cpp</label>
+        <link refid="vart__npu__tensor_8cpp"/>
+      </node>
+      <node id="23">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.cpp</label>
+        <link refid="vart__ml__runner_8cpp"/>
+      </node>
+      <node id="14">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/snapshot_parser.cpp</label>
+        <link refid="npu__c__api_2snapshot__parser_8cpp"/>
+      </node>
+      <node id="8">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/inference.cpp</label>
+        <link refid="inference_8cpp"/>
+      </node>
+      <node id="25">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_py_api/vart_ml_py_api.h</label>
+        <link refid="vart__ml__py__api_8h"/>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/vart_ml_demo.cpp</label>
+        <link refid="vart__ml__demo_8cpp"/>
+      </node>
+      <node id="28">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/execute.cpp</label>
+        <link refid="execute_8cpp"/>
+      </node>
+      <node id="4">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/simple_demo.cpp</label>
+        <link refid="simple__demo_8cpp"/>
+      </node>
+      <node id="33">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_tools/vart_ml_ctrlbus_poke.cpp</label>
+        <link refid="vart__ml__ctrlbus__poke_8cpp"/>
+      </node>
+      <node id="26">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/accessors.cpp</label>
+        <link refid="vart__ml__runner_2accessors_8cpp"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="vart__ml__log_8h_1a13dde5d90443fbbdee84e158585e5a86" prot="public" static="no" strong="no">
+        <type></type>
+        <name>vart_ml_log_level</name>
+        <enumvalue id="vart__ml__log_8h_1a13dde5d90443fbbdee84e158585e5a86aed0fee492df6993229fb10a34ac05cb0" prot="public">
+          <name>LOG_DBG</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="vart__ml__log_8h_1a13dde5d90443fbbdee84e158585e5a86a6e98ff471e3ce6c4ef2d75c37ee51837" prot="public">
+          <name>LOG_INFO</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="vart__ml__log_8h_1a13dde5d90443fbbdee84e158585e5a86ac8041ffa22bc823d4726701cdb13fc13" prot="public">
+          <name>LOG_WARN</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="vart__ml__log_8h_1a13dde5d90443fbbdee84e158585e5a86a0b4d9ad891dde7ae8deeb1704195858c" prot="public">
+          <name>LOG_ERR</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vart_ml_log.h" line="28" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vart_ml_log.h" bodystart="29" bodyend="34"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="vart__ml__log_8h_1a0f8e8f940544ea36551b62779082ccd5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_log_lvl</definition>
+        <argsstring>(vart_ml_log_level lvl)</argsstring>
+        <name>set_log_lvl</name>
+        <param>
+          <type><ref refid="vart__ml__log_8h_1a13dde5d90443fbbdee84e158585e5a86" kindref="member">vart_ml_log_level</ref></type>
+          <declname>lvl</declname>
+        </param>
+        <briefdescription>
+<para>Set log level. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>lvl</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New log level. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vart_ml_log.h" line="41" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vart_ml_log.cpp" bodystart="26" bodyend="26" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vart_ml_log.h" declline="41" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__log_8h_1affeb51a6c3ad39c02230cf01c8011d2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_log_lvl_from_str</definition>
+        <argsstring>(const char *lvl)</argsstring>
+        <name>set_log_lvl_from_str</name>
+        <param>
+          <type>const char *</type>
+          <declname>lvl</declname>
+        </param>
+        <briefdescription>
+<para>Set log level. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>If the level received is unknown, the current level is not modified.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>lvl</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New log level. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vart_ml_log.h" line="50" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vart_ml_log.cpp" bodystart="28" bodyend="41" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vart_ml_log.h" declline="50" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__log_8h_1a9ef90e4dbb414d4377ae033a9d80cbd5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="vart__ml__log_8h_1a13dde5d90443fbbdee84e158585e5a86" kindref="member">vart_ml_log_level</ref></type>
+        <definition>vart_ml_log_level get_log_lvl</definition>
+        <argsstring>(void)</argsstring>
+        <name>get_log_lvl</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Returns the current log level. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vart_ml_log.h" line="55" column="19" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vart_ml_log.cpp" bodystart="43" bodyend="43" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vart_ml_log.h" declline="55" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__log_8h_1a45df91bf94fa17b9927cf1ff382272dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void vart_ml_log</definition>
+        <argsstring>(vart_ml_log_level lvl, const char *fmt,...)</argsstring>
+        <name>vart_ml_log</name>
+        <param>
+          <type><ref refid="vart__ml__log_8h_1a13dde5d90443fbbdee84e158585e5a86" kindref="member">vart_ml_log_level</ref></type>
+          <declname>lvl</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>fmt</declname>
+        </param>
+        <param>
+          <type>...</type>
+        </param>
+        <briefdescription>
+<para>System logging function. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>lvl</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Logging level to be associated with the message. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fmt</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>C string that contains a format string that follows the same specifications as format in printf. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vart_ml_log.h" line="64" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vart_ml_log.cpp" bodystart="51" bodyend="57" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vart_ml_log.h" declline="64" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__log_8h_1a72bd238b6585ab144f40f9f4cbe93421" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int vart_ml_log_err</definition>
+        <argsstring>(enum vart_ml_error_id err)</argsstring>
+        <name>vart_ml_log_err</name>
+        <param>
+          <type>enum <ref refid="vart__ml__error_8h_1ab6de3533f3f64696a2b717a12be7f9f9" kindref="member">vart_ml_error_id</ref></type>
+          <declname>err</declname>
+        </param>
+        <briefdescription>
+<para>System error logging function that only prints the generic error message. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>err</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The id of the Vart ML error to be reported. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vart_ml_log.h" line="74" column="5" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vart_ml_log.h" declline="74" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__log_8h_1a82e20222970e5311d2eba64f83c149e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int vart_ml_log_err_msg</definition>
+        <argsstring>(enum vart_ml_error_id err, const char *fmt,...)</argsstring>
+        <name>vart_ml_log_err_msg</name>
+        <param>
+          <type>enum <ref refid="vart__ml__error_8h_1ab6de3533f3f64696a2b717a12be7f9f9" kindref="member">vart_ml_error_id</ref></type>
+          <declname>err</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>fmt</declname>
+        </param>
+        <param>
+          <type>...</type>
+        </param>
+        <briefdescription>
+<para>System error logging function. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Calls <ref refid="vart__ml__log_8h_1a45df91bf94fa17b9927cf1ff382272dd" kindref="member">vart_ml_log()</ref>.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>err</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The id of the Vart ML error to be reported. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fmt</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>C string that contains a format string that follows the same specifications as format in printf. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vart_ml_log.h" line="83" column="5" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vart_ml_log.h" declline="83" declcolumn="5"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="copyright"><para>Copyright 2024 Advanced Micro Devices Inc.</para>
+</simplesect>
+Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <verbatim>http://www.apache.org/licenses/LICENSE-2.0
+</verbatim> Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. </para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>VART_ML_LOG_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>VART_ML_LOG_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="vart__ml__error_8h" kindref="compound">vart_ml_error.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="vart__ml__log_8h_1a13dde5d90443fbbdee84e158585e5a86" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="30" refid="vart__ml__log_8h_1a13dde5d90443fbbdee84e158585e5a86aed0fee492df6993229fb10a34ac05cb0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="vart__ml__log_8h_1a13dde5d90443fbbdee84e158585e5a86aed0fee492df6993229fb10a34ac05cb0" kindref="member">LOG_DBG</ref>,</highlight></codeline>
+<codeline lineno="31" refid="vart__ml__log_8h_1a13dde5d90443fbbdee84e158585e5a86a6e98ff471e3ce6c4ef2d75c37ee51837" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="vart__ml__log_8h_1a13dde5d90443fbbdee84e158585e5a86a6e98ff471e3ce6c4ef2d75c37ee51837" kindref="member">LOG_INFO</ref>,</highlight></codeline>
+<codeline lineno="32" refid="vart__ml__log_8h_1a13dde5d90443fbbdee84e158585e5a86ac8041ffa22bc823d4726701cdb13fc13" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="vart__ml__log_8h_1a13dde5d90443fbbdee84e158585e5a86ac8041ffa22bc823d4726701cdb13fc13" kindref="member">LOG_WARN</ref>,</highlight></codeline>
+<codeline lineno="33" refid="vart__ml__log_8h_1a13dde5d90443fbbdee84e158585e5a86a0b4d9ad891dde7ae8deeb1704195858c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="vart__ml__log_8h_1a13dde5d90443fbbdee84e158585e5a86a0b4d9ad891dde7ae8deeb1704195858c" kindref="member">LOG_ERR</ref>,</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/><ref refid="vart__ml__log_8h_1a13dde5d90443fbbdee84e158585e5a86" kindref="member">vart_ml_log_level</ref>;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="vart__ml__log_8h_1a0f8e8f940544ea36551b62779082ccd5" kindref="member">set_log_lvl</ref>(<ref refid="vart__ml__log_8h_1a13dde5d90443fbbdee84e158585e5a86" kindref="member">vart_ml_log_level</ref><sp/>lvl);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="vart__ml__log_8h_1affeb51a6c3ad39c02230cf01c8011d2f" kindref="member">set_log_lvl_from_str</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>lvl);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="vart__ml__log_8h_1a13dde5d90443fbbdee84e158585e5a86" kindref="member">vart_ml_log_level</ref><sp/><ref refid="vart__ml__log_8h_1a9ef90e4dbb414d4377ae033a9d80cbd5" kindref="member">get_log_lvl</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="vart__ml__log_8h_1a45df91bf94fa17b9927cf1ff382272dd" kindref="member">vart_ml_log</ref>(<ref refid="vart__ml__log_8h_1a13dde5d90443fbbdee84e158585e5a86" kindref="member">vart_ml_log_level</ref><sp/>lvl,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>fmt,<sp/>...);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">vart_ml_error;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="vart__ml__log_8h_1a72bd238b6585ab144f40f9f4cbe93421" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="vart__ml__log_8h_1a72bd238b6585ab144f40f9f4cbe93421" kindref="member">vart_ml_log_err</ref>(</highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="vart__ml__error_8h_1ab6de3533f3f64696a2b717a12be7f9f9" kindref="member">vart_ml_error_id</ref><sp/>err);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="vart__ml__log_8h_1a82e20222970e5311d2eba64f83c149e6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="vart__ml__log_8h_1a82e20222970e5311d2eba64f83c149e6" kindref="member">vart_ml_log_err_msg</ref>(</highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="vart__ml__error_8h_1ab6de3533f3f64696a2b717a12be7f9f9" kindref="member">vart_ml_error_id</ref><sp/>err,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>fmt,<sp/>...);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vart_ml_log.h"/>
+  </compounddef>
+</doxygen>

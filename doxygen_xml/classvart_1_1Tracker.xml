@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classvart_1_1Tracker" kind="class" language="C++" prot="public">
+    <compoundname>vart::Tracker</compoundname>
+    <includes refid="vart__tracker_8hpp" local="no">vart_tracker.hpp</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classvart_1_1Tracker_1a02a0b136789ba457168e0e63fc961267" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="classvart_1_1TrackerImplBase" kindref="compound">TrackerImplBase</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;TrackerImplBase&gt; vart::Tracker::pimpl</definition>
+        <argsstring></argsstring>
+        <name>pimpl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_tracker.hpp" line="79" column="19" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_tracker.hpp" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classvart_1_1Tracker_1a9ad79148f45ad76f9739e3b97b4dd0f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>vart::Tracker::Tracker</definition>
+        <argsstring>()=delete</argsstring>
+        <name>Tracker</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_tracker.hpp" line="35" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1Tracker_1a2e96aa9f52b9b893a384aa7e108b68a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>vart::Tracker::Tracker</definition>
+        <argsstring>(std::shared_ptr&lt; Device &gt; device, std::string &amp;json_data)</argsstring>
+        <name>Tracker</name>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="classvart_1_1Device" kindref="compound">Device</ref> &gt;</type>
+          <declname>device</declname>
+        </param>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>json_data</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="classvart_1_1Tracker_1a9ad79148f45ad76f9739e3b97b4dd0f4" kindref="member">Tracker()</ref> - Constructor with implementation type and json data. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>device</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="classvart_1_1Device" kindref="compound">Device</ref> handle to be used by implementations.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>json_data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="classvart_1_1Tracker" kindref="compound">Tracker</ref> related configuration in JSON Format. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_tracker.hpp" line="46" column="3" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/tracker/vart_tracker.cpp" bodystart="22" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1Tracker_1ae1ea98477fed0ed15dff815dd9eb7f27" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>vart::Tracker::Tracker</definition>
+        <argsstring>(std::shared_ptr&lt; TrackerImplBase &gt; ptr)</argsstring>
+        <name>Tracker</name>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="classvart_1_1TrackerImplBase" kindref="compound">TrackerImplBase</ref> &gt;</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="classvart_1_1Tracker_1a9ad79148f45ad76f9739e3b97b4dd0f4" kindref="member">Tracker()</ref> - Constructor for using user defined implementation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ptr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer to user&apos;s implementation instance </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_tracker.hpp" line="55" column="3" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/tracker/vart_tracker.cpp" bodystart="26" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1Tracker_1a255b9ee93467719dd3ad0d4907ccac99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>vart::Tracker::~Tracker</definition>
+        <argsstring>()=default</argsstring>
+        <name>~Tracker</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_tracker.hpp" line="56" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1Tracker_1aad9a297f859229190127569043ec560b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void vart::Tracker::process</definition>
+        <argsstring>(VideoFrame &amp;frame, std::shared_ptr&lt; InferResult &gt; root_infer_res)</argsstring>
+        <name>process</name>
+        <param>
+          <type><ref refid="classvart_1_1VideoFrame" kindref="compound">VideoFrame</ref> &amp;</type>
+          <declname>frame</declname>
+        </param>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="classvart_1_1InferResult" kindref="compound">InferResult</ref> &gt;</type>
+          <declname>root_infer_res</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="classvart_1_1Tracker_1aad9a297f859229190127569043ec560b" kindref="member">process()</ref> - Perform tracking based on the specified parameters. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>frame</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Videoframe instance to be processed.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>root_infer_res</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Root node of the Inference results. This will have child nodes if infer results are available, else with no child nodes. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_tracker.hpp" line="68" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/tracker/vart_tracker.cpp" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1Tracker_1a1416cabf1a7cbe3bde6d1da20d5732bb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::shared_ptr&lt; <ref refid="classvart_1_1TrackerImplBase" kindref="compound">TrackerImplBase</ref> &gt; &amp;</type>
+        <definition>const std::shared_ptr&lt; TrackerImplBase &gt; &amp; vart::Tracker::get_pimpl_handle</definition>
+        <argsstring>() const</argsstring>
+        <name>get_pimpl_handle</name>
+        <briefdescription>
+<para><ref refid="classvart_1_1Tracker_1a1416cabf1a7cbe3bde6d1da20d5732bb" kindref="member">get_pimpl_handle()</ref> - Gives pointer to implementation class. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Returns a constant reference of pointer to implementation class. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_tracker.hpp" line="76" column="25" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/tracker/vart_tracker.cpp" bodystart="34" bodyend="36"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The tracker module tracks detected objects from a sequence of video frames. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classvart_1_1Tracker" kindref="compound">Tracker</ref> supports detecting 16 objects supporting tracker Id from 0 to 15. Beyond these, the tracker Id restart from 0. </para>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_tracker.hpp" line="33" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_tracker.hpp" bodystart="33" bodyend="80"/>
+    <listofallmembers>
+      <member refid="classvart_1_1Tracker_1a1416cabf1a7cbe3bde6d1da20d5732bb" prot="public" virt="non-virtual"><scope>vart::Tracker</scope><name>get_pimpl_handle</name></member>
+      <member refid="classvart_1_1Tracker_1a02a0b136789ba457168e0e63fc961267" prot="private" virt="non-virtual"><scope>vart::Tracker</scope><name>pimpl</name></member>
+      <member refid="classvart_1_1Tracker_1aad9a297f859229190127569043ec560b" prot="public" virt="non-virtual"><scope>vart::Tracker</scope><name>process</name></member>
+      <member refid="classvart_1_1Tracker_1a9ad79148f45ad76f9739e3b97b4dd0f4" prot="public" virt="non-virtual"><scope>vart::Tracker</scope><name>Tracker</name></member>
+      <member refid="classvart_1_1Tracker_1a2e96aa9f52b9b893a384aa7e108b68a8" prot="public" virt="non-virtual"><scope>vart::Tracker</scope><name>Tracker</name></member>
+      <member refid="classvart_1_1Tracker_1ae1ea98477fed0ed15dff815dd9eb7f27" prot="public" virt="non-virtual"><scope>vart::Tracker</scope><name>Tracker</name></member>
+      <member refid="classvart_1_1Tracker_1a255b9ee93467719dd3ad0d4907ccac99" prot="public" virt="non-virtual"><scope>vart::Tracker</scope><name>~Tracker</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

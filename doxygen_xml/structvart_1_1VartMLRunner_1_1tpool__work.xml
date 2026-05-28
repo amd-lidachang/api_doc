@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structvart_1_1VartMLRunner_1_1tpool__work" kind="struct" language="C++" prot="private">
+    <compoundname>vart::VartMLRunner::tpool_work</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structvart_1_1VartMLRunner_1_1tpool__work_1a79c6abc7a68ed6ebc92d4b8db10794b8" prot="public" static="no" mutable="no">
+        <type>const std::vector&lt; std::vector&lt; <ref refid="classvart_1_1NpuTensor" kindref="compound">NpuTensor</ref> &gt; &gt; &amp;</type>
+        <definition>const std::vector&lt;std::vector&lt;NpuTensor&gt; &gt;&amp; vart::VartMLRunner::tpool_work::inputs</definition>
+        <argsstring></argsstring>
+        <name>inputs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" line="331" column="19" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" bodystart="331" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1VartMLRunner_1_1tpool__work_1aa6abb5342a2a8ee74334635019b137cd" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; std::vector&lt; <ref refid="classvart_1_1NpuTensor" kindref="compound">NpuTensor</ref> &gt; &gt; &amp;</type>
+        <definition>std::vector&lt;std::vector&lt;NpuTensor&gt; &gt;&amp; vart::VartMLRunner::tpool_work::outputs</definition>
+        <argsstring></argsstring>
+        <name>outputs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" line="332" column="19" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" bodystart="332" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1VartMLRunner_1_1tpool__work_1aadee96d5b964cf5380d3f0b92b342e47" prot="public" static="no" mutable="no">
+        <type><ref refid="structvart_1_1JobHandle" kindref="compound">JobHandle</ref></type>
+        <definition>JobHandle vart::VartMLRunner::tpool_work::job_handle</definition>
+        <argsstring></argsstring>
+        <name>job_handle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" line="333" column="44" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" bodystart="333" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1VartMLRunner_1_1tpool__work_1a23ee755215ccc4d86a27681cf6a8fffc" prot="public" static="no" mutable="no">
+        <type>struct tpool_work *</type>
+        <definition>struct tpool_work* vart::VartMLRunner::tpool_work::next</definition>
+        <argsstring></argsstring>
+        <name>next</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" line="334" column="42" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" bodystart="334" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>vart::JobHandle</label>
+        <link refid="structvart_1_1JobHandle"/>
+      </node>
+      <node id="1">
+        <label>vart::VartMLRunner::tpool_work</label>
+        <childnode refid="1" relation="usage">
+          <edgelabel>next</edgelabel>
+        </childnode>
+        <childnode refid="2" relation="usage">
+          <edgelabel>job_handle</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" line="329" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" bodystart="330" bodyend="335"/>
+    <listofallmembers>
+      <member refid="structvart_1_1VartMLRunner_1_1tpool__work_1a79c6abc7a68ed6ebc92d4b8db10794b8" prot="public" virt="non-virtual"><scope>vart::VartMLRunner::tpool_work</scope><name>inputs</name></member>
+      <member refid="structvart_1_1VartMLRunner_1_1tpool__work_1aadee96d5b964cf5380d3f0b92b342e47" prot="public" virt="non-virtual"><scope>vart::VartMLRunner::tpool_work</scope><name>job_handle</name></member>
+      <member refid="structvart_1_1VartMLRunner_1_1tpool__work_1a23ee755215ccc4d86a27681cf6a8fffc" prot="public" virt="non-virtual"><scope>vart::VartMLRunner::tpool_work</scope><name>next</name></member>
+      <member refid="structvart_1_1VartMLRunner_1_1tpool__work_1aa6abb5342a2a8ee74334635019b137cd" prot="public" virt="non-virtual"><scope>vart::VartMLRunner::tpool_work</scope><name>outputs</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

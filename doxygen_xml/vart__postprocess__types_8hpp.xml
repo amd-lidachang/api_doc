@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="vart__postprocess__types_8hpp" kind="file" language="C++">
+    <compoundname>vart_postprocess_types.hpp</compoundname>
+    <includes local="no">cstdint</includes>
+    <includes local="no">vector</includes>
+    <includedby refid="vart__postprocess__impl__base_8hpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base/vart_postprocess_impl_base.hpp</includedby>
+    <includedby refid="vart__postprocess_8hpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_postprocess.hpp</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>cstdint</label>
+      </node>
+      <node id="1">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_postprocess_types.hpp</label>
+        <link refid="vart__postprocess__types_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="7">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess/vart_postprocess_impl_resnet50.cpp</label>
+        <link refid="vart__postprocess__impl__resnet50_8cpp"/>
+      </node>
+      <node id="1">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_postprocess_types.hpp</label>
+        <link refid="vart__postprocess__types_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess/vart_postprocess_impl_yolov2.hpp</label>
+        <link refid="vart__postprocess__impl__yolov2_8hpp"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_postprocess.hpp</label>
+        <link refid="vart__postprocess_8hpp"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess/ssdresnet34/vart_postprocess_impl_ssdresnet34.hpp</label>
+        <link refid="vart__postprocess__impl__ssdresnet34_8hpp"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess/vart_postprocess.cpp</label>
+        <link refid="vart__postprocess_8cpp"/>
+      </node>
+      <node id="4">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess/ssdresnet34/vart_postprocess_impl_ssdresnet34.cpp</label>
+        <link refid="vart__postprocess__impl__ssdresnet34_8cpp"/>
+      </node>
+      <node id="6">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess/vart_postprocess_impl_resnet50.hpp</label>
+        <link refid="vart__postprocess__impl__resnet50_8hpp"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess/vart_postprocess_impl_yolov2.cpp</label>
+        <link refid="vart__postprocess__impl__yolov2_8cpp"/>
+      </node>
+      <node id="2">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base/vart_postprocess_impl_base.hpp</label>
+        <link refid="vart__postprocess__impl__base_8hpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structvart_1_1TensorInfo" prot="public">vart::TensorInfo</innerclass>
+    <innernamespace refid="namespacevart">vart</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>2024-2025<sp/>Advanced<sp/>Micro<sp/>Devices<sp/>Inc.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>Licensed<sp/>under<sp/>the<sp/>Apache<sp/>License,<sp/>Version<sp/>2.0<sp/>(the<sp/>&quot;License&quot;);</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>you<sp/>may<sp/>not<sp/>use<sp/>this<sp/>file<sp/>except<sp/>in<sp/>compliance<sp/>with<sp/>the<sp/>License.</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>You<sp/>may<sp/>obtain<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>License<sp/>at</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/>http://www.apache.org/licenses/LICENSE-2.0</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>Unless<sp/>required<sp/>by<sp/>applicable<sp/>law<sp/>or<sp/>agreed<sp/>to<sp/>in<sp/>writing,<sp/>software</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>distributed<sp/>under<sp/>the<sp/>License<sp/>is<sp/>distributed<sp/>on<sp/>an<sp/>&quot;AS<sp/>IS&quot;<sp/>BASIS,</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>WITHOUT<sp/>WARRANTIES<sp/>OR<sp/>CONDITIONS<sp/>OF<sp/>ANY<sp/>KIND,<sp/>either<sp/>express<sp/>or<sp/>implied.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>See<sp/>the<sp/>License<sp/>for<sp/>the<sp/>specific<sp/>language<sp/>governing<sp/>permissions<sp/>and</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>limitations<sp/>under<sp/>the<sp/>License.</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cstdint&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacevart" kindref="compound">vart</ref><sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="namespacevart_1a45594c922f5e8d4a9a1e082f35e66bc8" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="namespacevart_1a45594c922f5e8d4a9a1e082f35e66bc8" kindref="member">TensorDataType</ref><sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><ref refid="namespacevart_1a45594c922f5e8d4a9a1e082f35e66bc8aee9d73311ff0658494edfff14c3ec1e3" kindref="member">INT8</ref>,</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><ref refid="namespacevart_1a45594c922f5e8d4a9a1e082f35e66bc8a967d280b5c16d95f2947647dd2ca6cc2" kindref="member">FLOAT32</ref>,</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><ref refid="namespacevart_1a45594c922f5e8d4a9a1e082f35e66bc8af656bbf613964dcf710b771b0918ab30" kindref="member">BF16</ref>,</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><ref refid="namespacevart_1a45594c922f5e8d4a9a1e082f35e66bc8a696b031073e74bf2cb98e5ef201d4aa3" kindref="member">UNKNOWN</ref></highlight></codeline>
+<codeline lineno="40"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="structvart_1_1TensorInfo" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="58" refid="structvart_1_1TensorInfo_1a048fd794a25ff3ffe179b916744db0d5" refkind="member"><highlight class="normal"><sp/><sp/>uint32_t<sp/><ref refid="structvart_1_1TensorInfo_1a048fd794a25ff3ffe179b916744db0d5" kindref="member">size</ref>;</highlight></codeline>
+<codeline lineno="59" refid="structvart_1_1TensorInfo_1a909cd6b328d77c7daf6d3b67506ddfea" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structvart_1_1TensorInfo_1a909cd6b328d77c7daf6d3b67506ddfea" kindref="member">scale_coeff</ref>;</highlight></codeline>
+<codeline lineno="60" refid="structvart_1_1TensorInfo_1a9bb4a87be1851f7122050878d7191743" refkind="member"><highlight class="normal"><sp/><sp/>std::vector&lt;uint32_t&gt;<sp/><ref refid="structvart_1_1TensorInfo_1a9bb4a87be1851f7122050878d7191743" kindref="member">shape</ref>;</highlight></codeline>
+<codeline lineno="61" refid="structvart_1_1TensorInfo_1a2d83b4983ae15a61f77b49688acee830" refkind="member"><highlight class="normal"><sp/><sp/>std::string<sp/><ref refid="structvart_1_1TensorInfo_1a2d83b4983ae15a61f77b49688acee830" kindref="member">name</ref>;</highlight></codeline>
+<codeline lineno="62" refid="structvart_1_1TensorInfo_1a66c000de752dfbe3362a9ed201fe7130" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespacevart_1a45594c922f5e8d4a9a1e082f35e66bc8" kindref="member">TensorDataType</ref><sp/><ref refid="structvart_1_1TensorInfo_1a66c000de752dfbe3362a9ed201fe7130" kindref="member">data_type</ref>;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal">}<sp/><ref refid="structvart_1_1TensorInfo" kindref="compound">TensorInfo</ref>;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="namespacevart_1a03dcadccfffe6fcd0b1fb58d11f6aa82" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="namespacevart_1a03dcadccfffe6fcd0b1fb58d11f6aa82" kindref="member">PostProcessType</ref><sp/>{<sp/><ref refid="namespacevart_1a03dcadccfffe6fcd0b1fb58d11f6aa82a93f126d02525aff982a7952bccc58e89" kindref="member">RESNET50</ref>,<sp/><ref refid="namespacevart_1a03dcadccfffe6fcd0b1fb58d11f6aa82a0ac8693f9f8d578bc4899255ef5ac06d" kindref="member">YOLOV2</ref>,<sp/><ref refid="namespacevart_1a03dcadccfffe6fcd0b1fb58d11f6aa82afc672f6c3c55aa25ddc65a8164a89a22" kindref="member">SSDRESNET34</ref><sp/>};</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>vart</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_postprocess_types.hpp"/>
+  </compounddef>
+</doxygen>

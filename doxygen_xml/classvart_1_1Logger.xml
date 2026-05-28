@@ -1,0 +1,360 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classvart_1_1Logger" kind="class" language="C++" prot="public">
+    <compoundname>vart::Logger</compoundname>
+    <includes refid="vart__logger_8hpp" local="no">vart_logger.hpp</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classvart_1_1Logger_1a7871cc219b56e7b41ddfe2cad0126e81" prot="private" static="no" mutable="no">
+        <type><ref refid="namespacevart_1a64ffd9571accebf480776f2edd39d8b5" kindref="member">LogLevel</ref></type>
+        <definition>LogLevel vart::Logger::global_log_level</definition>
+        <argsstring></argsstring>
+        <name>global_log_level</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_logger.hpp" line="150" column="12" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_logger.hpp" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvart_1_1Logger_1a3ac19bb90fd192586eec11631d888526" prot="private" static="no" mutable="no">
+        <type><ref refid="namespacevart_1a64ffd9571accebf480776f2edd39d8b5" kindref="member">LogLevel</ref></type>
+        <definition>LogLevel vart::Logger::level</definition>
+        <argsstring></argsstring>
+        <name>level</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_logger.hpp" line="151" column="12" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_logger.hpp" bodystart="151" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvart_1_1Logger_1a3d244b81ddc09a0abb115ffd44560e55" prot="private" static="no" mutable="no">
+        <type><ref refid="namespacevart_1aacca2191f75b654c5ca4b51a9b96bcbe" kindref="member">LogType</ref></type>
+        <definition>LogType vart::Logger::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_logger.hpp" line="152" column="11" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_logger.hpp" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvart_1_1Logger_1a9a829728613a65ac411d0bb7fd564127" prot="private" static="no" mutable="no">
+        <type>std::mutex</type>
+        <definition>std::mutex vart::Logger::reg_mutex</definition>
+        <argsstring></argsstring>
+        <name>reg_mutex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_logger.hpp" line="153" column="14" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_logger.hpp" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvart_1_1Logger_1a021171b985327d803e668c39e9d2aa88" prot="private" static="no" mutable="no">
+        <type>std::mutex</type>
+        <definition>std::mutex vart::Logger::log_mutex</definition>
+        <argsstring></argsstring>
+        <name>log_mutex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_logger.hpp" line="154" column="14" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_logger.hpp" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvart_1_1Logger_1a9354bfd95d11a77d152b0479a8542508" prot="private" static="no" mutable="no">
+        <type>std::map&lt; std::string, std::tuple&lt; int16_t, uint16_t &gt; &gt;</type>
+        <definition>std::map&lt;std::string, std::tuple&lt;int16_t, uint16_t&gt; &gt; vart::Logger::vart_components</definition>
+        <argsstring></argsstring>
+        <name>vart_components</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_logger.hpp" line="155" column="12" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_logger.hpp" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvart_1_1Logger_1adcec96292f5e79113a77153fee02273d" prot="private" static="no" mutable="no">
+        <type>std::chrono::high_resolution_clock::time_point</type>
+        <definition>std::chrono::high_resolution_clock::time_point vart::Logger::logger_start_time</definition>
+        <argsstring></argsstring>
+        <name>logger_start_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_logger.hpp" line="156" column="50" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_logger.hpp" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvart_1_1Logger_1af38a848bf0ed234558aba9d51f1b9bf6" prot="private" static="no" mutable="no">
+        <type>std::FILE *</type>
+        <definition>std::FILE* vart::Logger::log_file</definition>
+        <argsstring></argsstring>
+        <name>log_file</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_logger.hpp" line="157" column="13" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_logger.hpp" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classvart_1_1Logger_1abb4d7a3b3affd0e0c95adb350a403a89" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classvart_1_1Logger" kindref="compound">Logger</ref> &amp;</type>
+        <definition>static Logger&amp; vart::Logger::get_instance</definition>
+        <argsstring>()</argsstring>
+        <name>get_instance</name>
+        <briefdescription>
+<para><ref refid="classvart_1_1Logger_1abb4d7a3b3affd0e0c95adb350a403a89" kindref="member">get_instance()</ref> - Creates a logger() instance if not created earlier, else return an existing instance. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Returns a logger instance</para>
+</simplesect>
+<ref refid="classvart_1_1Logger" kindref="compound">Logger</ref> object when created reads the environment variable VART_CORE_DEBUG to get and store log levels of each module and global log level. Default module instance id is stored as -1. This id will be updated later when each module instance registers with logger. Apart from that, logger reads the environment variable VART_LOG_FILE_PATH and if:<orderedlist>
+<listitem><para>VART_LOG_FILE_PATH is set to CONSOLE, logs messages to on screen console.</para>
+</listitem><listitem><para>VART_LOG_FILE_PATH is set to SYSLOG, appends log messages to syslog.</para>
+</listitem><listitem><para>VART_LOG_FILE_PATH is set to a file on disk, log messages to that file. If the file cannot be opened to log, defaults to syslog logging. </para>
+</listitem></orderedlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_logger.hpp" line="83" column="17" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_logger.hpp" bodystart="83" bodyend="86"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classvart_1_1Logger_1a586a544483aaf4cb031e804b87dd8b16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::shared_ptr&lt; struct <ref refid="structvart_1_1log__context" kindref="compound">log_context</ref> &gt;</type>
+        <definition>std::shared_ptr&lt; struct log_context &gt; vart::Logger::mod_register</definition>
+        <argsstring>(const char *modname, bool need_id)</argsstring>
+        <name>mod_register</name>
+        <param>
+          <type>const char *</type>
+          <declname>modname</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>need_id</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="classvart_1_1Logger_1a586a544483aaf4cb031e804b87dd8b16" kindref="member">mod_register()</ref> - Registers a module with logger object </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>modname</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Module name to register with logger</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>need_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Flag describing the need for an id to be appended to module name during logging</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns logger context associated with a module instance.</para>
+</simplesect>
+If the module is already registered with the logger, its instance id is incremented, else a default instance id = 0 is assigned. Module instance log level is assigned from logger object&apos;s database or from global log level if per module log level is not provided by user. If need_id is set to false, module instance id is not appended to module&apos;s instance name. Components such as &apos;videoframe&apos;, &apos;memory&apos; need to set this flag to false as there can be too many instances of those components in a single pipeline use case and can be be distinguished by their pointers. Components representing IP blocks can set this to true to distinguish IP instances. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_logger.hpp" line="112" column="19" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/logger/vart_logger.cpp" bodystart="120" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1Logger_1a66e412bf9cc366edda8973fd9f7be7ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void vart::Logger::vart_logger_log_obj</definition>
+        <argsstring>(LogLevel, std::shared_ptr&lt; struct log_context &gt; ctx, const char *filename, const char *func, uint32_t line, const char *fmt,...)</argsstring>
+        <name>vart_logger_log_obj</name>
+        <param>
+          <type><ref refid="namespacevart_1a64ffd9571accebf480776f2edd39d8b5" kindref="member">LogLevel</ref></type>
+          <defname>log_level</defname>
+        </param>
+        <param>
+          <type>std::shared_ptr&lt; struct <ref refid="structvart_1_1log__context" kindref="compound">log_context</ref> &gt;</type>
+          <declname>ctx</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>func</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>fmt</declname>
+        </param>
+        <param>
+          <type>...</type>
+        </param>
+        <briefdescription>
+<para><ref refid="classvart_1_1Logger_1a66e412bf9cc366edda8973fd9f7be7ff" kindref="member">vart_logger_log_obj()</ref> - Logs a module&apos;s message along with metadata like filename, function name, line number, process id, thread id. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><nonbreakablespace/>* When calling va_start API, we must use the function&apos;s final argument as format (char *fmt).</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>LogLevel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Logging level with which module logs a message</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ctx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Module&apos;s logger context obtained with <ref refid="classvart_1_1Logger_1a586a544483aaf4cb031e804b87dd8b16" kindref="member">mod_register()</ref></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>filename</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Source code filename from which this logging is triggered</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>func</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Source code function name</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>line</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Source code line number</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fmt</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Format string passed for logging.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+In this case, we cannot use the format directly, we need to use a new format because we need to append<nonbreakablespace/>file name, function name, and line number into our logging.<nonbreakablespace/>But when we use the new format in va_start API then the compiler is giving below warning.</para>
+<para>warning: second parameter of &apos;va_start&apos; not last named argument [-Wvarargs] here compiler is expecting va_start(vlist, fmt) but we are are calling<nonbreakablespace/>va_start(vlist, new_fmt);<nonbreakablespace/></para>
+<para>This warning is unavoidable as we need to use new format. so suppressing warning.</para>
+<para>Ignore -Wvarargs warning start </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_logger.hpp" line="137" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/logger/vart_logger.cpp" bodystart="168" bodyend="241"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classvart_1_1Logger_1a9fa17a8c5c87c3d21cd5ab5019851d4c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>vart::Logger::Logger</definition>
+        <argsstring>()</argsstring>
+        <name>Logger</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_logger.hpp" line="146" column="3" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/logger/vart_logger.cpp" bodystart="37" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1Logger_1a13db60f262ec2adb540c44bc4f213375" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>vart::Logger::~Logger</definition>
+        <argsstring>()</argsstring>
+        <name>~Logger</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_logger.hpp" line="147" column="3" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/logger/vart_logger.cpp" bodystart="115" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1Logger_1a3f61e9feecb663a1e0de0ecf517b3d3a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>vart::Logger::Logger</definition>
+        <argsstring>(const Logger &amp;)=delete</argsstring>
+        <name>Logger</name>
+        <param>
+          <type>const <ref refid="classvart_1_1Logger" kindref="compound">Logger</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_logger.hpp" line="148" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1Logger_1af793c3b9b3b502ab1bc96c9a51e91bc1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void vart::Logger::operator=</definition>
+        <argsstring>(const Logger &amp;)=delete</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classvart_1_1Logger" kindref="compound">Logger</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_logger.hpp" line="149" column="8"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The logger module provides the logging support for VART modules. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Supports logging to console, file, syslog. </para>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_logger.hpp" line="61" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_logger.hpp" bodystart="61" bodyend="158"/>
+    <listofallmembers>
+      <member refid="classvart_1_1Logger_1abb4d7a3b3affd0e0c95adb350a403a89" prot="public" virt="non-virtual"><scope>vart::Logger</scope><name>get_instance</name></member>
+      <member refid="classvart_1_1Logger_1a7871cc219b56e7b41ddfe2cad0126e81" prot="private" virt="non-virtual"><scope>vart::Logger</scope><name>global_log_level</name></member>
+      <member refid="classvart_1_1Logger_1a3ac19bb90fd192586eec11631d888526" prot="private" virt="non-virtual"><scope>vart::Logger</scope><name>level</name></member>
+      <member refid="classvart_1_1Logger_1af38a848bf0ed234558aba9d51f1b9bf6" prot="private" virt="non-virtual"><scope>vart::Logger</scope><name>log_file</name></member>
+      <member refid="classvart_1_1Logger_1a021171b985327d803e668c39e9d2aa88" prot="private" virt="non-virtual"><scope>vart::Logger</scope><name>log_mutex</name></member>
+      <member refid="classvart_1_1Logger_1a9fa17a8c5c87c3d21cd5ab5019851d4c" prot="private" virt="non-virtual"><scope>vart::Logger</scope><name>Logger</name></member>
+      <member refid="classvart_1_1Logger_1a3f61e9feecb663a1e0de0ecf517b3d3a" prot="private" virt="non-virtual"><scope>vart::Logger</scope><name>Logger</name></member>
+      <member refid="classvart_1_1Logger_1adcec96292f5e79113a77153fee02273d" prot="private" virt="non-virtual"><scope>vart::Logger</scope><name>logger_start_time</name></member>
+      <member refid="classvart_1_1Logger_1a586a544483aaf4cb031e804b87dd8b16" prot="public" virt="non-virtual"><scope>vart::Logger</scope><name>mod_register</name></member>
+      <member refid="classvart_1_1Logger_1af793c3b9b3b502ab1bc96c9a51e91bc1" prot="private" virt="non-virtual"><scope>vart::Logger</scope><name>operator=</name></member>
+      <member refid="classvart_1_1Logger_1a9a829728613a65ac411d0bb7fd564127" prot="private" virt="non-virtual"><scope>vart::Logger</scope><name>reg_mutex</name></member>
+      <member refid="classvart_1_1Logger_1a3d244b81ddc09a0abb115ffd44560e55" prot="private" virt="non-virtual"><scope>vart::Logger</scope><name>type</name></member>
+      <member refid="classvart_1_1Logger_1a9354bfd95d11a77d152b0479a8542508" prot="private" virt="non-virtual"><scope>vart::Logger</scope><name>vart_components</name></member>
+      <member refid="classvart_1_1Logger_1a66e412bf9cc366edda8973fd9f7be7ff" prot="public" virt="non-virtual"><scope>vart::Logger</scope><name>vart_logger_log_obj</name></member>
+      <member refid="classvart_1_1Logger_1a13db60f262ec2adb540c44bc4f213375" prot="private" virt="non-virtual"><scope>vart::Logger</scope><name>~Logger</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

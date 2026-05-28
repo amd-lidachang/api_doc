@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structmem__desc" kind="struct" language="C++" prot="public">
+    <compoundname>mem_desc</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structmem__desc_1ac7719a816f79fde5d38e0b61b8ed9d06" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>volatile void * mem_desc::base_vaddr</definition>
+        <argsstring></argsstring>
+        <name>base_vaddr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_devmem.cpp" line="63" column="15" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_devmem.cpp" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structmem__desc_1a8460e7f098b28e96cc3d152dce4288db" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t mem_desc::phy_addr</definition>
+        <argsstring></argsstring>
+        <name>phy_addr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_devmem.cpp" line="64" column="16" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_devmem.cpp" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structmem__desc_1aab3786b686b501efd352162c1072160e" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t mem_desc::size</definition>
+        <argsstring></argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_devmem.cpp" line="65" column="16" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_devmem.cpp" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_devmem.cpp" line="61" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_devmem.cpp" bodystart="62" bodyend="66"/>
+    <listofallmembers>
+      <member refid="structmem__desc_1ac7719a816f79fde5d38e0b61b8ed9d06" prot="public" virt="non-virtual"><scope>mem_desc</scope><name>base_vaddr</name></member>
+      <member refid="structmem__desc_1a8460e7f098b28e96cc3d152dce4288db" prot="public" virt="non-virtual"><scope>mem_desc</scope><name>phy_addr</name></member>
+      <member refid="structmem__desc_1aab3786b686b501efd352162c1072160e" prot="public" virt="non-virtual"><scope>mem_desc</scope><name>size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

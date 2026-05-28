@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classvart_1_1TrackerImplBase" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>vart::TrackerImplBase</compoundname>
+    <derivedcompoundref refid="classvart_1_1TrackerImplDefault" prot="public" virt="non-virtual">vart::TrackerImplDefault</derivedcompoundref>
+    <includes refid="vart__tracker__impl__base_8hpp" local="no">vart_tracker_impl_base.hpp</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classvart_1_1TrackerImplBase_1a6ca89525f93f606a5a677d9cb679a8e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>vart::TrackerImplBase::TrackerImplBase</definition>
+        <argsstring>()=default</argsstring>
+        <name>TrackerImplBase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base/vart_tracker_impl_base.hpp" line="30" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1TrackerImplBase_1ae200ea2b1b80c1920ff06552d6cf1a50" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual vart::TrackerImplBase::~TrackerImplBase</definition>
+        <argsstring>()</argsstring>
+        <name>~TrackerImplBase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base/vart_tracker_impl_base.hpp" line="31" column="11" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base/vart_tracker_impl_base.hpp" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1TrackerImplBase_1ae2f202467b57fbacbc655583566da5dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void vart::TrackerImplBase::process</definition>
+        <argsstring>(VideoFrame &amp;frame, std::shared_ptr&lt; InferResult &gt; root_infer_res)=0</argsstring>
+        <name>process</name>
+        <reimplementedby refid="classvart_1_1TrackerImplDefault_1a77e0ab82aa4ee1afb8747d9441638183">process</reimplementedby>
+        <param>
+          <type><ref refid="classvart_1_1VideoFrame" kindref="compound">VideoFrame</ref> &amp;</type>
+          <declname>frame</declname>
+        </param>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="classvart_1_1InferResult" kindref="compound">InferResult</ref> &gt;</type>
+          <declname>root_infer_res</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="classvart_1_1TrackerImplBase_1ae2f202467b57fbacbc655583566da5dc" kindref="member">process()</ref> - Perform tracking based on the specified parameters. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>frame</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Videoframe instance to be processed.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>root_infer_res</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Root node of the Inference results. This will have child nodes if infer results are available, else with no child nodes. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base/vart_tracker_impl_base.hpp" line="43" column="16"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="classvart_1_1TrackerImplBase" kindref="compound">TrackerImplBase</ref> module. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>vart::TrackerImplDefault</label>
+        <link refid="classvart_1_1TrackerImplDefault"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>vart::TrackerImplBase</label>
+        <link refid="classvart_1_1TrackerImplBase"/>
+      </node>
+    </inheritancegraph>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base/vart_tracker_impl_base.hpp" line="28" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base/vart_tracker_impl_base.hpp" bodystart="28" bodyend="44"/>
+    <listofallmembers>
+      <member refid="classvart_1_1TrackerImplBase_1ae2f202467b57fbacbc655583566da5dc" prot="public" virt="pure-virtual"><scope>vart::TrackerImplBase</scope><name>process</name></member>
+      <member refid="classvart_1_1TrackerImplBase_1a6ca89525f93f606a5a677d9cb679a8e7" prot="public" virt="non-virtual"><scope>vart::TrackerImplBase</scope><name>TrackerImplBase</name></member>
+      <member refid="classvart_1_1TrackerImplBase_1ae200ea2b1b80c1920ff06552d6cf1a50" prot="public" virt="virtual"><scope>vart::TrackerImplBase</scope><name>~TrackerImplBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

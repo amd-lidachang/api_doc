@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structvart_1_1VideoPlaneInfo" kind="struct" language="C++" prot="public">
+    <compoundname>vart::VideoPlaneInfo</compoundname>
+    <includes refid="vart__videoframe__types_8hpp" local="no">vart_videoframe_types.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structvart_1_1VideoPlaneInfo_1abcc896f4760d7f6d8f3ee7cac24bc551" prot="public" static="no" mutable="no">
+        <type>uint8_t *</type>
+        <definition>uint8_t* vart::VideoPlaneInfo::data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_videoframe_types.hpp" line="241" column="11" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_videoframe_types.hpp" bodystart="241" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1VideoPlaneInfo_1a7822a0056d3091e098f00b5032a64d45" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t vart::VideoPlaneInfo::phy_addr</definition>
+        <argsstring></argsstring>
+        <name>phy_addr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_videoframe_types.hpp" line="242" column="12" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_videoframe_types.hpp" bodystart="242" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1VideoPlaneInfo_1aa84fa897a21e0017221f298e030038b3" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t vart::VideoPlaneInfo::size</definition>
+        <argsstring></argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_videoframe_types.hpp" line="243" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_videoframe_types.hpp" bodystart="243" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1VideoPlaneInfo_1a85e57ddb979e98d52425d497da47b34a" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t vart::VideoPlaneInfo::offset</definition>
+        <argsstring></argsstring>
+        <name>offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_videoframe_types.hpp" line="244" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_videoframe_types.hpp" bodystart="244" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1VideoPlaneInfo_1abdd9eb4f20f658b16992054b247bac81" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t vart::VideoPlaneInfo::stride</definition>
+        <argsstring></argsstring>
+        <name>stride</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_videoframe_types.hpp" line="245" column="11" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_videoframe_types.hpp" bodystart="245" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1VideoPlaneInfo_1ac0ffb36c1dfbdbefd7e4b925745a09d9" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t vart::VideoPlaneInfo::elevation</definition>
+        <argsstring></argsstring>
+        <name>elevation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_videoframe_types.hpp" line="246" column="11" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_videoframe_types.hpp" bodystart="246" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Structure contains information specific to a video frame plane. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_videoframe_types.hpp" line="240" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_videoframe_types.hpp" bodystart="240" bodyend="247"/>
+    <listofallmembers>
+      <member refid="structvart_1_1VideoPlaneInfo_1abcc896f4760d7f6d8f3ee7cac24bc551" prot="public" virt="non-virtual"><scope>vart::VideoPlaneInfo</scope><name>data</name></member>
+      <member refid="structvart_1_1VideoPlaneInfo_1ac0ffb36c1dfbdbefd7e4b925745a09d9" prot="public" virt="non-virtual"><scope>vart::VideoPlaneInfo</scope><name>elevation</name></member>
+      <member refid="structvart_1_1VideoPlaneInfo_1a85e57ddb979e98d52425d497da47b34a" prot="public" virt="non-virtual"><scope>vart::VideoPlaneInfo</scope><name>offset</name></member>
+      <member refid="structvart_1_1VideoPlaneInfo_1a7822a0056d3091e098f00b5032a64d45" prot="public" virt="non-virtual"><scope>vart::VideoPlaneInfo</scope><name>phy_addr</name></member>
+      <member refid="structvart_1_1VideoPlaneInfo_1aa84fa897a21e0017221f298e030038b3" prot="public" virt="non-virtual"><scope>vart::VideoPlaneInfo</scope><name>size</name></member>
+      <member refid="structvart_1_1VideoPlaneInfo_1abdd9eb4f20f658b16992054b247bac81" prot="public" virt="non-virtual"><scope>vart::VideoPlaneInfo</scope><name>stride</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

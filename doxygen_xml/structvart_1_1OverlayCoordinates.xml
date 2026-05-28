@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structvart_1_1OverlayCoordinates" kind="struct" language="C++" prot="public">
+    <compoundname>vart::OverlayCoordinates</compoundname>
+    <includes refid="vart__overlay__types_8hpp" local="no">vart_overlay_types.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structvart_1_1OverlayCoordinates_1a60ba826d25442e3528242be09d6d3967" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t vart::OverlayCoordinates::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" line="44" column="11" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1OverlayCoordinates_1a008eb7793d8c56b94cf66996defaaeb7" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t vart::OverlayCoordinates::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" line="45" column="11" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Structure representing Coordinate information. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" line="43" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" bodystart="43" bodyend="46"/>
+    <listofallmembers>
+      <member refid="structvart_1_1OverlayCoordinates_1a60ba826d25442e3528242be09d6d3967" prot="public" virt="non-virtual"><scope>vart::OverlayCoordinates</scope><name>x</name></member>
+      <member refid="structvart_1_1OverlayCoordinates_1a008eb7793d8c56b94cf66996defaaeb7" prot="public" virt="non-virtual"><scope>vart::OverlayCoordinates</scope><name>y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

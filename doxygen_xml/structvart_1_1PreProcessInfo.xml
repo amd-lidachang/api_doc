@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structvart_1_1PreProcessInfo" kind="struct" language="C++" prot="public">
+    <compoundname>vart::PreProcessInfo</compoundname>
+    <includes refid="vart__preprocess__types_8hpp" local="no">vart_preprocess_types.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structvart_1_1PreProcessInfo_1af8000872e732092ecaeba59f23414275" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float vart::PreProcessInfo::qt_fctr</definition>
+        <argsstring></argsstring>
+        <name>qt_fctr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_preprocess_types.hpp" line="87" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_preprocess_types.hpp" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1PreProcessInfo_1abcc29f78b3103a959d52c1a486328e23" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float vart::PreProcessInfo::mean_r</definition>
+        <argsstring></argsstring>
+        <name>mean_r</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_preprocess_types.hpp" line="88" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_preprocess_types.hpp" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1PreProcessInfo_1a4f9ab96115242f2af38da58651173fec" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float vart::PreProcessInfo::mean_g</definition>
+        <argsstring></argsstring>
+        <name>mean_g</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_preprocess_types.hpp" line="89" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_preprocess_types.hpp" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1PreProcessInfo_1a160938412a8d4032b324123e9264b873" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float vart::PreProcessInfo::mean_b</definition>
+        <argsstring></argsstring>
+        <name>mean_b</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_preprocess_types.hpp" line="90" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_preprocess_types.hpp" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1PreProcessInfo_1a1f9fc21ae4cc366bc97c293883f8c730" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float vart::PreProcessInfo::scale_r</definition>
+        <argsstring></argsstring>
+        <name>scale_r</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_preprocess_types.hpp" line="91" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_preprocess_types.hpp" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1PreProcessInfo_1acf4f2a8b6aa0c0c4b4a5ad4387091549" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float vart::PreProcessInfo::scale_g</definition>
+        <argsstring></argsstring>
+        <name>scale_g</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_preprocess_types.hpp" line="92" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_preprocess_types.hpp" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1PreProcessInfo_1af6236f4fbb954f977e52747ac03c4c17" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float vart::PreProcessInfo::scale_b</definition>
+        <argsstring></argsstring>
+        <name>scale_b</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_preprocess_types.hpp" line="93" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_preprocess_types.hpp" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1PreProcessInfo_1ad6044e2c83bd5f8e3e42759eb533ea9e" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t vart::PreProcessInfo::height</definition>
+        <argsstring></argsstring>
+        <name>height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_preprocess_types.hpp" line="94" column="12" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_preprocess_types.hpp" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1PreProcessInfo_1ac47e6413a24cb93e888652760b2c9b1d" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t vart::PreProcessInfo::width</definition>
+        <argsstring></argsstring>
+        <name>width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_preprocess_types.hpp" line="95" column="12" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_preprocess_types.hpp" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1PreProcessInfo_1ada89211498719f407756135d12010626" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacevart_1a0701d5498bcfe62aa2293fd856702b8d" kindref="member">VideoFormat</ref></type>
+        <definition>VideoFormat vart::PreProcessInfo::colour_format</definition>
+        <argsstring></argsstring>
+        <name>colour_format</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_preprocess_types.hpp" line="96" column="15" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_preprocess_types.hpp" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1PreProcessInfo_1a8069f43dabf9a241fa27f2f057e62ea1" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacevart_1a79d352ce614430c8e8a3627a5b8f8697" kindref="member">PreProcessType</ref></type>
+        <definition>PreProcessType vart::PreProcessInfo::preprocess_type</definition>
+        <argsstring></argsstring>
+        <name>preprocess_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_preprocess_types.hpp" line="97" column="18" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_preprocess_types.hpp" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1PreProcessInfo_1ac96c55d9a5419b3b8678054184fc5b5b" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool vart::PreProcessInfo::symmetric_padding</definition>
+        <argsstring></argsstring>
+        <name>symmetric_padding</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_preprocess_types.hpp" line="98" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_preprocess_types.hpp" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Struture to store Pre processing parameters. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_preprocess_types.hpp" line="86" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_preprocess_types.hpp" bodystart="86" bodyend="99"/>
+    <listofallmembers>
+      <member refid="structvart_1_1PreProcessInfo_1ada89211498719f407756135d12010626" prot="public" virt="non-virtual"><scope>vart::PreProcessInfo</scope><name>colour_format</name></member>
+      <member refid="structvart_1_1PreProcessInfo_1ad6044e2c83bd5f8e3e42759eb533ea9e" prot="public" virt="non-virtual"><scope>vart::PreProcessInfo</scope><name>height</name></member>
+      <member refid="structvart_1_1PreProcessInfo_1a160938412a8d4032b324123e9264b873" prot="public" virt="non-virtual"><scope>vart::PreProcessInfo</scope><name>mean_b</name></member>
+      <member refid="structvart_1_1PreProcessInfo_1a4f9ab96115242f2af38da58651173fec" prot="public" virt="non-virtual"><scope>vart::PreProcessInfo</scope><name>mean_g</name></member>
+      <member refid="structvart_1_1PreProcessInfo_1abcc29f78b3103a959d52c1a486328e23" prot="public" virt="non-virtual"><scope>vart::PreProcessInfo</scope><name>mean_r</name></member>
+      <member refid="structvart_1_1PreProcessInfo_1a8069f43dabf9a241fa27f2f057e62ea1" prot="public" virt="non-virtual"><scope>vart::PreProcessInfo</scope><name>preprocess_type</name></member>
+      <member refid="structvart_1_1PreProcessInfo_1af8000872e732092ecaeba59f23414275" prot="public" virt="non-virtual"><scope>vart::PreProcessInfo</scope><name>qt_fctr</name></member>
+      <member refid="structvart_1_1PreProcessInfo_1af6236f4fbb954f977e52747ac03c4c17" prot="public" virt="non-virtual"><scope>vart::PreProcessInfo</scope><name>scale_b</name></member>
+      <member refid="structvart_1_1PreProcessInfo_1acf4f2a8b6aa0c0c4b4a5ad4387091549" prot="public" virt="non-virtual"><scope>vart::PreProcessInfo</scope><name>scale_g</name></member>
+      <member refid="structvart_1_1PreProcessInfo_1a1f9fc21ae4cc366bc97c293883f8c730" prot="public" virt="non-virtual"><scope>vart::PreProcessInfo</scope><name>scale_r</name></member>
+      <member refid="structvart_1_1PreProcessInfo_1ac96c55d9a5419b3b8678054184fc5b5b" prot="public" virt="non-virtual"><scope>vart::PreProcessInfo</scope><name>symmetric_padding</name></member>
+      <member refid="structvart_1_1PreProcessInfo_1ac47e6413a24cb93e888652760b2c9b1d" prot="public" virt="non-virtual"><scope>vart::PreProcessInfo</scope><name>width</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_2a35fe9c1fe05ce5babd6159c1378f2c" kind="dir">
+    <compoundname>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/tracker</compoundname>
+    <innerfile refid="vart__tracker_8cpp">vart_tracker.cpp</innerfile>
+    <innerfile refid="vart__tracker__impl__default_8cpp">vart_tracker_impl_default.cpp</innerfile>
+    <innerfile refid="vart__tracker__impl__default_8hpp">vart_tracker_impl_default.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/tracker/"/>
+  </compounddef>
+</doxygen>

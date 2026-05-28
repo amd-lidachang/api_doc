@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="vart__videoframe__impl__xrt_8hpp" kind="file" language="C++">
+    <compoundname>vart_videoframe_impl_xrt.hpp</compoundname>
+    <includes local="no">vvas_core/vvas_video.h</includes>
+    <includes local="no">vvas_core/vvas_video_priv.h</includes>
+    <includes refid="vart__videoframe__impl__base_8hpp" local="yes">base/vart_videoframe_impl_base.hpp</includes>
+    <includes refid="vart__device_8hpp" local="yes">vart_device.hpp</includes>
+    <includes refid="vart__logger_8hpp" local="yes">vart_logger.hpp</includes>
+    <includes refid="vart__videoframe__types_8hpp" local="yes">vart_videoframe_types.hpp</includes>
+    <includedby refid="vart__overlay__impl__opencv_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/overlay/vart_overlay_impl_opencv.cpp</includedby>
+    <includedby refid="vart__preprocess__impl__imgproc_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/preprocess/vart_preprocess_impl_imgproc.cpp</includedby>
+    <includedby refid="vart__tracker__impl__default_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/tracker/vart_tracker_impl_default.cpp</includedby>
+    <includedby refid="vart__videoframe_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/videoframe/vart_videoframe.cpp</includedby>
+    <includedby refid="vart__videoframe__impl__xrt_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/videoframe/vart_videoframe_impl_xrt.cpp</includedby>
+    <incdepgraph>
+      <node id="10">
+        <label>cstdint</label>
+      </node>
+      <node id="15">
+        <label>cstdarg</label>
+      </node>
+      <node id="11">
+        <label>string</label>
+      </node>
+      <node id="19">
+        <label>map</label>
+      </node>
+      <node id="17">
+        <label>fstream</label>
+      </node>
+      <node id="3">
+        <label>vvas_core/vvas_video_priv.h</label>
+      </node>
+      <node id="13">
+        <label>syslog.h</label>
+      </node>
+      <node id="1">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/videoframe/vart_videoframe_impl_xrt.hpp</label>
+        <link refid="vart__videoframe__impl__xrt_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>vvas_core/vvas_video.h</label>
+      </node>
+      <node id="9">
+        <label>../vart_videoframe_types.hpp</label>
+        <link refid="vart__videoframe__types_8hpp"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>cstdio</label>
+      </node>
+      <node id="12">
+        <label>vart_logger.hpp</label>
+        <link refid="vart__logger_8hpp"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>../vart_device.hpp</label>
+        <link refid="vart__device_8hpp"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>vart_logger_types.hpp</label>
+        <link refid="vart__logger__types_8hpp"/>
+      </node>
+      <node id="5">
+        <label>vector</label>
+      </node>
+      <node id="21">
+        <label>sstream</label>
+      </node>
+      <node id="18">
+        <label>iostream</label>
+      </node>
+      <node id="20">
+        <label>mutex</label>
+      </node>
+      <node id="14">
+        <label>chrono</label>
+      </node>
+      <node id="4">
+        <label>base/vart_videoframe_impl_base.hpp</label>
+        <link refid="vart__videoframe__impl__base_8hpp"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>../vart_memory_types.hpp</label>
+        <link refid="vart__memory__types_8hpp"/>
+      </node>
+      <node id="7">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="5">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/videoframe/vart_videoframe.cpp</label>
+        <link refid="vart__videoframe_8cpp"/>
+      </node>
+      <node id="6">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/videoframe/vart_videoframe_impl_xrt.cpp</label>
+        <link refid="vart__videoframe__impl__xrt_8cpp"/>
+      </node>
+      <node id="1">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/videoframe/vart_videoframe_impl_xrt.hpp</label>
+        <link refid="vart__videoframe__impl__xrt_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/overlay/vart_overlay_impl_opencv.cpp</label>
+        <link refid="vart__overlay__impl__opencv_8cpp"/>
+      </node>
+      <node id="3">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/preprocess/vart_preprocess_impl_imgproc.cpp</label>
+        <link refid="vart__preprocess__impl__imgproc_8cpp"/>
+      </node>
+      <node id="4">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/tracker/vart_tracker_impl_default.cpp</label>
+        <link refid="vart__tracker__impl__default_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classvart_1_1VideoFrameImplXRT" prot="public">vart::VideoFrameImplXRT</innerclass>
+    <innernamespace refid="namespacevart">vart</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>2024<sp/>Advanced<sp/>Micro<sp/>Devices<sp/>Inc.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>Licensed<sp/>under<sp/>the<sp/>Apache<sp/>License,<sp/>Version<sp/>2.0<sp/>(the<sp/>&quot;License&quot;);</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>you<sp/>may<sp/>not<sp/>use<sp/>this<sp/>file<sp/>except<sp/>in<sp/>compliance<sp/>with<sp/>the<sp/>License.</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>You<sp/>may<sp/>obtain<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>License<sp/>at</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/>http://www.apache.org/licenses/LICENSE-2.0</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>Unless<sp/>required<sp/>by<sp/>applicable<sp/>law<sp/>or<sp/>agreed<sp/>to<sp/>in<sp/>writing,<sp/>software</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>distributed<sp/>under<sp/>the<sp/>License<sp/>is<sp/>distributed<sp/>on<sp/>an<sp/>&quot;AS<sp/>IS&quot;<sp/>BASIS,</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>WITHOUT<sp/>WARRANTIES<sp/>OR<sp/>CONDITIONS<sp/>OF<sp/>ANY<sp/>KIND,<sp/>either<sp/>express<sp/>or<sp/>implied.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>See<sp/>the<sp/>License<sp/>for<sp/>the<sp/>specific<sp/>language<sp/>governing<sp/>permissions<sp/>and</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>limitations<sp/>under<sp/>the<sp/>License.</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vvas_core/vvas_video.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vvas_core/vvas_video_priv.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="vart__videoframe__impl__base_8hpp" kindref="compound">base/vart_videoframe_impl_base.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="vart__device_8hpp" kindref="compound">vart_device.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="vart__logger_8hpp" kindref="compound">vart_logger.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="vart__videoframe__types_8hpp" kindref="compound">vart_videoframe_types.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacevart" kindref="compound">vart</ref><sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="classvart_1_1VideoFrameImplXRT" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classvart_1_1VideoFrameImplXRT" kindref="compound">VideoFrameImplXRT</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classvart_1_1VideoFrameImplBase" kindref="compound">VideoFrameImplBase</ref><sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><ref refid="classvart_1_1VideoFrameImplXRT_1a14bff7bde677931fbecbb676d294b66e" kindref="member">VideoFrameImplXRT</ref>(<ref refid="namespacevart_1af6bbe787a7c472fd3a86348a8ab41a1e" kindref="member">VideoFrameImplType</ref><sp/><ref refid="run__snapshot__bin_8cpp_1a1d127017fb298b889f4ba24752d08b8e" kindref="member">type</ref>,</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size_param,</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>mbank_idx_param,</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structvart_1_1VideoInfo" kindref="compound">VideoInfo</ref>&amp;<sp/><ref refid="classvart_1_1VideoFrameImplBase_1a3e89a5f0d12a4eaa5d2fd2078db7441c" kindref="member">vinfo</ref>,</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::shared_ptr&lt;Device&gt;<sp/><ref refid="classvart_1_1VideoFrameImplBase_1a9ed6b5856d4ab3a3d2475872b0759280" kindref="member">device</ref>);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><ref refid="classvart_1_1VideoFrameImplXRT_1a14bff7bde677931fbecbb676d294b66e" kindref="member">VideoFrameImplXRT</ref>(<ref refid="namespacevart_1af6bbe787a7c472fd3a86348a8ab41a1e" kindref="member">VideoFrameImplType</ref><sp/><ref refid="run__snapshot__bin_8cpp_1a1d127017fb298b889f4ba24752d08b8e" kindref="member">type</ref>,</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;uint8_t*&gt;&amp;<sp/>data_vec,</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structvart_1_1VideoInfo" kindref="compound">VideoInfo</ref>&amp;<sp/><ref refid="classvart_1_1VideoFrameImplBase_1a3e89a5f0d12a4eaa5d2fd2078db7441c" kindref="member">vinfo</ref>,</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::shared_ptr&lt;Device&gt;<sp/><ref refid="classvart_1_1VideoFrameImplBase_1a9ed6b5856d4ab3a3d2475872b0759280" kindref="member">device</ref>);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><ref refid="classvart_1_1VideoFrameImplXRT_1a14bff7bde677931fbecbb676d294b66e" kindref="member">VideoFrameImplXRT</ref>(<ref refid="namespacevart_1af6bbe787a7c472fd3a86348a8ab41a1e" kindref="member">VideoFrameImplType</ref><sp/><ref refid="run__snapshot__bin_8cpp_1a1d127017fb298b889f4ba24752d08b8e" kindref="member">type</ref>,</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>mbank_idx,</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;xrt::bo*&gt;&amp;<sp/>bo_vec,</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structvart_1_1VideoInfo" kindref="compound">VideoInfo</ref>&amp;<sp/><ref refid="classvart_1_1VideoFrameImplBase_1a3e89a5f0d12a4eaa5d2fd2078db7441c" kindref="member">vinfo</ref>,</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::shared_ptr&lt;Device&gt;<sp/><ref refid="classvart_1_1VideoFrameImplBase_1a9ed6b5856d4ab3a3d2475872b0759280" kindref="member">device</ref>);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><ref refid="classvart_1_1VideoFrameImplXRT_1abc59db9e817f50850034bec9e2fe9b7b" kindref="member">~VideoFrameImplXRT</ref>();</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structvart_1_1VideoFrameMapInfo" kindref="compound">VideoFrameMapInfo</ref>&amp;<sp/><ref refid="classvart_1_1VideoFrameImplXRT_1a6325a58333011bd4756c1e709d57ecac" kindref="member">map</ref>(<ref refid="namespacevart_1a7eaeef130d371a48660e46c0ddd5fab9" kindref="member">DataMapFlags</ref><sp/>map_flags)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classvart_1_1VideoFrameImplXRT_1aa955d79b129adddacee0b4c7fe32c395" kindref="member">unmap</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structvart_1_1VideoInfo" kindref="compound">VideoInfo</ref>&amp;<sp/><ref refid="classvart_1_1VideoFrameImplXRT_1aa7da9b575ae7af245b4c533639a215f4" kindref="member">get_video_info</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/><ref refid="classvart_1_1VideoFrameImplXRT_1a3ed587dc2b00329c79c7dcf2af6f4042" kindref="member">get_videoframe_handle</ref>();</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/><ref refid="classvart_1_1VideoFrameImplXRT_1a9edf83c057a5175a19496032d06da220" kindref="member">get_videoframe_bo</ref>();</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/>uint8_t<sp/><ref refid="classvart_1_1VideoFrameImplXRT_1a469e7a9bc6cec4c71087219c67172cf3" kindref="member">get_membank_idx</ref>();</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/>std::shared_ptr&lt;Device&gt;<sp/><ref refid="classvart_1_1VideoFrameImplXRT_1aac58fd4780a7493a90b5f9f7d183db9f" kindref="member">get_device_handle</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size;</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/>uint8_t<sp/>mbank_idx;</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/>VvasVideoFrame*<sp/>video_frame;</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/>uint32_t<sp/>num_planes;</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/>VvasVideoFrameMapInfo<sp/>map_info;</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/>VvasAllocationType<sp/>alloc_type;</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/>std::shared_ptr&lt;struct<sp/>log_context&gt;<sp/>log_ctx;</highlight></codeline>
+<codeline lineno="165"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="166"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>vart</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/videoframe/vart_videoframe_impl_xrt.hpp"/>
+  </compounddef>
+</doxygen>

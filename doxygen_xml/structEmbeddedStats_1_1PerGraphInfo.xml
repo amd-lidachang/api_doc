@@ -1,0 +1,244 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structEmbeddedStats_1_1PerGraphInfo" kind="struct" language="C++" prot="private">
+    <compoundname>EmbeddedStats::PerGraphInfo</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structEmbeddedStats_1_1PerGraphInfo_1a0ca7d24857ecf951afb9a2d62802ab38" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int EmbeddedStats::PerGraphInfo::hash</definition>
+        <argsstring></argsstring>
+        <name>hash</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="283" column="13" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="283" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1_1PerGraphInfo_1a56aba1b8f77a90c12c7cfa5db8a7b79c" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string EmbeddedStats::PerGraphInfo::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="284" column="13" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="284" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1_1PerGraphInfo_1a5d7fbe36c9c07dede4a5cf4154d563cb" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; std::vector&lt; uint &gt; &gt;</type>
+        <definition>std::vector&lt;std::vector&lt;uint&gt; &gt; EmbeddedStats::PerGraphInfo::inputShape</definition>
+        <argsstring></argsstring>
+        <name>inputShape</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="286" column="13" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="286" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1_1PerGraphInfo_1a9df12138856d88d0c59e3f22a48fa263" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; std::vector&lt; uint &gt; &gt;</type>
+        <definition>std::vector&lt;std::vector&lt;uint&gt; &gt; EmbeddedStats::PerGraphInfo::outputShape</definition>
+        <argsstring></argsstring>
+        <name>outputShape</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="287" column="13" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="287" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1_1PerGraphInfo_1afddc23e3f2ec74b4d40804cc7eab7959" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt;std::string&gt; EmbeddedStats::PerGraphInfo::inputDataType</definition>
+        <argsstring></argsstring>
+        <name>inputDataType</name>
+        <initializer>= {}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="289" column="13" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="289" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1_1PerGraphInfo_1a790d82cadf395f6ffe5158fcc32cc157" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt;std::string&gt; EmbeddedStats::PerGraphInfo::outputDataType</definition>
+        <argsstring></argsstring>
+        <name>outputDataType</name>
+        <initializer>= {}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="290" column="13" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="290" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1_1PerGraphInfo_1a74f7e22237236a0a6b83a0502921db07" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t EmbeddedStats::PerGraphInfo::batchSize</definition>
+        <argsstring></argsstring>
+        <name>batchSize</name>
+        <initializer>= (size_t)-1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="292" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="292" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1_1PerGraphInfo_1ac60b17a480de24e94003ed45c8cce7fa" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool EmbeddedStats::PerGraphInfo::runOnCpu</definition>
+        <argsstring></argsstring>
+        <name>runOnCpu</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="293" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="293" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1_1PerGraphInfo_1a996594ed64533f91db8f0f4cf68bac75" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool EmbeddedStats::PerGraphInfo::firstGraph</definition>
+        <argsstring></argsstring>
+        <name>firstGraph</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="294" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="294" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1_1PerGraphInfo_1a82df9d0626bc3725df490b54fdafb4dc" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool EmbeddedStats::PerGraphInfo::lastGraph</definition>
+        <argsstring></argsstring>
+        <name>lastGraph</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="295" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="295" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1_1PerGraphInfo_1a1f51048e7836a2cb87557cca6a1eeb2d" prot="public" static="no" mutable="no">
+        <type><ref refid="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28" kindref="member">step_t</ref></type>
+        <definition>step_t EmbeddedStats::PerGraphInfo::previous_step</definition>
+        <argsstring></argsstring>
+        <name>previous_step</name>
+        <initializer>= <ref refid="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28a6d55417c509ed86150d10d2507174ff0" kindref="member">EmbeddedStats::UNDEFINED</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="296" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="296" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1_1PerGraphInfo_1aab6561027d1084592e04338fdabff698" prot="public" static="no" mutable="no">
+        <type>struct SnapshotInfos</type>
+        <definition>struct SnapshotInfos EmbeddedStats::PerGraphInfo::curr_run</definition>
+        <argsstring></argsstring>
+        <name>curr_run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="296" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="298" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1_1PerGraphInfo_1aa7d82eba42fa1111bb063f0c23a4b6ca" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; DeltaTimes &gt;</type>
+        <definition>std::vector&lt;DeltaTimes&gt; EmbeddedStats::PerGraphInfo::times</definition>
+        <argsstring></argsstring>
+        <name>times</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="299" column="13" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="299" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1_1PerGraphInfo_1aa6db23afb491ad725566eaba4e4592ec" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t EmbeddedStats::PerGraphInfo::computedTimes</definition>
+        <argsstring></argsstring>
+        <name>computedTimes</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="300" column="25" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="300" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1_1PerGraphInfo_1ab12b080ac6a6ec0803155c8a2c89e7eb" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string EmbeddedStats::PerGraphInfo::config_str</definition>
+        <argsstring></argsstring>
+        <name>config_str</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="301" column="25" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="301" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>EmbeddedStats::SnapshotInfos</label>
+      </node>
+      <node id="1">
+        <label>EmbeddedStats::PerGraphInfo</label>
+        <childnode refid="2" relation="usage">
+          <edgelabel>curr_run</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="281" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="282" bodyend="302"/>
+    <listofallmembers>
+      <member refid="structEmbeddedStats_1_1PerGraphInfo_1a74f7e22237236a0a6b83a0502921db07" prot="public" virt="non-virtual"><scope>EmbeddedStats::PerGraphInfo</scope><name>batchSize</name></member>
+      <member refid="structEmbeddedStats_1_1PerGraphInfo_1aa6db23afb491ad725566eaba4e4592ec" prot="public" virt="non-virtual"><scope>EmbeddedStats::PerGraphInfo</scope><name>computedTimes</name></member>
+      <member refid="structEmbeddedStats_1_1PerGraphInfo_1ab12b080ac6a6ec0803155c8a2c89e7eb" prot="public" virt="non-virtual"><scope>EmbeddedStats::PerGraphInfo</scope><name>config_str</name></member>
+      <member refid="structEmbeddedStats_1_1PerGraphInfo_1aab6561027d1084592e04338fdabff698" prot="public" virt="non-virtual"><scope>EmbeddedStats::PerGraphInfo</scope><name>curr_run</name></member>
+      <member refid="structEmbeddedStats_1_1PerGraphInfo_1a996594ed64533f91db8f0f4cf68bac75" prot="public" virt="non-virtual"><scope>EmbeddedStats::PerGraphInfo</scope><name>firstGraph</name></member>
+      <member refid="structEmbeddedStats_1_1PerGraphInfo_1a0ca7d24857ecf951afb9a2d62802ab38" prot="public" virt="non-virtual"><scope>EmbeddedStats::PerGraphInfo</scope><name>hash</name></member>
+      <member refid="structEmbeddedStats_1_1PerGraphInfo_1afddc23e3f2ec74b4d40804cc7eab7959" prot="public" virt="non-virtual"><scope>EmbeddedStats::PerGraphInfo</scope><name>inputDataType</name></member>
+      <member refid="structEmbeddedStats_1_1PerGraphInfo_1a5d7fbe36c9c07dede4a5cf4154d563cb" prot="public" virt="non-virtual"><scope>EmbeddedStats::PerGraphInfo</scope><name>inputShape</name></member>
+      <member refid="structEmbeddedStats_1_1PerGraphInfo_1a82df9d0626bc3725df490b54fdafb4dc" prot="public" virt="non-virtual"><scope>EmbeddedStats::PerGraphInfo</scope><name>lastGraph</name></member>
+      <member refid="structEmbeddedStats_1_1PerGraphInfo_1a56aba1b8f77a90c12c7cfa5db8a7b79c" prot="public" virt="non-virtual"><scope>EmbeddedStats::PerGraphInfo</scope><name>name</name></member>
+      <member refid="structEmbeddedStats_1_1PerGraphInfo_1a790d82cadf395f6ffe5158fcc32cc157" prot="public" virt="non-virtual"><scope>EmbeddedStats::PerGraphInfo</scope><name>outputDataType</name></member>
+      <member refid="structEmbeddedStats_1_1PerGraphInfo_1a9df12138856d88d0c59e3f22a48fa263" prot="public" virt="non-virtual"><scope>EmbeddedStats::PerGraphInfo</scope><name>outputShape</name></member>
+      <member refid="structEmbeddedStats_1_1PerGraphInfo_1a1f51048e7836a2cb87557cca6a1eeb2d" prot="public" virt="non-virtual"><scope>EmbeddedStats::PerGraphInfo</scope><name>previous_step</name></member>
+      <member refid="structEmbeddedStats_1_1PerGraphInfo_1ac60b17a480de24e94003ed45c8cce7fa" prot="public" virt="non-virtual"><scope>EmbeddedStats::PerGraphInfo</scope><name>runOnCpu</name></member>
+      <member refid="structEmbeddedStats_1_1PerGraphInfo_1aa7d82eba42fa1111bb063f0c23a4b6ca" prot="public" virt="non-virtual"><scope>EmbeddedStats::PerGraphInfo</scope><name>times</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

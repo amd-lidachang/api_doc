@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_d4e7a8472d0010bf9da9a746d95797ec" kind="dir">
+    <compoundname>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess</compoundname>
+    <innerdir refid="dir_ab998176ce01a6ccc59163cb38f92dfc">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess/ssdresnet34</innerdir>
+    <innerfile refid="vart__postprocess_8cpp">vart_postprocess.cpp</innerfile>
+    <innerfile refid="vart__postprocess__impl__resnet50_8cpp">vart_postprocess_impl_resnet50.cpp</innerfile>
+    <innerfile refid="vart__postprocess__impl__resnet50_8hpp">vart_postprocess_impl_resnet50.hpp</innerfile>
+    <innerfile refid="vart__postprocess__impl__yolov2_8cpp">vart_postprocess_impl_yolov2.cpp</innerfile>
+    <innerfile refid="vart__postprocess__impl__yolov2_8hpp">vart_postprocess_impl_yolov2.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess/"/>
+  </compounddef>
+</doxygen>

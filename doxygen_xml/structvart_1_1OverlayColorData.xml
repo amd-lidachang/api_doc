@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structvart_1_1OverlayColorData" kind="struct" language="C++" prot="public">
+    <compoundname>vart::OverlayColorData</compoundname>
+    <includes refid="vart__overlay__types_8hpp" local="no">vart_overlay_types.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structvart_1_1OverlayColorData_1af71bcebabe93cfc5f33270fb1fc07df5" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t vart::OverlayColorData::red</definition>
+        <argsstring></argsstring>
+        <name>red</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" line="66" column="11" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1OverlayColorData_1a2770e8747a61b6a764d85398cd955cf5" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t vart::OverlayColorData::green</definition>
+        <argsstring></argsstring>
+        <name>green</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" line="67" column="11" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1OverlayColorData_1a7aba4c14985e5916af8906e9aed4e96b" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t vart::OverlayColorData::blue</definition>
+        <argsstring></argsstring>
+        <name>blue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" line="68" column="11" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1OverlayColorData_1a9d5c2a2c592732dd022f971a297418e2" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t vart::OverlayColorData::alpha</definition>
+        <argsstring></argsstring>
+        <name>alpha</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" line="69" column="11" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Structure representing Color information. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" line="65" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" bodystart="65" bodyend="70"/>
+    <listofallmembers>
+      <member refid="structvart_1_1OverlayColorData_1a9d5c2a2c592732dd022f971a297418e2" prot="public" virt="non-virtual"><scope>vart::OverlayColorData</scope><name>alpha</name></member>
+      <member refid="structvart_1_1OverlayColorData_1a7aba4c14985e5916af8906e9aed4e96b" prot="public" virt="non-virtual"><scope>vart::OverlayColorData</scope><name>blue</name></member>
+      <member refid="structvart_1_1OverlayColorData_1a2770e8747a61b6a764d85398cd955cf5" prot="public" virt="non-virtual"><scope>vart::OverlayColorData</scope><name>green</name></member>
+      <member refid="structvart_1_1OverlayColorData_1af71bcebabe93cfc5f33270fb1fc07df5" prot="public" virt="non-virtual"><scope>vart::OverlayColorData</scope><name>red</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structvart_1_1DetectionResData" kind="struct" language="C++" prot="public">
+    <compoundname>vart::DetectionResData</compoundname>
+    <basecompoundref refid="structvart_1_1InferResultData" prot="public" virt="non-virtual">vart::InferResultData</basecompoundref>
+    <includes refid="vart__inferresult__types_8hpp" local="no">vart_inferresult_types.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structvart_1_1DetectionResData_1a61eca7f6711629e0cee2f9500f806580" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t vart::DetectionResData::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_inferresult_types.hpp" line="122" column="11" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_inferresult_types.hpp" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1DetectionResData_1a61e4557df43dec99ea1384508c6fd68b" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t vart::DetectionResData::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_inferresult_types.hpp" line="123" column="11" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_inferresult_types.hpp" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1DetectionResData_1a7f4bf791e4767f84c9e5a1234a74f67d" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t vart::DetectionResData::width</definition>
+        <argsstring></argsstring>
+        <name>width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_inferresult_types.hpp" line="124" column="12" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_inferresult_types.hpp" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1DetectionResData_1aa8d913f24db3b9d433a5f04cbf902c8e" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t vart::DetectionResData::height</definition>
+        <argsstring></argsstring>
+        <name>height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_inferresult_types.hpp" line="125" column="12" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_inferresult_types.hpp" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1DetectionResData_1aeff185b95524a9370c4edc024b032a70" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string vart::DetectionResData::label</definition>
+        <argsstring></argsstring>
+        <name>label</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_inferresult_types.hpp" line="126" column="15" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_inferresult_types.hpp" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1DetectionResData_1a33da2dea4a2cb91e92ce395a5f31a12a" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double vart::DetectionResData::confidence</definition>
+        <argsstring></argsstring>
+        <name>confidence</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_inferresult_types.hpp" line="127" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_inferresult_types.hpp" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1DetectionResData_1afe7b72336be1af1cbc2ea6891d18ba9b" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string vart::DetectionResData::obj_track_label</definition>
+        <argsstring></argsstring>
+        <name>obj_track_label</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_inferresult_types.hpp" line="128" column="15" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_inferresult_types.hpp" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1DetectionResData_1a226684040c4445c0d6c4b18a3b413c1e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int vart::DetectionResData::class_id</definition>
+        <argsstring></argsstring>
+        <name>class_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_inferresult_types.hpp" line="129" column="7" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_inferresult_types.hpp" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Detection infer result. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>vart::InferResultData</label>
+        <link refid="structvart_1_1InferResultData"/>
+      </node>
+      <node id="1">
+        <label>vart::DetectionResData</label>
+        <link refid="structvart_1_1DetectionResData"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>vart::InferResultData</label>
+        <link refid="structvart_1_1InferResultData"/>
+      </node>
+      <node id="1">
+        <label>vart::DetectionResData</label>
+        <link refid="structvart_1_1DetectionResData"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_inferresult_types.hpp" line="121" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_inferresult_types.hpp" bodystart="121" bodyend="130"/>
+    <listofallmembers>
+      <member refid="structvart_1_1DetectionResData_1a226684040c4445c0d6c4b18a3b413c1e" prot="public" virt="non-virtual"><scope>vart::DetectionResData</scope><name>class_id</name></member>
+      <member refid="structvart_1_1DetectionResData_1a33da2dea4a2cb91e92ce395a5f31a12a" prot="public" virt="non-virtual"><scope>vart::DetectionResData</scope><name>confidence</name></member>
+      <member refid="structvart_1_1DetectionResData_1aa8d913f24db3b9d433a5f04cbf902c8e" prot="public" virt="non-virtual"><scope>vart::DetectionResData</scope><name>height</name></member>
+      <member refid="structvart_1_1DetectionResData_1aeff185b95524a9370c4edc024b032a70" prot="public" virt="non-virtual"><scope>vart::DetectionResData</scope><name>label</name></member>
+      <member refid="structvart_1_1DetectionResData_1afe7b72336be1af1cbc2ea6891d18ba9b" prot="public" virt="non-virtual"><scope>vart::DetectionResData</scope><name>obj_track_label</name></member>
+      <member refid="structvart_1_1InferResultData_1a92e3cd316a39420b8453a82260993841" prot="public" virt="non-virtual"><scope>vart::DetectionResData</scope><name>result_type</name></member>
+      <member refid="structvart_1_1DetectionResData_1a7f4bf791e4767f84c9e5a1234a74f67d" prot="public" virt="non-virtual"><scope>vart::DetectionResData</scope><name>width</name></member>
+      <member refid="structvart_1_1DetectionResData_1a61eca7f6711629e0cee2f9500f806580" prot="public" virt="non-virtual"><scope>vart::DetectionResData</scope><name>x</name></member>
+      <member refid="structvart_1_1DetectionResData_1a61e4557df43dec99ea1384508c6fd68b" prot="public" virt="non-virtual"><scope>vart::DetectionResData</scope><name>y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

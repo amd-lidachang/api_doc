@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_c8e7657300bee10ca4fac3ec56e03415" kind="dir">
+    <compoundname>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo</compoundname>
+    <innerfile refid="common_8cpp">common.cpp</innerfile>
+    <innerfile refid="common_8h">common.h</innerfile>
+    <innerfile refid="multi__models__demo_8cpp">multi_models_demo.cpp</innerfile>
+    <innerfile refid="simple__demo_8cpp">simple_demo.cpp</innerfile>
+    <innerfile refid="threads__demo_8cpp">threads_demo.cpp</innerfile>
+    <innerfile refid="vart__ml__demo_8cpp">vart_ml_demo.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/"/>
+  </compounddef>
+</doxygen>

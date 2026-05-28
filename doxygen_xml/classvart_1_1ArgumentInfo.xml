@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classvart_1_1ArgumentInfo" kind="class" language="C++" prot="public">
+    <compoundname>vart::ArgumentInfo</compoundname>
+    <includes refid="vart__plkernel__types_8hpp" local="no">vart_plkernel_types.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classvart_1_1ArgumentInfo_1a9c6a4a77ef0c5888b04c0904bdc52fec" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string vart::ArgumentInfo::arg_name</definition>
+        <argsstring></argsstring>
+        <name>arg_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_plkernel_types.hpp" line="46" column="15" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_plkernel_types.hpp" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvart_1_1ArgumentInfo_1a5cb99970e914634eda4845a49e17e855" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int vart::ArgumentInfo::arg_index</definition>
+        <argsstring></argsstring>
+        <name>arg_index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_plkernel_types.hpp" line="47" column="16" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_plkernel_types.hpp" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvart_1_1ArgumentInfo_1a32cf08013a09fb2a10437923cbbe98ea" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t vart::ArgumentInfo::arg_size</definition>
+        <argsstring></argsstring>
+        <name>arg_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_plkernel_types.hpp" line="48" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_plkernel_types.hpp" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvart_1_1ArgumentInfo_1a3f17ac8b73fe0af8d6e204394e7cf2c1" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int vart::ArgumentInfo::mem_index</definition>
+        <argsstring></argsstring>
+        <name>mem_index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_plkernel_types.hpp" line="49" column="7" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_plkernel_types.hpp" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Contains information related to an argument for the PL kernel. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_plkernel_types.hpp" line="44" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_plkernel_types.hpp" bodystart="44" bodyend="51"/>
+    <listofallmembers>
+      <member refid="classvart_1_1ArgumentInfo_1a5cb99970e914634eda4845a49e17e855" prot="public" virt="non-virtual"><scope>vart::ArgumentInfo</scope><name>arg_index</name></member>
+      <member refid="classvart_1_1ArgumentInfo_1a9c6a4a77ef0c5888b04c0904bdc52fec" prot="public" virt="non-virtual"><scope>vart::ArgumentInfo</scope><name>arg_name</name></member>
+      <member refid="classvart_1_1ArgumentInfo_1a32cf08013a09fb2a10437923cbbe98ea" prot="public" virt="non-virtual"><scope>vart::ArgumentInfo</scope><name>arg_size</name></member>
+      <member refid="classvart_1_1ArgumentInfo_1a3f17ac8b73fe0af8d6e204394e7cf2c1" prot="public" virt="non-virtual"><scope>vart::ArgumentInfo</scope><name>mem_index</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

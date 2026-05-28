@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classvart_1_1MetaConvert" kind="class" language="C++" prot="public">
+    <compoundname>vart::MetaConvert</compoundname>
+    <includes refid="vart__metaconvert_8hpp" local="no">vart_metaconvert.hpp</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classvart_1_1MetaConvert_1aeea73d26f4e632bb396d7ee2d54fdcec" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="classvart_1_1MetaConvertImplBase" kindref="compound">MetaConvertImplBase</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;MetaConvertImplBase&gt; vart::MetaConvert::pimpl</definition>
+        <argsstring></argsstring>
+        <name>pimpl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_metaconvert.hpp" line="87" column="19" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_metaconvert.hpp" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classvart_1_1MetaConvert_1ac5b79d814223ef24bcb110a6c4cd5e1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>vart::MetaConvert::MetaConvert</definition>
+        <argsstring>()=delete</argsstring>
+        <name>MetaConvert</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_metaconvert.hpp" line="40" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1MetaConvert_1a5f99a7195d3e3e00368ea4c02bc18e63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>vart::MetaConvert::MetaConvert</definition>
+        <argsstring>(InferResultType infer_res_type, std::string &amp;json_data, std::shared_ptr&lt; Device &gt; device)</argsstring>
+        <name>MetaConvert</name>
+        <param>
+          <type><ref refid="namespacevart_1a28227f4fe6b775278e5211b343e5b868" kindref="member">InferResultType</ref></type>
+          <declname>infer_res_type</declname>
+        </param>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>json_data</declname>
+        </param>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="classvart_1_1Device" kindref="compound">Device</ref> &gt;</type>
+          <declname>device</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="classvart_1_1MetaConvert_1ac5b79d814223ef24bcb110a6c4cd5e1c" kindref="member">MetaConvert()</ref> - Constructor for using existing metaconvert implementations. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>infer_res_type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Enum class to specify which implementation to instantiate </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>json_data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>JSON config string based on the implementation class </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>device</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="classvart_1_1Device" kindref="compound">Device</ref> handle to be used </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_metaconvert.hpp" line="53" column="3" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/metaconvert/vart_metaconvert.cpp" bodystart="23" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1MetaConvert_1a7ca6128544ca0bc8a80e7d6c0bbccab4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>vart::MetaConvert::MetaConvert</definition>
+        <argsstring>(std::shared_ptr&lt; MetaConvertImplBase &gt; ptr)</argsstring>
+        <name>MetaConvert</name>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="classvart_1_1MetaConvertImplBase" kindref="compound">MetaConvertImplBase</ref> &gt;</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="classvart_1_1MetaConvert_1ac5b79d814223ef24bcb110a6c4cd5e1c" kindref="member">MetaConvert()</ref> - Constructor for using user defined implementation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ptr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer to user&apos;s implementation instance </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_metaconvert.hpp" line="64" column="3" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/metaconvert/vart_metaconvert.cpp" bodystart="36" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1MetaConvert_1abae2eee50bca9dae5825872769c07cf0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::shared_ptr&lt; <ref refid="classvart_1_1MetaConvertImplBase" kindref="compound">MetaConvertImplBase</ref> &gt; &amp;</type>
+        <definition>const std::shared_ptr&lt; MetaConvertImplBase &gt; &amp; vart::MetaConvert::get_pimpl_handle</definition>
+        <argsstring>() const</argsstring>
+        <name>get_pimpl_handle</name>
+        <briefdescription>
+<para><ref refid="classvart_1_1MetaConvert_1abae2eee50bca9dae5825872769c07cf0" kindref="member">get_pimpl_handle()</ref> - Gives pointer to implementation class. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Returns a constant reference of pointer to implementation class. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_metaconvert.hpp" line="72" column="25" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/metaconvert/vart_metaconvert.cpp" bodystart="39" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1MetaConvert_1a1dfc3d3f5847ef2f336306879988c8bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::shared_ptr&lt; <ref refid="structvart_1_1OverlayShapeInfo" kindref="compound">OverlayShapeInfo</ref> &gt;</type>
+        <definition>std::shared_ptr&lt; OverlayShapeInfo &gt; vart::MetaConvert::prepare_overlay_meta</definition>
+        <argsstring>(std::shared_ptr&lt; InferResult &gt; root_infer_res)</argsstring>
+        <name>prepare_overlay_meta</name>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="classvart_1_1InferResult" kindref="compound">InferResult</ref> &gt;</type>
+          <declname>root_infer_res</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="classvart_1_1MetaConvert_1a1dfc3d3f5847ef2f336306879988c8bc" kindref="member">prepare_overlay_meta()</ref> - Converts inference results to data structures needed for overlay. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>root_infer_res</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Root node of the Inference results to be interpreted and converted</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="classvart_1_1Overlay" kindref="compound">Overlay</ref> shape info as per the inference results. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_metaconvert.hpp" line="83" column="21" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/metaconvert/vart_metaconvert.cpp" bodystart="44" bodyend="47"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This module facilitates the conversion of Infer metadata into a format compatible with the overlay module. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Metaconvert also accepts configuration parameters as JSON string, which provide further flexibility on configuring overlay information such as line thickness, font size, font type ., etc. Please check API documentation for more information. Additionally, if users have a custom meta data then they can integrate customized functions to convert them into a format suitable for processing by the overlay module by overriding base class. </para>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_metaconvert.hpp" line="38" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_metaconvert.hpp" bodystart="38" bodyend="88"/>
+    <listofallmembers>
+      <member refid="classvart_1_1MetaConvert_1abae2eee50bca9dae5825872769c07cf0" prot="public" virt="non-virtual"><scope>vart::MetaConvert</scope><name>get_pimpl_handle</name></member>
+      <member refid="classvart_1_1MetaConvert_1ac5b79d814223ef24bcb110a6c4cd5e1c" prot="public" virt="non-virtual"><scope>vart::MetaConvert</scope><name>MetaConvert</name></member>
+      <member refid="classvart_1_1MetaConvert_1a5f99a7195d3e3e00368ea4c02bc18e63" prot="public" virt="non-virtual"><scope>vart::MetaConvert</scope><name>MetaConvert</name></member>
+      <member refid="classvart_1_1MetaConvert_1a7ca6128544ca0bc8a80e7d6c0bbccab4" prot="public" virt="non-virtual"><scope>vart::MetaConvert</scope><name>MetaConvert</name></member>
+      <member refid="classvart_1_1MetaConvert_1aeea73d26f4e632bb396d7ee2d54fdcec" prot="private" virt="non-virtual"><scope>vart::MetaConvert</scope><name>pimpl</name></member>
+      <member refid="classvart_1_1MetaConvert_1a1dfc3d3f5847ef2f336306879988c8bc" prot="public" virt="non-virtual"><scope>vart::MetaConvert</scope><name>prepare_overlay_meta</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

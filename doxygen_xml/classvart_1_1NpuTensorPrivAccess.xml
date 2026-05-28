@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classvart_1_1NpuTensorPrivAccess" kind="class" language="C++" prot="public">
+    <compoundname>vart::NpuTensorPrivAccess</compoundname>
+    <includes refid="vart__npu__tensor__impl_8hpp" local="no">vart_npu_tensor_impl.hpp</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classvart_1_1NpuTensorPrivAccess_1ae3a94523b05cc362f8ca840ce7b0414c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classvart_1_1NpuTensorPriv" kindref="compound">NpuTensorPriv</ref> *</type>
+        <definition>static NpuTensorPriv* vart::NpuTensorPrivAccess::get_impl</definition>
+        <argsstring>(NpuTensor &amp;tensor)</argsstring>
+        <name>get_impl</name>
+        <param>
+          <type><ref refid="classvart_1_1NpuTensor" kindref="compound">NpuTensor</ref> &amp;</type>
+          <declname>tensor</declname>
+        </param>
+        <briefdescription>
+<para>Get mutable access to tensor implementation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tensor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="classvart_1_1NpuTensor" kindref="compound">NpuTensor</ref> to access. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Pointer to the implementation object. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor_impl.hpp" line="123" column="22" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor_impl.hpp" bodystart="123" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1NpuTensorPrivAccess_1abd05fb2e77614753812b945d80a1d30e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="classvart_1_1NpuTensorPriv" kindref="compound">NpuTensorPriv</ref> *</type>
+        <definition>static const NpuTensorPriv* vart::NpuTensorPrivAccess::get_impl</definition>
+        <argsstring>(const NpuTensor &amp;tensor)</argsstring>
+        <name>get_impl</name>
+        <param>
+          <type>const <ref refid="classvart_1_1NpuTensor" kindref="compound">NpuTensor</ref> &amp;</type>
+          <declname>tensor</declname>
+        </param>
+        <briefdescription>
+<para>Get const access to tensor implementation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tensor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="classvart_1_1NpuTensor" kindref="compound">NpuTensor</ref> to access. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Const pointer to the implementation object. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor_impl.hpp" line="130" column="28" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor_impl.hpp" bodystart="130" bodyend="130"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classvart_1_1NpuTensorPrivAccess_1a7696e9a504a6219c20c27d4fc7940c93" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>vart::NpuTensorPrivAccess::NpuTensorPrivAccess</definition>
+        <argsstring>()=delete</argsstring>
+        <name>NpuTensorPrivAccess</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor_impl.hpp" line="133" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor_impl.hpp" line="115" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor_impl.hpp" bodystart="116" bodyend="134"/>
+    <listofallmembers>
+      <member refid="classvart_1_1NpuTensorPrivAccess_1ae3a94523b05cc362f8ca840ce7b0414c" prot="public" virt="non-virtual"><scope>vart::NpuTensorPrivAccess</scope><name>get_impl</name></member>
+      <member refid="classvart_1_1NpuTensorPrivAccess_1abd05fb2e77614753812b945d80a1d30e" prot="public" virt="non-virtual"><scope>vart::NpuTensorPrivAccess</scope><name>get_impl</name></member>
+      <member refid="classvart_1_1NpuTensorPrivAccess_1a7696e9a504a6219c20c27d4fc7940c93" prot="private" virt="non-virtual"><scope>vart::NpuTensorPrivAccess</scope><name>NpuTensorPrivAccess</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

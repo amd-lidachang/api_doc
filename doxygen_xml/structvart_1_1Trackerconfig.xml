@@ -1,0 +1,326 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structvart_1_1Trackerconfig" kind="struct" language="C++" prot="public">
+    <compoundname>vart::Trackerconfig</compoundname>
+    <includes refid="vart__tracker__types_8hpp" local="no">vart_tracker_types.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structvart_1_1Trackerconfig_1a34a9e6115fe4a317e44a70608ce6820c" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacevart_1aa956c9015d2d43eaa37f73bb77dd5adb" kindref="member">TrackerAlgoType</ref></type>
+        <definition>TrackerAlgoType vart::Trackerconfig::tracker_type</definition>
+        <argsstring></argsstring>
+        <name>tracker_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_tracker_types.hpp" line="228" column="19" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_tracker_types.hpp" bodystart="228" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1Trackerconfig_1add8fb6c0af50ea303a0e906fcb5951bd" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacevart_1ac87df09e3fd2ece785a4fd036f28a33a" kindref="member">TrackerDistanceFunc</ref></type>
+        <definition>TrackerDistanceFunc vart::Trackerconfig::distance_func</definition>
+        <argsstring></argsstring>
+        <name>distance_func</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_tracker_types.hpp" line="229" column="23" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_tracker_types.hpp" bodystart="229" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1Trackerconfig_1af85c18563a2e2f2a5f33e5e073b3eb43" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacevart_1a8c0f290cef602362e0e248763c04ec90" kindref="member">TrackerMatchColorSpace</ref></type>
+        <definition>TrackerMatchColorSpace vart::Trackerconfig::obj_match_color</definition>
+        <argsstring></argsstring>
+        <name>obj_match_color</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_tracker_types.hpp" line="230" column="26" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_tracker_types.hpp" bodystart="230" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1Trackerconfig_1a084ff30f56e28f6e90a76c6b363d0590" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacevart_1a7523dcbd18ba2296d974ed1a589a8d3a" kindref="member">TrackerSearchScale</ref></type>
+        <definition>TrackerSearchScale vart::Trackerconfig::search_scales</definition>
+        <argsstring></argsstring>
+        <name>search_scales</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_tracker_types.hpp" line="231" column="22" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_tracker_types.hpp" bodystart="231" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1Trackerconfig_1a519183fca55533bfd9bea224b6fdc417" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int vart::Trackerconfig::fet_length</definition>
+        <argsstring></argsstring>
+        <name>fet_length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_tracker_types.hpp" line="232" column="16" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_tracker_types.hpp" bodystart="232" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1Trackerconfig_1a84bcd21dbd9da0a139269d8e26f59547" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int vart::Trackerconfig::min_width</definition>
+        <argsstring></argsstring>
+        <name>min_width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_tracker_types.hpp" line="233" column="16" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_tracker_types.hpp" bodystart="233" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1Trackerconfig_1a2c5311f85c4e84056143035ef7e0c399" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int vart::Trackerconfig::min_height</definition>
+        <argsstring></argsstring>
+        <name>min_height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_tracker_types.hpp" line="234" column="16" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_tracker_types.hpp" bodystart="234" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1Trackerconfig_1a33686553c50152ed7966d4478401edb0" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int vart::Trackerconfig::max_width</definition>
+        <argsstring></argsstring>
+        <name>max_width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_tracker_types.hpp" line="235" column="16" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_tracker_types.hpp" bodystart="235" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1Trackerconfig_1acd2704a707b19c7013e2cefb00cf2299" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int vart::Trackerconfig::max_height</definition>
+        <argsstring></argsstring>
+        <name>max_height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_tracker_types.hpp" line="236" column="16" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_tracker_types.hpp" bodystart="236" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1Trackerconfig_1a37fbdf1b2ef01fa3d1f9240dadfedbce" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int vart::Trackerconfig::num_inactive_frames</definition>
+        <argsstring></argsstring>
+        <name>num_inactive_frames</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_tracker_types.hpp" line="237" column="7" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_tracker_types.hpp" bodystart="237" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1Trackerconfig_1aae65b346f87d41c43792fc4d9413d789" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int vart::Trackerconfig::num_frames_confidence</definition>
+        <argsstring></argsstring>
+        <name>num_frames_confidence</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_tracker_types.hpp" line="238" column="7" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_tracker_types.hpp" bodystart="238" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1Trackerconfig_1aa82fa51e42ffcb12240b79e2365e70c0" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float vart::Trackerconfig::padding</definition>
+        <argsstring></argsstring>
+        <name>padding</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_tracker_types.hpp" line="239" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_tracker_types.hpp" bodystart="239" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1Trackerconfig_1aa593e1e79ebc16f79d9cd9924f47f97b" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float vart::Trackerconfig::obj_match_search_region</definition>
+        <argsstring></argsstring>
+        <name>obj_match_search_region</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_tracker_types.hpp" line="240" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_tracker_types.hpp" bodystart="240" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1Trackerconfig_1a9eea7f8ff885f5530728a39fb8e2dfc6" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float vart::Trackerconfig::dist_correlation_threshold</definition>
+        <argsstring></argsstring>
+        <name>dist_correlation_threshold</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_tracker_types.hpp" line="241" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_tracker_types.hpp" bodystart="241" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1Trackerconfig_1a2cd8726c3d91e1865a356bf8dbbda188" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float vart::Trackerconfig::dist_overlap_threshold</definition>
+        <argsstring></argsstring>
+        <name>dist_overlap_threshold</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_tracker_types.hpp" line="242" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_tracker_types.hpp" bodystart="242" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1Trackerconfig_1ab10d2e9e49121003445fd336346c98b8" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float vart::Trackerconfig::dist_scale_change_threshold</definition>
+        <argsstring></argsstring>
+        <name>dist_scale_change_threshold</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_tracker_types.hpp" line="243" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_tracker_types.hpp" bodystart="243" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1Trackerconfig_1a61d03370b12d357ba31dc3a0b0ea6fc3" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float vart::Trackerconfig::dist_correlation_weight</definition>
+        <argsstring></argsstring>
+        <name>dist_correlation_weight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_tracker_types.hpp" line="244" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_tracker_types.hpp" bodystart="244" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1Trackerconfig_1a19e2d15f927378e3c2f0622a9345e078" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float vart::Trackerconfig::dist_overlap_weight</definition>
+        <argsstring></argsstring>
+        <name>dist_overlap_weight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_tracker_types.hpp" line="245" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_tracker_types.hpp" bodystart="245" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1Trackerconfig_1a17163a8fd96e9a9ec9287d686b8430a2" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float vart::Trackerconfig::dist_scale_change_weight</definition>
+        <argsstring></argsstring>
+        <name>dist_scale_change_weight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_tracker_types.hpp" line="246" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_tracker_types.hpp" bodystart="246" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1Trackerconfig_1a201ffe60c8e2b3dea017dfecb817778c" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float vart::Trackerconfig::occlusion_threshold</definition>
+        <argsstring></argsstring>
+        <name>occlusion_threshold</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_tracker_types.hpp" line="247" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_tracker_types.hpp" bodystart="247" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1Trackerconfig_1a92e0fe824d61a0d822c9a0b109667064" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float vart::Trackerconfig::confidence_score</definition>
+        <argsstring></argsstring>
+        <name>confidence_score</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_tracker_types.hpp" line="248" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_tracker_types.hpp" bodystart="248" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1Trackerconfig_1a8c97ae311637447e9580220ff190098d" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool vart::Trackerconfig::skip_inactive_objs</definition>
+        <argsstring></argsstring>
+        <name>skip_inactive_objs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_tracker_types.hpp" line="249" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_tracker_types.hpp" bodystart="249" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Structure to hold tracker configuration. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>This structure contains various configuration parameters for the tracker. </para>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_tracker_types.hpp" line="227" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_tracker_types.hpp" bodystart="227" bodyend="250"/>
+    <listofallmembers>
+      <member refid="structvart_1_1Trackerconfig_1a92e0fe824d61a0d822c9a0b109667064" prot="public" virt="non-virtual"><scope>vart::Trackerconfig</scope><name>confidence_score</name></member>
+      <member refid="structvart_1_1Trackerconfig_1a9eea7f8ff885f5530728a39fb8e2dfc6" prot="public" virt="non-virtual"><scope>vart::Trackerconfig</scope><name>dist_correlation_threshold</name></member>
+      <member refid="structvart_1_1Trackerconfig_1a61d03370b12d357ba31dc3a0b0ea6fc3" prot="public" virt="non-virtual"><scope>vart::Trackerconfig</scope><name>dist_correlation_weight</name></member>
+      <member refid="structvart_1_1Trackerconfig_1a2cd8726c3d91e1865a356bf8dbbda188" prot="public" virt="non-virtual"><scope>vart::Trackerconfig</scope><name>dist_overlap_threshold</name></member>
+      <member refid="structvart_1_1Trackerconfig_1a19e2d15f927378e3c2f0622a9345e078" prot="public" virt="non-virtual"><scope>vart::Trackerconfig</scope><name>dist_overlap_weight</name></member>
+      <member refid="structvart_1_1Trackerconfig_1ab10d2e9e49121003445fd336346c98b8" prot="public" virt="non-virtual"><scope>vart::Trackerconfig</scope><name>dist_scale_change_threshold</name></member>
+      <member refid="structvart_1_1Trackerconfig_1a17163a8fd96e9a9ec9287d686b8430a2" prot="public" virt="non-virtual"><scope>vart::Trackerconfig</scope><name>dist_scale_change_weight</name></member>
+      <member refid="structvart_1_1Trackerconfig_1add8fb6c0af50ea303a0e906fcb5951bd" prot="public" virt="non-virtual"><scope>vart::Trackerconfig</scope><name>distance_func</name></member>
+      <member refid="structvart_1_1Trackerconfig_1a519183fca55533bfd9bea224b6fdc417" prot="public" virt="non-virtual"><scope>vart::Trackerconfig</scope><name>fet_length</name></member>
+      <member refid="structvart_1_1Trackerconfig_1acd2704a707b19c7013e2cefb00cf2299" prot="public" virt="non-virtual"><scope>vart::Trackerconfig</scope><name>max_height</name></member>
+      <member refid="structvart_1_1Trackerconfig_1a33686553c50152ed7966d4478401edb0" prot="public" virt="non-virtual"><scope>vart::Trackerconfig</scope><name>max_width</name></member>
+      <member refid="structvart_1_1Trackerconfig_1a2c5311f85c4e84056143035ef7e0c399" prot="public" virt="non-virtual"><scope>vart::Trackerconfig</scope><name>min_height</name></member>
+      <member refid="structvart_1_1Trackerconfig_1a84bcd21dbd9da0a139269d8e26f59547" prot="public" virt="non-virtual"><scope>vart::Trackerconfig</scope><name>min_width</name></member>
+      <member refid="structvart_1_1Trackerconfig_1aae65b346f87d41c43792fc4d9413d789" prot="public" virt="non-virtual"><scope>vart::Trackerconfig</scope><name>num_frames_confidence</name></member>
+      <member refid="structvart_1_1Trackerconfig_1a37fbdf1b2ef01fa3d1f9240dadfedbce" prot="public" virt="non-virtual"><scope>vart::Trackerconfig</scope><name>num_inactive_frames</name></member>
+      <member refid="structvart_1_1Trackerconfig_1af85c18563a2e2f2a5f33e5e073b3eb43" prot="public" virt="non-virtual"><scope>vart::Trackerconfig</scope><name>obj_match_color</name></member>
+      <member refid="structvart_1_1Trackerconfig_1aa593e1e79ebc16f79d9cd9924f47f97b" prot="public" virt="non-virtual"><scope>vart::Trackerconfig</scope><name>obj_match_search_region</name></member>
+      <member refid="structvart_1_1Trackerconfig_1a201ffe60c8e2b3dea017dfecb817778c" prot="public" virt="non-virtual"><scope>vart::Trackerconfig</scope><name>occlusion_threshold</name></member>
+      <member refid="structvart_1_1Trackerconfig_1aa82fa51e42ffcb12240b79e2365e70c0" prot="public" virt="non-virtual"><scope>vart::Trackerconfig</scope><name>padding</name></member>
+      <member refid="structvart_1_1Trackerconfig_1a084ff30f56e28f6e90a76c6b363d0590" prot="public" virt="non-virtual"><scope>vart::Trackerconfig</scope><name>search_scales</name></member>
+      <member refid="structvart_1_1Trackerconfig_1a8c97ae311637447e9580220ff190098d" prot="public" virt="non-virtual"><scope>vart::Trackerconfig</scope><name>skip_inactive_objs</name></member>
+      <member refid="structvart_1_1Trackerconfig_1a34a9e6115fe4a317e44a70608ce6820c" prot="public" virt="non-virtual"><scope>vart::Trackerconfig</scope><name>tracker_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

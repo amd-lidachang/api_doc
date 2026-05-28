@@ -1,0 +1,1111 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="common_8h" kind="file" language="C++">
+    <compoundname>common.h</compoundname>
+    <includes local="no">iostream</includes>
+    <includes local="no">unistd.h</includes>
+    <includes local="no">fstream</includes>
+    <includes local="no">sstream</includes>
+    <includes local="no">vector</includes>
+    <includes local="no">map</includes>
+    <includes refid="vart__runner__factory_8hpp" local="no">vart_ml_runner/vart_runner_factory.hpp</includes>
+    <includedby refid="common_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.cpp</includedby>
+    <includedby refid="multi__models__demo_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/multi_models_demo.cpp</includedby>
+    <includedby refid="simple__demo_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/simple_demo.cpp</includedby>
+    <includedby refid="threads__demo_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/threads_demo.cpp</includedby>
+    <includedby refid="vart__ml__demo_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/vart_ml_demo.cpp</includedby>
+    <incdepgraph>
+      <node id="12">
+        <label>functional</label>
+      </node>
+      <node id="8">
+        <label>vart_ml_runner/vart_runner_factory.hpp</label>
+        <link refid="vart__runner__factory_8hpp"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>cstdint</label>
+      </node>
+      <node id="14">
+        <label>string</label>
+      </node>
+      <node id="7">
+        <label>map</label>
+      </node>
+      <node id="4">
+        <label>fstream</label>
+      </node>
+      <node id="9">
+        <label>any</label>
+      </node>
+      <node id="3">
+        <label>unistd.h</label>
+      </node>
+      <node id="6">
+        <label>vector</label>
+      </node>
+      <node id="16">
+        <label>vart_npu_tensor.hpp</label>
+        <link refid="vart__npu__tensor_8hpp"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>sstream</label>
+      </node>
+      <node id="2">
+        <label>iostream</label>
+      </node>
+      <node id="15">
+        <label>unordered_map</label>
+      </node>
+      <node id="10">
+        <label>chrono</label>
+      </node>
+      <node id="13">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.cpp</label>
+        <link refid="common_8cpp"/>
+      </node>
+      <node id="5">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/threads_demo.cpp</label>
+        <link refid="threads__demo_8cpp"/>
+      </node>
+      <node id="3">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/multi_models_demo.cpp</label>
+        <link refid="multi__models__demo_8cpp"/>
+      </node>
+      <node id="6">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/vart_ml_demo.cpp</label>
+        <link refid="vart__ml__demo_8cpp"/>
+      </node>
+      <node id="4">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/simple_demo.cpp</label>
+        <link refid="simple__demo_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structoptions" prot="public">options</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="common_8h_1a3f59156532d496e1a4bc256dc1f0d42f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::string</type>
+        <definition>const std::string red</definition>
+        <argsstring>(&quot;\033[1;31m&quot;)</argsstring>
+        <name>red</name>
+        <param>
+          <type>&quot;\033[1;31m&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" line="28" column="19" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" declline="28" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="common_8h_1a1332b72222a26eb89a99ba10788731f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::string</type>
+        <definition>const std::string green</definition>
+        <argsstring>(&quot;\033[1;32m&quot;)</argsstring>
+        <name>green</name>
+        <param>
+          <type>&quot;\033[1;32m&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" line="29" column="19" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" declline="29" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="common_8h_1ac02bec27e3fd528a18a0d744641ea9d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::string</type>
+        <definition>const std::string yellow</definition>
+        <argsstring>(&quot;\033[1;33m&quot;)</argsstring>
+        <name>yellow</name>
+        <param>
+          <type>&quot;\033[1;33m&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" line="30" column="19" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" declline="30" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="common_8h_1a2ccae85fb50e2a0d35487378e35463cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::string</type>
+        <definition>const std::string reset</definition>
+        <argsstring>(&quot;\033[0m&quot;)</argsstring>
+        <name>reset</name>
+        <param>
+          <type>&quot;\033[0m&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" line="31" column="19" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" declline="31" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="common_8h_1a751f1f69a0f993338b40e1141234ad72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool isDirectory</definition>
+        <argsstring>(const char *dir)</argsstring>
+        <name>isDirectory</name>
+        <param>
+          <type>const char *</type>
+          <declname>dir</declname>
+        </param>
+        <briefdescription>
+<para>Check if the file is a directory. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dir</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Path to the file to check </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool True if dir points to a directory, false otherwise </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" line="55" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.cpp" bodystart="48" bodyend="58" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" declline="55" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="common_8h_1a95ccc48fc2f5924b399934a2a743658e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool isFile</definition>
+        <argsstring>(const char *path, const char *mode)</argsstring>
+        <name>isFile</name>
+        <param>
+          <type>const char *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+<para>Check if the file is a regular file. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Path to the file to check </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Mode to open the file for </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool True if path points to a regular file, false otherwise </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" line="64" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.cpp" bodystart="60" bodyend="70" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" declline="64" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="common_8h_1ab6a8e489a478800479304c55150aaa50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void usage</definition>
+        <argsstring>(std::string demo, std::string reason)</argsstring>
+        <name>usage</name>
+        <param>
+          <type>std::string</type>
+          <declname>demo</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>reason</declname>
+        </param>
+        <briefdescription>
+<para>Display help for the program and exits. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cmd</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Command used to execute the demo </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>reason</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reason why the function has been called </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" line="72" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.cpp" bodystart="147" bodyend="237" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" declline="72" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="common_8h_1a42197249df935b2e010366c5948c76be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int read_options</definition>
+        <argsstring>(int argc, char *argv[], struct options &amp;options, std::vector&lt; std::string &gt; &amp;images_paths)</argsstring>
+        <name>read_options</name>
+        <param>
+          <type>int</type>
+          <declname>argc</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>argv</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>struct <ref refid="structoptions" kindref="compound">options</ref> &amp;</type>
+          <declname>options</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; std::string &gt; &amp;</type>
+          <declname>images_paths</declname>
+        </param>
+        <briefdescription>
+<para>Read cli options. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>argc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of cli parameters </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>argv</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Cli parameters </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>options</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>struct that will be populated with interpreted generic options </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>images_paths</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>vector of paths to images to process </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int The Vart ML error (vart_ml_error_id) code of the operation. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" line="83" column="5" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.cpp" bodystart="239" bodyend="491" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" declline="83" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="common_8h_1ad36d15deed101974599b385bc0356672" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int read_images_options</definition>
+        <argsstring>(struct options &amp;options, std::vector&lt; std::string &gt; &amp;images_paths, size_t default_batchSize)</argsstring>
+        <name>read_images_options</name>
+        <param>
+          <type>struct <ref refid="structoptions" kindref="compound">options</ref> &amp;</type>
+          <declname>options</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; std::string &gt; &amp;</type>
+          <declname>images_paths</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>default_batchSize</declname>
+        </param>
+        <briefdescription>
+<para>Read the images options. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>options</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>struct that will be populated with interpreted generic options </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>images_paths</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>vector of paths of images to process </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>snapshots_paths</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>vector of paths of snapshots to process </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>default_batchSize</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>batch size of the snapshot </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int The Vart ML error (vart_ml_error_id) code of the operation. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" line="94" column="5" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.cpp" bodystart="494" bodyend="595" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" declline="94" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="common_8h_1ad778a8597cf268920b3b0c2878a7be06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; std::pair&lt; size_t, float &gt; &gt;</type>
+        <definition>std::vector&lt;std::pair&lt;size_t, float&gt; &gt; topk</definition>
+        <argsstring>(std::vector&lt; float &gt; &amp;buf, size_t k)</argsstring>
+        <name>topk</name>
+        <param>
+          <type>std::vector&lt; float &gt; &amp;</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>k</declname>
+        </param>
+        <briefdescription>
+<para>Get the k results with the highest probability. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>buf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Vector of results for each label </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>k</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of top value requested </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>std::vector&lt;std::pair&lt;size_t, float&gt;&gt; k pair of label number and probability value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" line="105" column="13" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.cpp" bodystart="597" bodyend="609" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" declline="105" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="common_8h_1a583c4e0cc17a9e85f5a43106159268b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int read_categories</definition>
+        <argsstring>(std::string labels_file, std::vector&lt; std::string &gt; &amp;categories)</argsstring>
+        <name>read_categories</name>
+        <param>
+          <type>std::string</type>
+          <declname>labels_file</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; std::string &gt; &amp;</type>
+          <declname>categories</declname>
+        </param>
+        <briefdescription>
+<para>Get all labels. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>labels_file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Labels file path </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>categories</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Returned vector of labels </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int The Vart ML error (vart_ml_error_id) code of the operation. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" line="114" column="5" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.cpp" bodystart="611" bodyend="624" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" declline="114" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="common_8h_1a0e5e5bb8caaba9c7be25a9ff07bd6b1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int read_gold</definition>
+        <argsstring>(std::string gold_file, std::map&lt; std::string, std::string &gt; &amp;gold)</argsstring>
+        <name>read_gold</name>
+        <param>
+          <type>std::string</type>
+          <declname>gold_file</declname>
+        </param>
+        <param>
+          <type>std::map&lt; std::string, std::string &gt; &amp;</type>
+          <declname>gold</declname>
+        </param>
+        <briefdescription>
+<para>Get all correct labels form the gold file. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>gold_file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Gold file path </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>gold</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Returned map with file names as key and gold labels as value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int The Vart ML error (vart_ml_error_id) code of the operation. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" line="123" column="5" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.cpp" bodystart="626" bodyend="645" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" declline="123" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="common_8h_1a554733daff90d014583feafca43b9cd2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void softmax</definition>
+        <argsstring>(std::vector&lt; float &gt; &amp;buf)</argsstring>
+        <name>softmax</name>
+        <param>
+          <type>std::vector&lt; float &gt; &amp;</type>
+          <declname>buf</declname>
+        </param>
+        <briefdescription>
+<para>Apply the sofmax function to all elements. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>buf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Vector of element on which to apply the softmax function </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" line="130" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.cpp" bodystart="647" bodyend="659" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" declline="130" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="common_8h_1ab71ec25d2888e599e8be15977a6d1597" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int preprocess</definition>
+        <argsstring>(float *const buf, std::string image_path, size_t height, size_t width, size_t channel)</argsstring>
+        <name>preprocess</name>
+        <param>
+          <type>float *const</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>image_path</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>channel</declname>
+        </param>
+        <briefdescription>
+<para>Apply the preprocessing to image. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>buf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Buffer to fill with processed image </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>image_path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Path of the target image file </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>height</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Height of the image </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>width</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Width of the image </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>channel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Channel count of the image </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int The Vart ML error (vart_ml_error_id) code of the operation. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" line="142" column="5" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.cpp" bodystart="661" bodyend="689" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" declline="142" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="common_8h_1a31f94eb282252e81d23934e388a543ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int preprocess</definition>
+        <argsstring>(int8_t *const buf, std::string image_path, size_t height, size_t width, size_t channel)</argsstring>
+        <name>preprocess</name>
+        <param>
+          <type>int8_t *const</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>image_path</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>channel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" line="143" column="5" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" declline="143" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="common_8h_1a1813329c2a6fddd962f51b484351c592" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int preprocess_batch</definition>
+        <argsstring>(std::vector&lt; std::vector&lt; vart::NpuTensor &gt;&gt; &amp;inbuf, size_t img_idx, bool in_isNative, bool useExternalQuant, std::vector&lt; float &gt; coeff, std::vector&lt; std::string &gt; images_paths)</argsstring>
+        <name>preprocess_batch</name>
+        <param>
+          <type>std::vector&lt; std::vector&lt; <ref refid="classvart_1_1NpuTensor" kindref="compound">vart::NpuTensor</ref> &gt;&gt; &amp;</type>
+          <declname>inbuf</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>img_idx</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>in_isNative</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>useExternalQuant</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>coeff</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; std::string &gt;</type>
+          <declname>images_paths</declname>
+        </param>
+        <briefdescription>
+<para>Apply the preprocessing to a set of images. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Preprocess all input images. If quantization option is enabled, proceed with quantization of images as well. Note: depending on whether or not input data is assumed in native format of not, re-organize data in a way that does not require further byte-level manipulation (force_native_input).</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>inbuf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Input tensors to match preprocessing of images to </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>img_idx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Index of first image </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fpga_arch</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Target fpga architecture </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>in_isNative</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Output data format nativeness </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>useExternalQuant</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Datas need to be quantized </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>coeff</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Quantization parameters for a each tensor </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>images_paths</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Path to an image file </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int The Vart ML error (vart_ml_error_id) code of the operation. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" line="162" column="5" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.cpp" bodystart="730" bodyend="837" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" declline="162" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="common_8h_1a37dc9d8bd9026105471a057837956a07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void compare_gold</definition>
+        <argsstring>(struct options options, size_t first_image_index, std::vector&lt; std::string &gt; images_paths, std::vector&lt; std::vector&lt; float &gt;&gt; results, size_t &amp;nbComparedImages, float accuracy[2], std::string network)</argsstring>
+        <name>compare_gold</name>
+        <param>
+          <type>struct <ref refid="structoptions" kindref="compound">options</ref></type>
+          <declname>options</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>first_image_index</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; std::string &gt;</type>
+          <declname>images_paths</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; std::vector&lt; float &gt;&gt;</type>
+          <declname>results</declname>
+        </param>
+        <param>
+          <type>size_t &amp;</type>
+          <declname>nbComparedImages</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>accuracy</declname>
+          <array>[2]</array>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>network</declname>
+        </param>
+        <briefdescription>
+<para>Compare the results to gold results and display results. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>options</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Program options </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>first_image_index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Index of the first image in the batch </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>images_paths</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Input images </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>results</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Inference results </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nbComparedImages</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of images that got compared to gold results </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>accuracy[2]</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Array of accuracies to fill </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>network</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Network name to display </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" line="180" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.cpp" bodystart="839" bodyend="918" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" declline="180" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="common_8h_1a748e90d4d82da6c1c149f55c5590502c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void print_accuracy_summary_headless</definition>
+        <argsstring>(std::string network, float accuracy[2], size_t nbComparedImages)</argsstring>
+        <name>print_accuracy_summary_headless</name>
+        <param>
+          <type>std::string</type>
+          <declname>network</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>accuracy</declname>
+          <array>[2]</array>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>nbComparedImages</declname>
+        </param>
+        <briefdescription>
+<para>Prints the accuracy summary without header. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>network</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Network name to be displayed </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>accuracy</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Accuracy computed by demo </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nbComparedImages</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of images compared to a gold file </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" line="195" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.cpp" bodystart="920" bodyend="928" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" declline="195" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="common_8h_1ad8e46b55cb0dbb3a4c7112899e4003dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void print_accuracy_summary</definition>
+        <argsstring>(std::string network, float accuracy[2], size_t nbComparedImages)</argsstring>
+        <name>print_accuracy_summary</name>
+        <param>
+          <type>std::string</type>
+          <declname>network</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>accuracy</declname>
+          <array>[2]</array>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>nbComparedImages</declname>
+        </param>
+        <briefdescription>
+<para>Prints the accuracy summary. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>network</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Network name as given to program </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>accuracy</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Accuracy computed by demo </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nbComparedImages</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of images compared to a gold file </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" line="204" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.cpp" bodystart="930" bodyend="939" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" declline="204" declcolumn="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="copyright"><para>Copyright 2024 Advanced Micro Devices Inc.</para>
+</simplesect>
+Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <verbatim>http://www.apache.org/licenses/LICENSE-2.0
+</verbatim> Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. </para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;unistd.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;fstream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;sstream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;map&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="vart__runner__factory_8hpp" kindref="compound">vart_ml_runner/vart_runner_factory.hpp</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="common_8h_1a3f59156532d496e1a4bc256dc1f0d42f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/><ref refid="common_8h_1a3f59156532d496e1a4bc256dc1f0d42f" kindref="member">red</ref>(</highlight><highlight class="stringliteral">&quot;\033[1;31m&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="29" refid="common_8h_1a1332b72222a26eb89a99ba10788731f8" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/><ref refid="common_8h_1a1332b72222a26eb89a99ba10788731f8" kindref="member">green</ref>(</highlight><highlight class="stringliteral">&quot;\033[1;32m&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="30" refid="common_8h_1ac02bec27e3fd528a18a0d744641ea9d5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/><ref refid="common_8h_1ac02bec27e3fd528a18a0d744641ea9d5" kindref="member">yellow</ref>(</highlight><highlight class="stringliteral">&quot;\033[1;33m&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31" refid="common_8h_1a2ccae85fb50e2a0d35487378e35463cd" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/><ref refid="common_8h_1a2ccae85fb50e2a0d35487378e35463cd" kindref="member">reset</ref>(</highlight><highlight class="stringliteral">&quot;\033[0m&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="structoptions" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structoptions" kindref="compound">options</ref></highlight></codeline>
+<codeline lineno="34"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="35" refid="structoptions_1a8e0c1ad76914351f33183ac95b55b22e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structoptions_1a8e0c1ad76914351f33183ac95b55b22e" kindref="member">nbImages</ref>;</highlight></codeline>
+<codeline lineno="36" refid="structoptions_1a8bcec93ca5b1813b912f861e3e63a53c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structoptions_1a8bcec93ca5b1813b912f861e3e63a53c" kindref="member">batchSize</ref>;</highlight></codeline>
+<codeline lineno="37" refid="structoptions_1a30fa508528c7fca383692e595b0b96e5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;std::string&gt;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structoptions_1a30fa508528c7fca383692e595b0b96e5" kindref="member">categories</ref>;</highlight></codeline>
+<codeline lineno="38" refid="structoptions_1a4c103cf16ec5ae7b0bbd2dd8e77418fa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::map&lt;std::string,<sp/>std::string&gt;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structoptions_1a4c103cf16ec5ae7b0bbd2dd8e77418fa" kindref="member">gold</ref>;</highlight></codeline>
+<codeline lineno="39" refid="structoptions_1adf2baf1fa2ebaf67d3569dd338ea9d58" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structoptions_1adf2baf1fa2ebaf67d3569dd338ea9d58" kindref="member">noGoldOutput</ref>;</highlight></codeline>
+<codeline lineno="40" refid="structoptions_1a999a3ea6240de5122777f115ed6fdf3c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structoptions_1a999a3ea6240de5122777f115ed6fdf3c" kindref="member">imgPath</ref>;</highlight></codeline>
+<codeline lineno="41" refid="structoptions_1a3f695bf989b01e851966def57f10b1a2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;std::string&gt;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structoptions_1a3f695bf989b01e851966def57f10b1a2" kindref="member">snapshots</ref>;</highlight></codeline>
+<codeline lineno="42" refid="structoptions_1ab36d3ed07466b23fa7cac2b26ec4ae48" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::map&lt;std::string,<sp/>std::string&gt;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structoptions_1ab36d3ed07466b23fa7cac2b26ec4ae48" kindref="member">raw</ref>;</highlight></codeline>
+<codeline lineno="43" refid="structoptions_1ada6a95a0cf0150f318180cc0d9f65f23" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;std::map&lt;std::string,<sp/>std::string&gt;&gt;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structoptions_1ada6a95a0cf0150f318180cc0d9f65f23" kindref="member">data_types</ref>;</highlight></codeline>
+<codeline lineno="44" refid="structoptions_1a4bc8cafc86a1d985d3098596f952bec8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;std::vector&lt;uint8_t&gt;&gt;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structoptions_1a4bc8cafc86a1d985d3098596f952bec8" kindref="member">ddr_in_list</ref>;</highlight></codeline>
+<codeline lineno="45" refid="structoptions_1a6ad888fd63949d70f9d6d93876fa34d8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;std::vector&lt;uint8_t&gt;&gt;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structoptions_1a6ad888fd63949d70f9d6d93876fa34d8" kindref="member">ddr_out_list</ref>;</highlight></codeline>
+<codeline lineno="46" refid="structoptions_1adae1361f5c3f4f498c8d13bde1831a44" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;std::map&lt;std::string,<sp/>std::vector&lt;std::string&gt;&gt;&gt;<sp/><ref refid="structoptions_1adae1361f5c3f4f498c8d13bde1831a44" kindref="member">goldFiles</ref>;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="common_8h_1a751f1f69a0f993338b40e1141234ad72" kindref="member">isDirectory</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>dir);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="common_8h_1a95ccc48fc2f5924b399934a2a743658e" kindref="member">isFile</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="run__snapshot__bin_8cpp_1a37e90f5e3bd99fac2021fb3a326607d4" kindref="member">mode</ref>);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="common_8h_1ab6a8e489a478800479304c55150aaa50" kindref="member">usage</ref>(std::string<sp/>demo,<sp/>std::string<sp/>reason);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="common_8h_1a42197249df935b2e010366c5948c76be" kindref="member">read_options</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>argc,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>argv[],<sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structoptions" kindref="compound">options</ref>&amp;<sp/><ref refid="structoptions" kindref="compound">options</ref>,<sp/>std::vector&lt;std::string&gt;&amp;<sp/>images_paths);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="common_8h_1ad36d15deed101974599b385bc0356672" kindref="member">read_images_options</ref>(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structoptions" kindref="compound">options</ref>&amp;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structoptions" kindref="compound">options</ref>,</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;std::string&gt;&amp;<sp/>images_paths,</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>default_batchSize);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal">std::vector&lt;std::pair&lt;size_t,<sp/>float&gt;&gt;<sp/><ref refid="common_8h_1ad778a8597cf268920b3b0c2878a7be06" kindref="member">topk</ref>(std::vector&lt;float&gt;&amp;<sp/>buf,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>k);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="common_8h_1a583c4e0cc17a9e85f5a43106159268b2" kindref="member">read_categories</ref>(std::string<sp/>labels_file,<sp/>std::vector&lt;std::string&gt;&amp;<sp/>categories);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="common_8h_1a0e5e5bb8caaba9c7be25a9ff07bd6b1b" kindref="member">read_gold</ref>(std::string<sp/>gold_file,<sp/>std::map&lt;std::string,<sp/>std::string&gt;&amp;<sp/>gold);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="common_8h_1a554733daff90d014583feafca43b9cd2" kindref="member">softmax</ref>(std::vector&lt;float&gt;&amp;<sp/>buf);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="common_8h_1ab71ec25d2888e599e8be15977a6d1597" kindref="member">preprocess</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>buf,<sp/>std::string<sp/>image_path,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>height,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>width,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>channel);</highlight></codeline>
+<codeline lineno="143" refid="common_8h_1a31f94eb282252e81d23934e388a543ba" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="common_8h_1ab71ec25d2888e599e8be15977a6d1597" kindref="member">preprocess</ref>(int8_t*<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>buf,<sp/>std::string<sp/>image_path,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>height,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>width,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>channel);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="common_8h_1a1813329c2a6fddd962f51b484351c592" kindref="member">preprocess_batch</ref>(std::vector&lt;std::vector&lt;vart::NpuTensor&gt;&gt;&amp;<sp/>inbuf,</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>img_idx,</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>in_isNative,</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>useExternalQuant,</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;float&gt;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>coeff,</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;std::string&gt;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>images_paths);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="common_8h_1a37dc9d8bd9026105471a057837956a07" kindref="member">compare_gold</ref>(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structoptions" kindref="compound">options</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structoptions" kindref="compound">options</ref>,</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>first_image_index,</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;std::string&gt;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>images_paths,</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;std::vector&lt;float&gt;&gt;<sp/>results,</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal">&amp;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nbComparedImages,</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>accuracy[2],</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>network);</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="common_8h_1a748e90d4d82da6c1c149f55c5590502c" kindref="member">print_accuracy_summary_headless</ref>(std::string<sp/>network,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>accuracy[2],<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>nbComparedImages);</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="common_8h_1ad8e46b55cb0dbb3a4c7112899e4003dc" kindref="member">print_accuracy_summary</ref>(std::string<sp/>network,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>accuracy[2],<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>nbComparedImages);</highlight></codeline>
+    </programlisting>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h"/>
+  </compounddef>
+</doxygen>

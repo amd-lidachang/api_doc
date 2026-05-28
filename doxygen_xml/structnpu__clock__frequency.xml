@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structnpu__clock__frequency" kind="struct" language="C++" prot="public">
+    <compoundname>npu_clock_frequency</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structnpu__clock__frequency_1a2994fa6498cd7ab8af8c1acf41298e8c" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float npu_clock_frequency::frequency10</definition>
+        <argsstring></argsstring>
+        <name>frequency10</name>
+        <initializer>= 1.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/clocks.cpp" line="43" column="7" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/clocks.cpp" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__clock__frequency_1aba86ea7f1a88ebb1d51aeff33c85591f" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float npu_clock_frequency::frequency4x</definition>
+        <argsstring></argsstring>
+        <name>frequency4x</name>
+        <initializer>= 1.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/clocks.cpp" line="44" column="7" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/clocks.cpp" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__clock__frequency_1a70049be9e1abcdcc5b45c12259425a78" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float npu_clock_frequency::frequency2x</definition>
+        <argsstring></argsstring>
+        <name>frequency2x</name>
+        <initializer>= 1.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/clocks.cpp" line="45" column="7" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/clocks.cpp" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structnpu__clock__frequency_1adbf61fed8a8f69277ac11ad0055cf78f" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float npu_clock_frequency::frequency1x</definition>
+        <argsstring></argsstring>
+        <name>frequency1x</name>
+        <initializer>= 1.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/clocks.cpp" line="46" column="7" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/clocks.cpp" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Structure of a snapshot. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>This structure contains all the parameters needed to run a snapshot. They are retrived by parsing the snapshot files. </para>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/clocks.cpp" line="41" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/clocks.cpp" bodystart="42" bodyend="47"/>
+    <listofallmembers>
+      <member refid="structnpu__clock__frequency_1a2994fa6498cd7ab8af8c1acf41298e8c" prot="public" virt="non-virtual"><scope>npu_clock_frequency</scope><name>frequency10</name></member>
+      <member refid="structnpu__clock__frequency_1adbf61fed8a8f69277ac11ad0055cf78f" prot="public" virt="non-virtual"><scope>npu_clock_frequency</scope><name>frequency1x</name></member>
+      <member refid="structnpu__clock__frequency_1a70049be9e1abcdcc5b45c12259425a78" prot="public" virt="non-virtual"><scope>npu_clock_frequency</scope><name>frequency2x</name></member>
+      <member refid="structnpu__clock__frequency_1aba86ea7f1a88ebb1d51aeff33c85591f" prot="public" virt="non-virtual"><scope>npu_clock_frequency</scope><name>frequency4x</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

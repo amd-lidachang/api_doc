@@ -1,0 +1,242 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structvart_1_1arm__ops" kind="struct" language="C++" prot="public">
+    <compoundname>vart::arm_ops</compoundname>
+    <includes refid="vart__ml__runner_8hpp" local="no">vart_ml_runner.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structvart_1_1arm__ops_1aa94c0618656f8d22345e77fc549cb8e0" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string vart::arm_ops::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" line="71" column="33" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1arm__ops_1ae6ebdd59495a7914379f4959753cc68b" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacevart_1a04d3988dea3de165337c0be560d65302" kindref="member">ArmOps</ref></type>
+        <definition>ArmOps vart::arm_ops::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" line="72" column="33" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1arm__ops_1a05d4bf8fdf8197af424345674a82c1f3" prot="public" static="no" mutable="no">
+        <type>std::map&lt; std::string, std::any &gt;</type>
+        <definition>std::map&lt;std::string, std::any&gt; vart::arm_ops::parameter</definition>
+        <argsstring></argsstring>
+        <name>parameter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" line="73" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1arm__ops_1ade2e01b1257cface010f3b99523d0f4d" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string vart::arm_ops::input_name</definition>
+        <argsstring></argsstring>
+        <name>input_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" line="75" column="23" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1arm__ops_1a2c44996ff52f14ee35886c5ad0cf98b4" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacevart_1ab890726b646d7915c72ef76c70e631e8" kindref="member">MemoryLayout</ref></type>
+        <definition>MemoryLayout vart::arm_ops::input_memory_layout</definition>
+        <argsstring></argsstring>
+        <name>input_memory_layout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" line="76" column="23" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1arm__ops_1aa8560f4d6dac8255fc6baeb31f70fde4" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; uint32_t &gt;</type>
+        <definition>std::vector&lt;uint32_t&gt; vart::arm_ops::input_shape</definition>
+        <argsstring></argsstring>
+        <name>input_shape</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" line="77" column="13" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1arm__ops_1a665e98f6c4607cb648e3af9526da97bd" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; uint32_t &gt;</type>
+        <definition>std::vector&lt;uint32_t&gt; vart::arm_ops::input_strides</definition>
+        <argsstring></argsstring>
+        <name>input_strides</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" line="78" column="13" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1arm__ops_1a0aea88cadb5167ddcc05f6a274fcbf29" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t vart::arm_ops::input_size</definition>
+        <argsstring></argsstring>
+        <name>input_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" line="79" column="23" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1arm__ops_1ac5b32289c1d5acc83442fbd29664a82e" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacevart_1a8cfcb2441d1d86e339675218be6436cc" kindref="member">DataType</ref></type>
+        <definition>DataType vart::arm_ops::input_data_type</definition>
+        <argsstring></argsstring>
+        <name>input_data_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" line="80" column="23" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1arm__ops_1a53e371ecc103cd6d2061c97c88a20e87" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string vart::arm_ops::output_name</definition>
+        <argsstring></argsstring>
+        <name>output_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" line="82" column="23" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1arm__ops_1a022e298d5b14b59d2a307bfa9bfc89c3" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacevart_1ab890726b646d7915c72ef76c70e631e8" kindref="member">MemoryLayout</ref></type>
+        <definition>MemoryLayout vart::arm_ops::output_memory_layout</definition>
+        <argsstring></argsstring>
+        <name>output_memory_layout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" line="83" column="23" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1arm__ops_1a67c18cc25c07adb04c40429564812c16" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; uint32_t &gt;</type>
+        <definition>std::vector&lt;uint32_t&gt; vart::arm_ops::output_shape</definition>
+        <argsstring></argsstring>
+        <name>output_shape</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" line="84" column="13" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1arm__ops_1a82c0142686553ff43474a3021fb8bba8" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; uint32_t &gt;</type>
+        <definition>std::vector&lt;uint32_t&gt; vart::arm_ops::output_strides</definition>
+        <argsstring></argsstring>
+        <name>output_strides</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" line="85" column="13" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1arm__ops_1afa4c8b54c9274668d612444bab0ed343" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t vart::arm_ops::output_size</definition>
+        <argsstring></argsstring>
+        <name>output_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" line="86" column="23" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1arm__ops_1a945d0d742f3816299f5574a4fd069243" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t vart::arm_ops::output_size_in_bytes</definition>
+        <argsstring></argsstring>
+        <name>output_size_in_bytes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" line="87" column="23" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1arm__ops_1a00905e9d0657de2278ac6eac85fc9ec3" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacevart_1a8cfcb2441d1d86e339675218be6436cc" kindref="member">DataType</ref></type>
+        <definition>DataType vart::arm_ops::output_data_type</definition>
+        <argsstring></argsstring>
+        <name>output_data_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" line="88" column="23" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Structure of an Arm operation. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>This structure contains all the parameters needed to define an ARM operation. </para>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" line="69" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" bodystart="70" bodyend="89"/>
+    <listofallmembers>
+      <member refid="structvart_1_1arm__ops_1ac5b32289c1d5acc83442fbd29664a82e" prot="public" virt="non-virtual"><scope>vart::arm_ops</scope><name>input_data_type</name></member>
+      <member refid="structvart_1_1arm__ops_1a2c44996ff52f14ee35886c5ad0cf98b4" prot="public" virt="non-virtual"><scope>vart::arm_ops</scope><name>input_memory_layout</name></member>
+      <member refid="structvart_1_1arm__ops_1ade2e01b1257cface010f3b99523d0f4d" prot="public" virt="non-virtual"><scope>vart::arm_ops</scope><name>input_name</name></member>
+      <member refid="structvart_1_1arm__ops_1aa8560f4d6dac8255fc6baeb31f70fde4" prot="public" virt="non-virtual"><scope>vart::arm_ops</scope><name>input_shape</name></member>
+      <member refid="structvart_1_1arm__ops_1a0aea88cadb5167ddcc05f6a274fcbf29" prot="public" virt="non-virtual"><scope>vart::arm_ops</scope><name>input_size</name></member>
+      <member refid="structvart_1_1arm__ops_1a665e98f6c4607cb648e3af9526da97bd" prot="public" virt="non-virtual"><scope>vart::arm_ops</scope><name>input_strides</name></member>
+      <member refid="structvart_1_1arm__ops_1aa94c0618656f8d22345e77fc549cb8e0" prot="public" virt="non-virtual"><scope>vart::arm_ops</scope><name>name</name></member>
+      <member refid="structvart_1_1arm__ops_1a00905e9d0657de2278ac6eac85fc9ec3" prot="public" virt="non-virtual"><scope>vart::arm_ops</scope><name>output_data_type</name></member>
+      <member refid="structvart_1_1arm__ops_1a022e298d5b14b59d2a307bfa9bfc89c3" prot="public" virt="non-virtual"><scope>vart::arm_ops</scope><name>output_memory_layout</name></member>
+      <member refid="structvart_1_1arm__ops_1a53e371ecc103cd6d2061c97c88a20e87" prot="public" virt="non-virtual"><scope>vart::arm_ops</scope><name>output_name</name></member>
+      <member refid="structvart_1_1arm__ops_1a67c18cc25c07adb04c40429564812c16" prot="public" virt="non-virtual"><scope>vart::arm_ops</scope><name>output_shape</name></member>
+      <member refid="structvart_1_1arm__ops_1afa4c8b54c9274668d612444bab0ed343" prot="public" virt="non-virtual"><scope>vart::arm_ops</scope><name>output_size</name></member>
+      <member refid="structvart_1_1arm__ops_1a945d0d742f3816299f5574a4fd069243" prot="public" virt="non-virtual"><scope>vart::arm_ops</scope><name>output_size_in_bytes</name></member>
+      <member refid="structvart_1_1arm__ops_1a82c0142686553ff43474a3021fb8bba8" prot="public" virt="non-virtual"><scope>vart::arm_ops</scope><name>output_strides</name></member>
+      <member refid="structvart_1_1arm__ops_1a05d4bf8fdf8197af424345674a82c1f3" prot="public" virt="non-virtual"><scope>vart::arm_ops</scope><name>parameter</name></member>
+      <member refid="structvart_1_1arm__ops_1ae6ebdd59495a7914379f4959753cc68b" prot="public" virt="non-virtual"><scope>vart::arm_ops</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

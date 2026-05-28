@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_ab998176ce01a6ccc59163cb38f92dfc" kind="dir">
+    <compoundname>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess/ssdresnet34</compoundname>
+    <innerfile refid="vart__postprocess__impl__ssdresnet34_8cpp">vart_postprocess_impl_ssdresnet34.cpp</innerfile>
+    <innerfile refid="vart__postprocess__impl__ssdresnet34_8hpp">vart_postprocess_impl_ssdresnet34.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess/ssdresnet34/"/>
+  </compounddef>
+</doxygen>

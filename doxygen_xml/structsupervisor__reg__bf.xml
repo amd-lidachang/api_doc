@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structsupervisor__reg__bf" kind="struct" language="C++" prot="public">
+    <compoundname>supervisor_reg_bf</compoundname>
+    <includes refid="private_8h" local="no">private.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsupervisor__reg__bf_1af416d8929605538705b44997134f3610" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t supervisor_reg_bf::sen</definition>
+        <argsstring></argsstring>
+        <name>sen</name>
+        <bitfield> 1</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="171" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="171" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsupervisor__reg__bf_1acba407229b28ee96c00bf16078111b7c" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t supervisor_reg_bf::use_nbuf</definition>
+        <argsstring></argsstring>
+        <name>use_nbuf</name>
+        <bitfield> 1</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="171" column="15" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="171" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsupervisor__reg__bf_1ae7eef8dbadb2a6ca09f473ec169fbd4b" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t supervisor_reg_bf::_rfu</definition>
+        <argsstring></argsstring>
+        <name>_rfu</name>
+        <bitfield> 30</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="171" column="25" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="171" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Structure to pack supervisor reg. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="169" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="170" bodyend="173"/>
+    <listofallmembers>
+      <member refid="structsupervisor__reg__bf_1ae7eef8dbadb2a6ca09f473ec169fbd4b" prot="public" virt="non-virtual"><scope>supervisor_reg_bf</scope><name>_rfu</name></member>
+      <member refid="structsupervisor__reg__bf_1af416d8929605538705b44997134f3610" prot="public" virt="non-virtual"><scope>supervisor_reg_bf</scope><name>sen</name></member>
+      <member refid="structsupervisor__reg__bf_1acba407229b28ee96c00bf16078111b7c" prot="public" virt="non-virtual"><scope>supervisor_reg_bf</scope><name>use_nbuf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

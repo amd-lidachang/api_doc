@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structvart_1_1node__desc" kind="struct" language="C++" prot="public">
+    <compoundname>vart::node_desc</compoundname>
+    <includes refid="vart__ml__runner_8hpp" local="no">vart_ml_runner.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structvart_1_1node__desc_1ab04d3448fa8d2a6a0642608ca391f624" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string vart::node_desc::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+<para>Name of the node. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" line="98" column="26" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1node__desc_1a1edbec7513cd24e9b16e1dd00cafe6e8" prot="public" static="no" mutable="no">
+        <type>unsigned</type>
+        <definition>unsigned vart::node_desc::hash</definition>
+        <argsstring></argsstring>
+        <name>hash</name>
+        <briefdescription>
+<para>Hash of the node (for stats). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" line="99" column="26" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1node__desc_1ab4c5d0558340f01b7048e7ff30c022ef" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacevart_1a63070a28184f40f69e65f10aa5f0438d" kindref="member">NodeExecutionMode</ref></type>
+        <definition>NodeExecutionMode vart::node_desc::execution_mode</definition>
+        <argsstring></argsstring>
+        <name>execution_mode</name>
+        <briefdescription>
+<para>Execution mode of the node. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" line="100" column="26" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1node__desc_1ad4818312872d14877e5d233f888632d8" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t vart::node_desc::input_count</definition>
+        <argsstring></argsstring>
+        <name>input_count</name>
+        <briefdescription>
+<para>Number of node&apos;s inputs. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" line="101" column="26" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1node__desc_1a33d5fbdcdf295d51b01a893189a17f50" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t vart::node_desc::output_count</definition>
+        <argsstring></argsstring>
+        <name>output_count</name>
+        <briefdescription>
+<para>Number of node&apos;s outputs. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" line="102" column="26" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1node__desc_1abb218b6c5af257c6e6178477d8d878dd" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt;std::string&gt; vart::node_desc::input_tensors_name</definition>
+        <argsstring></argsstring>
+        <name>input_tensors_name</name>
+        <briefdescription>
+<para>Vector of input tensors. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" line="103" column="13" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1node__desc_1abcf5cd15aa6d363bcf675093f1d59533" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt;std::string&gt; vart::node_desc::output_tensors_name</definition>
+        <argsstring></argsstring>
+        <name>output_tensors_name</name>
+        <briefdescription>
+<para>Vector of output tensors. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" line="104" column="13" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1node__desc_1adb54a92f6f01d4eea825731a09f3036f" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacevart_1afe0a9ccb9664ab2f6655c5648e4704e9" kindref="member">NodeExtLinkMode</ref></type>
+        <definition>NodeExtLinkMode vart::node_desc::link_mode_in</definition>
+        <argsstring></argsstring>
+        <name>link_mode_in</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" line="105" column="17" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1node__desc_1a30596b70b7e6e4bb46d1db93e80d0707" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacevart_1afe0a9ccb9664ab2f6655c5648e4704e9" kindref="member">NodeExtLinkMode</ref></type>
+        <definition>NodeExtLinkMode vart::node_desc::link_mode_out</definition>
+        <argsstring></argsstring>
+        <name>link_mode_out</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" line="106" column="17" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1node__desc_1af8e1c3525e88c7974ac7d3e5c4f2b091" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* vart::node_desc::context_ptr</definition>
+        <argsstring></argsstring>
+        <name>context_ptr</name>
+        <briefdescription>
+<para>Pointer to an execution mode specific context. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Points to a npu_snapshot_t for NPU nodes. Points to a struct <ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref> for ONNX nodes. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" line="107" column="16" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1node__desc_1a85dc11f08909423048e235ed77a05e81" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool vart::node_desc::pl_node</definition>
+        <argsstring></argsstring>
+        <name>pl_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" line="110" column="36" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1node__desc_1ac19079d660e0399dbcc57474fd3c5071" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; std::vector&lt; uint64_t &gt; &gt;</type>
+        <definition>std::vector&lt;std::vector&lt;uint64_t&gt; &gt; vart::node_desc::nbuf</definition>
+        <argsstring></argsstring>
+        <name>nbuf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" line="111" column="13" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1node__desc_1ab0c866e48f45e90c10089e093b8f07cc" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; std::vector&lt; std::vector&lt; struct <ref refid="structaddr" kindref="compound">addr</ref> &gt; &gt; &gt;</type>
+        <definition>std::vector&lt;std::vector&lt;std::vector&lt;struct addr&gt; &gt; &gt; vart::node_desc::input_ddr_addrs</definition>
+        <argsstring></argsstring>
+        <name>input_ddr_addrs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" line="113" column="13" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1node__desc_1afeede69e175aeb6cac10d1312d337b44" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; std::vector&lt; std::vector&lt; struct <ref refid="structaddr" kindref="compound">addr</ref> &gt; &gt; &gt;</type>
+        <definition>std::vector&lt;std::vector&lt;std::vector&lt;struct addr&gt; &gt; &gt; vart::node_desc::output_ddr_addrs</definition>
+        <argsstring></argsstring>
+        <name>output_ddr_addrs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" line="114" column="13" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Structure of a shapshot graph&apos;s node. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>This structure contains all the parameters needed to define a snapshot graph&apos;s node. </para>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" line="96" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" bodystart="97" bodyend="115"/>
+    <listofallmembers>
+      <member refid="structvart_1_1node__desc_1af8e1c3525e88c7974ac7d3e5c4f2b091" prot="public" virt="non-virtual"><scope>vart::node_desc</scope><name>context_ptr</name></member>
+      <member refid="structvart_1_1node__desc_1ab4c5d0558340f01b7048e7ff30c022ef" prot="public" virt="non-virtual"><scope>vart::node_desc</scope><name>execution_mode</name></member>
+      <member refid="structvart_1_1node__desc_1a1edbec7513cd24e9b16e1dd00cafe6e8" prot="public" virt="non-virtual"><scope>vart::node_desc</scope><name>hash</name></member>
+      <member refid="structvart_1_1node__desc_1ad4818312872d14877e5d233f888632d8" prot="public" virt="non-virtual"><scope>vart::node_desc</scope><name>input_count</name></member>
+      <member refid="structvart_1_1node__desc_1ab0c866e48f45e90c10089e093b8f07cc" prot="public" virt="non-virtual"><scope>vart::node_desc</scope><name>input_ddr_addrs</name></member>
+      <member refid="structvart_1_1node__desc_1abb218b6c5af257c6e6178477d8d878dd" prot="public" virt="non-virtual"><scope>vart::node_desc</scope><name>input_tensors_name</name></member>
+      <member refid="structvart_1_1node__desc_1adb54a92f6f01d4eea825731a09f3036f" prot="public" virt="non-virtual"><scope>vart::node_desc</scope><name>link_mode_in</name></member>
+      <member refid="structvart_1_1node__desc_1a30596b70b7e6e4bb46d1db93e80d0707" prot="public" virt="non-virtual"><scope>vart::node_desc</scope><name>link_mode_out</name></member>
+      <member refid="structvart_1_1node__desc_1ab04d3448fa8d2a6a0642608ca391f624" prot="public" virt="non-virtual"><scope>vart::node_desc</scope><name>name</name></member>
+      <member refid="structvart_1_1node__desc_1ac19079d660e0399dbcc57474fd3c5071" prot="public" virt="non-virtual"><scope>vart::node_desc</scope><name>nbuf</name></member>
+      <member refid="structvart_1_1node__desc_1a33d5fbdcdf295d51b01a893189a17f50" prot="public" virt="non-virtual"><scope>vart::node_desc</scope><name>output_count</name></member>
+      <member refid="structvart_1_1node__desc_1afeede69e175aeb6cac10d1312d337b44" prot="public" virt="non-virtual"><scope>vart::node_desc</scope><name>output_ddr_addrs</name></member>
+      <member refid="structvart_1_1node__desc_1abcf5cd15aa6d363bcf675093f1d59533" prot="public" virt="non-virtual"><scope>vart::node_desc</scope><name>output_tensors_name</name></member>
+      <member refid="structvart_1_1node__desc_1a85dc11f08909423048e235ed77a05e81" prot="public" virt="non-virtual"><scope>vart::node_desc</scope><name>pl_node</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_ea5651fae163383183dbbb2ee91d8bc4" kind="dir">
+    <compoundname>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/videoframe</compoundname>
+    <innerfile refid="vart__videoframe_8cpp">vart_videoframe.cpp</innerfile>
+    <innerfile refid="vart__videoframe__impl__xrt_8cpp">vart_videoframe_impl_xrt.cpp</innerfile>
+    <innerfile refid="vart__videoframe__impl__xrt_8hpp">vart_videoframe_impl_xrt.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/videoframe/"/>
+  </compounddef>
+</doxygen>

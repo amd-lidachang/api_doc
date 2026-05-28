@@ -1,0 +1,405 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classvart_1_1InferResult" kind="class" language="C++" prot="public">
+    <compoundname>vart::InferResult</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">std::enable_shared_from_this&lt; InferResult &gt;</basecompoundref>
+    <includes refid="vart__inferresult_8hpp" local="no">vart_inferresult.hpp</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classvart_1_1InferResult_1a9b9505b8d2b0b30c81eb78514332683f" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="classvart_1_1InferResultImplBase" kindref="compound">InferResultImplBase</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;InferResultImplBase&gt; vart::InferResult::pimpl</definition>
+        <argsstring></argsstring>
+        <name>pimpl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_inferresult.hpp" line="164" column="19" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_inferresult.hpp" bodystart="164" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvart_1_1InferResult_1abe3cdfd5e3953df653349b0b0ed64619" prot="private" static="no" mutable="no">
+        <type>std::weak_ptr&lt; <ref refid="classvart_1_1InferResult" kindref="compound">InferResult</ref> &gt;</type>
+        <definition>std::weak_ptr&lt;InferResult&gt; vart::InferResult::parent</definition>
+        <argsstring></argsstring>
+        <name>parent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_inferresult.hpp" line="165" column="17" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_inferresult.hpp" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvart_1_1InferResult_1af47856efbd61b5d67e994af37981614a" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::shared_ptr&lt; <ref refid="classvart_1_1InferResult" kindref="compound">InferResult</ref> &gt; &gt;</type>
+        <definition>std::vector&lt;std::shared_ptr&lt;InferResult&gt; &gt; vart::InferResult::children</definition>
+        <argsstring></argsstring>
+        <name>children</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_inferresult.hpp" line="166" column="15" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_inferresult.hpp" bodystart="166" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classvart_1_1InferResult_1a1398d84f0a5ba46206383550b740ae80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>vart::InferResult::InferResult</definition>
+        <argsstring>()=delete</argsstring>
+        <name>InferResult</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_inferresult.hpp" line="38" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1InferResult_1a0f02f4f0962fdce086e2b17a1c7dd4d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>vart::InferResult::InferResult</definition>
+        <argsstring>(InferResultType infer_res_type)</argsstring>
+        <name>InferResult</name>
+        <param>
+          <type><ref refid="namespacevart_1a28227f4fe6b775278e5211b343e5b868" kindref="member">InferResultType</ref></type>
+          <declname>infer_res_type</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="classvart_1_1InferResult_1a1398d84f0a5ba46206383550b740ae80" kindref="member">InferResult()</ref> - Constructor for using supported infer result type implementations. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>infer_res_type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Enum class to specify which implementation to instantiate </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_inferresult.hpp" line="48" column="3" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/inferresult/vart_inferresult.cpp" bodystart="26" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1InferResult_1a3ef79d3d70915f3755c63f3c7e9ad7c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>vart::InferResult::InferResult</definition>
+        <argsstring>(std::shared_ptr&lt; InferResultImplBase &gt; ptr)</argsstring>
+        <name>InferResult</name>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="classvart_1_1InferResultImplBase" kindref="compound">InferResultImplBase</ref> &gt;</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="classvart_1_1InferResult_1a1398d84f0a5ba46206383550b740ae80" kindref="member">InferResult()</ref> - Constructor for using user defined implementation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ptr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer to user&apos;s implementation instance </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_inferresult.hpp" line="57" column="3" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/inferresult/vart_inferresult.cpp" bodystart="40" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1InferResult_1ada5e0fd449bf9d3a605d185e81bf7609" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::shared_ptr&lt; <ref refid="classvart_1_1InferResultImplBase" kindref="compound">InferResultImplBase</ref> &gt; &amp;</type>
+        <definition>const std::shared_ptr&lt; InferResultImplBase &gt; &amp; vart::InferResult::get_pimpl_handle</definition>
+        <argsstring>() const</argsstring>
+        <name>get_pimpl_handle</name>
+        <briefdescription>
+<para><ref refid="classvart_1_1InferResult_1ada5e0fd449bf9d3a605d185e81bf7609" kindref="member">get_pimpl_handle()</ref> - Gives pointer to implementation class. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Returns a constant reference of pointer to implementation class. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_inferresult.hpp" line="65" column="25" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/inferresult/vart_inferresult.cpp" bodystart="43" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1InferResult_1a54a9d30ebd99ae674fc77a1ae1e4a449" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void vart::InferResult::transform</definition>
+        <argsstring>(InferResScaleInfo &amp;info)</argsstring>
+        <name>transform</name>
+        <param>
+          <type><ref refid="structvart_1_1InferResScaleInfo" kindref="compound">InferResScaleInfo</ref> &amp;</type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="classvart_1_1InferResult_1a54a9d30ebd99ae674fc77a1ae1e4a449" kindref="member">transform()</ref> - Scales the infer results by a given scale factor </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Scale factor info with which infer results to be scaled.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+Typically, in video pipelines, the original input resolution differs from the resolution of the input to the machine learning model. If we have inference results, like detection from may be 200x200 resolution (input resolution to ML model) and if we want to transform the bounding box results to the original input resolution, which may be 1920x1080. In such cases, one can use this function to transform the bounding box dimensions in the infer results to the resolution of input image. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_inferresult.hpp" line="81" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/inferresult/vart_inferresult.cpp" bodystart="48" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1InferResult_1a6e1efe653e32ab4964d676cf4d3d5377" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structvart_1_1InferResultData" kindref="compound">InferResultData</ref> *</type>
+        <definition>InferResultData * vart::InferResult::get_infer_result</definition>
+        <argsstring>()</argsstring>
+        <name>get_infer_result</name>
+        <briefdescription>
+<para><ref refid="classvart_1_1InferResult_1a6e1efe653e32ab4964d676cf4d3d5377" kindref="member">get_infer_result()</ref> - Get inference results for a frame. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Inference result object for the requested frame. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_inferresult.hpp" line="89" column="19" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/inferresult/vart_inferresult.cpp" bodystart="52" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1InferResult_1ad6f0565149f4ac20e2132fa00e6caa7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void vart::InferResult::add_child</definition>
+        <argsstring>(std::shared_ptr&lt; InferResult &gt; child)</argsstring>
+        <name>add_child</name>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="classvart_1_1InferResult" kindref="compound">InferResult</ref> &gt;</type>
+          <declname>child</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="classvart_1_1InferResult_1ad6f0565149f4ac20e2132fa00e6caa7a" kindref="member">add_child()</ref> - Add a child to this infer result node. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>child</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Child node to be added</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+User can use this method to build cascade infer result tree by adding child nodes to the previous inference level starting with a dummy root node. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_inferresult.hpp" line="101" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/inferresult/vart_inferresult.cpp" bodystart="118" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1InferResult_1a14bd31ca2dec16b85fbb352b1f3f4120" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void vart::InferResult::add_children</definition>
+        <argsstring>(std::vector&lt; std::shared_ptr&lt; InferResult &gt;&gt; arg_children)</argsstring>
+        <name>add_children</name>
+        <param>
+          <type>std::vector&lt; std::shared_ptr&lt; <ref refid="classvart_1_1InferResult" kindref="compound">InferResult</ref> &gt;&gt;</type>
+          <declname>arg_children</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="classvart_1_1InferResult_1a14bd31ca2dec16b85fbb352b1f3f4120" kindref="member">add_children()</ref> - Add all children at once. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>arg_children</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Child nodes to be added</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+User can use this method to add all children at once. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_inferresult.hpp" line="111" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/inferresult/vart_inferresult.cpp" bodystart="123" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1InferResult_1a8a5352bf39950ab19b420b0bbd280272" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; std::shared_ptr&lt; <ref refid="classvart_1_1InferResult" kindref="compound">InferResult</ref> &gt; &gt;</type>
+        <definition>std::vector&lt; std::shared_ptr&lt; InferResult &gt; &gt; vart::InferResult::get_children</definition>
+        <argsstring>()</argsstring>
+        <name>get_children</name>
+        <briefdescription>
+<para><ref refid="classvart_1_1InferResult_1a8a5352bf39950ab19b420b0bbd280272" kindref="member">get_children()</ref> - Returns all children of the node. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>vector of child nodes. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_inferresult.hpp" line="119" column="15" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/inferresult/vart_inferresult.cpp" bodystart="131" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1InferResult_1a5e7d95fe03382986b2eddc9202e08804" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::shared_ptr&lt; <ref refid="classvart_1_1InferResult" kindref="compound">InferResult</ref> &gt;</type>
+        <definition>std::shared_ptr&lt; InferResult &gt; vart::InferResult::get_parent</definition>
+        <argsstring>()</argsstring>
+        <name>get_parent</name>
+        <briefdescription>
+<para><ref refid="classvart_1_1InferResult_1a5e7d95fe03382986b2eddc9202e08804" kindref="member">get_parent()</ref> - Returns parent of the given inference result node. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Parent result node. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_inferresult.hpp" line="127" column="19" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/inferresult/vart_inferresult.cpp" bodystart="56" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1InferResult_1af8ab24a3927f90f853850866694922c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::shared_ptr&lt; <ref refid="classvart_1_1InferResult" kindref="compound">InferResult</ref> &gt;</type>
+        <definition>std::shared_ptr&lt; InferResult &gt; vart::InferResult::get_root</definition>
+        <argsstring>()</argsstring>
+        <name>get_root</name>
+        <briefdescription>
+<para><ref refid="classvart_1_1InferResult_1af8ab24a3927f90f853850866694922c6" kindref="member">get_root()</ref> - Returns root of the given inference result node. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Root result node. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_inferresult.hpp" line="135" column="19" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/inferresult/vart_inferresult.cpp" bodystart="60" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1InferResult_1add3d1457511e45cc92f4ca7619ced3a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void vart::InferResult::traverse</definition>
+        <argsstring>(const std::function&lt; void(std::shared_ptr&lt; InferResult &gt;, void *)&gt; &amp;callback, TraversalOrder order, void *user_data)</argsstring>
+        <name>traverse</name>
+        <param>
+          <type>const std::function&lt; void(std::shared_ptr&lt; <ref refid="classvart_1_1InferResult" kindref="compound">InferResult</ref> &gt;, void *)&gt; &amp;</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacevart_1ad00b8cbe865c048fcb50bad7f6361f81" kindref="member">TraversalOrder</ref></type>
+          <declname>order</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>user_data</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="classvart_1_1InferResult_1add3d1457511e45cc92f4ca7619ced3a2" kindref="member">traverse()</ref> - Traverse through the tree nodes in a given order. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>callback</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>User callback function to be called for each node as per the order chosen.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>order</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Order in which the tree nodes to be traversed.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>user_data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>User data to be passed to the callback function. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_inferresult.hpp" line="150" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/inferresult/vart_inferresult.cpp" bodystart="79" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1InferResult_1aeb354039c0936cf3bd911b5b499710c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t vart::InferResult::get_depth</definition>
+        <argsstring>()</argsstring>
+        <name>get_depth</name>
+        <briefdescription>
+<para><ref refid="classvart_1_1InferResult_1aeb354039c0936cf3bd911b5b499710c6" kindref="member">get_depth()</ref> - Returns depth of the current node </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Depth of the current node. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_inferresult.hpp" line="161" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/inferresult/vart_inferresult.cpp" bodystart="106" bodyend="116"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This module is used to represent inference results. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Presently, the default supported types include classification and detection. Users can integrate new types by overriding base class methods to incorporate custom inference results. For additional information please check API documentation. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>std::enable_shared_from_this&lt; InferResult &gt;</label>
+      </node>
+      <node id="1">
+        <label>vart::InferResult</label>
+        <link refid="classvart_1_1InferResult"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>std::enable_shared_from_this&lt; InferResult &gt;</label>
+      </node>
+      <node id="1">
+        <label>vart::InferResult</label>
+        <link refid="classvart_1_1InferResult"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_inferresult.hpp" line="36" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_inferresult.hpp" bodystart="36" bodyend="167"/>
+    <listofallmembers>
+      <member refid="classvart_1_1InferResult_1ad6f0565149f4ac20e2132fa00e6caa7a" prot="public" virt="non-virtual"><scope>vart::InferResult</scope><name>add_child</name></member>
+      <member refid="classvart_1_1InferResult_1a14bd31ca2dec16b85fbb352b1f3f4120" prot="public" virt="non-virtual"><scope>vart::InferResult</scope><name>add_children</name></member>
+      <member refid="classvart_1_1InferResult_1af47856efbd61b5d67e994af37981614a" prot="private" virt="non-virtual"><scope>vart::InferResult</scope><name>children</name></member>
+      <member refid="classvart_1_1InferResult_1a8a5352bf39950ab19b420b0bbd280272" prot="public" virt="non-virtual"><scope>vart::InferResult</scope><name>get_children</name></member>
+      <member refid="classvart_1_1InferResult_1aeb354039c0936cf3bd911b5b499710c6" prot="public" virt="non-virtual"><scope>vart::InferResult</scope><name>get_depth</name></member>
+      <member refid="classvart_1_1InferResult_1a6e1efe653e32ab4964d676cf4d3d5377" prot="public" virt="non-virtual"><scope>vart::InferResult</scope><name>get_infer_result</name></member>
+      <member refid="classvart_1_1InferResult_1a5e7d95fe03382986b2eddc9202e08804" prot="public" virt="non-virtual"><scope>vart::InferResult</scope><name>get_parent</name></member>
+      <member refid="classvart_1_1InferResult_1ada5e0fd449bf9d3a605d185e81bf7609" prot="public" virt="non-virtual"><scope>vart::InferResult</scope><name>get_pimpl_handle</name></member>
+      <member refid="classvart_1_1InferResult_1af8ab24a3927f90f853850866694922c6" prot="public" virt="non-virtual"><scope>vart::InferResult</scope><name>get_root</name></member>
+      <member refid="classvart_1_1InferResult_1a1398d84f0a5ba46206383550b740ae80" prot="public" virt="non-virtual"><scope>vart::InferResult</scope><name>InferResult</name></member>
+      <member refid="classvart_1_1InferResult_1a0f02f4f0962fdce086e2b17a1c7dd4d3" prot="public" virt="non-virtual"><scope>vart::InferResult</scope><name>InferResult</name></member>
+      <member refid="classvart_1_1InferResult_1a3ef79d3d70915f3755c63f3c7e9ad7c0" prot="public" virt="non-virtual"><scope>vart::InferResult</scope><name>InferResult</name></member>
+      <member refid="classvart_1_1InferResult_1abe3cdfd5e3953df653349b0b0ed64619" prot="private" virt="non-virtual"><scope>vart::InferResult</scope><name>parent</name></member>
+      <member refid="classvart_1_1InferResult_1a9b9505b8d2b0b30c81eb78514332683f" prot="private" virt="non-virtual"><scope>vart::InferResult</scope><name>pimpl</name></member>
+      <member refid="classvart_1_1InferResult_1a54a9d30ebd99ae674fc77a1ae1e4a449" prot="public" virt="non-virtual"><scope>vart::InferResult</scope><name>transform</name></member>
+      <member refid="classvart_1_1InferResult_1add3d1457511e45cc92f4ca7619ced3a2" prot="public" virt="non-virtual"><scope>vart::InferResult</scope><name>traverse</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

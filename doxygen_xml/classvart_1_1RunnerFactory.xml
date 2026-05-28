@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classvart_1_1RunnerFactory" kind="class" language="C++" prot="public">
+    <compoundname>vart::RunnerFactory</compoundname>
+    <includes refid="vart__runner__factory_8hpp" local="no">vart_runner_factory.hpp</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classvart_1_1RunnerFactory_1a75d62f55cc08cd52f1bd9da58f5825a1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::shared_ptr&lt; <ref refid="classvart_1_1Runner" kindref="compound">Runner</ref> &gt;</type>
+        <definition>std::shared_ptr&lt; Runner &gt; vart::RunnerFactory::create_runner</definition>
+        <argsstring>(RunnerType runner_type, const std::string &amp;model_path, const std::unordered_map&lt; std::string, std::any &gt; &amp;options={})</argsstring>
+        <name>create_runner</name>
+        <param>
+          <type><ref refid="namespacevart_1a85dc5eee17f8c0ec625fd7477836f31f" kindref="member">RunnerType</ref></type>
+          <declname>runner_type</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>model_path</declname>
+        </param>
+        <param>
+          <type>const std::unordered_map&lt; std::string, std::any &gt; &amp;</type>
+          <declname>options</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>Creates and returns a shared pointer to a <ref refid="classvart_1_1Runner" kindref="compound">Runner</ref> instance. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This static method initializes a <ref refid="classvart_1_1Runner" kindref="compound">Runner</ref> object for the specified runner type, using the provided model path and optional configuration options.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>runner_type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The type of runner to create (e.g., VAIML). </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>model_path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The file system path to the model to be loaded by the <ref refid="classvart_1_1Runner" kindref="compound">Runner</ref>. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>options</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An optional map of additional configuration options, where each option is identified by a string key and can hold a value of any type. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>std::shared_ptr&lt;Runner&gt; A shared pointer to the created <ref refid="classvart_1_1Runner" kindref="compound">Runner</ref> instance. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>std::runtime_error</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if the runner type is unsupported or creation fails. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_runner_factory.hpp" line="456" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.cpp" bodystart="334" bodyend="343"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Factory class for creating <ref refid="classvart_1_1Runner" kindref="compound">Runner</ref> instances. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Provides a static method to instantiate <ref refid="classvart_1_1Runner" kindref="compound">Runner</ref> objects based on the specified runner type, model path, and optional configuration options. </para>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_runner_factory.hpp" line="437" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_runner_factory.hpp" bodystart="438" bodyend="459"/>
+    <listofallmembers>
+      <member refid="classvart_1_1RunnerFactory_1a75d62f55cc08cd52f1bd9da58f5825a1" prot="public" virt="non-virtual"><scope>vart::RunnerFactory</scope><name>create_runner</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

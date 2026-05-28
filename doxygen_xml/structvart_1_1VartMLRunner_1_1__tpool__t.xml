@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structvart_1_1VartMLRunner_1_1__tpool__t" kind="struct" language="C++" prot="private">
+    <compoundname>vart::VartMLRunner::_tpool_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structvart_1_1VartMLRunner_1_1__tpool__t_1aa27fded1a9bf4fdd6d90862b8487dc0a" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; std::thread &gt;</type>
+        <definition>std::vector&lt;std::thread&gt; vart::VartMLRunner::_tpool_t::threads</definition>
+        <argsstring></argsstring>
+        <name>threads</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" line="340" column="13" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" bodystart="340" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1VartMLRunner_1_1__tpool__t_1aec0cde6ba8d1112d1c20d5e49e4f7d69" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t vart::VartMLRunner::_tpool_t::current_queue_size</definition>
+        <argsstring></argsstring>
+        <name>current_queue_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" line="341" column="26" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" bodystart="341" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1VartMLRunner_1_1__tpool__t_1a11a4a1f9b9f953d6efddfa2ea33d80ba" prot="public" static="no" mutable="no">
+        <type>tpool_work_t *</type>
+        <definition>tpool_work_t* vart::VartMLRunner::_tpool_t::queue_head</definition>
+        <argsstring></argsstring>
+        <name>queue_head</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" line="342" column="25" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" bodystart="342" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1VartMLRunner_1_1__tpool__t_1ac69ff7f2e3cf7315bc6b627d6f10eb0b" prot="public" static="no" mutable="no">
+        <type>tpool_work_t *</type>
+        <definition>tpool_work_t* vart::VartMLRunner::_tpool_t::queue_tail</definition>
+        <argsstring></argsstring>
+        <name>queue_tail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" line="343" column="25" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" bodystart="343" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1VartMLRunner_1_1__tpool__t_1a02923c421bb89e479e6db20c65dc8899" prot="public" static="no" mutable="no">
+        <type>std::mutex</type>
+        <definition>std::mutex vart::VartMLRunner::_tpool_t::queue_lock</definition>
+        <argsstring></argsstring>
+        <name>queue_lock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" line="344" column="26" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" bodystart="344" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1VartMLRunner_1_1__tpool__t_1a1357ba58b935f1a6954f2c0aae52c100" prot="public" static="no" mutable="no">
+        <type>std::condition_variable</type>
+        <definition>std::condition_variable vart::VartMLRunner::_tpool_t::cond_var</definition>
+        <argsstring></argsstring>
+        <name>cond_var</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" line="345" column="26" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" bodystart="345" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1VartMLRunner_1_1__tpool__t_1a9969b627de379826aaa39f88b0c2eeeb" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool vart::VartMLRunner::_tpool_t::shutdown</definition>
+        <argsstring></argsstring>
+        <name>shutdown</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" line="346" column="26" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" bodystart="346" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>vart::JobHandle</label>
+        <link refid="structvart_1_1JobHandle"/>
+      </node>
+      <node id="1">
+        <label>vart::VartMLRunner::_tpool_t</label>
+        <childnode refid="2" relation="usage">
+          <edgelabel>queue_head</edgelabel>
+          <edgelabel>queue_tail</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>vart::VartMLRunner::tpool_work</label>
+        <childnode refid="2" relation="usage">
+          <edgelabel>next</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>job_handle</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" line="337" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp" bodystart="338" bodyend="347"/>
+    <listofallmembers>
+      <member refid="structvart_1_1VartMLRunner_1_1__tpool__t_1a1357ba58b935f1a6954f2c0aae52c100" prot="public" virt="non-virtual"><scope>vart::VartMLRunner::_tpool_t</scope><name>cond_var</name></member>
+      <member refid="structvart_1_1VartMLRunner_1_1__tpool__t_1aec0cde6ba8d1112d1c20d5e49e4f7d69" prot="public" virt="non-virtual"><scope>vart::VartMLRunner::_tpool_t</scope><name>current_queue_size</name></member>
+      <member refid="structvart_1_1VartMLRunner_1_1__tpool__t_1a11a4a1f9b9f953d6efddfa2ea33d80ba" prot="public" virt="non-virtual"><scope>vart::VartMLRunner::_tpool_t</scope><name>queue_head</name></member>
+      <member refid="structvart_1_1VartMLRunner_1_1__tpool__t_1a02923c421bb89e479e6db20c65dc8899" prot="public" virt="non-virtual"><scope>vart::VartMLRunner::_tpool_t</scope><name>queue_lock</name></member>
+      <member refid="structvart_1_1VartMLRunner_1_1__tpool__t_1ac69ff7f2e3cf7315bc6b627d6f10eb0b" prot="public" virt="non-virtual"><scope>vart::VartMLRunner::_tpool_t</scope><name>queue_tail</name></member>
+      <member refid="structvart_1_1VartMLRunner_1_1__tpool__t_1a9969b627de379826aaa39f88b0c2eeeb" prot="public" virt="non-virtual"><scope>vart::VartMLRunner::_tpool_t</scope><name>shutdown</name></member>
+      <member refid="structvart_1_1VartMLRunner_1_1__tpool__t_1aa27fded1a9bf4fdd6d90862b8487dc0a" prot="public" virt="non-virtual"><scope>vart::VartMLRunner::_tpool_t</scope><name>threads</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

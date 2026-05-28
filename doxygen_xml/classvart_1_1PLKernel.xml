@@ -1,0 +1,364 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classvart_1_1PLKernel" kind="class" language="C++" prot="public">
+    <compoundname>vart::PLKernel</compoundname>
+    <includes refid="vart__plkernel_8hpp" local="no">vart_plkernel.hpp</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classvart_1_1PLKernel_1ae2e1496f228d32786b15a7e1a302d69a" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="classvart_1_1PLKernelImplBase" kindref="compound">PLKernelImplBase</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;PLKernelImplBase&gt; vart::PLKernel::pimpl</definition>
+        <argsstring></argsstring>
+        <name>pimpl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_plkernel.hpp" line="129" column="19" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_plkernel.hpp" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvart_1_1PLKernel_1a0e74999d2452b7972ec9947c165f084f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool vart::PLKernel::enable_profiling</definition>
+        <argsstring></argsstring>
+        <name>enable_profiling</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_plkernel.hpp" line="130" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_plkernel.hpp" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvart_1_1PLKernel_1aa6d131e0573d726d97c8e03bf34329a0" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::chrono::high_resolution_clock::time_point &gt;</type>
+        <definition>std::vector&lt;std::chrono::high_resolution_clock::time_point&gt; vart::PLKernel::profile_start_time</definition>
+        <argsstring></argsstring>
+        <name>profile_start_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_plkernel.hpp" line="131" column="15" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_plkernel.hpp" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvart_1_1PLKernel_1ae9dcf8f97571a64d665806951fb0b344" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::chrono::high_resolution_clock::time_point &gt;</type>
+        <definition>std::vector&lt;std::chrono::high_resolution_clock::time_point&gt; vart::PLKernel::profile_end_time</definition>
+        <argsstring></argsstring>
+        <name>profile_end_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_plkernel.hpp" line="132" column="15" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_plkernel.hpp" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classvart_1_1PLKernel_1ab7553e0c66f00d3d9d2143fee9bee75d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>vart::PLKernel::PLKernel</definition>
+        <argsstring>(PLKernelImplType type, const std::string &amp;kernel_name, std::string &amp;json_data, std::shared_ptr&lt; Device &gt; device)</argsstring>
+        <name>PLKernel</name>
+        <param>
+          <type><ref refid="namespacevart_1acc95218744ae25167f9a9473dd5b3c8e" kindref="member">PLKernelImplType</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>kernel_name</declname>
+        </param>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>json_data</declname>
+        </param>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="classvart_1_1Device" kindref="compound">Device</ref> &gt;</type>
+          <declname>device</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="classvart_1_1PLKernel_1ab7553e0c66f00d3d9d2143fee9bee75d" kindref="member">PLKernel()</ref> - Constructs a <ref refid="classvart_1_1PLKernel" kindref="compound">PLKernel</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The type of the kernel implementation. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>kernel_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the kernel. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>json_data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The JSON data for the kernel configuration. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>device</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The device on which the kernel will run. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_plkernel.hpp" line="47" column="3" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/plkernel/vart_plkernel.cpp" bodystart="25" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1PLKernel_1abacfc05a7776b40da390c5e5e802cc35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>vart::PLKernel::PLKernel</definition>
+        <argsstring>(std::shared_ptr&lt; PLKernelImplBase &gt; ptr)</argsstring>
+        <name>PLKernel</name>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="classvart_1_1PLKernelImplBase" kindref="compound">PLKernelImplBase</ref> &gt;</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="classvart_1_1PLKernel_1ab7553e0c66f00d3d9d2143fee9bee75d" kindref="member">PLKernel()</ref> - Constructs a <ref refid="classvart_1_1PLKernel" kindref="compound">PLKernel</ref> object with a given implementation pointer. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ptr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A shared pointer to the kernel implementation. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_plkernel.hpp" line="56" column="3" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/plkernel/vart_plkernel.cpp" bodystart="81" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1PLKernel_1a376bf6528dc826ebc86b9fba8d4bf5ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>vart::PLKernel::~PLKernel</definition>
+        <argsstring>()</argsstring>
+        <name>~PLKernel</name>
+        <briefdescription>
+<para><ref refid="classvart_1_1PLKernel_1a376bf6528dc826ebc86b9fba8d4bf5ad" kindref="member">~PLKernel()</ref> - Destructs a <ref refid="classvart_1_1PLKernel" kindref="compound">PLKernel</ref> object </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_plkernel.hpp" line="61" column="3" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/plkernel/vart_plkernel.cpp" bodystart="45" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1PLKernel_1ac806bd610169a617e588248ed8d2a2d9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::shared_ptr&lt; <ref refid="classvart_1_1PLKernelImplBase" kindref="compound">PLKernelImplBase</ref> &gt; &amp;</type>
+        <definition>const std::shared_ptr&lt; PLKernelImplBase &gt; &amp; vart::PLKernel::get_pimpl_handle</definition>
+        <argsstring>() const</argsstring>
+        <name>get_pimpl_handle</name>
+        <briefdescription>
+<para><ref refid="classvart_1_1PLKernel_1ac806bd610169a617e588248ed8d2a2d9" kindref="member">get_pimpl_handle()</ref> - Gives pointer to implementation class. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Returns a constant reference of pointer to implementation class. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_plkernel.hpp" line="69" column="25" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/plkernel/vart_plkernel.cpp" bodystart="84" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1PLKernel_1a1f84e167210e160d9cc8706d73ca09dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void vart::PLKernel::process</definition>
+        <argsstring>(Args &amp;&amp;... args)</argsstring>
+        <name>process</name>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+<para>Process() - Set and process the given arguments on Kernel. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Variadic template arguments </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Arguments to be processed. Arguments specified to program as kernel arguments in sequence. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_plkernel.hpp" line="79" column="20" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_plkernel.hpp" bodystart="79" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1PLKernel_1ad48a3a02786ca2abe99bcd91d6367821" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int vart::PLKernel::wait</definition>
+        <argsstring>(unsigned int timeout)</argsstring>
+        <name>wait</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>timeout</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="classvart_1_1PLKernel_1ad48a3a02786ca2abe99bcd91d6367821" kindref="member">wait()</ref> - Waits for the kernel to complete processing. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>timeout</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The timeout value in milliseconds. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>An integer indicating the status. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_plkernel.hpp" line="100" column="7" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/plkernel/vart_plkernel.cpp" bodystart="88" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1PLKernel_1a88a7557e459792f9f8c15083b5d11ab8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename PLKernelAnyInfo</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void vart::PLKernel::set_config</definition>
+        <argsstring>(PLKernelAnyInfo &amp;info)</argsstring>
+        <name>set_config</name>
+        <param>
+          <type>PLKernelAnyInfo &amp;</type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="classvart_1_1PLKernel_1a88a7557e459792f9f8c15083b5d11ab8" kindref="member">set_config()</ref> - Sets the configuration for the kernel. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>PLKernelAnyInfo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The type of the configuration information. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The configuration information. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_plkernel.hpp" line="110" column="20" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_plkernel.hpp" bodystart="110" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1PLKernel_1a680f3f4ea0aa4d3d2c405d557dacb723" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename PLKernelAnyInfo</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void vart::PLKernel::get_config</definition>
+        <argsstring>(PLKernelAnyInfo &amp;info)</argsstring>
+        <name>get_config</name>
+        <param>
+          <type>PLKernelAnyInfo &amp;</type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="classvart_1_1PLKernel_1a680f3f4ea0aa4d3d2c405d557dacb723" kindref="member">get_config()</ref> - Gets the configuration of the kernel. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>PLKernelAnyInfo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The type of the configuration information. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The configuration information. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_plkernel.hpp" line="122" column="20" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_plkernel.hpp" bodystart="122" bodyend="126"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_plkernel.hpp" line="33" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_plkernel.hpp" bodystart="33" bodyend="133"/>
+    <listofallmembers>
+      <member refid="classvart_1_1PLKernel_1a0e74999d2452b7972ec9947c165f084f" prot="private" virt="non-virtual"><scope>vart::PLKernel</scope><name>enable_profiling</name></member>
+      <member refid="classvart_1_1PLKernel_1a680f3f4ea0aa4d3d2c405d557dacb723" prot="public" virt="non-virtual"><scope>vart::PLKernel</scope><name>get_config</name></member>
+      <member refid="classvart_1_1PLKernel_1ac806bd610169a617e588248ed8d2a2d9" prot="public" virt="non-virtual"><scope>vart::PLKernel</scope><name>get_pimpl_handle</name></member>
+      <member refid="classvart_1_1PLKernel_1ae2e1496f228d32786b15a7e1a302d69a" prot="private" virt="non-virtual"><scope>vart::PLKernel</scope><name>pimpl</name></member>
+      <member refid="classvart_1_1PLKernel_1ab7553e0c66f00d3d9d2143fee9bee75d" prot="public" virt="non-virtual"><scope>vart::PLKernel</scope><name>PLKernel</name></member>
+      <member refid="classvart_1_1PLKernel_1abacfc05a7776b40da390c5e5e802cc35" prot="public" virt="non-virtual"><scope>vart::PLKernel</scope><name>PLKernel</name></member>
+      <member refid="classvart_1_1PLKernel_1a1f84e167210e160d9cc8706d73ca09dd" prot="public" virt="non-virtual"><scope>vart::PLKernel</scope><name>process</name></member>
+      <member refid="classvart_1_1PLKernel_1ae9dcf8f97571a64d665806951fb0b344" prot="private" virt="non-virtual"><scope>vart::PLKernel</scope><name>profile_end_time</name></member>
+      <member refid="classvart_1_1PLKernel_1aa6d131e0573d726d97c8e03bf34329a0" prot="private" virt="non-virtual"><scope>vart::PLKernel</scope><name>profile_start_time</name></member>
+      <member refid="classvart_1_1PLKernel_1a88a7557e459792f9f8c15083b5d11ab8" prot="public" virt="non-virtual"><scope>vart::PLKernel</scope><name>set_config</name></member>
+      <member refid="classvart_1_1PLKernel_1ad48a3a02786ca2abe99bcd91d6367821" prot="public" virt="non-virtual"><scope>vart::PLKernel</scope><name>wait</name></member>
+      <member refid="classvart_1_1PLKernel_1a376bf6528dc826ebc86b9fba8d4bf5ad" prot="public" virt="non-virtual"><scope>vart::PLKernel</scope><name>~PLKernel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1422 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="npu__reg_8h" kind="file" language="C++">
+    <compoundname>npu_reg.h</compoundname>
+    <includedby refid="clocks_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/clocks.cpp</includedby>
+    <includedby refid="inference_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/inference.cpp</includedby>
+    <includedby refid="private_8h" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h</includedby>
+    <includedby refid="run__snapshot__bin_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/run_snapshot_bin.cpp</includedby>
+    <includedby refid="run__snapshot__txt_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/run_snapshot_txt.cpp</includedby>
+    <includedby refid="vart__ml__io_8c" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c</includedby>
+    <includedby refid="vart__ml__io__devmem_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_devmem.cpp</includedby>
+    <includedby refid="vart__ml__io__uio_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_uio.cpp</includedby>
+    <includedby refid="vart__ml__ctrlbus__poke_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_tools/vart_ml_ctrlbus_poke.cpp</includedby>
+    <includedby refid="vart__ml__ddr__debug_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_tools/vart_ml_ddr_debug.cpp</includedby>
+    <includedby refid="vart__ml__tester_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_tools/vart_ml_tester.cpp</includedby>
+    <invincdepgraph>
+      <node id="9">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/run_snapshot.cpp</label>
+        <link refid="run__snapshot_8cpp"/>
+      </node>
+      <node id="22">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_tools/vart_ml_tester.cpp</label>
+        <link refid="vart__ml__tester_8cpp"/>
+      </node>
+      <node id="6">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/accessors.cpp</label>
+        <link refid="npu__c__api_2accessors_8cpp"/>
+      </node>
+      <node id="23">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp</label>
+        <link refid="vcd__stats_8cpp"/>
+      </node>
+      <node id="13">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/arm_ops.cpp</label>
+        <link refid="arm__ops_8cpp"/>
+      </node>
+      <node id="7">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/pl.cpp</label>
+        <link refid="pl_8cpp"/>
+      </node>
+      <node id="25">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_devmem.cpp</label>
+        <link refid="vart__ml__io__devmem_8cpp"/>
+      </node>
+      <node id="26">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_uio.cpp</label>
+        <link refid="vart__ml__io__uio_8cpp"/>
+      </node>
+      <node id="1">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h</label>
+        <link refid="npu__reg_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/run_snapshot_txt.cpp</label>
+        <link refid="run__snapshot__txt_8cpp"/>
+      </node>
+      <node id="27">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_tools/vart_ml_ddr_debug.cpp</label>
+        <link refid="vart__ml__ddr__debug_8cpp"/>
+      </node>
+      <node id="4">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h</label>
+        <link refid="private_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c</label>
+        <link refid="vart__ml__io_8c"/>
+      </node>
+      <node id="2">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/clocks.cpp</label>
+        <link refid="clocks_8cpp"/>
+      </node>
+      <node id="5">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/npu_c_api.h</label>
+        <link refid="npu__c__api_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_tools/vart_ml_clocks.cpp</label>
+        <link refid="vart__ml__clocks_8cpp"/>
+      </node>
+      <node id="15">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/snapshot_parser.cpp</label>
+        <link refid="vart__ml__runner_2snapshot__parser_8cpp"/>
+      </node>
+      <node id="10">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/run_snapshot_bin.cpp</label>
+        <link refid="run__snapshot__bin_8cpp"/>
+      </node>
+      <node id="21">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_tools/vart_ml_ddr_poke.cpp</label>
+        <link refid="vart__ml__ddr__poke_8cpp"/>
+      </node>
+      <node id="16">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/thread_pool.cpp</label>
+        <link refid="thread__pool_8cpp"/>
+      </node>
+      <node id="17">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/utils.cpp</label>
+        <link refid="utils_8cpp"/>
+      </node>
+      <node id="8">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/quantization.cpp</label>
+        <link refid="quantization_8cpp"/>
+      </node>
+      <node id="18">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.cpp</label>
+        <link refid="vart__ml__runner_8cpp"/>
+      </node>
+      <node id="12">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/snapshot_parser.cpp</label>
+        <link refid="npu__c__api_2snapshot__parser_8cpp"/>
+      </node>
+      <node id="3">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/inference.cpp</label>
+        <link refid="inference_8cpp"/>
+      </node>
+      <node id="14">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/execute.cpp</label>
+        <link refid="execute_8cpp"/>
+      </node>
+      <node id="20">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_tools/vart_ml_ctrlbus_poke.cpp</label>
+        <link refid="vart__ml__ctrlbus__poke_8cpp"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="npu__reg_8h_1aff83058c8de5c5d87e0742c80bba4de1" prot="public" static="no">
+        <name>TIMESTAMP_OFFSET</name>
+        <initializer>0x0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="22" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1a83d136254ee564c4cf973f19fbd24fa1" prot="public" static="no">
+        <name>MAXDDRS</name>
+        <initializer>3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="24" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1a24a01ee393b810bc797cbfdbe44daece" prot="public" static="no">
+        <name>AIE_PER_COLUMN_VE2302</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="25" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1ae4ff9baae9c0839ede7dd46b19aaa907" prot="public" static="no">
+        <name>MMCM_OFFSET</name>
+        <initializer>0x4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="27" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1a7bccfefa967817b833515dbe91f23e15" prot="public" static="no">
+        <name>CLK_10M_OFFSET</name>
+        <initializer>0x8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="28" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1a2d9ed4645c2b773c387f6871cca6ba01" prot="public" static="no">
+        <name>CLK4X_OFFSET</name>
+        <initializer>0xc</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="29" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1a778bb891319e54a3200fdf164f97a421" prot="public" static="no">
+        <name>CLK2X_OFFSET</name>
+        <initializer>0x2c</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="30" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1a0a20dae9c8a054bd35f9fb772536beab" prot="public" static="no">
+        <name>CLK1X_OFFSET</name>
+        <initializer>0x4c</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="31" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1ad204f0bb96acbe150c2a9841e0e98e3d" prot="public" static="no">
+        <name>CLK_DDR_OFFSET</name>
+        <param><defname>mem</defname></param>
+        <initializer>(0x6c + 4 * (mem))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="32" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1a028ce32a1146a131da2e85e9df84854f" prot="public" static="no">
+        <name>MMCM_CFG_BASE</name>
+        <initializer>0x300</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="34" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1a2759b5dc9506bdba5c264b4458b777b1" prot="public" static="no">
+        <name>MMCM_CFG_VALID</name>
+        <initializer>0x304</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="35" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1aaca3dfd5b45a635e59ddf66c25efe15f" prot="public" static="no">
+        <name>MMCM_CLK_ENA</name>
+        <initializer>0x324</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="36" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1af6ec9678dd22caef5226733b886419dd" prot="public" static="no">
+        <name>MMCM_CFG_BASE_V1C</name>
+        <initializer>0x100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="38" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1a923331786616fc6930a789964a48fa21" prot="public" static="no">
+        <name>MMCM_VERSAL_CLKFBOUT_MULT01</name>
+        <param><defname>base</defname></param>
+        <initializer>(base + 0x30)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="40" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1a1664f894fda7b93056b9d205ed3228f7" prot="public" static="no">
+        <name>MMCM_VERSAL_CLKFBOUT_MULT02</name>
+        <param><defname>base</defname></param>
+        <initializer>(base + 0x34)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="41" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1a15380889d5d4ae6c7117b72cb93a231b" prot="public" static="no">
+        <name>MMCM_VERSAL_CLKDIV01</name>
+        <param><defname>base</defname></param>
+        <initializer>(base + 0x38)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="42" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1a143ee771e1e25b590c652adf86dbe825" prot="public" static="no">
+        <name>MMCM_VERSAL_CLKDIV02</name>
+        <param><defname>base</defname></param>
+        <initializer>(base + 0x3c)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="43" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1a7d3c46fe83ad8d6b8ac31aff85ac1c82" prot="public" static="no">
+        <name>MMCM_VERSAL_DIV01</name>
+        <param><defname>base</defname></param>
+        <initializer>(base + 0x80)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="44" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1afea774f1663e3b09097716f62e018302" prot="public" static="no">
+        <name>MMCM_VERSAL_DIV02</name>
+        <param><defname>base</defname></param>
+        <initializer>(base + 0x84)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="45" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1a115fdb030b84de82e48140f0891cd631" prot="public" static="no">
+        <name>ASSERTS_OFFSET</name>
+        <initializer>0x3000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="47" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1a5cead72a5b95ceb37ad02e9db66e9ab9" prot="public" static="no">
+        <name>ASSERTS_BASE_OFFSET</name>
+        <initializer>0x3004</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="48" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1af5b9c87e7db79f439c2d4de8f4d7e6cb" prot="public" static="no">
+        <name>ASSERTS_OFFSET_V1C</name>
+        <initializer>0x1000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="49" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1add78264f50373a17d8a8b01b55a125c2" prot="public" static="no">
+        <name>ASSERTS_BASE_OFFSET_V1C</name>
+        <initializer>0x1004</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="50" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1af6ec6cc86cf28cd8358fe03390a9ee32" prot="public" static="no">
+        <name>NB_ASSERT_REGS</name>
+        <initializer>5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="51" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1a64d2bc9057798ae301b1e1f3ef26a179" prot="public" static="no">
+        <name>SUPERVISOR_REG_OFFSET</name>
+        <initializer>0x200</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="53" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1a6b83c65745008487dd0767163a4eb9e5" prot="public" static="no">
+        <name>SUPERVISOR_REG_SYS_OFFSET</name>
+        <initializer>(<ref refid="npu__reg_8h_1a64d2bc9057798ae301b1e1f3ef26a179" kindref="member">SUPERVISOR_REG_OFFSET</ref> + 0x40)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="54" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1a63f66e03f72f96b44f34c32bd73bcf91" prot="public" static="no">
+        <name>NBUFF_BASE_OFFSET_USCALE</name>
+        <initializer>0x30000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="57" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1a09d55b8c2a7ecb08686981b83efa9a01" prot="public" static="no">
+        <name>NBUFF_TEMP_AREA_OFFSET_USCALE</name>
+        <initializer>(<ref refid="npu__reg_8h_1a63f66e03f72f96b44f34c32bd73bcf91" kindref="member">NBUFF_BASE_OFFSET_USCALE</ref> + 0x380)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="58" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1a29a49fc2e571942274d62d41b1a59248" prot="public" static="no">
+        <name>NBUFF_CONFIG_AREA_OFFSET_USCALE</name>
+        <initializer>(<ref refid="npu__reg_8h_1a63f66e03f72f96b44f34c32bd73bcf91" kindref="member">NBUFF_BASE_OFFSET_USCALE</ref> + 0x3c0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="59" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1a71fdd8fbb6ab110b53b4fc3d3e6934f0" prot="public" static="no">
+        <name>NBUFF_LEN_USCALE</name>
+        <initializer>(4 * 256)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="60" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1aa081e3ea48b735106f5759da8298e74d" prot="public" static="no">
+        <name>MCTRL_MEM_BASE_USCALE</name>
+        <initializer>0x8000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="62" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1a34da7deebf39d93607d58ca3b1a5cb69" prot="public" static="no">
+        <name>MCTRL_MEM_SUPRA_USCALE</name>
+        <initializer>0xc000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="63" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1ab31d04093fcddd6c78ef7e13dc39a5a8" prot="public" static="no">
+        <name>MCTRL_MEM_LEN_USCALE</name>
+        <initializer>(28 &lt;&lt; 10) /* 28 KiB */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="64" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1a75895e0694b357cb893c394fda8eb88c" prot="public" static="no">
+        <name>NBUFF_BASE_OFFSET_START_AIE1</name>
+        <initializer>0x30000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="67" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1a8f10611d467b2cd664b226e85f2ca7b5" prot="public" static="no">
+        <name>NBUFF_LEN_AIE1</name>
+        <initializer>(4 * 256)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="68" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1aeb3e2f0bc115a1355bfdf163d818cf88" prot="public" static="no">
+        <name>NBUFF_BASE_OFFSET_AIE1</name>
+        <param><defname>x</defname></param>
+        <initializer>(<ref refid="npu__reg_8h_1a75895e0694b357cb893c394fda8eb88c" kindref="member">NBUFF_BASE_OFFSET_START_AIE1</ref> + x * <ref refid="npu__reg_8h_1a8f10611d467b2cd664b226e85f2ca7b5" kindref="member">NBUFF_LEN_AIE1</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="69" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1a3bbb1d473aa34ea7ba46767cd4c055c3" prot="public" static="no">
+        <name>NBUFF_TEMP_AREA_OFFSET_AIE1</name>
+        <param><defname>x</defname></param>
+        <initializer>(<ref refid="npu__reg_8h_1aeb3e2f0bc115a1355bfdf163d818cf88" kindref="member">NBUFF_BASE_OFFSET_AIE1</ref>(x) + 0x380)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="70" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1ae4dfa119b22391529ef3ba94b15fa995" prot="public" static="no">
+        <name>NBUFF_CONFIG_AREA_OFFSET_AIE1</name>
+        <param><defname>x</defname></param>
+        <initializer>(<ref refid="npu__reg_8h_1aeb3e2f0bc115a1355bfdf163d818cf88" kindref="member">NBUFF_BASE_OFFSET_AIE1</ref>(x) + 0x3c0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="71" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1a5daba7e01dbb1c18cfa37f285751b55e" prot="public" static="no">
+        <name>NBUFF_BASE_OFFSET</name>
+        <initializer>0x7000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="74" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1a366ee5cbf78c80fcbe2e32c25b5ea3b4" prot="public" static="no">
+        <name>NBUFF_LEN</name>
+        <initializer>(8 * 256)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="75" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1a04f1d8f3147dc346c36b64bb06e3cd2b" prot="public" static="no">
+        <name>NBUFF_INDEX</name>
+        <initializer><ref refid="npu__reg_8h_1a5daba7e01dbb1c18cfa37f285751b55e" kindref="member">NBUFF_BASE_OFFSET</ref> + 0x800</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="76" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1adcdb2b4bc064b9fa26c5ef289ed070bf" prot="public" static="no">
+        <name>MCTRL_MEM_BASE</name>
+        <initializer>0x8000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="78" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1ae496f2e8760eab20478900d2bdaed83a" prot="public" static="no">
+        <name>MCTRL_MEM_LEN</name>
+        <initializer>(24 &lt;&lt; 10) /* 24 KiB */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="79" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1a0ffaa4bc6538ebc78b7a086315641a06" prot="public" static="no">
+        <name>MCTRL_MEM_MASK</name>
+        <initializer>0xffffffff</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="80" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1ae575bff741a2bc3a5e85607c3cd0437b" prot="public" static="no">
+        <name>VERSAL_MCTRL_MEM_BASE</name>
+        <initializer>0xf000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="82" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1a6190927577d55dedc056528fa0a9c115" prot="public" static="no">
+        <name>VERSAL_MCTRL_MEM_TEST_BASE</name>
+        <initializer>(<ref refid="npu__reg_8h_1ae575bff741a2bc3a5e85607c3cd0437b" kindref="member">VERSAL_MCTRL_MEM_BASE</ref> + 0x0c)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="83" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1a3c1e5bf66d716ce0bb54fe3fce010d0e" prot="public" static="no">
+        <name>VERSAL_MCTRL_MEM_TEST_MASK</name>
+        <initializer>0xffffff</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="84" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1a5eaec7d07881adda1007c96eab04b32c" prot="public" static="no">
+        <name>VERSAL_MCTRL_MEM_LEN</name>
+        <initializer>20</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="85" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1a6f62f3a71197d085419e7b36a37d0abe" prot="public" static="no">
+        <name>VERSAL_MCTRL_MEM_NPU_MUTEX_BASEADDR</name>
+        <initializer>(<ref refid="npu__reg_8h_1ae575bff741a2bc3a5e85607c3cd0437b" kindref="member">VERSAL_MCTRL_MEM_BASE</ref> + 0x188)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="86" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1a7cb84d42a0f52241409c48e22417a35f" prot="public" static="no">
+        <name>VERSAL_MCTRL_NPU_INFERENCE_MUTEX_OFFSET</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="87" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1af38e6989deb42f79e28b9a7e5ce34a51" prot="public" static="no">
+        <name>VERSAL_MCTRL_NPU_INFERENCE_QUEUE_TAIL_MUTEX_OFFSET</name>
+        <initializer>0x4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="88" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1a2a297ba9df5b34b9938f143b05d7a716" prot="public" static="no">
+        <name>VERSAL_MCTRL_NPU_MALLOC_MUTEX_OFFSET</name>
+        <initializer>0x8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="89" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1a4bbb1a52b16d803fab81a1c6eac641c4" prot="public" static="no">
+        <name>VERSAL_MCTRL_NPU_INFERENCE_QUEUE_HEAD_REG</name>
+        <initializer>(<ref refid="npu__reg_8h_1ae575bff741a2bc3a5e85607c3cd0437b" kindref="member">VERSAL_MCTRL_MEM_BASE</ref> + 0x194)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="90" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1a64bad37d41eddd8522c217b3c71bde98" prot="public" static="no">
+        <name>VERSAL_MCTRL_NPU_INFERENCE_QUEUE_TAIL_REG</name>
+        <initializer>(<ref refid="npu__reg_8h_1ae575bff741a2bc3a5e85607c3cd0437b" kindref="member">VERSAL_MCTRL_MEM_BASE</ref> + 0x198)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="91" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1a168d47b88aa6eadeced436967ef25861" prot="public" static="no">
+        <name>NPU_INTERRUPT_CTRL</name>
+        <initializer>0xf004</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="93" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1a95ce08b5825550c05264ef60cf6cf071" prot="public" static="no">
+        <name>NPU_INTERRUPT_CTRL_V1C</name>
+        <initializer>0xf000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="94" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1a473bd2c496cd94873cd59887e43f0d23" prot="public" static="no">
+        <name>NB_MAX_SYSTEMS</name>
+        <initializer>8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="96" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1a059970a11d9ade5187b95ddbcfdbb436" prot="public" static="no">
+        <name>NB_MAX_CORES_PER_SYSTEM</name>
+        <initializer>8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="97" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1adb9689afcfd373766291fa84777e6ceb" prot="public" static="no">
+        <name>CORESIZE</name>
+        <initializer>0x10000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="98" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1ac302a1bfa6061449f4097504e8b3560d" prot="public" static="no">
+        <name>SYSTEMSIZE</name>
+        <initializer>(<ref refid="npu__reg_8h_1a059970a11d9ade5187b95ddbcfdbb436" kindref="member">NB_MAX_CORES_PER_SYSTEM</ref> * <ref refid="npu__reg_8h_1adb9689afcfd373766291fa84777e6ceb" kindref="member">CORESIZE</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="99" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1a8eb52e42faa45c651b5e2c1f15f638a9" prot="public" static="no">
+        <name>CORE_OFFSET</name>
+        <param><defname>systemindex</defname></param>
+        <param><defname>coreindex</defname></param>
+        <initializer>((coreindex) * <ref refid="npu__reg_8h_1adb9689afcfd373766291fa84777e6ceb" kindref="member">CORESIZE</ref> + (systemindex) * <ref refid="npu__reg_8h_1ac302a1bfa6061449f4097504e8b3560d" kindref="member">SYSTEMSIZE</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="100" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1a4ab9e3cff9a4980e521d095d8639f16c" prot="public" static="no">
+        <name>STATUS_OFFSET</name>
+        <param><defname>systemindex</defname></param>
+        <param><defname>coreindex</defname></param>
+        <initializer>(0xf000 + <ref refid="npu__reg_8h_1a8eb52e42faa45c651b5e2c1f15f638a9" kindref="member">CORE_OFFSET</ref>(systemindex, coreindex))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="101" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1a8c6ed52ca53f7aca47b1832e09a2c1d4" prot="public" static="no">
+        <name>ENABLE_OFFSET</name>
+        <param><defname>systemindex</defname></param>
+        <param><defname>coreindex</defname></param>
+        <initializer>(0xf004 + <ref refid="npu__reg_8h_1a8eb52e42faa45c651b5e2c1f15f638a9" kindref="member">CORE_OFFSET</ref>(systemindex, coreindex))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="102" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1a1c9d5825ebc2e813d22ea008dbedcc28" prot="public" static="no">
+        <name>LOAD_OFFSET</name>
+        <param><defname>systemindex</defname></param>
+        <param><defname>coreindex</defname></param>
+        <initializer>(0xf008 + <ref refid="npu__reg_8h_1a8eb52e42faa45c651b5e2c1f15f638a9" kindref="member">CORE_OFFSET</ref>(systemindex, coreindex))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="103" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1ab67cfeafc57c63130b988ccd2f27bff5" prot="public" static="no">
+        <name>CONFIG_OFFSET</name>
+        <param><defname>systemindex</defname></param>
+        <param><defname>coreindex</defname></param>
+        <initializer>(0xf00c + <ref refid="npu__reg_8h_1a8eb52e42faa45c651b5e2c1f15f638a9" kindref="member">CORE_OFFSET</ref>(systemindex, coreindex))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="104" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1a87437b5553c9c99eeae72bb0f6815289" prot="public" static="no">
+        <name>MCTRL_VERSAL_OFFSET</name>
+        <param><defname>systemindex</defname></param>
+        <param><defname>coreindex</defname></param>
+        <initializer>(0xf010 + <ref refid="npu__reg_8h_1a8eb52e42faa45c651b5e2c1f15f638a9" kindref="member">CORE_OFFSET</ref>(systemindex, coreindex))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="105" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1aead75f71e364b7cece5b0f3b7d142828" prot="public" static="no">
+        <name>TIMER_OFFSET</name>
+        <param><defname>systemindex</defname></param>
+        <param><defname>coreindex</defname></param>
+        <initializer>(0xf010 + <ref refid="npu__reg_8h_1a8eb52e42faa45c651b5e2c1f15f638a9" kindref="member">CORE_OFFSET</ref>(systemindex, coreindex))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="106" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1a4e9742117c06649bb821e2856b495c6c" prot="public" static="no">
+        <name>TIMER_OFFSET_VERSAL</name>
+        <param><defname>systemindex</defname></param>
+        <param><defname>coreindex</defname></param>
+        <initializer>(0xf030 + <ref refid="npu__reg_8h_1a8eb52e42faa45c651b5e2c1f15f638a9" kindref="member">CORE_OFFSET</ref>(systemindex, coreindex))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="107" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1a2884bd7ada341f0391bb6762b099fe36" prot="public" static="no">
+        <name>TIMER_OFFSET_VERSAL_V1C</name>
+        <initializer>0xf168</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="108" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1ad8978ce284e1949225c56569d7e44c33" prot="public" static="no">
+        <name>CONFIG_OFFSET_VERSAL_V1C</name>
+        <initializer>0xf16c</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="109" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1ab098c3aa55313f1a0f3cddcdd7703689" prot="public" static="no">
+        <name>DEBUG_SYSMON_DDR_BASE_ADDR</name>
+        <initializer>0x10000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="111" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1a3cb24f09004f92185b77e9e7bac6ea61" prot="public" static="no">
+        <name>TEMP_OFFSET</name>
+        <initializer>(<ref refid="npu__reg_8h_1ab098c3aa55313f1a0f3cddcdd7703689" kindref="member">DEBUG_SYSMON_DDR_BASE_ADDR</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="112" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1a8edf5e8e6f229d26e7d5ff281be9b47c" prot="public" static="no">
+        <name>MAX_TEMP_OFFSET</name>
+        <initializer>(<ref refid="npu__reg_8h_1ab098c3aa55313f1a0f3cddcdd7703689" kindref="member">DEBUG_SYSMON_DDR_BASE_ADDR</ref> + 0x80)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="113" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1a53be74eb9a9ceb2bd0b64c25763d4a9d" prot="public" static="no">
+        <name>OVER_TEMP_FLAG_OFFSET</name>
+        <initializer>(<ref refid="npu__reg_8h_1ab098c3aa55313f1a0f3cddcdd7703689" kindref="member">DEBUG_SYSMON_DDR_BASE_ADDR</ref> + 0xfc)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="114" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1a66961aef6f78a4b220315afa42039c6b" prot="public" static="no">
+        <name>OVER_TEMP_VALUE_OFFSET</name>
+        <initializer>(<ref refid="npu__reg_8h_1ab098c3aa55313f1a0f3cddcdd7703689" kindref="member">DEBUG_SYSMON_DDR_BASE_ADDR</ref> + 0x14c)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="115" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1a099d2d35849ba2ec318bf1b2aab6adff" prot="public" static="no">
+        <name>OVER_TEMP_MASK</name>
+        <initializer>(1 &lt;&lt; 3)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="116" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1ab4b0590bbb0a3d5d59ee6e81296236be" prot="public" static="no">
+        <name>NOC_PMC_BASE_ADDR</name>
+        <initializer>0xf1000000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="118" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1adca19ac81029d4f7782533c46467d369" prot="public" static="no">
+        <name>SYSMON_NOC_BASE_ADDR</name>
+        <initializer>0x270000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="119" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1aa50213f30d4c3bb548b113cb1e7b844c" prot="public" static="no">
+        <name>NOC_TEMP_OFFSET</name>
+        <initializer>(<ref refid="npu__reg_8h_1adca19ac81029d4f7782533c46467d369" kindref="member">SYSMON_NOC_BASE_ADDR</ref> + 0x1030)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="120" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1ad49f8b1113fa7c19746cbb124144c18e" prot="public" static="no">
+        <name>NOC_MAX_TEMP_OFFSET</name>
+        <initializer>(<ref refid="npu__reg_8h_1adca19ac81029d4f7782533c46467d369" kindref="member">SYSMON_NOC_BASE_ADDR</ref> + 0x1f90)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="121" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1abb6f59669aefcc71856153c0fc427575" prot="public" static="no">
+        <name>NOC_OVER_TEMP_VALUE_OFFSET</name>
+        <initializer>(<ref refid="npu__reg_8h_1adca19ac81029d4f7782533c46467d369" kindref="member">SYSMON_NOC_BASE_ADDR</ref> + 0x197c)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="122" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1a649c022be8aa54d8fa21197c645afce0" prot="public" static="no">
+        <name>NOC_AIE_V2_FREQ_BASE_ADDR</name>
+        <initializer>0x060a0000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="124" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1aecda39caaf6948efbf10176f2bad2ec1" prot="public" static="no">
+        <name>NOC_AIE_ML_FREQ_VE2302_BASE_ADDR</name>
+        <initializer>0x05420000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="125" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1a7d1f7a26de8b604ae36bb79c7b42d417" prot="public" static="no">
+        <name>NOC_AIE_ML_FREQ_VE2802_BASE_ADDR</name>
+        <initializer>0x05d10000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="126" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1afb2309c5c2c8753ee6f763c7d608953b" prot="public" static="no">
+        <name>NOC_AIE_FREQ_VALID_OFFSET</name>
+        <initializer>0x000c</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="127" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1ab52390d1afd3d6d35cbf8d5467adf505" prot="public" static="no">
+        <name>NOC_AIE_FREQ_OFFSET</name>
+        <initializer>0x0100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="128" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1a92c493abc4aaf43d0fb7a4e4b3ea2f81" prot="public" static="no">
+        <name>NOC_ME_PLL_STATUS_OFFSET</name>
+        <initializer>0x010c</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="129" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1abd44bf9ef0d56da8085aa17f2c899097" prot="public" static="no">
+        <name>NOC_ME_CORE_REF_CTRL_OFFSET</name>
+        <initializer>0x0138</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="130" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1aa75956d11bf92d73458c221c951dc822" prot="public" static="no">
+        <name>DEBUG_SRV_DDR_BASE_ADDR</name>
+        <initializer>0x20000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="132" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1a91a98e680f1c09168fdfa8983dbf678b" prot="public" static="no">
+        <name>DDR_WR_DATA</name>
+        <initializer>(<ref refid="npu__reg_8h_1aa75956d11bf92d73458c221c951dc822" kindref="member">DEBUG_SRV_DDR_BASE_ADDR</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="133" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1ac2bcebe4cf2b7fbcd701cea058814e27" prot="public" static="no">
+        <name>DDR_RD_DATA</name>
+        <initializer>(<ref refid="npu__reg_8h_1aa75956d11bf92d73458c221c951dc822" kindref="member">DEBUG_SRV_DDR_BASE_ADDR</ref> + 0x40)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="134" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1a4018ec3ba4d63ff7eaacf4e8697e5845" prot="public" static="no">
+        <name>DDR_ADDR</name>
+        <initializer>(<ref refid="npu__reg_8h_1aa75956d11bf92d73458c221c951dc822" kindref="member">DEBUG_SRV_DDR_BASE_ADDR</ref> + 0x80)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="135" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1a9bd0e93295f735111eec1286c9961f86" prot="public" static="no">
+        <name>DDR_CTRL</name>
+        <initializer>(<ref refid="npu__reg_8h_1aa75956d11bf92d73458c221c951dc822" kindref="member">DEBUG_SRV_DDR_BASE_ADDR</ref> + 0x88)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="136" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1ac45077e6c30a0d219dc6bbda8b378e00" prot="public" static="no">
+        <name>DDR_COMMAND_MASK</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="137" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1ad90d65551073cf9ae98524cb31eb1f35" prot="public" static="no">
+        <name>DDR_START_MASK</name>
+        <initializer>1 &lt;&lt; 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="138" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1a7cb7c988447e068110f16e3f1d9682cc" prot="public" static="no">
+        <name>DDR_STATUS_MASK</name>
+        <initializer>1 &lt;&lt; 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="139" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="npu__reg_8h_1ac0532ffa129f68600b01490261fda788" prot="public" static="no">
+        <name>DDR_TIMEOUT</name>
+        <initializer>1000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" line="140" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h" bodystart="140" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="copyright"><para>Copyright 2024 Advanced Micro Devices Inc.</para>
+</simplesect>
+Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <verbatim>http://www.apache.org/licenses/LICENSE-2.0
+</verbatim> Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. </para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>NPU_REG_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NPU_REG_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="npu__reg_8h_1aff83058c8de5c5d87e0742c80bba4de1" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TIMESTAMP_OFFSET<sp/>0x0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="npu__reg_8h_1a83d136254ee564c4cf973f19fbd24fa1" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MAXDDRS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>3</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="npu__reg_8h_1a24a01ee393b810bc797cbfdbe44daece" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AIE_PER_COLUMN_VE2302<sp/>2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="npu__reg_8h_1ae4ff9baae9c0839ede7dd46b19aaa907" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MMCM_OFFSET<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x4</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="npu__reg_8h_1a7bccfefa967817b833515dbe91f23e15" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CLK_10M_OFFSET<sp/><sp/><sp/><sp/><sp/><sp/>0x8</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="npu__reg_8h_1a2d9ed4645c2b773c387f6871cca6ba01" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CLK4X_OFFSET<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0xc</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="npu__reg_8h_1a778bb891319e54a3200fdf164f97a421" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CLK2X_OFFSET<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x2c</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="npu__reg_8h_1a0a20dae9c8a054bd35f9fb772536beab" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CLK1X_OFFSET<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x4c</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="npu__reg_8h_1ad204f0bb96acbe150c2a9841e0e98e3d" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CLK_DDR_OFFSET(mem)<sp/>(0x6c<sp/>+<sp/>4<sp/>*<sp/>(mem))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="npu__reg_8h_1a028ce32a1146a131da2e85e9df84854f" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MMCM_CFG_BASE<sp/><sp/>0x300</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="npu__reg_8h_1a2759b5dc9506bdba5c264b4458b777b1" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MMCM_CFG_VALID<sp/>0x304</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="npu__reg_8h_1aaca3dfd5b45a635e59ddf66c25efe15f" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MMCM_CLK_ENA<sp/><sp/><sp/>0x324</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="npu__reg_8h_1af6ec9678dd22caef5226733b886419dd" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MMCM_CFG_BASE_V1C<sp/>0x100</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="npu__reg_8h_1a923331786616fc6930a789964a48fa21" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MMCM_VERSAL_CLKFBOUT_MULT01(base)<sp/>(base<sp/>+<sp/>0x30)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="npu__reg_8h_1a1664f894fda7b93056b9d205ed3228f7" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MMCM_VERSAL_CLKFBOUT_MULT02(base)<sp/>(base<sp/>+<sp/>0x34)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="npu__reg_8h_1a15380889d5d4ae6c7117b72cb93a231b" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MMCM_VERSAL_CLKDIV01(base)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(base<sp/>+<sp/>0x38)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="npu__reg_8h_1a143ee771e1e25b590c652adf86dbe825" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MMCM_VERSAL_CLKDIV02(base)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(base<sp/>+<sp/>0x3c)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="npu__reg_8h_1a7d3c46fe83ad8d6b8ac31aff85ac1c82" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MMCM_VERSAL_DIV01(base)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(base<sp/>+<sp/>0x80)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="npu__reg_8h_1afea774f1663e3b09097716f62e018302" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MMCM_VERSAL_DIV02(base)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(base<sp/>+<sp/>0x84)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="npu__reg_8h_1a115fdb030b84de82e48140f0891cd631" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ASSERTS_OFFSET<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x3000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="npu__reg_8h_1a5cead72a5b95ceb37ad02e9db66e9ab9" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ASSERTS_BASE_OFFSET<sp/><sp/><sp/><sp/><sp/>0x3004</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="npu__reg_8h_1af5b9c87e7db79f439c2d4de8f4d7e6cb" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ASSERTS_OFFSET_V1C<sp/><sp/><sp/><sp/><sp/><sp/>0x1000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="npu__reg_8h_1add78264f50373a17d8a8b01b55a125c2" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ASSERTS_BASE_OFFSET_V1C<sp/>0x1004</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="npu__reg_8h_1af6ec6cc86cf28cd8358fe03390a9ee32" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NB_ASSERT_REGS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>5</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="npu__reg_8h_1a64d2bc9057798ae301b1e1f3ef26a179" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SUPERVISOR_REG_OFFSET<sp/><sp/><sp/><sp/><sp/>0x200</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="npu__reg_8h_1a6b83c65745008487dd0767163a4eb9e5" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SUPERVISOR_REG_SYS_OFFSET<sp/>(SUPERVISOR_REG_OFFSET<sp/>+<sp/>0x40)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Ultrascale<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="npu__reg_8h_1a63f66e03f72f96b44f34c32bd73bcf91" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NBUFF_BASE_OFFSET_USCALE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x30000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="npu__reg_8h_1a09d55b8c2a7ecb08686981b83efa9a01" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NBUFF_TEMP_AREA_OFFSET_USCALE<sp/><sp/><sp/>(NBUFF_BASE_OFFSET_USCALE<sp/>+<sp/>0x380)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="npu__reg_8h_1a29a49fc2e571942274d62d41b1a59248" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NBUFF_CONFIG_AREA_OFFSET_USCALE<sp/>(NBUFF_BASE_OFFSET_USCALE<sp/>+<sp/>0x3c0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="npu__reg_8h_1a71fdd8fbb6ab110b53b4fc3d3e6934f0" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NBUFF_LEN_USCALE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(4<sp/>*<sp/>256)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="npu__reg_8h_1aa081e3ea48b735106f5759da8298e74d" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MCTRL_MEM_BASE_USCALE<sp/><sp/>0x8000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="npu__reg_8h_1a34da7deebf39d93607d58ca3b1a5cb69" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MCTRL_MEM_SUPRA_USCALE<sp/>0xc000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="npu__reg_8h_1ab31d04093fcddd6c78ef7e13dc39a5a8" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MCTRL_MEM_LEN_USCALE<sp/><sp/><sp/>(28<sp/>&lt;&lt;<sp/>10)<sp/></highlight><highlight class="comment">/*<sp/>28<sp/>KiB<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>VCK<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="npu__reg_8h_1a75895e0694b357cb893c394fda8eb88c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NBUFF_BASE_OFFSET_START_AIE1<sp/><sp/><sp/><sp/><sp/>0x30000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="npu__reg_8h_1a8f10611d467b2cd664b226e85f2ca7b5" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NBUFF_LEN_AIE1<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(4<sp/>*<sp/>256)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="npu__reg_8h_1aeb3e2f0bc115a1355bfdf163d818cf88" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NBUFF_BASE_OFFSET_AIE1(x)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(NBUFF_BASE_OFFSET_START_AIE1<sp/>+<sp/>x<sp/>*<sp/>NBUFF_LEN_AIE1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="npu__reg_8h_1a3bbb1d473aa34ea7ba46767cd4c055c3" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NBUFF_TEMP_AREA_OFFSET_AIE1(x)<sp/><sp/><sp/>(NBUFF_BASE_OFFSET_AIE1(x)<sp/>+<sp/>0x380)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="npu__reg_8h_1ae4dfa119b22391529ef3ba94b15fa995" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NBUFF_CONFIG_AREA_OFFSET_AIE1(x)<sp/>(NBUFF_BASE_OFFSET_AIE1(x)<sp/>+<sp/>0x3c0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>V1C<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="npu__reg_8h_1a5daba7e01dbb1c18cfa37f285751b55e" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NBUFF_BASE_OFFSET<sp/>0x7000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="npu__reg_8h_1a366ee5cbf78c80fcbe2e32c25b5ea3b4" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NBUFF_LEN<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(8<sp/>*<sp/>256)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="npu__reg_8h_1a04f1d8f3147dc346c36b64bb06e3cd2b" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NBUFF_INDEX<sp/><sp/><sp/><sp/><sp/><sp/><sp/>NBUFF_BASE_OFFSET<sp/>+<sp/>0x800</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="npu__reg_8h_1adcdb2b4bc064b9fa26c5ef289ed070bf" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MCTRL_MEM_BASE<sp/>0x8000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="npu__reg_8h_1ae496f2e8760eab20478900d2bdaed83a" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MCTRL_MEM_LEN<sp/><sp/>(24<sp/>&lt;&lt;<sp/>10)<sp/></highlight><highlight class="comment">/*<sp/>24<sp/>KiB<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="npu__reg_8h_1a0ffaa4bc6538ebc78b7a086315641a06" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MCTRL_MEM_MASK<sp/>0xffffffff</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="npu__reg_8h_1ae575bff741a2bc3a5e85607c3cd0437b" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>VERSAL_MCTRL_MEM_BASE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0xf000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="npu__reg_8h_1a6190927577d55dedc056528fa0a9c115" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>VERSAL_MCTRL_MEM_TEST_BASE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(VERSAL_MCTRL_MEM_BASE<sp/>+<sp/>0x0c)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="npu__reg_8h_1a3c1e5bf66d716ce0bb54fe3fce010d0e" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>VERSAL_MCTRL_MEM_TEST_MASK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0xffffff</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="npu__reg_8h_1a5eaec7d07881adda1007c96eab04b32c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>VERSAL_MCTRL_MEM_LEN<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>20</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="npu__reg_8h_1a6f62f3a71197d085419e7b36a37d0abe" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>VERSAL_MCTRL_MEM_NPU_MUTEX_BASEADDR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(VERSAL_MCTRL_MEM_BASE<sp/>+<sp/>0x188)<sp/></highlight><highlight class="comment">//<sp/>98th<sp/>32-bit<sp/>word</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="npu__reg_8h_1a7cb84d42a0f52241409c48e22417a35f" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>VERSAL_MCTRL_NPU_INFERENCE_MUTEX_OFFSET<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="npu__reg_8h_1af38e6989deb42f79e28b9a7e5ce34a51" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>VERSAL_MCTRL_NPU_INFERENCE_QUEUE_TAIL_MUTEX_OFFSET<sp/>0x4</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89" refid="npu__reg_8h_1a2a297ba9df5b34b9938f143b05d7a716" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>VERSAL_MCTRL_NPU_MALLOC_MUTEX_OFFSET<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x8</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90" refid="npu__reg_8h_1a4bbb1a52b16d803fab81a1c6eac641c4" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>VERSAL_MCTRL_NPU_INFERENCE_QUEUE_HEAD_REG<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(VERSAL_MCTRL_MEM_BASE<sp/>+<sp/>0x194)<sp/></highlight><highlight class="comment">//<sp/>101st<sp/>32-bit<sp/>word</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="npu__reg_8h_1a64bad37d41eddd8522c217b3c71bde98" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>VERSAL_MCTRL_NPU_INFERENCE_QUEUE_TAIL_REG<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(VERSAL_MCTRL_MEM_BASE<sp/>+<sp/>0x198)<sp/></highlight><highlight class="comment">//<sp/>102nd<sp/>32-bit<sp/>word</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="npu__reg_8h_1a168d47b88aa6eadeced436967ef25861" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NPU_INTERRUPT_CTRL<sp/><sp/><sp/><sp/><sp/>0xf004</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="npu__reg_8h_1a95ce08b5825550c05264ef60cf6cf071" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NPU_INTERRUPT_CTRL_V1C<sp/>0xf000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96" refid="npu__reg_8h_1a473bd2c496cd94873cd59887e43f0d23" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NB_MAX_SYSTEMS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>8</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97" refid="npu__reg_8h_1a059970a11d9ade5187b95ddbcfdbb436" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NB_MAX_CORES_PER_SYSTEM<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>8</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="npu__reg_8h_1adb9689afcfd373766291fa84777e6ceb" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CORESIZE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x10000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99" refid="npu__reg_8h_1ac302a1bfa6061449f4097504e8b3560d" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SYSTEMSIZE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(NB_MAX_CORES_PER_SYSTEM<sp/>*<sp/>CORESIZE)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100" refid="npu__reg_8h_1a8eb52e42faa45c651b5e2c1f15f638a9" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CORE_OFFSET(systemindex,<sp/>coreindex)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>((coreindex)<sp/>*<sp/>CORESIZE<sp/>+<sp/>(systemindex)<sp/>*<sp/>SYSTEMSIZE)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="npu__reg_8h_1a4ab9e3cff9a4980e521d095d8639f16c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STATUS_OFFSET(systemindex,<sp/>coreindex)<sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0xf000<sp/>+<sp/>CORE_OFFSET(systemindex,<sp/>coreindex))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102" refid="npu__reg_8h_1a8c6ed52ca53f7aca47b1832e09a2c1d4" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ENABLE_OFFSET(systemindex,<sp/>coreindex)<sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0xf004<sp/>+<sp/>CORE_OFFSET(systemindex,<sp/>coreindex))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="npu__reg_8h_1a1c9d5825ebc2e813d22ea008dbedcc28" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LOAD_OFFSET(systemindex,<sp/>coreindex)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0xf008<sp/>+<sp/>CORE_OFFSET(systemindex,<sp/>coreindex))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104" refid="npu__reg_8h_1ab67cfeafc57c63130b988ccd2f27bff5" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CONFIG_OFFSET(systemindex,<sp/>coreindex)<sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0xf00c<sp/>+<sp/>CORE_OFFSET(systemindex,<sp/>coreindex))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105" refid="npu__reg_8h_1a87437b5553c9c99eeae72bb0f6815289" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MCTRL_VERSAL_OFFSET(systemindex,<sp/>coreindex)<sp/>(0xf010<sp/>+<sp/>CORE_OFFSET(systemindex,<sp/>coreindex))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106" refid="npu__reg_8h_1aead75f71e364b7cece5b0f3b7d142828" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TIMER_OFFSET(systemindex,<sp/>coreindex)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0xf010<sp/>+<sp/>CORE_OFFSET(systemindex,<sp/>coreindex))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="npu__reg_8h_1a4e9742117c06649bb821e2856b495c6c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TIMER_OFFSET_VERSAL(systemindex,<sp/>coreindex)<sp/>(0xf030<sp/>+<sp/>CORE_OFFSET(systemindex,<sp/>coreindex))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="npu__reg_8h_1a2884bd7ada341f0391bb6762b099fe36" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TIMER_OFFSET_VERSAL_V1C<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0xf168</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109" refid="npu__reg_8h_1ad8978ce284e1949225c56569d7e44c33" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CONFIG_OFFSET_VERSAL_V1C<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0xf16c</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111" refid="npu__reg_8h_1ab098c3aa55313f1a0f3cddcdd7703689" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DEBUG_SYSMON_DDR_BASE_ADDR<sp/>0x10000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="npu__reg_8h_1a3cb24f09004f92185b77e9e7bac6ea61" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TEMP_OFFSET<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(DEBUG_SYSMON_DDR_BASE_ADDR)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113" refid="npu__reg_8h_1a8edf5e8e6f229d26e7d5ff281be9b47c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MAX_TEMP_OFFSET<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(DEBUG_SYSMON_DDR_BASE_ADDR<sp/>+<sp/>0x80)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114" refid="npu__reg_8h_1a53be74eb9a9ceb2bd0b64c25763d4a9d" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>OVER_TEMP_FLAG_OFFSET<sp/><sp/><sp/><sp/><sp/><sp/>(DEBUG_SYSMON_DDR_BASE_ADDR<sp/>+<sp/>0xfc)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="115" refid="npu__reg_8h_1a66961aef6f78a4b220315afa42039c6b" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>OVER_TEMP_VALUE_OFFSET<sp/><sp/><sp/><sp/><sp/>(DEBUG_SYSMON_DDR_BASE_ADDR<sp/>+<sp/>0x14c)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116" refid="npu__reg_8h_1a099d2d35849ba2ec318bf1b2aab6adff" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>OVER_TEMP_MASK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1<sp/>&lt;&lt;<sp/>3)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="npu__reg_8h_1ab4b0590bbb0a3d5d59ee6e81296236be" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NOC_PMC_BASE_ADDR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0xf1000000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119" refid="npu__reg_8h_1adca19ac81029d4f7782533c46467d369" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SYSMON_NOC_BASE_ADDR<sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x270000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120" refid="npu__reg_8h_1aa50213f30d4c3bb548b113cb1e7b844c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NOC_TEMP_OFFSET<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(SYSMON_NOC_BASE_ADDR<sp/>+<sp/>0x1030)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121" refid="npu__reg_8h_1ad49f8b1113fa7c19746cbb124144c18e" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NOC_MAX_TEMP_OFFSET<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(SYSMON_NOC_BASE_ADDR<sp/>+<sp/>0x1f90)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="npu__reg_8h_1abb6f59669aefcc71856153c0fc427575" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NOC_OVER_TEMP_VALUE_OFFSET<sp/>(SYSMON_NOC_BASE_ADDR<sp/>+<sp/>0x197c)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124" refid="npu__reg_8h_1a649c022be8aa54d8fa21197c645afce0" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NOC_AIE_V2_FREQ_BASE_ADDR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x060a0000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125" refid="npu__reg_8h_1aecda39caaf6948efbf10176f2bad2ec1" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NOC_AIE_ML_FREQ_VE2302_BASE_ADDR<sp/>0x05420000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="126" refid="npu__reg_8h_1a7d1f7a26de8b604ae36bb79c7b42d417" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NOC_AIE_ML_FREQ_VE2802_BASE_ADDR<sp/>0x05d10000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="127" refid="npu__reg_8h_1afb2309c5c2c8753ee6f763c7d608953b" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NOC_AIE_FREQ_VALID_OFFSET<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x000c</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="128" refid="npu__reg_8h_1ab52390d1afd3d6d35cbf8d5467adf505" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NOC_AIE_FREQ_OFFSET<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0100</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="129" refid="npu__reg_8h_1a92c493abc4aaf43d0fb7a4e4b3ea2f81" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NOC_ME_PLL_STATUS_OFFSET<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x010c</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="130" refid="npu__reg_8h_1abd44bf9ef0d56da8085aa17f2c899097" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NOC_ME_CORE_REF_CTRL_OFFSET<sp/><sp/><sp/><sp/><sp/><sp/>0x0138</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132" refid="npu__reg_8h_1aa75956d11bf92d73458c221c951dc822" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DEBUG_SRV_DDR_BASE_ADDR<sp/>0x20000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133" refid="npu__reg_8h_1a91a98e680f1c09168fdfa8983dbf678b" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DDR_WR_DATA<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(DEBUG_SRV_DDR_BASE_ADDR)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134" refid="npu__reg_8h_1ac2bcebe4cf2b7fbcd701cea058814e27" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DDR_RD_DATA<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(DEBUG_SRV_DDR_BASE_ADDR<sp/>+<sp/>0x40)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135" refid="npu__reg_8h_1a4018ec3ba4d63ff7eaacf4e8697e5845" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DDR_ADDR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(DEBUG_SRV_DDR_BASE_ADDR<sp/>+<sp/>0x80)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="136" refid="npu__reg_8h_1a9bd0e93295f735111eec1286c9961f86" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DDR_CTRL<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(DEBUG_SRV_DDR_BASE_ADDR<sp/>+<sp/>0x88)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="npu__reg_8h_1ac45077e6c30a0d219dc6bbda8b378e00" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DDR_COMMAND_MASK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138" refid="npu__reg_8h_1ad90d65551073cf9ae98524cb31eb1f35" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DDR_START_MASK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="139" refid="npu__reg_8h_1a7cb7c988447e068110f16e3f1d9682cc" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DDR_STATUS_MASK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140" refid="npu__reg_8h_1ac0532ffa129f68600b01490261fda788" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DDR_TIMEOUT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/npu_reg.h"/>
+  </compounddef>
+</doxygen>

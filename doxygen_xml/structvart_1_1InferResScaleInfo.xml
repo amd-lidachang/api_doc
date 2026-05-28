@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structvart_1_1InferResScaleInfo" kind="struct" language="C++" prot="public">
+    <compoundname>vart::InferResScaleInfo</compoundname>
+    <includes refid="vart__inferresult__types_8hpp" local="no">vart_inferresult_types.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structvart_1_1InferResScaleInfo_1a23ec52f27cd43c37f4fbc1da3a46c16d" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float vart::InferResScaleInfo::width_scale_factor</definition>
+        <argsstring></argsstring>
+        <name>width_scale_factor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_inferresult_types.hpp" line="65" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_inferresult_types.hpp" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1InferResScaleInfo_1a0c9991ff106dc367b7bd7a63e29b5cc1" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float vart::InferResScaleInfo::height_scale_factor</definition>
+        <argsstring></argsstring>
+        <name>height_scale_factor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_inferresult_types.hpp" line="66" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_inferresult_types.hpp" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Scale factor info. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_inferresult_types.hpp" line="64" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_inferresult_types.hpp" bodystart="64" bodyend="67"/>
+    <listofallmembers>
+      <member refid="structvart_1_1InferResScaleInfo_1a0c9991ff106dc367b7bd7a63e29b5cc1" prot="public" virt="non-virtual"><scope>vart::InferResScaleInfo</scope><name>height_scale_factor</name></member>
+      <member refid="structvart_1_1InferResScaleInfo_1a23ec52f27cd43c37f4fbc1da3a46c16d" prot="public" virt="non-virtual"><scope>vart::InferResScaleInfo</scope><name>width_scale_factor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

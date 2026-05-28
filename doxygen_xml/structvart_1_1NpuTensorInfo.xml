@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structvart_1_1NpuTensorInfo" kind="struct" language="C++" prot="public">
+    <compoundname>vart::NpuTensorInfo</compoundname>
+    <includes refid="vart__npu__tensor_8hpp" local="no">vart_npu_tensor.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structvart_1_1NpuTensorInfo_1a9757496eb43034f473589765dd4b5f9a" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>vart::NpuTensorInfo::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+<para>Name of the tensor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.hpp" line="226" column="23" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.hpp" bodystart="226" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1NpuTensorInfo_1af702c062ce6980956d3dce5fcb17540a" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacevart_1a8cfcb2441d1d86e339675218be6436cc" kindref="member">DataType</ref></type>
+        <definition>vart::NpuTensorInfo::data_type</definition>
+        <argsstring></argsstring>
+        <name>data_type</name>
+        <initializer>= <ref refid="namespacevart_1a8cfcb2441d1d86e339675218be6436cca696b031073e74bf2cb98e5ef201d4aa3" kindref="member">DataType::UNKNOWN</ref></initializer>
+        <briefdescription>
+<para>Data type of the tensor elements. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.hpp" line="227" column="23" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.hpp" bodystart="227" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1NpuTensorInfo_1a7bc01ebb4537ee1cb71c4e8f596cd0fc" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacevart_1a9a98f13e9246c207893fd0923dfd6f17" kindref="member">TensorDirection</ref></type>
+        <definition>vart::NpuTensorInfo::direction</definition>
+        <argsstring></argsstring>
+        <name>direction</name>
+        <initializer>= <ref refid="namespacevart_1a9a98f13e9246c207893fd0923dfd6f17aa84cc046d48610b05c21fd3670d0c829" kindref="member">TensorDirection::INPUT</ref></initializer>
+        <briefdescription>
+<para>Direction of the tensor (input or output). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.hpp" line="228" column="23" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.hpp" bodystart="228" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1NpuTensorInfo_1a2ce61423bab8ed08e1a6f7ffda7a36c7" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacevart_1a85585269ba1910504ce68f8ae750c648" kindref="member">TensorType</ref></type>
+        <definition>vart::NpuTensorInfo::tensor_type</definition>
+        <argsstring></argsstring>
+        <name>tensor_type</name>
+        <initializer>= <ref refid="namespacevart_1a85585269ba1910504ce68f8ae750c648a4bd2241a3a809d3cc2bb28e951cc183a" kindref="member">TensorType::HW</ref></initializer>
+        <briefdescription>
+<para>Type of the tensor (CPU or HW). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.hpp" line="229" column="23" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.hpp" bodystart="229" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1NpuTensorInfo_1a0e7ef13a19b086ffed40a0ccb69a364d" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacevart_1ab890726b646d7915c72ef76c70e631e8" kindref="member">MemoryLayout</ref></type>
+        <definition>vart::NpuTensorInfo::memory_layout</definition>
+        <argsstring></argsstring>
+        <name>memory_layout</name>
+        <initializer>= <ref refid="namespacevart_1ab890726b646d7915c72ef76c70e631e8a696b031073e74bf2cb98e5ef201d4aa3" kindref="member">MemoryLayout::UNKNOWN</ref></initializer>
+        <briefdescription>
+<para><ref refid="classvart_1_1Memory" kindref="compound">Memory</ref> layout type of the tensor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.hpp" line="230" column="23" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.hpp" bodystart="230" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1NpuTensorInfo_1a48b56001172f25e145333e7bf08bab4c" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; uint32_t &gt;</type>
+        <definition>vart::NpuTensorInfo::memory_layout_order</definition>
+        <argsstring></argsstring>
+        <name>memory_layout_order</name>
+        <briefdescription>
+<para>(Optional) Only relevant when memory_layout is GENERIC. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Specifies the dimension permutation order for buffer data. This vector defines how dimensions are arranged compared to the reference <ref refid="namespacevart_1a85585269ba1910504ce68f8ae750c648a2b55387dd066c5bac646ac61543d152d" kindref="member">TensorType::CPU</ref> tensor format. For example, if the <ref refid="namespacevart_1a85585269ba1910504ce68f8ae750c648a2b55387dd066c5bac646ac61543d152d" kindref="member">TensorType::CPU</ref> format is &quot;ABCD&quot;, memory_layout_order is {0, 1, 2, 3}; if the <ref refid="namespacevart_1a85585269ba1910504ce68f8ae750c648a4bd2241a3a809d3cc2bb28e951cc183a" kindref="member">TensorType::HW</ref> format is &quot;ADBC&quot;, memory_layout_order is {0, 3, 1, 2}. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.hpp" line="231" column="13" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.hpp" bodystart="231" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1NpuTensorInfo_1a38e6f969ec5cc5d73232bfb0d220d07f" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>vart::NpuTensorInfo::size</definition>
+        <argsstring></argsstring>
+        <name>size</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Number of elements in the tensor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.hpp" line="232" column="23" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.hpp" bodystart="232" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1NpuTensorInfo_1ae6ed68fe2d4228137e3c40e816a9ad39" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>vart::NpuTensorInfo::size_in_bytes</definition>
+        <argsstring></argsstring>
+        <name>size_in_bytes</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Size of the tensor data in bytes. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.hpp" line="233" column="23" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.hpp" bodystart="233" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1NpuTensorInfo_1a1e0a2391abede73678eb81972100f4ee" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; uint32_t &gt;</type>
+        <definition>vart::NpuTensorInfo::shape</definition>
+        <argsstring></argsstring>
+        <name>shape</name>
+        <briefdescription>
+<para>Dimensions of the tensor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.hpp" line="234" column="13" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.hpp" bodystart="234" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1NpuTensorInfo_1a7df6bde449dd7853bacd5d277c90591f" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; uint32_t &gt;</type>
+        <definition>vart::NpuTensorInfo::strides</definition>
+        <argsstring></argsstring>
+        <name>strides</name>
+        <briefdescription>
+<para>Stride values for each dimension, specified in units of elements. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.hpp" line="235" column="13" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.hpp" bodystart="235" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structvart_1_1NpuTensorInfo_1a6ba7c7e902f555342faf517843fdc6aa" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void vart::NpuTensorInfo::print</definition>
+        <argsstring>() const</argsstring>
+        <name>print</name>
+        <briefdescription>
+<para>Prints tensor metadata to standard output. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.hpp" line="237" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.cpp" bodystart="118" bodyend="143"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Metadata structure describing a tensor used in VART. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Contains various attributes used to define and manage a tensor: </para>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.hpp" line="224" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.hpp" bodystart="225" bodyend="238"/>
+    <listofallmembers>
+      <member refid="structvart_1_1NpuTensorInfo_1af702c062ce6980956d3dce5fcb17540a" prot="public" virt="non-virtual"><scope>vart::NpuTensorInfo</scope><name>data_type</name></member>
+      <member refid="structvart_1_1NpuTensorInfo_1a7bc01ebb4537ee1cb71c4e8f596cd0fc" prot="public" virt="non-virtual"><scope>vart::NpuTensorInfo</scope><name>direction</name></member>
+      <member refid="structvart_1_1NpuTensorInfo_1a0e7ef13a19b086ffed40a0ccb69a364d" prot="public" virt="non-virtual"><scope>vart::NpuTensorInfo</scope><name>memory_layout</name></member>
+      <member refid="structvart_1_1NpuTensorInfo_1a48b56001172f25e145333e7bf08bab4c" prot="public" virt="non-virtual"><scope>vart::NpuTensorInfo</scope><name>memory_layout_order</name></member>
+      <member refid="structvart_1_1NpuTensorInfo_1a9757496eb43034f473589765dd4b5f9a" prot="public" virt="non-virtual"><scope>vart::NpuTensorInfo</scope><name>name</name></member>
+      <member refid="structvart_1_1NpuTensorInfo_1a6ba7c7e902f555342faf517843fdc6aa" prot="public" virt="non-virtual"><scope>vart::NpuTensorInfo</scope><name>print</name></member>
+      <member refid="structvart_1_1NpuTensorInfo_1a1e0a2391abede73678eb81972100f4ee" prot="public" virt="non-virtual"><scope>vart::NpuTensorInfo</scope><name>shape</name></member>
+      <member refid="structvart_1_1NpuTensorInfo_1a38e6f969ec5cc5d73232bfb0d220d07f" prot="public" virt="non-virtual"><scope>vart::NpuTensorInfo</scope><name>size</name></member>
+      <member refid="structvart_1_1NpuTensorInfo_1ae6ed68fe2d4228137e3c40e816a9ad39" prot="public" virt="non-virtual"><scope>vart::NpuTensorInfo</scope><name>size_in_bytes</name></member>
+      <member refid="structvart_1_1NpuTensorInfo_1a7df6bde449dd7853bacd5d277c90591f" prot="public" virt="non-virtual"><scope>vart::NpuTensorInfo</scope><name>strides</name></member>
+      <member refid="structvart_1_1NpuTensorInfo_1a2ce61423bab8ed08e1a6f7ffda7a36c7" prot="public" virt="non-virtual"><scope>vart::NpuTensorInfo</scope><name>tensor_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

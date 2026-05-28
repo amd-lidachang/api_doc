@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structUIOHandle" kind="struct" language="C++" prot="public">
+    <compoundname>UIOHandle</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structUIOHandle_1a9c112678b9d3dd67698c1cb00a8d2490" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="structmem__desc" kindref="compound">mem_desc</ref> &gt;</type>
+        <definition>std::vector&lt;mem_desc&gt; UIOHandle::memtiles</definition>
+        <argsstring></argsstring>
+        <name>memtiles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_uio.cpp" line="108" column="24" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_uio.cpp" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structUIOHandle_1aef151ee6bff06cc820225bf52f3fac3f" prot="public" static="no" mutable="no">
+        <type><ref refid="structmem__desc" kindref="compound">mem_desc</ref></type>
+        <definition>mem_desc UIOHandle::noc</definition>
+        <argsstring></argsstring>
+        <name>noc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_uio.cpp" line="109" column="34" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_uio.cpp" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structUIOHandle_1ad8e0ab3f04dd820cb542151fa8018e6f" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="structmem__desc" kindref="compound">mem_desc</ref> &gt;</type>
+        <definition>std::vector&lt;mem_desc&gt; UIOHandle::ddr</definition>
+        <argsstring></argsstring>
+        <name>ddr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_uio.cpp" line="110" column="24" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_uio.cpp" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structUIOHandle_1afc4768b438e57a44872a53520a87ac66" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="structip__handle" kindref="compound">ip_handle</ref> &gt;</type>
+        <definition>std::vector&lt;ip_handle&gt; UIOHandle::ip</definition>
+        <argsstring></argsstring>
+        <name>ip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_uio.cpp" line="111" column="23" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_uio.cpp" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structUIOHandle_1a9a3706f46767f616044a538b9f0c7d55" prot="public" static="no" mutable="no">
+        <type>std::map&lt; void *, <ref refid="structddr__coordinates" kindref="compound">ddr_coordinates</ref> &gt;</type>
+        <definition>std::map&lt;void*, ddr_coordinates&gt; UIOHandle::local_ddr_map</definition>
+        <argsstring></argsstring>
+        <name>local_ddr_map</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_uio.cpp" line="112" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_uio.cpp" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structUIOHandle_1a1259731ca300cabce64cd82b63174acf" prot="public" static="no" mutable="no">
+        <type>std::map&lt; uint64_t, <ref refid="structddr__block" kindref="compound">ddr_block</ref> &gt;</type>
+        <definition>std::map&lt;uint64_t, ddr_block&gt; UIOHandle::ddr_map[MAXDDRS]</definition>
+        <argsstring>[MAXDDRS]</argsstring>
+        <name>ddr_map</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_uio.cpp" line="113" column="13" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_uio.cpp" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>UIOHandle</label>
+        <link refid="structUIOHandle"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>noc</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mem_desc</label>
+        <link refid="structmem__desc"/>
+      </node>
+    </collaborationgraph>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_uio.cpp" line="106" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_uio.cpp" bodystart="107" bodyend="114"/>
+    <listofallmembers>
+      <member refid="structUIOHandle_1ad8e0ab3f04dd820cb542151fa8018e6f" prot="public" virt="non-virtual"><scope>UIOHandle</scope><name>ddr</name></member>
+      <member refid="structUIOHandle_1a1259731ca300cabce64cd82b63174acf" prot="public" virt="non-virtual"><scope>UIOHandle</scope><name>ddr_map</name></member>
+      <member refid="structUIOHandle_1afc4768b438e57a44872a53520a87ac66" prot="public" virt="non-virtual"><scope>UIOHandle</scope><name>ip</name></member>
+      <member refid="structUIOHandle_1a9a3706f46767f616044a538b9f0c7d55" prot="public" virt="non-virtual"><scope>UIOHandle</scope><name>local_ddr_map</name></member>
+      <member refid="structUIOHandle_1a9c112678b9d3dd67698c1cb00a8d2490" prot="public" virt="non-virtual"><scope>UIOHandle</scope><name>memtiles</name></member>
+      <member refid="structUIOHandle_1aef151ee6bff06cc820225bf52f3fac3f" prot="public" virt="non-virtual"><scope>UIOHandle</scope><name>noc</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

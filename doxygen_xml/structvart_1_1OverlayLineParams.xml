@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structvart_1_1OverlayLineParams" kind="struct" language="C++" prot="public">
+    <compoundname>vart::OverlayLineParams</compoundname>
+    <includes refid="vart__overlay__types_8hpp" local="no">vart_overlay_types.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structvart_1_1OverlayLineParams_1a465f9b1321ebb8c78d37dbc31ce4cb60" prot="public" static="no" mutable="no">
+        <type><ref refid="structvart_1_1OverlayCoordinates" kindref="compound">OverlayCoordinates</ref></type>
+        <definition>OverlayCoordinates vart::OverlayLineParams::start_pt</definition>
+        <argsstring></argsstring>
+        <name>start_pt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" line="185" column="22" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" bodystart="185" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1OverlayLineParams_1a9258ae17f3c5d8ef61aab18d1c3f8018" prot="public" static="no" mutable="no">
+        <type><ref refid="structvart_1_1OverlayCoordinates" kindref="compound">OverlayCoordinates</ref></type>
+        <definition>OverlayCoordinates vart::OverlayLineParams::end_pt</definition>
+        <argsstring></argsstring>
+        <name>end_pt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" line="186" column="22" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" bodystart="186" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1OverlayLineParams_1a0d1fec841164b9d2f7918b1cf09c9409" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t vart::OverlayLineParams::thickness</definition>
+        <argsstring></argsstring>
+        <name>thickness</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" line="187" column="12" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" bodystart="187" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1OverlayLineParams_1ae5e2c771a5d8a88f440abb5ff19e23cd" prot="public" static="no" mutable="no">
+        <type><ref refid="structvart_1_1OverlayColorData" kindref="compound">OverlayColorData</ref></type>
+        <definition>OverlayColorData vart::OverlayLineParams::line_color</definition>
+        <argsstring></argsstring>
+        <name>line_color</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" line="188" column="20" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" bodystart="188" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Structure representing Line information. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>vart::OverlayCoordinates</label>
+        <link refid="structvart_1_1OverlayCoordinates"/>
+      </node>
+      <node id="3">
+        <label>vart::OverlayColorData</label>
+        <link refid="structvart_1_1OverlayColorData"/>
+      </node>
+      <node id="1">
+        <label>vart::OverlayLineParams</label>
+        <link refid="structvart_1_1OverlayLineParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>end_pt</edgelabel>
+          <edgelabel>start_pt</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>line_color</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" line="184" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" bodystart="184" bodyend="189"/>
+    <listofallmembers>
+      <member refid="structvart_1_1OverlayLineParams_1a9258ae17f3c5d8ef61aab18d1c3f8018" prot="public" virt="non-virtual"><scope>vart::OverlayLineParams</scope><name>end_pt</name></member>
+      <member refid="structvart_1_1OverlayLineParams_1ae5e2c771a5d8a88f440abb5ff19e23cd" prot="public" virt="non-virtual"><scope>vart::OverlayLineParams</scope><name>line_color</name></member>
+      <member refid="structvart_1_1OverlayLineParams_1a465f9b1321ebb8c78d37dbc31ce4cb60" prot="public" virt="non-virtual"><scope>vart::OverlayLineParams</scope><name>start_pt</name></member>
+      <member refid="structvart_1_1OverlayLineParams_1a0d1fec841164b9d2f7918b1cf09c9409" prot="public" virt="non-virtual"><scope>vart::OverlayLineParams</scope><name>thickness</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_96e5a907043f19cb984d3f5bb2a976a7" kind="dir">
+    <compoundname>/group</compoundname>
+    <innerdir refid="dir_a5613dec9350bc3d21054f12182e7763">/group/bcapps</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/group/"/>
+  </compounddef>
+</doxygen>

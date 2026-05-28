@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_56e12d7ea65c6165033ded5e8f91c8d6" kind="dir">
+    <compoundname>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base</compoundname>
+    <innerfile refid="vart__device__impl__base_8hpp">vart_device_impl_base.hpp</innerfile>
+    <innerfile refid="vart__inferresult__impl__base_8hpp">vart_inferresult_impl_base.hpp</innerfile>
+    <innerfile refid="vart__memory__impl__base_8hpp">vart_memory_impl_base.hpp</innerfile>
+    <innerfile refid="vart__metaconvert__impl__base_8hpp">vart_metaconvert_impl_base.hpp</innerfile>
+    <innerfile refid="vart__overlay__impl__base_8hpp">vart_overlay_impl_base.hpp</innerfile>
+    <innerfile refid="vart__plkernel__impl__base_8hpp">vart_plkernel_impl_base.hpp</innerfile>
+    <innerfile refid="vart__postprocess__impl__base_8hpp">vart_postprocess_impl_base.hpp</innerfile>
+    <innerfile refid="vart__preprocess__impl__base_8hpp">vart_preprocess_impl_base.hpp</innerfile>
+    <innerfile refid="vart__tracker__impl__base_8hpp">vart_tracker_impl_base.hpp</innerfile>
+    <innerfile refid="vart__videoframe__impl__base_8hpp">vart_videoframe_impl_base.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/base/"/>
+  </compounddef>
+</doxygen>

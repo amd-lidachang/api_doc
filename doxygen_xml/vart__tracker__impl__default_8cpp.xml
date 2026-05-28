@@ -1,0 +1,587 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="vart__tracker__impl__default_8cpp" kind="file" language="C++">
+    <compoundname>vart_tracker_impl_default.cpp</compoundname>
+    <includes local="no">boost/property_tree/json_parser.hpp</includes>
+    <includes local="no">boost/property_tree/ptree.hpp</includes>
+    <includes local="no">vvas_core/vvas_video.h</includes>
+    <includes local="no">vvas_core/vvas_infer_prediction.h</includes>
+    <includes local="no">vvas_core/vvas_video_priv.h</includes>
+    <includes refid="vart__device_8hpp" local="yes">vart_device.hpp</includes>
+    <includes refid="vart__device__impl__vvas_8hpp" local="yes">vart_device_impl_vvas.hpp</includes>
+    <includes refid="vart__tracker__types_8hpp" local="yes">vart_tracker_types.hpp</includes>
+    <includes refid="vart__videoframe__impl__xrt_8hpp" local="yes">vart_videoframe_impl_xrt.hpp</includes>
+    <includes refid="vart__tracker__impl__default_8hpp" local="yes">vart_tracker_impl_default.hpp</includes>
+    <includes refid="vart__inferres__impl__detection_8hpp" local="yes">vart_inferres_impl_detection.hpp</includes>
+    <includes refid="vart__logger_8hpp" local="yes">vart_logger.hpp</includes>
+    <incdepgraph>
+      <node id="38">
+        <label>vart_inferresult_types.hpp</label>
+        <link refid="vart__inferresult__types_8hpp"/>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>functional</label>
+      </node>
+      <node id="35">
+        <label>xrt/xrt_bo.h</label>
+      </node>
+      <node id="12">
+        <label>cstdint</label>
+      </node>
+      <node id="40">
+        <label>base/vart_inferresult_impl_base.hpp</label>
+        <link refid="vart__inferresult__impl__base_8hpp"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>../vart_videoframe.hpp</label>
+        <link refid="vart__videoframe_8hpp"/>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>vart_tracker_types.hpp</label>
+        <link refid="vart__tracker__types_8hpp"/>
+      </node>
+      <node id="23">
+        <label>string</label>
+      </node>
+      <node id="16">
+        <label>cstdarg</label>
+      </node>
+      <node id="20">
+        <label>map</label>
+      </node>
+      <node id="39">
+        <label>vart_inferres_impl_detection.hpp</label>
+        <link refid="vart__inferres__impl__detection_8hpp"/>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>fstream</label>
+      </node>
+      <node id="6">
+        <label>vvas_core/vvas_video_priv.h</label>
+      </node>
+      <node id="14">
+        <label>syslog.h</label>
+      </node>
+      <node id="26">
+        <label>vart_videoframe_impl_xrt.hpp</label>
+        <link refid="vart__videoframe__impl__xrt_8hpp"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>../vart_inferresult.hpp</label>
+        <link refid="vart__inferresult_8hpp"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>vvas_core/vvas_video.h</label>
+      </node>
+      <node id="30">
+        <label>../vart_videoframe_types.hpp</label>
+        <link refid="vart__videoframe__types_8hpp"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>base/vart_device_impl_base.hpp</label>
+        <link refid="vart__device__impl__base_8hpp"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>vart_tracker_impl_default.hpp</label>
+        <link refid="vart__tracker__impl__default_8hpp"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>cstdio</label>
+      </node>
+      <node id="13">
+        <label>vart_logger.hpp</label>
+        <link refid="vart__logger_8hpp"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>vart_device.hpp</label>
+        <link refid="vart__device_8hpp"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>vvas_core/vvas_context.h</label>
+      </node>
+      <node id="2">
+        <label>boost/property_tree/json_parser.hpp</label>
+      </node>
+      <node id="24">
+        <label>vart_logger_types.hpp</label>
+        <link refid="vart__logger__types_8hpp"/>
+      </node>
+      <node id="28">
+        <label>vector</label>
+      </node>
+      <node id="22">
+        <label>sstream</label>
+      </node>
+      <node id="3">
+        <label>boost/property_tree/ptree.hpp</label>
+      </node>
+      <node id="19">
+        <label>iostream</label>
+      </node>
+      <node id="1">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/tracker/vart_tracker_impl_default.cpp</label>
+        <link refid="vart__tracker__impl__default_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>mutex</label>
+      </node>
+      <node id="15">
+        <label>chrono</label>
+      </node>
+      <node id="33">
+        <label>base/vart_tracker_impl_base.hpp</label>
+        <link refid="vart__tracker__impl__base_8hpp"/>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>vart_device_impl_vvas.hpp</label>
+        <link refid="vart__device__impl__vvas_8hpp"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>base/vart_videoframe_impl_base.hpp</label>
+        <link refid="vart__videoframe__impl__base_8hpp"/>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>vvas_core/vvas_infer_prediction.h</label>
+      </node>
+      <node id="29">
+        <label>../vart_memory_types.hpp</label>
+        <link refid="vart__memory__types_8hpp"/>
+      </node>
+      <node id="32">
+        <label>vvas_core/vvas_tracker.hpp</label>
+      </node>
+      <node id="8">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespacevart">vart</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>2024<sp/>Advanced<sp/>Micro<sp/>Devices<sp/>Inc.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>Licensed<sp/>under<sp/>the<sp/>Apache<sp/>License,<sp/>Version<sp/>2.0<sp/>(the<sp/>&quot;License&quot;);</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>you<sp/>may<sp/>not<sp/>use<sp/>this<sp/>file<sp/>except<sp/>in<sp/>compliance<sp/>with<sp/>the<sp/>License.</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>You<sp/>may<sp/>obtain<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>License<sp/>at</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/>http://www.apache.org/licenses/LICENSE-2.0</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>Unless<sp/>required<sp/>by<sp/>applicable<sp/>law<sp/>or<sp/>agreed<sp/>to<sp/>in<sp/>writing,<sp/>software</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>distributed<sp/>under<sp/>the<sp/>License<sp/>is<sp/>distributed<sp/>on<sp/>an<sp/>&quot;AS<sp/>IS&quot;<sp/>BASIS,</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>WITHOUT<sp/>WARRANTIES<sp/>OR<sp/>CONDITIONS<sp/>OF<sp/>ANY<sp/>KIND,<sp/>either<sp/>express<sp/>or<sp/>implied.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>See<sp/>the<sp/>License<sp/>for<sp/>the<sp/>specific<sp/>language<sp/>governing<sp/>permissions<sp/>and</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>limitations<sp/>under<sp/>the<sp/>License.</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/property_tree/json_parser.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/property_tree/ptree.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vvas_core/vvas_video.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vvas_core/vvas_infer_prediction.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vvas_core/vvas_video_priv.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="vart__device_8hpp" kindref="compound">vart_device.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="vart__device__impl__vvas_8hpp" kindref="compound">vart_device_impl_vvas.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="vart__tracker__types_8hpp" kindref="compound">vart_tracker_types.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="vart__videoframe__impl__xrt_8hpp" kindref="compound">vart_videoframe_impl_xrt.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="vart__tracker__impl__default_8hpp" kindref="compound">vart_tracker_impl_default.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="vart__inferres__impl__detection_8hpp" kindref="compound">vart_inferres_impl_detection.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="vart__logger_8hpp" kindref="compound">vart_logger.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacevart" kindref="compound">vart</ref><sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>parse_json(VvasTrackerconfig&amp;<sp/>cfg,<sp/>std::string&amp;<sp/>json_data,</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/>std::shared_ptr&lt;struct<sp/>log_context&gt;<sp/>log_ctx)<sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/>boost::property_tree::ptree<sp/>pt;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/>std::istringstream<sp/>json_stream(json_data);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>boost::property_tree::read_json(json_stream,<sp/>pt);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::exception&amp;<sp/>e)<sp/>{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cerr<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Error<sp/>reading<sp/>JSON<sp/>:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>e.what()<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/>memset(&amp;cfg,<sp/>0,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(VvasTrackerconfig));</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>cfg.tracker_type<sp/>=<sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="normal">VvasTrackerAlgoType</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>pt.get&lt;</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;(</highlight><highlight class="stringliteral">&quot;tracker-algo&quot;</highlight><highlight class="normal">,<sp/><ref refid="vart__tracker__types_8hpp_1a86e9f6543e927ad179ad01bf74f609ea" kindref="member">TRACKER_ALGO_DEFAULT</ref>));</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>cfg.distance_func<sp/>=<sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="normal">VvasTrackerDistanceFunc</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>pt.get&lt;</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;(</highlight><highlight class="stringliteral">&quot;distance-func&quot;</highlight><highlight class="normal">,<sp/><ref refid="vart__tracker__types_8hpp_1a212e9edcc9047c100604e79601202e05" kindref="member">TRACKER_DISTANCE_FUNC_DEFAULT</ref>));</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>cfg.obj_match_color<sp/>=<sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="normal">VvasTrackerMatchColorSpace</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>pt.get&lt;</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;(</highlight><highlight class="stringliteral">&quot;obj-match-color-space&quot;</highlight><highlight class="normal">,<sp/><ref refid="namespacevart_1a8c0f290cef602362e0e248763c04ec90a60eb86dcf83fe8c64b1d60ff22d4bee6" kindref="member">TRACKER_USE_HSV</ref>));</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>cfg.search_scales<sp/>=<sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="normal">VvasTrackerSearchScale</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>pt.get&lt;</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;(</highlight><highlight class="stringliteral">&quot;search-scale&quot;</highlight><highlight class="normal">,<sp/><ref refid="namespacevart_1a7523dcbd18ba2296d974ed1a589a8d3aa0ea13e63aa072ddb554dff9748f5baec" kindref="member">SEARCH_SCALE_ALL</ref>));</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>cfg.fet_length<sp/>=<sp/>pt.get&lt;</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;(</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;feature-length&quot;</highlight><highlight class="normal">,<sp/><ref refid="vart__tracker__types_8hpp_1acd3b29d5c47d5e6f68a5ce3089b46565" kindref="member">TRACKER_FEATURE_LENGTH_DEFAULT</ref>);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>cfg.min_width<sp/>=<sp/>pt.get&lt;</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;(</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;min-object-width&quot;</highlight><highlight class="normal">,<sp/><ref refid="vart__tracker__types_8hpp_1a2c7218a66a2e0801f9628a0814fca1ba" kindref="member">TRACKER_MIN_OBJECT_WIDTH_DEFAULT</ref>);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>cfg.min_height<sp/>=<sp/>pt.get&lt;</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;(</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;min-object-height&quot;</highlight><highlight class="normal">,<sp/><ref refid="vart__tracker__types_8hpp_1a99d13d7940ad50aa27847121171ea825" kindref="member">TRACKER_MIN_OBJECT_HEIGHT_DEFAULT</ref>);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>cfg.max_width<sp/>=<sp/>pt.get&lt;</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;(</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;max-object-width&quot;</highlight><highlight class="normal">,<sp/><ref refid="vart__tracker__types_8hpp_1a1eaaedcdb8d2e08aa14fcd7568960bb2" kindref="member">TRACKER_MAX_OBJECT_WIDTH_DEFAULT</ref>);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>cfg.max_height<sp/>=<sp/>pt.get&lt;</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;(</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;max-object-width&quot;</highlight><highlight class="normal">,<sp/><ref refid="vart__tracker__types_8hpp_1a6678880863425f74e8a45781f0da5f77" kindref="member">TRACKER_MAX_OBJECT_HEIGHT_DEFAULT</ref>);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>cfg.num_inactive_frames<sp/>=<sp/>pt.get&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;(</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;inactive-wait-interval&quot;</highlight><highlight class="normal">,<sp/><ref refid="vart__tracker__types_8hpp_1a7dda94bd2fa1fa8ae1dba0b275387aa5" kindref="member">TRACKER_INACTIVE_WAIT_INTERVAL_DEFAULT</ref>);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>cfg.num_frames_confidence<sp/>=<sp/>pt.get&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;(</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;num-frames-confidence&quot;</highlight><highlight class="normal">,<sp/><ref refid="vart__tracker__types_8hpp_1a3c63fc4fcae3e1c26c8b2d7415c90ca2" kindref="member">TRACKER_NUM_FRAMES_CONFIDENCE_DEFAULT</ref>);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>cfg.padding<sp/>=<sp/>pt.get&lt;</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">&gt;(</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;relative-search-region&quot;</highlight><highlight class="normal">,<sp/><ref refid="vart__tracker__types_8hpp_1a2621e332bad462346703b0358216738b" kindref="member">TRACKER_RELATIVE_SEARCH_REGION_DEFAULT</ref>);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>cfg.obj_match_search_region<sp/>=<sp/>pt.get&lt;</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">&gt;(</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;match-search-region&quot;</highlight><highlight class="normal">,<sp/><ref refid="vart__tracker__types_8hpp_1a6ebea000b3c727b970c20a79ae9a7378" kindref="member">TRACKER_MATCHING_SEARCH_REGION_DEFAULT</ref>);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>cfg.dist_correlation_threshold<sp/>=<sp/>pt.get&lt;</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">&gt;(</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;correlation-threshold&quot;</highlight><highlight class="normal">,<sp/><ref refid="vart__tracker__types_8hpp_1ac1926bb03d18197a3bbe151228d72843" kindref="member">TRACKER_CORRELATION_THRESHOLD_DEFAULT</ref>);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>cfg.dist_overlap_threshold<sp/>=<sp/>pt.get&lt;</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">&gt;(</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;overlap-threshold&quot;</highlight><highlight class="normal">,<sp/><ref refid="vart__tracker__types_8hpp_1a8f3d3ebbd2fa643d1c73acd6c662df56" kindref="member">TRACKER_OVERLAP_THRESHOLD_DEFAULT</ref>);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>cfg.dist_scale_change_threshold<sp/>=<sp/>pt.get&lt;</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">&gt;(</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;scale-change-threshold&quot;</highlight><highlight class="normal">,<sp/><ref refid="vart__tracker__types_8hpp_1a365eb92fb5d8ef5c1bf5247cc4d0a457" kindref="member">TRACKER_SCALE_CHANGE_THRESHOLD_DEFAULT</ref>);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>cfg.dist_correlation_weight<sp/>=<sp/>pt.get&lt;</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">&gt;(</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;correlation-weight&quot;</highlight><highlight class="normal">,<sp/><ref refid="vart__tracker__types_8hpp_1a14cd326c6dd04df48504036a06781d0d" kindref="member">TRACKER_CORRELATION_WEIGHT_DEFAULT</ref>);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>cfg.dist_overlap_weight<sp/>=<sp/>pt.get&lt;</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">&gt;(</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;overlap-weight&quot;</highlight><highlight class="normal">,<sp/><ref refid="vart__tracker__types_8hpp_1a238def873a5a14adedbb99c1519537e8" kindref="member">TRACKER_OVERLAP_WEIGHT_DEFAULT</ref>);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>cfg.dist_scale_change_weight<sp/>=<sp/>pt.get&lt;</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">&gt;(</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;scale-change-weight&quot;</highlight><highlight class="normal">,<sp/><ref refid="vart__tracker__types_8hpp_1a01560f0c959cddf50675a3e518676ebe" kindref="member">TRACKER_SCALE_CHANGE_WEIGHT_DEFAULT</ref>);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>cfg.occlusion_threshold<sp/>=<sp/>pt.get&lt;</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">&gt;(</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;occlusion-threshold&quot;</highlight><highlight class="normal">,<sp/><ref refid="vart__tracker__types_8hpp_1a0d83e161c456caf85cb15b34a7394947" kindref="member">TRACKER_OCCLUSION_THRESHOLD_DEFAULT</ref>);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>cfg.confidence_score<sp/>=<sp/>pt.get&lt;</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">&gt;(</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;confidence-score-threshold&quot;</highlight><highlight class="normal">,<sp/><ref refid="vart__tracker__types_8hpp_1a371f0e2985e58bf6522478dcc5ed0f6d" kindref="member">TRACKER_CONFIDENCE_SCORE_THRESHOLD_DEFAULT</ref>);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>cfg.skip_inactive_objs<sp/>=<sp/>pt.get&lt;</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">&gt;(</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;skip-inactive-objs&quot;</highlight><highlight class="normal">,<sp/><ref refid="vart__tracker__types_8hpp_1a42f8d2e6b45afda153012f11a283224e" kindref="member">TRACKER_SKIP_INACTIVE_OBJS_DEFAULT</ref>);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::exception&amp;<sp/>e)<sp/>{</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="vart__logger_8hpp_1a20317ba421cf3e188ee6706e4a2a5e5a" kindref="member">VART_LOG_ERR_OBJ</ref>(log_ctx,<sp/></highlight><highlight class="stringliteral">&quot;Error<sp/>parsing<sp/>json<sp/>file<sp/>:<sp/>%s&quot;</highlight><highlight class="normal">,<sp/>e.what());</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><ref refid="classvart_1_1TrackerImplDefault_1a24d6c49bd495d0a5f69d90c0138a2c70" kindref="member">TrackerImplDefault::TrackerImplDefault</ref>(std::shared_ptr&lt;Device&gt;<sp/>device,<sp/>std::string&amp;<sp/>json_data)<sp/>{</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/>std::shared_ptr&lt;DeviceImplVvas&gt;<sp/>device_pimpl<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/>VvasContext*<sp/>vvas_ctx<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/>VvasTrackerconfig<sp/>cfg;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/>log_ctx<sp/>=<sp/><ref refid="vart__logger_8hpp_1abfb1efa87be1fdc2c964aca667e70f80" kindref="member">VART_LOG_REGISTER</ref>(</highlight><highlight class="stringliteral">&quot;TRACKER&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(log_ctx<sp/>==<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>std::runtime_error(</highlight><highlight class="stringliteral">&quot;Failed<sp/>to<sp/>create<sp/>logger<sp/>context<sp/>for<sp/>preprocess&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Get<sp/>device<sp/>pimpl<sp/>to<sp/>fetch<sp/>vvas<sp/>context*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/>device_pimpl<sp/>=</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>std::dynamic_pointer_cast&lt;DeviceImplVvas&gt;(device-&gt;get_pimpl_handle());</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!device_pimpl)<sp/>{</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>std::runtime_error(</highlight><highlight class="stringliteral">&quot;failed<sp/>to<sp/>get<sp/>Device<sp/>PImpl&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Fetch<sp/>vvas<sp/>ctx<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/>vvas_ctx<sp/>=<sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="normal">VvasContext*</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(device_pimpl-&gt;get_dev_ctx());</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!vvas_ctx)<sp/>{</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>std::runtime_error(</highlight><highlight class="stringliteral">&quot;failed<sp/>to<sp/>create<sp/>vvas<sp/>context&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Parse<sp/>Json*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!parse_json(cfg,<sp/>json_data,<sp/>log_ctx))<sp/>{</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>std::runtime_error(</highlight><highlight class="stringliteral">&quot;failed<sp/>to<sp/>parse<sp/>json&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Create<sp/>tracker<sp/>context<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/>tracker_handle<sp/>=<sp/>vvas_tracker_create<sp/>(vvas_ctx,<sp/>&amp;cfg,<sp/>LOG_LEVEL_ERROR);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!tracker_handle)<sp/>{</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="vart__logger_8hpp_1a20317ba421cf3e188ee6706e4a2a5e5a" kindref="member">VART_LOG_ERR_OBJ</ref>(log_ctx,<sp/></highlight><highlight class="stringliteral">&quot;failed<sp/>to<sp/>create<sp/>tracker<sp/>context&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>std::runtime_error(</highlight><highlight class="stringliteral">&quot;Failed<sp/>to<sp/>create<sp/>tracker<sp/>handle&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="134"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><ref refid="classvart_1_1TrackerImplDefault_1a0fa479e0a676d977d9f767f98293b3a1" kindref="member">TrackerImplDefault::~TrackerImplDefault</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/>VvasReturnType<sp/>ret<sp/>=<sp/>vvas_tracker_destroy(tracker_handle);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(VVAS_IS_ERROR<sp/>(ret))</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="vart__logger_8hpp_1a20317ba421cf3e188ee6706e4a2a5e5a" kindref="member">VART_LOG_ERR_OBJ</ref>(log_ctx,<sp/></highlight><highlight class="stringliteral">&quot;Failed<sp/>to<sp/>destroy<sp/>tracker<sp/>instance&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>convert_vartinfernode_to_vvasinfernode(</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;InferResult&gt;<sp/>infer_res,</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/>VvasInferPrediction*<sp/>vvas_infer_pred)<sp/>{</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/>InferResultData*<sp/>vart_baseiinfer_res<sp/>=<sp/>infer_res-&gt;get_infer_result();</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(vart_baseiinfer_res-&gt;result_type<sp/>==<sp/><ref refid="namespacevart_1a28227f4fe6b775278e5211b343e5b868aa26f105c8a40156ec93de3e64c0f68db" kindref="member">InferResultType::DETECTION</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/>VvasInferDetection*<sp/>detection;</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/>DetectionResData*<sp/>vart_detection_res<sp/>=</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="normal">DetectionResData*</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(vart_baseiinfer_res);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/>vvas_infer_pred-&gt;infer_result<sp/>=<sp/>vvas_infer_result_detection_create();</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/>vvas_infer_pred-&gt;infer_result-&gt;infer_result_type<sp/>=</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>VVAS_INFER_RESULT_DETECTION;</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/>detection<sp/>=<sp/>(VvasInferDetection*)vvas_infer_pred-&gt;infer_result-&gt;data;</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/>detection-&gt;bbox.x<sp/>=<sp/>vart_detection_res-&gt;x;</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/>detection-&gt;bbox.y<sp/>=<sp/>vart_detection_res-&gt;y;</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/>detection-&gt;bbox.width<sp/>=<sp/>vart_detection_res-&gt;width;</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/>detection-&gt;bbox.height<sp/>=<sp/>vart_detection_res-&gt;height;</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/>detection-&gt;label<sp/>=<sp/>strdup(vart_detection_res-&gt;label.c_str());</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/>detection-&gt;probability<sp/>=<sp/>vart_detection_res-&gt;confidence;</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="161"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>convert_vartinfertree_to_vvasinfertree(</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;InferResult&gt;<sp/>parent_vart_inferres,</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/>VvasInferPrediction*<sp/>parent_vvas_inferres)<sp/>{</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>No<sp/>need<sp/>to<sp/>convert<sp/>the<sp/>root<sp/>node<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(vvas_treenode_get_depth(parent_vvas_inferres-&gt;node)<sp/>&gt;<sp/>1)</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/>convert_vartinfernode_to_vvasinfernode(parent_vart_inferres,</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>parent_vvas_inferres);</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/>std::vector&lt;std::shared_ptr&lt;InferResult&gt;&gt;<sp/>children<sp/>=</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>parent_vart_inferres-&gt;get_children();</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(children.size())<sp/>{</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>child<sp/>:<sp/>children)<sp/>{</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>VvasInferPrediction*<sp/>vvas_child<sp/>=<sp/>vvas_inferprediction_new();</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>vvas_inferprediction_append(parent_vvas_inferres,<sp/>vvas_child);</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>convert_vartinfertree_to_vvasinfertree(child,<sp/>vvas_child);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>children.size();</highlight></codeline>
+<codeline lineno="181"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>vvas_inferprediction_get_childnodes(VvasTreeNode*<sp/>node,</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>data)<sp/>{</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/>VvasList**<sp/>children<sp/>=<sp/>(VvasList**)data;</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/>VvasInferPrediction*<sp/>prediction;</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/>prediction<sp/>=<sp/>(VvasInferPrediction*)node-&gt;data;</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/>*children<sp/>=<sp/>vvas_list_append(*children,<sp/>prediction);</highlight></codeline>
+<codeline lineno="190"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>convert_vvas_prediction_to_inferres(</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/>VvasInferPrediction*<sp/>parent_vvas_inferres,</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;InferResult&gt;parent_vart_inferres,</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;struct<sp/>log_context&gt;<sp/>log_ctx)<sp/>{</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/>uint32_t<sp/>sz;</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/>std::vector&lt;std::shared_ptr&lt;InferResult&gt;&gt;<sp/>vart_infer_result;</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/>std::vector&lt;std::shared_ptr&lt;InferResult&gt;&gt;<sp/>vart_children<sp/>=</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/>parent_vart_inferres-&gt;get_children();</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/>VvasList*<sp/>vvas_inferres_children<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/>vvas_treenode_traverse_child(parent_vvas_inferres-&gt;node,<sp/>TRAVERSE_ALL,</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vvas_inferprediction_get_childnodes,</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;vvas_inferres_children);</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!vvas_inferres_children)<sp/>{</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="vart__logger_8hpp_1ae1a9c038c7c7d39debbc9103d34eadf3" kindref="member">VART_LOG_DEBUG_OBJ</ref>(log_ctx,<sp/></highlight><highlight class="stringliteral">&quot;No<sp/>tracker<sp/>results\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/>sz<sp/>=<sp/>vvas_list_length(vvas_inferres_children);</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(uint32_t<sp/>c_idx<sp/>=<sp/>0;<sp/>c_idx<sp/>&lt;<sp/>sz;<sp/>c_idx++)<sp/>{</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/>VvasInferPrediction*<sp/>detection<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/>detection<sp/>=<sp/>(VvasInferPrediction*)vvas_list_nth_data(vvas_inferres_children,<sp/>c_idx);</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/>VvasInferDetection*<sp/>c<sp/>=</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(VvasInferDetection*)detection-&gt;infer_result-&gt;data;</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/>if<sp/>(vart_children.size())<sp/>{</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//update<sp/>existing<sp/>vart<sp/>infer<sp/>result</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>InferResultData<sp/>*vart_result<sp/>=<sp/>vart_children[c_idx]-&gt;get_infer_result();</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>DetectionResData<sp/>*detection_result<sp/>=<sp/></highlight><highlight class="keyword">static_cast<sp/>&lt;</highlight><highlight class="normal">DetectionResData<sp/>*</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(vart_result);</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(c-&gt;label)</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>detection_result-&gt;label<sp/>=<sp/>std::string(c-&gt;label);</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(c-&gt;obj_track_label)</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>detection_result-&gt;obj_track_label<sp/>=<sp/>std::string(c-&gt;obj_track_label);</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>detection_result-&gt;confidence<sp/>=<sp/>c-&gt;probability;</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>detection_result-&gt;class_id<sp/>=<sp/>c-&gt;class_id;</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>detection_result-&gt;x<sp/>=<sp/>c-&gt;bbox.x;</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>detection_result-&gt;y<sp/>=<sp/>c-&gt;bbox.y;</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>detection_result-&gt;width<sp/>=<sp/>c-&gt;bbox.width;</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>detection_result-&gt;height<sp/>=<sp/>c-&gt;bbox.height;</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//create<sp/>new<sp/>vart<sp/>infer<sp/>result</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>DetectionResData<sp/>detection_result<sp/>=<sp/>{};</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>std::shared_ptr&lt;InferResult&gt;<sp/>infer_result;</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>std::shared_ptr&lt;InferResultImplDetection&gt;<sp/>detection_infer_result<sp/>=</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::make_shared&lt;InferResultImplDetection&gt;();</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"></highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(c-&gt;label)</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>detection_result.label<sp/>=<sp/>std::string(c-&gt;label);</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(c-&gt;obj_track_label)</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>detection_result.obj_track_label<sp/>=<sp/>std::string(c-&gt;obj_track_label);</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>detection_result.confidence<sp/>=<sp/>c-&gt;probability;</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>detection_result.class_id<sp/>=<sp/>c-&gt;class_id;</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>detection_result.x<sp/>=<sp/>c-&gt;bbox.x;</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>detection_result.y<sp/>=<sp/>c-&gt;bbox.y;</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>detection_result.width<sp/>=<sp/>c-&gt;bbox.width;</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>detection_result.height<sp/>=<sp/>c-&gt;bbox.height;</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>detection_infer_result-&gt;add_detection_result(detection_result);</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>infer_result<sp/>=<sp/>std::make_shared&lt;InferResult&gt;(detection_infer_result);</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>vart_infer_result.push_back(infer_result);</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!(vart_children.size()))</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>parent_vart_inferres-&gt;add_children(vart_infer_result);</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="259"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"></highlight></codeline>
+<codeline lineno="261"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classvart_1_1TrackerImplDefault_1a77e0ab82aa4ee1afb8747d9441638183" kindref="member">TrackerImplDefault::process</ref>(VideoFrame&amp;<sp/>frame,<sp/>std::shared_ptr&lt;InferResult&gt;<sp/>root_infer_res)<sp/>{</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/>std::shared_ptr&lt;VideoFrameImplXRT&gt;<sp/>pimpl_l<sp/>=</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>std::dynamic_pointer_cast&lt;VideoFrameImplXRT&gt;<sp/>(frame.get_pimpl_handle());</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/>VvasVideoFrame<sp/>*vvas_vframe<sp/>=</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static_cast<sp/>&lt;</highlight><highlight class="normal">VvasVideoFrame<sp/>*</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(pimpl_l-&gt;get_videoframe_handle());</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"></highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/>VvasInferPrediction*<sp/>vvas_parent_predict<sp/>=<sp/>vvas_inferprediction_new();</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Convert<sp/>the<sp/>InferResult<sp/>tree<sp/>to<sp/>VvasInferPrediction<sp/>tree<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>children_count<sp/>=<sp/>convert_vartinfertree_to_vvasinfertree(root_infer_res,<sp/>vvas_parent_predict);</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>No<sp/>infer<sp/>results,<sp/>tracker<sp/>expects<sp/>vvas_parent_predict<sp/>as<sp/>NULL<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!children_count)<sp/>{</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/>vvas_inferprediction_free(vvas_parent_predict);</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/>vvas_parent_predict<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"></highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/>VvasReturnType<sp/>ret<sp/>=<sp/>vvas_tracker_process<sp/>(tracker_handle,</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><sp/>vvas_vframe,<sp/>&amp;vvas_parent_predict);</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(VVAS_IS_ERROR<sp/>(ret))</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>std::runtime_error<sp/>(</highlight><highlight class="stringliteral">&quot;Failed<sp/>to<sp/>overlay<sp/>info<sp/>on<sp/>videoframe&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"></highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>update<sp/>root_infer_res<sp/>with<sp/>tracker<sp/>data<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/><sp/>convert_vvas_prediction_to_inferres(vvas_parent_predict,<sp/>root_infer_res,<sp/>log_ctx);</highlight></codeline>
+<codeline lineno="283"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"></highlight></codeline>
+<codeline lineno="285"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>vart</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/tracker/vart_tracker_impl_default.cpp"/>
+  </compounddef>
+</doxygen>

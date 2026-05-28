@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="vart__npu__tensor__impl_8hpp" kind="file" language="C++">
+    <compoundname>vart_npu_tensor_impl.hpp</compoundname>
+    <includes local="no">memory</includes>
+    <includes local="no">mutex</includes>
+    <includes refid="vart__npu__tensor_8hpp" local="yes">vart_npu_tensor.hpp</includes>
+    <includedby refid="vart__ml__py__api_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_py_api/vart_ml_py_api.cpp</includedby>
+    <includedby refid="execute_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/execute.cpp</includedby>
+    <includedby refid="vart__ml__runner_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.cpp</includedby>
+    <includedby refid="vart__npu__tensor_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.cpp</includedby>
+    <incdepgraph>
+      <node id="5">
+        <label>cstdint</label>
+      </node>
+      <node id="6">
+        <label>string</label>
+      </node>
+      <node id="8">
+        <label>vector</label>
+      </node>
+      <node id="4">
+        <label>vart_npu_tensor.hpp</label>
+        <link refid="vart__npu__tensor_8hpp"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor_impl.hpp</label>
+        <link refid="vart__npu__tensor__impl_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>unordered_map</label>
+      </node>
+      <node id="3">
+        <label>mutex</label>
+      </node>
+      <node id="2">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_py_api/vart_ml_py_api.cpp</label>
+        <link refid="vart__ml__py__api_8cpp"/>
+      </node>
+      <node id="1">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor_impl.hpp</label>
+        <link refid="vart__npu__tensor__impl_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.cpp</label>
+        <link refid="vart__npu__tensor_8cpp"/>
+      </node>
+      <node id="4">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.cpp</label>
+        <link refid="vart__ml__runner_8cpp"/>
+      </node>
+      <node id="3">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/execute.cpp</label>
+        <link refid="execute_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classvart_1_1NpuTensorPriv" prot="public">vart::NpuTensorPriv</innerclass>
+    <innerclass refid="classvart_1_1NpuTensorPrivAccess" prot="public">vart::NpuTensorPrivAccess</innerclass>
+    <innernamespace refid="namespacevart">vart</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="copyright"><para>Copyright 2026 Advanced Micro Devices Inc.</para>
+</simplesect>
+Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <verbatim>http://www.apache.org/licenses/LICENSE-2.0
+</verbatim> Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. </para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;memory&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;mutex&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="vart__npu__tensor_8hpp" kindref="compound">vart_npu_tensor.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacevart" kindref="compound">vart</ref></highlight></codeline>
+<codeline lineno="26"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="classvart_1_1NpuTensorPriv" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classvart_1_1NpuTensorPriv" kindref="compound">NpuTensorPriv</ref></highlight></codeline>
+<codeline lineno="38"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="40" refid="classvart_1_1NpuTensorPriv_1aaf66c999f335a7952923d02f7b59173b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structvart_1_1NpuTensorInfo" kindref="compound">NpuTensorInfo</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classvart_1_1NpuTensorPriv_1aaf66c999f335a7952923d02f7b59173b" kindref="member">info_</ref>;</highlight></codeline>
+<codeline lineno="41" refid="classvart_1_1NpuTensorPriv_1a4bf145bd53776feb0e557f071baf8d82" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;void&gt;<sp/><ref refid="classvart_1_1NpuTensorPriv_1a4bf145bd53776feb0e557f071baf8d82" kindref="member">buffer_</ref>;</highlight></codeline>
+<codeline lineno="42" refid="classvart_1_1NpuTensorPriv_1a2dcec7387a821da5cd6ff432bf5f7649" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacevart_1a628146123b56321d35a9614480f55cb4" kindref="member">MemoryType</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classvart_1_1NpuTensorPriv_1a2dcec7387a821da5cd6ff432bf5f7649" kindref="member">memory_type_</ref>;</highlight></codeline>
+<codeline lineno="43" refid="classvart_1_1NpuTensorPriv_1a555ff1a82ad100086cc447cb0fc84457" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classvart_1_1NpuTensorPriv_1a555ff1a82ad100086cc447cb0fc84457" kindref="member">is_const_buffer_</ref>;<sp/></highlight><highlight class="comment">//<sp/>true<sp/>if<sp/>buffer<sp/>was<sp/>provided<sp/>as<sp/>const<sp/>void*</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="classvart_1_1NpuTensorPriv_1a79a1b3e8744108b3bde9345df0321e8a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classvart_1_1NpuTensorPriv_1a79a1b3e8744108b3bde9345df0321e8a" kindref="member">is_wrapped_</ref>;<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>true<sp/>if<sp/>buffer_<sp/>is<sp/>user-provided,<sp/>false<sp/>if<sp/>Runner<sp/>allocated</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="classvart_1_1NpuTensorPriv_1a3a16dc888ee38b15d8181e606c64f237" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classvart_1_1NpuTensorPriv_1a3a16dc888ee38b15d8181e606c64f237" kindref="member">is_sub_tensor_</ref>;<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>true<sp/>if<sp/>tensor<sp/>is<sp/>a<sp/>sub-tensor<sp/>of<sp/>a<sp/>parent<sp/>tensor</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="classvart_1_1NpuTensorPriv_1a7f2f4bd7aa5580ce3e369069a21b2dae" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classvart_1_1NpuTensorPriv_1a7f2f4bd7aa5580ce3e369069a21b2dae" kindref="member">is_packed_</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>true<sp/>if<sp/>all<sp/>frames<sp/>of<sp/>a<sp/>batch<sp/>are<sp/>contiguous<sp/>in<sp/>DDR<sp/>memory</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="classvart_1_1NpuTensorPriv_1a9246d7a5e217c1b43a5a6e851d7ee84c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classvart_1_1NpuTensorPriv_1a9246d7a5e217c1b43a5a6e851d7ee84c" kindref="member">NpuTensorPriv</ref>()</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><ref refid="classvart_1_1NpuTensorPriv_1aaf66c999f335a7952923d02f7b59173b" kindref="member">info_</ref>({}),</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classvart_1_1NpuTensorPriv_1a4bf145bd53776feb0e557f071baf8d82" kindref="member">buffer_</ref>(</highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classvart_1_1NpuTensorPriv_1a2dcec7387a821da5cd6ff432bf5f7649" kindref="member">memory_type_</ref>(<ref refid="namespacevart_1a628146123b56321d35a9614480f55cb4a696b031073e74bf2cb98e5ef201d4aa3" kindref="member">MemoryType::UNKNOWN</ref>),</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classvart_1_1NpuTensorPriv_1a79a1b3e8744108b3bde9345df0321e8a" kindref="member">is_wrapped_</ref>(</highlight><highlight class="keyword">true</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classvart_1_1NpuTensorPriv_1a3a16dc888ee38b15d8181e606c64f237" kindref="member">is_sub_tensor_</ref>(</highlight><highlight class="keyword">false</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classvart_1_1NpuTensorPriv_1a7f2f4bd7aa5580ce3e369069a21b2dae" kindref="member">is_packed_</ref>(</highlight><highlight class="keyword">false</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="classvart_1_1NpuTensorPriv_1a0789f85bf79097d187ef9371cc3518f4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classvart_1_1NpuTensorPriv_1a0789f85bf79097d187ef9371cc3518f4" kindref="member">NpuTensorPriv</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structvart_1_1NpuTensorInfo" kindref="compound">NpuTensorInfo</ref>&amp;<sp/>info,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>buffer,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespacevart_1a628146123b56321d35a9614480f55cb4" kindref="member">MemoryType</ref>&amp;<sp/>mem_type)</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><ref refid="classvart_1_1NpuTensorPriv_1aaf66c999f335a7952923d02f7b59173b" kindref="member">info_</ref>(info),</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classvart_1_1NpuTensorPriv_1a4bf145bd53776feb0e557f071baf8d82" kindref="member">buffer_</ref>(buffer,<sp/>[](void*)<sp/>{}),</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classvart_1_1NpuTensorPriv_1a2dcec7387a821da5cd6ff432bf5f7649" kindref="member">memory_type_</ref>(mem_type),</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classvart_1_1NpuTensorPriv_1a555ff1a82ad100086cc447cb0fc84457" kindref="member">is_const_buffer_</ref>(</highlight><highlight class="keyword">false</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classvart_1_1NpuTensorPriv_1a79a1b3e8744108b3bde9345df0321e8a" kindref="member">is_wrapped_</ref>(</highlight><highlight class="keyword">true</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classvart_1_1NpuTensorPriv_1a3a16dc888ee38b15d8181e606c64f237" kindref="member">is_sub_tensor_</ref>(</highlight><highlight class="keyword">false</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classvart_1_1NpuTensorPriv_1a7f2f4bd7aa5580ce3e369069a21b2dae" kindref="member">is_packed_</ref>(</highlight><highlight class="keyword">false</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>validate_and_initialize();</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="classvart_1_1NpuTensorPriv_1a5bc1b10259d34a37aeb64c6fbb40fe2c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classvart_1_1NpuTensorPriv_1a5bc1b10259d34a37aeb64c6fbb40fe2c" kindref="member">NpuTensorPriv</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structvart_1_1NpuTensorInfo" kindref="compound">NpuTensorInfo</ref>&amp;<sp/>info,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>buffer,<sp/><ref refid="namespacevart_1a628146123b56321d35a9614480f55cb4" kindref="member">MemoryType</ref><sp/>mem_type)</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><ref refid="classvart_1_1NpuTensorPriv_1aaf66c999f335a7952923d02f7b59173b" kindref="member">info_</ref>(info),</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classvart_1_1NpuTensorPriv_1a4bf145bd53776feb0e557f071baf8d82" kindref="member">buffer_</ref>(const_cast&lt;void*&gt;(buffer),<sp/>[](void*)<sp/>{}),</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classvart_1_1NpuTensorPriv_1a2dcec7387a821da5cd6ff432bf5f7649" kindref="member">memory_type_</ref>(mem_type),</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classvart_1_1NpuTensorPriv_1a555ff1a82ad100086cc447cb0fc84457" kindref="member">is_const_buffer_</ref>(</highlight><highlight class="keyword">true</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classvart_1_1NpuTensorPriv_1a79a1b3e8744108b3bde9345df0321e8a" kindref="member">is_wrapped_</ref>(</highlight><highlight class="keyword">true</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classvart_1_1NpuTensorPriv_1a3a16dc888ee38b15d8181e606c64f237" kindref="member">is_sub_tensor_</ref>(</highlight><highlight class="keyword">false</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classvart_1_1NpuTensorPriv_1a7f2f4bd7aa5580ce3e369069a21b2dae" kindref="member">is_packed_</ref>(</highlight><highlight class="keyword">false</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>validate_and_initialize();</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Delete<sp/>copy<sp/>constructor<sp/>and<sp/>copy<sp/>assignment<sp/>operator</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="classvart_1_1NpuTensorPriv_1a18b9f140264b355dead7afdb634ad700" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classvart_1_1NpuTensorPriv_1a18b9f140264b355dead7afdb634ad700" kindref="member">NpuTensorPriv</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classvart_1_1NpuTensorPriv" kindref="compound">NpuTensorPriv</ref>&amp;)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="84" refid="classvart_1_1NpuTensorPriv_1aa24b3530ef3ee7b1f80751bedb52e830" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classvart_1_1NpuTensorPriv" kindref="compound">NpuTensorPriv</ref>&amp;<sp/><ref refid="classvart_1_1NpuTensorPriv_1aa24b3530ef3ee7b1f80751bedb52e830" kindref="member">operator=</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classvart_1_1NpuTensorPriv" kindref="compound">NpuTensorPriv</ref>&amp;)<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="classvart_1_1NpuTensorPriv_1a189dbd4f1c09d15698e51aa4023f3b38" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classvart_1_1NpuTensorPriv_1a189dbd4f1c09d15698e51aa4023f3b38" kindref="member">~NpuTensorPriv</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>validate_and_initialize();</highlight></codeline>
+<codeline lineno="90"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115" refid="classvart_1_1NpuTensorPrivAccess" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classvart_1_1NpuTensorPrivAccess" kindref="compound">NpuTensorPrivAccess</ref></highlight></codeline>
+<codeline lineno="116"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="123" refid="classvart_1_1NpuTensorPrivAccess_1ae3a94523b05cc362f8ca840ce7b0414c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="classvart_1_1NpuTensorPriv" kindref="compound">NpuTensorPriv</ref>*<sp/><ref refid="classvart_1_1NpuTensorPrivAccess_1ae3a94523b05cc362f8ca840ce7b0414c" kindref="member">get_impl</ref>(<ref refid="classvart_1_1NpuTensor" kindref="compound">NpuTensor</ref>&amp;<sp/>tensor)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>tensor.priv_.get();<sp/>}</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130" refid="classvart_1_1NpuTensorPrivAccess_1abd05fb2e77614753812b945d80a1d30e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classvart_1_1NpuTensorPriv" kindref="compound">NpuTensorPriv</ref>*<sp/><ref refid="classvart_1_1NpuTensorPrivAccess_1abd05fb2e77614753812b945d80a1d30e" kindref="member">get_impl</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classvart_1_1NpuTensor" kindref="compound">NpuTensor</ref>&amp;<sp/>tensor)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>tensor.priv_.get();<sp/>}</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classvart_1_1NpuTensorPrivAccess" kindref="compound">NpuTensorPrivAccess</ref>()<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;<sp/></highlight><highlight class="comment">//<sp/>Static-only<sp/>class</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>vart</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor_impl.hpp"/>
+  </compounddef>
+</doxygen>

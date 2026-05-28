@@ -1,0 +1,434 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classvart_1_1MemoryImplVvas" kind="class" language="C++" prot="public">
+    <compoundname>vart::MemoryImplVvas</compoundname>
+    <basecompoundref refid="classvart_1_1MemoryImplBase" prot="public" virt="non-virtual">vart::MemoryImplBase</basecompoundref>
+    <includes refid="vart__memory__impl__vvas_8hpp" local="no">vart_memory_impl_vvas.hpp</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classvart_1_1MemoryImplVvas_1ad3301aeaa90b9299e689a058c606521d" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t vart::MemoryImplVvas::mbank_idx</definition>
+        <argsstring></argsstring>
+        <name>mbank_idx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/memory/vart_memory_impl_vvas.hpp" line="143" column="11" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/memory/vart_memory_impl_vvas.hpp" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvart_1_1MemoryImplVvas_1a3db24ac0af88f71a2a0b7af34e905cec" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t vart::MemoryImplVvas::mem_size</definition>
+        <argsstring></argsstring>
+        <name>mem_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/memory/vart_memory_impl_vvas.hpp" line="144" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/memory/vart_memory_impl_vvas.hpp" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvart_1_1MemoryImplVvas_1a419adbd41ea80a661adafe2eafbfd2d8" prot="private" static="no" mutable="no">
+        <type>VvasMemoryMapInfo</type>
+        <definition>VvasMemoryMapInfo vart::MemoryImplVvas::vvas_memmap_info</definition>
+        <argsstring></argsstring>
+        <name>vvas_memmap_info</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/memory/vart_memory_impl_vvas.hpp" line="145" column="21" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/memory/vart_memory_impl_vvas.hpp" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvart_1_1MemoryImplVvas_1a033ea74aa3151866c0600d4e3d9a878f" prot="private" static="no" mutable="no">
+        <type>VvasMemory *</type>
+        <definition>VvasMemory* vart::MemoryImplVvas::vvas_mem</definition>
+        <argsstring></argsstring>
+        <name>vvas_mem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/memory/vart_memory_impl_vvas.hpp" line="146" column="14" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/memory/vart_memory_impl_vvas.hpp" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvart_1_1MemoryImplVvas_1ab8f9f61987f5372d3ba64bb407e93cc1" prot="private" static="no" mutable="no">
+        <type>VvasAllocationType</type>
+        <definition>VvasAllocationType vart::MemoryImplVvas::alloc_type</definition>
+        <argsstring></argsstring>
+        <name>alloc_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/memory/vart_memory_impl_vvas.hpp" line="147" column="22" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/memory/vart_memory_impl_vvas.hpp" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvart_1_1MemoryImplVvas_1a441c1e07183883fc72ecd352151b7c68" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; struct <ref refid="structvart_1_1log__context" kindref="compound">log_context</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;struct log_context&gt; vart::MemoryImplVvas::log_ctx</definition>
+        <argsstring></argsstring>
+        <name>log_ctx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/memory/vart_memory_impl_vvas.hpp" line="148" column="19" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/memory/vart_memory_impl_vvas.hpp" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classvart_1_1MemoryImplVvas_1a969852a58db4fb224dc1e71da820e5ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>vart::MemoryImplVvas::MemoryImplVvas</definition>
+        <argsstring>(MemoryImplType type, size_t size, uint8_t mem_bank_idx, std::shared_ptr&lt; Device &gt; device)</argsstring>
+        <name>MemoryImplVvas</name>
+        <param>
+          <type><ref refid="namespacevart_1a5a4af75a353fb571e28d67c1aac372d4" kindref="member">MemoryImplType</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>mem_bank_idx</declname>
+        </param>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="classvart_1_1Device" kindref="compound">Device</ref> &gt;</type>
+          <declname>device</declname>
+        </param>
+        <briefdescription>
+<para>Memory() - Constructor to allocate memory using implementation specific method based on input &apos;type&apos;. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Enum class to specify which type of memory allocation method to use</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Size of the buffer</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mem_bank_idx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>memory bank index on which memory needs to be allocated</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>device</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="classvart_1_1Device" kindref="compound">Device</ref> handle to be used by implementation </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/memory/vart_memory_impl_vvas.hpp" line="46" column="3" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/memory/vart_memory_impl_vvas.cpp" bodystart="23" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1MemoryImplVvas_1ae84f6e593c4d072c3a2d92a1fd30e141" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>vart::MemoryImplVvas::MemoryImplVvas</definition>
+        <argsstring>(MemoryImplType type, uint8_t *data, size_t size, std::shared_ptr&lt; Device &gt; device)</argsstring>
+        <name>MemoryImplVvas</name>
+        <param>
+          <type><ref refid="namespacevart_1a5a4af75a353fb571e28d67c1aac372d4" kindref="member">MemoryImplType</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>uint8_t *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="classvart_1_1Device" kindref="compound">Device</ref> &gt;</type>
+          <declname>device</declname>
+        </param>
+        <briefdescription>
+<para>Memory() - Constructor to allocate memory using user provided data pointer. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Enum class to specify which type of memory allocation method to use</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>user allocated buffer pointer</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Size of the buffer</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>device</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="classvart_1_1Device" kindref="compound">Device</ref> handle to be used by implementation </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/memory/vart_memory_impl_vvas.hpp" line="67" column="3" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/memory/vart_memory_impl_vvas.cpp" bodystart="66" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1MemoryImplVvas_1adb5261ec0609fc4a7d48bd8340a3e325" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>vart::MemoryImplVvas::~MemoryImplVvas</definition>
+        <argsstring>()</argsstring>
+        <name>~MemoryImplVvas</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/memory/vart_memory_impl_vvas.hpp" line="72" column="3" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/memory/vart_memory_impl_vvas.cpp" bodystart="165" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1MemoryImplVvas_1a22fb98053644079e2ae4cc0203eeb387" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>const uint8_t *</type>
+        <definition>const uint8_t * vart::MemoryImplVvas::map</definition>
+        <argsstring>(DataMapFlags map_flags) override</argsstring>
+        <name>map</name>
+        <reimplements refid="classvart_1_1MemoryImplBase_1a36c96f63cdf28ec5c5f86f49e501b14a">map</reimplements>
+        <param>
+          <type><ref refid="namespacevart_1a7eaeef130d371a48660e46c0ddd5fab9" kindref="member">DataMapFlags</ref></type>
+          <declname>map_flags</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="classvart_1_1MemoryImplVvas_1a22fb98053644079e2ae4cc0203eeb387" kindref="member">map()</ref> - Maps allocated memory to user space </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>map_flags</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Flag used to indicate mode of memory mapping</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>returns the virtual address</para>
+</simplesect>
+Only <ref refid="classvart_1_1Memory" kindref="compound">Memory</ref> allocated with XRT/CMA type of memory can be used with <ref refid="classvart_1_1MemoryImplVvas_1a22fb98053644079e2ae4cc0203eeb387" kindref="member">map()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/memory/vart_memory_impl_vvas.hpp" line="85" column="17" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/memory/vart_memory_impl_vvas.cpp" bodystart="103" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1MemoryImplVvas_1a6e96b24619f5c477773d8b3c6a772153" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void vart::MemoryImplVvas::unmap</definition>
+        <argsstring>() override</argsstring>
+        <name>unmap</name>
+        <reimplements refid="classvart_1_1MemoryImplBase_1a5100eed73c2529f85e8fce16a3c4f15a">unmap</reimplements>
+        <briefdescription>
+<para><ref refid="classvart_1_1MemoryImplVvas_1a6e96b24619f5c477773d8b3c6a772153" kindref="member">unmap()</ref> - Unmaps allocated memory from user space </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/memory/vart_memory_impl_vvas.hpp" line="90" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/memory/vart_memory_impl_vvas.cpp" bodystart="115" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1MemoryImplVvas_1a76d16b6eae51bd81907e4309eab9ebde" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>std::shared_ptr&lt; <ref refid="classvart_1_1Device" kindref="compound">Device</ref> &gt;</type>
+        <definition>std::shared_ptr&lt; Device &gt; vart::MemoryImplVvas::get_device_handle</definition>
+        <argsstring>() override</argsstring>
+        <name>get_device_handle</name>
+        <reimplements refid="classvart_1_1MemoryImplBase_1a337554ab3ad608e69fdb9ea81b6d951f">get_device_handle</reimplements>
+        <briefdescription>
+<para><ref refid="classvart_1_1MemoryImplVvas_1a76d16b6eae51bd81907e4309eab9ebde" kindref="member">get_device_handle()</ref> - Retrieves the device handle associated with memory allocation </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Returns <ref refid="classvart_1_1Device" kindref="compound">Device</ref> handle </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/memory/vart_memory_impl_vvas.hpp" line="99" column="19" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/memory/vart_memory_impl_vvas.cpp" bodystart="130" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1MemoryImplVvas_1a38572913d9e99d07a9fc7bf831d283e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>size_t</type>
+        <definition>size_t vart::MemoryImplVvas::get_size</definition>
+        <argsstring>() override</argsstring>
+        <name>get_size</name>
+        <reimplements refid="classvart_1_1MemoryImplBase_1ada49ca7b942e38e667ccff0b21a2d019">get_size</reimplements>
+        <briefdescription>
+<para><ref refid="classvart_1_1MemoryImplVvas_1a38572913d9e99d07a9fc7bf831d283e4" kindref="member">get_size()</ref> - Retrieves the size of the allocated memory </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>returns the memory size </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/memory/vart_memory_impl_vvas.hpp" line="107" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/memory/vart_memory_impl_vvas.cpp" bodystart="126" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1MemoryImplVvas_1a08217277bcedbd77b024b845598b7f78" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>uint64_t</type>
+        <definition>uint64_t vart::MemoryImplVvas::get_physical_addr</definition>
+        <argsstring>() override</argsstring>
+        <name>get_physical_addr</name>
+        <reimplements refid="classvart_1_1MemoryImplBase_1a30d8e8abaed243f86d91f4cdef0a6a13">get_physical_addr</reimplements>
+        <briefdescription>
+<para><ref refid="classvart_1_1MemoryImplVvas_1a08217277bcedbd77b024b845598b7f78" kindref="member">get_physical_addr()</ref> - Retrieves the physical address of the allocated memory if memory type is XRT. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>returns the physical address </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/memory/vart_memory_impl_vvas.hpp" line="116" column="12" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/memory/vart_memory_impl_vvas.cpp" bodystart="154" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1MemoryImplVvas_1ab53e1ed150a21eeed112b9937fc4f7e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void * vart::MemoryImplVvas::get_memory_bo</definition>
+        <argsstring>()</argsstring>
+        <name>get_memory_bo</name>
+        <briefdescription>
+<para><ref refid="classvart_1_1MemoryImplVvas_1ab53e1ed150a21eeed112b9937fc4f7e8" kindref="member">get_memory_bo()</ref> - Retrieves the Buffer Object (BO) handle </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>returns the buffer object </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/memory/vart_memory_impl_vvas.hpp" line="124" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/memory/vart_memory_impl_vvas.cpp" bodystart="142" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1MemoryImplVvas_1ac053323240521e2e4502c898fe3de28b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint8_t</type>
+        <definition>uint8_t vart::MemoryImplVvas::get_membank_idx</definition>
+        <argsstring>()</argsstring>
+        <name>get_membank_idx</name>
+        <briefdescription>
+<para><ref refid="classvart_1_1MemoryImplVvas_1ac053323240521e2e4502c898fe3de28b" kindref="member">get_membank_idx()</ref> - Retrieves the memory bank index </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>returns the memory bank index </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/memory/vart_memory_impl_vvas.hpp" line="132" column="11" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/memory/vart_memory_impl_vvas.cpp" bodystart="134" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1MemoryImplVvas_1a560b53db53a38c13fefd255080eec1bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void * vart::MemoryImplVvas::get_memory_handle</definition>
+        <argsstring>()</argsstring>
+        <name>get_memory_handle</name>
+        <briefdescription>
+<para><ref refid="classvart_1_1MemoryImplVvas_1a560b53db53a38c13fefd255080eec1bc" kindref="member">get_memory_handle()</ref> - Retrieves memory handle allocated for current instance </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>returns the memory handle </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/memory/vart_memory_impl_vvas.hpp" line="140" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/memory/vart_memory_impl_vvas.cpp" bodystart="138" bodyend="140"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>vart::MemoryImplVvas</label>
+        <link refid="classvart_1_1MemoryImplVvas"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>vart::MemoryImplBase</label>
+        <link refid="classvart_1_1MemoryImplBase"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>vart::MemoryImplVvas</label>
+        <link refid="classvart_1_1MemoryImplVvas"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>vart::MemoryImplBase</label>
+        <link refid="classvart_1_1MemoryImplBase"/>
+      </node>
+    </collaborationgraph>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/memory/vart_memory_impl_vvas.hpp" line="28" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/memory/vart_memory_impl_vvas.hpp" bodystart="28" bodyend="149"/>
+    <listofallmembers>
+      <member refid="classvart_1_1MemoryImplVvas_1ab8f9f61987f5372d3ba64bb407e93cc1" prot="private" virt="non-virtual"><scope>vart::MemoryImplVvas</scope><name>alloc_type</name></member>
+      <member refid="classvart_1_1MemoryImplBase_1a7da0b7787f9891655ec4c436081b25b5" prot="protected" virt="non-virtual"><scope>vart::MemoryImplVvas</scope><name>device</name></member>
+      <member refid="classvart_1_1MemoryImplVvas_1a76d16b6eae51bd81907e4309eab9ebde" prot="public" virt="virtual"><scope>vart::MemoryImplVvas</scope><name>get_device_handle</name></member>
+      <member refid="classvart_1_1MemoryImplVvas_1ac053323240521e2e4502c898fe3de28b" prot="public" virt="non-virtual"><scope>vart::MemoryImplVvas</scope><name>get_membank_idx</name></member>
+      <member refid="classvart_1_1MemoryImplVvas_1ab53e1ed150a21eeed112b9937fc4f7e8" prot="public" virt="non-virtual"><scope>vart::MemoryImplVvas</scope><name>get_memory_bo</name></member>
+      <member refid="classvart_1_1MemoryImplVvas_1a560b53db53a38c13fefd255080eec1bc" prot="public" virt="non-virtual"><scope>vart::MemoryImplVvas</scope><name>get_memory_handle</name></member>
+      <member refid="classvart_1_1MemoryImplVvas_1a08217277bcedbd77b024b845598b7f78" prot="public" virt="virtual"><scope>vart::MemoryImplVvas</scope><name>get_physical_addr</name></member>
+      <member refid="classvart_1_1MemoryImplVvas_1a38572913d9e99d07a9fc7bf831d283e4" prot="public" virt="virtual"><scope>vart::MemoryImplVvas</scope><name>get_size</name></member>
+      <member refid="classvart_1_1MemoryImplVvas_1a441c1e07183883fc72ecd352151b7c68" prot="private" virt="non-virtual"><scope>vart::MemoryImplVvas</scope><name>log_ctx</name></member>
+      <member refid="classvart_1_1MemoryImplVvas_1a22fb98053644079e2ae4cc0203eeb387" prot="public" virt="virtual"><scope>vart::MemoryImplVvas</scope><name>map</name></member>
+      <member refid="classvart_1_1MemoryImplVvas_1ad3301aeaa90b9299e689a058c606521d" prot="private" virt="non-virtual"><scope>vart::MemoryImplVvas</scope><name>mbank_idx</name></member>
+      <member refid="classvart_1_1MemoryImplVvas_1a3db24ac0af88f71a2a0b7af34e905cec" prot="private" virt="non-virtual"><scope>vart::MemoryImplVvas</scope><name>mem_size</name></member>
+      <member refid="classvart_1_1MemoryImplBase_1a427220b1dc78988c564c08f937ab4ad0" prot="public" virt="non-virtual"><scope>vart::MemoryImplVvas</scope><name>MemoryImplBase</name></member>
+      <member refid="classvart_1_1MemoryImplBase_1a4314166a295a11a2fe1fff5636bf4797" prot="public" virt="non-virtual"><scope>vart::MemoryImplVvas</scope><name>MemoryImplBase</name></member>
+      <member refid="classvart_1_1MemoryImplVvas_1a969852a58db4fb224dc1e71da820e5ff" prot="public" virt="non-virtual"><scope>vart::MemoryImplVvas</scope><name>MemoryImplVvas</name></member>
+      <member refid="classvart_1_1MemoryImplVvas_1ae84f6e593c4d072c3a2d92a1fd30e141" prot="public" virt="non-virtual"><scope>vart::MemoryImplVvas</scope><name>MemoryImplVvas</name></member>
+      <member refid="classvart_1_1MemoryImplVvas_1a6e96b24619f5c477773d8b3c6a772153" prot="public" virt="virtual"><scope>vart::MemoryImplVvas</scope><name>unmap</name></member>
+      <member refid="classvart_1_1MemoryImplVvas_1a033ea74aa3151866c0600d4e3d9a878f" prot="private" virt="non-virtual"><scope>vart::MemoryImplVvas</scope><name>vvas_mem</name></member>
+      <member refid="classvart_1_1MemoryImplVvas_1a419adbd41ea80a661adafe2eafbfd2d8" prot="private" virt="non-virtual"><scope>vart::MemoryImplVvas</scope><name>vvas_memmap_info</name></member>
+      <member refid="classvart_1_1MemoryImplBase_1a691a4a3e4d41953c8b2c7736ce8b1690" prot="public" virt="virtual"><scope>vart::MemoryImplVvas</scope><name>~MemoryImplBase</name></member>
+      <member refid="classvart_1_1MemoryImplVvas_1adb5261ec0609fc4a7d48bd8340a3e325" prot="public" virt="non-virtual"><scope>vart::MemoryImplVvas</scope><name>~MemoryImplVvas</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structvart_1_1OverlayTextParams" kind="struct" language="C++" prot="public">
+    <compoundname>vart::OverlayTextParams</compoundname>
+    <includes refid="vart__overlay__types_8hpp" local="no">vart_overlay_types.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structvart_1_1OverlayTextParams_1a8d72eba1707ac39fff7b9715f6a5b79b" prot="public" static="no" mutable="no">
+        <type><ref refid="structvart_1_1OverlayCoordinates" kindref="compound">OverlayCoordinates</ref></type>
+        <definition>OverlayCoordinates vart::OverlayTextParams::points</definition>
+        <argsstring></argsstring>
+        <name>points</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" line="159" column="22" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1OverlayTextParams_1a3897ddbf6d7243975092b683103a90c0" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* vart::OverlayTextParams::disp_text</definition>
+        <argsstring></argsstring>
+        <name>disp_text</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" line="160" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1OverlayTextParams_1aae5d83711c29beddc991627498e3fab4" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t vart::OverlayTextParams::bottom_left_origin</definition>
+        <argsstring></argsstring>
+        <name>bottom_left_origin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" line="161" column="12" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1OverlayTextParams_1a53a33b953d87fad358fa03f0863d3fb9" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t vart::OverlayTextParams::apply_bg_color</definition>
+        <argsstring></argsstring>
+        <name>apply_bg_color</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" line="162" column="12" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" bodystart="162" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1OverlayTextParams_1a926530433deb4ab6716452a532cb56ea" prot="public" static="no" mutable="no">
+        <type><ref refid="structvart_1_1OverlayFontData" kindref="compound">OverlayFontData</ref></type>
+        <definition>OverlayFontData vart::OverlayTextParams::text_font</definition>
+        <argsstring></argsstring>
+        <name>text_font</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" line="163" column="19" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" bodystart="163" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1OverlayTextParams_1a8920fe5dabbdd847806f331d14a1dfc5" prot="public" static="no" mutable="no">
+        <type><ref refid="structvart_1_1OverlayColorData" kindref="compound">OverlayColorData</ref></type>
+        <definition>OverlayColorData vart::OverlayTextParams::bg_color</definition>
+        <argsstring></argsstring>
+        <name>bg_color</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" line="164" column="20" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" bodystart="164" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Structure representing Text information. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>vart::OverlayCoordinates</label>
+        <link refid="structvart_1_1OverlayCoordinates"/>
+      </node>
+      <node id="4">
+        <label>vart::OverlayColorData</label>
+        <link refid="structvart_1_1OverlayColorData"/>
+      </node>
+      <node id="3">
+        <label>vart::OverlayFontData</label>
+        <link refid="structvart_1_1OverlayFontData"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>font_color</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>vart::OverlayTextParams</label>
+        <link refid="structvart_1_1OverlayTextParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>points</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>text_font</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>bg_color</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" line="158" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" bodystart="158" bodyend="165"/>
+    <listofallmembers>
+      <member refid="structvart_1_1OverlayTextParams_1a53a33b953d87fad358fa03f0863d3fb9" prot="public" virt="non-virtual"><scope>vart::OverlayTextParams</scope><name>apply_bg_color</name></member>
+      <member refid="structvart_1_1OverlayTextParams_1a8920fe5dabbdd847806f331d14a1dfc5" prot="public" virt="non-virtual"><scope>vart::OverlayTextParams</scope><name>bg_color</name></member>
+      <member refid="structvart_1_1OverlayTextParams_1aae5d83711c29beddc991627498e3fab4" prot="public" virt="non-virtual"><scope>vart::OverlayTextParams</scope><name>bottom_left_origin</name></member>
+      <member refid="structvart_1_1OverlayTextParams_1a3897ddbf6d7243975092b683103a90c0" prot="public" virt="non-virtual"><scope>vart::OverlayTextParams</scope><name>disp_text</name></member>
+      <member refid="structvart_1_1OverlayTextParams_1a8d72eba1707ac39fff7b9715f6a5b79b" prot="public" virt="non-virtual"><scope>vart::OverlayTextParams</scope><name>points</name></member>
+      <member refid="structvart_1_1OverlayTextParams_1a926530433deb4ab6716452a532cb56ea" prot="public" virt="non-virtual"><scope>vart::OverlayTextParams</scope><name>text_font</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

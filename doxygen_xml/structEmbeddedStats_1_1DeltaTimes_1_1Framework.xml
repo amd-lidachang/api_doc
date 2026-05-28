@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structEmbeddedStats_1_1DeltaTimes_1_1Framework" kind="struct" language="C++" prot="public">
+    <compoundname>EmbeddedStats::DeltaTimes::Framework</compoundname>
+    <includes refid="stats_8h" local="no">stats.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structEmbeddedStats_1_1DeltaTimes_1_1Framework_1a3c75494b0bfd266a000c8f744875f2c0" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EmbeddedStats::DeltaTimes::Framework::cpu</definition>
+        <argsstring></argsstring>
+        <name>cpu</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="273" column="7" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="273" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="271" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="272" bodyend="274"/>
+    <listofallmembers>
+      <member refid="structEmbeddedStats_1_1DeltaTimes_1_1Framework_1a3c75494b0bfd266a000c8f744875f2c0" prot="public" virt="non-virtual"><scope>EmbeddedStats::DeltaTimes::Framework</scope><name>cpu</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

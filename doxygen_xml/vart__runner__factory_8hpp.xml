@@ -1,0 +1,342 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="vart__runner__factory_8hpp" kind="file" language="C++">
+    <compoundname>vart_runner_factory.hpp</compoundname>
+    <includes local="no">any</includes>
+    <includes local="no">chrono</includes>
+    <includes local="no">cstdint</includes>
+    <includes local="no">functional</includes>
+    <includes local="no">memory</includes>
+    <includes local="no">string</includes>
+    <includes local="no">unordered_map</includes>
+    <includes local="no">vector</includes>
+    <includes refid="vart__npu__tensor_8hpp" local="yes">vart_npu_tensor.hpp</includes>
+    <includedby refid="common_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.cpp</includedby>
+    <includedby refid="common_8h" local="no">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h</includedby>
+    <includedby refid="multi__models__demo_8cpp" local="no">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/multi_models_demo.cpp</includedby>
+    <includedby refid="simple__demo_8cpp" local="no">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/simple_demo.cpp</includedby>
+    <includedby refid="threads__demo_8cpp" local="no">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/threads_demo.cpp</includedby>
+    <includedby refid="vart__ml__demo_8cpp" local="no">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/vart_ml_demo.cpp</includedby>
+    <includedby refid="vart__ml__runner_8hpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp</includedby>
+    <incdepgraph>
+      <node id="5">
+        <label>functional</label>
+      </node>
+      <node id="1">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_runner_factory.hpp</label>
+        <link refid="vart__runner__factory_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>cstdint</label>
+      </node>
+      <node id="7">
+        <label>string</label>
+      </node>
+      <node id="2">
+        <label>any</label>
+      </node>
+      <node id="9">
+        <label>vector</label>
+      </node>
+      <node id="10">
+        <label>vart_npu_tensor.hpp</label>
+        <link refid="vart__npu__tensor_8hpp"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>unordered_map</label>
+      </node>
+      <node id="3">
+        <label>chrono</label>
+      </node>
+      <node id="6">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_runner_factory.hpp</label>
+        <link refid="vart__runner__factory_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_py_api/vart_ml_py_api.cpp</label>
+        <link refid="vart__ml__py__api_8cpp"/>
+      </node>
+      <node id="12">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/arm_ops.cpp</label>
+        <link refid="arm__ops_8cpp"/>
+      </node>
+      <node id="2">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.cpp</label>
+        <link refid="common_8cpp"/>
+      </node>
+      <node id="8">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp</label>
+        <link refid="vart__ml__runner_8hpp"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/snapshot_parser.cpp</label>
+        <link refid="vart__ml__runner_2snapshot__parser_8cpp"/>
+      </node>
+      <node id="15">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/thread_pool.cpp</label>
+        <link refid="thread__pool_8cpp"/>
+      </node>
+      <node id="6">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/threads_demo.cpp</label>
+        <link refid="threads__demo_8cpp"/>
+      </node>
+      <node id="16">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/utils.cpp</label>
+        <link refid="utils_8cpp"/>
+      </node>
+      <node id="4">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/multi_models_demo.cpp</label>
+        <link refid="multi__models__demo_8cpp"/>
+      </node>
+      <node id="18">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.cpp</label>
+        <link refid="vart__npu__tensor_8cpp"/>
+      </node>
+      <node id="17">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.cpp</label>
+        <link refid="vart__ml__runner_8cpp"/>
+      </node>
+      <node id="10">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_py_api/vart_ml_py_api.h</label>
+        <link refid="vart__ml__py__api_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/vart_ml_demo.cpp</label>
+        <link refid="vart__ml__demo_8cpp"/>
+      </node>
+      <node id="13">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/execute.cpp</label>
+        <link refid="execute_8cpp"/>
+      </node>
+      <node id="5">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/simple_demo.cpp</label>
+        <link refid="simple__demo_8cpp"/>
+      </node>
+      <node id="11">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/accessors.cpp</label>
+        <link refid="vart__ml__runner_2accessors_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structvart_1_1QuantParameters" prot="public">vart::QuantParameters</innerclass>
+    <innerclass refid="structvart_1_1JobHandle" prot="public">vart::JobHandle</innerclass>
+    <innerclass refid="classvart_1_1Runner" prot="public">vart::Runner</innerclass>
+    <innerclass refid="classvart_1_1RunnerFactory" prot="public">vart::RunnerFactory</innerclass>
+    <innernamespace refid="namespacevart">vart</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="copyright"><para>Copyright 2025 Advanced Micro Devices Inc.</para>
+</simplesect>
+Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <verbatim>http://www.apache.org/licenses/LICENSE-2.0
+</verbatim> Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. </para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;any&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;chrono&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cstdint&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;functional&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;memory&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;unordered_map&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="vart__npu__tensor_8hpp" kindref="compound">vart_npu_tensor.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacevart" kindref="compound">vart</ref></highlight></codeline>
+<codeline lineno="33"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="namespacevart_1a85dc5eee17f8c0ec625fd7477836f31f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="namespacevart_1a85dc5eee17f8c0ec625fd7477836f31f" kindref="member">RunnerType</ref></highlight></codeline>
+<codeline lineno="46"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacevart_1a85dc5eee17f8c0ec625fd7477836f31fac328cedf35cf05e3021c9828f23ba541" kindref="member">VAIML</ref></highlight></codeline>
+<codeline lineno="48"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="namespacevart_1a3c6defbe8aa132549966a3dd47c445fa" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="namespacevart_1a3c6defbe8aa132549966a3dd47c445fa" kindref="member">RoundingMode</ref></highlight></codeline>
+<codeline lineno="62"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacevart_1a3c6defbe8aa132549966a3dd47c445faa696b031073e74bf2cb98e5ef201d4aa3" kindref="member">UNKNOWN</ref>,</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacevart_1a3c6defbe8aa132549966a3dd47c445faa7fd6445dda9c0adea175600ee65cc316" kindref="member">ROUND_TO_NEAREST_EVEN</ref>,</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacevart_1a3c6defbe8aa132549966a3dd47c445faae2495278943208450243de03efbe0607" kindref="member">ROUND_TOWARD_ZERO</ref>,</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="structvart_1_1QuantParameters" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structvart_1_1QuantParameters" kindref="compound">QuantParameters</ref></highlight></codeline>
+<codeline lineno="83"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="84" refid="structvart_1_1QuantParameters_1a2fb07669845dd574bfc73e94eed0f6f0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structvart_1_1QuantParameters_1a2fb07669845dd574bfc73e94eed0f6f0" kindref="member">scale</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0.0;</highlight></codeline>
+<codeline lineno="85" refid="structvart_1_1QuantParameters_1a5a6b814489e440065bef734c2c6e2080" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>int32_t<sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structvart_1_1QuantParameters_1a5a6b814489e440065bef734c2c6e2080" kindref="member">zero_point</ref><sp/><sp/><sp/><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="86" refid="structvart_1_1QuantParameters_1aa80d2a556c0a241c603615715bda8d48" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacevart_1a3c6defbe8aa132549966a3dd47c445fa" kindref="member">RoundingMode</ref><sp/><ref refid="structvart_1_1QuantParameters_1aa80d2a556c0a241c603615715bda8d48" kindref="member">rounding_mode</ref><sp/>=<sp/><ref refid="namespacevart_1a3c6defbe8aa132549966a3dd47c445faa696b031073e74bf2cb98e5ef201d4aa3" kindref="member">RoundingMode::UNKNOWN</ref>;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106" refid="namespacevart_1a199a136a2f428ecad425db9304cfa73c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="namespacevart_1a199a136a2f428ecad425db9304cfa73c" kindref="member">StatusCode</ref></highlight></codeline>
+<codeline lineno="107"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacevart_1a199a136a2f428ecad425db9304cfa73cad0749aaba8b833466dfcbb0428e4f89c" kindref="member">SUCCESS</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacevart_1a199a136a2f428ecad425db9304cfa73ca36fc6065a3e970bc3e6b2e59da52bf2a" kindref="member">FAILURE</ref>,</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacevart_1a199a136a2f428ecad425db9304cfa73cac063281d4adc16ebccfec66aa885b4dd" kindref="member">INVALID_INPUT</ref>,</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacevart_1a199a136a2f428ecad425db9304cfa73ca772ab551fe4d567e5cbfac7cf76c9ace" kindref="member">INVALID_OUTPUT</ref>,</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacevart_1a199a136a2f428ecad425db9304cfa73cac56ddb8056b120c9d5fee05981f219c6" kindref="member">OUT_OF_MEMORY</ref>,</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacevart_1a199a136a2f428ecad425db9304cfa73ca62be47fdd89da032cf78dfce82239579" kindref="member">RUNTIME_ERROR</ref>,</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacevart_1a199a136a2f428ecad425db9304cfa73ca4fcd6ea82d5da5e82a9f27d92ba15f2a" kindref="member">JOB_PENDING</ref>,</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacevart_1a199a136a2f428ecad425db9304cfa73caaa042564aff0efaaac1a942a6c13b7ff" kindref="member">INVALID_JOB_ID</ref>,</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacevart_1a199a136a2f428ecad425db9304cfa73caf65e04ca322463e1dd9e424d0acfb763" kindref="member">RESOURCE_UNAVAILABLE</ref></highlight></codeline>
+<codeline lineno="117"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132" refid="structvart_1_1JobHandle" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structvart_1_1JobHandle" kindref="compound">JobHandle</ref></highlight></codeline>
+<codeline lineno="133"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="134" refid="structvart_1_1JobHandle_1a76455c7ed7c73b33942f449bc757f53c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacevart_1a199a136a2f428ecad425db9304cfa73c" kindref="member">StatusCode</ref><sp/><ref refid="structvart_1_1JobHandle_1a76455c7ed7c73b33942f449bc757f53c" kindref="member">status</ref>;<sp/></highlight><highlight class="comment">//<sp/>Submission<sp/>status<sp/>of<sp/>the<sp/>job.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135" refid="structvart_1_1JobHandle_1a75a1870ce3ce2fac0fb2652092892903" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><sp/><sp/><ref refid="structvart_1_1JobHandle_1a75a1870ce3ce2fac0fb2652092892903" kindref="member">job_id</ref>;<sp/></highlight><highlight class="comment">//<sp/>Unique<sp/>identifier<sp/>for<sp/>the<sp/>job.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="structvart_1_1JobHandle_1a79c3dc4ea2a77592b72f559a28f48edf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structvart_1_1JobHandle_1a79c3dc4ea2a77592b72f559a28f48edf" kindref="member">JobHandle</ref>(<ref refid="namespacevart_1a199a136a2f428ecad425db9304cfa73c" kindref="member">StatusCode</ref><sp/>stat,<sp/>uint32_t<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)<sp/>:<sp/><ref refid="structvart_1_1JobHandle_1a76455c7ed7c73b33942f449bc757f53c" kindref="member">status</ref>(stat),<sp/><ref refid="structvart_1_1JobHandle_1a75a1870ce3ce2fac0fb2652092892903" kindref="member">job_id</ref>(id)<sp/>{}</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139" refid="structvart_1_1JobHandle_1a773cb4c0614f573974e1d9cd004d30d8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structvart_1_1JobHandle_1a773cb4c0614f573974e1d9cd004d30d8" kindref="member">JobHandle</ref>()<sp/>:<sp/><ref refid="structvart_1_1JobHandle_1a76455c7ed7c73b33942f449bc757f53c" kindref="member">status</ref>(<ref refid="namespacevart_1a199a136a2f428ecad425db9304cfa73c" kindref="member">StatusCode</ref>::<ref refid="namespacevart_1a199a136a2f428ecad425db9304cfa73ca36fc6065a3e970bc3e6b2e59da52bf2a" kindref="member">FAILURE</ref>),<sp/><ref refid="structvart_1_1JobHandle_1a75a1870ce3ce2fac0fb2652092892903" kindref="member">job_id</ref>(0)<sp/>{}</highlight></codeline>
+<codeline lineno="140"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161" refid="classvart_1_1Runner" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classvart_1_1Runner" kindref="compound">Runner</ref></highlight></codeline>
+<codeline lineno="162"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="173" refid="classvart_1_1Runner_1a28e7ac6bdcdc0319607a0d22bcd29d2b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="classvart_1_1Runner_1a28e7ac6bdcdc0319607a0d22bcd29d2b" kindref="member">Runner</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>model_path,</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::unordered_map&lt;std::string,<sp/>std::any&gt;&amp;<sp/><ref refid="structoptions" kindref="compound">options</ref><sp/>=<sp/>{})</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(void)model_path;</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(void)<ref refid="structoptions" kindref="compound">options</ref>;</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="184" refid="classvart_1_1Runner_1a268ec51647790c720246707f589cad76" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classvart_1_1Runner_1a268ec51647790c720246707f589cad76" kindref="member">~Runner</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191" refid="classvart_1_1Runner_1a9bd3cec19cb6397c70c3f60445de5fa6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/><ref refid="classvart_1_1Runner_1a9bd3cec19cb6397c70c3f60445de5fa6" kindref="member">get_model_name</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206" refid="classvart_1_1Runner_1aee709abfc3292a414f95e47a7d6d3987" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;NpuTensorInfo&gt;&amp;<sp/><ref refid="classvart_1_1Runner_1aee709abfc3292a414f95e47a7d6d3987" kindref="member">get_tensors_info</ref>(<ref refid="namespacevart_1a9a98f13e9246c207893fd0923dfd6f17" kindref="member">TensorDirection</ref><sp/>direction,</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacevart_1a85585269ba1910504ce68f8ae750c648" kindref="member">TensorType</ref><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="run__snapshot__bin_8cpp_1a1d127017fb298b889f4ba24752d08b8e" kindref="member">type</ref>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight></codeline>
+<codeline lineno="224" refid="classvart_1_1Runner_1a5f4a424c7a56b90f94b6757500326672" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structvart_1_1NpuTensorInfo" kindref="compound">NpuTensorInfo</ref>&amp;<sp/><ref refid="classvart_1_1Runner_1a5f4a424c7a56b90f94b6757500326672" kindref="member">get_tensor_info_by_name</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>tensor_name,</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacevart_1a85585269ba1910504ce68f8ae750c648" kindref="member">TensorType</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="run__snapshot__bin_8cpp_1a1d127017fb298b889f4ba24752d08b8e" kindref="member">type</ref>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="239" refid="classvart_1_1Runner_1a963ebc9a6272f24b29a4eadfd6c5edd3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structvart_1_1QuantParameters" kindref="compound">QuantParameters</ref>&amp;<sp/><ref refid="classvart_1_1Runner_1a963ebc9a6272f24b29a4eadfd6c5edd3" kindref="member">get_quant_parameters</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>tensor_name)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"></highlight></codeline>
+<codeline lineno="249" refid="classvart_1_1Runner_1aec842b97c1028e3e000797bba42c0246" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="classvart_1_1Runner_1aec842b97c1028e3e000797bba42c0246" kindref="member">get_num_input_tensors</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"></highlight></codeline>
+<codeline lineno="259" refid="classvart_1_1Runner_1af11b8347742a63845cceb2d9e6340b27" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="classvart_1_1Runner_1af11b8347742a63845cceb2d9e6340b27" kindref="member">get_num_output_tensors</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"></highlight></codeline>
+<codeline lineno="268" refid="classvart_1_1Runner_1af5cd72eb6b25f982897d703f2ce39b31" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="classvart_1_1Runner_1af5cd72eb6b25f982897d703f2ce39b31" kindref="member">get_batch_size</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"></highlight></codeline>
+<codeline lineno="286" refid="classvart_1_1Runner_1acef717eb0bd5cb69d4fdcea03386e8c5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="namespacevart_1a199a136a2f428ecad425db9304cfa73c" kindref="member">StatusCode</ref><sp/><ref refid="classvart_1_1Runner_1acef717eb0bd5cb69d4fdcea03386e8c5" kindref="member">execute</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::vector&lt;NpuTensor&gt;&gt;&amp;<sp/>inputs,</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;std::vector&lt;NpuTensor&gt;&gt;&amp;<sp/><sp/><sp/><sp/><sp/><sp/><sp/>outputs)<sp/>noexcept<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"></highlight></codeline>
+<codeline lineno="305" refid="classvart_1_1Runner_1afe144799826de5bce9178aa8eb3bb482" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="structvart_1_1JobHandle" kindref="compound">JobHandle</ref><sp/><ref refid="classvart_1_1Runner_1afe144799826de5bce9178aa8eb3bb482" kindref="member">execute_async</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::vector&lt;NpuTensor&gt;&gt;&amp;<sp/>inputs,</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;std::vector&lt;NpuTensor&gt;&gt;&amp;<sp/><sp/><sp/><sp/><sp/><sp/><sp/>outputs)<sp/>noexcept<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"></highlight></codeline>
+<codeline lineno="323" refid="classvart_1_1Runner_1a29d325e5831862dc76dacd5ab579f5cb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="namespacevart_1a199a136a2f428ecad425db9304cfa73c" kindref="member">StatusCode</ref><sp/><ref refid="classvart_1_1Runner_1a29d325e5831862dc76dacd5ab579f5cb" kindref="member">wait</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structvart_1_1JobHandle" kindref="compound">JobHandle</ref>&amp;<sp/>job_handle,<sp/>std::chrono::milliseconds<sp/>timeout)<sp/>noexcept<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"></highlight></codeline>
+<codeline lineno="338" refid="classvart_1_1Runner_1a6a2c910f1b355a56cd827fea6aeb333c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="classvart_1_1Runner_1a6a2c910f1b355a56cd827fea6aeb333c" kindref="member">ExecuteAsyncCallback</ref><sp/>=<sp/>std::function&lt;void(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structvart_1_1JobHandle" kindref="compound">JobHandle</ref>&amp;)&gt;;</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"></highlight></codeline>
+<codeline lineno="361" refid="classvart_1_1Runner_1a8682044578c8d5487e83c69000d36387" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="structvart_1_1JobHandle" kindref="compound">JobHandle</ref><sp/><ref refid="classvart_1_1Runner_1a8682044578c8d5487e83c69000d36387" kindref="member">execute_async</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::vector&lt;NpuTensor&gt;&gt;&amp;<sp/>inputs,</highlight></codeline>
+<codeline lineno="362"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;std::vector&lt;NpuTensor&gt;&gt;&amp;<sp/><sp/><sp/><sp/><sp/><sp/><sp/>outputs,</highlight></codeline>
+<codeline lineno="363"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classvart_1_1Runner_1a6a2c910f1b355a56cd827fea6aeb333c" kindref="member">ExecuteAsyncCallback</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cb)<sp/>noexcept<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="364"><highlight class="normal"></highlight></codeline>
+<codeline lineno="377" refid="classvart_1_1Runner_1a86b257cd70b838396aff577724afcc7a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classvart_1_1NpuTensor" kindref="compound">NpuTensor</ref><sp/><ref refid="classvart_1_1Runner_1a86b257cd70b838396aff577724afcc7a" kindref="member">allocate_npu_tensor</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structvart_1_1NpuTensorInfo" kindref="compound">NpuTensorInfo</ref>&amp;<sp/>info)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="378"><highlight class="normal"></highlight></codeline>
+<codeline lineno="391"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classvart_1_1NpuTensor" kindref="compound">NpuTensor</ref></highlight></codeline>
+<codeline lineno="392" refid="classvart_1_1Runner_1a3beddb6b3be466f44d93711218b17e8c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classvart_1_1Runner_1a3beddb6b3be466f44d93711218b17e8c" kindref="member">allocate_npu_tensor</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structvart_1_1NpuTensorInfo" kindref="compound">NpuTensorInfo</ref>&amp;<sp/>info,<sp/><ref refid="namespacevart_1a628146123b56321d35a9614480f55cb4" kindref="member">MemoryType</ref><sp/>mem_type,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>ddr_idx<sp/>=<sp/>0)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="393"><highlight class="normal"></highlight></codeline>
+<codeline lineno="419"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classvart_1_1NpuTensor" kindref="compound">NpuTensor</ref></highlight></codeline>
+<codeline lineno="420" refid="classvart_1_1Runner_1a3c9ade38a144acc18fd9d9b2228db1cf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classvart_1_1Runner_1a3c9ade38a144acc18fd9d9b2228db1cf" kindref="member">allocate_sub_tensor</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classvart_1_1NpuTensor" kindref="compound">NpuTensor</ref>&amp;<sp/>parent,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structvart_1_1NpuTensorInfo" kindref="compound">NpuTensorInfo</ref>&amp;<sp/>info,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>offset)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="421"><highlight class="normal"></highlight></codeline>
+<codeline lineno="428" refid="classvart_1_1Runner_1a4160dbfc12acf8a228d976aee9bdf5d0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>uint8_t<sp/><ref refid="classvart_1_1Runner_1a4160dbfc12acf8a228d976aee9bdf5d0" kindref="member">get_nb_ddrs</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="429"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="437" refid="classvart_1_1RunnerFactory" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classvart_1_1RunnerFactory" kindref="compound">RunnerFactory</ref></highlight></codeline>
+<codeline lineno="438"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="439"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="455"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;Runner&gt;</highlight></codeline>
+<codeline lineno="456"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classvart_1_1RunnerFactory_1a75d62f55cc08cd52f1bd9da58f5825a1" kindref="member">create_runner</ref>(<ref refid="namespacevart_1a85dc5eee17f8c0ec625fd7477836f31f" kindref="member">RunnerType</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>runner_type,</highlight></codeline>
+<codeline lineno="457"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>model_path,</highlight></codeline>
+<codeline lineno="458"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::unordered_map&lt;std::string,<sp/>std::any&gt;&amp;<sp/><ref refid="structoptions" kindref="compound">options</ref><sp/>=<sp/>{});</highlight></codeline>
+<codeline lineno="459"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="460"><highlight class="normal"></highlight></codeline>
+<codeline lineno="461"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>vart</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_runner_factory.hpp"/>
+  </compounddef>
+</doxygen>

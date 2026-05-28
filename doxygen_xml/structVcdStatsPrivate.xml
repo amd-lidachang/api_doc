@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structVcdStatsPrivate" kind="struct" language="C++" prot="public">
+    <compoundname>VcdStatsPrivate</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structVcdStatsPrivate_1a9fe3c5a246d0136185aeef23f9da0bff" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool VcdStatsPrivate::enable</definition>
+        <argsstring></argsstring>
+        <name>enable</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" line="38" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVcdStatsPrivate_1a304a4f771e5340fa846a3caf46c65501" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool VcdStatsPrivate::init</definition>
+        <argsstring></argsstring>
+        <name>init</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" line="41" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVcdStatsPrivate_1ac3fecf2e0db6743bbbbcc8a8f6b89f7e" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool VcdStatsPrivate::run_started</definition>
+        <argsstring></argsstring>
+        <name>run_started</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" line="44" column="15" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVcdStatsPrivate_1abe19cb032855e1090e2aad7e282ed81a" prot="public" static="no" mutable="no">
+        <type>std::ofstream</type>
+        <definition>std::ofstream VcdStatsPrivate::vcd_file</definition>
+        <argsstring></argsstring>
+        <name>vcd_file</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" line="45" column="15" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVcdStatsPrivate_1ae0621e411a4a8d865b76fadc38c3c315" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t VcdStatsPrivate::nb_threads_</definition>
+        <argsstring></argsstring>
+        <name>nb_threads_</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" line="48" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVcdStatsPrivate_1a99e2675ef670536305b168f68f0879f9" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt;std::string&gt; VcdStatsPrivate::network_names</definition>
+        <argsstring></argsstring>
+        <name>network_names</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" line="51" column="13" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVcdStatsPrivate_1a25e8f640559b9714dab4bdb7c53e7000" prot="public" static="no" mutable="no">
+        <type>struct timespec</type>
+        <definition>struct timespec VcdStatsPrivate::starting_time</definition>
+        <argsstring></argsstring>
+        <name>starting_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" line="51" column="13" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVcdStatsPrivate_1a263d9831e41130304636cff1d23bcf74" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt;std::string&gt; VcdStatsPrivate::user_defined_global_event_names</definition>
+        <argsstring></argsstring>
+        <name>user_defined_global_event_names</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" line="57" column="13" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVcdStatsPrivate_1a00e121f1383abe100e94be91ed0f3534" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt;std::string&gt; VcdStatsPrivate::user_defined_event_names</definition>
+        <argsstring></argsstring>
+        <name>user_defined_event_names</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" line="60" column="13" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVcdStatsPrivate_1a33b9c598d3c0e22e714c5f2fccc142e0" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string VcdStatsPrivate::vcd_header</definition>
+        <argsstring></argsstring>
+        <name>vcd_header</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" line="63" column="13" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVcdStatsPrivate_1a5aba187c1f8da54dbf7edd4993410edf" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt;std::string&gt; VcdStatsPrivate::vcd_var_def</definition>
+        <argsstring></argsstring>
+        <name>vcd_var_def</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" line="67" column="13" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVcdStatsPrivate_1ae3e1276e600022b91af0b38fbe4d47fb" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string VcdStatsPrivate::vcd_dumpvars</definition>
+        <argsstring></argsstring>
+        <name>vcd_dumpvars</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" line="70" column="13" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structVcdStatsPrivate_1abf185477a314428bdb7a76928685c7f4" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; std::queue&lt; <ref refid="vcd__stats_8cpp_1a736f1e076d74d3a12cf69bfb766075e1" kindref="member">vcd_event_t</ref> &gt; &gt;</type>
+        <definition>std::vector&lt;std::queue&lt;vcd_event_t&gt; &gt; VcdStatsPrivate::vcd_value_change</definition>
+        <argsstring></argsstring>
+        <name>vcd_value_change</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" line="74" column="13" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" line="35" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp" bodystart="36" bodyend="75"/>
+    <listofallmembers>
+      <member refid="structVcdStatsPrivate_1a9fe3c5a246d0136185aeef23f9da0bff" prot="public" virt="non-virtual"><scope>VcdStatsPrivate</scope><name>enable</name></member>
+      <member refid="structVcdStatsPrivate_1a304a4f771e5340fa846a3caf46c65501" prot="public" virt="non-virtual"><scope>VcdStatsPrivate</scope><name>init</name></member>
+      <member refid="structVcdStatsPrivate_1ae0621e411a4a8d865b76fadc38c3c315" prot="public" virt="non-virtual"><scope>VcdStatsPrivate</scope><name>nb_threads_</name></member>
+      <member refid="structVcdStatsPrivate_1a99e2675ef670536305b168f68f0879f9" prot="public" virt="non-virtual"><scope>VcdStatsPrivate</scope><name>network_names</name></member>
+      <member refid="structVcdStatsPrivate_1ac3fecf2e0db6743bbbbcc8a8f6b89f7e" prot="public" virt="non-virtual"><scope>VcdStatsPrivate</scope><name>run_started</name></member>
+      <member refid="structVcdStatsPrivate_1a25e8f640559b9714dab4bdb7c53e7000" prot="public" virt="non-virtual"><scope>VcdStatsPrivate</scope><name>starting_time</name></member>
+      <member refid="structVcdStatsPrivate_1a00e121f1383abe100e94be91ed0f3534" prot="public" virt="non-virtual"><scope>VcdStatsPrivate</scope><name>user_defined_event_names</name></member>
+      <member refid="structVcdStatsPrivate_1a263d9831e41130304636cff1d23bcf74" prot="public" virt="non-virtual"><scope>VcdStatsPrivate</scope><name>user_defined_global_event_names</name></member>
+      <member refid="structVcdStatsPrivate_1ae3e1276e600022b91af0b38fbe4d47fb" prot="public" virt="non-virtual"><scope>VcdStatsPrivate</scope><name>vcd_dumpvars</name></member>
+      <member refid="structVcdStatsPrivate_1abe19cb032855e1090e2aad7e282ed81a" prot="public" virt="non-virtual"><scope>VcdStatsPrivate</scope><name>vcd_file</name></member>
+      <member refid="structVcdStatsPrivate_1a33b9c598d3c0e22e714c5f2fccc142e0" prot="public" virt="non-virtual"><scope>VcdStatsPrivate</scope><name>vcd_header</name></member>
+      <member refid="structVcdStatsPrivate_1abf185477a314428bdb7a76928685c7f4" prot="public" virt="non-virtual"><scope>VcdStatsPrivate</scope><name>vcd_value_change</name></member>
+      <member refid="structVcdStatsPrivate_1a5aba187c1f8da54dbf7edd4993410edf" prot="public" virt="non-virtual"><scope>VcdStatsPrivate</scope><name>vcd_var_def</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structpl__tensor" kind="struct" language="C++" prot="public">
+    <compoundname>pl_tensor</compoundname>
+    <includes refid="private_8h" local="no">private.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structpl__tensor_1a65fbc7531321be14ba6f6f2b97db06c5" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; uint32_t &gt;</type>
+        <definition>std::vector&lt;uint32_t&gt; pl_tensor::pl_shape</definition>
+        <argsstring></argsstring>
+        <name>pl_shape</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="308" column="18" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="308" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structpl__tensor_1afafd569f1156118a7f1190b402bc1cd0" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; uint32_t &gt;</type>
+        <definition>std::vector&lt;uint32_t&gt; pl_tensor::pl_strides</definition>
+        <argsstring></argsstring>
+        <name>pl_strides</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="309" column="18" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="309" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structpl__tensor_1ac58487fedacc93d40e98a314ff85dbe7" prot="public" static="no" mutable="no">
+        <type><ref refid="private_8h_1a49b5dfea31023fcd165ce36384234dc5" kindref="member">data_type_t</ref></type>
+        <definition>data_type_t pl_tensor::pl_data_type</definition>
+        <argsstring></argsstring>
+        <name>pl_data_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="310" column="28" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="310" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structpl__tensor_1ad989d6dbad577bca80ce9a33d96b8323" prot="public" static="no" mutable="no">
+        <type>std::map&lt; size_t, uint64_t &gt;</type>
+        <definition>std::map&lt;size_t, uint64_t&gt; pl_tensor::pl_nbuf_addr</definition>
+        <argsstring></argsstring>
+        <name>pl_nbuf_addr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="311" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="311" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structpl__tensor_1aac3d3fc69a0f92ae6fa73038db217c36" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t pl_tensor::pl_cfg_base_addr</definition>
+        <argsstring></argsstring>
+        <name>pl_cfg_base_addr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="312" column="28" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="312" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structpl__tensor_1adc6766d42ca21e29a37d7696d421fe72" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; uint32_t &gt;</type>
+        <definition>std::vector&lt;uint32_t&gt; pl_tensor::pl_cfg_offset</definition>
+        <argsstring></argsstring>
+        <name>pl_cfg_offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="313" column="18" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="313" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structpl__tensor_1a595e49b0c5976d03db0083a2d28694e0" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t pl_tensor::pl_buff_nbytes</definition>
+        <argsstring></argsstring>
+        <name>pl_buff_nbytes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="314" column="28" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="314" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structpl__tensor_1aade3fdc5ad61bbcaed65babc2dd0b734" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; struct <ref refid="structaddr" kindref="compound">addr</ref> &gt;</type>
+        <definition>std::vector&lt;struct addr&gt; pl_tensor::pl_ddr_addrs</definition>
+        <argsstring></argsstring>
+        <name>pl_ddr_addrs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="315" column="15" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="315" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="306" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="307" bodyend="316"/>
+    <listofallmembers>
+      <member refid="structpl__tensor_1a595e49b0c5976d03db0083a2d28694e0" prot="public" virt="non-virtual"><scope>pl_tensor</scope><name>pl_buff_nbytes</name></member>
+      <member refid="structpl__tensor_1aac3d3fc69a0f92ae6fa73038db217c36" prot="public" virt="non-virtual"><scope>pl_tensor</scope><name>pl_cfg_base_addr</name></member>
+      <member refid="structpl__tensor_1adc6766d42ca21e29a37d7696d421fe72" prot="public" virt="non-virtual"><scope>pl_tensor</scope><name>pl_cfg_offset</name></member>
+      <member refid="structpl__tensor_1ac58487fedacc93d40e98a314ff85dbe7" prot="public" virt="non-virtual"><scope>pl_tensor</scope><name>pl_data_type</name></member>
+      <member refid="structpl__tensor_1aade3fdc5ad61bbcaed65babc2dd0b734" prot="public" virt="non-virtual"><scope>pl_tensor</scope><name>pl_ddr_addrs</name></member>
+      <member refid="structpl__tensor_1ad989d6dbad577bca80ce9a33d96b8323" prot="public" virt="non-virtual"><scope>pl_tensor</scope><name>pl_nbuf_addr</name></member>
+      <member refid="structpl__tensor_1a65fbc7531321be14ba6f6f2b97db06c5" prot="public" virt="non-virtual"><scope>pl_tensor</scope><name>pl_shape</name></member>
+      <member refid="structpl__tensor_1afafd569f1156118a7f1190b402bc1cd0" prot="public" virt="non-virtual"><scope>pl_tensor</scope><name>pl_strides</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

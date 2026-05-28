@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structvart_1_1JobHandle" kind="struct" language="C++" prot="public">
+    <compoundname>vart::JobHandle</compoundname>
+    <includes refid="vart__runner__factory_8hpp" local="no">vart_runner_factory.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structvart_1_1JobHandle_1a76455c7ed7c73b33942f449bc757f53c" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacevart_1a199a136a2f428ecad425db9304cfa73c" kindref="member">StatusCode</ref></type>
+        <definition>vart::JobHandle::status</definition>
+        <argsstring></argsstring>
+        <name>status</name>
+        <briefdescription>
+<para>Status of the submitted job. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_runner_factory.hpp" line="134" column="12" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_runner_factory.hpp" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1JobHandle_1a75a1870ce3ce2fac0fb2652092892903" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>vart::JobHandle::job_id</definition>
+        <argsstring></argsstring>
+        <name>job_id</name>
+        <briefdescription>
+<para>Unique identifier for the job. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>A value of 0 is reserved as invalid; valid job IDs start from 1. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_runner_factory.hpp" line="135" column="12" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_runner_factory.hpp" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structvart_1_1JobHandle_1a79c3dc4ea2a77592b72f559a28f48edf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>vart::JobHandle::JobHandle</definition>
+        <argsstring>(StatusCode stat, uint32_t id)</argsstring>
+        <name>JobHandle</name>
+        <param>
+          <type><ref refid="namespacevart_1a199a136a2f428ecad425db9304cfa73c" kindref="member">StatusCode</ref></type>
+          <declname>stat</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_runner_factory.hpp" line="137" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_runner_factory.hpp" bodystart="137" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="structvart_1_1JobHandle_1a773cb4c0614f573974e1d9cd004d30d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>vart::JobHandle::JobHandle</definition>
+        <argsstring>()</argsstring>
+        <name>JobHandle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_runner_factory.hpp" line="139" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_runner_factory.hpp" bodystart="139" bodyend="139"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Struct representing a job handle for asynchronous execution. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>This struct holds the status of a submitted job, including whether it was successfully submitted and its unique identifier. </para>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_runner_factory.hpp" line="132" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_runner_factory.hpp" bodystart="133" bodyend="140"/>
+    <listofallmembers>
+      <member refid="structvart_1_1JobHandle_1a75a1870ce3ce2fac0fb2652092892903" prot="public" virt="non-virtual"><scope>vart::JobHandle</scope><name>job_id</name></member>
+      <member refid="structvart_1_1JobHandle_1a79c3dc4ea2a77592b72f559a28f48edf" prot="public" virt="non-virtual"><scope>vart::JobHandle</scope><name>JobHandle</name></member>
+      <member refid="structvart_1_1JobHandle_1a773cb4c0614f573974e1d9cd004d30d8" prot="public" virt="non-virtual"><scope>vart::JobHandle</scope><name>JobHandle</name></member>
+      <member refid="structvart_1_1JobHandle_1a76455c7ed7c73b33942f449bc757f53c" prot="public" virt="non-virtual"><scope>vart::JobHandle</scope><name>status</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

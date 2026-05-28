@@ -1,0 +1,545 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classvart_1_1VideoFrameImplXRT" kind="class" language="C++" prot="public">
+    <compoundname>vart::VideoFrameImplXRT</compoundname>
+    <basecompoundref refid="classvart_1_1VideoFrameImplBase" prot="public" virt="non-virtual">vart::VideoFrameImplBase</basecompoundref>
+    <includes refid="vart__videoframe__impl__xrt_8hpp" local="no">vart_videoframe_impl_xrt.hpp</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classvart_1_1VideoFrameImplXRT_1ad3cafd58dffa66297f52838c0c175548" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t vart::VideoFrameImplXRT::size</definition>
+        <argsstring></argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/videoframe/vart_videoframe_impl_xrt.hpp" line="158" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/videoframe/vart_videoframe_impl_xrt.hpp" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvart_1_1VideoFrameImplXRT_1a8cb7608d46de11c1f40c2469cd7bbc56" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t vart::VideoFrameImplXRT::mbank_idx</definition>
+        <argsstring></argsstring>
+        <name>mbank_idx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/videoframe/vart_videoframe_impl_xrt.hpp" line="159" column="11" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/videoframe/vart_videoframe_impl_xrt.hpp" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvart_1_1VideoFrameImplXRT_1a003d749f3daa995bfa7f81a7d7948ab6" prot="private" static="no" mutable="no">
+        <type>VvasVideoFrame *</type>
+        <definition>VvasVideoFrame* vart::VideoFrameImplXRT::video_frame</definition>
+        <argsstring></argsstring>
+        <name>video_frame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/videoframe/vart_videoframe_impl_xrt.hpp" line="160" column="18" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/videoframe/vart_videoframe_impl_xrt.hpp" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvart_1_1VideoFrameImplXRT_1a1fe764ab69f0a1b697b3d9e064761bcd" prot="private" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t vart::VideoFrameImplXRT::num_planes</definition>
+        <argsstring></argsstring>
+        <name>num_planes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/videoframe/vart_videoframe_impl_xrt.hpp" line="161" column="12" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/videoframe/vart_videoframe_impl_xrt.hpp" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvart_1_1VideoFrameImplXRT_1a158c5db8510edfd0adc1adbfb45233ae" prot="private" static="no" mutable="no">
+        <type>VvasVideoFrameMapInfo</type>
+        <definition>VvasVideoFrameMapInfo vart::VideoFrameImplXRT::map_info</definition>
+        <argsstring></argsstring>
+        <name>map_info</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/videoframe/vart_videoframe_impl_xrt.hpp" line="162" column="25" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/videoframe/vart_videoframe_impl_xrt.hpp" bodystart="162" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvart_1_1VideoFrameImplXRT_1afe6a3eb982f5a04f4908e70f66a58fd4" prot="private" static="no" mutable="no">
+        <type>VvasAllocationType</type>
+        <definition>VvasAllocationType vart::VideoFrameImplXRT::alloc_type</definition>
+        <argsstring></argsstring>
+        <name>alloc_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/videoframe/vart_videoframe_impl_xrt.hpp" line="163" column="22" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/videoframe/vart_videoframe_impl_xrt.hpp" bodystart="163" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvart_1_1VideoFrameImplXRT_1a5747ff751550abe3ff38bcf1e55dec78" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; struct <ref refid="structvart_1_1log__context" kindref="compound">log_context</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;struct log_context&gt; vart::VideoFrameImplXRT::log_ctx</definition>
+        <argsstring></argsstring>
+        <name>log_ctx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/videoframe/vart_videoframe_impl_xrt.hpp" line="164" column="19" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/videoframe/vart_videoframe_impl_xrt.hpp" bodystart="164" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classvart_1_1VideoFrameImplXRT_1a14bff7bde677931fbecbb676d294b66e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>vart::VideoFrameImplXRT::VideoFrameImplXRT</definition>
+        <argsstring>(VideoFrameImplType type, size_t size_param, uint8_t mbank_idx_param, VideoInfo &amp;vinfo, std::shared_ptr&lt; Device &gt; device)</argsstring>
+        <name>VideoFrameImplXRT</name>
+        <param>
+          <type><ref refid="namespacevart_1af6bbe787a7c472fd3a86348a8ab41a1e" kindref="member">VideoFrameImplType</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size_param</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>mbank_idx_param</declname>
+        </param>
+        <param>
+          <type><ref refid="structvart_1_1VideoInfo" kindref="compound">VideoInfo</ref> &amp;</type>
+          <declname>vinfo</declname>
+        </param>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="classvart_1_1Device" kindref="compound">Device</ref> &gt;</type>
+          <declname>device</declname>
+        </param>
+        <briefdescription>
+<para>VideoFrame() - Constructor for creating video frame instance using implementation specific method based on input &apos;type&apos;. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Enum class to specify which type of memory allocation method to use</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Size of the buffer</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mbank_idx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>memory bank index on which memory needss to be allocated</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>vinfo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="structvart_1_1VideoInfo" kindref="compound">VideoInfo</ref> instance which contains video frame specific information</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>device</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="classvart_1_1Device" kindref="compound">Device</ref> handle to be used by implementation </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/videoframe/vart_videoframe_impl_xrt.hpp" line="49" column="3" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/videoframe/vart_videoframe_impl_xrt.cpp" bodystart="47" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1VideoFrameImplXRT_1a4af7e2aa1d17cfcd973149d81fb0fa4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>vart::VideoFrameImplXRT::VideoFrameImplXRT</definition>
+        <argsstring>(VideoFrameImplType type, std::vector&lt; uint8_t * &gt; &amp;data_vec, VideoInfo &amp;vinfo, std::shared_ptr&lt; Device &gt; device)</argsstring>
+        <name>VideoFrameImplXRT</name>
+        <param>
+          <type><ref refid="namespacevart_1af6bbe787a7c472fd3a86348a8ab41a1e" kindref="member">VideoFrameImplType</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; uint8_t * &gt; &amp;</type>
+          <declname>data_vec</declname>
+        </param>
+        <param>
+          <type><ref refid="structvart_1_1VideoInfo" kindref="compound">VideoInfo</ref> &amp;</type>
+          <declname>vinfo</declname>
+        </param>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="classvart_1_1Device" kindref="compound">Device</ref> &gt;</type>
+          <declname>device</declname>
+        </param>
+        <briefdescription>
+<para>VideoFrame() - Constructor for creating video frame instance using input data pointers. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Enum class to specify which type of memory allocation method to use</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>data_vec</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Vector of user allocated buffer pointers</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>vinfo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="structvart_1_1VideoInfo" kindref="compound">VideoInfo</ref> instance which contains video frame specific information</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>device</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="classvart_1_1Device" kindref="compound">Device</ref> handle to be used by implementation </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/videoframe/vart_videoframe_impl_xrt.hpp" line="71" column="3" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/videoframe/vart_videoframe_impl_xrt.cpp" bodystart="91" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1VideoFrameImplXRT_1a74d1d427324fc28adfe14b61c368528f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>vart::VideoFrameImplXRT::VideoFrameImplXRT</definition>
+        <argsstring>(VideoFrameImplType type, uint8_t mbank_idx, std::vector&lt; xrt::bo * &gt; &amp;bo_vec, VideoInfo &amp;vinfo, std::shared_ptr&lt; Device &gt; device)</argsstring>
+        <name>VideoFrameImplXRT</name>
+        <param>
+          <type><ref refid="namespacevart_1af6bbe787a7c472fd3a86348a8ab41a1e" kindref="member">VideoFrameImplType</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>mbank_idx</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; xrt::bo * &gt; &amp;</type>
+          <declname>bo_vec</declname>
+        </param>
+        <param>
+          <type><ref refid="structvart_1_1VideoInfo" kindref="compound">VideoInfo</ref> &amp;</type>
+          <declname>vinfo</declname>
+        </param>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="classvart_1_1Device" kindref="compound">Device</ref> &gt;</type>
+          <declname>device</declname>
+        </param>
+        <briefdescription>
+<para>VideoFrame() - Constructor for creating video frame instance using input XRT Buffer object(BO) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Enum class to specify which type of memory allocation method to use</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mbank_idx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>memory bank index on which memory was allocated</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bo_vec</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Vector of XRT BOs allocated by user</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>vinfo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="structvart_1_1VideoInfo" kindref="compound">VideoInfo</ref> instance which contains video frame specific information</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>device</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="classvart_1_1Device" kindref="compound">Device</ref> handle to be used by implementation </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/videoframe/vart_videoframe_impl_xrt.hpp" line="95" column="3" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/videoframe/vart_videoframe_impl_xrt.cpp" bodystart="136" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1VideoFrameImplXRT_1abc59db9e817f50850034bec9e2fe9b7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>vart::VideoFrameImplXRT::~VideoFrameImplXRT</definition>
+        <argsstring>()</argsstring>
+        <name>~VideoFrameImplXRT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/videoframe/vart_videoframe_impl_xrt.hpp" line="100" column="3" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/videoframe/vart_videoframe_impl_xrt.cpp" bodystart="287" bodyend="290"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1VideoFrameImplXRT_1a6325a58333011bd4756c1e709d57ecac" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>const <ref refid="structvart_1_1VideoFrameMapInfo" kindref="compound">VideoFrameMapInfo</ref> &amp;</type>
+        <definition>const VideoFrameMapInfo &amp; vart::VideoFrameImplXRT::map</definition>
+        <argsstring>(DataMapFlags map_flags) override</argsstring>
+        <name>map</name>
+        <reimplements refid="classvart_1_1VideoFrameImplBase_1ad3d50f1dc3040ef0ebee5270b824d807">map</reimplements>
+        <param>
+          <type><ref refid="namespacevart_1a7eaeef130d371a48660e46c0ddd5fab9" kindref="member">DataMapFlags</ref></type>
+          <declname>map_flags</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="classvart_1_1VideoFrameImplXRT_1a6325a58333011bd4756c1e709d57ecac" kindref="member">map()</ref> - Maps video frame data to user space </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>map_flags</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Flag used to indicate mode of memory mapping</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns information containing user space data pointer(s) and its corresponding video frame information. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/videoframe/vart_videoframe_impl_xrt.hpp" line="112" column="27" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/videoframe/vart_videoframe_impl_xrt.cpp" bodystart="183" bodyend="221"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1VideoFrameImplXRT_1aa955d79b129adddacee0b4c7fe32c395" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void vart::VideoFrameImplXRT::unmap</definition>
+        <argsstring>() override</argsstring>
+        <name>unmap</name>
+        <reimplements refid="classvart_1_1VideoFrameImplBase_1a01bdb11e0db41c14cc9137edf72c1eca">unmap</reimplements>
+        <briefdescription>
+<para><ref refid="classvart_1_1VideoFrameImplXRT_1aa955d79b129adddacee0b4c7fe32c395" kindref="member">unmap()</ref> - Unmaps video frame data from user space </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/videoframe/vart_videoframe_impl_xrt.hpp" line="117" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/videoframe/vart_videoframe_impl_xrt.cpp" bodystart="223" bodyend="232"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1VideoFrameImplXRT_1aa7da9b575ae7af245b4c533639a215f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>const <ref refid="structvart_1_1VideoInfo" kindref="compound">VideoInfo</ref> &amp;</type>
+        <definition>const VideoInfo &amp; vart::VideoFrameImplXRT::get_video_info</definition>
+        <argsstring>() override</argsstring>
+        <name>get_video_info</name>
+        <reimplements refid="classvart_1_1VideoFrameImplBase_1a3e69df15fcb47ef9225d57264366a414">get_video_info</reimplements>
+        <briefdescription>
+<para><ref refid="classvart_1_1VideoFrameImplXRT_1aa7da9b575ae7af245b4c533639a215f4" kindref="member">get_video_info()</ref> - Retrieves the video frame information from video frame </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Returns infomation related to video frame </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/videoframe/vart_videoframe_impl_xrt.hpp" line="125" column="19" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/videoframe/vart_videoframe_impl_xrt.cpp" bodystart="234" bodyend="263"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1VideoFrameImplXRT_1a3ed587dc2b00329c79c7dcf2af6f4042" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void * vart::VideoFrameImplXRT::get_videoframe_handle</definition>
+        <argsstring>()</argsstring>
+        <name>get_videoframe_handle</name>
+        <briefdescription>
+<para><ref refid="classvart_1_1VideoFrameImplXRT_1a3ed587dc2b00329c79c7dcf2af6f4042" kindref="member">get_videoframe_handle()</ref> - Retrieves video frame handle allocated for current instance </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/videoframe/vart_videoframe_impl_xrt.hpp" line="131" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/videoframe/vart_videoframe_impl_xrt.cpp" bodystart="265" bodyend="267"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1VideoFrameImplXRT_1a9edf83c057a5175a19496032d06da220" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void * vart::VideoFrameImplXRT::get_videoframe_bo</definition>
+        <argsstring>()</argsstring>
+        <name>get_videoframe_bo</name>
+        <briefdescription>
+<para><ref refid="classvart_1_1VideoFrameImplXRT_1a9edf83c057a5175a19496032d06da220" kindref="member">get_videoframe_bo()</ref> - Retrieves the Buffer Object handle of videoframe </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>returns the buffer object </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/videoframe/vart_videoframe_impl_xrt.hpp" line="139" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/videoframe/vart_videoframe_impl_xrt.cpp" bodystart="273" bodyend="281"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1VideoFrameImplXRT_1a469e7a9bc6cec4c71087219c67172cf3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint8_t</type>
+        <definition>uint8_t vart::VideoFrameImplXRT::get_membank_idx</definition>
+        <argsstring>()</argsstring>
+        <name>get_membank_idx</name>
+        <briefdescription>
+<para><ref refid="classvart_1_1VideoFrameImplXRT_1a469e7a9bc6cec4c71087219c67172cf3" kindref="member">get_membank_idx()</ref> - Retrieves the memory bank index on which memory is allocated </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>returns the memory bank index </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/videoframe/vart_videoframe_impl_xrt.hpp" line="148" column="11" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/videoframe/vart_videoframe_impl_xrt.cpp" bodystart="269" bodyend="271"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1VideoFrameImplXRT_1aac58fd4780a7493a90b5f9f7d183db9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>std::shared_ptr&lt; <ref refid="classvart_1_1Device" kindref="compound">Device</ref> &gt;</type>
+        <definition>std::shared_ptr&lt; Device &gt; vart::VideoFrameImplXRT::get_device_handle</definition>
+        <argsstring>() override</argsstring>
+        <name>get_device_handle</name>
+        <reimplements refid="classvart_1_1VideoFrameImplBase_1a39bfa19a3ef8f1b7e292b4da9689d244">get_device_handle</reimplements>
+        <briefdescription>
+<para><ref refid="classvart_1_1VideoFrameImplXRT_1aac58fd4780a7493a90b5f9f7d183db9f" kindref="member">get_device_handle()</ref> - Retrieves the device handle associated with memory allocation </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/videoframe/vart_videoframe_impl_xrt.hpp" line="155" column="19" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/videoframe/vart_videoframe_impl_xrt.cpp" bodystart="283" bodyend="285"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>vart::VideoFrameImplBase</label>
+        <link refid="classvart_1_1VideoFrameImplBase"/>
+      </node>
+      <node id="1">
+        <label>vart::VideoFrameImplXRT</label>
+        <link refid="classvart_1_1VideoFrameImplXRT"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>vart::VideoAlignment</label>
+        <link refid="structvart_1_1VideoAlignment"/>
+      </node>
+      <node id="6">
+        <label>vart::VideoPlaneInfo</label>
+        <link refid="structvart_1_1VideoPlaneInfo"/>
+      </node>
+      <node id="2">
+        <label>vart::VideoFrameImplBase</label>
+        <link refid="classvart_1_1VideoFrameImplBase"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>vinfo</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>vmap_info</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>vart::VideoInfo</label>
+        <link refid="structvart_1_1VideoInfo"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>alignment</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>vart::VideoFrameMapInfo</label>
+        <link refid="structvart_1_1VideoFrameMapInfo"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>alignment</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>planes</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>vart::VideoFrameImplXRT</label>
+        <link refid="classvart_1_1VideoFrameImplXRT"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/videoframe/vart_videoframe_impl_xrt.hpp" line="28" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/videoframe/vart_videoframe_impl_xrt.hpp" bodystart="28" bodyend="165"/>
+    <listofallmembers>
+      <member refid="classvart_1_1VideoFrameImplXRT_1afe6a3eb982f5a04f4908e70f66a58fd4" prot="private" virt="non-virtual"><scope>vart::VideoFrameImplXRT</scope><name>alloc_type</name></member>
+      <member refid="classvart_1_1VideoFrameImplBase_1a9ed6b5856d4ab3a3d2475872b0759280" prot="protected" virt="non-virtual"><scope>vart::VideoFrameImplXRT</scope><name>device</name></member>
+      <member refid="classvart_1_1VideoFrameImplXRT_1aac58fd4780a7493a90b5f9f7d183db9f" prot="public" virt="virtual"><scope>vart::VideoFrameImplXRT</scope><name>get_device_handle</name></member>
+      <member refid="classvart_1_1VideoFrameImplXRT_1a469e7a9bc6cec4c71087219c67172cf3" prot="public" virt="non-virtual"><scope>vart::VideoFrameImplXRT</scope><name>get_membank_idx</name></member>
+      <member refid="classvart_1_1VideoFrameImplXRT_1aa7da9b575ae7af245b4c533639a215f4" prot="public" virt="virtual"><scope>vart::VideoFrameImplXRT</scope><name>get_video_info</name></member>
+      <member refid="classvart_1_1VideoFrameImplXRT_1a9edf83c057a5175a19496032d06da220" prot="public" virt="non-virtual"><scope>vart::VideoFrameImplXRT</scope><name>get_videoframe_bo</name></member>
+      <member refid="classvart_1_1VideoFrameImplXRT_1a3ed587dc2b00329c79c7dcf2af6f4042" prot="public" virt="non-virtual"><scope>vart::VideoFrameImplXRT</scope><name>get_videoframe_handle</name></member>
+      <member refid="classvart_1_1VideoFrameImplXRT_1a5747ff751550abe3ff38bcf1e55dec78" prot="private" virt="non-virtual"><scope>vart::VideoFrameImplXRT</scope><name>log_ctx</name></member>
+      <member refid="classvart_1_1VideoFrameImplXRT_1a6325a58333011bd4756c1e709d57ecac" prot="public" virt="virtual"><scope>vart::VideoFrameImplXRT</scope><name>map</name></member>
+      <member refid="classvart_1_1VideoFrameImplXRT_1a158c5db8510edfd0adc1adbfb45233ae" prot="private" virt="non-virtual"><scope>vart::VideoFrameImplXRT</scope><name>map_info</name></member>
+      <member refid="classvart_1_1VideoFrameImplXRT_1a8cb7608d46de11c1f40c2469cd7bbc56" prot="private" virt="non-virtual"><scope>vart::VideoFrameImplXRT</scope><name>mbank_idx</name></member>
+      <member refid="classvart_1_1VideoFrameImplXRT_1a1fe764ab69f0a1b697b3d9e064761bcd" prot="private" virt="non-virtual"><scope>vart::VideoFrameImplXRT</scope><name>num_planes</name></member>
+      <member refid="classvart_1_1VideoFrameImplXRT_1ad3cafd58dffa66297f52838c0c175548" prot="private" virt="non-virtual"><scope>vart::VideoFrameImplXRT</scope><name>size</name></member>
+      <member refid="classvart_1_1VideoFrameImplXRT_1aa955d79b129adddacee0b4c7fe32c395" prot="public" virt="virtual"><scope>vart::VideoFrameImplXRT</scope><name>unmap</name></member>
+      <member refid="classvart_1_1VideoFrameImplXRT_1a003d749f3daa995bfa7f81a7d7948ab6" prot="private" virt="non-virtual"><scope>vart::VideoFrameImplXRT</scope><name>video_frame</name></member>
+      <member refid="classvart_1_1VideoFrameImplBase_1a96871a777c8e5a281edc3b51ee413064" prot="public" virt="non-virtual"><scope>vart::VideoFrameImplXRT</scope><name>VideoFrameImplBase</name></member>
+      <member refid="classvart_1_1VideoFrameImplBase_1a9d1206a6866ef2074f3fa1584419f8fe" prot="public" virt="non-virtual"><scope>vart::VideoFrameImplXRT</scope><name>VideoFrameImplBase</name></member>
+      <member refid="classvart_1_1VideoFrameImplXRT_1a14bff7bde677931fbecbb676d294b66e" prot="public" virt="non-virtual"><scope>vart::VideoFrameImplXRT</scope><name>VideoFrameImplXRT</name></member>
+      <member refid="classvart_1_1VideoFrameImplXRT_1a4af7e2aa1d17cfcd973149d81fb0fa4d" prot="public" virt="non-virtual"><scope>vart::VideoFrameImplXRT</scope><name>VideoFrameImplXRT</name></member>
+      <member refid="classvart_1_1VideoFrameImplXRT_1a74d1d427324fc28adfe14b61c368528f" prot="public" virt="non-virtual"><scope>vart::VideoFrameImplXRT</scope><name>VideoFrameImplXRT</name></member>
+      <member refid="classvart_1_1VideoFrameImplBase_1a3e89a5f0d12a4eaa5d2fd2078db7441c" prot="protected" virt="non-virtual"><scope>vart::VideoFrameImplXRT</scope><name>vinfo</name></member>
+      <member refid="classvart_1_1VideoFrameImplBase_1a8669ec923edde9db9cf85331e49ad0e1" prot="protected" virt="non-virtual"><scope>vart::VideoFrameImplXRT</scope><name>vmap_info</name></member>
+      <member refid="classvart_1_1VideoFrameImplBase_1a4b70761ea8c694b9f5cec04a63922d0e" prot="public" virt="virtual"><scope>vart::VideoFrameImplXRT</scope><name>~VideoFrameImplBase</name></member>
+      <member refid="classvart_1_1VideoFrameImplXRT_1abc59db9e817f50850034bec9e2fe9b7b" prot="public" virt="non-virtual"><scope>vart::VideoFrameImplXRT</scope><name>~VideoFrameImplXRT</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

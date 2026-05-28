@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_3de64cdcea68640d7d230d5489a9b776" kind="dir">
+    <compoundname>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils</compoundname>
+    <innerfile refid="fpga__info_8cpp">fpga_info.cpp</innerfile>
+    <innerfile refid="fpga__info_8h">fpga_info.h</innerfile>
+    <innerfile refid="json__parser_8h">json_parser.h</innerfile>
+    <innerfile refid="npu__reg_8h">npu_reg.h</innerfile>
+    <innerfile refid="parsing__combinators_8cpp">parsing_combinators.cpp</innerfile>
+    <innerfile refid="parsing__combinators_8h">parsing_combinators.h</innerfile>
+    <innerfile refid="reporting_8cpp">reporting.cpp</innerfile>
+    <innerfile refid="reporting_8h">reporting.h</innerfile>
+    <innerfile refid="shell_8cpp">shell.cpp</innerfile>
+    <innerfile refid="shell_8h">shell.h</innerfile>
+    <innerfile refid="stats_8cpp">stats.cpp</innerfile>
+    <innerfile refid="stats_8h">stats.h</innerfile>
+    <innerfile refid="vart__ml__error_8cpp">vart_ml_error.cpp</innerfile>
+    <innerfile refid="vart__ml__error_8h">vart_ml_error.h</innerfile>
+    <innerfile refid="vart__ml__log_8cpp">vart_ml_log.cpp</innerfile>
+    <innerfile refid="vart__ml__log_8h">vart_ml_log.h</innerfile>
+    <innerfile refid="vcd__stats_8cpp">vcd_stats.cpp</innerfile>
+    <innerfile refid="vcd__stats_8h">vcd_stats.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/"/>
+  </compounddef>
+</doxygen>

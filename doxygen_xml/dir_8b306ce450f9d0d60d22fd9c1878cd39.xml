@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_8b306ce450f9d0d60d22fd9c1878cd39" kind="dir">
+    <compoundname>/group/bcapps/dachang</compoundname>
+    <innerdir refid="dir_94e8efb3c123c5c893bf4a4ff9c2432a">/group/bcapps/dachang/PSAS_HACKATHON</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/"/>
+  </compounddef>
+</doxygen>

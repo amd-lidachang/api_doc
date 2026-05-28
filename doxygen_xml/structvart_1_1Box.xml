@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structvart_1_1Box" kind="struct" language="C++" prot="public">
+    <compoundname>vart::Box</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structvart_1_1Box_1ab7591cb72cf234761fc7c15110378af3" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; vart::Box::probs</definition>
+        <argsstring></argsstring>
+        <name>probs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess/vart_postprocess_impl_yolov2.cpp" line="37" column="15" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess/vart_postprocess_impl_yolov2.cpp" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1Box_1a6d6924dd126b10dc5a69472b813e2ff3" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float vart::Box::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess/vart_postprocess_impl_yolov2.cpp" line="38" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess/vart_postprocess_impl_yolov2.cpp" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1Box_1a5c492f05bc2f7fd07dbbee2f3379e002" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float vart::Box::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess/vart_postprocess_impl_yolov2.cpp" line="38" column="11" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess/vart_postprocess_impl_yolov2.cpp" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1Box_1ae708920d54c09b51a7d746a17d15c4c2" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float vart::Box::w</definition>
+        <argsstring></argsstring>
+        <name>w</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess/vart_postprocess_impl_yolov2.cpp" line="38" column="13" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess/vart_postprocess_impl_yolov2.cpp" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1Box_1a5cc36e7238002cc7468dad8cf2e1fbca" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float vart::Box::h</definition>
+        <argsstring></argsstring>
+        <name>h</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess/vart_postprocess_impl_yolov2.cpp" line="38" column="15" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess/vart_postprocess_impl_yolov2.cpp" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1Box_1ac3619f440810c18073ce4dc49d8522c9" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float vart::Box::conf</definition>
+        <argsstring></argsstring>
+        <name>conf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess/vart_postprocess_impl_yolov2.cpp" line="38" column="17" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess/vart_postprocess_impl_yolov2.cpp" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess/vart_postprocess_impl_yolov2.cpp" line="36" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess/vart_postprocess_impl_yolov2.cpp" bodystart="36" bodyend="39"/>
+    <listofallmembers>
+      <member refid="structvart_1_1Box_1ac3619f440810c18073ce4dc49d8522c9" prot="public" virt="non-virtual"><scope>vart::Box</scope><name>conf</name></member>
+      <member refid="structvart_1_1Box_1a5cc36e7238002cc7468dad8cf2e1fbca" prot="public" virt="non-virtual"><scope>vart::Box</scope><name>h</name></member>
+      <member refid="structvart_1_1Box_1ab7591cb72cf234761fc7c15110378af3" prot="public" virt="non-virtual"><scope>vart::Box</scope><name>probs</name></member>
+      <member refid="structvart_1_1Box_1ae708920d54c09b51a7d746a17d15c4c2" prot="public" virt="non-virtual"><scope>vart::Box</scope><name>w</name></member>
+      <member refid="structvart_1_1Box_1a6d6924dd126b10dc5a69472b813e2ff3" prot="public" virt="non-virtual"><scope>vart::Box</scope><name>x</name></member>
+      <member refid="structvart_1_1Box_1a5c492f05bc2f7fd07dbbee2f3379e002" prot="public" virt="non-virtual"><scope>vart::Box</scope><name>y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

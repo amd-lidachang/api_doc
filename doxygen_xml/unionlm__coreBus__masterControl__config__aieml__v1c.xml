@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="unionlm__coreBus__masterControl__config__aieml__v1c" kind="union" language="C++" prot="public">
+    <compoundname>lm_coreBus_masterControl_config_aieml_v1c</compoundname>
+    <includes refid="private_8h" local="no">private.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="unionlm__coreBus__masterControl__config__aieml__v1c_1aea59ffd1d55c8efe1953f290a755c118" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t lm_coreBus_masterControl_config_aieml_v1c::reg[7]</definition>
+        <argsstring>[7]</argsstring>
+        <name>reg</name>
+        <initializer>= { 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="203" column="46" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="203" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unionlm__coreBus__masterControl__config__aieml__v1c_1aa9a8dd6d613a1bec70c652439d682831" prot="public" static="no" mutable="no">
+        <type><ref refid="structlm__coreBus__masterControl__config__aieml__v1c__bf" kindref="compound">lm_coreBus_masterControl_config_aieml_v1c_bf</ref></type>
+        <definition>lm_coreBus_masterControl_config_aieml_v1c_bf lm_coreBus_masterControl_config_aieml_v1c::bf</definition>
+        <argsstring></argsstring>
+        <name>bf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="204" column="46" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="204" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>lm_coreBus_masterControl_config_aieml_v1c_bf</label>
+        <link refid="structlm__coreBus__masterControl__config__aieml__v1c__bf"/>
+      </node>
+      <node id="1">
+        <label>lm_coreBus_masterControl_config_aieml_v1c</label>
+        <link refid="unionlm__coreBus__masterControl__config__aieml__v1c"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>bf</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="201" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="202" bodyend="206"/>
+    <listofallmembers>
+      <member refid="unionlm__coreBus__masterControl__config__aieml__v1c_1aa9a8dd6d613a1bec70c652439d682831" prot="public" virt="non-virtual"><scope>lm_coreBus_masterControl_config_aieml_v1c</scope><name>bf</name></member>
+      <member refid="unionlm__coreBus__masterControl__config__aieml__v1c_1aea59ffd1d55c8efe1953f290a755c118" prot="public" virt="non-virtual"><scope>lm_coreBus_masterControl_config_aieml_v1c</scope><name>reg</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structaddr" kind="struct" language="C++" prot="public">
+    <compoundname>addr</compoundname>
+    <includes refid="vart__ml__io_8h" local="no">vart_ml_io.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structaddr_1a8a39b6c19ba4f8745709b1da575ceaa6" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void * addr::ddr_vaddr</definition>
+        <argsstring></argsstring>
+        <name>ddr_vaddr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="44" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structaddr_1a4af73f39dd19398776408b0fe9d066e0" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t addr::phy_addr</definition>
+        <argsstring></argsstring>
+        <name>phy_addr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="45" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structaddr_1a558a39a866e72b1f72b369f67a2895c5" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t addr::offset</definition>
+        <argsstring></argsstring>
+        <name>offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="46" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structaddr_1ab855d9af77629f58c3e52ca0e7489d9d" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t addr::nbuff_conf_val</definition>
+        <argsstring></argsstring>
+        <name>nbuff_conf_val</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="47" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Structure representing a DDR address. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>This structure contains the pointer to the beginning of the mapped space in DDR, the physical address, and the offset in this virtual DDR. </para>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="42" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" bodystart="43" bodyend="48"/>
+    <listofallmembers>
+      <member refid="structaddr_1a8a39b6c19ba4f8745709b1da575ceaa6" prot="public" virt="non-virtual"><scope>addr</scope><name>ddr_vaddr</name></member>
+      <member refid="structaddr_1ab855d9af77629f58c3e52ca0e7489d9d" prot="public" virt="non-virtual"><scope>addr</scope><name>nbuff_conf_val</name></member>
+      <member refid="structaddr_1a558a39a866e72b1f72b369f67a2895c5" prot="public" virt="non-virtual"><scope>addr</scope><name>offset</name></member>
+      <member refid="structaddr_1a4af73f39dd19398776408b0fe9d066e0" prot="public" virt="non-virtual"><scope>addr</scope><name>phy_addr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

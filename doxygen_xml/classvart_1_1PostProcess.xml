@@ -1,0 +1,275 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classvart_1_1PostProcess" kind="class" language="C++" prot="public">
+    <compoundname>vart::PostProcess</compoundname>
+    <includes refid="vart__postprocess_8hpp" local="no">vart_postprocess.hpp</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classvart_1_1PostProcess_1a58e631b40a87ad4d1b834b717330c9b3" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="classvart_1_1PostProcessImplBase" kindref="compound">PostProcessImplBase</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;PostProcessImplBase&gt; vart::PostProcess::pimpl</definition>
+        <argsstring></argsstring>
+        <name>pimpl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_postprocess.hpp" line="125" column="19" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_postprocess.hpp" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classvart_1_1PostProcess_1a1b3dcab145b75a936bb69fc22f363dc2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>vart::PostProcess::PostProcess</definition>
+        <argsstring>()=delete</argsstring>
+        <name>PostProcess</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_postprocess.hpp" line="40" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1PostProcess_1a14d1a111653d3b038ac3a72a5a70aca4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>vart::PostProcess::PostProcess</definition>
+        <argsstring>(PostProcessType postprocess_type, std::string &amp;json_data, std::shared_ptr&lt; Device &gt; device)</argsstring>
+        <name>PostProcess</name>
+        <param>
+          <type><ref refid="namespacevart_1a03dcadccfffe6fcd0b1fb58d11f6aa82" kindref="member">PostProcessType</ref></type>
+          <declname>postprocess_type</declname>
+        </param>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>json_data</declname>
+        </param>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="classvart_1_1Device" kindref="compound">Device</ref> &gt;</type>
+          <declname>device</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="classvart_1_1PostProcess_1a1b3dcab145b75a936bb69fc22f363dc2" kindref="member">PostProcess()</ref> - Constructor for using existing post-process implementations. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>postprocess_type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Enum class to specify which implementation to instantiate </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>json_data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>JSON config string based on the implementation class </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>device</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="classvart_1_1Device" kindref="compound">Device</ref> handle to be used by implementations </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_postprocess.hpp" line="53" column="3" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess/vart_postprocess.cpp" bodystart="26" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1PostProcess_1a14f5dbeb155fba006c414bf4e241dcc4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>vart::PostProcess::PostProcess</definition>
+        <argsstring>(std::shared_ptr&lt; PostProcessImplBase &gt; ptr)</argsstring>
+        <name>PostProcess</name>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="classvart_1_1PostProcessImplBase" kindref="compound">PostProcessImplBase</ref> &gt;</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="classvart_1_1PostProcess_1a1b3dcab145b75a936bb69fc22f363dc2" kindref="member">PostProcess()</ref> - Constructor for using user defined implementation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ptr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer to user&apos;s implementation instance </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_postprocess.hpp" line="64" column="3" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess/vart_postprocess.cpp" bodystart="43" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1PostProcess_1a53761e83a5f4e3e05c2fd35d393d234b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::shared_ptr&lt; <ref refid="classvart_1_1PostProcessImplBase" kindref="compound">PostProcessImplBase</ref> &gt; &amp;</type>
+        <definition>const std::shared_ptr&lt; PostProcessImplBase &gt; &amp; vart::PostProcess::get_pimpl_handle</definition>
+        <argsstring>() const</argsstring>
+        <name>get_pimpl_handle</name>
+        <briefdescription>
+<para><ref refid="classvart_1_1PostProcess_1a53761e83a5f4e3e05c2fd35d393d234b" kindref="member">get_pimpl_handle()</ref> - Gives pointer to implementation class. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Returns a constant reference of pointer to implementation class. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_postprocess.hpp" line="72" column="25" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess/vart_postprocess.cpp" bodystart="46" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1PostProcess_1a4219be4c66ff7739245852c1dcdfd6cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void vart::PostProcess::set_config</definition>
+        <argsstring>(std::vector&lt; TensorInfo &gt; &amp;info, uint32_t batch_size)</argsstring>
+        <name>set_config</name>
+        <param>
+          <type>std::vector&lt; <ref refid="structvart_1_1TensorInfo" kindref="compound">TensorInfo</ref> &gt; &amp;</type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>batch_size</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="classvart_1_1PostProcess_1a4219be4c66ff7739245852c1dcdfd6cb" kindref="member">set_config()</ref> - Set PostProcessInfo config data before start doing the post-process. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="structvart_1_1TensorInfo" kindref="compound">TensorInfo</ref> to be set. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>batch_size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Supported batch size.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+Use this method to set batch size per tensor and tensor information required to parse/process the ML network output. Call this method before the first call to &quot;process&quot; method. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_postprocess.hpp" line="87" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess/vart_postprocess.cpp" bodystart="51" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1PostProcess_1a7663a8fadf8a55c36ecc13a12fea9b55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; std::vector&lt; std::shared_ptr&lt; <ref refid="classvart_1_1InferResult" kindref="compound">InferResult</ref> &gt; &gt; &gt;</type>
+        <definition>std::vector&lt; std::vector&lt; std::shared_ptr&lt; InferResult &gt; &gt; &gt; vart::PostProcess::process</definition>
+        <argsstring>(std::vector&lt; int8_t * &gt; data, uint32_t current_batch_size)</argsstring>
+        <name>process</name>
+        <param>
+          <type>std::vector&lt; int8_t * &gt;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>current_batch_size</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="classvart_1_1PostProcess_1a7663a8fadf8a55c36ecc13a12fea9b55" kindref="member">process()</ref> - Process/parse tensors data from ML network output to create infer results. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Vector of tensors data. Each tensor will have the data for the entire batch of images. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>current_batch_size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Numer of inputs in the current batch</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Vector of inference result objects for every image in the batch. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_postprocess.hpp" line="102" column="15" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess/vart_postprocess.cpp" bodystart="55" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1PostProcess_1a98fe4802b06d607e115ef9308448d003" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; std::vector&lt; std::shared_ptr&lt; <ref refid="classvart_1_1InferResult" kindref="compound">InferResult</ref> &gt; &gt; &gt;</type>
+        <definition>std::vector&lt; std::vector&lt; std::shared_ptr&lt; InferResult &gt; &gt; &gt; vart::PostProcess::process</definition>
+        <argsstring>(std::vector&lt; std::vector&lt; std::shared_ptr&lt; vart::Memory &gt;&gt;&gt; tensor_memory, uint32_t current_batch_size)</argsstring>
+        <name>process</name>
+        <param>
+          <type>std::vector&lt; std::vector&lt; std::shared_ptr&lt; <ref refid="classvart_1_1Memory" kindref="compound">vart::Memory</ref> &gt;&gt;&gt;</type>
+          <declname>tensor_memory</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>current_batch_size</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="classvart_1_1PostProcess_1a7663a8fadf8a55c36ecc13a12fea9b55" kindref="member">process()</ref> - Process/parse tensors data from ML network output to create infer results. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tensor_memory</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Vector of <ref refid="classvart_1_1Memory" kindref="compound">vart::Memory</ref> pointers. Each <ref refid="classvart_1_1Memory" kindref="compound">vart::Memory</ref> contains one tensor, total number of tensors is equal to current_batch_size * number of tensors in each batch. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>current_batch_size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Numer of inputs in the current batch</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Vector of inference result objects for every image in the batch. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_postprocess.hpp" line="120" column="15" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess/vart_postprocess.cpp" bodystart="61" bodyend="65"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This module performs additional computations on output tensor data from NPU to generate more meaningful interpretation. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Post processing by default supports YOLOv2, ResNet50, SSD-ResNet34, please check API documentation on usage and additional information. If an application requires custom post processing, it can override the base class methods. </para>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_postprocess.hpp" line="38" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_postprocess.hpp" bodystart="38" bodyend="126"/>
+    <listofallmembers>
+      <member refid="classvart_1_1PostProcess_1a53761e83a5f4e3e05c2fd35d393d234b" prot="public" virt="non-virtual"><scope>vart::PostProcess</scope><name>get_pimpl_handle</name></member>
+      <member refid="classvart_1_1PostProcess_1a58e631b40a87ad4d1b834b717330c9b3" prot="private" virt="non-virtual"><scope>vart::PostProcess</scope><name>pimpl</name></member>
+      <member refid="classvart_1_1PostProcess_1a1b3dcab145b75a936bb69fc22f363dc2" prot="public" virt="non-virtual"><scope>vart::PostProcess</scope><name>PostProcess</name></member>
+      <member refid="classvart_1_1PostProcess_1a14d1a111653d3b038ac3a72a5a70aca4" prot="public" virt="non-virtual"><scope>vart::PostProcess</scope><name>PostProcess</name></member>
+      <member refid="classvart_1_1PostProcess_1a14f5dbeb155fba006c414bf4e241dcc4" prot="public" virt="non-virtual"><scope>vart::PostProcess</scope><name>PostProcess</name></member>
+      <member refid="classvart_1_1PostProcess_1a7663a8fadf8a55c36ecc13a12fea9b55" prot="public" virt="non-virtual"><scope>vart::PostProcess</scope><name>process</name></member>
+      <member refid="classvart_1_1PostProcess_1a98fe4802b06d607e115ef9308448d003" prot="public" virt="non-virtual"><scope>vart::PostProcess</scope><name>process</name></member>
+      <member refid="classvart_1_1PostProcess_1a4219be4c66ff7739245852c1dcdfd6cb" prot="public" virt="non-virtual"><scope>vart::PostProcess</scope><name>set_config</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

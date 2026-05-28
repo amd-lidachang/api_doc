@@ -1,0 +1,352 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="vart__ml__log_8cpp" kind="file" language="C++">
+    <compoundname>vart_ml_log.cpp</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">string.h</includes>
+    <includes refid="vart__ml__log_8h" local="yes">vart_ml_log.h</includes>
+    <includes refid="vart__ml__io_8h" local="yes">vart_ml_io/vart_ml_io.h</includes>
+    <incdepgraph>
+      <node id="10">
+        <label>stdbool.h</label>
+      </node>
+      <node id="11">
+        <label>stdarg.h</label>
+      </node>
+      <node id="6">
+        <label>vart_ml_error.inc</label>
+      </node>
+      <node id="9">
+        <label>stdint.h</label>
+      </node>
+      <node id="5">
+        <label>vart_ml_error.h</label>
+        <link refid="vart__ml__error_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vart_ml_log.cpp</label>
+        <link refid="vart__ml__log_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>stddef.h</label>
+      </node>
+      <node id="3">
+        <label>string.h</label>
+      </node>
+      <node id="7">
+        <label>vart_ml_io/vart_ml_io.h</label>
+        <link refid="vart__ml__io_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>vart_ml_log.h</label>
+        <link refid="vart__ml__log_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>stdio.h</label>
+      </node>
+      <node id="12">
+        <label>vart_ml_utils/fpga_info.h</label>
+        <link refid="fpga__info_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="vart__ml__log_8cpp_1adc4c5525fe3e90ec294ae9a92e5387d2" prot="public" static="yes" mutable="no">
+        <type><ref refid="vart__ml__log_8h_1a13dde5d90443fbbdee84e158585e5a86" kindref="member">vart_ml_log_level</ref></type>
+        <definition>vart_ml_log_level curr_log_lvl</definition>
+        <argsstring></argsstring>
+        <name>curr_log_lvl</name>
+        <initializer>= <ref refid="vart__ml__log_8h_1a13dde5d90443fbbdee84e158585e5a86a6e98ff471e3ce6c4ef2d75c37ee51837" kindref="member">LOG_INFO</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vart_ml_log.cpp" line="24" column="26" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vart_ml_log.cpp" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="vart__ml__log_8cpp_1a0f8e8f940544ea36551b62779082ccd5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_log_lvl</definition>
+        <argsstring>(vart_ml_log_level lvl)</argsstring>
+        <name>set_log_lvl</name>
+        <param>
+          <type><ref refid="vart__ml__log_8h_1a13dde5d90443fbbdee84e158585e5a86" kindref="member">vart_ml_log_level</ref></type>
+          <declname>lvl</declname>
+        </param>
+        <briefdescription>
+<para>Set log level. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>lvl</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New log level. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vart_ml_log.cpp" line="26" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vart_ml_log.cpp" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__log_8cpp_1affeb51a6c3ad39c02230cf01c8011d2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_log_lvl_from_str</definition>
+        <argsstring>(const char *lvl)</argsstring>
+        <name>set_log_lvl_from_str</name>
+        <param>
+          <type>const char *</type>
+          <declname>lvl</declname>
+        </param>
+        <briefdescription>
+<para>Set log level. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>If the level received is unknown, the current level is not modified.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>lvl</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New log level. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vart_ml_log.cpp" line="28" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vart_ml_log.cpp" bodystart="28" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__log_8cpp_1a696d363b5d992737a27719e85eaaab1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="vart__ml__log_8h_1a13dde5d90443fbbdee84e158585e5a86" kindref="member">vart_ml_log_level</ref></type>
+        <definition>vart_ml_log_level get_log_lvl</definition>
+        <argsstring>()</argsstring>
+        <name>get_log_lvl</name>
+        <briefdescription>
+<para>Returns the current log level. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vart_ml_log.cpp" line="43" column="19" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vart_ml_log.cpp" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__log_8cpp_1ad88f378221533bedd96f9f98aa5724dd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void vart_ml_log_helper</definition>
+        <argsstring>(vart_ml_log_level lvl, const char *fmt, va_list args)</argsstring>
+        <name>vart_ml_log_helper</name>
+        <param>
+          <type><ref refid="vart__ml__log_8h_1a13dde5d90443fbbdee84e158585e5a86" kindref="member">vart_ml_log_level</ref></type>
+          <declname>lvl</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>fmt</declname>
+        </param>
+        <param>
+          <type>va_list</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vart_ml_log.cpp" line="45" column="13" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vart_ml_log.cpp" bodystart="45" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__log_8cpp_1a45df91bf94fa17b9927cf1ff382272dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void vart_ml_log</definition>
+        <argsstring>(vart_ml_log_level lvl, const char *fmt,...)</argsstring>
+        <name>vart_ml_log</name>
+        <param>
+          <type><ref refid="vart__ml__log_8h_1a13dde5d90443fbbdee84e158585e5a86" kindref="member">vart_ml_log_level</ref></type>
+          <declname>lvl</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>fmt</declname>
+        </param>
+        <param>
+          <type>...</type>
+        </param>
+        <briefdescription>
+<para>System logging function. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>lvl</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Logging level to be associated with the message. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fmt</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>C string that contains a format string that follows the same specifications as format in printf. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vart_ml_log.cpp" line="51" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vart_ml_log.cpp" bodystart="51" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__log_8cpp_1aeb85eb44f9fc195c6e1d70af02f658a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int vart_ml_log_err</definition>
+        <argsstring>(vart_ml_error::vart_ml_error_id err)</argsstring>
+        <name>vart_ml_log_err</name>
+        <param>
+          <type><ref refid="vart__ml__error_8h_1ab6de3533f3f64696a2b717a12be7f9f9" kindref="member">vart_ml_error::vart_ml_error_id</ref></type>
+          <declname>err</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vart_ml_log.cpp" line="59" column="5" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vart_ml_log.cpp" bodystart="59" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__log_8cpp_1a2f6c6a262c1a57e59110872fd716753b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int vart_ml_log_err_msg</definition>
+        <argsstring>(vart_ml_error::vart_ml_error_id err, const char *fmt,...)</argsstring>
+        <name>vart_ml_log_err_msg</name>
+        <param>
+          <type><ref refid="vart__ml__error_8h_1ab6de3533f3f64696a2b717a12be7f9f9" kindref="member">vart_ml_error::vart_ml_error_id</ref></type>
+          <declname>err</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>fmt</declname>
+        </param>
+        <param>
+          <type>...</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vart_ml_log.cpp" line="68" column="5" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vart_ml_log.cpp" bodystart="68" bodyend="77"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="copyright"><para>Copyright 2024 Advanced Micro Devices Inc.</para>
+</simplesect>
+Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <verbatim>http://www.apache.org/licenses/LICENSE-2.0
+</verbatim> Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. </para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="vart__ml__log_8h" kindref="compound">vart_ml_log.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="vart__ml__io_8h" kindref="compound">vart_ml_io/vart_ml_io.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="vart__ml__log_8h_1a13dde5d90443fbbdee84e158585e5a86" kindref="member">vart_ml_log_level</ref><sp/>curr_log_lvl<sp/>=<sp/><ref refid="vart__ml__log_8h_1a13dde5d90443fbbdee84e158585e5a86a6e98ff471e3ce6c4ef2d75c37ee51837" kindref="member">LOG_INFO</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="vart__ml__log_8cpp_1a0f8e8f940544ea36551b62779082ccd5" kindref="member">set_log_lvl</ref>(<ref refid="vart__ml__log_8h_1a13dde5d90443fbbdee84e158585e5a86" kindref="member">vart_ml_log_level</ref><sp/>lvl)<sp/>{<sp/>curr_log_lvl<sp/>=<sp/>lvl;<sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="vart__ml__log_8cpp_1affeb51a6c3ad39c02230cf01c8011d2f" kindref="member">set_log_lvl_from_str</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>lvl)</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(lvl<sp/>==<sp/>NULL)</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(strcmp(lvl,<sp/></highlight><highlight class="stringliteral">&quot;LOG_DBG&quot;</highlight><highlight class="normal">)<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>curr_log_lvl<sp/>=<sp/><ref refid="vart__ml__log_8h_1a13dde5d90443fbbdee84e158585e5a86aed0fee492df6993229fb10a34ac05cb0" kindref="member">LOG_DBG</ref>;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(strcmp(lvl,<sp/></highlight><highlight class="stringliteral">&quot;LOG_INFO&quot;</highlight><highlight class="normal">)<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>curr_log_lvl<sp/>=<sp/><ref refid="vart__ml__log_8h_1a13dde5d90443fbbdee84e158585e5a86a6e98ff471e3ce6c4ef2d75c37ee51837" kindref="member">LOG_INFO</ref>;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(strcmp(lvl,<sp/></highlight><highlight class="stringliteral">&quot;LOG_WARN&quot;</highlight><highlight class="normal">)<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>curr_log_lvl<sp/>=<sp/><ref refid="vart__ml__log_8h_1a13dde5d90443fbbdee84e158585e5a86ac8041ffa22bc823d4726701cdb13fc13" kindref="member">LOG_WARN</ref>;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(strcmp(lvl,<sp/></highlight><highlight class="stringliteral">&quot;LOG_ERR&quot;</highlight><highlight class="normal">)<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>curr_log_lvl<sp/>=<sp/><ref refid="vart__ml__log_8h_1a13dde5d90443fbbdee84e158585e5a86a0b4d9ad891dde7ae8deeb1704195858c" kindref="member">LOG_ERR</ref>;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><ref refid="vart__ml__log_8h_1a13dde5d90443fbbdee84e158585e5a86" kindref="member">vart_ml_log_level</ref><sp/><ref refid="vart__ml__log_8cpp_1a696d363b5d992737a27719e85eaaab1f" kindref="member">get_log_lvl</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>curr_log_lvl;<sp/>}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>vart_ml_log_helper(<ref refid="vart__ml__log_8h_1a13dde5d90443fbbdee84e158585e5a86" kindref="member">vart_ml_log_level</ref><sp/>lvl,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>fmt,<sp/>va_list<sp/>args)</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(lvl<sp/>&gt;=<sp/>curr_log_lvl)</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="vart__ml__io_8c_1a688a050c33cb41bfeb7363a04c759eb4" kindref="member">vart_ml_vprintf</ref>(fmt,<sp/>args);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="vart__ml__log_8cpp_1a45df91bf94fa17b9927cf1ff382272dd" kindref="member">vart_ml_log</ref>(<ref refid="vart__ml__log_8h_1a13dde5d90443fbbdee84e158585e5a86" kindref="member">vart_ml_log_level</ref><sp/>lvl,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>fmt,<sp/>...)</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>va_list<sp/>args;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>va_start(args,<sp/>fmt);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>vart_ml_log_helper(lvl,<sp/>fmt,<sp/>args);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>va_end(args);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="vart__ml__log_8cpp_1aeb85eb44f9fc195c6e1d70af02f658a6" kindref="member">vart_ml_log_err</ref>(<ref refid="vart__ml__error_8h_1ab6de3533f3f64696a2b717a12be7f9f9" kindref="member">vart_ml_error::vart_ml_error_id</ref><sp/>err)</highlight></codeline>
+<codeline lineno="60"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="vart__ml__log_8cpp_1a45df91bf94fa17b9927cf1ff382272dd" kindref="member">vart_ml_log</ref>(<ref refid="vart__ml__log_8h_1a13dde5d90443fbbdee84e158585e5a86a0b4d9ad891dde7ae8deeb1704195858c" kindref="member">LOG_ERR</ref>,</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;[VART]<sp/>\033[1;31m[ERROR]\033[0m<sp/>%s<sp/>was<sp/>caught:<sp/>%s\n&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vart_ml_error::get_error_names(err),</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vart_ml_error::get_error_messages(err));</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>err;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="vart__ml__log_8cpp_1a2f6c6a262c1a57e59110872fd716753b" kindref="member">vart_ml_log_err_msg</ref>(<ref refid="vart__ml__error_8h_1ab6de3533f3f64696a2b717a12be7f9f9" kindref="member">vart_ml_error::vart_ml_error_id</ref><sp/>err,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>fmt,<sp/>...)</highlight></codeline>
+<codeline lineno="69"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>va_list<sp/>args;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>va_start(args,<sp/>fmt);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="vart__ml__log_8cpp_1aeb85eb44f9fc195c6e1d70af02f658a6" kindref="member">vart_ml_log_err</ref>(err);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>vart_ml_log_helper(<ref refid="vart__ml__log_8h_1a13dde5d90443fbbdee84e158585e5a86a0b4d9ad891dde7ae8deeb1704195858c" kindref="member">LOG_ERR</ref>,<sp/>fmt,<sp/>args);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>va_end(args);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>fflush(stdout);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>err;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vart_ml_log.cpp"/>
+  </compounddef>
+</doxygen>

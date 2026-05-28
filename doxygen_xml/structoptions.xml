@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structoptions" kind="struct" language="C++" prot="public">
+    <compoundname>options</compoundname>
+    <includes refid="common_8h" local="no">common.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structoptions_1a8e0c1ad76914351f33183ac95b55b22e" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t options::nbImages</definition>
+        <argsstring></argsstring>
+        <name>nbImages</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" line="35" column="62" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structoptions_1a8bcec93ca5b1813b912f861e3e63a53c" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t options::batchSize</definition>
+        <argsstring></argsstring>
+        <name>batchSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" line="36" column="62" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structoptions_1a30fa508528c7fca383692e595b0b96e5" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt;std::string&gt; options::categories</definition>
+        <argsstring></argsstring>
+        <name>categories</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" line="37" column="49" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structoptions_1a4c103cf16ec5ae7b0bbd2dd8e77418fa" prot="public" static="no" mutable="no">
+        <type>std::map&lt; std::string, std::string &gt;</type>
+        <definition>std::map&lt;std::string, std::string&gt; options::gold</definition>
+        <argsstring></argsstring>
+        <name>gold</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" line="38" column="36" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structoptions_1adf2baf1fa2ebaf67d3569dd338ea9d58" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool options::noGoldOutput</definition>
+        <argsstring></argsstring>
+        <name>noGoldOutput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" line="39" column="62" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structoptions_1a999a3ea6240de5122777f115ed6fdf3c" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string options::imgPath</definition>
+        <argsstring></argsstring>
+        <name>imgPath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" line="40" column="62" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structoptions_1a3f695bf989b01e851966def57f10b1a2" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt;std::string&gt; options::snapshots</definition>
+        <argsstring></argsstring>
+        <name>snapshots</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" line="41" column="49" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structoptions_1ab36d3ed07466b23fa7cac2b26ec4ae48" prot="public" static="no" mutable="no">
+        <type>std::map&lt; std::string, std::string &gt;</type>
+        <definition>std::map&lt;std::string, std::string&gt; options::raw</definition>
+        <argsstring></argsstring>
+        <name>raw</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" line="42" column="36" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structoptions_1ada6a95a0cf0150f318180cc0d9f65f23" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; std::map&lt; std::string, std::string &gt; &gt;</type>
+        <definition>std::vector&lt;std::map&lt;std::string, std::string&gt; &gt; options::data_types</definition>
+        <argsstring></argsstring>
+        <name>data_types</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" line="43" column="26" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structoptions_1a4bc8cafc86a1d985d3098596f952bec8" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; std::vector&lt; uint8_t &gt; &gt;</type>
+        <definition>std::vector&lt;std::vector&lt;uint8_t&gt; &gt; options::ddr_in_list</definition>
+        <argsstring></argsstring>
+        <name>ddr_in_list</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" line="44" column="40" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structoptions_1a6ad888fd63949d70f9d6d93876fa34d8" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; std::vector&lt; uint8_t &gt; &gt;</type>
+        <definition>std::vector&lt;std::vector&lt;uint8_t&gt; &gt; options::ddr_out_list</definition>
+        <argsstring></argsstring>
+        <name>ddr_out_list</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" line="45" column="40" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structoptions_1adae1361f5c3f4f498c8d13bde1831a44" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; std::map&lt; std::string, std::vector&lt; std::string &gt; &gt; &gt;</type>
+        <definition>std::vector&lt;std::map&lt;std::string, std::vector&lt;std::string&gt; &gt; &gt; options::goldFiles</definition>
+        <argsstring></argsstring>
+        <name>goldFiles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" line="46" column="13" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" line="33" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/demo/common.h" bodystart="34" bodyend="47"/>
+    <listofallmembers>
+      <member refid="structoptions_1a8bcec93ca5b1813b912f861e3e63a53c" prot="public" virt="non-virtual"><scope>options</scope><name>batchSize</name></member>
+      <member refid="structoptions_1a30fa508528c7fca383692e595b0b96e5" prot="public" virt="non-virtual"><scope>options</scope><name>categories</name></member>
+      <member refid="structoptions_1ada6a95a0cf0150f318180cc0d9f65f23" prot="public" virt="non-virtual"><scope>options</scope><name>data_types</name></member>
+      <member refid="structoptions_1a4bc8cafc86a1d985d3098596f952bec8" prot="public" virt="non-virtual"><scope>options</scope><name>ddr_in_list</name></member>
+      <member refid="structoptions_1a6ad888fd63949d70f9d6d93876fa34d8" prot="public" virt="non-virtual"><scope>options</scope><name>ddr_out_list</name></member>
+      <member refid="structoptions_1a4c103cf16ec5ae7b0bbd2dd8e77418fa" prot="public" virt="non-virtual"><scope>options</scope><name>gold</name></member>
+      <member refid="structoptions_1adae1361f5c3f4f498c8d13bde1831a44" prot="public" virt="non-virtual"><scope>options</scope><name>goldFiles</name></member>
+      <member refid="structoptions_1a999a3ea6240de5122777f115ed6fdf3c" prot="public" virt="non-virtual"><scope>options</scope><name>imgPath</name></member>
+      <member refid="structoptions_1a8e0c1ad76914351f33183ac95b55b22e" prot="public" virt="non-virtual"><scope>options</scope><name>nbImages</name></member>
+      <member refid="structoptions_1adf2baf1fa2ebaf67d3569dd338ea9d58" prot="public" virt="non-virtual"><scope>options</scope><name>noGoldOutput</name></member>
+      <member refid="structoptions_1ab36d3ed07466b23fa7cac2b26ec4ae48" prot="public" virt="non-virtual"><scope>options</scope><name>raw</name></member>
+      <member refid="structoptions_1a3f695bf989b01e851966def57f10b1a2" prot="public" virt="non-virtual"><scope>options</scope><name>snapshots</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

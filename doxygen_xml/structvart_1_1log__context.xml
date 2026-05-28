@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structvart_1_1log__context" kind="struct" language="C++" prot="public">
+    <compoundname>vart::log_context</compoundname>
+    <includes refid="vart__logger__types_8hpp" local="no">vart_logger_types.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structvart_1_1log__context_1a98d8d6b4c23f49cd3262ac0dfc6dc271" prot="public" static="no" mutable="no">
+        <type>int16_t</type>
+        <definition>int16_t vart::log_context::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_logger_types.hpp" line="94" column="11" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_logger_types.hpp" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1log__context_1aacd95e4a8263f3f13b6a167871f1f250" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t vart::log_context::log_level</definition>
+        <argsstring></argsstring>
+        <name>log_level</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_logger_types.hpp" line="95" column="12" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_logger_types.hpp" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1log__context_1ac4fa0957f548b52f11d4ab27c46ba7a5" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string vart::log_context::mod_instance_name</definition>
+        <argsstring></argsstring>
+        <name>mod_instance_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_logger_types.hpp" line="96" column="15" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_logger_types.hpp" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Context of a particular module instance. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_logger_types.hpp" line="93" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_logger_types.hpp" bodystart="93" bodyend="97"/>
+    <listofallmembers>
+      <member refid="structvart_1_1log__context_1a98d8d6b4c23f49cd3262ac0dfc6dc271" prot="public" virt="non-virtual"><scope>vart::log_context</scope><name>id</name></member>
+      <member refid="structvart_1_1log__context_1aacd95e4a8263f3f13b6a167871f1f250" prot="public" virt="non-virtual"><scope>vart::log_context</scope><name>log_level</name></member>
+      <member refid="structvart_1_1log__context_1ac4fa0957f548b52f11d4ab27c46ba7a5" prot="public" virt="non-virtual"><scope>vart::log_context</scope><name>mod_instance_name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

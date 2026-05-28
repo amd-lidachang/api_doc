@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structvart_1_1OverlayFontData" kind="struct" language="C++" prot="public">
+    <compoundname>vart::OverlayFontData</compoundname>
+    <includes refid="vart__overlay__types_8hpp" local="no">vart_overlay_types.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structvart_1_1OverlayFontData_1ae76b236421744ffab1831b686cd79964" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t vart::OverlayFontData::font_num</definition>
+        <argsstring></argsstring>
+        <name>font_num</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" line="127" column="12" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1OverlayFontData_1a84f0800786525bef2cdbebf9382e14f7" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float vart::OverlayFontData::font_size</definition>
+        <argsstring></argsstring>
+        <name>font_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" line="128" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1OverlayFontData_1a6534879a03c48bf5545b00818c97b0b1" prot="public" static="no" mutable="no">
+        <type><ref refid="structvart_1_1OverlayColorData" kindref="compound">OverlayColorData</ref></type>
+        <definition>OverlayColorData vart::OverlayFontData::font_color</definition>
+        <argsstring></argsstring>
+        <name>font_color</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" line="129" column="20" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Structure representing Font information. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>vart::OverlayColorData</label>
+        <link refid="structvart_1_1OverlayColorData"/>
+      </node>
+      <node id="1">
+        <label>vart::OverlayFontData</label>
+        <link refid="structvart_1_1OverlayFontData"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>font_color</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" line="126" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" bodystart="126" bodyend="130"/>
+    <listofallmembers>
+      <member refid="structvart_1_1OverlayFontData_1a6534879a03c48bf5545b00818c97b0b1" prot="public" virt="non-virtual"><scope>vart::OverlayFontData</scope><name>font_color</name></member>
+      <member refid="structvart_1_1OverlayFontData_1ae76b236421744ffab1831b686cd79964" prot="public" virt="non-virtual"><scope>vart::OverlayFontData</scope><name>font_num</name></member>
+      <member refid="structvart_1_1OverlayFontData_1a84f0800786525bef2cdbebf9382e14f7" prot="public" virt="non-virtual"><scope>vart::OverlayFontData</scope><name>font_size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

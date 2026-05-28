@@ -1,0 +1,281 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classvart_1_1PostProcessImplResnet50" kind="class" language="C++" prot="public">
+    <compoundname>vart::PostProcessImplResnet50</compoundname>
+    <basecompoundref refid="classvart_1_1PostProcessImplBase" prot="public" virt="non-virtual">vart::PostProcessImplBase</basecompoundref>
+    <includes refid="vart__postprocess__impl__resnet50_8hpp" local="no">vart_postprocess_impl_resnet50.hpp</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classvart_1_1PostProcessImplResnet50_1a1f71c9ebbaea9f7ebca830b42bdea0ed" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string vart::PostProcessImplResnet50::json_config_data</definition>
+        <argsstring></argsstring>
+        <name>json_config_data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess/vart_postprocess_impl_resnet50.hpp" line="44" column="15" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess/vart_postprocess_impl_resnet50.hpp" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvart_1_1PostProcessImplResnet50_1a1ada8c86c79cf5bf097fa379ba2c1c36" prot="private" static="no" mutable="no">
+        <type><ref refid="structvart_1_1TensorInfo" kindref="compound">TensorInfo</ref></type>
+        <definition>TensorInfo vart::PostProcessImplResnet50::tens_info</definition>
+        <argsstring></argsstring>
+        <name>tens_info</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess/vart_postprocess_impl_resnet50.hpp" line="45" column="14" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess/vart_postprocess_impl_resnet50.hpp" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvart_1_1PostProcessImplResnet50_1ab9422facf456265caae07b4448bf3e0e" prot="private" static="no" mutable="no">
+        <type>VvasContext *</type>
+        <definition>VvasContext* vart::PostProcessImplResnet50::vvas_ctx</definition>
+        <argsstring></argsstring>
+        <name>vvas_ctx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess/vart_postprocess_impl_resnet50.hpp" line="46" column="15" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess/vart_postprocess_impl_resnet50.hpp" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvart_1_1PostProcessImplResnet50_1a9dc1f9ac70fefab86c522f2259306142" prot="private" static="no" mutable="no">
+        <type>VvasPostProcess *</type>
+        <definition>VvasPostProcess* vart::PostProcessImplResnet50::vvas_pp_handle</definition>
+        <argsstring></argsstring>
+        <name>vvas_pp_handle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess/vart_postprocess_impl_resnet50.hpp" line="47" column="19" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess/vart_postprocess_impl_resnet50.hpp" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvart_1_1PostProcessImplResnet50_1ab2984fd51450945d45de80a62767b12e" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; struct <ref refid="structvart_1_1log__context" kindref="compound">log_context</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;struct log_context&gt; vart::PostProcessImplResnet50::log_ctx</definition>
+        <argsstring></argsstring>
+        <name>log_ctx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess/vart_postprocess_impl_resnet50.hpp" line="48" column="19" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess/vart_postprocess_impl_resnet50.hpp" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classvart_1_1PostProcessImplResnet50_1adf90ffc9554ea4488e28072a550a3acb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>vart::PostProcessImplResnet50::PostProcessImplResnet50</definition>
+        <argsstring>(std::string &amp;json_loc, std::shared_ptr&lt; Device &gt; device)</argsstring>
+        <name>PostProcessImplResnet50</name>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>json_loc</declname>
+        </param>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="classvart_1_1Device" kindref="compound">Device</ref> &gt;</type>
+          <declname>device</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess/vart_postprocess_impl_resnet50.hpp" line="31" column="3" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess/vart_postprocess_impl_resnet50.cpp" bodystart="34" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1PostProcessImplResnet50_1a24720714948cc4b57a9afd93f6cef631" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>vart::PostProcessImplResnet50::~PostProcessImplResnet50</definition>
+        <argsstring>()</argsstring>
+        <name>~PostProcessImplResnet50</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess/vart_postprocess_impl_resnet50.hpp" line="33" column="3" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess/vart_postprocess_impl_resnet50.cpp" bodystart="249" bodyend="252"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1PostProcessImplResnet50_1a266d60553d9e40449ea9404d41ee745c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void vart::PostProcessImplResnet50::set_config</definition>
+        <argsstring>(std::vector&lt; TensorInfo &gt; &amp;info, uint32_t batch_size) override</argsstring>
+        <name>set_config</name>
+        <reimplements refid="classvart_1_1PostProcessImplBase_1ab6f17e9ec11b2155ef0f34942ea2f045">set_config</reimplements>
+        <param>
+          <type>std::vector&lt; <ref refid="structvart_1_1TensorInfo" kindref="compound">TensorInfo</ref> &gt; &amp;</type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>batch_size</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="classvart_1_1PostProcessImplResnet50_1a266d60553d9e40449ea9404d41ee745c" kindref="member">set_config()</ref> - Set PostProcessInfo config data before start doing the post-process. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="structvart_1_1TensorInfo" kindref="compound">TensorInfo</ref> to be set. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>batch_size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Supported batch size.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+Use this method to set batch size and tensor information required to parse/process the ML network output. Call this method before the first call to &quot;process&quot; method. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess/vart_postprocess_impl_resnet50.hpp" line="34" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess/vart_postprocess_impl_resnet50.cpp" bodystart="80" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1PostProcessImplResnet50_1a3d2eb17a9befd4210ac1c657c57bc6ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>std::vector&lt; std::vector&lt; std::shared_ptr&lt; <ref refid="classvart_1_1InferResult" kindref="compound">InferResult</ref> &gt; &gt; &gt;</type>
+        <definition>std::vector&lt; std::vector&lt; std::shared_ptr&lt; InferResult &gt; &gt; &gt; vart::PostProcessImplResnet50::process</definition>
+        <argsstring>(std::vector&lt; int8_t * &gt; data, uint32_t current_batch_size) override</argsstring>
+        <name>process</name>
+        <reimplements refid="classvart_1_1PostProcessImplBase_1a9a03d97561e2ced71448afa321613def">process</reimplements>
+        <param>
+          <type>std::vector&lt; int8_t * &gt;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>current_batch_size</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="classvart_1_1PostProcessImplResnet50_1a3d2eb17a9befd4210ac1c657c57bc6ab" kindref="member">process()</ref> - Process/parse tensors data from ML network output to create infer results. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Array of tensors data. Each tensor will have the data for the entire batch of images. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>batch_size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Numer of inputs in the current batch</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Vector of inference result objects for every image in the batch. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess/vart_postprocess_impl_resnet50.hpp" line="35" column="15" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess/vart_postprocess_impl_resnet50.cpp" bodystart="183" bodyend="216"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1PostProcessImplResnet50_1a7e3750349eb2aaa0d880af4a472db37a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>std::vector&lt; std::vector&lt; std::shared_ptr&lt; <ref refid="classvart_1_1InferResult" kindref="compound">InferResult</ref> &gt; &gt; &gt;</type>
+        <definition>std::vector&lt; std::vector&lt; std::shared_ptr&lt; InferResult &gt; &gt; &gt; vart::PostProcessImplResnet50::process</definition>
+        <argsstring>(std::vector&lt; std::vector&lt; std::shared_ptr&lt; vart::Memory &gt;&gt;&gt; tensor_memory, uint32_t current_batch_size) override</argsstring>
+        <name>process</name>
+        <reimplements refid="classvart_1_1PostProcessImplBase_1ad9953a657663e77296a7db9428ca58df">process</reimplements>
+        <param>
+          <type>std::vector&lt; std::vector&lt; std::shared_ptr&lt; <ref refid="classvart_1_1Memory" kindref="compound">vart::Memory</ref> &gt;&gt;&gt;</type>
+          <declname>tensor_memory</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>current_batch_size</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="classvart_1_1PostProcessImplResnet50_1a3d2eb17a9befd4210ac1c657c57bc6ab" kindref="member">process()</ref> - Process/parse tensors data from ML network output to create infer results. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tensor_memory</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Vector of <ref refid="classvart_1_1Memory" kindref="compound">vart::Memory</ref> pointers. Each <ref refid="classvart_1_1Memory" kindref="compound">vart::Memory</ref> contains one tensor, total number of tensors is equal to current_batch_size * number of tensors in each batch. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>batch_size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Numer of inputs in the current batch</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Vector of inference result objects for every image in the batch. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess/vart_postprocess_impl_resnet50.hpp" line="39" column="15" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess/vart_postprocess_impl_resnet50.cpp" bodystart="219" bodyend="247"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>vart::PostProcessImplBase</label>
+        <link refid="classvart_1_1PostProcessImplBase"/>
+      </node>
+      <node id="1">
+        <label>vart::PostProcessImplResnet50</label>
+        <link refid="classvart_1_1PostProcessImplResnet50"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>vart::PostProcessImplBase</label>
+        <link refid="classvart_1_1PostProcessImplBase"/>
+      </node>
+      <node id="1">
+        <label>vart::PostProcessImplResnet50</label>
+        <link refid="classvart_1_1PostProcessImplResnet50"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess/vart_postprocess_impl_resnet50.hpp" line="29" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/postprocess/vart_postprocess_impl_resnet50.hpp" bodystart="29" bodyend="49"/>
+    <listofallmembers>
+      <member refid="classvart_1_1PostProcessImplResnet50_1a1f71c9ebbaea9f7ebca830b42bdea0ed" prot="private" virt="non-virtual"><scope>vart::PostProcessImplResnet50</scope><name>json_config_data</name></member>
+      <member refid="classvart_1_1PostProcessImplResnet50_1ab2984fd51450945d45de80a62767b12e" prot="private" virt="non-virtual"><scope>vart::PostProcessImplResnet50</scope><name>log_ctx</name></member>
+      <member refid="classvart_1_1PostProcessImplBase_1a9845d6a55479ba1e3a8017cebb2ba465" prot="public" virt="non-virtual"><scope>vart::PostProcessImplResnet50</scope><name>PostProcessImplBase</name></member>
+      <member refid="classvart_1_1PostProcessImplResnet50_1adf90ffc9554ea4488e28072a550a3acb" prot="public" virt="non-virtual"><scope>vart::PostProcessImplResnet50</scope><name>PostProcessImplResnet50</name></member>
+      <member refid="classvart_1_1PostProcessImplResnet50_1a3d2eb17a9befd4210ac1c657c57bc6ab" prot="public" virt="virtual"><scope>vart::PostProcessImplResnet50</scope><name>process</name></member>
+      <member refid="classvart_1_1PostProcessImplResnet50_1a7e3750349eb2aaa0d880af4a472db37a" prot="public" virt="virtual"><scope>vart::PostProcessImplResnet50</scope><name>process</name></member>
+      <member refid="classvart_1_1PostProcessImplResnet50_1a266d60553d9e40449ea9404d41ee745c" prot="public" virt="virtual"><scope>vart::PostProcessImplResnet50</scope><name>set_config</name></member>
+      <member refid="classvart_1_1PostProcessImplResnet50_1a1ada8c86c79cf5bf097fa379ba2c1c36" prot="private" virt="non-virtual"><scope>vart::PostProcessImplResnet50</scope><name>tens_info</name></member>
+      <member refid="classvart_1_1PostProcessImplResnet50_1ab9422facf456265caae07b4448bf3e0e" prot="private" virt="non-virtual"><scope>vart::PostProcessImplResnet50</scope><name>vvas_ctx</name></member>
+      <member refid="classvart_1_1PostProcessImplResnet50_1a9dc1f9ac70fefab86c522f2259306142" prot="private" virt="non-virtual"><scope>vart::PostProcessImplResnet50</scope><name>vvas_pp_handle</name></member>
+      <member refid="classvart_1_1PostProcessImplBase_1a878e5b192380f5113e258d44072bd4e7" prot="public" virt="virtual"><scope>vart::PostProcessImplResnet50</scope><name>~PostProcessImplBase</name></member>
+      <member refid="classvart_1_1PostProcessImplResnet50_1a24720714948cc4b57a9afd93f6cef631" prot="public" virt="non-virtual"><scope>vart::PostProcessImplResnet50</scope><name>~PostProcessImplResnet50</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

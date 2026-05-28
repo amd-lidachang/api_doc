@@ -1,0 +1,843 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="onnx__runner_8cpp" kind="file" language="C++">
+    <compoundname>onnx_runner.cpp</compoundname>
+    <includes local="no">assert.h</includes>
+    <includes local="no">onnxruntime/onnxruntime_c_api.h</includes>
+    <includes refid="onnx__runner_8h" local="yes">onnx_runner.h</includes>
+    <includes refid="vart__ml__log_8h" local="no">vart_ml_utils/vart_ml_log.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>assert.h</label>
+      </node>
+      <node id="9">
+        <label>vart_ml_error.inc</label>
+      </node>
+      <node id="1">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner.cpp</label>
+        <link refid="onnx__runner_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>vart_ml_error.h</label>
+        <link refid="vart__ml__error_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>stddef.h</label>
+      </node>
+      <node id="3">
+        <label>onnxruntime/onnxruntime_c_api.h</label>
+      </node>
+      <node id="4">
+        <label>onnx_runner.h</label>
+        <link refid="onnx__runner_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>vart_ml_utils/vart_ml_log.h</label>
+        <link refid="vart__ml__log_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>inttypes.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="onnx__runner_8cpp_1a9eb4a2ab7a91324f64daf263e7133c3f" prot="public" static="no" mutable="no">
+        <type>const OrtApi *</type>
+        <definition>const OrtApi* g_ort</definition>
+        <argsstring></argsstring>
+        <name>g_ort</name>
+        <initializer>= NULL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner.cpp" line="26" column="14" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner.cpp" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="onnx__runner_8cpp_1a59f9dee00c34b40c41d4945fd47d6415" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int ort_check_status</definition>
+        <argsstring>(OrtStatus *status)</argsstring>
+        <name>ort_check_status</name>
+        <param>
+          <type>OrtStatus *</type>
+          <declname>status</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner.cpp" line="29" column="12" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner.cpp" bodystart="29" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="onnx__runner_8cpp_1a6d4e767659108ccd9669914dbb974ae9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int size_of_ort_tensor_type</definition>
+        <argsstring>(ONNXTensorElementDataType t, size_t *size)</argsstring>
+        <name>size_of_ort_tensor_type</name>
+        <param>
+          <type>ONNXTensorElementDataType</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>size_t *</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner.cpp" line="42" column="12" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner.cpp" bodystart="42" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="onnx__runner_8cpp_1a27e5b49ee1cf665e3687a84af0677658" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int onnx_get_transput_info</definition>
+        <argsstring>(const void *session, void *allocator, enum transput_type transput_type, size_t index, struct transput_info *transput_info)</argsstring>
+        <name>onnx_get_transput_info</name>
+        <param>
+          <type>const void *</type>
+          <declname>session</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>allocator</declname>
+        </param>
+        <param>
+          <type>enum <ref refid="onnx__runner_8h_1ab98ba9756192515ba6dfe07c7389496b" kindref="member">transput_type</ref></type>
+          <declname>transput_type</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>struct <ref refid="structtransput__info" kindref="compound">transput_info</ref> *</type>
+          <declname>transput_info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner.cpp" line="85" column="12" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner.cpp" bodystart="85" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="onnx__runner_8cpp_1a208699fb2b4408e9c06f697c5ef68a04" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int onnx_destroy_transput_info</definition>
+        <argsstring>(void *allocator, struct transput_info transput_info)</argsstring>
+        <name>onnx_destroy_transput_info</name>
+        <param>
+          <type>void *</type>
+          <declname>allocator</declname>
+        </param>
+        <param>
+          <type>struct <ref refid="structtransput__info" kindref="compound">transput_info</ref></type>
+          <declname>transput_info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner.cpp" line="162" column="12" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner.cpp" bodystart="162" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="onnx__runner_8cpp_1a8e42aa2ef932cc17a081c34cc7a3331f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int onnx_init</definition>
+        <argsstring>(struct onnx_context_global *onnx_context_global)</argsstring>
+        <name>onnx_init</name>
+        <param>
+          <type>struct <ref refid="structonnx__context__global" kindref="compound">onnx_context_global</ref> *</type>
+          <declname>onnx_context_global</declname>
+        </param>
+        <briefdescription>
+<para>Initialize some global values for OnnxRuntime inference. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function needs to be called once at the beginning of the program.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="out"><ref refid="structonnx__context__global" kindref="compound">onnx_context_global</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Struct with all objects allocated to run multiple nodes inference. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int The Vart ML error (vart_ml_error_id) code of the operation. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner.cpp" line="168" column="5" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner.cpp" bodystart="168" bodyend="184"/>
+      </memberdef>
+      <memberdef kind="function" id="onnx__runner_8cpp_1a763a0f1ee2400896158d54e45198554c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int onnx_init_node</definition>
+        <argsstring>(const char *model_path, struct onnx_context_global onnx_context_global, struct onnx_context_node *onnx_context_node)</argsstring>
+        <name>onnx_init_node</name>
+        <param>
+          <type>const char *</type>
+          <declname>model_path</declname>
+        </param>
+        <param>
+          <type>struct <ref refid="structonnx__context__global" kindref="compound">onnx_context_global</ref></type>
+          <declname>onnx_context_global</declname>
+        </param>
+        <param>
+          <type>struct <ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref> *</type>
+          <declname>onnx_context_node</declname>
+        </param>
+        <briefdescription>
+<para>Initialize some values needed for a single Onnx node inference. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function needs to be called once for each different Onnx node.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">model_path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Path to an onnx model. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in"><ref refid="structonnx__context__global" kindref="compound">onnx_context_global</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Initialized global context struct. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out"><ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Struct with all objects allocated to run an inference. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int The Vart ML error (vart_ml_error_id) code of the operation. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner.cpp" line="186" column="5" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner.cpp" bodystart="186" bodyend="253"/>
+      </memberdef>
+      <memberdef kind="function" id="onnx__runner_8cpp_1a82eb23f2f62574eb436a6e0faf3be7c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void onnx_destroy</definition>
+        <argsstring>(struct onnx_context_global onnx_context_global)</argsstring>
+        <name>onnx_destroy</name>
+        <param>
+          <type>struct <ref refid="structonnx__context__global" kindref="compound">onnx_context_global</ref></type>
+          <declname>onnx_context_global</declname>
+        </param>
+        <briefdescription>
+<para>Free memory allocated within an <ref refid="structonnx__context__global" kindref="compound">onnx_context_global</ref> with onnx_init. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in"><ref refid="structonnx__context__global" kindref="compound">onnx_context_global</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Struct with all objects allocated by OnnxRuntime. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner.cpp" line="255" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner.cpp" bodystart="255" bodyend="259"/>
+      </memberdef>
+      <memberdef kind="function" id="onnx__runner_8cpp_1a10b1461c867a1120dac80d14ec7891b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int onnx_destroy_node</definition>
+        <argsstring>(struct onnx_context_node onnx_context_node)</argsstring>
+        <name>onnx_destroy_node</name>
+        <param>
+          <type>struct <ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref></type>
+          <declname>onnx_context_node</declname>
+        </param>
+        <briefdescription>
+<para>Free memory allocated within an <ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref> with onnx_init_node. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in"><ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Struct with all objects allocated by OnnxRuntime. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int The Vart ML error (vart_ml_error_id) code of the operation. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner.cpp" line="261" column="5" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner.cpp" bodystart="261" bodyend="277"/>
+      </memberdef>
+      <memberdef kind="function" id="onnx__runner_8cpp_1a6aeaa2b9d077503295adbd6cf173fb2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int onnx_run_inference</definition>
+        <argsstring>(struct onnx_context_node onnx_context_node, const void *memory_info, const char **input_names, const int64_t **input_shapes, void **inbufs, const char **output_names, const int64_t **output_shapes, void **outbufs)</argsstring>
+        <name>onnx_run_inference</name>
+        <param>
+          <type>struct <ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref></type>
+          <declname>onnx_context_node</declname>
+        </param>
+        <param>
+          <type>const void *</type>
+          <declname>memory_info</declname>
+        </param>
+        <param>
+          <type>const char **</type>
+          <declname>input_names</declname>
+        </param>
+        <param>
+          <type>const int64_t **</type>
+          <declname>input_shapes</declname>
+        </param>
+        <param>
+          <type>void **</type>
+          <declname>inbufs</declname>
+        </param>
+        <param>
+          <type>const char **</type>
+          <declname>output_names</declname>
+        </param>
+        <param>
+          <type>const int64_t **</type>
+          <declname>output_shapes</declname>
+        </param>
+        <param>
+          <type>void **</type>
+          <declname>outbufs</declname>
+        </param>
+        <briefdescription>
+<para>Run the model in an OrtSession. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Input and output buffers&apos; order is defined by input_names and output_names respectively. If the latters are omitted, input and output buffers must be given in the order defined by the onnx model.</para>
+<para>Input/output shapes of the buffers are optional as they are read in the onnx file. If a shape contains variable dimensions (represented by -1), the argument is required.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in"><ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Struct with OnnxRuntime session and transputs info. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">memory_info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>OrtMemoryInfo for tensor creation. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">input_names</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An array of the inputs names (optional). </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">input_shapes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An array of the inputs shapes (optional). </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">inbufs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Two-dimensional array of input values (allocated by user). </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">output_names</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An array of the outputs names (optional). </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">output_shapes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An array of the outputs shapes (optional). </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">outbufs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Two-dimensional array of output values (allocated by user). </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int The Vart ML error (vart_ml_error_id) code of the operation. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner.cpp" line="279" column="5" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner.cpp" bodystart="279" bodyend="420"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="copyright"><para>Copyright 2025 Advanced Micro Devices Inc.</para>
+</simplesect>
+Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <verbatim>http://www.apache.org/licenses/LICENSE-2.0
+</verbatim> Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. </para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;assert.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;onnxruntime/onnxruntime_c_api.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="onnx__runner_8h" kindref="compound">onnx_runner.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="vart__ml__log_8h" kindref="compound">vart_ml_utils/vart_ml_log.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>OrtApi*<sp/><ref refid="onnx__runner_8cpp_1a9eb4a2ab7a91324f64daf263e7133c3f" kindref="member">g_ort</ref><sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Check<sp/>an<sp/>OrtStatus<sp/>and<sp/>log<sp/>error.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ort_check_status(OrtStatus*<sp/>status)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(status<sp/>!=<sp/>NULL)</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>msg<sp/>=<sp/><ref refid="onnx__runner_8cpp_1a9eb4a2ab7a91324f64daf263e7133c3f" kindref="member">g_ort</ref>-&gt;GetErrorMessage(status);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>err<sp/>=<sp/><ref refid="vart__ml__log_8cpp_1a2f6c6a262c1a57e59110872fd716753b" kindref="member">vart_ml_log_err_msg</ref>(vart_ml_error::LIBRARY_ERROR_ONNXRT,<sp/></highlight><highlight class="stringliteral">&quot;OnnxRuntime<sp/>error:<sp/>%s\n&quot;</highlight><highlight class="normal">,<sp/>msg);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="onnx__runner_8cpp_1a9eb4a2ab7a91324f64daf263e7133c3f" kindref="member">g_ort</ref>-&gt;ReleaseStatus(status);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>err;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>vart_ml_error::SUCCESS;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>size_of_ort_tensor_type(ONNXTensorElementDataType<sp/>t,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal">*<sp/>size)</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(t)</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>ONNX_TENSOR_ELEMENT_DATA_TYPE_FLOAT:</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*size<sp/>=<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(float);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>ONNX_TENSOR_ELEMENT_DATA_TYPE_INT8:</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*size<sp/>=<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(int8_t);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>ONNX_TENSOR_ELEMENT_DATA_TYPE_UINT8:</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*size<sp/>=<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(uint8_t);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>ONNX_TENSOR_ELEMENT_DATA_TYPE_INT32:</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*size<sp/>=<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(int32_t);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>ONNX_TENSOR_ELEMENT_DATA_TYPE_BFLOAT16:</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*size<sp/>=<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(uint16_t);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>ONNX_TENSOR_ELEMENT_DATA_TYPE_UINT32:</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*size<sp/>=<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(uint32_t);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>ONNX_TENSOR_ELEMENT_DATA_TYPE_INT64:</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*size<sp/>=<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(int64_t);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>ONNX_TENSOR_ELEMENT_DATA_TYPE_UINT64:</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*size<sp/>=<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(uint32_t);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="vart__ml__log_8cpp_1a2f6c6a262c1a57e59110872fd716753b" kindref="member">vart_ml_log_err_msg</ref>(vart_ml_error::CONFIG_UNSUPPORTED_FEATURE,<sp/></highlight><highlight class="stringliteral">&quot;Unsupported<sp/>data<sp/>type.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>vart_ml_error::SUCCESS;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>onnx_get_transput_info(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>session,</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>allocator,</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="onnx__runner_8h_1ab98ba9756192515ba6dfe07c7389496b" kindref="member">transput_type</ref><sp/><sp/><sp/><sp/><ref refid="onnx__runner_8h_1ab98ba9756192515ba6dfe07c7389496b" kindref="member">transput_type</ref>,</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>index,</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structtransput__info" kindref="compound">transput_info</ref>*<sp/><ref refid="structtransput__info" kindref="compound">transput_info</ref>)</highlight></codeline>
+<codeline lineno="90"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>err;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Get<sp/>transput<sp/>name.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="onnx__runner_8h_1ab98ba9756192515ba6dfe07c7389496b" kindref="member">transput_type</ref><sp/>==<sp/><ref refid="onnx__runner_8h_1ab98ba9756192515ba6dfe07c7389496bae310c909d76b003d016bef8bdf16936a" kindref="member">INPUT</ref>)</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>err<sp/>=<sp/>ort_check_status(<ref refid="onnx__runner_8cpp_1a9eb4a2ab7a91324f64daf263e7133c3f" kindref="member">g_ort</ref>-&gt;SessionGetInputName(</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(OrtSession*)session,<sp/>index,<sp/>(OrtAllocator*)allocator,<sp/>&amp;<ref refid="structtransput__info" kindref="compound">transput_info</ref>-&gt;<ref refid="structtransput__info_1a9f4fb2113410791234461256b389c8a7" kindref="member">name</ref>));</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>err<sp/>=<sp/>ort_check_status(<ref refid="onnx__runner_8cpp_1a9eb4a2ab7a91324f64daf263e7133c3f" kindref="member">g_ort</ref>-&gt;SessionGetOutputName(</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(OrtSession*)session,<sp/>index,<sp/>(OrtAllocator*)allocator,<sp/>&amp;<ref refid="structtransput__info" kindref="compound">transput_info</ref>-&gt;<ref refid="structtransput__info_1a9f4fb2113410791234461256b389c8a7" kindref="member">name</ref>));</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(err)</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>err;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Get<sp/>transput<sp/>type<sp/>info.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>OrtTypeInfo*<sp/>transput_type_info;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="onnx__runner_8h_1ab98ba9756192515ba6dfe07c7389496b" kindref="member">transput_type</ref><sp/>==<sp/><ref refid="onnx__runner_8h_1ab98ba9756192515ba6dfe07c7389496bae310c909d76b003d016bef8bdf16936a" kindref="member">INPUT</ref>)</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>err<sp/>=<sp/>ort_check_status(</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="onnx__runner_8cpp_1a9eb4a2ab7a91324f64daf263e7133c3f" kindref="member">g_ort</ref>-&gt;SessionGetInputTypeInfo((OrtSession*)session,<sp/>index,<sp/>&amp;transput_type_info));</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>err<sp/>=<sp/>ort_check_status(</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="onnx__runner_8cpp_1a9eb4a2ab7a91324f64daf263e7133c3f" kindref="member">g_ort</ref>-&gt;SessionGetOutputTypeInfo((OrtSession*)session,<sp/>index,<sp/>&amp;transput_type_info));</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(err)</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>err;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Get<sp/>tensor<sp/>type<sp/>info.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>OrtTensorTypeAndShapeInfo*<sp/>tensor_type_info;</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>err<sp/>=<sp/>ort_check_status(<ref refid="onnx__runner_8cpp_1a9eb4a2ab7a91324f64daf263e7133c3f" kindref="member">g_ort</ref>-&gt;CastTypeInfoToTensorInfo(transput_type_info,<sp/>&amp;tensor_type_info));</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(err)</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>err;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Get<sp/>tensor<sp/>shape<sp/>len.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/>err<sp/>=<sp/>ort_check_status(<ref refid="onnx__runner_8cpp_1a9eb4a2ab7a91324f64daf263e7133c3f" kindref="member">g_ort</ref>-&gt;GetDimensionsCount(tensor_type_info,<sp/>&amp;<ref refid="structtransput__info" kindref="compound">transput_info</ref>-&gt;<ref refid="structtransput__info_1a7df07fe2f3afc7ee995a0d79d041f7c5" kindref="member">shape_len</ref>));</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(err)</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>err;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Get<sp/>tensor<sp/>shape.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structtransput__info" kindref="compound">transput_info</ref>-&gt;<ref refid="structtransput__info_1a03ab85a63cba1bb2493bef8daf701bae" kindref="member">shape</ref><sp/>=<sp/>(int64_t*)malloc(<ref refid="structtransput__info" kindref="compound">transput_info</ref>-&gt;<ref refid="structtransput__info_1a7df07fe2f3afc7ee995a0d79d041f7c5" kindref="member">shape_len</ref><sp/>*<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(int64_t));</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="structtransput__info" kindref="compound">transput_info</ref>-&gt;<ref refid="structtransput__info_1a03ab85a63cba1bb2493bef8daf701bae" kindref="member">shape</ref><sp/>==<sp/>NULL)</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>vart_ml_error::SYSTEM_ERROR_MEM_ALLOC_FAILURE;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>err<sp/>=<sp/>ort_check_status(</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="onnx__runner_8cpp_1a9eb4a2ab7a91324f64daf263e7133c3f" kindref="member">g_ort</ref>-&gt;GetDimensions(tensor_type_info,<sp/><ref refid="structtransput__info" kindref="compound">transput_info</ref>-&gt;<ref refid="structtransput__info_1a03ab85a63cba1bb2493bef8daf701bae" kindref="member">shape</ref>,<sp/><ref refid="structtransput__info" kindref="compound">transput_info</ref>-&gt;<ref refid="structtransput__info_1a7df07fe2f3afc7ee995a0d79d041f7c5" kindref="member">shape_len</ref>));</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(err)</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>err;</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Get<sp/>tensor<sp/>data<sp/>type.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>err<sp/>=<sp/>ort_check_status(</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="onnx__runner_8cpp_1a9eb4a2ab7a91324f64daf263e7133c3f" kindref="member">g_ort</ref>-&gt;GetTensorElementType(tensor_type_info,<sp/>(ONNXTensorElementDataType*)&amp;<ref refid="structtransput__info" kindref="compound">transput_info</ref>-&gt;<ref refid="structtransput__info_1a2049e17b45fca9252c361833d71adbcb" kindref="member">data_type</ref>));</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(err)</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>err;</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Print<sp/>transput<sp/>name<sp/>&amp;<sp/>shape.<sp/>If<sp/>there<sp/>is<sp/>a<sp/>negative<sp/>value,<sp/>set<sp/>to<sp/>1.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/>err<sp/>=<sp/>size_of_ort_tensor_type((ONNXTensorElementDataType)<ref refid="structtransput__info" kindref="compound">transput_info</ref>-&gt;<ref refid="structtransput__info_1a2049e17b45fca9252c361833d71adbcb" kindref="member">data_type</ref>,<sp/>&amp;<ref refid="structtransput__info" kindref="compound">transput_info</ref>-&gt;<ref refid="structtransput__info_1afcfe025f984bb4b1bec3d50dc0b8b121" kindref="member">size</ref>);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(err)</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>err;</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/><ref refid="structtransput__info" kindref="compound">transput_info</ref>-&gt;<ref refid="structtransput__info_1a7df07fe2f3afc7ee995a0d79d041f7c5" kindref="member">shape_len</ref>;<sp/>i++)</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>If<sp/>shape<sp/>contains<sp/>a<sp/>variable<sp/>dimension,<sp/>set<sp/>size<sp/>to<sp/>0.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((<ref refid="structtransput__info" kindref="compound">transput_info</ref>-&gt;<ref refid="structtransput__info_1a94b7454c9b88de6ae31bedbcf1bd0d86" kindref="member">variable_dim</ref><sp/>=<sp/>(<ref refid="structtransput__info" kindref="compound">transput_info</ref>-&gt;<ref refid="structtransput__info_1a03ab85a63cba1bb2493bef8daf701bae" kindref="member">shape</ref>[i]<sp/>&lt;<sp/>0)))</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structtransput__info" kindref="compound">transput_info</ref>-&gt;<ref refid="structtransput__info_1afcfe025f984bb4b1bec3d50dc0b8b121" kindref="member">size</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structtransput__info" kindref="compound">transput_info</ref>-&gt;<ref refid="structtransput__info_1afcfe025f984bb4b1bec3d50dc0b8b121" kindref="member">size</ref><sp/>*=<sp/><ref refid="structtransput__info" kindref="compound">transput_info</ref>-&gt;<ref refid="structtransput__info_1a03ab85a63cba1bb2493bef8daf701bae" kindref="member">shape</ref>[i];</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Clean<sp/>up.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="onnx__runner_8cpp_1a9eb4a2ab7a91324f64daf263e7133c3f" kindref="member">g_ort</ref>-&gt;ReleaseTypeInfo(transput_type_info);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>vart_ml_error::SUCCESS;</highlight></codeline>
+<codeline lineno="160"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>onnx_destroy_transput_info(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>allocator,<sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structtransput__info" kindref="compound">transput_info</ref><sp/><ref refid="structtransput__info" kindref="compound">transput_info</ref>)</highlight></codeline>
+<codeline lineno="163"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/>free(<ref refid="structtransput__info" kindref="compound">transput_info</ref>.<ref refid="structtransput__info_1a03ab85a63cba1bb2493bef8daf701bae" kindref="member">shape</ref>);</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ort_check_status(<ref refid="onnx__runner_8cpp_1a9eb4a2ab7a91324f64daf263e7133c3f" kindref="member">g_ort</ref>-&gt;AllocatorFree((OrtAllocator*)allocator,<sp/><ref refid="structtransput__info" kindref="compound">transput_info</ref>.<ref refid="structtransput__info_1a9f4fb2113410791234461256b389c8a7" kindref="member">name</ref>));</highlight></codeline>
+<codeline lineno="166"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="onnx__runner_8cpp_1a8e42aa2ef932cc17a081c34cc7a3331f" kindref="member">onnx_init</ref>(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structonnx__context__global" kindref="compound">onnx_context_global</ref>*<sp/><ref refid="structonnx__context__global" kindref="compound">onnx_context_global</ref>)</highlight></codeline>
+<codeline lineno="169"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>err;</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="onnx__runner_8cpp_1a9eb4a2ab7a91324f64daf263e7133c3f" kindref="member">g_ort</ref><sp/>=<sp/>OrtGetApiBase()-&gt;GetApi(ORT_API_VERSION);</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Create<sp/>OrtEnv<sp/>with<sp/>log<sp/>level<sp/>roughly<sp/>corresponding<sp/>to<sp/>Vart<sp/>ML<sp/>logs.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/>err<sp/>=<sp/>ort_check_status(</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="onnx__runner_8cpp_1a9eb4a2ab7a91324f64daf263e7133c3f" kindref="member">g_ort</ref>-&gt;CreateEnv(ORT_LOGGING_LEVEL_WARNING,<sp/></highlight><highlight class="stringliteral">&quot;wrp_network&quot;</highlight><highlight class="normal">,<sp/>(OrtEnv**)&amp;<ref refid="structonnx__context__global" kindref="compound">onnx_context_global</ref>-&gt;<ref refid="structonnx__context__global_1aa07490b4a5eb8df5314590a4ebb75266" kindref="member">env</ref>));</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(err<sp/>!=<sp/>vart_ml_error::SUCCESS)</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>err;</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/>err<sp/>=<sp/>ort_check_status(<ref refid="onnx__runner_8cpp_1a9eb4a2ab7a91324f64daf263e7133c3f" kindref="member">g_ort</ref>-&gt;CreateCpuMemoryInfo(</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>OrtArenaAllocator,<sp/>OrtMemTypeDefault,<sp/>(OrtMemoryInfo**)&amp;<ref refid="structonnx__context__global" kindref="compound">onnx_context_global</ref>-&gt;<ref refid="structonnx__context__global_1aeb93c82c35148fe3541873920663e425" kindref="member">memory_info</ref>));</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>err;</highlight></codeline>
+<codeline lineno="184"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="onnx__runner_8cpp_1a763a0f1ee2400896158d54e45198554c" kindref="member">onnx_init_node</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>model_path,</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structonnx__context__global" kindref="compound">onnx_context_global</ref><sp/><ref refid="structonnx__context__global" kindref="compound">onnx_context_global</ref>,</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>*<sp/><sp/><ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>)</highlight></codeline>
+<codeline lineno="189"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>err;</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/>err<sp/>=<sp/>ort_check_status(<ref refid="onnx__runner_8cpp_1a9eb4a2ab7a91324f64daf263e7133c3f" kindref="member">g_ort</ref>-&gt;CreateSession(</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(OrtEnv*)<ref refid="structonnx__context__global" kindref="compound">onnx_context_global</ref>.<ref refid="structonnx__context__global_1aa07490b4a5eb8df5314590a4ebb75266" kindref="member">env</ref>,<sp/>model_path,<sp/>NULL,<sp/>(OrtSession**)&amp;<ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>-&gt;<ref refid="structonnx__context__node_1a0dd1226ff4f9de3ecb3e74bf23c0f798" kindref="member">session</ref>));</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(err)</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>err;</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/>err<sp/>=<sp/>ort_check_status(<ref refid="onnx__runner_8cpp_1a9eb4a2ab7a91324f64daf263e7133c3f" kindref="member">g_ort</ref>-&gt;CreateAllocator((OrtSession*)<ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>-&gt;<ref refid="structonnx__context__node_1a0dd1226ff4f9de3ecb3e74bf23c0f798" kindref="member">session</ref>,</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(OrtMemoryInfo*)<ref refid="structonnx__context__global" kindref="compound">onnx_context_global</ref>.<ref refid="structonnx__context__global_1aeb93c82c35148fe3541873920663e425" kindref="member">memory_info</ref>,</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(OrtAllocator**)&amp;<ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>-&gt;<ref refid="structonnx__context__node_1a8d382a29e78198f50e3ad81be894eb2f" kindref="member">allocator</ref>));</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(err)</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>err;</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Set<sp/>base<sp/>values<sp/>for<sp/>presence<sp/>of<sp/>variable<sp/>dimensions.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>-&gt;<ref refid="structonnx__context__node_1aed9b0f653ff474104bbdbe38092e813e" kindref="member">variable_dim_in</ref><sp/><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>-&gt;<ref refid="structonnx__context__node_1a0a2fc527e03389dbefbf8f55b52817ef" kindref="member">variable_dim_out</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Get<sp/>number<sp/>of<sp/>inputs.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/>err<sp/>=<sp/>ort_check_status(<ref refid="onnx__runner_8cpp_1a9eb4a2ab7a91324f64daf263e7133c3f" kindref="member">g_ort</ref>-&gt;SessionGetInputCount((OrtSession*)<ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>-&gt;<ref refid="structonnx__context__node_1a0dd1226ff4f9de3ecb3e74bf23c0f798" kindref="member">session</ref>,</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;<ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>-&gt;<ref refid="structonnx__context__node_1a1bb8d6e223b559d4dc28ef61455e2fc1" kindref="member">input_count</ref>));</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(err)</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>err;</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>And<sp/>initialize<sp/>transputs<sp/>info<sp/>accordingly.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>-&gt;<ref refid="structonnx__context__node_1a2ab6b6a985db24d6fb0186e35317634f" kindref="member">input_infos</ref><sp/>=</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structtransput__info" kindref="compound">transput_info</ref>*)malloc(<ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>-&gt;<ref refid="structonnx__context__node_1a1bb8d6e223b559d4dc28ef61455e2fc1" kindref="member">input_count</ref><sp/>*<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structtransput__info" kindref="compound">transput_info</ref>));</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>-&gt;<ref refid="structonnx__context__node_1a2ab6b6a985db24d6fb0186e35317634f" kindref="member">input_infos</ref><sp/>==<sp/>NULL)</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>vart_ml_error::SYSTEM_ERROR_MEM_ALLOC_FAILURE;</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>(i<sp/>&lt;<sp/><ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>-&gt;<ref refid="structonnx__context__node_1a1bb8d6e223b559d4dc28ef61455e2fc1" kindref="member">input_count</ref>)<sp/>&amp;&amp;<sp/>!err;<sp/>i++)</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>err<sp/>=<sp/>onnx_get_transput_info((OrtSession*)<ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>-&gt;<ref refid="structonnx__context__node_1a0dd1226ff4f9de3ecb3e74bf23c0f798" kindref="member">session</ref>,</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(OrtAllocator*)<ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>-&gt;<ref refid="structonnx__context__node_1a8d382a29e78198f50e3ad81be894eb2f" kindref="member">allocator</ref>,</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="onnx__runner_8h_1ab98ba9756192515ba6dfe07c7389496bae310c909d76b003d016bef8bdf16936a" kindref="member">INPUT</ref>,</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>i,</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>-&gt;<ref refid="structonnx__context__node_1a2ab6b6a985db24d6fb0186e35317634f" kindref="member">input_infos</ref><sp/>+<sp/>i);</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>-&gt;<ref refid="structonnx__context__node_1aed9b0f653ff474104bbdbe38092e813e" kindref="member">variable_dim_in</ref><sp/>|=<sp/><ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>-&gt;<ref refid="structonnx__context__node_1a2ab6b6a985db24d6fb0186e35317634f" kindref="member">input_infos</ref>[i].<ref refid="structtransput__info_1a94b7454c9b88de6ae31bedbcf1bd0d86" kindref="member">variable_dim</ref>;</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(err)</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>err;</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Get<sp/>number<sp/>of<sp/>outputs.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/>err<sp/>=<sp/>ort_check_status(<ref refid="onnx__runner_8cpp_1a9eb4a2ab7a91324f64daf263e7133c3f" kindref="member">g_ort</ref>-&gt;SessionGetOutputCount((OrtSession*)<ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>-&gt;<ref refid="structonnx__context__node_1a0dd1226ff4f9de3ecb3e74bf23c0f798" kindref="member">session</ref>,</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;<ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>-&gt;<ref refid="structonnx__context__node_1a34309de9a59c1a5c32a85c75fa63d10b" kindref="member">output_count</ref>));</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(err)</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>err;</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"></highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>And<sp/>initialize<sp/>transput<sp/>info<sp/>accordingly.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>-&gt;<ref refid="structonnx__context__node_1a15fa06e8b3d1d9d00f0c9afac0a06530" kindref="member">output_infos</ref><sp/>=</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structtransput__info" kindref="compound">transput_info</ref>*)malloc(<ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>-&gt;<ref refid="structonnx__context__node_1a34309de9a59c1a5c32a85c75fa63d10b" kindref="member">output_count</ref><sp/>*<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structtransput__info" kindref="compound">transput_info</ref>));</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>-&gt;<ref refid="structonnx__context__node_1a15fa06e8b3d1d9d00f0c9afac0a06530" kindref="member">output_infos</ref><sp/>==<sp/>NULL)</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>vart_ml_error::SYSTEM_ERROR_MEM_ALLOC_FAILURE;</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>(i<sp/>&lt;<sp/><ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>-&gt;<ref refid="structonnx__context__node_1a34309de9a59c1a5c32a85c75fa63d10b" kindref="member">output_count</ref>)<sp/>&amp;&amp;<sp/>!err;<sp/>i++)</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>err<sp/>=<sp/>onnx_get_transput_info((OrtSession*)<ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>-&gt;<ref refid="structonnx__context__node_1a0dd1226ff4f9de3ecb3e74bf23c0f798" kindref="member">session</ref>,</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(OrtAllocator*)<ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>-&gt;<ref refid="structonnx__context__node_1a8d382a29e78198f50e3ad81be894eb2f" kindref="member">allocator</ref>,</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="onnx__runner_8h_1ab98ba9756192515ba6dfe07c7389496ba2ab08d3e103968f5f4f26b66a52e99d6" kindref="member">OUTPUT</ref>,</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>i,</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>-&gt;<ref refid="structonnx__context__node_1a15fa06e8b3d1d9d00f0c9afac0a06530" kindref="member">output_infos</ref><sp/>+<sp/>i);</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>-&gt;<ref refid="structonnx__context__node_1a0a2fc527e03389dbefbf8f55b52817ef" kindref="member">variable_dim_out</ref><sp/>|=<sp/><ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>-&gt;<ref refid="structonnx__context__node_1a15fa06e8b3d1d9d00f0c9afac0a06530" kindref="member">output_infos</ref>[i].<ref refid="structtransput__info_1a94b7454c9b88de6ae31bedbcf1bd0d86" kindref="member">variable_dim</ref>;</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"></highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>err;</highlight></codeline>
+<codeline lineno="253"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"></highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="onnx__runner_8cpp_1a82eb23f2f62574eb436a6e0faf3be7c0" kindref="member">onnx_destroy</ref>(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structonnx__context__global" kindref="compound">onnx_context_global</ref><sp/><ref refid="structonnx__context__global" kindref="compound">onnx_context_global</ref>)</highlight></codeline>
+<codeline lineno="256"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="onnx__runner_8cpp_1a9eb4a2ab7a91324f64daf263e7133c3f" kindref="member">g_ort</ref>-&gt;ReleaseMemoryInfo((OrtMemoryInfo*)<ref refid="structonnx__context__global" kindref="compound">onnx_context_global</ref>.<ref refid="structonnx__context__global_1aeb93c82c35148fe3541873920663e425" kindref="member">memory_info</ref>);</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="onnx__runner_8cpp_1a9eb4a2ab7a91324f64daf263e7133c3f" kindref="member">g_ort</ref>-&gt;ReleaseEnv((OrtEnv*)<ref refid="structonnx__context__global" kindref="compound">onnx_context_global</ref>.<ref refid="structonnx__context__global_1aa07490b4a5eb8df5314590a4ebb75266" kindref="member">env</ref>);</highlight></codeline>
+<codeline lineno="259"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"></highlight></codeline>
+<codeline lineno="261"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="onnx__runner_8cpp_1a10b1461c867a1120dac80d14ec7891b8" kindref="member">onnx_destroy_node</ref>(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref><sp/><ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>)</highlight></codeline>
+<codeline lineno="262"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>err<sp/>=<sp/>vart_ml_error::SUCCESS;</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/><ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>.<ref refid="structonnx__context__node_1a1bb8d6e223b559d4dc28ef61455e2fc1" kindref="member">input_count</ref>;<sp/>i++)</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>err<sp/>=<sp/>onnx_destroy_transput_info(<ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>.<ref refid="structonnx__context__node_1a8d382a29e78198f50e3ad81be894eb2f" kindref="member">allocator</ref>,<sp/><ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>.<ref refid="structonnx__context__node_1a2ab6b6a985db24d6fb0186e35317634f" kindref="member">input_infos</ref>[i]);</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/>free(<ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>.<ref refid="structonnx__context__node_1a2ab6b6a985db24d6fb0186e35317634f" kindref="member">input_infos</ref>);</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/><ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>.<ref refid="structonnx__context__node_1a34309de9a59c1a5c32a85c75fa63d10b" kindref="member">output_count</ref>;<sp/>i++)</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>err<sp/>=<sp/>onnx_destroy_transput_info(<ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>.<ref refid="structonnx__context__node_1a8d382a29e78198f50e3ad81be894eb2f" kindref="member">allocator</ref>,<sp/><ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>.<ref refid="structonnx__context__node_1a15fa06e8b3d1d9d00f0c9afac0a06530" kindref="member">output_infos</ref>[i]);</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/>free(<ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>.<ref refid="structonnx__context__node_1a15fa06e8b3d1d9d00f0c9afac0a06530" kindref="member">output_infos</ref>);</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"></highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="onnx__runner_8cpp_1a9eb4a2ab7a91324f64daf263e7133c3f" kindref="member">g_ort</ref>-&gt;ReleaseAllocator((OrtAllocator*)<ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>.<ref refid="structonnx__context__node_1a8d382a29e78198f50e3ad81be894eb2f" kindref="member">allocator</ref>);</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="onnx__runner_8cpp_1a9eb4a2ab7a91324f64daf263e7133c3f" kindref="member">g_ort</ref>-&gt;ReleaseSession((OrtSession*)<ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>.<ref refid="structonnx__context__node_1a0dd1226ff4f9de3ecb3e74bf23c0f798" kindref="member">session</ref>);</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"></highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>err;</highlight></codeline>
+<codeline lineno="277"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"></highlight></codeline>
+<codeline lineno="279"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="onnx__runner_8cpp_1a6aeaa2b9d077503295adbd6cf173fb2e" kindref="member">onnx_run_inference</ref>(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref><sp/><ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>,</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>memory_info,</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">**<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>input_names,</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>int64_t**<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>input_shapes,</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">**<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>inbufs,</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">**<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output_names,</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>int64_t**<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output_shapes,</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">**<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>outbufs)</highlight></codeline>
+<codeline lineno="287"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>err;</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"></highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/>OrtIoBinding*<sp/>io_binding;</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/>err<sp/>=<sp/>ort_check_status(<ref refid="onnx__runner_8cpp_1a9eb4a2ab7a91324f64daf263e7133c3f" kindref="member">g_ort</ref>-&gt;CreateIoBinding((OrtSession*)<ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>.<ref refid="structonnx__context__node_1a0dd1226ff4f9de3ecb3e74bf23c0f798" kindref="member">session</ref>,<sp/>&amp;io_binding));</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(err)</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>err;</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"></highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/><sp/><sp/>OrtValue**<sp/>input_tensors<sp/>=<sp/>(OrtValue**)malloc(<ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>.<ref refid="structonnx__context__node_1a1bb8d6e223b559d4dc28ef61455e2fc1" kindref="member">input_count</ref><sp/>*<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(OrtValue*));</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(input_tensors<sp/>==<sp/>NULL)</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>vart_ml_error::SYSTEM_ERROR_MEM_ALLOC_FAILURE;</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>user_idx<sp/>=<sp/>0;<sp/>user_idx<sp/>&lt;<sp/><ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>.<ref refid="structonnx__context__node_1a1bb8d6e223b559d4dc28ef61455e2fc1" kindref="member">input_count</ref>;<sp/>user_idx++)</highlight></codeline>
+<codeline lineno="299"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>If<sp/>the<sp/>user<sp/>specified<sp/>input<sp/>names,<sp/>they<sp/>may<sp/>not<sp/>be<sp/>in<sp/>the<sp/>same<sp/>order<sp/>as<sp/>the<sp/>inputs<sp/>read<sp/>in<sp/>the<sp/>ONNX</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="301"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>model.<sp/>Get<sp/>the<sp/>index<sp/>of<sp/>the<sp/>ith<sp/>name<sp/>in<sp/>inputs_infos<sp/>and<sp/>use<sp/>it<sp/>to<sp/>refer<sp/>to<sp/>the<sp/>input.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="302"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>onnx_idx<sp/>=<sp/>user_idx;</highlight></codeline>
+<codeline lineno="303"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(input_names<sp/>!=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(onnx_idx<sp/>=<sp/>0;<sp/>onnx_idx<sp/>&lt;<sp/><ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>.<ref refid="structonnx__context__node_1a1bb8d6e223b559d4dc28ef61455e2fc1" kindref="member">input_count</ref>;<sp/>onnx_idx++)</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(strcmp(input_names[user_idx],<sp/><ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>.<ref refid="structonnx__context__node_1a2ab6b6a985db24d6fb0186e35317634f" kindref="member">input_infos</ref>[onnx_idx].<ref refid="structtransput__info_1a9f4fb2113410791234461256b389c8a7" kindref="member">name</ref>)<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"></highlight></codeline>
+<codeline lineno="308"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>If<sp/>the<sp/>user<sp/>specified<sp/>input<sp/>shapes,<sp/>use<sp/>it<sp/>and<sp/>compute<sp/>corresponding<sp/>size.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="309"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>int64_t*<sp/>input_shape<sp/>=<sp/><ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>.<ref refid="structonnx__context__node_1a2ab6b6a985db24d6fb0186e35317634f" kindref="member">input_infos</ref>[onnx_idx].<ref refid="structtransput__info_1a03ab85a63cba1bb2493bef8daf701bae" kindref="member">shape</ref>;</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>input_size<sp/><sp/>=<sp/><ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>.<ref refid="structonnx__context__node_1a2ab6b6a985db24d6fb0186e35317634f" kindref="member">input_infos</ref>[onnx_idx].<ref refid="structtransput__info_1afcfe025f984bb4b1bec3d50dc0b8b121" kindref="member">size</ref>;</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((input_shapes<sp/>!=<sp/>NULL)<sp/>&amp;&amp;<sp/>(input_shapes[user_idx]<sp/>!=<sp/>NULL))</highlight></codeline>
+<codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>input_shape<sp/>=<sp/>input_shapes[user_idx];</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>err<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>size_of_ort_tensor_type(</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(ONNXTensorElementDataType)<ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>.<ref refid="structonnx__context__node_1a2ab6b6a985db24d6fb0186e35317634f" kindref="member">input_infos</ref>[onnx_idx].<ref refid="structtransput__info_1a2049e17b45fca9252c361833d71adbcb" kindref="member">data_type</ref>,<sp/>&amp;input_size);</highlight></codeline>
+<codeline lineno="316"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(err)</highlight></codeline>
+<codeline lineno="317"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>err;</highlight></codeline>
+<codeline lineno="318"><highlight class="normal"></highlight></codeline>
+<codeline lineno="319"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>s<sp/>=<sp/>0;<sp/>s<sp/>&lt;<sp/><ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>.<ref refid="structonnx__context__node_1a2ab6b6a985db24d6fb0186e35317634f" kindref="member">input_infos</ref>[onnx_idx].<ref refid="structtransput__info_1a7df07fe2f3afc7ee995a0d79d041f7c5" kindref="member">shape_len</ref>;<sp/>s++)</highlight></codeline>
+<codeline lineno="320"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>input_size<sp/>*=<sp/>input_shape[s];</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="322"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>If<sp/>size<sp/>is<sp/>0,<sp/>there<sp/>is<sp/>a<sp/>variable<sp/>dimension<sp/>in<sp/>the<sp/>model&apos;s<sp/>shape.<sp/>The<sp/>user<sp/>should<sp/>have<sp/>specified<sp/>a</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="323"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>shape.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="324"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(input_size<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="325"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="vart__ml__log_8cpp_1a2f6c6a262c1a57e59110872fd716753b" kindref="member">vart_ml_log_err_msg</ref>(</highlight></codeline>
+<codeline lineno="326"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vart_ml_error::CONFIG_BAD_ARGUMENT,</highlight></codeline>
+<codeline lineno="327"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Unspecified<sp/>shape<sp/>for<sp/>input<sp/>tensor<sp/>%s.<sp/>Tensor<sp/>has<sp/>a<sp/>variable<sp/>shape.\n&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>.<ref refid="structonnx__context__node_1a2ab6b6a985db24d6fb0186e35317634f" kindref="member">input_infos</ref>[onnx_idx].<ref refid="structtransput__info_1a9f4fb2113410791234461256b389c8a7" kindref="member">name</ref>);</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"></highlight></codeline>
+<codeline lineno="330"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Create<sp/>tensor.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="331"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>err<sp/>=<sp/>ort_check_status(<ref refid="onnx__runner_8cpp_1a9eb4a2ab7a91324f64daf263e7133c3f" kindref="member">g_ort</ref>-&gt;CreateTensorWithDataAsOrtValue(</highlight></codeline>
+<codeline lineno="332"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(OrtMemoryInfo*)memory_info,</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>inbufs[user_idx],</highlight></codeline>
+<codeline lineno="334"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>input_size,</highlight></codeline>
+<codeline lineno="335"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>input_shape,</highlight></codeline>
+<codeline lineno="336"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>.<ref refid="structonnx__context__node_1a2ab6b6a985db24d6fb0186e35317634f" kindref="member">input_infos</ref>[onnx_idx].<ref refid="structtransput__info_1a7df07fe2f3afc7ee995a0d79d041f7c5" kindref="member">shape_len</ref>,</highlight></codeline>
+<codeline lineno="337"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(ONNXTensorElementDataType)<ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>.<ref refid="structonnx__context__node_1a2ab6b6a985db24d6fb0186e35317634f" kindref="member">input_infos</ref>[onnx_idx].<ref refid="structtransput__info_1a2049e17b45fca9252c361833d71adbcb" kindref="member">data_type</ref>,</highlight></codeline>
+<codeline lineno="338"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>input_tensors<sp/>+<sp/>user_idx));</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(err)</highlight></codeline>
+<codeline lineno="340"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>err;</highlight></codeline>
+<codeline lineno="341"><highlight class="normal"></highlight></codeline>
+<codeline lineno="342"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Bind<sp/>the<sp/>tensor.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="343"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>err<sp/>=<sp/>ort_check_status(<ref refid="onnx__runner_8cpp_1a9eb4a2ab7a91324f64daf263e7133c3f" kindref="member">g_ort</ref>-&gt;BindInput(</highlight></codeline>
+<codeline lineno="344"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>io_binding,<sp/><ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>.<ref refid="structonnx__context__node_1a2ab6b6a985db24d6fb0186e35317634f" kindref="member">input_infos</ref>[onnx_idx].<ref refid="structtransput__info_1a9f4fb2113410791234461256b389c8a7" kindref="member">name</ref>,<sp/>input_tensors[user_idx]));</highlight></codeline>
+<codeline lineno="345"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(err)</highlight></codeline>
+<codeline lineno="346"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>err;</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="348"><highlight class="normal"></highlight></codeline>
+<codeline lineno="349"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Create<sp/>an<sp/>array<sp/>of<sp/>output<sp/>tensors<sp/>with<sp/>outbufs<sp/>as<sp/>values.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="350"><highlight class="normal"><sp/><sp/><sp/><sp/>OrtValue**<sp/>output_tensors<sp/>=<sp/>(OrtValue**)malloc(<ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>.<ref refid="structonnx__context__node_1a34309de9a59c1a5c32a85c75fa63d10b" kindref="member">output_count</ref><sp/>*<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(OrtValue*));</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(output_tensors<sp/>==<sp/>NULL)</highlight></codeline>
+<codeline lineno="352"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>vart_ml_error::SYSTEM_ERROR_MEM_ALLOC_FAILURE;</highlight></codeline>
+<codeline lineno="353"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>user_idx<sp/>=<sp/>0;<sp/>user_idx<sp/>&lt;<sp/><ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>.<ref refid="structonnx__context__node_1a34309de9a59c1a5c32a85c75fa63d10b" kindref="member">output_count</ref>;<sp/>user_idx++)</highlight></codeline>
+<codeline lineno="354"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="355"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>If<sp/>the<sp/>user<sp/>specified<sp/>output<sp/>names,<sp/>they<sp/>may<sp/>not<sp/>be<sp/>in<sp/>the<sp/>same<sp/>order<sp/>as<sp/>the<sp/>outputs<sp/>read<sp/>in<sp/>the</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="356"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>ONNX<sp/>model.<sp/>Get<sp/>the<sp/>index<sp/>of<sp/>the<sp/>ith<sp/>name<sp/>in<sp/>outputs_infos<sp/>and<sp/>use<sp/>it<sp/>to<sp/>refer<sp/>to<sp/>the<sp/>output.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="357"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>onnx_idx<sp/>=<sp/>user_idx;</highlight></codeline>
+<codeline lineno="358"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(output_names<sp/>!=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="359"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(onnx_idx<sp/>=<sp/>0;<sp/>onnx_idx<sp/>&lt;<sp/><ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>.<ref refid="structonnx__context__node_1a34309de9a59c1a5c32a85c75fa63d10b" kindref="member">output_count</ref>;<sp/>onnx_idx++)</highlight></codeline>
+<codeline lineno="360"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(strcmp(output_names[user_idx],<sp/><ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>.<ref refid="structonnx__context__node_1a15fa06e8b3d1d9d00f0c9afac0a06530" kindref="member">output_infos</ref>[onnx_idx].<ref refid="structtransput__info_1a9f4fb2113410791234461256b389c8a7" kindref="member">name</ref>)<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="361"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="362"><highlight class="normal"></highlight></codeline>
+<codeline lineno="363"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>If<sp/>the<sp/>user<sp/>specified<sp/>output<sp/>shapes,<sp/>use<sp/>it<sp/>and<sp/>compute<sp/>corresponding<sp/>size.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="364"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>int64_t*<sp/>output_shape<sp/>=<sp/><ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>.<ref refid="structonnx__context__node_1a15fa06e8b3d1d9d00f0c9afac0a06530" kindref="member">output_infos</ref>[onnx_idx].<ref refid="structtransput__info_1a03ab85a63cba1bb2493bef8daf701bae" kindref="member">shape</ref>;</highlight></codeline>
+<codeline lineno="365"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output_size<sp/><sp/>=<sp/><ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>.<ref refid="structonnx__context__node_1a15fa06e8b3d1d9d00f0c9afac0a06530" kindref="member">output_infos</ref>[onnx_idx].<ref refid="structtransput__info_1afcfe025f984bb4b1bec3d50dc0b8b121" kindref="member">size</ref>;</highlight></codeline>
+<codeline lineno="366"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((output_shapes<sp/>!=<sp/>NULL)<sp/>&amp;&amp;<sp/>(output_shapes[user_idx]<sp/>!=<sp/>NULL))</highlight></codeline>
+<codeline lineno="367"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="368"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output_shape<sp/>=<sp/>output_shapes[user_idx];</highlight></codeline>
+<codeline lineno="369"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>err<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>size_of_ort_tensor_type(</highlight></codeline>
+<codeline lineno="370"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(ONNXTensorElementDataType)<ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>.<ref refid="structonnx__context__node_1a15fa06e8b3d1d9d00f0c9afac0a06530" kindref="member">output_infos</ref>[onnx_idx].<ref refid="structtransput__info_1a2049e17b45fca9252c361833d71adbcb" kindref="member">data_type</ref>,<sp/>&amp;output_size);</highlight></codeline>
+<codeline lineno="371"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(err)</highlight></codeline>
+<codeline lineno="372"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>err;</highlight></codeline>
+<codeline lineno="373"><highlight class="normal"></highlight></codeline>
+<codeline lineno="374"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>s<sp/>=<sp/>0;<sp/>s<sp/>&lt;<sp/><ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>.<ref refid="structonnx__context__node_1a15fa06e8b3d1d9d00f0c9afac0a06530" kindref="member">output_infos</ref>[onnx_idx].<ref refid="structtransput__info_1a7df07fe2f3afc7ee995a0d79d041f7c5" kindref="member">shape_len</ref>;<sp/>s++)</highlight></codeline>
+<codeline lineno="375"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output_size<sp/>*=<sp/>output_shape[s];</highlight></codeline>
+<codeline lineno="376"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="377"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>If<sp/>size<sp/>is<sp/>0,<sp/>there<sp/>is<sp/>a<sp/>variable<sp/>dimension<sp/>in<sp/>the<sp/>model&apos;s<sp/>shape.<sp/>The<sp/>user<sp/>should<sp/>have<sp/>specified<sp/>a</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="378"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>shape.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="379"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(output_size<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="380"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="vart__ml__log_8cpp_1a2f6c6a262c1a57e59110872fd716753b" kindref="member">vart_ml_log_err_msg</ref>(</highlight></codeline>
+<codeline lineno="381"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vart_ml_error::CONFIG_BAD_ARGUMENT,</highlight></codeline>
+<codeline lineno="382"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Unspecified<sp/>shape<sp/>for<sp/>output<sp/>tensor<sp/>%s.<sp/>Tensor<sp/>has<sp/>a<sp/>variable<sp/>shape.\n&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="383"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>.<ref refid="structonnx__context__node_1a15fa06e8b3d1d9d00f0c9afac0a06530" kindref="member">output_infos</ref>[onnx_idx].<ref refid="structtransput__info_1a9f4fb2113410791234461256b389c8a7" kindref="member">name</ref>);</highlight></codeline>
+<codeline lineno="384"><highlight class="normal"></highlight></codeline>
+<codeline lineno="385"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Create<sp/>tensor.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="386"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>err<sp/>=<sp/>ort_check_status(<ref refid="onnx__runner_8cpp_1a9eb4a2ab7a91324f64daf263e7133c3f" kindref="member">g_ort</ref>-&gt;CreateTensorWithDataAsOrtValue(</highlight></codeline>
+<codeline lineno="387"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(OrtMemoryInfo*)memory_info,</highlight></codeline>
+<codeline lineno="388"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>outbufs[user_idx],</highlight></codeline>
+<codeline lineno="389"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output_size,</highlight></codeline>
+<codeline lineno="390"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output_shape,</highlight></codeline>
+<codeline lineno="391"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>.<ref refid="structonnx__context__node_1a15fa06e8b3d1d9d00f0c9afac0a06530" kindref="member">output_infos</ref>[onnx_idx].<ref refid="structtransput__info_1a7df07fe2f3afc7ee995a0d79d041f7c5" kindref="member">shape_len</ref>,</highlight></codeline>
+<codeline lineno="392"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(ONNXTensorElementDataType)<ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>.<ref refid="structonnx__context__node_1a15fa06e8b3d1d9d00f0c9afac0a06530" kindref="member">output_infos</ref>[onnx_idx].<ref refid="structtransput__info_1a2049e17b45fca9252c361833d71adbcb" kindref="member">data_type</ref>,</highlight></codeline>
+<codeline lineno="393"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output_tensors<sp/>+<sp/>user_idx));</highlight></codeline>
+<codeline lineno="394"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(err)</highlight></codeline>
+<codeline lineno="395"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>err;</highlight></codeline>
+<codeline lineno="396"><highlight class="normal"></highlight></codeline>
+<codeline lineno="397"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Bind<sp/>the<sp/>tensor.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="398"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>err<sp/>=<sp/>ort_check_status(<ref refid="onnx__runner_8cpp_1a9eb4a2ab7a91324f64daf263e7133c3f" kindref="member">g_ort</ref>-&gt;BindOutput(</highlight></codeline>
+<codeline lineno="399"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>io_binding,<sp/><ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>.<ref refid="structonnx__context__node_1a15fa06e8b3d1d9d00f0c9afac0a06530" kindref="member">output_infos</ref>[onnx_idx].<ref refid="structtransput__info_1a9f4fb2113410791234461256b389c8a7" kindref="member">name</ref>,<sp/>output_tensors[user_idx]));</highlight></codeline>
+<codeline lineno="400"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(err)</highlight></codeline>
+<codeline lineno="401"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>err;</highlight></codeline>
+<codeline lineno="402"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="403"><highlight class="normal"></highlight></codeline>
+<codeline lineno="404"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Run<sp/>the<sp/>inference.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="405"><highlight class="normal"><sp/><sp/><sp/><sp/>err<sp/>=<sp/>ort_check_status(<ref refid="onnx__runner_8cpp_1a9eb4a2ab7a91324f64daf263e7133c3f" kindref="member">g_ort</ref>-&gt;RunWithBinding((OrtSession*)<ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>.<ref refid="structonnx__context__node_1a0dd1226ff4f9de3ecb3e74bf23c0f798" kindref="member">session</ref>,<sp/>NULL,<sp/>io_binding));</highlight></codeline>
+<codeline lineno="406"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(err)</highlight></codeline>
+<codeline lineno="407"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>err;</highlight></codeline>
+<codeline lineno="408"><highlight class="normal"></highlight></codeline>
+<codeline lineno="409"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Clean<sp/>up.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="410"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Note:<sp/>ReleaseValue<sp/>does<sp/>not<sp/>free<sp/>buffer<sp/>within<sp/>tensor<sp/>when<sp/>it<sp/>was<sp/>given<sp/>from<sp/>outside.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="411"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/><ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>.<ref refid="structonnx__context__node_1a1bb8d6e223b559d4dc28ef61455e2fc1" kindref="member">input_count</ref>;<sp/>i++)</highlight></codeline>
+<codeline lineno="412"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="onnx__runner_8cpp_1a9eb4a2ab7a91324f64daf263e7133c3f" kindref="member">g_ort</ref>-&gt;ReleaseValue(input_tensors[i]);</highlight></codeline>
+<codeline lineno="413"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/><ref refid="structonnx__context__node" kindref="compound">onnx_context_node</ref>.<ref refid="structonnx__context__node_1a34309de9a59c1a5c32a85c75fa63d10b" kindref="member">output_count</ref>;<sp/>i++)</highlight></codeline>
+<codeline lineno="414"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="onnx__runner_8cpp_1a9eb4a2ab7a91324f64daf263e7133c3f" kindref="member">g_ort</ref>-&gt;ReleaseValue(output_tensors[i]);</highlight></codeline>
+<codeline lineno="415"><highlight class="normal"><sp/><sp/><sp/><sp/>free(input_tensors);</highlight></codeline>
+<codeline lineno="416"><highlight class="normal"><sp/><sp/><sp/><sp/>free(output_tensors);</highlight></codeline>
+<codeline lineno="417"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="onnx__runner_8cpp_1a9eb4a2ab7a91324f64daf263e7133c3f" kindref="member">g_ort</ref>-&gt;ReleaseIoBinding(io_binding);</highlight></codeline>
+<codeline lineno="418"><highlight class="normal"></highlight></codeline>
+<codeline lineno="419"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>vart_ml_error::SUCCESS;</highlight></codeline>
+<codeline lineno="420"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/onnx_runner.cpp"/>
+  </compounddef>
+</doxygen>

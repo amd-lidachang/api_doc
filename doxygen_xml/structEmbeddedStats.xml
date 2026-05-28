@@ -1,0 +1,1539 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structEmbeddedStats" kind="struct" language="C++" prot="public">
+    <compoundname>EmbeddedStats</compoundname>
+    <includes refid="stats_8h" local="no">stats.h</includes>
+    <innerclass refid="structEmbeddedStats_1_1DeltaTimes" prot="private">EmbeddedStats::DeltaTimes</innerclass>
+    <innerclass refid="structEmbeddedStats_1_1ParentGraph" prot="private">EmbeddedStats::ParentGraph</innerclass>
+    <innerclass refid="structEmbeddedStats_1_1PerGraphInfo" prot="private">EmbeddedStats::PerGraphInfo</innerclass>
+    <innerclass refid="structEmbeddedStats_1_1SnapshotInfos" prot="private">EmbeddedStats::SnapshotInfos</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28" prot="public" static="no" strong="no">
+        <type></type>
+        <name>step_t</name>
+        <enumvalue id="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28a6d55417c509ed86150d10d2507174ff0" prot="public">
+          <name>UNDEFINED</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28a79bec1653ac4d2a2a1b00924b660a344" prot="public">
+          <name>QUANTIZE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28af3adfaed5fb6283b94ef2b76e214b3c3" prot="public">
+          <name>REORDER_IN</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28a4c38b629f00afced7861f34f0c725967" prot="public">
+          <name>UPLOAD</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28a155aa1ce591dc5675e2db592dcb5fdf7" prot="public">
+          <name>INFERENCE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28a90eecdf11872675b7819fd1638f3011d" prot="public">
+          <name>DOWNLOAD</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28a1be99b0c8afb357efc5163234a49fcd1" prot="public">
+          <name>REORDER_OUT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28a282f6fab01cfae40c5087e3f03fabdd2" prot="public">
+          <name>DEQUANTIZE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28a5112ccbe43946a2139e167103a07b6cc" prot="public">
+          <name>VART_FULL</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28a217c23be7f80567a10c3610c2462b4bd" prot="public">
+          <name>FRAMEWORK</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28a0ce7accfa2081b4ac9dc96225a6f14af" prot="public">
+          <name>WHOLEGRAPH</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="35" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="36" bodyend="48"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="structEmbeddedStats_1a5302df363a0d66e6dba13a4e61b36204" prot="private" static="no" mutable="no">
+        <type>ParentGraph</type>
+        <definition>ParentGraph EmbeddedStats::_graph</definition>
+        <argsstring></argsstring>
+        <name>_graph</name>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="390" column="13" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="390" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1ac042e7435c57cd9d03137465f5f9b8e1" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool EmbeddedStats::_initDone</definition>
+        <argsstring></argsstring>
+        <name>_initDone</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="392" column="20" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="392" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1a07effd060364e09956cb4d0c7a70d298" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool EmbeddedStats::_printed</definition>
+        <argsstring></argsstring>
+        <name>_printed</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="393" column="20" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="393" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1a423b3f0058342b0a1f3e2e8ed699e49e" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string EmbeddedStats::_statsView</definition>
+        <argsstring></argsstring>
+        <name>_statsView</name>
+        <initializer>= &quot;none&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="394" column="20" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="394" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1a6ec2c77a5d3e31df883eabb93941f7ba" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string EmbeddedStats::_log_libLevel</definition>
+        <argsstring></argsstring>
+        <name>_log_libLevel</name>
+        <initializer>= &quot;none&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="395" column="20" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="395" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1af592e79c66c8ddca45440bb27e646082" prot="private" static="no" mutable="no">
+        <type>long long</type>
+        <definition>long long EmbeddedStats::_uploadCnt</definition>
+        <argsstring></argsstring>
+        <name>_uploadCnt</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="396" column="20" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="396" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1ac0e23221bc68484e78328d431b3b924f" prot="private" static="no" mutable="no">
+        <type>unsigned long long</type>
+        <definition>unsigned long long EmbeddedStats::_downloadCnt</definition>
+        <argsstring></argsstring>
+        <name>_downloadCnt</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="397" column="20" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="397" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1a343dd440c422b78fbda4ffea31fdaee6" prot="private" static="no" mutable="no">
+        <type>unsigned long long</type>
+        <definition>unsigned long long EmbeddedStats::_nbImages</definition>
+        <argsstring></argsstring>
+        <name>_nbImages</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="398" column="20" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="398" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1ad57084df3062eaed8fa54517c73b658e" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool EmbeddedStats::_quantize</definition>
+        <argsstring></argsstring>
+        <name>_quantize</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="399" column="20" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="399" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1a5d1ed431b6b469da9345e3ea9c2ee86a" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool EmbeddedStats::_reorderIn</definition>
+        <argsstring></argsstring>
+        <name>_reorderIn</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="400" column="20" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="400" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1a3ee15878aea23786a42484d416ee25e2" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool EmbeddedStats::_upload</definition>
+        <argsstring></argsstring>
+        <name>_upload</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="401" column="20" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="401" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1a09dd2334a34a5b987d35fde79142dedd" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool EmbeddedStats::_download</definition>
+        <argsstring></argsstring>
+        <name>_download</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="402" column="20" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="402" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1a19645fc322b832ebe019f5f89061fc84" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool EmbeddedStats::_reorderOut</definition>
+        <argsstring></argsstring>
+        <name>_reorderOut</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="403" column="20" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="403" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1a2eb01828f0c55f022ffa3f06ccf7fda9" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool EmbeddedStats::_dequantize</definition>
+        <argsstring></argsstring>
+        <name>_dequantize</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="404" column="20" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="404" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1ab1e0689056f2ada197df44fe567d45f3" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool EmbeddedStats::_vart_ml_full</definition>
+        <argsstring></argsstring>
+        <name>_vart_ml_full</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="405" column="20" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="405" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1a795f35485c14e096fb236177c595f63f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool EmbeddedStats::_wholeGraph</definition>
+        <argsstring></argsstring>
+        <name>_wholeGraph</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="406" column="20" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="406" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1a3060480b7235631a118307ca03ebb318" prot="private" static="no" mutable="no">
+        <type><ref refid="classEmbeddedReporting" kindref="compound">EmbeddedReporting</ref> *</type>
+        <definition>EmbeddedReporting* EmbeddedStats::_reporting</definition>
+        <argsstring></argsstring>
+        <name>_reporting</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="408" column="22" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="408" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1adda15e1ca05d482c05437e42e7ddc40f" prot="private" static="no" mutable="no">
+        <type><ref refid="reporting_8h_1a7a7eb87c9ed558274a643ed90dc01eb4" kindref="member">ordered_json</ref></type>
+        <definition>ordered_json EmbeddedStats::_jsonRoot</definition>
+        <argsstring></argsstring>
+        <name>_jsonRoot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="409" column="23" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="409" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1ac574196f3510482cd93cf68c83c1a8cd" prot="private" static="no" mutable="no">
+        <type>ordered_json::array_t</type>
+        <definition>ordered_json::array_t EmbeddedStats::_batchArray</definition>
+        <argsstring></argsstring>
+        <name>_batchArray</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="410" column="23" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="410" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1a470d0871bf94d0cb8fcd407b7b58736a" prot="private" static="no" mutable="no">
+        <type><ref refid="reporting_8h_1a7a7eb87c9ed558274a643ed90dc01eb4" kindref="member">ordered_json</ref></type>
+        <definition>ordered_json EmbeddedStats::_summary</definition>
+        <argsstring></argsstring>
+        <name>_summary</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="411" column="23" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="411" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1a4a98f40abdcff206332946adf98e0b6f" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t EmbeddedStats::batch_size</definition>
+        <argsstring></argsstring>
+        <name>batch_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="413" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="413" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1a9202f1ba6a3f8630bcfd45cd256a1eb9" prot="private" static="no" mutable="no">
+        <type><ref refid="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28" kindref="member">step_t</ref></type>
+        <definition>step_t EmbeddedStats::first_step</definition>
+        <argsstring></argsstring>
+        <name>first_step</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="414" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="414" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1a3c30675fef70597ccf399150cc9763e9" prot="private" static="no" mutable="no">
+        <type><ref refid="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28" kindref="member">step_t</ref></type>
+        <definition>step_t EmbeddedStats::last_step</definition>
+        <argsstring></argsstring>
+        <name>last_step</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="415" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="415" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structEmbeddedStats_1a5dbcd1b159bbd45801745e23fb3a07d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>EmbeddedStats::EmbeddedStats</definition>
+        <argsstring>()</argsstring>
+        <name>EmbeddedStats</name>
+        <briefdescription>
+<para>Construct a new Embedded Stats object. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="55" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.cpp" bodystart="1093" bodyend="1108"/>
+      </memberdef>
+      <memberdef kind="function" id="structEmbeddedStats_1a03a1ac518cf658772159830c0533ea86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>EmbeddedStats::~EmbeddedStats</definition>
+        <argsstring>()</argsstring>
+        <name>~EmbeddedStats</name>
+        <briefdescription>
+<para>Destroy the Embedded Stats object. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="61" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.cpp" bodystart="1110" bodyend="1110"/>
+      </memberdef>
+      <memberdef kind="function" id="structEmbeddedStats_1a10190e257526e0cc6b1de99c0b54e3e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EmbeddedStats::delete_stats_object</definition>
+        <argsstring>()</argsstring>
+        <name>delete_stats_object</name>
+        <briefdescription>
+<para>Destroy the Embedded Stats object without printing. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="67" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.cpp" bodystart="1112" bodyend="1117"/>
+      </memberdef>
+      <memberdef kind="function" id="structEmbeddedStats_1ac419f356e80474d363a2e3d4b3e5ebdc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int EmbeddedStats::get_hash</definition>
+        <argsstring>(void)</argsstring>
+        <name>get_hash</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Return the hash of the Stats object. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="73" column="5" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.cpp" bodystart="1119" bodyend="1119"/>
+      </memberdef>
+      <memberdef kind="function" id="structEmbeddedStats_1acef4c01c9d6ac1461d66278c7870c775" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EmbeddedStats::use_whole_graph</definition>
+        <argsstring>(void)</argsstring>
+        <name>use_whole_graph</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>set first step and last step to whole graph step. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="79" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.cpp" bodystart="1127" bodyend="1137"/>
+      </memberdef>
+      <memberdef kind="function" id="structEmbeddedStats_1a77bc4b9014c25456c82f3fad4d9b582a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EmbeddedStats::update_network</definition>
+        <argsstring>(std::string networkName_, size_t nbNetworks_)</argsstring>
+        <name>update_network</name>
+        <param>
+          <type>std::string</type>
+          <declname>networkName_</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>nbNetworks_</declname>
+        </param>
+        <briefdescription>
+<para>Upade the stats class with the networks name. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>networkName_</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Networks name. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nbNetworks_</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of networks. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="87" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.cpp" bodystart="216" bodyend="261"/>
+      </memberdef>
+      <memberdef kind="function" id="structEmbeddedStats_1a03d6c2e0d8dd2af6be4e45b6521ecb29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int EmbeddedStats::deleteGraph</definition>
+        <argsstring>(void)</argsstring>
+        <name>deleteGraph</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Delete graph from reporting. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>int The Vart ML error (vart_ml_error_id) code of the operation. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="93" column="5" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.cpp" bodystart="263" bodyend="312"/>
+      </memberdef>
+      <memberdef kind="function" id="structEmbeddedStats_1ab48e08eff68bb716882f85707fced84d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int EmbeddedStats::start_step</definition>
+        <argsstring>(int hash_, EmbeddedStats::step_t step_)</argsstring>
+        <name>start_step</name>
+        <param>
+          <type>int</type>
+          <declname>hash_</declname>
+        </param>
+        <param>
+          <type><ref refid="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28" kindref="member">EmbeddedStats::step_t</ref></type>
+          <declname>step_</declname>
+        </param>
+        <briefdescription>
+<para>Set the current step. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hash_</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hash of the subgraph. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>step_</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Current step. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int The Vart ML error (vart_ml_error_id) code of the operation. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="102" column="5" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.cpp" bodystart="1139" bodyend="1238"/>
+      </memberdef>
+      <memberdef kind="function" id="structEmbeddedStats_1a8fc82a7a7bb2cf7fd8bbf5c5ae7d7614" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int EmbeddedStats::stop_step</definition>
+        <argsstring>(int hash_, EmbeddedStats::step_t step_)</argsstring>
+        <name>stop_step</name>
+        <param>
+          <type>int</type>
+          <declname>hash_</declname>
+        </param>
+        <param>
+          <type><ref refid="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28" kindref="member">EmbeddedStats::step_t</ref></type>
+          <declname>step_</declname>
+        </param>
+        <briefdescription>
+<para>Stop the current step and register the time used for it. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hash_</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hash of the subgraph. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>step_</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Current step. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int The Vart ML error (vart_ml_error_id) code of the operation. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="111" column="5" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.cpp" bodystart="1240" bodyend="1322"/>
+      </memberdef>
+      <memberdef kind="function" id="structEmbeddedStats_1a07793a080b6f502aebdcc71c9d143059" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int EmbeddedStats::set_step</definition>
+        <argsstring>(int hash_, EmbeddedStats::step_t step_, struct timespec time_)</argsstring>
+        <name>set_step</name>
+        <param>
+          <type>int</type>
+          <declname>hash_</declname>
+        </param>
+        <param>
+          <type><ref refid="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28" kindref="member">EmbeddedStats::step_t</ref></type>
+          <declname>step_</declname>
+        </param>
+        <param>
+          <type>struct timespec</type>
+          <declname>time_</declname>
+        </param>
+        <briefdescription>
+<para>Stop the current step and set the time used for it. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hash_</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hash of the subgraph. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>step_</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Current step. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>time_</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Time used for the current step. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int The Vart ML error (vart_ml_error_id) code of the operation. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="121" column="5" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.cpp" bodystart="1324" bodyend="1399"/>
+      </memberdef>
+      <memberdef kind="function" id="structEmbeddedStats_1ae098f240d268d3d75357b7542e512f08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int EmbeddedStats::update_step</definition>
+        <argsstring>(int hash_, EmbeddedStats::step_t step_)</argsstring>
+        <name>update_step</name>
+        <param>
+          <type>int</type>
+          <declname>hash_</declname>
+        </param>
+        <param>
+          <type><ref refid="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28" kindref="member">EmbeddedStats::step_t</ref></type>
+          <declname>step_</declname>
+        </param>
+        <briefdescription>
+<para>Update the current step time. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Can be called multiple time.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hash_</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hash of the subgraph. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>step_</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Current step. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int The Vart ML error (vart_ml_error_id) code of the operation. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="130" column="5" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.cpp" bodystart="1401" bodyend="1448"/>
+      </memberdef>
+      <memberdef kind="function" id="structEmbeddedStats_1a00e05455bb2694e1853764de17fdbc52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EmbeddedStats::setBatchSize</definition>
+        <argsstring>(size_t batch_size)</argsstring>
+        <name>setBatchSize</name>
+        <param>
+          <type>size_t</type>
+          <declname>batch_size</declname>
+        </param>
+        <briefdescription>
+<para>Set the batch size of the current run. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>If this is the first run the graph batch size will be updated as well.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>batch_size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Batch size of the current run. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="139" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.cpp" bodystart="330" bodyend="339"/>
+      </memberdef>
+      <memberdef kind="function" id="structEmbeddedStats_1a2bc116156c398d194764b627aac22a2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EmbeddedStats::setInputDims</definition>
+        <argsstring>(int hash_, std::vector&lt; std::vector&lt; uint &gt;&gt; inputShape_)</argsstring>
+        <name>setInputDims</name>
+        <param>
+          <type>int</type>
+          <declname>hash_</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; std::vector&lt; uint &gt;&gt;</type>
+          <declname>inputShape_</declname>
+        </param>
+        <briefdescription>
+<para>Set the input shape of a subgraph. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hash_</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hash of the subgraph. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>inputShape_</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Shape of the input of the subgraph. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="147" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.cpp" bodystart="314" bodyend="328"/>
+      </memberdef>
+      <memberdef kind="function" id="structEmbeddedStats_1a89c010afbd14d321dd647e85a2e9f0be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EmbeddedStats::setOutputDims</definition>
+        <argsstring>(int hash_, std::vector&lt; std::vector&lt; uint &gt;&gt; outputShape_)</argsstring>
+        <name>setOutputDims</name>
+        <param>
+          <type>int</type>
+          <declname>hash_</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; std::vector&lt; uint &gt;&gt;</type>
+          <declname>outputShape_</declname>
+        </param>
+        <briefdescription>
+<para>Set the output shape of a subgraph. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hash_</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hash of the subgraph. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>outputShape_</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Shape of the output of the subgraph. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="155" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.cpp" bodystart="341" bodyend="356"/>
+      </memberdef>
+      <memberdef kind="function" id="structEmbeddedStats_1a4ce0c7bd37e6acd3f63b0e968a6f32b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EmbeddedStats::setInputDataType</definition>
+        <argsstring>(int hash_, std::vector&lt; std::string &gt; inputDataType_)</argsstring>
+        <name>setInputDataType</name>
+        <param>
+          <type>int</type>
+          <declname>hash_</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; std::string &gt;</type>
+          <declname>inputDataType_</declname>
+        </param>
+        <briefdescription>
+<para>Set the input shape of a subgraph. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hash_</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hash of the subgraph. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>inputDataType_</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data types of the inputs of the subgraph. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="163" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.cpp" bodystart="358" bodyend="372"/>
+      </memberdef>
+      <memberdef kind="function" id="structEmbeddedStats_1a0dde36b83e25cbc4ee1cb2616061be82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EmbeddedStats::setOutputDataType</definition>
+        <argsstring>(int hash_, std::vector&lt; std::string &gt; outputDataType_)</argsstring>
+        <name>setOutputDataType</name>
+        <param>
+          <type>int</type>
+          <declname>hash_</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; std::string &gt;</type>
+          <declname>outputDataType_</declname>
+        </param>
+        <briefdescription>
+<para>Set the input shape of a subgraph. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hash_</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hash of the subgraph. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>outputDataType_</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data types of the outputs of the subgraph. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="171" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.cpp" bodystart="374" bodyend="388"/>
+      </memberdef>
+      <memberdef kind="function" id="structEmbeddedStats_1a7aacaa2cb95dc8328f5ee8552c7ccc2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool EmbeddedStats::isFirstRun</definition>
+        <argsstring>(void)</argsstring>
+        <name>isFirstRun</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Check if the first run has started. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hash_</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hash of the subgraph. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="178" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.cpp" bodystart="390" bodyend="399"/>
+      </memberdef>
+      <memberdef kind="function" id="structEmbeddedStats_1ad35a674b698ae8bad8640eb79b525176" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EmbeddedStats::addSubGraph</definition>
+        <argsstring>(int hash_, const std::string &amp;name_, bool onnxSubGraph_)</argsstring>
+        <name>addSubGraph</name>
+        <param>
+          <type>int</type>
+          <declname>hash_</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name_</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>onnxSubGraph_</declname>
+        </param>
+        <briefdescription>
+<para>Add a subgraph information the the class. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hash_</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hash of the subgraph. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name_</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name of the subgraph. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>onnxSubGraph_</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>True if the subgraph is an ONNX one, otherwise it is a NPU one. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="187" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.cpp" bodystart="401" bodyend="442"/>
+      </memberdef>
+      <memberdef kind="function" id="structEmbeddedStats_1a037c70f82e8d7eb8d97263ba38536c16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EmbeddedStats::setAsFirst</definition>
+        <argsstring>(int hash_)</argsstring>
+        <name>setAsFirst</name>
+        <param>
+          <type>int</type>
+          <declname>hash_</declname>
+        </param>
+        <briefdescription>
+<para>Set this subgraph as the first subgraph of the run. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hash_</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hash of the subgraph. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="194" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.cpp" bodystart="444" bodyend="469"/>
+      </memberdef>
+      <memberdef kind="function" id="structEmbeddedStats_1a75e6dbbcb7eb63d651d76d1591a49ad8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EmbeddedStats::setAsLast</definition>
+        <argsstring>(int hash_)</argsstring>
+        <name>setAsLast</name>
+        <param>
+          <type>int</type>
+          <declname>hash_</declname>
+        </param>
+        <briefdescription>
+<para>Set this subgraph as the last subgraph of the run. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hash_</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hash of the subgraph. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="201" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.cpp" bodystart="471" bodyend="496"/>
+      </memberdef>
+      <memberdef kind="function" id="structEmbeddedStats_1a3f7dcede6ffa06d11e97f8f15da977d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EmbeddedStats::set_config_string</definition>
+        <argsstring>(std::string config_str)</argsstring>
+        <name>set_config_string</name>
+        <param>
+          <type>std::string</type>
+          <declname>config_str</declname>
+        </param>
+        <briefdescription>
+<para>Set the configuration string of the IP used for this run. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="207" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.cpp" bodystart="498" bodyend="503"/>
+      </memberdef>
+      <memberdef kind="function" id="structEmbeddedStats_1a9775078ccc4910b338bb1f98ccb91796" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EmbeddedStats::startSubGraph</definition>
+        <argsstring>(int hash_)</argsstring>
+        <name>startSubGraph</name>
+        <param>
+          <type>int</type>
+          <declname>hash_</declname>
+        </param>
+        <briefdescription>
+<para>Start the subgraph measurement. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hash_</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hash of the subgraph. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="214" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.cpp" bodystart="506" bodyend="506"/>
+      </memberdef>
+      <memberdef kind="function" id="structEmbeddedStats_1a8e536e36551e4712a2838e90be104466" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EmbeddedStats::stopSubGraph</definition>
+        <argsstring>(int hash_)</argsstring>
+        <name>stopSubGraph</name>
+        <param>
+          <type>int</type>
+          <declname>hash_</declname>
+        </param>
+        <briefdescription>
+<para>Stop the subgraph measurement. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hash_</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hash of the subgraph. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="221" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.cpp" bodystart="509" bodyend="509"/>
+      </memberdef>
+      <memberdef kind="function" id="structEmbeddedStats_1a9c9694a9feee261855c5477a1ba8fe47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EmbeddedStats::print_summary</definition>
+        <argsstring>(void)</argsstring>
+        <name>print_summary</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Display the summary at the end of a run. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="227" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.cpp" bodystart="1121" bodyend="1125"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="structEmbeddedStats_1a5db233d8081584260b97163c6a3857b6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>PerGraphInfo *</type>
+        <definition>EmbeddedStats::PerGraphInfo * EmbeddedStats::findPerGraphInfo</definition>
+        <argsstring>(int hash_)</argsstring>
+        <name>findPerGraphInfo</name>
+        <param>
+          <type>int</type>
+          <declname>hash_</declname>
+        </param>
+        <briefdescription>
+<para>Return the information from a graph or subgraph. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hash_</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hash of the graph. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>PerGraphInfo* Information structure of the graph. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="320" column="14" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.cpp" bodystart="511" bodyend="525"/>
+      </memberdef>
+      <memberdef kind="function" id="structEmbeddedStats_1a16abf483c54af6777d57371b99972982" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>DeltaTimes</type>
+        <definition>EmbeddedStats::DeltaTimes EmbeddedStats::snapshotToDelta</definition>
+        <argsstring>(PerGraphInfo *perGraphInfo_, const SnapshotInfos &amp;snapshotInfos_)</argsstring>
+        <name>snapshotToDelta</name>
+        <param>
+          <type>PerGraphInfo *</type>
+          <declname>perGraphInfo_</declname>
+        </param>
+        <param>
+          <type>const SnapshotInfos &amp;</type>
+          <declname>snapshotInfos_</declname>
+        </param>
+        <briefdescription>
+<para>Convert steps absolut time into timing information for one inference. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>perGraphInfo_</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Inofrmation of the graph. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>snapshotInfos_</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Time information of all steps of the run. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>DeltaTimes Timing informations. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="329" column="12" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.cpp" bodystart="614" bodyend="674"/>
+      </memberdef>
+      <memberdef kind="function" id="structEmbeddedStats_1a2286ef844030d22396e378d3d2159380" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int EmbeddedStats::init</definition>
+        <argsstring>(int hash_)</argsstring>
+        <name>init</name>
+        <param>
+          <type>int</type>
+          <declname>hash_</declname>
+        </param>
+        <briefdescription>
+<para>Initialize the stats class. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hash_</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hash of the main graph. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int The Vart ML error (vart_ml_error_id) code of the operation. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="337" column="5" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.cpp" bodystart="172" bodyend="214"/>
+      </memberdef>
+      <memberdef kind="function" id="structEmbeddedStats_1ab13c8afe3fe8f1ba7748be139f355529" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EmbeddedStats::beforeForward</definition>
+        <argsstring>(int hash_, size_t batchSize_)</argsstring>
+        <name>beforeForward</name>
+        <param>
+          <type>int</type>
+          <declname>hash_</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>batchSize_</declname>
+        </param>
+        <briefdescription>
+<para>Update the run information before the inference. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hash_</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hash of the graph. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>batchSize_</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of image in the batch. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="345" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.cpp" bodystart="527" bodyend="562"/>
+      </memberdef>
+      <memberdef kind="function" id="structEmbeddedStats_1aaea697a0dc099f0d7661cf6d5b089458" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EmbeddedStats::initAfterForward</definition>
+        <argsstring>(PerGraphInfo *perGraphInfo_)</argsstring>
+        <name>initAfterForward</name>
+        <param>
+          <type>PerGraphInfo *</type>
+          <declname>perGraphInfo_</declname>
+        </param>
+        <briefdescription>
+<para>Get the information for the considered graph. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>perGraphInfo_</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="352" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.cpp" bodystart="564" bodyend="579"/>
+      </memberdef>
+      <memberdef kind="function" id="structEmbeddedStats_1a25baec87c09a9fcf367d190cd17c6d39" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EmbeddedStats::afterForward</definition>
+        <argsstring>(int hash_, const SnapshotInfos &amp;infos_)</argsstring>
+        <name>afterForward</name>
+        <param>
+          <type>int</type>
+          <declname>hash_</declname>
+        </param>
+        <param>
+          <type>const SnapshotInfos &amp;</type>
+          <declname>infos_</declname>
+        </param>
+        <briefdescription>
+<para>Update the run information after the inference. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hash_</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hash of the graph. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>infos_</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Time information of all steps of the run. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="360" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.cpp" bodystart="676" bodyend="756"/>
+      </memberdef>
+      <memberdef kind="function" id="structEmbeddedStats_1a1ece7ebbb0fd3b11198707c71ee8d682" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EmbeddedStats::computeWholeGraph</definition>
+        <argsstring>(DeltaTimes &amp;deltaTimes_)</argsstring>
+        <name>computeWholeGraph</name>
+        <param>
+          <type>DeltaTimes &amp;</type>
+          <declname>deltaTimes_</declname>
+        </param>
+        <briefdescription>
+<para>Compute the timing informations from the absolute time of all steps. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>deltaTimes_</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Computed timing informations. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="367" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.cpp" bodystart="581" bodyend="612"/>
+      </memberdef>
+      <memberdef kind="function" id="structEmbeddedStats_1ac8c4ce2408daac57b15ca4409361814e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EmbeddedStats::addJsonObject</definition>
+        <argsstring>(const DeltaTimes &amp;deltaTimes_)</argsstring>
+        <name>addJsonObject</name>
+        <param>
+          <type>const DeltaTimes &amp;</type>
+          <declname>deltaTimes_</declname>
+        </param>
+        <briefdescription>
+<para>Add the computed timing information to the reporting Json. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>deltaTimes_</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Computed timing informations. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="374" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.cpp" bodystart="758" bodyend="776"/>
+      </memberdef>
+      <memberdef kind="function" id="structEmbeddedStats_1ae2e1f94766ed930d36811ec1f5ccab0d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EmbeddedStats::update_summary</definition>
+        <argsstring>(const std::optional&lt; DeltaTimes &gt;)</argsstring>
+        <name>update_summary</name>
+        <param>
+          <type>const std::optional&lt; DeltaTimes &gt;</type>
+          <defname>medianDeltaTimes_</defname>
+        </param>
+        <briefdescription>
+<para>Add the summary of the run to the reporting Json. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>deltaTimes_</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Computed timing informations. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="381" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.cpp" bodystart="778" bodyend="818"/>
+      </memberdef>
+      <memberdef kind="function" id="structEmbeddedStats_1a5f675358509d22235a4204d37a205041" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EmbeddedStats::summary</definition>
+        <argsstring>()</argsstring>
+        <name>summary</name>
+        <briefdescription>
+<para>Print the summary of the run. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="387" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.cpp" bodystart="820" bodyend="1091"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Statistic computation and management class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="32" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="33" bodyend="416"/>
+    <listofallmembers>
+      <member refid="structEmbeddedStats_1ac574196f3510482cd93cf68c83c1a8cd" prot="private" virt="non-virtual"><scope>EmbeddedStats</scope><name>_batchArray</name></member>
+      <member refid="structEmbeddedStats_1a2eb01828f0c55f022ffa3f06ccf7fda9" prot="private" virt="non-virtual"><scope>EmbeddedStats</scope><name>_dequantize</name></member>
+      <member refid="structEmbeddedStats_1a09dd2334a34a5b987d35fde79142dedd" prot="private" virt="non-virtual"><scope>EmbeddedStats</scope><name>_download</name></member>
+      <member refid="structEmbeddedStats_1ac0e23221bc68484e78328d431b3b924f" prot="private" virt="non-virtual"><scope>EmbeddedStats</scope><name>_downloadCnt</name></member>
+      <member refid="structEmbeddedStats_1a5302df363a0d66e6dba13a4e61b36204" prot="private" virt="non-virtual"><scope>EmbeddedStats</scope><name>_graph</name></member>
+      <member refid="structEmbeddedStats_1ac042e7435c57cd9d03137465f5f9b8e1" prot="private" virt="non-virtual"><scope>EmbeddedStats</scope><name>_initDone</name></member>
+      <member refid="structEmbeddedStats_1adda15e1ca05d482c05437e42e7ddc40f" prot="private" virt="non-virtual"><scope>EmbeddedStats</scope><name>_jsonRoot</name></member>
+      <member refid="structEmbeddedStats_1a6ec2c77a5d3e31df883eabb93941f7ba" prot="private" virt="non-virtual"><scope>EmbeddedStats</scope><name>_log_libLevel</name></member>
+      <member refid="structEmbeddedStats_1a343dd440c422b78fbda4ffea31fdaee6" prot="private" virt="non-virtual"><scope>EmbeddedStats</scope><name>_nbImages</name></member>
+      <member refid="structEmbeddedStats_1a07effd060364e09956cb4d0c7a70d298" prot="private" virt="non-virtual"><scope>EmbeddedStats</scope><name>_printed</name></member>
+      <member refid="structEmbeddedStats_1ad57084df3062eaed8fa54517c73b658e" prot="private" virt="non-virtual"><scope>EmbeddedStats</scope><name>_quantize</name></member>
+      <member refid="structEmbeddedStats_1a5d1ed431b6b469da9345e3ea9c2ee86a" prot="private" virt="non-virtual"><scope>EmbeddedStats</scope><name>_reorderIn</name></member>
+      <member refid="structEmbeddedStats_1a19645fc322b832ebe019f5f89061fc84" prot="private" virt="non-virtual"><scope>EmbeddedStats</scope><name>_reorderOut</name></member>
+      <member refid="structEmbeddedStats_1a3060480b7235631a118307ca03ebb318" prot="private" virt="non-virtual"><scope>EmbeddedStats</scope><name>_reporting</name></member>
+      <member refid="structEmbeddedStats_1a423b3f0058342b0a1f3e2e8ed699e49e" prot="private" virt="non-virtual"><scope>EmbeddedStats</scope><name>_statsView</name></member>
+      <member refid="structEmbeddedStats_1a470d0871bf94d0cb8fcd407b7b58736a" prot="private" virt="non-virtual"><scope>EmbeddedStats</scope><name>_summary</name></member>
+      <member refid="structEmbeddedStats_1a3ee15878aea23786a42484d416ee25e2" prot="private" virt="non-virtual"><scope>EmbeddedStats</scope><name>_upload</name></member>
+      <member refid="structEmbeddedStats_1af592e79c66c8ddca45440bb27e646082" prot="private" virt="non-virtual"><scope>EmbeddedStats</scope><name>_uploadCnt</name></member>
+      <member refid="structEmbeddedStats_1ab1e0689056f2ada197df44fe567d45f3" prot="private" virt="non-virtual"><scope>EmbeddedStats</scope><name>_vart_ml_full</name></member>
+      <member refid="structEmbeddedStats_1a795f35485c14e096fb236177c595f63f" prot="private" virt="non-virtual"><scope>EmbeddedStats</scope><name>_wholeGraph</name></member>
+      <member refid="structEmbeddedStats_1ac8c4ce2408daac57b15ca4409361814e" prot="private" virt="non-virtual"><scope>EmbeddedStats</scope><name>addJsonObject</name></member>
+      <member refid="structEmbeddedStats_1ad35a674b698ae8bad8640eb79b525176" prot="public" virt="non-virtual"><scope>EmbeddedStats</scope><name>addSubGraph</name></member>
+      <member refid="structEmbeddedStats_1a25baec87c09a9fcf367d190cd17c6d39" prot="private" virt="non-virtual"><scope>EmbeddedStats</scope><name>afterForward</name></member>
+      <member refid="structEmbeddedStats_1a4a98f40abdcff206332946adf98e0b6f" prot="private" virt="non-virtual"><scope>EmbeddedStats</scope><name>batch_size</name></member>
+      <member refid="structEmbeddedStats_1ab13c8afe3fe8f1ba7748be139f355529" prot="private" virt="non-virtual"><scope>EmbeddedStats</scope><name>beforeForward</name></member>
+      <member refid="structEmbeddedStats_1a1ece7ebbb0fd3b11198707c71ee8d682" prot="private" virt="non-virtual"><scope>EmbeddedStats</scope><name>computeWholeGraph</name></member>
+      <member refid="structEmbeddedStats_1a10190e257526e0cc6b1de99c0b54e3e1" prot="public" virt="non-virtual"><scope>EmbeddedStats</scope><name>delete_stats_object</name></member>
+      <member refid="structEmbeddedStats_1a03d6c2e0d8dd2af6be4e45b6521ecb29" prot="public" virt="non-virtual"><scope>EmbeddedStats</scope><name>deleteGraph</name></member>
+      <member refid="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28a282f6fab01cfae40c5087e3f03fabdd2" prot="public" virt="non-virtual"><scope>EmbeddedStats</scope><name>DEQUANTIZE</name></member>
+      <member refid="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28a90eecdf11872675b7819fd1638f3011d" prot="public" virt="non-virtual"><scope>EmbeddedStats</scope><name>DOWNLOAD</name></member>
+      <member refid="structEmbeddedStats_1a5dbcd1b159bbd45801745e23fb3a07d6" prot="public" virt="non-virtual"><scope>EmbeddedStats</scope><name>EmbeddedStats</name></member>
+      <member refid="structEmbeddedStats_1a5db233d8081584260b97163c6a3857b6" prot="private" virt="non-virtual"><scope>EmbeddedStats</scope><name>findPerGraphInfo</name></member>
+      <member refid="structEmbeddedStats_1a9202f1ba6a3f8630bcfd45cd256a1eb9" prot="private" virt="non-virtual"><scope>EmbeddedStats</scope><name>first_step</name></member>
+      <member refid="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28a217c23be7f80567a10c3610c2462b4bd" prot="public" virt="non-virtual"><scope>EmbeddedStats</scope><name>FRAMEWORK</name></member>
+      <member refid="structEmbeddedStats_1ac419f356e80474d363a2e3d4b3e5ebdc" prot="public" virt="non-virtual"><scope>EmbeddedStats</scope><name>get_hash</name></member>
+      <member refid="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28a155aa1ce591dc5675e2db592dcb5fdf7" prot="public" virt="non-virtual"><scope>EmbeddedStats</scope><name>INFERENCE</name></member>
+      <member refid="structEmbeddedStats_1a2286ef844030d22396e378d3d2159380" prot="private" virt="non-virtual"><scope>EmbeddedStats</scope><name>init</name></member>
+      <member refid="structEmbeddedStats_1aaea697a0dc099f0d7661cf6d5b089458" prot="private" virt="non-virtual"><scope>EmbeddedStats</scope><name>initAfterForward</name></member>
+      <member refid="structEmbeddedStats_1a7aacaa2cb95dc8328f5ee8552c7ccc2e" prot="public" virt="non-virtual"><scope>EmbeddedStats</scope><name>isFirstRun</name></member>
+      <member refid="structEmbeddedStats_1a3c30675fef70597ccf399150cc9763e9" prot="private" virt="non-virtual"><scope>EmbeddedStats</scope><name>last_step</name></member>
+      <member refid="structEmbeddedStats_1a9c9694a9feee261855c5477a1ba8fe47" prot="public" virt="non-virtual"><scope>EmbeddedStats</scope><name>print_summary</name></member>
+      <member refid="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28a79bec1653ac4d2a2a1b00924b660a344" prot="public" virt="non-virtual"><scope>EmbeddedStats</scope><name>QUANTIZE</name></member>
+      <member refid="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28af3adfaed5fb6283b94ef2b76e214b3c3" prot="public" virt="non-virtual"><scope>EmbeddedStats</scope><name>REORDER_IN</name></member>
+      <member refid="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28a1be99b0c8afb357efc5163234a49fcd1" prot="public" virt="non-virtual"><scope>EmbeddedStats</scope><name>REORDER_OUT</name></member>
+      <member refid="structEmbeddedStats_1a3f7dcede6ffa06d11e97f8f15da977d0" prot="public" virt="non-virtual"><scope>EmbeddedStats</scope><name>set_config_string</name></member>
+      <member refid="structEmbeddedStats_1a07793a080b6f502aebdcc71c9d143059" prot="public" virt="non-virtual"><scope>EmbeddedStats</scope><name>set_step</name></member>
+      <member refid="structEmbeddedStats_1a037c70f82e8d7eb8d97263ba38536c16" prot="public" virt="non-virtual"><scope>EmbeddedStats</scope><name>setAsFirst</name></member>
+      <member refid="structEmbeddedStats_1a75e6dbbcb7eb63d651d76d1591a49ad8" prot="public" virt="non-virtual"><scope>EmbeddedStats</scope><name>setAsLast</name></member>
+      <member refid="structEmbeddedStats_1a00e05455bb2694e1853764de17fdbc52" prot="public" virt="non-virtual"><scope>EmbeddedStats</scope><name>setBatchSize</name></member>
+      <member refid="structEmbeddedStats_1a4ce0c7bd37e6acd3f63b0e968a6f32b8" prot="public" virt="non-virtual"><scope>EmbeddedStats</scope><name>setInputDataType</name></member>
+      <member refid="structEmbeddedStats_1a2bc116156c398d194764b627aac22a2d" prot="public" virt="non-virtual"><scope>EmbeddedStats</scope><name>setInputDims</name></member>
+      <member refid="structEmbeddedStats_1a0dde36b83e25cbc4ee1cb2616061be82" prot="public" virt="non-virtual"><scope>EmbeddedStats</scope><name>setOutputDataType</name></member>
+      <member refid="structEmbeddedStats_1a89c010afbd14d321dd647e85a2e9f0be" prot="public" virt="non-virtual"><scope>EmbeddedStats</scope><name>setOutputDims</name></member>
+      <member refid="structEmbeddedStats_1a16abf483c54af6777d57371b99972982" prot="private" virt="non-virtual"><scope>EmbeddedStats</scope><name>snapshotToDelta</name></member>
+      <member refid="structEmbeddedStats_1ab48e08eff68bb716882f85707fced84d" prot="public" virt="non-virtual"><scope>EmbeddedStats</scope><name>start_step</name></member>
+      <member refid="structEmbeddedStats_1a9775078ccc4910b338bb1f98ccb91796" prot="public" virt="non-virtual"><scope>EmbeddedStats</scope><name>startSubGraph</name></member>
+      <member refid="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28" prot="public" virt="non-virtual"><scope>EmbeddedStats</scope><name>step_t</name></member>
+      <member refid="structEmbeddedStats_1a8fc82a7a7bb2cf7fd8bbf5c5ae7d7614" prot="public" virt="non-virtual"><scope>EmbeddedStats</scope><name>stop_step</name></member>
+      <member refid="structEmbeddedStats_1a8e536e36551e4712a2838e90be104466" prot="public" virt="non-virtual"><scope>EmbeddedStats</scope><name>stopSubGraph</name></member>
+      <member refid="structEmbeddedStats_1a5f675358509d22235a4204d37a205041" prot="private" virt="non-virtual"><scope>EmbeddedStats</scope><name>summary</name></member>
+      <member refid="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28a6d55417c509ed86150d10d2507174ff0" prot="public" virt="non-virtual"><scope>EmbeddedStats</scope><name>UNDEFINED</name></member>
+      <member refid="structEmbeddedStats_1a77bc4b9014c25456c82f3fad4d9b582a" prot="public" virt="non-virtual"><scope>EmbeddedStats</scope><name>update_network</name></member>
+      <member refid="structEmbeddedStats_1ae098f240d268d3d75357b7542e512f08" prot="public" virt="non-virtual"><scope>EmbeddedStats</scope><name>update_step</name></member>
+      <member refid="structEmbeddedStats_1ae2e1f94766ed930d36811ec1f5ccab0d" prot="private" virt="non-virtual"><scope>EmbeddedStats</scope><name>update_summary</name></member>
+      <member refid="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28a4c38b629f00afced7861f34f0c725967" prot="public" virt="non-virtual"><scope>EmbeddedStats</scope><name>UPLOAD</name></member>
+      <member refid="structEmbeddedStats_1acef4c01c9d6ac1461d66278c7870c775" prot="public" virt="non-virtual"><scope>EmbeddedStats</scope><name>use_whole_graph</name></member>
+      <member refid="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28a5112ccbe43946a2139e167103a07b6cc" prot="public" virt="non-virtual"><scope>EmbeddedStats</scope><name>VART_FULL</name></member>
+      <member refid="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28a0ce7accfa2081b4ac9dc96225a6f14af" prot="public" virt="non-virtual"><scope>EmbeddedStats</scope><name>WHOLEGRAPH</name></member>
+      <member refid="structEmbeddedStats_1a03a1ac518cf658772159830c0533ea86" prot="public" virt="non-virtual"><scope>EmbeddedStats</scope><name>~EmbeddedStats</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

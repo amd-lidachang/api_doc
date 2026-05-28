@@ -1,0 +1,393 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="stats_8h" kind="file" language="C++">
+    <compoundname>stats.h</compoundname>
+    <includes local="no">optional</includes>
+    <includes local="no">string</includes>
+    <includes local="no">time.h</includes>
+    <includes refid="reporting_8h" local="yes">reporting.h</includes>
+    <includedby refid="arm__ops_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/arm_ops.cpp</includedby>
+    <includedby refid="execute_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/execute.cpp</includedby>
+    <includedby refid="vart__ml__runner_8hpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp</includedby>
+    <includedby refid="stats_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.cpp</includedby>
+    <incdepgraph>
+      <node id="5">
+        <label>reporting.h</label>
+        <link refid="reporting_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>cstdint</label>
+      </node>
+      <node id="9">
+        <label>stdexcept</label>
+      </node>
+      <node id="3">
+        <label>string</label>
+      </node>
+      <node id="7">
+        <label>json_parser.h</label>
+        <link refid="json__parser_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>third_party/nlohmann/json.hpp</label>
+      </node>
+      <node id="2">
+        <label>optional</label>
+      </node>
+      <node id="8">
+        <label>shell.h</label>
+        <link refid="shell_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>time.h</label>
+      </node>
+      <node id="6">
+        <label>mutex</label>
+      </node>
+      <node id="1">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h</label>
+        <link refid="stats_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="5">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_py_api/vart_ml_py_api.cpp</label>
+        <link refid="vart__ml__py__api_8cpp"/>
+      </node>
+      <node id="13">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.cpp</label>
+        <link refid="stats_8cpp"/>
+      </node>
+      <node id="2">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/arm_ops.cpp</label>
+        <link refid="arm__ops_8cpp"/>
+      </node>
+      <node id="4">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.hpp</label>
+        <link refid="vart__ml__runner_8hpp"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/snapshot_parser.cpp</label>
+        <link refid="vart__ml__runner_2snapshot__parser_8cpp"/>
+      </node>
+      <node id="9">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/thread_pool.cpp</label>
+        <link refid="thread__pool_8cpp"/>
+      </node>
+      <node id="10">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/utils.cpp</label>
+        <link refid="utils_8cpp"/>
+      </node>
+      <node id="12">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.cpp</label>
+        <link refid="vart__npu__tensor_8cpp"/>
+      </node>
+      <node id="11">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.cpp</label>
+        <link refid="vart__ml__runner_8cpp"/>
+      </node>
+      <node id="6">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_py_api/vart_ml_py_api.h</label>
+        <link refid="vart__ml__py__api_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/execute.cpp</label>
+        <link refid="execute_8cpp"/>
+      </node>
+      <node id="1">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h</label>
+        <link refid="stats_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/accessors.cpp</label>
+        <link refid="vart__ml__runner_2accessors_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structEmbeddedStats" prot="public">EmbeddedStats</innerclass>
+    <innerclass refid="structEmbeddedStats_1_1SnapshotInfos" prot="private">EmbeddedStats::SnapshotInfos</innerclass>
+    <innerclass refid="structEmbeddedStats_1_1DeltaTimes" prot="private">EmbeddedStats::DeltaTimes</innerclass>
+    <innerclass refid="structEmbeddedStats_1_1DeltaTimes_1_1Npu" prot="public">EmbeddedStats::DeltaTimes::Npu</innerclass>
+    <innerclass refid="structEmbeddedStats_1_1DeltaTimes_1_1Framework" prot="public">EmbeddedStats::DeltaTimes::Framework</innerclass>
+    <innerclass refid="structEmbeddedStats_1_1PerGraphInfo" prot="private">EmbeddedStats::PerGraphInfo</innerclass>
+    <innerclass refid="structEmbeddedStats_1_1ParentGraph" prot="private">EmbeddedStats::ParentGraph</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="copyright"><para>Copyright 2024 Advanced Micro Devices Inc.</para>
+</simplesect>
+Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <verbatim>http://www.apache.org/licenses/LICENSE-2.0
+</verbatim> Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. </para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>STATS_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STATS_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;optional&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;time.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="reporting_8h" kindref="compound">reporting.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="structEmbeddedStats" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structEmbeddedStats" kindref="compound">EmbeddedStats</ref></highlight></codeline>
+<codeline lineno="33"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="35" refid="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28" kindref="member">step_t</ref></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="37" refid="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28a6d55417c509ed86150d10d2507174ff0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28a6d55417c509ed86150d10d2507174ff0" kindref="member">UNDEFINED</ref>,</highlight></codeline>
+<codeline lineno="38" refid="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28a79bec1653ac4d2a2a1b00924b660a344" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28a79bec1653ac4d2a2a1b00924b660a344" kindref="member">QUANTIZE</ref>,</highlight></codeline>
+<codeline lineno="39" refid="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28af3adfaed5fb6283b94ef2b76e214b3c3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28af3adfaed5fb6283b94ef2b76e214b3c3" kindref="member">REORDER_IN</ref>,</highlight></codeline>
+<codeline lineno="40" refid="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28a4c38b629f00afced7861f34f0c725967" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28a4c38b629f00afced7861f34f0c725967" kindref="member">UPLOAD</ref>,</highlight></codeline>
+<codeline lineno="41" refid="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28a155aa1ce591dc5675e2db592dcb5fdf7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28a155aa1ce591dc5675e2db592dcb5fdf7" kindref="member">INFERENCE</ref>,</highlight></codeline>
+<codeline lineno="42" refid="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28a90eecdf11872675b7819fd1638f3011d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28a90eecdf11872675b7819fd1638f3011d" kindref="member">DOWNLOAD</ref>,</highlight></codeline>
+<codeline lineno="43" refid="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28a1be99b0c8afb357efc5163234a49fcd1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28a1be99b0c8afb357efc5163234a49fcd1" kindref="member">REORDER_OUT</ref>,</highlight></codeline>
+<codeline lineno="44" refid="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28a282f6fab01cfae40c5087e3f03fabdd2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28a282f6fab01cfae40c5087e3f03fabdd2" kindref="member">DEQUANTIZE</ref>,</highlight></codeline>
+<codeline lineno="45" refid="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28a5112ccbe43946a2139e167103a07b6cc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28a5112ccbe43946a2139e167103a07b6cc" kindref="member">VART_FULL</ref>,</highlight></codeline>
+<codeline lineno="46" refid="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28a217c23be7f80567a10c3610c2462b4bd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28a217c23be7f80567a10c3610c2462b4bd" kindref="member">FRAMEWORK</ref>,</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28a0ce7accfa2081b4ac9dc96225a6f14af" kindref="member">WHOLEGRAPH</ref></highlight></codeline>
+<codeline lineno="48" refid="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28a0ce7accfa2081b4ac9dc96225a6f14af" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structEmbeddedStats_1a5dbcd1b159bbd45801745e23fb3a07d6" kindref="member">EmbeddedStats</ref>();</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structEmbeddedStats_1a03a1ac518cf658772159830c0533ea86" kindref="member">~EmbeddedStats</ref>();</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structEmbeddedStats_1a10190e257526e0cc6b1de99c0b54e3e1" kindref="member">delete_stats_object</ref>();</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structEmbeddedStats_1ac419f356e80474d363a2e3d4b3e5ebdc" kindref="member">get_hash</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structEmbeddedStats_1acef4c01c9d6ac1461d66278c7870c775" kindref="member">use_whole_graph</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structEmbeddedStats_1a77bc4b9014c25456c82f3fad4d9b582a" kindref="member">update_network</ref>(std::string<sp/>networkName_,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>nbNetworks_);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structEmbeddedStats_1a03d6c2e0d8dd2af6be4e45b6521ecb29" kindref="member">deleteGraph</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structEmbeddedStats_1ab48e08eff68bb716882f85707fced84d" kindref="member">start_step</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>hash_,<sp/><ref refid="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28" kindref="member">EmbeddedStats::step_t</ref><sp/>step_);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structEmbeddedStats_1a8fc82a7a7bb2cf7fd8bbf5c5ae7d7614" kindref="member">stop_step</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>hash_,<sp/><ref refid="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28" kindref="member">EmbeddedStats::step_t</ref><sp/>step_);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structEmbeddedStats_1a07793a080b6f502aebdcc71c9d143059" kindref="member">set_step</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>hash_,<sp/><ref refid="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28" kindref="member">EmbeddedStats::step_t</ref><sp/>step_,<sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/>timespec<sp/>time_);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structEmbeddedStats_1ae098f240d268d3d75357b7542e512f08" kindref="member">update_step</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>hash_,<sp/><ref refid="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28" kindref="member">EmbeddedStats::step_t</ref><sp/>step_);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structEmbeddedStats_1a00e05455bb2694e1853764de17fdbc52" kindref="member">setBatchSize</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>batch_size);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structEmbeddedStats_1a2bc116156c398d194764b627aac22a2d" kindref="member">setInputDims</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>hash_,<sp/>std::vector&lt;std::vector&lt;uint&gt;&gt;<sp/>inputShape_);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structEmbeddedStats_1a89c010afbd14d321dd647e85a2e9f0be" kindref="member">setOutputDims</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>hash_,<sp/>std::vector&lt;std::vector&lt;uint&gt;&gt;<sp/>outputShape_);</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structEmbeddedStats_1a4ce0c7bd37e6acd3f63b0e968a6f32b8" kindref="member">setInputDataType</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>hash_,<sp/>std::vector&lt;std::string&gt;<sp/>inputDataType_);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structEmbeddedStats_1a0dde36b83e25cbc4ee1cb2616061be82" kindref="member">setOutputDataType</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>hash_,<sp/>std::vector&lt;std::string&gt;<sp/>outputDataType_);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structEmbeddedStats_1a7aacaa2cb95dc8328f5ee8552c7ccc2e" kindref="member">isFirstRun</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structEmbeddedStats_1ad35a674b698ae8bad8640eb79b525176" kindref="member">addSubGraph</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>hash_,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>name_,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>onnxSubGraph_);</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structEmbeddedStats_1a037c70f82e8d7eb8d97263ba38536c16" kindref="member">setAsFirst</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>hash_);</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structEmbeddedStats_1a75e6dbbcb7eb63d651d76d1591a49ad8" kindref="member">setAsLast</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>hash_);</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structEmbeddedStats_1a3f7dcede6ffa06d11e97f8f15da977d0" kindref="member">set_config_string</ref>(std::string<sp/>config_str);</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structEmbeddedStats_1a9775078ccc4910b338bb1f98ccb91796" kindref="member">startSubGraph</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>hash_);</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structEmbeddedStats_1a8e536e36551e4712a2838e90be104466" kindref="member">stopSubGraph</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>hash_);</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structEmbeddedStats_1a9c9694a9feee261855c5477a1ba8fe47" kindref="member">print_summary</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"></highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">SnapshotInfos</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">timespec<sp/>timeStart<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>{};</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">timespec<sp/>timeStop<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>{};</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">timespec<sp/>startGraph<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>{};</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">timespec<sp/>endGraph<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>{};</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">timespec<sp/>startVartML<sp/><sp/><sp/><sp/><sp/>=<sp/>{};</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">timespec<sp/>endVartML<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>{};</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">timespec<sp/>startQuantize<sp/><sp/><sp/>=<sp/>{};</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">timespec<sp/>endQuantize<sp/><sp/><sp/><sp/><sp/>=<sp/>{};</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">timespec<sp/>startReorderIn<sp/><sp/>=<sp/>{};</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">timespec<sp/>endReorderIn<sp/><sp/><sp/><sp/>=<sp/>{};</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">timespec<sp/>startWrite<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>{};</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">timespec<sp/>endWrite<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>{};</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">timespec<sp/>startRun<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>{};</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">timespec<sp/>endRun<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>{};</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">timespec<sp/>startRead<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>{};</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">timespec<sp/>endRead<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>{};</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">timespec<sp/>startReorderOut<sp/>=<sp/>{};</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">timespec<sp/>endReorderOut<sp/><sp/><sp/>=<sp/>{};</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">timespec<sp/>startDequantize<sp/>=<sp/>{};</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">timespec<sp/>endDequantize<sp/><sp/><sp/>=<sp/>{};</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">timespec<sp/>startFramework<sp/><sp/>=<sp/>{};</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">timespec<sp/>endFramework<sp/><sp/><sp/><sp/>=<sp/>{};</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">DeltaTimes</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="258" refid="structEmbeddedStats_1_1DeltaTimes_1_1Npu" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structEmbeddedStats_1_1DeltaTimes_1_1Npu" kindref="compound">Npu</ref></highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="260" refid="structEmbeddedStats_1_1DeltaTimes_1_1Npu_1a8529b3cdb2ee1aea8caaa3752206e535" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structEmbeddedStats_1_1DeltaTimes_1_1Npu_1a8529b3cdb2ee1aea8caaa3752206e535" kindref="member">full</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="261" refid="structEmbeddedStats_1_1DeltaTimes_1_1Npu_1ac183082a6487a0f6720edceb2c62e25f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structEmbeddedStats_1_1DeltaTimes_1_1Npu_1ac183082a6487a0f6720edceb2c62e25f" kindref="member">preProcess</ref><sp/><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="262" refid="structEmbeddedStats_1_1DeltaTimes_1_1Npu_1ab8587cac4e721df0e2d5d9a833d8fb6d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structEmbeddedStats_1_1DeltaTimes_1_1Npu_1ab8587cac4e721df0e2d5d9a833d8fb6d" kindref="member">reorderIn</ref><sp/><sp/><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="263" refid="structEmbeddedStats_1_1DeltaTimes_1_1Npu_1a1e531dc17a71188f86bcc596da2b7e42" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structEmbeddedStats_1_1DeltaTimes_1_1Npu_1a1e531dc17a71188f86bcc596da2b7e42" kindref="member">upload</ref><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="264" refid="structEmbeddedStats_1_1DeltaTimes_1_1Npu_1a361fbd71a42d2eab492a3abe9f00a946" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structEmbeddedStats_1_1DeltaTimes_1_1Npu_1a361fbd71a42d2eab492a3abe9f00a946" kindref="member">runFpga</ref><sp/><sp/><sp/><sp/><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="265" refid="structEmbeddedStats_1_1DeltaTimes_1_1Npu_1a232046b3ff481df81fc3b303d98387dc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structEmbeddedStats_1_1DeltaTimes_1_1Npu_1a232046b3ff481df81fc3b303d98387dc" kindref="member">download</ref><sp/><sp/><sp/><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="266" refid="structEmbeddedStats_1_1DeltaTimes_1_1Npu_1a40fabaf3825b921c1872bd6fc497204f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structEmbeddedStats_1_1DeltaTimes_1_1Npu_1a40fabaf3825b921c1872bd6fc497204f" kindref="member">reorderOut</ref><sp/><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="267" refid="structEmbeddedStats_1_1DeltaTimes_1_1Npu_1ac548a57b187534034da22c7ad6d4a37a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structEmbeddedStats_1_1DeltaTimes_1_1Npu_1ac548a57b187534034da22c7ad6d4a37a" kindref="member">postProcess</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="268" refid="structEmbeddedStats_1_1DeltaTimes_1_1Npu_1ae30c4691d62f9488028a6c66bb5e4f23" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structEmbeddedStats_1_1DeltaTimes_1_1Npu_1ae30c4691d62f9488028a6c66bb5e4f23" kindref="member">cpu</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"></highlight></codeline>
+<codeline lineno="271" refid="structEmbeddedStats_1_1DeltaTimes_1_1Framework" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structEmbeddedStats_1_1DeltaTimes_1_1Framework" kindref="compound">Framework</ref></highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="273" refid="structEmbeddedStats_1_1DeltaTimes_1_1Framework_1a3c75494b0bfd266a000c8f744875f2c0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structEmbeddedStats_1_1DeltaTimes_1_1Framework_1a3c75494b0bfd266a000c8f744875f2c0" kindref="member">cpu</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"></highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>wholeGraph<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structEmbeddedStats_1_1DeltaTimes_1_1Npu" kindref="compound">Npu</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>npu;</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structEmbeddedStats_1_1DeltaTimes_1_1Framework" kindref="compound">Framework</ref><sp/>framework;</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"></highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">PerGraphInfo</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>hash;</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/>name;</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"></highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;std::vector&lt;uint&gt;&gt;<sp/>inputShape;</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;std::vector&lt;uint&gt;&gt;<sp/>outputShape;</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"></highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;std::string&gt;<sp/>inputDataType<sp/><sp/>=<sp/>{};</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;std::string&gt;<sp/>outputDataType<sp/>=<sp/>{};</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"></highlight></codeline>
+<codeline lineno="292"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>batchSize<sp/><sp/><sp/><sp/><sp/>=<sp/>(size_t)-1;</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/>runOnCpu<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/>firstGraph<sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/>lastGraph<sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28" kindref="member">step_t</ref><sp/>previous_step<sp/>=<sp/><ref refid="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28a6d55417c509ed86150d10d2507174ff0" kindref="member">EmbeddedStats::UNDEFINED</ref>;</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"></highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">SnapshotInfos<sp/><sp/><sp/><sp/>curr_run;</highlight></codeline>
+<codeline lineno="299"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;DeltaTimes&gt;<sp/>times;</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>computedTimes<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>config_str;</highlight></codeline>
+<codeline lineno="302"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="303"><highlight class="normal"></highlight></codeline>
+<codeline lineno="304"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">ParentGraph</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>networkName;</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PerGraphInfo<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>info;</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nbNpuSubGraphs;</highlight></codeline>
+<codeline lineno="309"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nbOnnxSubGraphs;</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;PerGraphInfo&gt;<sp/>subGraphs;</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="312"><highlight class="normal"></highlight></codeline>
+<codeline lineno="313"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="320"><highlight class="normal"><sp/><sp/><sp/><sp/>PerGraphInfo*<sp/>findPerGraphInfo(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>hash_);</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"></highlight></codeline>
+<codeline lineno="329"><highlight class="normal"><sp/><sp/><sp/><sp/>DeltaTimes<sp/>snapshotToDelta(PerGraphInfo*<sp/>perGraphInfo_,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>SnapshotInfos&amp;<sp/>snapshotInfos_);</highlight></codeline>
+<codeline lineno="330"><highlight class="normal"></highlight></codeline>
+<codeline lineno="337"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>init(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>hash_);</highlight></codeline>
+<codeline lineno="338"><highlight class="normal"></highlight></codeline>
+<codeline lineno="345"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>beforeForward(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>hash_,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>batchSize_);</highlight></codeline>
+<codeline lineno="346"><highlight class="normal"></highlight></codeline>
+<codeline lineno="352"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>initAfterForward(PerGraphInfo*<sp/>perGraphInfo_);</highlight></codeline>
+<codeline lineno="353"><highlight class="normal"></highlight></codeline>
+<codeline lineno="360"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>afterForward(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>hash_,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>SnapshotInfos&amp;<sp/>infos_);</highlight></codeline>
+<codeline lineno="361"><highlight class="normal"></highlight></codeline>
+<codeline lineno="367"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>computeWholeGraph(DeltaTimes&amp;<sp/>deltaTimes_);</highlight></codeline>
+<codeline lineno="368"><highlight class="normal"></highlight></codeline>
+<codeline lineno="374"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>addJsonObject(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>DeltaTimes&amp;<sp/>deltaTimes_);</highlight></codeline>
+<codeline lineno="375"><highlight class="normal"></highlight></codeline>
+<codeline lineno="381"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>update_summary(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::optional&lt;DeltaTimes&gt;);</highlight></codeline>
+<codeline lineno="382"><highlight class="normal"></highlight></codeline>
+<codeline lineno="387"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>summary();</highlight></codeline>
+<codeline lineno="388"><highlight class="normal"></highlight></codeline>
+<codeline lineno="389"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="390"><highlight class="normal"><sp/><sp/><sp/><sp/>ParentGraph<sp/>_graph{};</highlight></codeline>
+<codeline lineno="391"><highlight class="normal"></highlight></codeline>
+<codeline lineno="392"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_initDone<sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="393"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_printed<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="394"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_statsView<sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;none&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="395"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_log_libLevel<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;none&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="396"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_uploadCnt<sp/><sp/><sp/><sp/>=<sp/>-1;</highlight></codeline>
+<codeline lineno="397"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>_downloadCnt<sp/><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="398"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>_nbImages<sp/><sp/><sp/><sp/><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="399"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_quantize<sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="400"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_reorderIn<sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="401"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_upload<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="402"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_download<sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="403"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_reorderOut<sp/><sp/><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="404"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_dequantize<sp/><sp/><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="405"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_vart_ml_full<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="406"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_wholeGraph<sp/><sp/><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="407"><highlight class="normal"></highlight></codeline>
+<codeline lineno="408"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classEmbeddedReporting" kindref="compound">EmbeddedReporting</ref>*<sp/><sp/><sp/><sp/>_reporting;</highlight></codeline>
+<codeline lineno="409"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="reporting_8h_1a7a7eb87c9ed558274a643ed90dc01eb4" kindref="member">ordered_json</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_jsonRoot;</highlight></codeline>
+<codeline lineno="410"><highlight class="normal"><sp/><sp/><sp/><sp/>ordered_json::array_t<sp/>_batchArray;</highlight></codeline>
+<codeline lineno="411"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="reporting_8h_1a7a7eb87c9ed558274a643ed90dc01eb4" kindref="member">ordered_json</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_summary;</highlight></codeline>
+<codeline lineno="412"><highlight class="normal"></highlight></codeline>
+<codeline lineno="413"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>batch_size;</highlight></codeline>
+<codeline lineno="414"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28" kindref="member">step_t</ref><sp/>first_step;</highlight></codeline>
+<codeline lineno="415"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structEmbeddedStats_1ad08103a3b84c5b114048a82497562b28" kindref="member">step_t</ref><sp/>last_step;</highlight></codeline>
+<codeline lineno="416"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="417"><highlight class="normal"></highlight></codeline>
+<codeline lineno="418"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h"/>
+  </compounddef>
+</doxygen>

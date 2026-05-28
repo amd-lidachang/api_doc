@@ -1,0 +1,332 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="vart__preprocess__impl__imgproc_8hpp" kind="file" language="C++">
+    <compoundname>vart_preprocess_impl_imgproc.hpp</compoundname>
+    <includes local="no">vvas_core/vvas_image_process.h</includes>
+    <includes refid="vart__preprocess__impl__base_8hpp" local="yes">base/vart_preprocess_impl_base.hpp</includes>
+    <includes refid="vart__logger_8hpp" local="yes">vart_logger.hpp</includes>
+    <includedby refid="vart__preprocess_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/preprocess/vart_preprocess.cpp</includedby>
+    <includedby refid="vart__preprocess__impl__imgproc_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/preprocess/vart_preprocess_impl_imgproc.cpp</includedby>
+    <incdepgraph>
+      <node id="10">
+        <label>xrt/xrt_bo.h</label>
+      </node>
+      <node id="4">
+        <label>cstdint</label>
+      </node>
+      <node id="3">
+        <label>base/vart_preprocess_impl_base.hpp</label>
+        <link refid="vart__preprocess__impl__base_8hpp"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>vart_videoframe.hpp</label>
+        <link refid="vart__videoframe_8hpp"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>../vart_preprocess_types.hpp</label>
+        <link refid="vart__preprocess__types_8hpp"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>vvas_core/vvas_image_process.h</label>
+      </node>
+      <node id="17">
+        <label>cstdarg</label>
+      </node>
+      <node id="6">
+        <label>string</label>
+      </node>
+      <node id="21">
+        <label>map</label>
+      </node>
+      <node id="19">
+        <label>fstream</label>
+      </node>
+      <node id="15">
+        <label>syslog.h</label>
+      </node>
+      <node id="13">
+        <label>vart_videoframe_types.hpp</label>
+        <link refid="vart__videoframe__types_8hpp"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>cstdio</label>
+      </node>
+      <node id="14">
+        <label>vart_logger.hpp</label>
+        <link refid="vart__logger_8hpp"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>../vart_device.hpp</label>
+        <link refid="vart__device_8hpp"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>vart_logger_types.hpp</label>
+        <link refid="vart__logger__types_8hpp"/>
+      </node>
+      <node id="11">
+        <label>vector</label>
+      </node>
+      <node id="23">
+        <label>sstream</label>
+      </node>
+      <node id="20">
+        <label>iostream</label>
+      </node>
+      <node id="22">
+        <label>mutex</label>
+      </node>
+      <node id="16">
+        <label>chrono</label>
+      </node>
+      <node id="12">
+        <label>vart_memory_types.hpp</label>
+        <link refid="vart__memory__types_8hpp"/>
+      </node>
+      <node id="1">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/preprocess/vart_preprocess_impl_imgproc.hpp</label>
+        <link refid="vart__preprocess__impl__imgproc_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/preprocess/vart_preprocess.cpp</label>
+        <link refid="vart__preprocess_8cpp"/>
+      </node>
+      <node id="3">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/preprocess/vart_preprocess_impl_imgproc.cpp</label>
+        <link refid="vart__preprocess__impl__imgproc_8cpp"/>
+      </node>
+      <node id="1">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/preprocess/vart_preprocess_impl_imgproc.hpp</label>
+        <link refid="vart__preprocess__impl__imgproc_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classvart_1_1PreProcessImplImgProc" prot="public">vart::PreProcessImplImgProc</innerclass>
+    <innernamespace refid="namespacevart">vart</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="vart__preprocess__impl__imgproc_8hpp_1aedfd32af600fd170d0d004a8fa3eb6cc" prot="public" static="no">
+        <name>IMAGE_PROCESSING_HLS_LIBRARY_NAME</name>
+        <initializer>&quot;libvvas_image_process_hw_lib.so&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/preprocess/vart_preprocess_impl_imgproc.hpp" line="23" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/preprocess/vart_preprocess_impl_imgproc.hpp" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="vart__preprocess__impl__imgproc_8hpp_1a0a59dc7a2016ff57bf0474d6c0e58390" prot="public" static="no">
+        <name>IMAGE_PROCESSING_HLS_LIBRARY_CONFIG</name>
+        <initializer>  &quot;{\&quot;kernel-name\&quot;:\&quot;image_processing:{image_processing_1}\&quot;}&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/preprocess/vart_preprocess_impl_imgproc.hpp" line="24" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/preprocess/vart_preprocess_impl_imgproc.hpp" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="vart__preprocess__impl__imgproc_8hpp_1ac00c1fec27bd03834cff244fdfe5f0c4" prot="public" static="no">
+        <name>IMAGE_PROCESSING_SW_LIBRARY_NAME</name>
+        <initializer>&quot;libvvas_image_process_sw_lib.so&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/preprocess/vart_preprocess_impl_imgproc.hpp" line="26" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/preprocess/vart_preprocess_impl_imgproc.hpp" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="vart__preprocess__impl__imgproc_8hpp_1abc35735bbc69c7039218ea7bff73b831" prot="public" static="no">
+        <name>PRE_PROCESS_MIN_MEAN</name>
+        <initializer>0.0f</initializer>
+        <briefdescription>
+<para>Minimum mean value for pre-processing. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/preprocess/vart_preprocess_impl_imgproc.hpp" line="31" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/preprocess/vart_preprocess_impl_imgproc.hpp" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="vart__preprocess__impl__imgproc_8hpp_1ad6bc03d9b6bca39965d2526e97e826ec" prot="public" static="no">
+        <name>PRE_PROCESS_MAX_MEAN</name>
+        <initializer>128.0f</initializer>
+        <briefdescription>
+<para>Maximum mean value for pre-processing. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/preprocess/vart_preprocess_impl_imgproc.hpp" line="36" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/preprocess/vart_preprocess_impl_imgproc.hpp" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="vart__preprocess__impl__imgproc_8hpp_1a8dac0cf956960fb861ac00ce19b54182" prot="public" static="no">
+        <name>PRE_PROCESS_MIN_SCALE</name>
+        <initializer>0.0f</initializer>
+        <briefdescription>
+<para>Minimum scale value for pre-processing. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/preprocess/vart_preprocess_impl_imgproc.hpp" line="41" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/preprocess/vart_preprocess_impl_imgproc.hpp" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="vart__preprocess__impl__imgproc_8hpp_1a6866db450927b64a67da0e9b3b55ce41" prot="public" static="no">
+        <name>PRE_PROCESS_MAX_SCALE</name>
+        <initializer>1.0f</initializer>
+        <briefdescription>
+<para>Maximum scale value for pre-processing. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/preprocess/vart_preprocess_impl_imgproc.hpp" line="46" column="9" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/preprocess/vart_preprocess_impl_imgproc.hpp" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>2024-2025<sp/>Advanced<sp/>Micro<sp/>Devices<sp/>Inc.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>Licensed<sp/>under<sp/>the<sp/>Apache<sp/>License,<sp/>Version<sp/>2.0<sp/>(the<sp/>&quot;License&quot;);</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>you<sp/>may<sp/>not<sp/>use<sp/>this<sp/>file<sp/>except<sp/>in<sp/>compliance<sp/>with<sp/>the<sp/>License.</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>You<sp/>may<sp/>obtain<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>License<sp/>at</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/>http://www.apache.org/licenses/LICENSE-2.0</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>Unless<sp/>required<sp/>by<sp/>applicable<sp/>law<sp/>or<sp/>agreed<sp/>to<sp/>in<sp/>writing,<sp/>software</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>distributed<sp/>under<sp/>the<sp/>License<sp/>is<sp/>distributed<sp/>on<sp/>an<sp/>&quot;AS<sp/>IS&quot;<sp/>BASIS,</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>WITHOUT<sp/>WARRANTIES<sp/>OR<sp/>CONDITIONS<sp/>OF<sp/>ANY<sp/>KIND,<sp/>either<sp/>express<sp/>or<sp/>implied.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>See<sp/>the<sp/>License<sp/>for<sp/>the<sp/>specific<sp/>language<sp/>governing<sp/>permissions<sp/>and</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>limitations<sp/>under<sp/>the<sp/>License.</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vvas_core/vvas_image_process.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="vart__preprocess__impl__base_8hpp" kindref="compound">base/vart_preprocess_impl_base.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="vart__logger_8hpp" kindref="compound">vart_logger.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="vart__preprocess__impl__imgproc_8hpp_1aedfd32af600fd170d0d004a8fa3eb6cc" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>IMAGE_PROCESSING_HLS_LIBRARY_NAME<sp/>&quot;libvvas_image_process_hw_lib.so&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="vart__preprocess__impl__imgproc_8hpp_1a0a59dc7a2016ff57bf0474d6c0e58390" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>IMAGE_PROCESSING_HLS_LIBRARY_CONFIG<sp/>\</highlight></codeline>
+<codeline lineno="25"><highlight class="preprocessor"><sp/><sp/>&quot;{\&quot;kernel-name\&quot;:\&quot;image_processing:{image_processing_1}\&quot;}&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="vart__preprocess__impl__imgproc_8hpp_1ac00c1fec27bd03834cff244fdfe5f0c4" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>IMAGE_PROCESSING_SW_LIBRARY_NAME<sp/>&quot;libvvas_image_process_sw_lib.so&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="vart__preprocess__impl__imgproc_8hpp_1abc35735bbc69c7039218ea7bff73b831" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PRE_PROCESS_MIN_MEAN<sp/>0.0f</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="vart__preprocess__impl__imgproc_8hpp_1ad6bc03d9b6bca39965d2526e97e826ec" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PRE_PROCESS_MAX_MEAN<sp/>128.0f</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="vart__preprocess__impl__imgproc_8hpp_1a8dac0cf956960fb861ac00ce19b54182" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PRE_PROCESS_MIN_SCALE<sp/>0.0f</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="vart__preprocess__impl__imgproc_8hpp_1a6866db450927b64a67da0e9b3b55ce41" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PRE_PROCESS_MAX_SCALE<sp/>1.0f</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacevart" kindref="compound">vart</ref><sp/>{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="classvart_1_1PreProcessImplImgProc" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classvart_1_1PreProcessImplImgProc" kindref="compound">PreProcessImplImgProc</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classvart_1_1PreProcessImplBase" kindref="compound">PreProcessImplBase</ref><sp/>{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="52" refid="classvart_1_1PreProcessImplImgProc_1ad6df27438b57a9d6119f91448e94eeb7" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="classvart_1_1PreProcessImplImgProc_1ad6df27438b57a9d6119f91448e94eeb7" kindref="member">PreProcessImplImgProc</ref>()<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><ref refid="classvart_1_1PreProcessImplImgProc_1ad6df27438b57a9d6119f91448e94eeb7" kindref="member">PreProcessImplImgProc</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>library_name,</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>library_config,</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string&amp;<sp/>json_data,</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::shared_ptr&lt;Device&gt;<sp/>device);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classvart_1_1PreProcessImplImgProc_1a3d0334c7020331d5c945f3dcab2089d2" kindref="member">process</ref>(std::vector&lt;PreProcessOp&gt;&amp;<sp/>preprocess_ops)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classvart_1_1PreProcessImplImgProc_1a912b4158b840f4338f65bf10772bc3bc" kindref="member">get_input_vinfo</ref>(int32_t<sp/>height,</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int32_t<sp/>width,</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacevart_1a0701d5498bcfe62aa2293fd856702b8d" kindref="member">VideoFormat</ref><sp/>fmt,</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structvart_1_1VideoInfo" kindref="compound">VideoInfo</ref>&amp;<sp/>vinfo)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structvart_1_1VideoInfo" kindref="compound">VideoInfo</ref>&amp;<sp/><ref refid="classvart_1_1PreProcessImplImgProc_1ae593d4b31b798f6dcd9b9fd7232f817e" kindref="member">get_output_vinfo</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classvart_1_1PreProcessImplImgProc_1a3be1c4538052a5303ba7f038012ce632" kindref="member">set_preprocess_info</ref>(<ref refid="structvart_1_1PreProcessInfo" kindref="compound">PreProcessInfo</ref>&amp;<sp/>preprocess_info)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structvart_1_1PreProcessInfo" kindref="compound">PreProcessInfo</ref>&amp;<sp/><ref refid="classvart_1_1PreProcessImplImgProc_1a4bcb121b7a547a675ac0d0d5a96a0b08" kindref="member">get_preprocess_info</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><ref refid="classvart_1_1PreProcessImplImgProc_1abfd441ceaf93830bb956a8844f4afcb5" kindref="member">~PreProcessImplImgProc</ref>();</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/>VvasContext*<sp/>vvas_ctx;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/>VvasImageProcess*<sp/>vvas_image_process<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/>VvasImageProcessFrameRect<sp/>src_rect,<sp/>dest_rect;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><ref refid="structvart_1_1VideoInfo" kindref="compound">VideoInfo</ref><sp/>in_vinfo,<sp/>out_vinfo;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/>VvasImageProcessParam<sp/>ppe_param;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/>VvasImageProcessCapabilities*<sp/>caps;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/>VvasImageProcessInitConfig<sp/>init_config;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/>VvasImageProcessOutParam<sp/>out_param;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><ref refid="structvart_1_1PreProcessInfo" kindref="compound">PreProcessInfo</ref><sp/>preprocess_info;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/>std::shared_ptr&lt;struct<sp/>log_context&gt;<sp/>log_ctx;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="80"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>vart</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/preprocess/vart_preprocess_impl_imgproc.hpp"/>
+  </compounddef>
+</doxygen>

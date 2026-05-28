@@ -1,0 +1,279 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structlm__coreBus__masterControl__config__aieml__v1c__bf" kind="struct" language="C++" prot="public">
+    <compoundname>lm_coreBus_masterControl_config_aieml_v1c_bf</compoundname>
+    <includes refid="private_8h" local="no">private.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structlm__coreBus__masterControl__config__aieml__v1c__bf_1afeb5931f72199044729e9fdc08cca389" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t lm_coreBus_masterControl_config_aieml_v1c_bf::_0x00[0]</definition>
+        <argsstring>[0]</argsstring>
+        <name>_0x00</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="184" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="184" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlm__coreBus__masterControl__config__aieml__v1c__bf_1ab7b70d3e8360d4da5120655dbd1335a5" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t lm_coreBus_masterControl_config_aieml_v1c_bf::supra_addr_ddr</definition>
+        <argsstring></argsstring>
+        <name>supra_addr_ddr</name>
+        <bitfield> 30</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="185" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="185" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlm__coreBus__masterControl__config__aieml__v1c__bf_1a82030b9ec01a3d3787440078d2d3818b" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t lm_coreBus_masterControl_config_aieml_v1c_bf::rfu0</definition>
+        <argsstring></argsstring>
+        <name>rfu0</name>
+        <bitfield> 2</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="185" column="26" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="185" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlm__coreBus__masterControl__config__aieml__v1c__bf_1abbf2b91e8c6b51548c7c90e4cb83ee4b" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t lm_coreBus_masterControl_config_aieml_v1c_bf::_0x04[0]</definition>
+        <argsstring>[0]</argsstring>
+        <name>_0x04</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="186" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="186" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlm__coreBus__masterControl__config__aieml__v1c__bf_1afa17cc4702aa10bea7277877711ae5a9" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t lm_coreBus_masterControl_config_aieml_v1c_bf::supra_block_size</definition>
+        <argsstring></argsstring>
+        <name>supra_block_size</name>
+        <bitfield> 14</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="187" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="187" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlm__coreBus__masterControl__config__aieml__v1c__bf_1ad538fd36c4d44abcbf82abc3af2b91bd" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t lm_coreBus_masterControl_config_aieml_v1c_bf::rfu1</definition>
+        <argsstring></argsstring>
+        <name>rfu1</name>
+        <bitfield> 18</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="187" column="28" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="187" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlm__coreBus__masterControl__config__aieml__v1c__bf_1ac79dfbcb72d47661fa47557e37cff239" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t lm_coreBus_masterControl_config_aieml_v1c_bf::_0x08[0]</definition>
+        <argsstring>[0]</argsstring>
+        <name>_0x08</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="188" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="188" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlm__coreBus__masterControl__config__aieml__v1c__bf_1a2a7c193e66d3afb219e5474f6e4358e2" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t lm_coreBus_masterControl_config_aieml_v1c_bf::inactivity_timeout_ms</definition>
+        <argsstring></argsstring>
+        <name>inactivity_timeout_ms</name>
+        <bitfield> 16</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="189" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="189" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlm__coreBus__masterControl__config__aieml__v1c__bf_1af5ed0b2a79ebe714a6146bd8d87d7c03" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t lm_coreBus_masterControl_config_aieml_v1c_bf::rfu2</definition>
+        <argsstring></argsstring>
+        <name>rfu2</name>
+        <bitfield> 16</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="189" column="33" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="189" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlm__coreBus__masterControl__config__aieml__v1c__bf_1a209d253170ff60328e65ea3679cd08da" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t lm_coreBus_masterControl_config_aieml_v1c_bf::_0x0C[0]</definition>
+        <argsstring>[0]</argsstring>
+        <name>_0x0C</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="190" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="190" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlm__coreBus__masterControl__config__aieml__v1c__bf_1a5cf2749a8f495de5c66e9d1126cf3c01" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t lm_coreBus_masterControl_config_aieml_v1c_bf::offset_ddr0</definition>
+        <argsstring></argsstring>
+        <name>offset_ddr0</name>
+        <bitfield> 32</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="191" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="191" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlm__coreBus__masterControl__config__aieml__v1c__bf_1a74f2d3676591caec04e5645e0dc9c847" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t lm_coreBus_masterControl_config_aieml_v1c_bf::_0x10[0]</definition>
+        <argsstring>[0]</argsstring>
+        <name>_0x10</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="192" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="192" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlm__coreBus__masterControl__config__aieml__v1c__bf_1a9523e53f63a9d48ec5c414a4c7120bf3" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t lm_coreBus_masterControl_config_aieml_v1c_bf::offset_ddr1</definition>
+        <argsstring></argsstring>
+        <name>offset_ddr1</name>
+        <bitfield> 32</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="193" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="193" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlm__coreBus__masterControl__config__aieml__v1c__bf_1ac6f854ffc0e4ecbc2ee7bbe20f25d860" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t lm_coreBus_masterControl_config_aieml_v1c_bf::_0x14[0]</definition>
+        <argsstring>[0]</argsstring>
+        <name>_0x14</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="194" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="194" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlm__coreBus__masterControl__config__aieml__v1c__bf_1ac446f536a8e1c3ef659b70028f450db5" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t lm_coreBus_masterControl_config_aieml_v1c_bf::offset_ddr2</definition>
+        <argsstring></argsstring>
+        <name>offset_ddr2</name>
+        <bitfield> 32</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="195" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="195" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlm__coreBus__masterControl__config__aieml__v1c__bf_1a9ed6ba0acc9dc97a2e0fc303544cbf20" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t lm_coreBus_masterControl_config_aieml_v1c_bf::_0x18[0]</definition>
+        <argsstring>[0]</argsstring>
+        <name>_0x18</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="196" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="196" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlm__coreBus__masterControl__config__aieml__v1c__bf_1abfa765e6d114d7ccb7f88adbcebcbd82" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t lm_coreBus_masterControl_config_aieml_v1c_bf::offset_ddr3</definition>
+        <argsstring></argsstring>
+        <name>offset_ddr3</name>
+        <bitfield> 32</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="197" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="197" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlm__coreBus__masterControl__config__aieml__v1c__bf_1a8956ed1b9de6cdaf2365a769ff7fe2ca" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t lm_coreBus_masterControl_config_aieml_v1c_bf::_0x1C[0]</definition>
+        <argsstring>[0]</argsstring>
+        <name>_0x1C</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="198" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="198" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>structure to pack config </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" line="182" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h" bodystart="183" bodyend="199"/>
+    <listofallmembers>
+      <member refid="structlm__coreBus__masterControl__config__aieml__v1c__bf_1afeb5931f72199044729e9fdc08cca389" prot="public" virt="non-virtual"><scope>lm_coreBus_masterControl_config_aieml_v1c_bf</scope><name>_0x00</name></member>
+      <member refid="structlm__coreBus__masterControl__config__aieml__v1c__bf_1abbf2b91e8c6b51548c7c90e4cb83ee4b" prot="public" virt="non-virtual"><scope>lm_coreBus_masterControl_config_aieml_v1c_bf</scope><name>_0x04</name></member>
+      <member refid="structlm__coreBus__masterControl__config__aieml__v1c__bf_1ac79dfbcb72d47661fa47557e37cff239" prot="public" virt="non-virtual"><scope>lm_coreBus_masterControl_config_aieml_v1c_bf</scope><name>_0x08</name></member>
+      <member refid="structlm__coreBus__masterControl__config__aieml__v1c__bf_1a209d253170ff60328e65ea3679cd08da" prot="public" virt="non-virtual"><scope>lm_coreBus_masterControl_config_aieml_v1c_bf</scope><name>_0x0C</name></member>
+      <member refid="structlm__coreBus__masterControl__config__aieml__v1c__bf_1a74f2d3676591caec04e5645e0dc9c847" prot="public" virt="non-virtual"><scope>lm_coreBus_masterControl_config_aieml_v1c_bf</scope><name>_0x10</name></member>
+      <member refid="structlm__coreBus__masterControl__config__aieml__v1c__bf_1ac6f854ffc0e4ecbc2ee7bbe20f25d860" prot="public" virt="non-virtual"><scope>lm_coreBus_masterControl_config_aieml_v1c_bf</scope><name>_0x14</name></member>
+      <member refid="structlm__coreBus__masterControl__config__aieml__v1c__bf_1a9ed6ba0acc9dc97a2e0fc303544cbf20" prot="public" virt="non-virtual"><scope>lm_coreBus_masterControl_config_aieml_v1c_bf</scope><name>_0x18</name></member>
+      <member refid="structlm__coreBus__masterControl__config__aieml__v1c__bf_1a8956ed1b9de6cdaf2365a769ff7fe2ca" prot="public" virt="non-virtual"><scope>lm_coreBus_masterControl_config_aieml_v1c_bf</scope><name>_0x1C</name></member>
+      <member refid="structlm__coreBus__masterControl__config__aieml__v1c__bf_1a2a7c193e66d3afb219e5474f6e4358e2" prot="public" virt="non-virtual"><scope>lm_coreBus_masterControl_config_aieml_v1c_bf</scope><name>inactivity_timeout_ms</name></member>
+      <member refid="structlm__coreBus__masterControl__config__aieml__v1c__bf_1a5cf2749a8f495de5c66e9d1126cf3c01" prot="public" virt="non-virtual"><scope>lm_coreBus_masterControl_config_aieml_v1c_bf</scope><name>offset_ddr0</name></member>
+      <member refid="structlm__coreBus__masterControl__config__aieml__v1c__bf_1a9523e53f63a9d48ec5c414a4c7120bf3" prot="public" virt="non-virtual"><scope>lm_coreBus_masterControl_config_aieml_v1c_bf</scope><name>offset_ddr1</name></member>
+      <member refid="structlm__coreBus__masterControl__config__aieml__v1c__bf_1ac446f536a8e1c3ef659b70028f450db5" prot="public" virt="non-virtual"><scope>lm_coreBus_masterControl_config_aieml_v1c_bf</scope><name>offset_ddr2</name></member>
+      <member refid="structlm__coreBus__masterControl__config__aieml__v1c__bf_1abfa765e6d114d7ccb7f88adbcebcbd82" prot="public" virt="non-virtual"><scope>lm_coreBus_masterControl_config_aieml_v1c_bf</scope><name>offset_ddr3</name></member>
+      <member refid="structlm__coreBus__masterControl__config__aieml__v1c__bf_1a82030b9ec01a3d3787440078d2d3818b" prot="public" virt="non-virtual"><scope>lm_coreBus_masterControl_config_aieml_v1c_bf</scope><name>rfu0</name></member>
+      <member refid="structlm__coreBus__masterControl__config__aieml__v1c__bf_1ad538fd36c4d44abcbf82abc3af2b91bd" prot="public" virt="non-virtual"><scope>lm_coreBus_masterControl_config_aieml_v1c_bf</scope><name>rfu1</name></member>
+      <member refid="structlm__coreBus__masterControl__config__aieml__v1c__bf_1af5ed0b2a79ebe714a6146bd8d87d7c03" prot="public" virt="non-virtual"><scope>lm_coreBus_masterControl_config_aieml_v1c_bf</scope><name>rfu2</name></member>
+      <member refid="structlm__coreBus__masterControl__config__aieml__v1c__bf_1ab7b70d3e8360d4da5120655dbd1335a5" prot="public" virt="non-virtual"><scope>lm_coreBus_masterControl_config_aieml_v1c_bf</scope><name>supra_addr_ddr</name></member>
+      <member refid="structlm__coreBus__masterControl__config__aieml__v1c__bf_1afa17cc4702aa10bea7277877711ae5a9" prot="public" virt="non-virtual"><scope>lm_coreBus_masterControl_config_aieml_v1c_bf</scope><name>supra_block_size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

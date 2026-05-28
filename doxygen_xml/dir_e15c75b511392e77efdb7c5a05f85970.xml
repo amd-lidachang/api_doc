@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_e15c75b511392e77efdb7c5a05f85970" kind="dir">
+    <compoundname>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/preprocess</compoundname>
+    <innerfile refid="vart__preprocess_8cpp">vart_preprocess.cpp</innerfile>
+    <innerfile refid="vart__preprocess__impl__imgproc_8cpp">vart_preprocess_impl_imgproc.cpp</innerfile>
+    <innerfile refid="vart__preprocess__impl__imgproc_8hpp">vart_preprocess_impl_imgproc.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/preprocess/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structvart_1_1PreProcessOp" kind="struct" language="C++" prot="public">
+    <compoundname>vart::PreProcessOp</compoundname>
+    <includes refid="vart__preprocess__types_8hpp" local="no">vart_preprocess_types.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structvart_1_1PreProcessOp_1ac4273625242a49222c90eaad5c7b01e2" prot="public" static="no" mutable="no">
+        <type><ref refid="structvart_1_1RegionOfInterest" kindref="compound">RegionOfInterest</ref></type>
+        <definition>RegionOfInterest vart::PreProcessOp::in_roi</definition>
+        <argsstring></argsstring>
+        <name>in_roi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_preprocess_types.hpp" line="143" column="20" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_preprocess_types.hpp" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1PreProcessOp_1a7832f4dab2a9e8763ab17b539f290cc7" prot="public" static="no" mutable="no">
+        <type><ref refid="structvart_1_1RegionOfInterest" kindref="compound">RegionOfInterest</ref></type>
+        <definition>RegionOfInterest vart::PreProcessOp::out_roi</definition>
+        <argsstring></argsstring>
+        <name>out_roi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_preprocess_types.hpp" line="144" column="20" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_preprocess_types.hpp" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1PreProcessOp_1aac50ec67fa2fcc7edd7985a691a6d925" prot="public" static="no" mutable="no">
+        <type><ref refid="classvart_1_1VideoFrame" kindref="compound">VideoFrame</ref> *</type>
+        <definition>VideoFrame* vart::PreProcessOp::in_frame</definition>
+        <argsstring></argsstring>
+        <name>in_frame</name>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_preprocess_types.hpp" line="145" column="14" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_preprocess_types.hpp" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1PreProcessOp_1a87403f253486e4a771b8bc9f1d83396d" prot="public" static="no" mutable="no">
+        <type><ref refid="classvart_1_1VideoFrame" kindref="compound">VideoFrame</ref> *</type>
+        <definition>VideoFrame* vart::PreProcessOp::out_frame</definition>
+        <argsstring></argsstring>
+        <name>out_frame</name>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_preprocess_types.hpp" line="146" column="14" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_preprocess_types.hpp" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>vart::RegionOfInterest</label>
+        <link refid="structvart_1_1RegionOfInterest"/>
+      </node>
+      <node id="1">
+        <label>vart::PreProcessOp</label>
+        <link refid="structvart_1_1PreProcessOp"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>in_frame</edgelabel>
+          <edgelabel>out_frame</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>in_roi</edgelabel>
+          <edgelabel>out_roi</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>vart::VideoFrame</label>
+        <link refid="classvart_1_1VideoFrame"/>
+      </node>
+    </collaborationgraph>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_preprocess_types.hpp" line="142" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_preprocess_types.hpp" bodystart="142" bodyend="147"/>
+    <listofallmembers>
+      <member refid="structvart_1_1PreProcessOp_1aac50ec67fa2fcc7edd7985a691a6d925" prot="public" virt="non-virtual"><scope>vart::PreProcessOp</scope><name>in_frame</name></member>
+      <member refid="structvart_1_1PreProcessOp_1ac4273625242a49222c90eaad5c7b01e2" prot="public" virt="non-virtual"><scope>vart::PreProcessOp</scope><name>in_roi</name></member>
+      <member refid="structvart_1_1PreProcessOp_1a87403f253486e4a771b8bc9f1d83396d" prot="public" virt="non-virtual"><scope>vart::PreProcessOp</scope><name>out_frame</name></member>
+      <member refid="structvart_1_1PreProcessOp_1a7832f4dab2a9e8763ab17b539f290cc7" prot="public" virt="non-virtual"><scope>vart::PreProcessOp</scope><name>out_roi</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

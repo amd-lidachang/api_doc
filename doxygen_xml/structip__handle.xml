@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structip__handle" kind="struct" language="C++" prot="public">
+    <compoundname>ip_handle</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structip__handle_1a97f50549931f65470c05380f82017ca1" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t ip_handle::timestamp</definition>
+        <argsstring></argsstring>
+        <name>timestamp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_devmem.cpp" line="70" column="36" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_devmem.cpp" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structip__handle_1ab26466fd641cdb93e6102683d43040f1" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ip_handle::kernel_name</definition>
+        <argsstring></argsstring>
+        <name>kernel_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_devmem.cpp" line="71" column="36" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_devmem.cpp" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structip__handle_1ae826b7210d7f84f5a941006ba96ae469" prot="public" static="no" mutable="no">
+        <type><ref refid="structmem__desc" kindref="compound">mem_desc</ref></type>
+        <definition>mem_desc ip_handle::ctrlbus</definition>
+        <argsstring></argsstring>
+        <name>ctrlbus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_devmem.cpp" line="72" column="36" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_devmem.cpp" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structip__handle_1ac89a93065fe2b246c34b681f63900ef4" prot="public" static="no" mutable="no">
+        <type>std::map&lt; std::string, std::string &gt;</type>
+        <definition>std::map&lt; std::string, std::string &gt; ip_handle::fpga_info</definition>
+        <argsstring></argsstring>
+        <name>fpga_info</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_devmem.cpp" line="73" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_devmem.cpp" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structip__handle_1a13e2f2bb7f317b2a0f47821bbe282c99" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t ip_handle::connect_count</definition>
+        <argsstring></argsstring>
+        <name>connect_count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_devmem.cpp" line="74" column="36" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_devmem.cpp" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structip__handle_1a99aaf6411f548648b04284f560b0c0ed" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ip_handle::is_pp</definition>
+        <argsstring></argsstring>
+        <name>is_pp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_uio.cpp" line="88" column="36" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_uio.cpp" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ip_handle</label>
+        <link refid="structip__handle"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>ctrlbus</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mem_desc</label>
+        <link refid="structmem__desc"/>
+      </node>
+    </collaborationgraph>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_devmem.cpp" line="68" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io_devmem.cpp" bodystart="69" bodyend="75"/>
+    <listofallmembers>
+      <member refid="structip__handle_1a13e2f2bb7f317b2a0f47821bbe282c99" prot="public" virt="non-virtual"><scope>ip_handle</scope><name>connect_count</name></member>
+      <member refid="structip__handle_1ae826b7210d7f84f5a941006ba96ae469" prot="public" virt="non-virtual"><scope>ip_handle</scope><name>ctrlbus</name></member>
+      <member refid="structip__handle_1ac89a93065fe2b246c34b681f63900ef4" prot="public" virt="non-virtual"><scope>ip_handle</scope><name>fpga_info</name></member>
+      <member refid="structip__handle_1a99aaf6411f548648b04284f560b0c0ed" prot="public" virt="non-virtual"><scope>ip_handle</scope><name>is_pp</name></member>
+      <member refid="structip__handle_1ab26466fd641cdb93e6102683d43040f1" prot="public" virt="non-virtual"><scope>ip_handle</scope><name>kernel_name</name></member>
+      <member refid="structip__handle_1a97f50549931f65470c05380f82017ca1" prot="public" virt="non-virtual"><scope>ip_handle</scope><name>timestamp</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

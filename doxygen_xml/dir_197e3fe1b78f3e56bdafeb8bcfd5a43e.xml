@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_197e3fe1b78f3e56bdafeb8bcfd5a43e" kind="dir">
+    <compoundname>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner</compoundname>
+    <innerfile refid="onnx__runner_8cpp">onnx_runner.cpp</innerfile>
+    <innerfile refid="onnx__runner_8h">onnx_runner.h</innerfile>
+    <innerfile refid="onnx__runner__fallback_8cpp">onnx_runner_fallback.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/onnx_runner/"/>
+  </compounddef>
+</doxygen>

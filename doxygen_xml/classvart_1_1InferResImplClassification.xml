@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classvart_1_1InferResImplClassification" kind="class" language="C++" prot="public">
+    <compoundname>vart::InferResImplClassification</compoundname>
+    <basecompoundref refid="classvart_1_1InferResultImplBase" prot="public" virt="non-virtual">vart::InferResultImplBase</basecompoundref>
+    <includes refid="vart__inferres__impl__classification_8hpp" local="no">vart_inferres_impl_classification.hpp</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classvart_1_1InferResImplClassification_1abaaac9334803fb7d24202d2c69311652" prot="private" static="no" mutable="no">
+        <type><ref refid="structvart_1_1ClassificationResData" kindref="compound">ClassificationResData</ref></type>
+        <definition>ClassificationResData vart::InferResImplClassification::result</definition>
+        <argsstring></argsstring>
+        <name>result</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/inferresult/vart_inferres_impl_classification.hpp" line="36" column="25" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/inferresult/vart_inferres_impl_classification.hpp" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvart_1_1InferResImplClassification_1ad389e54faf75465ccdd80bf79e7b865b" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; struct <ref refid="structvart_1_1log__context" kindref="compound">log_context</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;struct log_context&gt; vart::InferResImplClassification::log_ctx</definition>
+        <argsstring></argsstring>
+        <name>log_ctx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/inferresult/vart_inferres_impl_classification.hpp" line="37" column="19" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/inferresult/vart_inferres_impl_classification.hpp" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classvart_1_1InferResImplClassification_1a4545793c4cace85b4a1a099dc1240ea8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>vart::InferResImplClassification::InferResImplClassification</definition>
+        <argsstring>(std::shared_ptr&lt; struct log_context &gt; log_ctx=nullptr)</argsstring>
+        <name>InferResImplClassification</name>
+        <param>
+          <type>std::shared_ptr&lt; struct <ref refid="structvart_1_1log__context" kindref="compound">log_context</ref> &gt;</type>
+          <declname>log_ctx</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/inferresult/vart_inferres_impl_classification.hpp" line="28" column="3" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/inferresult/vart_inferres_impl_classification.cpp" bodystart="39" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1InferResImplClassification_1a0c0e19bc8e78f81b652625d27cabbaf1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>vart::InferResImplClassification::~InferResImplClassification</definition>
+        <argsstring>()</argsstring>
+        <name>~InferResImplClassification</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/inferresult/vart_inferres_impl_classification.hpp" line="30" column="3" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/inferresult/vart_inferres_impl_classification.cpp" bodystart="44" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1InferResImplClassification_1a4f5e0e906711e629b368ecbd7d9e4c9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void vart::InferResImplClassification::transform</definition>
+        <argsstring>(InferResScaleInfo &amp;info) override</argsstring>
+        <name>transform</name>
+        <reimplements refid="classvart_1_1InferResultImplBase_1a40e9b9a751e1958893ff5daddb891490">transform</reimplements>
+        <param>
+          <type><ref refid="structvart_1_1InferResScaleInfo" kindref="compound">InferResScaleInfo</ref> &amp;</type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="classvart_1_1InferResImplClassification_1a4f5e0e906711e629b368ecbd7d9e4c9e" kindref="member">transform()</ref> - Scales the infer results by a given scale factor </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Scale factor info with which infer results to be scaled.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+If we have inference results, like detection, on 200x200 image and if we want to draw bounding boxes on the original image, which may be 1920x1080. In such cases, one can use this function to transform the bounding box dimentions in the infer results to the resolution of input image. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/inferresult/vart_inferres_impl_classification.hpp" line="31" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/inferresult/vart_inferres_impl_classification.cpp" bodystart="23" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1InferResImplClassification_1a03fdd1c590bba669342b9bf456e3e914" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="structvart_1_1InferResultData" kindref="compound">InferResultData</ref> *</type>
+        <definition>InferResultData * vart::InferResImplClassification::get_infer_result</definition>
+        <argsstring>() override</argsstring>
+        <name>get_infer_result</name>
+        <reimplements refid="classvart_1_1InferResultImplBase_1a9bff136907c4f3f99abdbc24019e38c9">get_infer_result</reimplements>
+        <briefdescription>
+<para><ref refid="classvart_1_1InferResImplClassification_1a03fdd1c590bba669342b9bf456e3e914" kindref="member">get_infer_result()</ref> - Get inference results for a frame. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Inference result object for the requested frame. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/inferresult/vart_inferres_impl_classification.hpp" line="32" column="19" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/inferresult/vart_inferres_impl_classification.cpp" bodystart="35" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1InferResImplClassification_1a4b4262aaf5bcd3e08fc4bb314d5306f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void vart::InferResImplClassification::add_classification_result</definition>
+        <argsstring>(ClassificationResData &amp;classification_result)</argsstring>
+        <name>add_classification_result</name>
+        <param>
+          <type><ref refid="structvart_1_1ClassificationResData" kindref="compound">ClassificationResData</ref> &amp;</type>
+          <declname>classification_result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/inferresult/vart_inferres_impl_classification.hpp" line="33" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/inferresult/vart_inferres_impl_classification.cpp" bodystart="29" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>vart::InferResImplClassification</label>
+        <link refid="classvart_1_1InferResImplClassification"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>vart::InferResultImplBase</label>
+        <link refid="classvart_1_1InferResultImplBase"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>vart::InferResImplClassification</label>
+        <link refid="classvart_1_1InferResImplClassification"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>vart::InferResultImplBase</label>
+        <link refid="classvart_1_1InferResultImplBase"/>
+      </node>
+    </collaborationgraph>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/inferresult/vart_inferres_impl_classification.hpp" line="26" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/inferresult/vart_inferres_impl_classification.hpp" bodystart="26" bodyend="38"/>
+    <listofallmembers>
+      <member refid="classvart_1_1InferResImplClassification_1a4b4262aaf5bcd3e08fc4bb314d5306f9" prot="public" virt="non-virtual"><scope>vart::InferResImplClassification</scope><name>add_classification_result</name></member>
+      <member refid="classvart_1_1InferResImplClassification_1a03fdd1c590bba669342b9bf456e3e914" prot="public" virt="virtual"><scope>vart::InferResImplClassification</scope><name>get_infer_result</name></member>
+      <member refid="classvart_1_1InferResImplClassification_1a4545793c4cace85b4a1a099dc1240ea8" prot="public" virt="non-virtual"><scope>vart::InferResImplClassification</scope><name>InferResImplClassification</name></member>
+      <member refid="classvart_1_1InferResultImplBase_1a9ddb3bb2b5918cf3c4d667c4057de990" prot="public" virt="non-virtual"><scope>vart::InferResImplClassification</scope><name>InferResultImplBase</name></member>
+      <member refid="classvart_1_1InferResImplClassification_1ad389e54faf75465ccdd80bf79e7b865b" prot="private" virt="non-virtual"><scope>vart::InferResImplClassification</scope><name>log_ctx</name></member>
+      <member refid="classvart_1_1InferResImplClassification_1abaaac9334803fb7d24202d2c69311652" prot="private" virt="non-virtual"><scope>vart::InferResImplClassification</scope><name>result</name></member>
+      <member refid="classvart_1_1InferResImplClassification_1a4f5e0e906711e629b368ecbd7d9e4c9e" prot="public" virt="virtual"><scope>vart::InferResImplClassification</scope><name>transform</name></member>
+      <member refid="classvart_1_1InferResImplClassification_1a0c0e19bc8e78f81b652625d27cabbaf1" prot="public" virt="non-virtual"><scope>vart::InferResImplClassification</scope><name>~InferResImplClassification</name></member>
+      <member refid="classvart_1_1InferResultImplBase_1a5b9e0f25b7efb8cf224390e8193abc74" prot="public" virt="virtual"><scope>vart::InferResImplClassification</scope><name>~InferResultImplBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

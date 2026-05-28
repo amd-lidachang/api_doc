@@ -1,0 +1,345 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structEmbeddedStats_1_1SnapshotInfos" kind="struct" language="C++" prot="private">
+    <compoundname>EmbeddedStats::SnapshotInfos</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structEmbeddedStats_1_1SnapshotInfos_1aebbb2a3270fc18c5f338936c01669f3b" prot="public" static="no" mutable="no">
+        <type>struct timespec</type>
+        <definition>struct timespec EmbeddedStats::SnapshotInfos::timeStart</definition>
+        <argsstring></argsstring>
+        <name>timeStart</name>
+        <initializer>= {}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="415" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="232" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1_1SnapshotInfos_1a4c51dadf14d271ce3e4ecff14901d097" prot="public" static="no" mutable="no">
+        <type>struct timespec</type>
+        <definition>struct timespec EmbeddedStats::SnapshotInfos::timeStop</definition>
+        <argsstring></argsstring>
+        <name>timeStop</name>
+        <initializer>= {}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="415" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="233" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1_1SnapshotInfos_1a76f21e8c8299e06b84b026761f3b5749" prot="public" static="no" mutable="no">
+        <type>struct timespec</type>
+        <definition>struct timespec EmbeddedStats::SnapshotInfos::startGraph</definition>
+        <argsstring></argsstring>
+        <name>startGraph</name>
+        <initializer>= {}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="415" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="234" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1_1SnapshotInfos_1afd2311fcb20a7118a883fcb239de3c06" prot="public" static="no" mutable="no">
+        <type>struct timespec</type>
+        <definition>struct timespec EmbeddedStats::SnapshotInfos::endGraph</definition>
+        <argsstring></argsstring>
+        <name>endGraph</name>
+        <initializer>= {}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="415" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="235" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1_1SnapshotInfos_1a28a48fa0e28b2e5d480f96c7447a570a" prot="public" static="no" mutable="no">
+        <type>struct timespec</type>
+        <definition>struct timespec EmbeddedStats::SnapshotInfos::startVartML</definition>
+        <argsstring></argsstring>
+        <name>startVartML</name>
+        <initializer>= {}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="415" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="236" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1_1SnapshotInfos_1aba6aa4a967413f81df61d2f7433969e3" prot="public" static="no" mutable="no">
+        <type>struct timespec</type>
+        <definition>struct timespec EmbeddedStats::SnapshotInfos::endVartML</definition>
+        <argsstring></argsstring>
+        <name>endVartML</name>
+        <initializer>= {}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="415" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="237" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1_1SnapshotInfos_1ae2408abd28c54d579cf5c91bf4e90944" prot="public" static="no" mutable="no">
+        <type>struct timespec</type>
+        <definition>struct timespec EmbeddedStats::SnapshotInfos::startQuantize</definition>
+        <argsstring></argsstring>
+        <name>startQuantize</name>
+        <initializer>= {}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="415" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="238" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1_1SnapshotInfos_1a6de3db838adfb65015eb6fd4420c3dc5" prot="public" static="no" mutable="no">
+        <type>struct timespec</type>
+        <definition>struct timespec EmbeddedStats::SnapshotInfos::endQuantize</definition>
+        <argsstring></argsstring>
+        <name>endQuantize</name>
+        <initializer>= {}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="415" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="239" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1_1SnapshotInfos_1a6eebffe9eed7d0fbd74b137bbfe2b84a" prot="public" static="no" mutable="no">
+        <type>struct timespec</type>
+        <definition>struct timespec EmbeddedStats::SnapshotInfos::startReorderIn</definition>
+        <argsstring></argsstring>
+        <name>startReorderIn</name>
+        <initializer>= {}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="415" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="240" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1_1SnapshotInfos_1a5db238c03f9c9ec139c15af2de1e7cb0" prot="public" static="no" mutable="no">
+        <type>struct timespec</type>
+        <definition>struct timespec EmbeddedStats::SnapshotInfos::endReorderIn</definition>
+        <argsstring></argsstring>
+        <name>endReorderIn</name>
+        <initializer>= {}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="415" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="241" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1_1SnapshotInfos_1a1977d6432ccc0d147c4df09fdd125e68" prot="public" static="no" mutable="no">
+        <type>struct timespec</type>
+        <definition>struct timespec EmbeddedStats::SnapshotInfos::startWrite</definition>
+        <argsstring></argsstring>
+        <name>startWrite</name>
+        <initializer>= {}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="415" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="242" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1_1SnapshotInfos_1a0acbf612383eb81cab0a4608343783c0" prot="public" static="no" mutable="no">
+        <type>struct timespec</type>
+        <definition>struct timespec EmbeddedStats::SnapshotInfos::endWrite</definition>
+        <argsstring></argsstring>
+        <name>endWrite</name>
+        <initializer>= {}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="415" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="243" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1_1SnapshotInfos_1a447b0f9ce6b1d729dcd1e49cf98a0d8f" prot="public" static="no" mutable="no">
+        <type>struct timespec</type>
+        <definition>struct timespec EmbeddedStats::SnapshotInfos::startRun</definition>
+        <argsstring></argsstring>
+        <name>startRun</name>
+        <initializer>= {}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="415" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="244" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1_1SnapshotInfos_1a2d9c5dfb319ae95e725295849a502f2a" prot="public" static="no" mutable="no">
+        <type>struct timespec</type>
+        <definition>struct timespec EmbeddedStats::SnapshotInfos::endRun</definition>
+        <argsstring></argsstring>
+        <name>endRun</name>
+        <initializer>= {}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="415" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="245" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1_1SnapshotInfos_1a305623e08c9c305b613ed2a07bbbc343" prot="public" static="no" mutable="no">
+        <type>struct timespec</type>
+        <definition>struct timespec EmbeddedStats::SnapshotInfos::startRead</definition>
+        <argsstring></argsstring>
+        <name>startRead</name>
+        <initializer>= {}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="415" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="246" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1_1SnapshotInfos_1a6963bd1fe1adb1a4545f8707128e669e" prot="public" static="no" mutable="no">
+        <type>struct timespec</type>
+        <definition>struct timespec EmbeddedStats::SnapshotInfos::endRead</definition>
+        <argsstring></argsstring>
+        <name>endRead</name>
+        <initializer>= {}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="415" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="247" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1_1SnapshotInfos_1a7a34cab1250addc0131e5e33efd6e4c0" prot="public" static="no" mutable="no">
+        <type>struct timespec</type>
+        <definition>struct timespec EmbeddedStats::SnapshotInfos::startReorderOut</definition>
+        <argsstring></argsstring>
+        <name>startReorderOut</name>
+        <initializer>= {}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="415" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="248" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1_1SnapshotInfos_1a42c9a37b0f3b5b746c95dbc71d75eb21" prot="public" static="no" mutable="no">
+        <type>struct timespec</type>
+        <definition>struct timespec EmbeddedStats::SnapshotInfos::endReorderOut</definition>
+        <argsstring></argsstring>
+        <name>endReorderOut</name>
+        <initializer>= {}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="415" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="249" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1_1SnapshotInfos_1a1b718313ad4ac6bd547e1a5812485dcc" prot="public" static="no" mutable="no">
+        <type>struct timespec</type>
+        <definition>struct timespec EmbeddedStats::SnapshotInfos::startDequantize</definition>
+        <argsstring></argsstring>
+        <name>startDequantize</name>
+        <initializer>= {}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="415" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="250" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1_1SnapshotInfos_1ab46eec3d20f0cc5dbc4596507116e81e" prot="public" static="no" mutable="no">
+        <type>struct timespec</type>
+        <definition>struct timespec EmbeddedStats::SnapshotInfos::endDequantize</definition>
+        <argsstring></argsstring>
+        <name>endDequantize</name>
+        <initializer>= {}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="415" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="251" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1_1SnapshotInfos_1a2954f37c3fb0dc6d7b9125eba5e6384e" prot="public" static="no" mutable="no">
+        <type>struct timespec</type>
+        <definition>struct timespec EmbeddedStats::SnapshotInfos::startFramework</definition>
+        <argsstring></argsstring>
+        <name>startFramework</name>
+        <initializer>= {}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="415" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="252" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1_1SnapshotInfos_1a7334552b2b8b1b076b8bc3973e7710c7" prot="public" static="no" mutable="no">
+        <type>struct timespec</type>
+        <definition>struct timespec EmbeddedStats::SnapshotInfos::endFramework</definition>
+        <argsstring></argsstring>
+        <name>endFramework</name>
+        <initializer>= {}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="415" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="253" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="230" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="231" bodyend="254"/>
+    <listofallmembers>
+      <member refid="structEmbeddedStats_1_1SnapshotInfos_1ab46eec3d20f0cc5dbc4596507116e81e" prot="public" virt="non-virtual"><scope>EmbeddedStats::SnapshotInfos</scope><name>endDequantize</name></member>
+      <member refid="structEmbeddedStats_1_1SnapshotInfos_1a7334552b2b8b1b076b8bc3973e7710c7" prot="public" virt="non-virtual"><scope>EmbeddedStats::SnapshotInfos</scope><name>endFramework</name></member>
+      <member refid="structEmbeddedStats_1_1SnapshotInfos_1afd2311fcb20a7118a883fcb239de3c06" prot="public" virt="non-virtual"><scope>EmbeddedStats::SnapshotInfos</scope><name>endGraph</name></member>
+      <member refid="structEmbeddedStats_1_1SnapshotInfos_1a6de3db838adfb65015eb6fd4420c3dc5" prot="public" virt="non-virtual"><scope>EmbeddedStats::SnapshotInfos</scope><name>endQuantize</name></member>
+      <member refid="structEmbeddedStats_1_1SnapshotInfos_1a6963bd1fe1adb1a4545f8707128e669e" prot="public" virt="non-virtual"><scope>EmbeddedStats::SnapshotInfos</scope><name>endRead</name></member>
+      <member refid="structEmbeddedStats_1_1SnapshotInfos_1a5db238c03f9c9ec139c15af2de1e7cb0" prot="public" virt="non-virtual"><scope>EmbeddedStats::SnapshotInfos</scope><name>endReorderIn</name></member>
+      <member refid="structEmbeddedStats_1_1SnapshotInfos_1a42c9a37b0f3b5b746c95dbc71d75eb21" prot="public" virt="non-virtual"><scope>EmbeddedStats::SnapshotInfos</scope><name>endReorderOut</name></member>
+      <member refid="structEmbeddedStats_1_1SnapshotInfos_1a2d9c5dfb319ae95e725295849a502f2a" prot="public" virt="non-virtual"><scope>EmbeddedStats::SnapshotInfos</scope><name>endRun</name></member>
+      <member refid="structEmbeddedStats_1_1SnapshotInfos_1aba6aa4a967413f81df61d2f7433969e3" prot="public" virt="non-virtual"><scope>EmbeddedStats::SnapshotInfos</scope><name>endVartML</name></member>
+      <member refid="structEmbeddedStats_1_1SnapshotInfos_1a0acbf612383eb81cab0a4608343783c0" prot="public" virt="non-virtual"><scope>EmbeddedStats::SnapshotInfos</scope><name>endWrite</name></member>
+      <member refid="structEmbeddedStats_1_1SnapshotInfos_1a1b718313ad4ac6bd547e1a5812485dcc" prot="public" virt="non-virtual"><scope>EmbeddedStats::SnapshotInfos</scope><name>startDequantize</name></member>
+      <member refid="structEmbeddedStats_1_1SnapshotInfos_1a2954f37c3fb0dc6d7b9125eba5e6384e" prot="public" virt="non-virtual"><scope>EmbeddedStats::SnapshotInfos</scope><name>startFramework</name></member>
+      <member refid="structEmbeddedStats_1_1SnapshotInfos_1a76f21e8c8299e06b84b026761f3b5749" prot="public" virt="non-virtual"><scope>EmbeddedStats::SnapshotInfos</scope><name>startGraph</name></member>
+      <member refid="structEmbeddedStats_1_1SnapshotInfos_1ae2408abd28c54d579cf5c91bf4e90944" prot="public" virt="non-virtual"><scope>EmbeddedStats::SnapshotInfos</scope><name>startQuantize</name></member>
+      <member refid="structEmbeddedStats_1_1SnapshotInfos_1a305623e08c9c305b613ed2a07bbbc343" prot="public" virt="non-virtual"><scope>EmbeddedStats::SnapshotInfos</scope><name>startRead</name></member>
+      <member refid="structEmbeddedStats_1_1SnapshotInfos_1a6eebffe9eed7d0fbd74b137bbfe2b84a" prot="public" virt="non-virtual"><scope>EmbeddedStats::SnapshotInfos</scope><name>startReorderIn</name></member>
+      <member refid="structEmbeddedStats_1_1SnapshotInfos_1a7a34cab1250addc0131e5e33efd6e4c0" prot="public" virt="non-virtual"><scope>EmbeddedStats::SnapshotInfos</scope><name>startReorderOut</name></member>
+      <member refid="structEmbeddedStats_1_1SnapshotInfos_1a447b0f9ce6b1d729dcd1e49cf98a0d8f" prot="public" virt="non-virtual"><scope>EmbeddedStats::SnapshotInfos</scope><name>startRun</name></member>
+      <member refid="structEmbeddedStats_1_1SnapshotInfos_1a28a48fa0e28b2e5d480f96c7447a570a" prot="public" virt="non-virtual"><scope>EmbeddedStats::SnapshotInfos</scope><name>startVartML</name></member>
+      <member refid="structEmbeddedStats_1_1SnapshotInfos_1a1977d6432ccc0d147c4df09fdd125e68" prot="public" virt="non-virtual"><scope>EmbeddedStats::SnapshotInfos</scope><name>startWrite</name></member>
+      <member refid="structEmbeddedStats_1_1SnapshotInfos_1aebbb2a3270fc18c5f338936c01669f3b" prot="public" virt="non-virtual"><scope>EmbeddedStats::SnapshotInfos</scope><name>timeStart</name></member>
+      <member refid="structEmbeddedStats_1_1SnapshotInfos_1a4c51dadf14d271ce3e4ecff14901d097" prot="public" virt="non-virtual"><scope>EmbeddedStats::SnapshotInfos</scope><name>timeStop</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

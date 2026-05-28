@@ -1,0 +1,2234 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="vart__ml__io_8h" kind="file" language="C++">
+    <compoundname>vart_ml_io.h</compoundname>
+    <includes local="no">stddef.h</includes>
+    <includes local="no">stdint.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stdarg.h</includes>
+    <includes refid="fpga__info_8h" local="yes">vart_ml_utils/fpga_info.h</includes>
+    <includedby refid="clocks_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/clocks.cpp</includedby>
+    <includedby refid="inference_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/inference.cpp</includedby>
+    <includedby refid="private_8h" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h</includedby>
+    <includedby refid="run__snapshot_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/run_snapshot.cpp</includedby>
+    <includedby refid="run__snapshot__bin_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/run_snapshot_bin.cpp</includedby>
+    <includedby refid="run__snapshot__txt_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/run_snapshot_txt.cpp</includedby>
+    <includedby refid="npu__c__api_2snapshot__parser_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/snapshot_parser.cpp</includedby>
+    <includedby refid="vart__ml__io_8c" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c</includedby>
+    <includedby refid="vart__ml__py__api_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_py_api/vart_ml_py_api.cpp</includedby>
+    <includedby refid="arm__ops_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/arm_ops.cpp</includedby>
+    <includedby refid="execute_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/execute.cpp</includedby>
+    <includedby refid="vart__ml__runner_2snapshot__parser_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/snapshot_parser.cpp</includedby>
+    <includedby refid="thread__pool_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/thread_pool.cpp</includedby>
+    <includedby refid="utils_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/utils.cpp</includedby>
+    <includedby refid="vart__ml__runner_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.cpp</includedby>
+    <includedby refid="vart__npu__tensor_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.cpp</includedby>
+    <includedby refid="vart__ml__clocks_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_tools/vart_ml_clocks.cpp</includedby>
+    <includedby refid="vart__ml__ctrlbus__poke_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_tools/vart_ml_ctrlbus_poke.cpp</includedby>
+    <includedby refid="vart__ml__ddr__debug_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_tools/vart_ml_ddr_debug.cpp</includedby>
+    <includedby refid="vart__ml__ddr__poke_8cpp" local="no">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_tools/vart_ml_ddr_poke.cpp</includedby>
+    <includedby refid="vart__ml__downloader_8cpp" local="no">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_tools/vart_ml_downloader.cpp</includedby>
+    <includedby refid="vart__ml__tester_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_tools/vart_ml_tester.cpp</includedby>
+    <includedby refid="vart__ml__tools_8cpp" local="no">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_tools/vart_ml_tools.cpp</includedby>
+    <includedby refid="vart__ml__uploader_8cpp" local="no">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_tools/vart_ml_uploader.cpp</includedby>
+    <includedby refid="vart__ml__log_8cpp" local="yes">/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vart_ml_log.cpp</includedby>
+    <incdepgraph>
+      <node id="4">
+        <label>stdbool.h</label>
+      </node>
+      <node id="5">
+        <label>stdarg.h</label>
+      </node>
+      <node id="3">
+        <label>stdint.h</label>
+      </node>
+      <node id="2">
+        <label>stddef.h</label>
+      </node>
+      <node id="7">
+        <label>string.h</label>
+      </node>
+      <node id="1">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h</label>
+        <link refid="vart__ml__io_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>vart_ml_utils/fpga_info.h</label>
+        <link refid="fpga__info_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="9">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/run_snapshot.cpp</label>
+        <link refid="run__snapshot_8cpp"/>
+      </node>
+      <node id="22">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_tools/vart_ml_tester.cpp</label>
+        <link refid="vart__ml__tester_8cpp"/>
+      </node>
+      <node id="6">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/accessors.cpp</label>
+        <link refid="npu__c__api_2accessors_8cpp"/>
+      </node>
+      <node id="28">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_tools/vart_ml_downloader.cpp</label>
+        <link refid="vart__ml__downloader_8cpp"/>
+      </node>
+      <node id="25">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_py_api/vart_ml_py_api.cpp</label>
+        <link refid="vart__ml__py__api_8cpp"/>
+      </node>
+      <node id="23">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vcd_stats.cpp</label>
+        <link refid="vcd__stats_8cpp"/>
+      </node>
+      <node id="13">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/arm_ops.cpp</label>
+        <link refid="arm__ops_8cpp"/>
+      </node>
+      <node id="7">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/pl.cpp</label>
+        <link refid="pl_8cpp"/>
+      </node>
+      <node id="31">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/vart_ml_log.cpp</label>
+        <link refid="vart__ml__log_8cpp"/>
+      </node>
+      <node id="11">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/run_snapshot_txt.cpp</label>
+        <link refid="run__snapshot__txt_8cpp"/>
+      </node>
+      <node id="27">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_tools/vart_ml_ddr_debug.cpp</label>
+        <link refid="vart__ml__ddr__debug_8cpp"/>
+      </node>
+      <node id="4">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/private.h</label>
+        <link refid="private_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_tools/vart_ml_uploader.cpp</label>
+        <link refid="vart__ml__uploader_8cpp"/>
+      </node>
+      <node id="24">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c</label>
+        <link refid="vart__ml__io_8c"/>
+      </node>
+      <node id="1">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h</label>
+        <link refid="vart__ml__io_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/clocks.cpp</label>
+        <link refid="clocks_8cpp"/>
+      </node>
+      <node id="5">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/npu_c_api.h</label>
+        <link refid="npu__c__api_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_tools/vart_ml_clocks.cpp</label>
+        <link refid="vart__ml__clocks_8cpp"/>
+      </node>
+      <node id="15">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/snapshot_parser.cpp</label>
+        <link refid="vart__ml__runner_2snapshot__parser_8cpp"/>
+      </node>
+      <node id="10">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/run_snapshot_bin.cpp</label>
+        <link refid="run__snapshot__bin_8cpp"/>
+      </node>
+      <node id="21">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_tools/vart_ml_ddr_poke.cpp</label>
+        <link refid="vart__ml__ddr__poke_8cpp"/>
+      </node>
+      <node id="29">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_tools/vart_ml_tools.cpp</label>
+        <link refid="vart__ml__tools_8cpp"/>
+      </node>
+      <node id="16">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/thread_pool.cpp</label>
+        <link refid="thread__pool_8cpp"/>
+      </node>
+      <node id="17">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/utils.cpp</label>
+        <link refid="utils_8cpp"/>
+      </node>
+      <node id="8">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/quantization.cpp</label>
+        <link refid="quantization_8cpp"/>
+      </node>
+      <node id="26">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.cpp</label>
+        <link refid="vart__npu__tensor_8cpp"/>
+      </node>
+      <node id="18">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_ml_runner.cpp</label>
+        <link refid="vart__ml__runner_8cpp"/>
+      </node>
+      <node id="12">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/snapshot_parser.cpp</label>
+        <link refid="npu__c__api_2snapshot__parser_8cpp"/>
+      </node>
+      <node id="3">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/inference.cpp</label>
+        <link refid="inference_8cpp"/>
+      </node>
+      <node id="14">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/execute.cpp</label>
+        <link refid="execute_8cpp"/>
+      </node>
+      <node id="20">
+        <label>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_tools/vart_ml_ctrlbus_poke.cpp</label>
+        <link refid="vart__ml__ctrlbus__poke_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structaddr" prot="public">addr</innerclass>
+      <sectiondef kind="user-defined">
+      <header>Memory access.</header>
+      <description><para>Function to access (read or write) the different memory region of the system: Service Bus, DDR or NOC.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>addr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Virtual address in the accessed memory. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>buf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Address of the data buffer. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Size in bytes to access in memory. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int The Vart ML error (vart_ml_error_id) code of the operation. </para>
+</simplesect>
+</para>
+</description>
+      <memberdef kind="function" id="vart__ml__io_8h_1a2a2a44c34b0ed5959297bd98694303dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void npu_read_cfg</definition>
+        <argsstring>(uint64_t offset, uint32_t *buf, uint32_t wordsize, uint32_t ip_idx)</argsstring>
+        <name>npu_read_cfg</name>
+        <param>
+          <type>uint64_t</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>uint32_t *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>wordsize</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>ip_idx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="144" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="379" bodyend="383" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="144" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__io_8h_1a21cadf9f74eda159fbde4bc3a296cf19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void npu_write_cfg</definition>
+        <argsstring>(uint64_t offset, const uint32_t *buf, uint32_t wordsize, uint32_t ip_idx)</argsstring>
+        <name>npu_write_cfg</name>
+        <param>
+          <type>uint64_t</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>const uint32_t *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>wordsize</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>ip_idx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="145" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="385" bodyend="389" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="145" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__io_8h_1a4d205d76c2dee88da0e83fc7a8674707" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void npu_read_noc</definition>
+        <argsstring>(uint64_t offset, uint32_t *buf, uint32_t wordsize)</argsstring>
+        <name>npu_read_noc</name>
+        <param>
+          <type>uint64_t</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>uint32_t *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>wordsize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="146" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="405" bodyend="408" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="146" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__io_8h_1ab281c25e4a078411b90d7fea0bd944b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void npu_write_noc</definition>
+        <argsstring>(uint64_t offset, const uint32_t *buf, uint32_t wordsize)</argsstring>
+        <name>npu_write_noc</name>
+        <param>
+          <type>uint64_t</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>const uint32_t *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>wordsize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="147" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="410" bodyend="413" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="147" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__io_8h_1a721d6e9da1ade5ca1ead235d883c741c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int npu_read_ddr</definition>
+        <argsstring>(struct addr addr, uint8_t *buf, uint32_t size)</argsstring>
+        <name>npu_read_ddr</name>
+        <param>
+          <type>struct <ref refid="structaddr" kindref="compound">addr</ref></type>
+          <declname>addr</declname>
+        </param>
+        <param>
+          <type>uint8_t *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="161" column="5" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="395" bodyend="398" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="161" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__io_8h_1a313ab6959d501ba3104874f19c4c9c9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int npu_write_ddr</definition>
+        <argsstring>(struct addr addr, const uint8_t *buf, uint32_t size)</argsstring>
+        <name>npu_write_ddr</name>
+        <param>
+          <type>struct <ref refid="structaddr" kindref="compound">addr</ref></type>
+          <declname>addr</declname>
+        </param>
+        <param>
+          <type>const uint8_t *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="162" column="5" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="400" bodyend="403" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="162" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__io_8h_1a7f08da6e9dfaa663bcf4986f45386a9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint64_t</type>
+        <definition>uint64_t npu_get_nbuff_conf_val_from_phy</definition>
+        <argsstring>(uint64_t phy_addr)</argsstring>
+        <name>npu_get_nbuff_conf_val_from_phy</name>
+        <param>
+          <type>uint64_t</type>
+          <declname>phy_addr</declname>
+        </param>
+        <briefdescription>
+<para>Convert DDR physical address (NOC offset) in nbuff configuration value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>phy_addr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Physical address of the allocated buffer. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>uint64_t Return the nbuff configuration value. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="171" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="415" bodyend="421" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="171" declcolumn="10"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__io_8h_1a9891f515b5fc2f6e1d2e6855e596a479" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>struct <ref refid="structaddr" kindref="compound">addr</ref></type>
+        <definition>struct addr npu_get_addr_from_phy_addr</definition>
+        <argsstring>(uint64_t phy_addr)</argsstring>
+        <name>npu_get_addr_from_phy_addr</name>
+        <param>
+          <type>uint64_t</type>
+          <declname>phy_addr</declname>
+        </param>
+        <briefdescription>
+<para>Convert DDR physical address (NOC offset) in DDR address. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>phy_addr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Physical address of the allocated buffer. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>struct addr Return the DDR address. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="171" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="423" bodyend="447" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="171" declcolumn="10"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__io_8h_1a71a7fb4c886e21d4f8eeb1adff41d454" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>struct <ref refid="structaddr" kindref="compound">addr</ref></type>
+        <definition>struct addr npu_get_addr_from_idx_and_offset</definition>
+        <argsstring>(uint8_t extmem_idx, uint64_t offset)</argsstring>
+        <name>npu_get_addr_from_idx_and_offset</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>extmem_idx</declname>
+        </param>
+        <param>
+          <type>uint64_t</type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+<para>Convert external memory (DDR and memtile) index and offset to virtual address. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>extmem_idx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>External memory index. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>offset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Offset in the memory. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>struct addr Return the virtual address structure. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="171" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="449" bodyend="460" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="171" declcolumn="10"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__io_8h_1a4ad769a0cda0a44a69704fbcc0fb10a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint64_t</type>
+        <definition>uint64_t npu_get_phy_addr_from_ddr_vaddr</definition>
+        <argsstring>(const void *ddr_vaddr)</argsstring>
+        <name>npu_get_phy_addr_from_ddr_vaddr</name>
+        <param>
+          <type>const void *</type>
+          <declname>ddr_vaddr</declname>
+        </param>
+        <briefdescription>
+<para>Convert DDR virtual address in Physical DDR address (NOC offset). </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ddr_vaddr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer to the mapped virtual buffer. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>uint64_t Return the physical DDR address. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="196" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="462" bodyend="465" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="196" declcolumn="10"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__io_8h_1a7a4aaa03a0f3f3411abff574e9e3781e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void* npu_get_ddr_vaddr_from_vaddr</definition>
+        <argsstring>(void *ddr_vaddr)</argsstring>
+        <name>npu_get_ddr_vaddr_from_vaddr</name>
+        <param>
+          <type>void *</type>
+          <declname>ddr_vaddr</declname>
+        </param>
+        <briefdescription>
+<para>Convert virtual address pointer in DDR virtual address. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ddr_vaddr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer to the mapped virtual buffer. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void* Return the DDR virtual address. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="204" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="467" bodyend="467" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="204" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__io_8h_1a668b51f8945805d9f29505e82dea669c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint64_t</type>
+        <definition>uint64_t npu_get_phy_addr_from_snapshot_addr</definition>
+        <argsstring>(uint64_t snap_addr)</argsstring>
+        <name>npu_get_phy_addr_from_snapshot_addr</name>
+        <param>
+          <type>uint64_t</type>
+          <declname>snap_addr</declname>
+        </param>
+        <briefdescription>
+<para>Convert DDR virtual address read from snapshot in Physical DDR address (NOC offset). </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>snap_addr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Address read from the snapshot. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>uint64_t Return the physical DDR address. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="212" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="469" bodyend="484" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="212" declcolumn="10"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__io_8h_1ae1847cfc1f707017c478ba65bed5a6cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int npu_allocate_memory</definition>
+        <argsstring>(uint64_t size, uint32_t ddr, struct addr *addr)</argsstring>
+        <name>npu_allocate_memory</name>
+        <param>
+          <type>uint64_t</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>ddr</declname>
+        </param>
+        <param>
+          <type>struct <ref refid="structaddr" kindref="compound">addr</ref> *</type>
+          <declname>addr</declname>
+        </param>
+        <briefdescription>
+<para>Allocate a buffer in DDR. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Size of the buffer. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ddr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Select the DDR in which the buffer will be allocated. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>addr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>DDR address of the allocated buffer. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int The Vart ML error (vart_ml_error_id) code of the operation. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="222" column="5" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="486" bodyend="495" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="222" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__io_8h_1a5a3c9fa3ea5e78dc8a024d2a31f08072" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int npu_allocate_batch</definition>
+        <argsstring>(uint64_t size, uint32_t ddr, uint64_t batch_size, struct addr *addrs)</argsstring>
+        <name>npu_allocate_batch</name>
+        <param>
+          <type>uint64_t</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>ddr</declname>
+        </param>
+        <param>
+          <type>uint64_t</type>
+          <declname>batch_size</declname>
+        </param>
+        <param>
+          <type>struct <ref refid="structaddr" kindref="compound">addr</ref> *</type>
+          <declname>addrs</declname>
+        </param>
+        <briefdescription>
+<para>Allocate a batch in DDR. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Requested allocation size. 64-bit aligned. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ddr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Select the DDR in which the buffer will be allocated. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>batch_size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Size of the batch. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>addr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>List of DDR address of the allocated batch. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int The Vart ML error (vart_ml_error_id) code of the operation. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="233" column="5" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="497" bodyend="506" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="233" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__io_8h_1a27fd05b1ebf80da2cecd3cf2552faa9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void* npu_malloc</definition>
+        <argsstring>(uint64_t size, uint8_t ddr)</argsstring>
+        <name>npu_malloc</name>
+        <param>
+          <type>uint64_t</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>ddr</declname>
+        </param>
+        <briefdescription>
+<para>Allocate a buffer in DDR. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Size of the buffer. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ddr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Select the DDR in which the buffer will be allocated. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Pointer to the mapped DDR buffer. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="242" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="508" bodyend="520" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="242" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__io_8h_1a2c86c829fd987f899dae4034df7e9ad6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void **</type>
+        <definition>void** npu_malloc_batch</definition>
+        <argsstring>(uint64_t aligned_size, uint8_t ddr, uint64_t batch_size)</argsstring>
+        <name>npu_malloc_batch</name>
+        <param>
+          <type>uint64_t</type>
+          <declname>aligned_size</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>ddr</declname>
+        </param>
+        <param>
+          <type>uint64_t</type>
+          <declname>batch_size</declname>
+        </param>
+        <briefdescription>
+<para>Allocate a batch in DDR. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>aligned_size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Size of one element of the batch. Needs to be 256-bit aligned. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ddr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Select the DDR in which the buffer will be allocated. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>batch_size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Size of the batch. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>List of pointer to the mapped DDR buffers. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="252" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="522" bodyend="534" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="252" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__io_8h_1ade5d730743de85949501d537c0386b22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void* npu_malloc_sub</definition>
+        <argsstring>(void *parent_vaddr, size_t offset, size_t size)</argsstring>
+        <name>npu_malloc_sub</name>
+        <param>
+          <type>void *</type>
+          <declname>parent_vaddr</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Register a sub-buffer view of a parent DDR allocation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Does not allocate new memory. Registers parent_vaddr+offset into the IO backend&apos;s address maps so that npu_get_phy_addr_from_ddr_vaddr works on the returned pointer. The sub-buffer must be freed with npu_free.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parent_vaddr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Virtual address returned by a prior npu_malloc call. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>offset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Byte offset into the parent buffer. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Size of the sub-buffer in bytes. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Pointer to the sub-buffer virtual address, or NULL on failure. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="266" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="536" bodyend="539" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="266" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__io_8h_1a67b6129ebbfd3ee3bf673eb38957b7e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void npu_free</definition>
+        <argsstring>(void *user_ptr)</argsstring>
+        <name>npu_free</name>
+        <param>
+          <type>void *</type>
+          <declname>user_ptr</declname>
+        </param>
+        <briefdescription>
+<para>Free a previously mapped buffer. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>user_ptr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer to the mapped DDR buffer. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="273" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="541" bodyend="541" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="273" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__io_8h_1a7d29a6af0752e0c38ce8cd21be1ccd12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int npu_wait_interrupt</definition>
+        <argsstring>(uint32_t ip_idx)</argsstring>
+        <name>npu_wait_interrupt</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>ip_idx</declname>
+        </param>
+        <briefdescription>
+<para>Wait for the end of inference interrupt. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ip_idx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>index of the IP being accessed. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int The Vart ML error (vart_ml_error_id) code of the operation. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="281" column="5" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="543" bodyend="543" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="281" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__io_8h_1a997a7fd01bd644d0033accbacf4c05b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int npu_is_interrupt_en</definition>
+        <argsstring>(bool *is_en)</argsstring>
+        <name>npu_is_interrupt_en</name>
+        <param>
+          <type>bool *</type>
+          <declname>is_en</declname>
+        </param>
+        <briefdescription>
+<para>Check if interrupt is enable. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>int The Vart ML error (vart_ml_error_id) code of the operation. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="288" column="5" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="545" bodyend="574" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="288" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__io_8h_1a8da5cd3fd87f675551e642537d584419" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool npu_is_xrt_en</definition>
+        <argsstring>(void)</argsstring>
+        <name>npu_is_xrt_en</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Check if XRT is enable. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Return true if the connection status is XRT. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="295" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="576" bodyend="576" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="295" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__io_8h_1a7320ae81cda0ed22696d4a1a9808fd29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int npu_get_mutex</definition>
+        <argsstring>(uint64_t offset, uint32_t ip_idx)</argsstring>
+        <name>npu_get_mutex</name>
+        <param>
+          <type>uint64_t</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>ip_idx</declname>
+        </param>
+        <briefdescription>
+<para>Get CTRLBus mutex. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>offset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Offset of the targeted mutex. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ip_idx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>index of the IP being accessed.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int The Vart ML error (vart_ml_error_id) code of the operation. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="305" column="5" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="578" bodyend="594" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="305" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__io_8h_1a914d5cc14f9a59795909b856ba917fb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void npu_release_mutex</definition>
+        <argsstring>(uint64_t offset, uint32_t ip_idx)</argsstring>
+        <name>npu_release_mutex</name>
+        <param>
+          <type>uint64_t</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>ip_idx</declname>
+        </param>
+        <briefdescription>
+<para>Release CTRLBus mutex. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>offset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Offset of the targeted mutex. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ip_idx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>index of the IP being accessed. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="313" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="596" bodyend="606" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="313" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__io_8h_1ad2784b212ca033e1fee57ff78064862a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void npu_get_inference_mutex</definition>
+        <argsstring>(uint32_t ip_idx)</argsstring>
+        <name>npu_get_inference_mutex</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>ip_idx</declname>
+        </param>
+        <briefdescription>
+<para>Get the inference mutex. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Blocks until acquired.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ip_idx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>index of the IP being accessed. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="320" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="608" bodyend="618" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="320" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__io_8h_1ab276f2ab5ab0439c65105806c4f552c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void npu_release_inference_mutex</definition>
+        <argsstring>(uint32_t ip_idx)</argsstring>
+        <name>npu_release_inference_mutex</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>ip_idx</declname>
+        </param>
+        <briefdescription>
+<para>Release the inference mutex. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ip_idx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>index of the IP being accessed. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="327" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="620" bodyend="629" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="327" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__io_8h_1a8b107560b367b5db1025f3839c5b92dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int npu_cleanup_inference_operation</definition>
+        <argsstring>(uint32_t ip_idx, int err)</argsstring>
+        <name>npu_cleanup_inference_operation</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>ip_idx</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>err</declname>
+        </param>
+        <briefdescription>
+<para>Release of the inference mutex with a return of an error value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ip_idx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>index of the IP being accessed. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>err</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the error that caused the need to cleanup the mutex.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int The Vart ML error (vart_ml_error_id) code of the operation. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="337" column="5" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="631" bodyend="635" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="337" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__io_8h_1a5e0f67c39d81673b6390781d0802b4fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void npu_print_fpga_info</definition>
+        <argsstring>(uint32_t ip_idx)</argsstring>
+        <name>npu_print_fpga_info</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>ip_idx</declname>
+        </param>
+        <briefdescription>
+<para>Print the fpga_info file content associated to target IP. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="343" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="639" bodyend="639" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="343" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__io_8h_1a505f6c71d5e5de515c133b2db9550360" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t npu_get_extmemlen</definition>
+        <argsstring>(size_t extmemIdx)</argsstring>
+        <name>npu_get_extmemlen</name>
+        <param>
+          <type>size_t</type>
+          <declname>extmemIdx</declname>
+        </param>
+        <briefdescription>
+<para>Return the size of the external memory with index extmemIdx. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="349" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="710" bodyend="710" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="349" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__io_8h_1aaffdf5a6d18794c8cbeab3673c052756" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t npu_get_noclen</definition>
+        <argsstring>(void)</argsstring>
+        <name>npu_get_noclen</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Return the size of the NOC address space. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="355" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="712" bodyend="712" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="355" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__io_8h_1a262afaaed0e88673182d216f27abafa4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int npu_get_inputfreq</definition>
+        <argsstring>(uint32_t idx)</argsstring>
+        <name>npu_get_inputfreq</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>idx</declname>
+        </param>
+        <briefdescription>
+<para>Return the input frequency of the FPGA. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="361" column="14" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="641" bodyend="644" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="361" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__io_8h_1adffd75d8ca7fa990289f08195cecd0c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int npu_get_runningfreq</definition>
+        <argsstring>(uint32_t idx)</argsstring>
+        <name>npu_get_runningfreq</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>idx</declname>
+        </param>
+        <briefdescription>
+<para>Return the running frequency of the FPGA. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="367" column="14" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="646" bodyend="649" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="367" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__io_8h_1ada485db45c271f7f43c3be3a1e493aff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int npu_get_ctrlbusfreq</definition>
+        <argsstring>(uint32_t idx)</argsstring>
+        <name>npu_get_ctrlbusfreq</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>idx</declname>
+        </param>
+        <briefdescription>
+<para>Return the Service Bus frequency of the FPGA. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="373" column="14" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="651" bodyend="654" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="373" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__io_8h_1ab22d5faa89205250d868d0d1f54a6269" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int npu_get_mntrclkcoef</definition>
+        <argsstring>(uint32_t idx)</argsstring>
+        <name>npu_get_mntrclkcoef</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>idx</declname>
+        </param>
+        <briefdescription>
+<para>Get the reference clock coefficient. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>unsigned int Return the reference clock frequency times the divider. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="380" column="14" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="656" bodyend="659" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="380" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__io_8h_1a86891d6b118eed7999c83c28b17871e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char* npu_get_boardname</definition>
+        <argsstring>(uint32_t idx)</argsstring>
+        <name>npu_get_boardname</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>idx</declname>
+        </param>
+        <briefdescription>
+<para>Get the FPGA name. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Return the FPGA name. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="387" column="12" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="708" bodyend="708" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="387" declcolumn="12"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__io_8h_1ab0de0a0e9b4011865c0de991592f5cfa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t npu_get_nbcores</definition>
+        <argsstring>(uint32_t idx)</argsstring>
+        <name>npu_get_nbcores</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>idx</declname>
+        </param>
+        <briefdescription>
+<para>Return the number of core in the FPGA. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="393" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="661" bodyend="664" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="393" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__io_8h_1a011681f2cd046506f1df05f63ca937da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t npu_get_nbsystems</definition>
+        <argsstring>(uint32_t idx)</argsstring>
+        <name>npu_get_nbsystems</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>idx</declname>
+        </param>
+        <briefdescription>
+<para>Return the number of system in the FPGA. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="399" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="665" bodyend="668" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="399" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__io_8h_1a23adf9ece96b89b979fcd2c3da46beb3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t npu_get_nbnces</definition>
+        <argsstring>(uint32_t idx)</argsstring>
+        <name>npu_get_nbnces</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>idx</declname>
+        </param>
+        <briefdescription>
+<para>Return the number of NCE in the FPGA. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="405" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="669" bodyend="672" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="405" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__io_8h_1aebe7d0942a01fa1b430fcf0950f8400b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t npu_get_nbcolumns</definition>
+        <argsstring>(uint32_t idx)</argsstring>
+        <name>npu_get_nbcolumns</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>idx</declname>
+        </param>
+        <briefdescription>
+<para>Return the number of Columns of AIE. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="411" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="674" bodyend="677" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="411" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__io_8h_1acee4525aa8fb44cff6d010b0c4d39308" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t npu_get_nbaiepercolumn</definition>
+        <argsstring>(uint32_t idx)</argsstring>
+        <name>npu_get_nbaiepercolumn</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>idx</declname>
+        </param>
+        <briefdescription>
+<para>Return the number of AIE per column. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="417" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="678" bodyend="681" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="417" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__io_8h_1a482b5be3e053174e5a9788f98f83d5be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t npu_get_nbddrs</definition>
+        <argsstring>(void)</argsstring>
+        <name>npu_get_nbddrs</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Return the number of DDR in the FPGA. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="423" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="714" bodyend="714" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="423" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__io_8h_1a85da17e3c11432f177ff8760f2ce1c44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t npu_get_nbextmems</definition>
+        <argsstring>(void)</argsstring>
+        <name>npu_get_nbextmems</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Return the number of external memories in the FPGA. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="429" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="716" bodyend="716" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="429" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__io_8h_1ac39b396de97530660a7c0378c1819382" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t npu_get_extmemBaseAddr</definition>
+        <argsstring>(size_t ddrIdx)</argsstring>
+        <name>npu_get_extmemBaseAddr</name>
+        <param>
+          <type>size_t</type>
+          <declname>ddrIdx</declname>
+        </param>
+        <briefdescription>
+<para>Return the base address of a the DDR with index ddrIdx. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="435" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="718" bodyend="718" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="435" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__io_8h_1a65906a590ccdc24c77705ef914adff23" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint32_t</type>
+        <definition>uint32_t npu_get_aligned_size</definition>
+        <argsstring>(uint32_t size)</argsstring>
+        <name>npu_get_aligned_size</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Return a 256-bit aligned size. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>size to be aligned. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>size_t Aligned size. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="443" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="724" bodyend="724" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="443" declcolumn="10"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__io_8h_1a3bb5f78bd9c997d9758c5fdc243ce04d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int npu_get_fpgafamily</definition>
+        <argsstring>(enum FpgaFamily *family)</argsstring>
+        <name>npu_get_fpgafamily</name>
+        <param>
+          <type>enum <ref refid="fpga__info_8h_1a3ba9c79991b017d4949e2e4bc1386af4" kindref="member">FpgaFamily</ref> *</type>
+          <declname>family</declname>
+        </param>
+        <briefdescription>
+<para>Get the FPGA family. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>family</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Holds the returned fpga family enum: VERSAL or ZYNQ. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int The Vart ML error (vart_ml_error_id) code of the operation. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="451" column="5" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="726" bodyend="726" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="451" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__io_8h_1a975b74f70a0ad116d08468299ffe1c2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int npu_get_architecture</definition>
+        <argsstring>(enum FpgaArchitecture *arch)</argsstring>
+        <name>npu_get_architecture</name>
+        <param>
+          <type>enum <ref refid="fpga__info_8h_1afe7ded90c10a0e74d9627a16f660ad7e" kindref="member">FpgaArchitecture</ref> *</type>
+          <declname>arch</declname>
+        </param>
+        <briefdescription>
+<para>Get the FPGA architecture. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>arch</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Holds returned fpga architecture: V1 for Zynq family or the Versal AIE architecture. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int The Vart ML error (vart_ml_error_id) code of the operation. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="459" column="5" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="728" bodyend="728" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="459" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__io_8h_1a6a27e8924abec64be21eb47acc18f101" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t npu_get_extddroffset</definition>
+        <argsstring>(void)</argsstring>
+        <name>npu_get_extddroffset</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Return the offset between 2 DDR. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="465" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="722" bodyend="722" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="465" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__io_8h_1a30c2f04052a91812a9af1f6fc94d380c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool is_tempmonitor_en</definition>
+        <argsstring>(uint32_t idx)</argsstring>
+        <name>is_tempmonitor_en</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>idx</declname>
+        </param>
+        <briefdescription>
+<para>Check if the temperature monitoring is enable. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>bool Return true is the temperature monitoring is enable, false otherwise. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="472" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="683" bodyend="686" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="472" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__io_8h_1a8706c9ae2c95aeadce11e50985f311eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool is_license_en</definition>
+        <argsstring>(uint32_t idx)</argsstring>
+        <name>is_license_en</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>idx</declname>
+        </param>
+        <briefdescription>
+<para>Check if the license module is enable. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>bool Return true is the license module is enable, false otherwise. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="479" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="693" bodyend="696" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="479" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__io_8h_1a14417a16a89edaf34cea2f40633b9d3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool is_assert_en</definition>
+        <argsstring>(uint32_t idx)</argsstring>
+        <name>is_assert_en</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>idx</declname>
+        </param>
+        <briefdescription>
+<para>Check if the assertion module is enable. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>bool Return true is the assertion module is enable, false otherwise. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="486" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="688" bodyend="691" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="486" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__io_8h_1a344bc6e20b828d8e74e6b5867430cdcc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool is_splitCore_en</definition>
+        <argsstring>(uint32_t idx)</argsstring>
+        <name>is_splitCore_en</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>idx</declname>
+        </param>
+        <briefdescription>
+<para>Check if the split core functionality is enable. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>bool Return true is functionality is enable, false otherwise. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="493" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="698" bodyend="701" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="493" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__io_8h_1a2531a7e4c431f0cc0f93f440b20b1324" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool is_mmcm_en</definition>
+        <argsstring>(uint32_t idx)</argsstring>
+        <name>is_mmcm_en</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>idx</declname>
+        </param>
+        <briefdescription>
+<para>Check if the MMCM is accessible through the service bus. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>bool Return true is functionality is enable, false otherwise. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="500" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="703" bodyend="706" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="500" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__io_8h_1abb71304d56ec69f2aec8f3e2ca28411b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void npu_print_resource_info</definition>
+        <argsstring>(void)</argsstring>
+        <name>npu_print_resource_info</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Print all detected resources in a table format. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="506" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="730" bodyend="730" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="506" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__io_8h_1a688a050c33cb41bfeb7363a04c759eb4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void vart_ml_vprintf</definition>
+        <argsstring>(const char *fmt, va_list args)</argsstring>
+        <name>vart_ml_vprintf</name>
+        <param>
+          <type>const char *</type>
+          <declname>fmt</declname>
+        </param>
+        <param>
+          <type>va_list</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+<para>The print method used by internal logging scheme. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fmt</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>C string that contains a format string that follows the same specifications as format in printf </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>arg</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A value identifying a variable arguments list initialized with va_start. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="515" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="736" bodyend="736" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="515" declcolumn="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="vart__ml__io_8h_1a83076730bbc70076baadee68779fbfce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int npu_create_ip_context</definition>
+        <argsstring>(void)</argsstring>
+        <name>npu_create_ip_context</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Create the NPU IP execution context. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Explore the device and extract NPU IP description information. In XRT, connecting to IPs is required to access IP information; once exploration is done, the connection is terminated.</para>
+<para><simplesect kind="return"><para>int The Vart ML error (vart_ml_error_id) code of the operation. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="59" column="5" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="187" bodyend="340" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="59" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__io_8h_1a3aeaf6b474577212600f77a598399c0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int npu_disconnect_ip</definition>
+        <argsstring>(uint32_t ip_idx)</argsstring>
+        <name>npu_disconnect_ip</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>ip_idx</declname>
+        </param>
+        <briefdescription>
+<para>Disconnect from IP. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function will remove connection with the target IP.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ip_idx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Index of the IP being accessed. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int The Vart ML error (vart_ml_error_id) code of the operation. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="69" column="5" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="342" bodyend="342" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="69" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__io_8h_1ac1446d73e8aca4fe953eb8e530aec586" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int npu_connect_ip</definition>
+        <argsstring>(uint32_t ip_idx)</argsstring>
+        <name>npu_connect_ip</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>ip_idx</declname>
+        </param>
+        <briefdescription>
+<para>Establish connection to IP. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function will establish a connection with the target IP CTRLBUS.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ip_idx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Index of the IP being accessed. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int The Vart ML error (vart_ml_error_id) code of the operation. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="79" column="5" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="344" bodyend="359" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="79" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__io_8h_1a47d533baca8f235cf4f477eaf99a4872" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int npu_connect_peripherals</definition>
+        <argsstring>(void)</argsstring>
+        <name>npu_connect_peripherals</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Establish connection with platform peripherals. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function will establish a connection to access peripherals such as ddr, noc, memtiles, etc.</para>
+<para><simplesect kind="return"><para>int The Vart ML error (vart_ml_error_id) code of the operation. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="88" column="5" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="361" bodyend="361" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="88" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__io_8h_1a33dce88f33f5c64fe87320cac18693dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int npu_get_ip_from_timestamp</definition>
+        <argsstring>(uint32_t timestamp, uint32_t *ip_idx)</argsstring>
+        <name>npu_get_ip_from_timestamp</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>timestamp</declname>
+        </param>
+        <param>
+          <type>uint32_t *</type>
+          <declname>ip_idx</declname>
+        </param>
+        <briefdescription>
+<para>Retrieve the IP index associated to a timestamp. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>timestamp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Timestamp of a snapshot generated for one of the IP on the board. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ip_idx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer to the IP index returned. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int The Vart ML error (vart_ml_error_id) code of the operation. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="97" column="5" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="363" bodyend="366" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="97" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__io_8h_1ab0826404d39c2fcff72f9d5e205d4a7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int npu_get_timestamp_from_ip</definition>
+        <argsstring>(uint32_t ip_idx, uint32_t *timestamp)</argsstring>
+        <name>npu_get_timestamp_from_ip</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>ip_idx</declname>
+        </param>
+        <param>
+          <type>uint32_t *</type>
+          <declname>timestamp</declname>
+        </param>
+        <briefdescription>
+<para>Retrieve the timestamp associated to IP. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>handle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Struct with connection information. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ip_idx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Index of the IP being accessed. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>timestamp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer to the timestamp returned. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int The Vart ML error (vart_ml_error_id) code of the operation. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="107" column="5" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="368" bodyend="371" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="107" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__io_8h_1af900e44c41f4a5e00e13532af273b857" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int npu_get_ip</definition>
+        <argsstring>(bool is_pp, uint32_t *ip_idx)</argsstring>
+        <name>npu_get_ip</name>
+        <param>
+          <type>bool</type>
+          <declname>is_pp</declname>
+        </param>
+        <param>
+          <type>uint32_t *</type>
+          <declname>ip_idx</declname>
+        </param>
+        <briefdescription>
+<para>Retrieve the IP that verifies attribute is_pp. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns an error if more that one IP exists.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>is_pp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Flag used to specifie the nature of IP fetched. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ip_idx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer to the IP index returned. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int The Vart ML error (vart_ml_error_id) code of the operation. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="116" column="5" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="373" bodyend="373" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="116" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__io_8h_1acf2e425188577891c8e22e485ce58e4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint32_t</type>
+        <definition>uint32_t npu_get_nb_ip</definition>
+        <argsstring>(void)</argsstring>
+        <name>npu_get_nb_ip</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Return the number of IPs present on the board. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>uint32_t Return the number of IPs. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="123" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="375" bodyend="375" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="123" declcolumn="10"/>
+      </memberdef>
+      <memberdef kind="function" id="vart__ml__io_8h_1a3d7f6505619b7ff5725630b6eff2c2cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint32_t</type>
+        <definition>uint32_t npu_get_nb_pp</definition>
+        <argsstring>(void)</argsstring>
+        <name>npu_get_nb_pp</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Return the number of PP_engines present on the board. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>uint32_t Return the number of PP_engines. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" line="130" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.c" bodystart="377" bodyend="377" declfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h" declline="130" declcolumn="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="copyright"><para>Copyright 2024 Advanced Micro Devices Inc.</para>
+</simplesect>
+Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <verbatim>http://www.apache.org/licenses/LICENSE-2.0
+</verbatim> Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. </para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>VART_ML_IO_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>VART_ML_IO_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdint.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdarg.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="fpga__info_8h" kindref="compound">vart_ml_utils/fpga_info.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="structaddr" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structaddr" kindref="compound">addr</ref></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="44" refid="structaddr_1a8a39b6c19ba4f8745709b1da575ceaa6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/><sp/><sp/><sp/><ref refid="structaddr_1a8a39b6c19ba4f8745709b1da575ceaa6" kindref="member">ddr_vaddr</ref>;</highlight></codeline>
+<codeline lineno="45" refid="structaddr_1a4af73f39dd19398776408b0fe9d066e0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint64_t<sp/><ref refid="structaddr_1a4af73f39dd19398776408b0fe9d066e0" kindref="member">phy_addr</ref>;</highlight></codeline>
+<codeline lineno="46" refid="structaddr_1a558a39a866e72b1f72b369f67a2895c5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint64_t<sp/><ref refid="structaddr_1a558a39a866e72b1f72b369f67a2895c5" kindref="member">offset</ref>;</highlight></codeline>
+<codeline lineno="47" refid="structaddr_1ab855d9af77629f58c3e52ca0e7489d9d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint64_t<sp/><ref refid="structaddr_1ab855d9af77629f58c3e52ca0e7489d9d" kindref="member">nbuff_conf_val</ref>;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="vart__ml__io_8h_1a83076730bbc70076baadee68779fbfce" kindref="member">npu_create_ip_context</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="vart__ml__io_8h_1a3aeaf6b474577212600f77a598399c0f" kindref="member">npu_disconnect_ip</ref>(uint32_t<sp/>ip_idx);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="vart__ml__io_8h_1ac1446d73e8aca4fe953eb8e530aec586" kindref="member">npu_connect_ip</ref>(uint32_t<sp/>ip_idx);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="vart__ml__io_8h_1a47d533baca8f235cf4f477eaf99a4872" kindref="member">npu_connect_peripherals</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="vart__ml__io_8h_1a33dce88f33f5c64fe87320cac18693dd" kindref="member">npu_get_ip_from_timestamp</ref>(uint32_t<sp/><ref refid="vart__ml__ctrlbus__poke_8cpp_1a175b69db0520fee0182b6e2c107539cf" kindref="member">timestamp</ref>,<sp/>uint32_t*<sp/>ip_idx);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="vart__ml__io_8h_1ab0826404d39c2fcff72f9d5e205d4a7e" kindref="member">npu_get_timestamp_from_ip</ref>(uint32_t<sp/>ip_idx,<sp/>uint32_t*<sp/><ref refid="vart__ml__ctrlbus__poke_8cpp_1a175b69db0520fee0182b6e2c107539cf" kindref="member">timestamp</ref>);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="vart__ml__io_8h_1af900e44c41f4a5e00e13532af273b857" kindref="member">npu_get_ip</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>is_pp,<sp/>uint32_t*<sp/>ip_idx);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="vart__ml__io_8h_1acf2e425188577891c8e22e485ce58e4c" kindref="member">npu_get_nb_ip</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="vart__ml__io_8h_1a3d7f6505619b7ff5725630b6eff2c2cd" kindref="member">npu_get_nb_pp</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="vart__ml__io_8h_1a2a2a44c34b0ed5959297bd98694303dc" kindref="member">npu_read_cfg</ref>(uint64_t<sp/>offset,<sp/>uint32_t*<sp/>buf,<sp/>uint32_t<sp/>wordsize,<sp/>uint32_t<sp/>ip_idx);</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="vart__ml__io_8h_1a21cadf9f74eda159fbde4bc3a296cf19" kindref="member">npu_write_cfg</ref>(uint64_t<sp/>offset,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32_t*<sp/>buf,<sp/>uint32_t<sp/>wordsize,<sp/>uint32_t<sp/>ip_idx);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="vart__ml__io_8h_1a4d205d76c2dee88da0e83fc7a8674707" kindref="member">npu_read_noc</ref>(uint64_t<sp/>offset,<sp/>uint32_t*<sp/>buf,<sp/>uint32_t<sp/>wordsize);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="vart__ml__io_8h_1ab281c25e4a078411b90d7fea0bd944b6" kindref="member">npu_write_noc</ref>(uint64_t<sp/>offset,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32_t*<sp/>buf,<sp/>uint32_t<sp/>wordsize);</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="vart__ml__io_8h_1a721d6e9da1ade5ca1ead235d883c741c" kindref="member">npu_read_ddr</ref>(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structaddr" kindref="compound">addr</ref><sp/><ref refid="structaddr" kindref="compound">addr</ref>,<sp/>uint8_t*<sp/>buf,<sp/>uint32_t<sp/>size);</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="vart__ml__io_8h_1a313ab6959d501ba3104874f19c4c9c9d" kindref="member">npu_write_ddr</ref>(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structaddr" kindref="compound">addr</ref><sp/><ref refid="structaddr" kindref="compound">addr</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t*<sp/>buf,<sp/>uint32_t<sp/>size);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/><ref refid="vart__ml__io_8h_1a7f08da6e9dfaa663bcf4986f45386a9f" kindref="member">npu_get_nbuff_conf_val_from_phy</ref>(uint64_t<sp/>phy_addr);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structaddr" kindref="compound">addr</ref><sp/><ref refid="vart__ml__io_8h_1a9891f515b5fc2f6e1d2e6855e596a479" kindref="member">npu_get_addr_from_phy_addr</ref>(uint64_t<sp/><ref refid="structaddr_1a4af73f39dd19398776408b0fe9d066e0" kindref="member">phy_addr</ref>);</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structaddr" kindref="compound">addr</ref><sp/><ref refid="vart__ml__io_8h_1a71a7fb4c886e21d4f8eeb1adff41d454" kindref="member">npu_get_addr_from_idx_and_offset</ref>(uint8_t<sp/>extmem_idx,<sp/>uint64_t<sp/><ref refid="structaddr_1a558a39a866e72b1f72b369f67a2895c5" kindref="member">offset</ref>);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/><ref refid="vart__ml__io_8h_1a4ad769a0cda0a44a69704fbcc0fb10a9" kindref="member">npu_get_phy_addr_from_ddr_vaddr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/><ref refid="structaddr_1a8a39b6c19ba4f8745709b1da575ceaa6" kindref="member">ddr_vaddr</ref>);</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/><ref refid="vart__ml__io_8h_1a7a4aaa03a0f3f3411abff574e9e3781e" kindref="member">npu_get_ddr_vaddr_from_vaddr</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/><ref refid="structaddr_1a8a39b6c19ba4f8745709b1da575ceaa6" kindref="member">ddr_vaddr</ref>);</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/><ref refid="vart__ml__io_8h_1a668b51f8945805d9f29505e82dea669c" kindref="member">npu_get_phy_addr_from_snapshot_addr</ref>(uint64_t<sp/>snap_addr);</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="vart__ml__io_8h_1ae1847cfc1f707017c478ba65bed5a6cb" kindref="member">npu_allocate_memory</ref>(uint64_t<sp/>size,<sp/>uint32_t<sp/>ddr,<sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structaddr" kindref="compound">addr</ref>*<sp/><ref refid="structaddr" kindref="compound">addr</ref>);</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="vart__ml__io_8h_1a5a3c9fa3ea5e78dc8a024d2a31f08072" kindref="member">npu_allocate_batch</ref>(uint64_t<sp/>size,<sp/>uint32_t<sp/>ddr,<sp/>uint64_t<sp/>batch_size,<sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structaddr" kindref="compound">addr</ref>*<sp/>addrs);</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/><ref refid="vart__ml__io_8h_1a27fd05b1ebf80da2cecd3cf2552faa9f" kindref="member">npu_malloc</ref>(uint64_t<sp/>size,<sp/>uint8_t<sp/>ddr);</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">**<sp/><ref refid="vart__ml__io_8h_1a2c86c829fd987f899dae4034df7e9ad6" kindref="member">npu_malloc_batch</ref>(uint64_t<sp/>aligned_size,<sp/>uint8_t<sp/>ddr,<sp/>uint64_t<sp/>batch_size);</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/><ref refid="vart__ml__io_8h_1ade5d730743de85949501d537c0386b22" kindref="member">npu_malloc_sub</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>parent_vaddr,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="structaddr_1a558a39a866e72b1f72b369f67a2895c5" kindref="member">offset</ref>,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"></highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="vart__ml__io_8h_1a67b6129ebbfd3ee3bf673eb38957b7e9" kindref="member">npu_free</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>user_ptr);</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"></highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="vart__ml__io_8h_1a7d29a6af0752e0c38ce8cd21be1ccd12" kindref="member">npu_wait_interrupt</ref>(uint32_t<sp/>ip_idx);</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"></highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="vart__ml__io_8h_1a997a7fd01bd644d0033accbacf4c05b2" kindref="member">npu_is_interrupt_en</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">*<sp/>is_en);</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"></highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="vart__ml__io_8h_1a8da5cd3fd87f675551e642537d584419" kindref="member">npu_is_xrt_en</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"></highlight></codeline>
+<codeline lineno="305"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="vart__ml__io_8h_1a7320ae81cda0ed22696d4a1a9808fd29" kindref="member">npu_get_mutex</ref>(uint64_t<sp/><ref refid="structaddr_1a558a39a866e72b1f72b369f67a2895c5" kindref="member">offset</ref>,<sp/>uint32_t<sp/>ip_idx);</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"></highlight></codeline>
+<codeline lineno="313"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="vart__ml__io_8h_1a914d5cc14f9a59795909b856ba917fb5" kindref="member">npu_release_mutex</ref>(uint64_t<sp/><ref refid="structaddr_1a558a39a866e72b1f72b369f67a2895c5" kindref="member">offset</ref>,<sp/>uint32_t<sp/>ip_idx);</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"></highlight></codeline>
+<codeline lineno="320"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="vart__ml__io_8h_1ad2784b212ca033e1fee57ff78064862a" kindref="member">npu_get_inference_mutex</ref>(uint32_t<sp/>ip_idx);</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"></highlight></codeline>
+<codeline lineno="327"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="vart__ml__io_8h_1ab276f2ab5ab0439c65105806c4f552c4" kindref="member">npu_release_inference_mutex</ref>(uint32_t<sp/>ip_idx);</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"></highlight></codeline>
+<codeline lineno="337"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="vart__ml__io_8h_1a8b107560b367b5db1025f3839c5b92dc" kindref="member">npu_cleanup_inference_operation</ref>(uint32_t<sp/>ip_idx,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>err);</highlight></codeline>
+<codeline lineno="338"><highlight class="normal"></highlight></codeline>
+<codeline lineno="343"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="vart__ml__io_8h_1a5e0f67c39d81673b6390781d0802b4fc" kindref="member">npu_print_fpga_info</ref>(uint32_t<sp/>ip_idx);</highlight></codeline>
+<codeline lineno="344"><highlight class="normal"></highlight></codeline>
+<codeline lineno="349"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="vart__ml__io_8h_1a505f6c71d5e5de515c133b2db9550360" kindref="member">npu_get_extmemlen</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>extmemIdx);</highlight></codeline>
+<codeline lineno="350"><highlight class="normal"></highlight></codeline>
+<codeline lineno="355"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="vart__ml__io_8h_1aaffdf5a6d18794c8cbeab3673c052756" kindref="member">npu_get_noclen</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="356"><highlight class="normal"></highlight></codeline>
+<codeline lineno="361"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="vart__ml__io_8h_1a262afaaed0e88673182d216f27abafa4" kindref="member">npu_get_inputfreq</ref>(uint32_t<sp/>idx);</highlight></codeline>
+<codeline lineno="362"><highlight class="normal"></highlight></codeline>
+<codeline lineno="367"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="vart__ml__io_8h_1adffd75d8ca7fa990289f08195cecd0c7" kindref="member">npu_get_runningfreq</ref>(uint32_t<sp/>idx);</highlight></codeline>
+<codeline lineno="368"><highlight class="normal"></highlight></codeline>
+<codeline lineno="373"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="vart__ml__io_8h_1ada485db45c271f7f43c3be3a1e493aff" kindref="member">npu_get_ctrlbusfreq</ref>(uint32_t<sp/>idx);</highlight></codeline>
+<codeline lineno="374"><highlight class="normal"></highlight></codeline>
+<codeline lineno="380"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="vart__ml__io_8h_1ab22d5faa89205250d868d0d1f54a6269" kindref="member">npu_get_mntrclkcoef</ref>(uint32_t<sp/>idx);</highlight></codeline>
+<codeline lineno="381"><highlight class="normal"></highlight></codeline>
+<codeline lineno="387"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="vart__ml__io_8h_1a86891d6b118eed7999c83c28b17871e6" kindref="member">npu_get_boardname</ref>(uint32_t<sp/>idx);</highlight></codeline>
+<codeline lineno="388"><highlight class="normal"></highlight></codeline>
+<codeline lineno="393"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="vart__ml__io_8h_1ab0de0a0e9b4011865c0de991592f5cfa" kindref="member">npu_get_nbcores</ref>(uint32_t<sp/>idx);</highlight></codeline>
+<codeline lineno="394"><highlight class="normal"></highlight></codeline>
+<codeline lineno="399"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="vart__ml__io_8h_1a011681f2cd046506f1df05f63ca937da" kindref="member">npu_get_nbsystems</ref>(uint32_t<sp/>idx);</highlight></codeline>
+<codeline lineno="400"><highlight class="normal"></highlight></codeline>
+<codeline lineno="405"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="vart__ml__io_8h_1a23adf9ece96b89b979fcd2c3da46beb3" kindref="member">npu_get_nbnces</ref>(uint32_t<sp/>idx);</highlight></codeline>
+<codeline lineno="406"><highlight class="normal"></highlight></codeline>
+<codeline lineno="411"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="vart__ml__io_8h_1aebe7d0942a01fa1b430fcf0950f8400b" kindref="member">npu_get_nbcolumns</ref>(uint32_t<sp/>idx);</highlight></codeline>
+<codeline lineno="412"><highlight class="normal"></highlight></codeline>
+<codeline lineno="417"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="vart__ml__io_8h_1acee4525aa8fb44cff6d010b0c4d39308" kindref="member">npu_get_nbaiepercolumn</ref>(uint32_t<sp/>idx);</highlight></codeline>
+<codeline lineno="418"><highlight class="normal"></highlight></codeline>
+<codeline lineno="423"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="vart__ml__io_8h_1a482b5be3e053174e5a9788f98f83d5be" kindref="member">npu_get_nbddrs</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="424"><highlight class="normal"></highlight></codeline>
+<codeline lineno="429"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="vart__ml__io_8h_1a85da17e3c11432f177ff8760f2ce1c44" kindref="member">npu_get_nbextmems</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="430"><highlight class="normal"></highlight></codeline>
+<codeline lineno="435"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="vart__ml__io_8h_1ac39b396de97530660a7c0378c1819382" kindref="member">npu_get_extmemBaseAddr</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>ddrIdx);</highlight></codeline>
+<codeline lineno="436"><highlight class="normal"></highlight></codeline>
+<codeline lineno="443"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="vart__ml__io_8h_1a65906a590ccdc24c77705ef914adff23" kindref="member">npu_get_aligned_size</ref>(uint32_t<sp/>size);</highlight></codeline>
+<codeline lineno="444"><highlight class="normal"></highlight></codeline>
+<codeline lineno="451"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="vart__ml__io_8h_1a3bb5f78bd9c997d9758c5fdc243ce04d" kindref="member">npu_get_fpgafamily</ref>(</highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="fpga__info_8h_1a3ba9c79991b017d4949e2e4bc1386af4" kindref="member">FpgaFamily</ref>*<sp/>family);</highlight></codeline>
+<codeline lineno="452"><highlight class="normal"></highlight></codeline>
+<codeline lineno="459"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="vart__ml__io_8h_1a975b74f70a0ad116d08468299ffe1c2c" kindref="member">npu_get_architecture</ref>(</highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="fpga__info_8h_1afe7ded90c10a0e74d9627a16f660ad7e" kindref="member">FpgaArchitecture</ref>*<sp/>arch);</highlight></codeline>
+<codeline lineno="460"><highlight class="normal"></highlight></codeline>
+<codeline lineno="465"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="vart__ml__io_8h_1a6a27e8924abec64be21eb47acc18f101" kindref="member">npu_get_extddroffset</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="466"><highlight class="normal"></highlight></codeline>
+<codeline lineno="472"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="vart__ml__io_8h_1a30c2f04052a91812a9af1f6fc94d380c" kindref="member">is_tempmonitor_en</ref>(uint32_t<sp/>idx);</highlight></codeline>
+<codeline lineno="473"><highlight class="normal"></highlight></codeline>
+<codeline lineno="479"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="vart__ml__io_8h_1a8706c9ae2c95aeadce11e50985f311eb" kindref="member">is_license_en</ref>(uint32_t<sp/>idx);</highlight></codeline>
+<codeline lineno="480"><highlight class="normal"></highlight></codeline>
+<codeline lineno="486"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="vart__ml__io_8h_1a14417a16a89edaf34cea2f40633b9d3c" kindref="member">is_assert_en</ref>(uint32_t<sp/>idx);</highlight></codeline>
+<codeline lineno="487"><highlight class="normal"></highlight></codeline>
+<codeline lineno="493"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="vart__ml__io_8h_1a344bc6e20b828d8e74e6b5867430cdcc" kindref="member">is_splitCore_en</ref>(uint32_t<sp/>idx);</highlight></codeline>
+<codeline lineno="494"><highlight class="normal"></highlight></codeline>
+<codeline lineno="500"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="vart__ml__io_8h_1a2531a7e4c431f0cc0f93f440b20b1324" kindref="member">is_mmcm_en</ref>(uint32_t<sp/>idx);</highlight></codeline>
+<codeline lineno="501"><highlight class="normal"></highlight></codeline>
+<codeline lineno="506"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="vart__ml__io_8h_1abb71304d56ec69f2aec8f3e2ca28411b" kindref="member">npu_print_resource_info</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="507"><highlight class="normal"></highlight></codeline>
+<codeline lineno="515"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="vart__ml__io_8h_1a688a050c33cb41bfeb7363a04c759eb4" kindref="member">vart_ml_vprintf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>fmt,<sp/>va_list<sp/>args);</highlight></codeline>
+<codeline lineno="516"><highlight class="normal"></highlight></codeline>
+<codeline lineno="517"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="518"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="519"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="520"><highlight class="normal"></highlight></codeline>
+<codeline lineno="521"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_io/vart_ml_io.h"/>
+  </compounddef>
+</doxygen>

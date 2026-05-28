@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structvart_1_1OverlayPolygonParams" kind="struct" language="C++" prot="public">
+    <compoundname>vart::OverlayPolygonParams</compoundname>
+    <includes refid="vart__overlay__types_8hpp" local="no">vart_overlay_types.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structvart_1_1OverlayPolygonParams_1afa2aafa7f5af4c1efe116f9ea239a21f" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="structvart_1_1OverlayCoordinates" kindref="compound">OverlayCoordinates</ref> &gt;</type>
+        <definition>std::vector&lt;OverlayCoordinates&gt; vart::OverlayPolygonParams::poly_pts</definition>
+        <argsstring></argsstring>
+        <name>poly_pts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" line="281" column="15" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" bodystart="281" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1OverlayPolygonParams_1a61490209573e4120d11d6b1276c7e8f7" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t vart::OverlayPolygonParams::thickness</definition>
+        <argsstring></argsstring>
+        <name>thickness</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" line="282" column="12" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" bodystart="282" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1OverlayPolygonParams_1ab4cf024345e2aac9f999fd0ee8360605" prot="public" static="no" mutable="no">
+        <type><ref refid="structvart_1_1OverlayColorData" kindref="compound">OverlayColorData</ref></type>
+        <definition>OverlayColorData vart::OverlayPolygonParams::poly_color</definition>
+        <argsstring></argsstring>
+        <name>poly_color</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" line="283" column="20" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" bodystart="283" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Structure representing Polygon information. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>vart::OverlayColorData</label>
+        <link refid="structvart_1_1OverlayColorData"/>
+      </node>
+      <node id="1">
+        <label>vart::OverlayPolygonParams</label>
+        <link refid="structvart_1_1OverlayPolygonParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>poly_color</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" line="280" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_overlay_types.hpp" bodystart="280" bodyend="284"/>
+    <listofallmembers>
+      <member refid="structvart_1_1OverlayPolygonParams_1ab4cf024345e2aac9f999fd0ee8360605" prot="public" virt="non-virtual"><scope>vart::OverlayPolygonParams</scope><name>poly_color</name></member>
+      <member refid="structvart_1_1OverlayPolygonParams_1afa2aafa7f5af4c1efe116f9ea239a21f" prot="public" virt="non-virtual"><scope>vart::OverlayPolygonParams</scope><name>poly_pts</name></member>
+      <member refid="structvart_1_1OverlayPolygonParams_1a61490209573e4120d11d6b1276c7e8f7" prot="public" virt="non-virtual"><scope>vart::OverlayPolygonParams</scope><name>thickness</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

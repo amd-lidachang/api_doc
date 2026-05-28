@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classvart_1_1NpuTensorPriv" kind="class" language="C++" prot="public">
+    <compoundname>vart::NpuTensorPriv</compoundname>
+    <includes refid="vart__npu__tensor__impl_8hpp" local="no">vart_npu_tensor_impl.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classvart_1_1NpuTensorPriv_1aaf66c999f335a7952923d02f7b59173b" prot="public" static="no" mutable="no">
+        <type><ref refid="structvart_1_1NpuTensorInfo" kindref="compound">NpuTensorInfo</ref></type>
+        <definition>NpuTensorInfo vart::NpuTensorPriv::info_</definition>
+        <argsstring></argsstring>
+        <name>info_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor_impl.hpp" line="40" column="23" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor_impl.hpp" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvart_1_1NpuTensorPriv_1a4bf145bd53776feb0e557f071baf8d82" prot="public" static="no" mutable="no">
+        <type>std::shared_ptr&lt; void &gt;</type>
+        <definition>std::shared_ptr&lt;void&gt; vart::NpuTensorPriv::buffer_</definition>
+        <argsstring></argsstring>
+        <name>buffer_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor_impl.hpp" line="41" column="17" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor_impl.hpp" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvart_1_1NpuTensorPriv_1a2dcec7387a821da5cd6ff432bf5f7649" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacevart_1a628146123b56321d35a9614480f55cb4" kindref="member">MemoryType</ref></type>
+        <definition>MemoryType vart::NpuTensorPriv::memory_type_</definition>
+        <argsstring></argsstring>
+        <name>memory_type_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor_impl.hpp" line="42" column="23" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor_impl.hpp" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvart_1_1NpuTensorPriv_1a555ff1a82ad100086cc447cb0fc84457" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool vart::NpuTensorPriv::is_const_buffer_</definition>
+        <argsstring></argsstring>
+        <name>is_const_buffer_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor_impl.hpp" line="43" column="23" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor_impl.hpp" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvart_1_1NpuTensorPriv_1a79a1b3e8744108b3bde9345df0321e8a" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool vart::NpuTensorPriv::is_wrapped_</definition>
+        <argsstring></argsstring>
+        <name>is_wrapped_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor_impl.hpp" line="44" column="23" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor_impl.hpp" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvart_1_1NpuTensorPriv_1a3a16dc888ee38b15d8181e606c64f237" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool vart::NpuTensorPriv::is_sub_tensor_</definition>
+        <argsstring></argsstring>
+        <name>is_sub_tensor_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor_impl.hpp" line="45" column="23" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor_impl.hpp" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvart_1_1NpuTensorPriv_1a7f2f4bd7aa5580ce3e369069a21b2dae" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool vart::NpuTensorPriv::is_packed_</definition>
+        <argsstring></argsstring>
+        <name>is_packed_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor_impl.hpp" line="46" column="23" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor_impl.hpp" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classvart_1_1NpuTensorPriv_1a9246d7a5e217c1b43a5a6e851d7ee84c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>vart::NpuTensorPriv::NpuTensorPriv</definition>
+        <argsstring>()</argsstring>
+        <name>NpuTensorPriv</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor_impl.hpp" line="48" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor_impl.hpp" bodystart="48" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1NpuTensorPriv_1a0789f85bf79097d187ef9371cc3518f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>vart::NpuTensorPriv::NpuTensorPriv</definition>
+        <argsstring>(const NpuTensorInfo &amp;info, void *buffer, const MemoryType &amp;mem_type)</argsstring>
+        <name>NpuTensorPriv</name>
+        <param>
+          <type>const <ref refid="structvart_1_1NpuTensorInfo" kindref="compound">NpuTensorInfo</ref> &amp;</type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespacevart_1a628146123b56321d35a9614480f55cb4" kindref="member">MemoryType</ref> &amp;</type>
+          <declname>mem_type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor_impl.hpp" line="58" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor_impl.hpp" bodystart="58" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1NpuTensorPriv_1a5bc1b10259d34a37aeb64c6fbb40fe2c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>vart::NpuTensorPriv::NpuTensorPriv</definition>
+        <argsstring>(const NpuTensorInfo &amp;info, const void *buffer, MemoryType mem_type)</argsstring>
+        <name>NpuTensorPriv</name>
+        <param>
+          <type>const <ref refid="structvart_1_1NpuTensorInfo" kindref="compound">NpuTensorInfo</ref> &amp;</type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type>const void *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacevart_1a628146123b56321d35a9614480f55cb4" kindref="member">MemoryType</ref></type>
+          <declname>mem_type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor_impl.hpp" line="70" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor_impl.hpp" bodystart="70" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1NpuTensorPriv_1a18b9f140264b355dead7afdb634ad700" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>vart::NpuTensorPriv::NpuTensorPriv</definition>
+        <argsstring>(const NpuTensorPriv &amp;)=delete</argsstring>
+        <name>NpuTensorPriv</name>
+        <param>
+          <type>const <ref refid="classvart_1_1NpuTensorPriv" kindref="compound">NpuTensorPriv</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor_impl.hpp" line="83" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1NpuTensorPriv_1aa24b3530ef3ee7b1f80751bedb52e830" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classvart_1_1NpuTensorPriv" kindref="compound">NpuTensorPriv</ref> &amp;</type>
+        <definition>NpuTensorPriv&amp; vart::NpuTensorPriv::operator=</definition>
+        <argsstring>(const NpuTensorPriv &amp;)=delete</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classvart_1_1NpuTensorPriv" kindref="compound">NpuTensorPriv</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor_impl.hpp" line="84" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classvart_1_1NpuTensorPriv_1a189dbd4f1c09d15698e51aa4023f3b38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>vart::NpuTensorPriv::~NpuTensorPriv</definition>
+        <argsstring>()=default</argsstring>
+        <name>~NpuTensorPriv</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor_impl.hpp" line="86" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classvart_1_1NpuTensorPriv_1a8f520df0dc6a8a525bdf4e56e550c26a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void vart::NpuTensorPriv::validate_and_initialize</definition>
+        <argsstring>()</argsstring>
+        <name>validate_and_initialize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor_impl.hpp" line="89" column="6" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor.cpp" bodystart="100" bodyend="116"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Private implementation class for <ref refid="classvart_1_1NpuTensor" kindref="compound">NpuTensor</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>This class contains the actual implementation details of <ref refid="classvart_1_1NpuTensor" kindref="compound">NpuTensor</ref>. It is only intended for internal use and advanced access scenarios.</para>
+<para><simplesect kind="warning"><para>This class is part of the internal implementation and may change without notice. Use <ref refid="classvart_1_1NpuTensorPrivAccess" kindref="compound">NpuTensorPrivAccess</ref> for controlled access. </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>vart::NpuTensorPriv</label>
+        <link refid="classvart_1_1NpuTensorPriv"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>info_</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>vart::NpuTensorInfo</label>
+        <link refid="structvart_1_1NpuTensorInfo"/>
+      </node>
+    </collaborationgraph>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor_impl.hpp" line="37" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_runner/vart_npu_tensor_impl.hpp" bodystart="38" bodyend="90"/>
+    <listofallmembers>
+      <member refid="classvart_1_1NpuTensorPriv_1a4bf145bd53776feb0e557f071baf8d82" prot="public" virt="non-virtual"><scope>vart::NpuTensorPriv</scope><name>buffer_</name></member>
+      <member refid="classvart_1_1NpuTensorPriv_1aaf66c999f335a7952923d02f7b59173b" prot="public" virt="non-virtual"><scope>vart::NpuTensorPriv</scope><name>info_</name></member>
+      <member refid="classvart_1_1NpuTensorPriv_1a555ff1a82ad100086cc447cb0fc84457" prot="public" virt="non-virtual"><scope>vart::NpuTensorPriv</scope><name>is_const_buffer_</name></member>
+      <member refid="classvart_1_1NpuTensorPriv_1a7f2f4bd7aa5580ce3e369069a21b2dae" prot="public" virt="non-virtual"><scope>vart::NpuTensorPriv</scope><name>is_packed_</name></member>
+      <member refid="classvart_1_1NpuTensorPriv_1a3a16dc888ee38b15d8181e606c64f237" prot="public" virt="non-virtual"><scope>vart::NpuTensorPriv</scope><name>is_sub_tensor_</name></member>
+      <member refid="classvart_1_1NpuTensorPriv_1a79a1b3e8744108b3bde9345df0321e8a" prot="public" virt="non-virtual"><scope>vart::NpuTensorPriv</scope><name>is_wrapped_</name></member>
+      <member refid="classvart_1_1NpuTensorPriv_1a2dcec7387a821da5cd6ff432bf5f7649" prot="public" virt="non-virtual"><scope>vart::NpuTensorPriv</scope><name>memory_type_</name></member>
+      <member refid="classvart_1_1NpuTensorPriv_1a9246d7a5e217c1b43a5a6e851d7ee84c" prot="public" virt="non-virtual"><scope>vart::NpuTensorPriv</scope><name>NpuTensorPriv</name></member>
+      <member refid="classvart_1_1NpuTensorPriv_1a0789f85bf79097d187ef9371cc3518f4" prot="public" virt="non-virtual"><scope>vart::NpuTensorPriv</scope><name>NpuTensorPriv</name></member>
+      <member refid="classvart_1_1NpuTensorPriv_1a5bc1b10259d34a37aeb64c6fbb40fe2c" prot="public" virt="non-virtual"><scope>vart::NpuTensorPriv</scope><name>NpuTensorPriv</name></member>
+      <member refid="classvart_1_1NpuTensorPriv_1a18b9f140264b355dead7afdb634ad700" prot="public" virt="non-virtual"><scope>vart::NpuTensorPriv</scope><name>NpuTensorPriv</name></member>
+      <member refid="classvart_1_1NpuTensorPriv_1aa24b3530ef3ee7b1f80751bedb52e830" prot="public" virt="non-virtual"><scope>vart::NpuTensorPriv</scope><name>operator=</name></member>
+      <member refid="classvart_1_1NpuTensorPriv_1a8f520df0dc6a8a525bdf4e56e550c26a" prot="private" virt="non-virtual"><scope>vart::NpuTensorPriv</scope><name>validate_and_initialize</name></member>
+      <member refid="classvart_1_1NpuTensorPriv_1a189dbd4f1c09d15698e51aa4023f3b38" prot="public" virt="non-virtual"><scope>vart::NpuTensorPriv</scope><name>~NpuTensorPriv</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

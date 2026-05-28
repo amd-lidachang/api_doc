@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structvart_1_1VideoFrameMapInfo" kind="struct" language="C++" prot="public">
+    <compoundname>vart::VideoFrameMapInfo</compoundname>
+    <includes refid="vart__videoframe__types_8hpp" local="no">vart_videoframe_types.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structvart_1_1VideoFrameMapInfo_1ad87f32c570f722a693f80ee58a2c01c8" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t vart::VideoFrameMapInfo::nplanes</definition>
+        <argsstring></argsstring>
+        <name>nplanes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_videoframe_types.hpp" line="280" column="11" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_videoframe_types.hpp" bodystart="280" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1VideoFrameMapInfo_1ace033ec66302cee5bd7d715cc7c1c8fb" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t vart::VideoFrameMapInfo::size</definition>
+        <argsstring></argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_videoframe_types.hpp" line="281" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_videoframe_types.hpp" bodystart="281" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1VideoFrameMapInfo_1a2a3da1840ff0050bdf49a5d7ff865edf" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t vart::VideoFrameMapInfo::width</definition>
+        <argsstring></argsstring>
+        <name>width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_videoframe_types.hpp" line="282" column="11" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_videoframe_types.hpp" bodystart="282" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1VideoFrameMapInfo_1a50f30ac72f7599a36600719b6f50a8ce" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t vart::VideoFrameMapInfo::height</definition>
+        <argsstring></argsstring>
+        <name>height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_videoframe_types.hpp" line="283" column="11" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_videoframe_types.hpp" bodystart="283" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1VideoFrameMapInfo_1a786f9107df6125ec7b86b1cc07715440" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacevart_1a0701d5498bcfe62aa2293fd856702b8d" kindref="member">VideoFormat</ref></type>
+        <definition>VideoFormat vart::VideoFrameMapInfo::fmt</definition>
+        <argsstring></argsstring>
+        <name>fmt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_videoframe_types.hpp" line="284" column="15" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_videoframe_types.hpp" bodystart="284" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1VideoFrameMapInfo_1a8a5d50498f17a33d9333ad22d5eb76f5" prot="public" static="no" mutable="no">
+        <type><ref refid="structvart_1_1VideoAlignment" kindref="compound">VideoAlignment</ref></type>
+        <definition>VideoAlignment vart::VideoFrameMapInfo::alignment</definition>
+        <argsstring></argsstring>
+        <name>alignment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_videoframe_types.hpp" line="285" column="18" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_videoframe_types.hpp" bodystart="285" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1VideoFrameMapInfo_1a9e6bc35b7814c859fd8562425003050e" prot="public" static="no" mutable="no">
+        <type><ref refid="structvart_1_1VideoPlaneInfo" kindref="compound">VideoPlaneInfo</ref></type>
+        <definition>VideoPlaneInfo vart::VideoFrameMapInfo::planes[4]</definition>
+        <argsstring>[4]</argsstring>
+        <name>planes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_videoframe_types.hpp" line="286" column="18" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_videoframe_types.hpp" bodystart="286" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1VideoFrameMapInfo_1a0856a6fc0145b64d54c370482ebe8747" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* vart::VideoFrameMapInfo::usr_meta</definition>
+        <argsstring></argsstring>
+        <name>usr_meta</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_videoframe_types.hpp" line="287" column="8" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_videoframe_types.hpp" bodystart="287" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Structure encapsulating details pertaining to a video frame post-mapping operation. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>vart::VideoAlignment</label>
+        <link refid="structvart_1_1VideoAlignment"/>
+      </node>
+      <node id="3">
+        <label>vart::VideoPlaneInfo</label>
+        <link refid="structvart_1_1VideoPlaneInfo"/>
+      </node>
+      <node id="1">
+        <label>vart::VideoFrameMapInfo</label>
+        <link refid="structvart_1_1VideoFrameMapInfo"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>alignment</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>planes</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_videoframe_types.hpp" line="279" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_videoframe_types.hpp" bodystart="279" bodyend="288"/>
+    <listofallmembers>
+      <member refid="structvart_1_1VideoFrameMapInfo_1a8a5d50498f17a33d9333ad22d5eb76f5" prot="public" virt="non-virtual"><scope>vart::VideoFrameMapInfo</scope><name>alignment</name></member>
+      <member refid="structvart_1_1VideoFrameMapInfo_1a786f9107df6125ec7b86b1cc07715440" prot="public" virt="non-virtual"><scope>vart::VideoFrameMapInfo</scope><name>fmt</name></member>
+      <member refid="structvart_1_1VideoFrameMapInfo_1a50f30ac72f7599a36600719b6f50a8ce" prot="public" virt="non-virtual"><scope>vart::VideoFrameMapInfo</scope><name>height</name></member>
+      <member refid="structvart_1_1VideoFrameMapInfo_1ad87f32c570f722a693f80ee58a2c01c8" prot="public" virt="non-virtual"><scope>vart::VideoFrameMapInfo</scope><name>nplanes</name></member>
+      <member refid="structvart_1_1VideoFrameMapInfo_1a9e6bc35b7814c859fd8562425003050e" prot="public" virt="non-virtual"><scope>vart::VideoFrameMapInfo</scope><name>planes</name></member>
+      <member refid="structvart_1_1VideoFrameMapInfo_1ace033ec66302cee5bd7d715cc7c1c8fb" prot="public" virt="non-virtual"><scope>vart::VideoFrameMapInfo</scope><name>size</name></member>
+      <member refid="structvart_1_1VideoFrameMapInfo_1a0856a6fc0145b64d54c370482ebe8747" prot="public" virt="non-virtual"><scope>vart::VideoFrameMapInfo</scope><name>usr_meta</name></member>
+      <member refid="structvart_1_1VideoFrameMapInfo_1a2a3da1840ff0050bdf49a5d7ff865edf" prot="public" virt="non-virtual"><scope>vart::VideoFrameMapInfo</scope><name>width</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

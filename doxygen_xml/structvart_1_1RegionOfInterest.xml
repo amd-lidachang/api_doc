@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structvart_1_1RegionOfInterest" kind="struct" language="C++" prot="public">
+    <compoundname>vart::RegionOfInterest</compoundname>
+    <includes refid="vart__preprocess__types_8hpp" local="no">vart_preprocess_types.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structvart_1_1RegionOfInterest_1a0c75b245b9cc4efba45c6850ad7ad973" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t vart::RegionOfInterest::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_preprocess_types.hpp" line="119" column="12" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_preprocess_types.hpp" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1RegionOfInterest_1acb496c0adc5d0f05a449595829ab25b7" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t vart::RegionOfInterest::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_preprocess_types.hpp" line="120" column="12" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_preprocess_types.hpp" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1RegionOfInterest_1a3676c3ff296bf7f0648faf539a4c5b15" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t vart::RegionOfInterest::height</definition>
+        <argsstring></argsstring>
+        <name>height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_preprocess_types.hpp" line="121" column="12" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_preprocess_types.hpp" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvart_1_1RegionOfInterest_1ab763a5f981940d9407e021ac1e7f7d30" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t vart::RegionOfInterest::width</definition>
+        <argsstring></argsstring>
+        <name>width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_preprocess_types.hpp" line="122" column="12" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_preprocess_types.hpp" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Contains information related to region of interest. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_preprocess_types.hpp" line="118" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/include/vart_preprocess_types.hpp" bodystart="118" bodyend="123"/>
+    <listofallmembers>
+      <member refid="structvart_1_1RegionOfInterest_1a3676c3ff296bf7f0648faf539a4c5b15" prot="public" virt="non-virtual"><scope>vart::RegionOfInterest</scope><name>height</name></member>
+      <member refid="structvart_1_1RegionOfInterest_1ab763a5f981940d9407e021ac1e7f7d30" prot="public" virt="non-virtual"><scope>vart::RegionOfInterest</scope><name>width</name></member>
+      <member refid="structvart_1_1RegionOfInterest_1a0c75b245b9cc4efba45c6850ad7ad973" prot="public" virt="non-virtual"><scope>vart::RegionOfInterest</scope><name>x</name></member>
+      <member refid="structvart_1_1RegionOfInterest_1acb496c0adc5d0f05a449595829ab25b7" prot="public" virt="non-virtual"><scope>vart::RegionOfInterest</scope><name>y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structEmbeddedStats_1_1ParentGraph" kind="struct" language="C++" prot="private">
+    <compoundname>EmbeddedStats::ParentGraph</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structEmbeddedStats_1_1ParentGraph_1a56034d2ba50637bf47812659e522385a" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string EmbeddedStats::ParentGraph::networkName</definition>
+        <argsstring></argsstring>
+        <name>networkName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="306" column="27" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="306" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1_1ParentGraph_1a5fc6e495fa8760e519fac3643d595590" prot="public" static="no" mutable="no">
+        <type>PerGraphInfo</type>
+        <definition>PerGraphInfo EmbeddedStats::ParentGraph::info</definition>
+        <argsstring></argsstring>
+        <name>info</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="307" column="27" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="307" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1_1ParentGraph_1a3d17d78acc1f292a100a3e11929c3ca3" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int EmbeddedStats::ParentGraph::nbNpuSubGraphs</definition>
+        <argsstring></argsstring>
+        <name>nbNpuSubGraphs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="308" column="27" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="308" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1_1ParentGraph_1ae3a845d285f4a813c923ba22fc5c4cef" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int EmbeddedStats::ParentGraph::nbOnnxSubGraphs</definition>
+        <argsstring></argsstring>
+        <name>nbOnnxSubGraphs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="309" column="27" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="309" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structEmbeddedStats_1_1ParentGraph_1a97fc2f16fb343811c04efd09d4eb0e2f" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; PerGraphInfo &gt;</type>
+        <definition>std::vector&lt;PerGraphInfo&gt; EmbeddedStats::ParentGraph::subGraphs</definition>
+        <argsstring></argsstring>
+        <name>subGraphs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="310" column="13" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="310" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>EmbeddedStats::SnapshotInfos</label>
+      </node>
+      <node id="1">
+        <label>EmbeddedStats::ParentGraph</label>
+        <childnode refid="2" relation="usage">
+          <edgelabel>info</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>EmbeddedStats::PerGraphInfo</label>
+        <childnode refid="3" relation="usage">
+          <edgelabel>curr_run</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" line="304" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/vart_ml_utils/stats.h" bodystart="305" bodyend="311"/>
+    <listofallmembers>
+      <member refid="structEmbeddedStats_1_1ParentGraph_1a5fc6e495fa8760e519fac3643d595590" prot="public" virt="non-virtual"><scope>EmbeddedStats::ParentGraph</scope><name>info</name></member>
+      <member refid="structEmbeddedStats_1_1ParentGraph_1a3d17d78acc1f292a100a3e11929c3ca3" prot="public" virt="non-virtual"><scope>EmbeddedStats::ParentGraph</scope><name>nbNpuSubGraphs</name></member>
+      <member refid="structEmbeddedStats_1_1ParentGraph_1ae3a845d285f4a813c923ba22fc5c4cef" prot="public" virt="non-virtual"><scope>EmbeddedStats::ParentGraph</scope><name>nbOnnxSubGraphs</name></member>
+      <member refid="structEmbeddedStats_1_1ParentGraph_1a56034d2ba50637bf47812659e522385a" prot="public" virt="non-virtual"><scope>EmbeddedStats::ParentGraph</scope><name>networkName</name></member>
+      <member refid="structEmbeddedStats_1_1ParentGraph_1a97fc2f16fb343811c04efd09d4eb0e2f" prot="public" virt="non-virtual"><scope>EmbeddedStats::ParentGraph</scope><name>subGraphs</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

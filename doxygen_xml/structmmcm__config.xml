@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structmmcm__config" kind="struct" language="C++" prot="public">
+    <compoundname>mmcm_config</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structmmcm__config_1abe5d5b16c9370124c2cc55f9fc342fb7" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t mmcm_config::startConfig</definition>
+        <argsstring></argsstring>
+        <name>startConfig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/clocks.cpp" line="53" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/clocks.cpp" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structmmcm__config_1ab72b77af2f31686506a39484cc66a7dc" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t mmcm_config::isConfigValid</definition>
+        <argsstring></argsstring>
+        <name>isConfigValid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/clocks.cpp" line="54" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/clocks.cpp" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structmmcm__config_1a2e0f8347839efa34fcf69a6466e52b5f" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t mmcm_config::clkFbOut_mul</definition>
+        <argsstring></argsstring>
+        <name>clkFbOut_mul</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/clocks.cpp" line="56" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/clocks.cpp" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structmmcm__config_1ad33f315b7a0f10239f1110cc15187d90" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t mmcm_config::clkFbOut_mulFrac</definition>
+        <argsstring></argsstring>
+        <name>clkFbOut_mulFrac</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/clocks.cpp" line="57" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/clocks.cpp" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structmmcm__config_1ad5a777f79ac4c5465ee68411ecf672af" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t mmcm_config::clkFbOut_mulFracEna</definition>
+        <argsstring></argsstring>
+        <name>clkFbOut_mulFracEna</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/clocks.cpp" line="58" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/clocks.cpp" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structmmcm__config_1ae600849133630519524628b379a87df8" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t mmcm_config::divClk_divide</definition>
+        <argsstring></argsstring>
+        <name>divClk_divide</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/clocks.cpp" line="60" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/clocks.cpp" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structmmcm__config_1a4bf12f903fa4b12333f99111f9de5edd" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t mmcm_config::clkOut0_div</definition>
+        <argsstring></argsstring>
+        <name>clkOut0_div</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/clocks.cpp" line="62" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/clocks.cpp" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structmmcm__config_1a59b371d0676035627e76ae32c5e3c705" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t mmcm_config::clkOut0_divFrac</definition>
+        <argsstring></argsstring>
+        <name>clkOut0_divFrac</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/clocks.cpp" line="63" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/clocks.cpp" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structmmcm__config_1a8ee0c6f72bf3c578de8a6d00fb1b5103" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t mmcm_config::clkOut0_divFracEna</definition>
+        <argsstring></argsstring>
+        <name>clkOut0_divFracEna</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/clocks.cpp" line="64" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/clocks.cpp" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structmmcm__config_1aa9cad7fae93b929496f27a76c01cf878" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t mmcm_config::clk_ena</definition>
+        <argsstring></argsstring>
+        <name>clk_ena</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/clocks.cpp" line="66" column="10" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/clocks.cpp" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/clocks.cpp" line="51" column="1" bodyfile="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_ml/npu_c_api/clocks.cpp" bodystart="52" bodyend="67"/>
+    <listofallmembers>
+      <member refid="structmmcm__config_1aa9cad7fae93b929496f27a76c01cf878" prot="public" virt="non-virtual"><scope>mmcm_config</scope><name>clk_ena</name></member>
+      <member refid="structmmcm__config_1a2e0f8347839efa34fcf69a6466e52b5f" prot="public" virt="non-virtual"><scope>mmcm_config</scope><name>clkFbOut_mul</name></member>
+      <member refid="structmmcm__config_1ad33f315b7a0f10239f1110cc15187d90" prot="public" virt="non-virtual"><scope>mmcm_config</scope><name>clkFbOut_mulFrac</name></member>
+      <member refid="structmmcm__config_1ad5a777f79ac4c5465ee68411ecf672af" prot="public" virt="non-virtual"><scope>mmcm_config</scope><name>clkFbOut_mulFracEna</name></member>
+      <member refid="structmmcm__config_1a4bf12f903fa4b12333f99111f9de5edd" prot="public" virt="non-virtual"><scope>mmcm_config</scope><name>clkOut0_div</name></member>
+      <member refid="structmmcm__config_1a59b371d0676035627e76ae32c5e3c705" prot="public" virt="non-virtual"><scope>mmcm_config</scope><name>clkOut0_divFrac</name></member>
+      <member refid="structmmcm__config_1a8ee0c6f72bf3c578de8a6d00fb1b5103" prot="public" virt="non-virtual"><scope>mmcm_config</scope><name>clkOut0_divFracEna</name></member>
+      <member refid="structmmcm__config_1ae600849133630519524628b379a87df8" prot="public" virt="non-virtual"><scope>mmcm_config</scope><name>divClk_divide</name></member>
+      <member refid="structmmcm__config_1ab72b77af2f31686506a39484cc66a7dc" prot="public" virt="non-virtual"><scope>mmcm_config</scope><name>isConfigValid</name></member>
+      <member refid="structmmcm__config_1abe5d5b16c9370124c2cc55f9fc342fb7" prot="public" virt="non-virtual"><scope>mmcm_config</scope><name>startConfig</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_ac7bf5b8cd8d20fe94bb9c749b8a6ab3" kind="dir">
+    <compoundname>/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/inferresult</compoundname>
+    <innerfile refid="vart__inferres__impl__classification_8cpp">vart_inferres_impl_classification.cpp</innerfile>
+    <innerfile refid="vart__inferres__impl__classification_8hpp">vart_inferres_impl_classification.hpp</innerfile>
+    <innerfile refid="vart__inferres__impl__detection_8cpp">vart_inferres_impl_detection.cpp</innerfile>
+    <innerfile refid="vart__inferres__impl__detection_8hpp">vart_inferres_impl_detection.hpp</innerfile>
+    <innerfile refid="vart__inferres__impl__root_8cpp">vart_inferres_impl_root.cpp</innerfile>
+    <innerfile refid="vart__inferres__impl__root_8hpp">vart_inferres_impl_root.hpp</innerfile>
+    <innerfile refid="vart__inferresult_8cpp">vart_inferresult.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/group/bcapps/dachang/PSAS_HACKATHON/Vitis-AI/src/vart_x/inferresult/"/>
+  </compounddef>
+</doxygen>
