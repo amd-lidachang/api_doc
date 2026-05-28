@@ -1,10 +1,11 @@
-PROJECT_NAME           = "VART ML API Reference"
+PROJECT_NAME           = "VART API Reference"
 PROJECT_BRIEF          = "Vitis AI Runtime — AMD NPU Inference API"
 OUTPUT_DIRECTORY       = docs/doxygen
-INPUT                  = include/
+INPUT                  = include/ include/vart_x/
 RECURSIVE              = YES
 FILE_PATTERNS          = *.h *.hpp
-EXCLUDE_PATTERNS       = *_impl.hpp *private*
+EXCLUDE_PATTERNS       = *_impl.hpp *private* *_impl_base.hpp include/xrt/*
+INCLUDE_PATH           = include/
 EXTRACT_ALL            = YES
 EXTRACT_PRIVATE        = NO
 EXTRACT_STATIC         = YES

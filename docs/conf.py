@@ -1,7 +1,7 @@
 import os
 import sys
 
-project = "VART ML API Reference"
+project = "VART API Reference"
 author = "Advanced Micro Devices, Inc."
 release = "2025.1"
 copyright = "2025 Advanced Micro Devices, Inc."
@@ -27,7 +27,7 @@ except ImportError:
         "primary_sidebar_end": [],
     }
 
-# Breathe — integrates Doxygen XML into Sphinx
+# Breathe — integrates Doxygen XML into Sphinx (single project covers vart_ml + vart_x)
 breathe_projects = {"vart_ml": "../docs/doxygen/xml"}
 breathe_default_project = "vart_ml"
 breathe_domain_by_extension = {"hpp": "cpp", "h": "cpp"}
